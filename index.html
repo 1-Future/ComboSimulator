@@ -122,6 +122,17 @@
       pointer-events: auto;
       cursor: pointer;
     }
+    #lockButton {
+      position: absolute;
+      right: 8px;
+      top: 8px;
+      z-index: 10;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -130,6 +141,7 @@
     <div id="clickOverlay" style="z-index: 2;"></div>
     <div id="comboBar" style="z-index: 3;">
       <div id="currentMarker"></div>
+      <button id="lockButton">🔓</button>
     </div>
     <div class="controls">
       <button onclick="resizeApp(-1)">-</button>
@@ -137,7 +149,6 @@
       <button onclick="toggleFullScreen()">Fullscreen</button>
       <input type="file" id="fileInput">
       <button id="resetBtn">Assign Reset Key</button>
-      <button onclick="toggleEditMode()" id="editToggle">Edit Combo: ON</button>
       <button onclick="toggleLog()" id="toggleLogBtn">Hide Log</button>
       <button onclick="saveCombo()">Save JSON</button>
       <input type="file" id="loadComboInput" onchange="loadCombo()" style="display:none;">
@@ -152,26 +163,12 @@
 const video = document.getElementById('video');
 const fileInput = document.getElementById('fileInput');
 const comboBar = document.getElementById('comboBar');
-const editToggle = document.getElementById('editToggle');
 const resetBtn = document.getElementById('resetBtn');
 const feedback = document.getElementById('feedback');
 const comboLog = document.getElementById('comboLog');
+const lockButton = document.getElementById('lockButton');
+
 let currentMarker = document.getElementById('currentMarker');
-currentMarker.addEventListener('mousedown', () => {
-  isDragging = true;
-  document.body.style.userSelect = 'none';
-});
-document.addEventListener('mouseup', () => {
-  isDragging = false;
-  document.body.style.userSelect = '';
-});
-document.addEventListener('mousemove', (e) => {
-  if (isDragging && video.duration) {
-    const rect = comboBar.getBoundingClientRect();
-    const percent = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
-    video.currentTime = percent * video.duration;
-  }
-});
 let isDragging = false;
 let comboSteps = [];
 let editMode = true;
@@ -190,9 +187,11 @@ fileInput.addEventListener('change', () => {
 
 function toggleEditMode() {
   editMode = !editMode;
-  editToggle.textContent = `Edit Combo: ${editMode ? 'ON' : 'OFF'}`;
+  lockButton.textContent = editMode ? '🔓' : '🔒';
   renderMarkers();
 }
+
+lockButton.addEventListener('click', toggleEditMode);
 
 function renderMarkers() {
   comboBar.innerHTML = '';
@@ -209,9 +208,8 @@ function renderMarkers() {
   newMarker.style.backgroundColor = '#ff0';
   newMarker.style.cursor = 'ew-resize';
   comboBar.appendChild(newMarker);
+  comboBar.appendChild(lockButton);
   currentMarker = newMarker;
-  currentMarker = document.getElementById('currentMarker');
-  currentMarker.style.cursor = 'ew-resize';
   currentMarker.addEventListener('mousedown', () => {
     isDragging = true;
     document.body.style.userSelect = 'none';
@@ -275,6 +273,17 @@ resetBtn.addEventListener('click', e => {
   input.focus();
 });
 
+document.addEventListener('mouseup', () => {
+  isDragging = false;
+  document.body.style.userSelect = '';
+});
+document.addEventListener('mousemove', (e) => {
+  if (isDragging && video.duration) {
+    const rect = comboBar.getBoundingClientRect();
+    const percent = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+    video.currentTime = percent * video.duration;
+  }
+});
 document.addEventListener('keydown', e => {
   if (e.key === 'ArrowLeft') {
     e.preventDefault();
