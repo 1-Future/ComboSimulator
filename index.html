@@ -226,6 +226,13 @@ function renderMarkers() {
     label.style.left = (step.time / video.duration * 100) + '%';
     label.textContent = step.key;
     if (editMode) {
+      label.onclick = () => {
+        const newKey = prompt('Enter new key for this combo step:', step.key);
+        if (newKey) {
+          step.key = newKey.toUpperCase();
+          renderMarkers();
+        }
+      };
       label.oncontextmenu = (e) => {
         e.preventDefault();
         comboSteps.splice(index, 1);
