@@ -1,9 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Fancy Combo Trainer</title>
   <style>
+#statsBox {
+  position: fixed;
+  top: 80px;
+  left: 80px;
+  width: 220px;
+  background: #111;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 6px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+  z-index: 9999;
+  font-size: 13px;
+}
+#statsHeader {
+  background: #222;
+  padding: 6px 8px;
+  cursor: move;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#statsHeader span {
+  font-weight: bold;
+}
+#statsHeader button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+#statsContent {
+  padding: 8px;
+}
+#statsContent p {
+  margin: 6px 0;
+}
+
+.label-excellent { outline: 2px solid cyan; }
+.label-great     { outline: 2px solid lime; }
+.label-good      { outline: 2px solid gold; }
+.label-miss      { outline: 2px solid red; }
+
+
     body {
       background-color: #121212;
       color: #fff;
@@ -16,6 +60,7 @@
       padding: 10px;
     }
     #container {
+      
       width: 800px;
       background-color: #222;
       border-radius: 12px;
@@ -23,6 +68,7 @@
       overflow: hidden;
       display: flex;
       flex-direction: column;
+      
     }
     #video {
       width: 100%;
@@ -33,7 +79,8 @@
     #comboBar {
       position: relative;
       height: 48px;
-      background-color: #444;
+      background-color: rgba(68, 68, 68, 0.3); /* 30% opacity */
+      border: 1px solid #020f1f;
       cursor: pointer;
       overflow: hidden;
       padding: 0 12px;
@@ -122,27 +169,83 @@
       pointer-events: auto;
       cursor: pointer;
     }
-    #lockButton {
-      position: absolute;
-      right: 8px;
-      top: 8px;
-      z-index: 10;
-      background: none;
-      border: none;
-      color: white;
-      font-size: 20px;
-      cursor: pointer;
-    }
+
+    .combo-line { margin-bottom: 2px; font-weight: bold; }
+    .combo-excellent { color: cyan; text-shadow: 0 0 4px cyan; }
+    .combo-great { color: lime; text-shadow: 0 0 3px lime; }
+    .combo-good { color: gold; text-shadow: 0 0 3px gold; }
+    .combo-miss { color: red; text-shadow: 0 0 3px red; }
+
+    #floatingBar {
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  width: 800px;
+  z-index: 1000;
+  display: none;
+}
+.combo-controls {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 24px);
+  grid-template-rows: repeat(2, 24px);
+  gap: 4px;
+}
+.combo-controls button {
+  background: #333;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  line-height: 1;
+}
+.combo-buttons {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  z-index: 10;
+}
+.combo-buttons button {
+  background: #333;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
   </style>
 </head>
 <body>
   <div id="container">
     <video id="video" controls autoplay muted playsinline></video>
     <div id="clickOverlay" style="z-index: 2;"></div>
-    <div id="comboBar" style="z-index: 3;">
-      <div id="currentMarker"></div>
-      <button id="lockButton">🔓</button>
-    </div>
+    <div id="floatingBar"></div>
+<div id="comboBar" style="z-index: 3;">
+  <div id="currentMarker"></div>
+<div class="combo-buttons">
+  <button id="positionToggle">⬆️</button>
+  <button id="popoutToggle">⧉</button>
+  <button id="lockButton">🔓</button>
+</div>
+
+</div>
+
     <div class="controls">
       <button onclick="resizeApp(-1)">-</button>
       <button onclick="resizeApp(1)">+</button>
@@ -157,6 +260,19 @@
     </div>
     <div class="grade-feedback" id="feedback"></div>
     <div id="comboLog"></div>
+    <div id="statsBox">
+  <div id="statsHeader">
+    <span>Combo Stats</span>
+    <button id="minimizeStats">_</button>
+  </div>
+  <div id="statsContent">
+    <p><strong>Accuracy:</strong> <span id="accuracy">0%</span></p>
+    <p><strong>Streak:</strong> <span id="streak">0</span></p>
+    <p><strong>Successful Combos:</strong> <span id="successCount">0</span></p>
+    <p><strong>Total Combos:</strong> <span id="totalCount">0</span></p>
+  </div>
+</div>
+
   </div>
 
 <script>
@@ -190,37 +306,34 @@ function toggleEditMode() {
   lockButton.textContent = editMode ? '🔓' : '🔒';
   renderMarkers();
 }
-
 lockButton.addEventListener('click', toggleEditMode);
 
 function renderMarkers() {
-  comboBar.innerHTML = '';
-  comboBar.onclick = (e) => {
-    const rect = comboBar.getBoundingClientRect();
-    const percent = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
-    video.currentTime = percent * video.duration;
-  };
-  const newMarker = document.createElement('div');
-  newMarker.id = 'currentMarker';
-  newMarker.style.position = 'absolute';
-  newMarker.style.height = '100%';
-  newMarker.style.width = '2px';
-  newMarker.style.backgroundColor = '#ff0';
-  newMarker.style.cursor = 'ew-resize';
-  comboBar.appendChild(newMarker);
-  comboBar.appendChild(lockButton);
-  currentMarker = newMarker;
-  currentMarker.addEventListener('mousedown', () => {
-    isDragging = true;
-    document.body.style.userSelect = 'none';
-  });
+  const buttonGroup = document.querySelector('.combo-buttons');
+comboBar.innerHTML = '';
+comboBar.appendChild(currentMarker);
+if (buttonGroup) comboBar.appendChild(buttonGroup);
+
 
   comboSteps.forEach((step, index) => {
     const marker = document.createElement('div');
-    marker.classList.add('comboMarker');
+marker.classList.add('comboMarker');
+marker.style.left = (step.time / video.duration * 100) + '%';
+
+if (step.grade === 'Miss') {
+  marker.style.backgroundColor = '#f00';
+} else if (step.grade) {
+  marker.style.backgroundColor = '#0f0';
+}
+
+
     marker.style.left = (step.time / video.duration * 100) + '%';
     const label = document.createElement('div');
     label.className = 'comboLabel';
+    if (step.grade) {
+      label.classList.add(`label-${step.grade.toLowerCase()}`);
+    }
+
     label.style.left = (step.time / video.duration * 100) + '%';
     label.textContent = step.key;
     if (editMode) {
@@ -295,18 +408,22 @@ document.addEventListener('keydown', e => {
     video.currentTime = Math.min(video.duration, video.currentTime + 1 / 30);
     return;
   }
+
   const key = e.key.toLowerCase();
   if (resetKey && key === resetKey) {
     video.pause();
     currentStep = 0;
     comboStartTime = null;
     feedback.innerText = 'Combo reset.';
-    comboLog.innerText = '';
+    comboLog.innerHTML = '';
+    comboSteps.forEach(s => delete s.grade);
+    renderMarkers();
     if (comboSteps.length) {
       video.currentTime = comboSteps[0].time;
-    }
-    return;
   }
+  return;
+}
+
 
   const upperKey = e.key.toUpperCase();
   if (editMode && video.duration) {
@@ -327,14 +444,34 @@ document.addEventListener('keydown', e => {
     const expected = (comboSteps[currentStep].time - comboSteps[0].time) * 1000;
     const actual = now - comboStartTime;
     const offset = actual - expected;
-    const grade = Math.abs(offset) <= 50 ? 'Perfect' : Math.abs(offset) <= 150 ? 'Good' : 'Miss';
-    const log = `Step ${currentStep + 1}: ${comboSteps[currentStep].key} → ${grade} (${offset.toFixed(0)}ms)`;
-    feedback.innerText = log;
-    comboLog.innerText += log + '\n';
+
+    let grade = 'Miss', cssClass = 'combo-miss';
+    if (Math.abs(offset) <= 10) {
+      grade = 'Excellent'; cssClass = 'combo-excellent';
+    } else if (Math.abs(offset) <= 35) {
+      grade = 'Great'; cssClass = 'combo-great';
+    } else if (Math.abs(offset) <= 65) {
+      grade = 'Good'; cssClass = 'combo-good';
+    }
+
+    const logLine = document.createElement('div');
+    logLine.className = `combo-line ${cssClass}`;
+    logLine.textContent = `Step ${currentStep + 1}: ${comboSteps[currentStep].key} → ${grade} (${offset.toFixed(0)}ms)`;
+
+    comboSteps[currentStep].grade = grade;
+    comboLog.appendChild(logLine);
+    feedback.innerText = logLine.textContent;
+    renderMarkers();
+
     currentStep++;
+
     if (currentStep >= comboSteps.length) {
+      const done = document.createElement('div');
+      done.className = 'combo-line combo-good';
+      done.textContent = 'Combo Completed!';
+      comboLog.appendChild(done);
       feedback.innerText += ' - Combo Completed!';
-      comboLog.innerText += 'Combo Completed!\n';
+      evaluateComboSuccess();
     }
   }
 });
@@ -354,7 +491,6 @@ function resizeApp(direction) {
   const width = container.offsetWidth + step * direction;
   container.style.width = `${width}px`;
 }
-
 function toggleFullScreen() {
   const container = document.getElementById('container');
   if (!document.fullscreenElement) {
@@ -363,13 +499,11 @@ function toggleFullScreen() {
     document.exitFullscreen();
   }
 }
-
 function toggleLog() {
   const isHidden = comboLog.style.display === 'none';
   comboLog.style.display = isHidden ? 'block' : 'none';
   document.getElementById('toggleLogBtn').textContent = isHidden ? 'Hide Log' : 'Show Log';
 }
-
 function saveCombo() {
   const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(comboSteps, null, 2));
   const dlAnchor = document.createElement('a');
@@ -377,12 +511,10 @@ function saveCombo() {
   dlAnchor.setAttribute("download", "combo.json");
   dlAnchor.click();
 }
-
 function loadCombo() {
   const input = document.getElementById('loadComboInput');
   const file = input.files[0];
   if (!file) return;
-
   const reader = new FileReader();
   reader.onload = (e) => {
     try {
@@ -399,15 +531,123 @@ function loadCombo() {
   };
   reader.readAsText(file);
 }
-
 function clearCombo() {
   comboSteps = [];
   renderMarkers();
   feedback.innerText = '';
-  comboLog.innerText = '';
+  comboLog.innerHTML = '';
   currentStep = 0;
   comboStartTime = null;
 }
+let isTop = false;
+let isFloating = false;
+const positionToggle = document.getElementById('positionToggle');
+const popoutToggle = document.getElementById('popoutToggle');
+const floatingBar = document.getElementById('floatingBar');
+
+// Move comboBar above or below video
+positionToggle.addEventListener('click', () => {
+  if (isFloating) return;
+  isTop = !isTop;
+  comboBar.remove();
+  if (isTop) {
+    positionToggle.textContent = '⬇️';
+    container.insertBefore(comboBar, video);
+  } else {
+    positionToggle.textContent = '⬆️';
+    container.insertBefore(comboBar, container.children[2]);
+  }
+});
+
+// Popout or anchor comboBar
+popoutToggle.addEventListener('click', () => {
+  if (!isFloating) {
+    floatingBar.style.display = 'block';
+    floatingBar.appendChild(comboBar);
+    popoutToggle.textContent = '📌';
+    isFloating = true;
+    makeDraggable(floatingBar);
+  } else {
+    floatingBar.style.display = 'none';
+    comboBar.remove();
+    if (isTop) {
+      container.insertBefore(comboBar, video);
+    } else {
+      container.insertBefore(comboBar, container.children[2]);
+    }
+    popoutToggle.textContent = '⧉';
+    isFloating = false;
+  }
+});
+
+// Make element draggable
+function makeDraggable(el) {
+  let offsetX = 0, offsetY = 0;
+  el.onmousedown = function (e) {
+    offsetX = e.clientX - el.offsetLeft;
+    offsetY = e.clientY - el.offsetTop;
+    document.onmousemove = function (e) {
+      el.style.left = (e.clientX - offsetX) + "px";
+      el.style.top = (e.clientY - offsetY) + "px";
+    };
+    document.onmouseup = function () {
+      document.onmousemove = document.onmouseup = null;
+    };
+  };
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  const accuracyEl = document.getElementById('accuracy');
+  const streakEl = document.getElementById('streak');
+  const successEl = document.getElementById('successCount');
+  const totalEl = document.getElementById('totalCount');
+
+  let successCount = 0;
+  let totalCount = 0;
+  let streak = 0;
+
+  window.evaluateComboSuccess = function() {
+    const allHit = comboSteps.every(s => s.grade && s.grade !== 'Miss');
+    totalCount++;
+    if (allHit) {
+      successCount++;
+      streak++;
+    } else {
+      streak = 0;
+    }
+
+    const ratio = (successCount / totalCount) * 100;
+    accuracyEl.textContent = `${ratio.toFixed(1)}%`;
+    streakEl.textContent = streak;
+    successEl.textContent = successCount;
+    totalEl.textContent = totalCount;
+  };
+
+  const statsBox = document.getElementById('statsBox');
+  const statsHeader = document.getElementById('statsHeader');
+  const minimizeBtn = document.getElementById('minimizeStats');
+  const statsContent = document.getElementById('statsContent');
+
+  let dragOffsetX, dragOffsetY;
+  statsHeader.onmousedown = function(e) {
+    dragOffsetX = e.clientX - statsBox.offsetLeft;
+    dragOffsetY = e.clientY - statsBox.offsetTop;
+    document.onmousemove = function(e) {
+      statsBox.style.left = (e.clientX - dragOffsetX) + "px";
+      statsBox.style.top = (e.clientY - dragOffsetY) + "px";
+    };
+    document.onmouseup = function() {
+      document.onmousemove = null;
+      document.onmouseup = null;
+    };
+  };
+
+  minimizeBtn.onclick = function() {
+    statsContent.style.display = statsContent.style.display === 'none' ? 'block' : 'none';
+  };
+});
+
+
 </script>
 </body>
 </html>
