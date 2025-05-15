@@ -598,20 +598,27 @@ function makeDraggable(el) {
 
 window.addEventListener('DOMContentLoaded', () => {
 // Auto-load video.mp4 and combo.json from root
-video.src = 'video.mp4';
-video.load();
+fileInput.addEventListener('change', () => {
+  const file = fileInput.files[0];
+  if (file) {
+    const url = URL.createObjectURL(file);
+    video.src = url;
+    video.load();
 
-video.addEventListener('loadedmetadata', () => {
-  fetch('combo.json')
-    .then(res => res.json())
-    .then(data => {
-      if (Array.isArray(data)) {
-        comboSteps = data;
-        renderMarkers();
-      }
-    })
-    .catch(err => console.warn('No default combo.json found:', err));
+    video.addEventListener('loadedmetadata', () => {
+      fetch('combo.json')
+        .then(res => res.json())
+        .then(data => {
+          if (Array.isArray(data)) {
+            comboSteps = data;
+            renderMarkers();
+          }
+        })
+        .catch(err => console.warn('No combo.json loaded:', err));
+    }, { once: true }); // prevents duplicate loading
+  }
 });
+
 
 
   
