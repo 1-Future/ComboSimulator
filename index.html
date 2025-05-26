@@ -523,13 +523,14 @@ document.addEventListener('keydown', e => {
     // 🌟 Add styled comboLog line
     const logLine = document.createElement('div');
     logLine.textContent = `Step ${currentStep + 1}: ${comboSteps[currentStep].key} → ${grade} (${offset.toFixed(0)}ms)`;
-    logLine.className = `combo-line ${cssClass}`;  // This applies the color classes
+    logLine.className = `combo-line ${cssClass}`;
     comboLog.appendChild(logLine);
 
-    // Assign grade to step and render markers
-    comboSteps[currentStep].grade = grade;
-    feedback.innerText = logLine.textContent;
+    // 🎨 Color the main feedback line
+    feedback.textContent = logLine.textContent;
+    feedback.className = cssClass;  // This dynamically adds the color class!
     renderMarkers();
+
 
     currentStep++;
     if (currentStep >= comboSteps.length) {
