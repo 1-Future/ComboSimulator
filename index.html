@@ -336,7 +336,7 @@ document.getElementById('videoSelector').addEventListener('change', function() {
   video.src = videoFile;
   video.load();
   
-  // Reset state to match "Reset Combo" button
+  // Reset state immediately
   currentStep = 0;
   comboStartTime = null;
   lastPlayedStep = -1;
@@ -344,20 +344,25 @@ document.getElementById('videoSelector').addEventListener('change', function() {
   comboLog.innerHTML = '';
   comboSteps.forEach(s => delete s.grade);
 
-  fetch(jsonFile)
-    .then(res => res.json())
-    .then(data => {
-      if (Array.isArray(data)) {
-        comboSteps = data;
-        renderMarkers();
-        if (comboSteps.length) {
-          video.currentTime = Math.max(0, comboSteps[0].time - 0.01);
-        } else {
-          video.currentTime = 0;
+  // Wait for video metadata before loading combo JSON
+  video.addEventListener('loadedmetadata', function onLoad() {
+    video.removeEventListener('loadedmetadata', onLoad); // Avoid multiple triggers
+
+    fetch(jsonFile)
+      .then(res => res.json())
+      .then(data => {
+        if (Array.isArray(data)) {
+          comboSteps = data;
+          renderMarkers();
+          if (comboSteps.length) {
+            video.currentTime = Math.max(0, comboSteps[0].time - 0.01);
+          } else {
+            video.currentTime = 0;
+          }
         }
-      }
-    })
-    .catch(err => console.warn(`Could not load combo JSON: ${jsonFile}`, err));
+      })
+      .catch(err => console.warn(`Could not load combo JSON: ${jsonFile}`, err));
+  });
 });
 
 
