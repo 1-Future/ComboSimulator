@@ -255,7 +255,7 @@
       <button id="resetBtn">Assign Reset Key</button>
       <button onclick="toggleLog()" id="toggleLogBtn">Hide Log</button>
       <button onclick="saveCombo()">Save JSON</button>
-      <input type="file" id="loadComboInput" style="display:none;" onchange="loadCombo()">
+      <input type="file" id="loadComboInput" style="display:none;" >
       <button onclick="document.getElementById('loadComboInput').click()">Load JSON</button>
       <button onclick="clearCombo()">Clear JSON</button>
     </div>
@@ -292,7 +292,6 @@ let resetKey = null;
 let comboStartTime = null;
 let currentStep = 0;
 let lastPlayedStep = -1;
-let pingEnabled = true;
 
 // 🔈 Setup Ping Variables and Button
 let pingEnabled = false; // Start off
