@@ -486,28 +486,41 @@ document.addEventListener('keydown', e => {
 
   if (!editMode && comboSteps[currentStep] && upperKey === comboSteps[currentStep].key) {
     const now = performance.now();
-    if (!comboStartTime) { comboStartTime = now; video.currentTime = comboSteps[0].time; video.play(); }
+    if (!comboStartTime) { 
+      comboStartTime = now; 
+      video.currentTime = comboSteps[0].time; 
+      video.play(); 
+    }
     const expected = (comboSteps[currentStep].time - comboSteps[0].time) * 1000;
     const offset = now - comboStartTime - expected;
+    
     let grade = 'Miss', cssClass = 'combo-miss';
-    if (Math.abs(offset) <= 10) { grade = 'Perfect'; cssClass = 'combo-perfect';  }
+    if (Math.abs(offset) <= 10) { grade = 'Perfect'; cssClass = 'combo-perfect'; }
     else if (Math.abs(offset) <= 35) { grade = 'Great'; cssClass = 'combo-great'; }
     else if (Math.abs(offset) <= 65) { grade = 'Good'; cssClass = 'combo-good'; }
+
+    // 🌟 Add styled comboLog line
     const logLine = document.createElement('div');
-    logLine.className = `combo-line ${cssClass}`;
     logLine.textContent = `Step ${currentStep + 1}: ${comboSteps[currentStep].key} → ${grade} (${offset.toFixed(0)}ms)`;
-    comboSteps[currentStep].grade = grade; comboLog.appendChild(logLine);
-    feedback.innerText = logLine.textContent; renderMarkers();
+    logLine.className = `combo-line ${cssClass}`;  // This applies the color classes
+    comboLog.appendChild(logLine);
+
+    // Assign grade to step and render markers
+    comboSteps[currentStep].grade = grade;
+    feedback.innerText = logLine.textContent;
+    renderMarkers();
+
     currentStep++;
     if (currentStep >= comboSteps.length) {
       const done = document.createElement('div');
-      done.className = 'combo-line combo-good';
       done.textContent = 'Combo Completed!';
+      done.className = 'combo-line combo-good';  // You can make a "combo-complete" class if you want a different style
       comboLog.appendChild(done);
       feedback.innerText += ' - Combo Completed!';
       evaluateComboSuccess();
     }
-  }
+}
+
 });
 
 function updateMarker() {
