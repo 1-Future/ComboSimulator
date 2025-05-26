@@ -117,6 +117,7 @@ body {
   width: 100%;
 }
 
+
 button, input[type=file] {
   background-color: #0086cd;
   border: none;
@@ -295,14 +296,22 @@ button:hover {
     </div>
 
     <div class="controls">
-      <input type="file" id="fileInput">
-      <button id="resetBtn">Assign Reset Key</button>
-      <button onclick="toggleLog()" id="toggleLogBtn">Hide Log</button>
-      <button onclick="saveCombo()">Save JSON</button>
-      <input type="file" id="loadComboInput" style="display:none;" >
-      <button onclick="document.getElementById('loadComboInput').click()">Load JSON</button>
-      <button onclick="clearCombo()">Clear JSON</button>
-    </div>
+  <label for="videoSelector" style="margin-right: 10px;">Choose Video:</label>
+  <select id="videoSelector">
+    <option value="video1.mp4|combo1.json">Video 1</option>
+    <option value="video2.mp4|combo2.json">Video 2</option>
+    <option value="video3.mp4|combo3.json">Video 3</option>
+  </select>
+
+  <input type="file" id="fileInput">
+  <button id="resetBtn">Assign Reset Key</button>
+  <button onclick="toggleLog()" id="toggleLogBtn">Hide Log</button>
+  <button onclick="saveCombo()">Save JSON</button>
+  <input type="file" id="loadComboInput" style="display:none;" >
+  <button onclick="document.getElementById('loadComboInput').click()">Load JSON</button>
+  <button onclick="clearCombo()">Clear JSON</button>
+</div>
+
     <div class="grade-feedback" id="feedback"></div>
     <div id="comboLog"></div>
     <div id="statsBox">
@@ -321,6 +330,22 @@ button:hover {
 
 <script>
 document.getElementById('loadComboInput').addEventListener('change', loadCombo);
+
+document.getElementById('videoSelector').addEventListener('change', function() {
+  const [videoFile, jsonFile] = this.value.split('|');
+  video.src = videoFile;
+  video.load();
+  fetch(jsonFile)
+    .then(res => res.json())
+    .then(data => {
+      if (Array.isArray(data)) {
+        comboSteps = data;
+        renderMarkers();
+      }
+    })
+    .catch(err => console.warn(`Could not load combo JSON: ${jsonFile}`, err));
+});
+
 
 const perfectAudio = new Audio('perfect.mp3');
 const video = document.getElementById('video');
