@@ -386,11 +386,11 @@ togglePingBtn.addEventListener('click', () => {
 
 
 
-video.src = 'video.mp4';
+video.src = 'keybladevideo.mp4';
 video.load();
 video.addEventListener('loadedmetadata', () => {
   video.pause();  // Now it pauses after metadata is ready
-  fetch('combo.json')
+  fetch('keybladecombo.json')
     .then(res => res.json())
     .then(data => {
       if (Array.isArray(data)) {
@@ -572,6 +572,25 @@ document.addEventListener('keydown', e => {
 
 });
 
+function saveCombo() {
+  if (!comboSteps || comboSteps.length === 0) {
+    alert("No combo steps to save.");
+    return;
+  }
+  const data = JSON.stringify(comboSteps, null, 2);
+  const blob = new Blob([data], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'combo.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+
 function updateMarker() {
   if (video.duration && currentMarker && !isDragging) {
     const percent = video.currentTime / video.duration;
@@ -690,7 +709,7 @@ infoButton.addEventListener('click', () => {
   instructionPopup.style.display = 'block';
 });
 
-// Auto-load video.mp4 and combo.json from root
+// Auto-load keybladevideo.mp4 and combo.json from root
 fileInput.addEventListener('change', () => {
   const file = fileInput.files[0];
   if (file) {
@@ -699,7 +718,7 @@ fileInput.addEventListener('change', () => {
     video.load();
 
     video.addEventListener('loadedmetadata', () => {
-      fetch('combo.json')
+      fetch('keybladecombo.json')
         .then(res => res.json())
         .then(data => {
           if (Array.isArray(data)) {
@@ -707,7 +726,7 @@ fileInput.addEventListener('change', () => {
             renderMarkers();
           }
         })
-        .catch(err => console.warn('No combo.json loaded:', err));
+        .catch(err => console.warn('No keybladecombo.json loaded:', err));
     }, { once: true }); // prevents duplicate loading
   }
 });
