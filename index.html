@@ -434,7 +434,7 @@ document.addEventListener('keydown', e => {
     const expected = (comboSteps[currentStep].time - comboSteps[0].time) * 1000;
     const offset = now - comboStartTime - expected;
     let grade = 'Miss', cssClass = 'combo-miss';
-    if (Math.abs(offset) <= 10) { grade = 'Perfect'; cssClass = 'combo-perfect'; perfectAudio.play().catch(() => {});  }
+    if (Math.abs(offset) <= 10) { grade = 'Perfect'; cssClass = 'combo-perfect';  }
     else if (Math.abs(offset) <= 35) { grade = 'Great'; cssClass = 'combo-great'; }
     else if (Math.abs(offset) <= 65) { grade = 'Good'; cssClass = 'combo-good'; }
     const logLine = document.createElement('div');
