@@ -49,12 +49,13 @@
 
 
     body {
-  background-image: url('background.jpg'); /* Replace with your image path */
+ body {
+  background-image: url('background.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed; /* Optional */
-  color: #fff;
+  background-attachment: fixed;
+  color: #FFFFFF;
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
@@ -62,6 +63,87 @@
   height: 100vh;
   margin: 0;
   padding: 10px;
+  background-color: #1A1A2E; /* Dark navy fallback */
+}
+
+#container {
+  width: 800px;
+  background-color: #1A1A2E;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #0D1B2A;
+  display: block;
+}
+
+#comboBar {
+  background-color: rgba(0, 174, 239, 0.3); /* Semi-transparent electric blue */
+  border: 1px solid #00AEEF;
+}
+
+.combo-perfect { color: #F4D35E; text-shadow: 0 0 4px #F4D35E; }
+.combo-great { color: #00CFFF; text-shadow: 0 0 3px #00CFFF; }
+.combo-good { color: #A0E7E5; text-shadow: 0 0 3px #A0E7E5; }
+.combo-miss { color: #FF6F61; text-shadow: 0 0 3px #FF6F61; }
+
+button, input[type=file] {
+  background-color: #00AEEF;
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00CFFF;
+}
+
+#statsBox {
+  background-color: #1A1A2E;
+  color: #FFFFFF;
+  border: 1px solid #00AEEF;
+}
+
+.controls {
+  background: #1A1A2E;
+}
+
+.comboMarker {
+  background-color: #00AEEF;
+}
+
+.comboLabel {
+  background-color: #1A1A2E;
+  border: 1px solid #00CFFF;
+  color: #FFFFFF;
+}
+
+#comboLog {
+  background: #1A1A2E;
+  border: 1px solid #00AEEF;
+  color: #FFFFFF;
+}
+
+#floatingBar {
+  background-color: #1A1A2E;
+}
+
+#infoButton {
+  background-color: #00AEEF;
+}
+
+#infoButton:hover {
+  background-color: #00CFFF;
+}
+
 }
 
     #container {
