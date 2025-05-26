@@ -233,7 +233,11 @@
 </head>
 <body>
   <div id="container">
-    <img src="combo_logo.png" style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); width: 200px; z-index: 10000;" alt="Combo Simulator Logo">
+    <img src="logo.png" alt="Combo Simulator Logo" style="
+  display: block;
+  margin: 0 auto 10px auto;  /* Centers the logo and adds spacing below */
+  max-width: 300px;           /* Adjust the size as needed */
+">
     <video id="video" controls></video>
     <div id="clickOverlay" style="z-index: 2;"></div>
     <div id="floatingBar"></div>
