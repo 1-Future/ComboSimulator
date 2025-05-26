@@ -292,6 +292,10 @@ let currentStep = 0;
 let lastPlayedStep = -1;
 let pingEnabled = true;
 const pingAudio = new Audio('ping.wav');
+document.addEventListener('click', () => {
+  pingAudio.play().catch(e => {}); // tries to play to unlock audio
+  pingAudio.pause();               // pauses immediately to prevent sound
+});
 
 video.src = 'video.mp4';
 video.load();
