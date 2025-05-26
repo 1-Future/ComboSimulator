@@ -229,22 +229,21 @@
   padding: 0;
 }
 
-  </style>
+</style>
 </head>
 <body>
   <div id="container">
     <video id="video" controls autoplay muted playsinline></video>
     <div id="clickOverlay" style="z-index: 2;"></div>
     <div id="floatingBar"></div>
-<div id="comboBar" style="z-index: 3;">
-  <div id="currentMarker"></div>
-<div class="combo-buttons">
-  <button id="positionToggle">⬆️</button>
-  <button id="popoutToggle">⧉</button>
-  <button id="lockButton">🔓</button>
-</div>
-
-</div>
+    <div id="comboBar" style="z-index: 3;">
+      <div id="currentMarker"></div>
+      <div class="combo-buttons">
+        <button id="positionToggle">⬆️</button>
+        <button id="popoutToggle">⧉</button>
+        <button id="lockButton">🔓</button>
+      </div>
+    </div>
 
     <div class="controls">
       <button onclick="resizeApp(-1)">-</button>
@@ -254,25 +253,24 @@
       <button id="resetBtn">Assign Reset Key</button>
       <button onclick="toggleLog()" id="toggleLogBtn">Hide Log</button>
       <button onclick="saveCombo()">Save JSON</button>
-      <input type="file" id="loadComboInput" onchange="loadCombo()" style="display:none;">
+      <input type="file" id="loadComboInput" style="display:none;" onchange="loadCombo()">
       <button onclick="document.getElementById('loadComboInput').click()">Load JSON</button>
       <button onclick="clearCombo()">Clear JSON</button>
     </div>
     <div class="grade-feedback" id="feedback"></div>
     <div id="comboLog"></div>
     <div id="statsBox">
-  <div id="statsHeader">
-    <span>Combo Stats</span>
-    <button id="minimizeStats">_</button>
-  </div>
-  <div id="statsContent">
-    <p><strong>Accuracy:</strong> <span id="accuracy">0%</span></p>
-    <p><strong>Streak:</strong> <span id="streak">0</span></p>
-    <p><strong>Successful Combos:</strong> <span id="successCount">0</span></p>
-    <p><strong>Total Combos:</strong> <span id="totalCount">0</span></p>
-  </div>
-</div>
-
+      <div id="statsHeader">
+        <span>Combo Stats</span>
+        <button id="minimizeStats">_</button>
+      </div>
+      <div id="statsContent">
+        <p><strong>Accuracy:</strong> <span id="accuracy">0%</span></p>
+        <p><strong>Streak:</strong> <span id="streak">0</span></p>
+        <p><strong>Successful Combos:</strong> <span id="successCount">0</span></p>
+        <p><strong>Total Combos:</strong> <span id="totalCount">0</span></p>
+      </div>
+    </div>
   </div>
 
 <script>
@@ -291,8 +289,10 @@ let editMode = true;
 let resetKey = null;
 let comboStartTime = null;
 let currentStep = 0;
+let lastPlayedStep = -1;
+let pingEnabled = true;
+const pingAudio = new Audio('ping.wav');
 
-// Automatically load default video and combo
 video.src = 'video.mp4';
 video.load();
 
@@ -308,49 +308,32 @@ video.addEventListener('loadedmetadata', () => {
     .catch(err => console.warn('No combo.json loaded:', err));
 }, { once: true });
 
-
-function toggleEditMode() {
+lockButton.addEventListener('click', () => {
   editMode = !editMode;
   lockButton.textContent = editMode ? '🔓' : '🔒';
   renderMarkers();
-}
-lockButton.addEventListener('click', toggleEditMode);
+});
 
 function renderMarkers() {
   const buttonGroup = document.querySelector('.combo-buttons');
-comboBar.innerHTML = '';
-comboBar.appendChild(currentMarker);
-if (buttonGroup) comboBar.appendChild(buttonGroup);
-
-
+  comboBar.innerHTML = '';
+  comboBar.appendChild(currentMarker);
+  if (buttonGroup) comboBar.appendChild(buttonGroup);
   comboSteps.forEach((step, index) => {
     const marker = document.createElement('div');
-marker.classList.add('comboMarker');
-marker.style.left = (step.time / video.duration * 100) + '%';
-
-if (step.grade === 'Miss') {
-  marker.style.backgroundColor = '#f00';
-} else if (step.grade) {
-  marker.style.backgroundColor = '#0f0';
-}
-
-
+    marker.classList.add('comboMarker');
     marker.style.left = (step.time / video.duration * 100) + '%';
+    if (step.grade === 'Miss') marker.style.backgroundColor = '#f00';
+    else if (step.grade) marker.style.backgroundColor = '#0f0';
     const label = document.createElement('div');
     label.className = 'comboLabel';
-    if (step.grade) {
-      label.classList.add(`label-${step.grade.toLowerCase()}`);
-    }
-
+    if (step.grade) label.classList.add(`label-${step.grade.toLowerCase()}`);
     label.style.left = (step.time / video.duration * 100) + '%';
     label.textContent = step.key;
     if (editMode) {
       label.onclick = () => {
         const newKey = prompt('Enter new key for this combo step:', step.key);
-        if (newKey) {
-          step.key = newKey.toUpperCase();
-          renderMarkers();
-        }
+        if (newKey) { step.key = newKey.toUpperCase(); renderMarkers(); }
       };
       label.oncontextmenu = (e) => {
         e.preventDefault();
@@ -364,7 +347,7 @@ if (step.grade === 'Miss') {
 }
 
 resetBtn.addEventListener('click', e => {
-  if (editMode) toggleEditMode();
+  if (editMode) lockButton.click();
   const label = document.createElement('label');
   label.textContent = 'Assign Reset Key:';
   const input = document.createElement('input');
@@ -394,86 +377,43 @@ resetBtn.addEventListener('click', e => {
   input.focus();
 });
 
-document.addEventListener('mouseup', () => {
-  isDragging = false;
-  document.body.style.userSelect = '';
-});
-document.addEventListener('mousemove', (e) => {
-  if (isDragging && video.duration) {
-    const rect = comboBar.getBoundingClientRect();
-    const percent = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
-    video.currentTime = percent * video.duration;
-  }
-});
 document.addEventListener('keydown', e => {
-  if (e.key === 'ArrowLeft') {
-    e.preventDefault();
-    video.currentTime = Math.max(0, video.currentTime - 1 / 30);
-    return;
-  }
-  if (e.key === 'ArrowRight') {
-    e.preventDefault();
-    video.currentTime = Math.min(video.duration, video.currentTime + 1 / 30);
-    return;
-  }
+  if (e.key === 'ArrowLeft') { e.preventDefault(); video.currentTime = Math.max(0, video.currentTime - 1/30); return; }
+  if (e.key === 'ArrowRight') { e.preventDefault(); video.currentTime = Math.min(video.duration, video.currentTime + 1/30); return; }
 
   const key = e.key.toLowerCase();
-
   if (resetKey && key === resetKey) {
-    video.pause();
-    currentStep = 0;
-    comboStartTime = null;
-    feedback.innerText = 'Combo reset.';
-    comboLog.innerHTML = '';
-    comboSteps.forEach(s => delete s.grade);
-    renderMarkers();
-    if (comboSteps.length) {
-      video.currentTime = comboSteps[0].time;
-    }
+    video.pause(); currentStep = 0; comboStartTime = null;
+    feedback.innerText = 'Combo reset.'; comboLog.innerHTML = '';
+    comboSteps.forEach(s => delete s.grade); renderMarkers();
+    pingEnabled = false;
+    if (comboSteps.length) video.currentTime = Math.max(0, comboSteps[0].time - 0.01);
+    setTimeout(() => { pingEnabled = true; }, 100);
     return;
   }
 
   const upperKey = e.key.toUpperCase();
-
   if (editMode && video.duration && upperKey.length === 1) {
-    const time = video.currentTime;
-    comboSteps.push({ key: upperKey, time });
+    comboSteps.push({ key: upperKey, time: video.currentTime });
     comboSteps.sort((a, b) => a.time - b.time);
-    renderMarkers();
-    return;
+    renderMarkers(); return;
   }
 
   if (!editMode && comboSteps[currentStep] && upperKey === comboSteps[currentStep].key) {
     const now = performance.now();
-    if (!comboStartTime) {
-      comboStartTime = now;
-      video.currentTime = comboSteps[0].time;
-      video.play();
-    }
+    if (!comboStartTime) { comboStartTime = now; video.currentTime = comboSteps[0].time; video.play(); }
     const expected = (comboSteps[currentStep].time - comboSteps[0].time) * 1000;
-    const actual = now - comboStartTime;
-    const offset = actual - expected;
-
+    const offset = now - comboStartTime - expected;
     let grade = 'Miss', cssClass = 'combo-miss';
-    if (Math.abs(offset) <= 10) {
-      grade = 'Excellent'; cssClass = 'combo-excellent';
-    } else if (Math.abs(offset) <= 35) {
-      grade = 'Great'; cssClass = 'combo-great';
-    } else if (Math.abs(offset) <= 65) {
-      grade = 'Good'; cssClass = 'combo-good';
-    }
-
+    if (Math.abs(offset) <= 10) { grade = 'Excellent'; cssClass = 'combo-excellent'; }
+    else if (Math.abs(offset) <= 35) { grade = 'Great'; cssClass = 'combo-great'; }
+    else if (Math.abs(offset) <= 65) { grade = 'Good'; cssClass = 'combo-good'; }
     const logLine = document.createElement('div');
     logLine.className = `combo-line ${cssClass}`;
     logLine.textContent = `Step ${currentStep + 1}: ${comboSteps[currentStep].key} → ${grade} (${offset.toFixed(0)}ms)`;
-
-    comboSteps[currentStep].grade = grade;
-    comboLog.appendChild(logLine);
-    feedback.innerText = logLine.textContent;
-    renderMarkers();
-
+    comboSteps[currentStep].grade = grade; comboLog.appendChild(logLine);
+    feedback.innerText = logLine.textContent; renderMarkers();
     currentStep++;
-
     if (currentStep >= comboSteps.length) {
       const done = document.createElement('div');
       done.className = 'combo-line combo-good';
@@ -485,65 +425,32 @@ document.addEventListener('keydown', e => {
   }
 });
 
-
 function updateMarker() {
   if (video.duration && currentMarker && !isDragging) {
     const percent = video.currentTime / video.duration;
     currentMarker.style.left = (percent * 100) + '%';
+    for (let i = 0; i < comboSteps.length; i++) {
+      const step = comboSteps[i];
+      if (pingEnabled && video.currentTime >= step.time && (lastPlayedStep < i || video.currentTime < comboSteps[lastPlayedStep]?.time)) {
+        pingAudio.currentTime = 0; pingAudio.play(); lastPlayedStep = i;
+      }
+    }
+    if (lastPlayedStep !== -1 && video.currentTime < comboSteps[lastPlayedStep].time) lastPlayedStep = -1;
   }
   requestAnimationFrame(updateMarker);
 }
 updateMarker();
 
-function resizeApp(direction) {
-  const container = document.getElementById('container');
-  const step = 100;
-  const width = container.offsetWidth + step * direction;
-  container.style.width = `${width}px`;
-}
-function toggleFullScreen() {
-  const container = document.getElementById('container');
-  if (!document.fullscreenElement) {
-    container.requestFullscreen().catch(err => console.error(err));
-  } else {
-    document.exitFullscreen();
-  }
-}
-function toggleLog() {
-  const isHidden = comboLog.style.display === 'none';
-  comboLog.style.display = isHidden ? 'block' : 'none';
-  document.getElementById('toggleLogBtn').textContent = isHidden ? 'Hide Log' : 'Show Log';
-}
-function saveCombo() {
-  const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(comboSteps, null, 2));
-  const dlAnchor = document.createElement('a');
-  dlAnchor.setAttribute("href", dataStr);
-  dlAnchor.setAttribute("download", "combo.json");
-  dlAnchor.click();
-}
 function loadCombo() {
   const input = document.getElementById('loadComboInput');
-  const file = input.files[0];
-  if (!file) return;
-
+  const file = input.files[0]; if (!file) return;
   const reader = new FileReader();
-  reader.onload = (e) => {
+  reader.onload = e => {
     try {
       const data = JSON.parse(e.target.result);
-      if (Array.isArray(data)) {
-        comboSteps = data;
-        comboSteps.sort((a, b) => a.time - b.time);
-        currentStep = 0;
-        comboStartTime = null;
-        comboLog.innerHTML = '';
-        feedback.innerText = '';
-        renderMarkers();
-      } else {
-        alert('Invalid combo file: JSON must be an array.');
-      }
-    } catch (err) {
-      alert('Error parsing combo file: ' + err);
-    }
+      if (Array.isArray(data)) { comboSteps = data; comboSteps.sort((a,b)=>a.time-b.time); currentStep=0; comboStartTime=null; comboLog.innerHTML=''; feedback.innerText=''; renderMarkers(); }
+      else alert('Invalid combo file: JSON must be an array.');
+    } catch (err) { alert('Error parsing combo file: ' + err); }
   };
   reader.readAsText(file);
 }
