@@ -248,9 +248,6 @@
     </div>
 
     <div class="controls">
-      <button onclick="resizeApp(-1)">-</button>
-      <button onclick="resizeApp(1)">+</button>
-      <button onclick="toggleFullScreen()">Fullscreen</button>
       <input type="file" id="fileInput">
       <button id="resetBtn">Assign Reset Key</button>
       <button onclick="toggleLog()" id="toggleLogBtn">Hide Log</button>
@@ -287,7 +284,7 @@ const lockButton = document.getElementById('lockButton');
 let currentMarker = document.getElementById('currentMarker');
 let isDragging = false;
 let comboSteps = [];
-let editMode = true;
+let editMode = false;
 let resetKey = null;
 let comboStartTime = null;
 let currentStep = 0;
@@ -669,6 +666,8 @@ fileInput.addEventListener('change', () => {
     <li>🎯 Use ← and → arrow keys to move video frame-by-frame for precise timing.</li>
     <li>🖱️ **Left-click a combo input to change its hotkey**.</li>
     <li>🖱️ **Right-click a combo input to delete it**.</li>
+    <li>🔎 Use <strong>Ctrl +</strong> and <strong>Ctrl -</strong> (or pinch zoom) to adjust page size.</li>
+
   </ul>
   <button onclick="document.getElementById('instructionPopup').style.display='none';">Got it!</button>
 </div>
@@ -680,10 +679,12 @@ fileInput.addEventListener('change', () => {
   cursor: pointer; z-index: 9999;
 ">i</button>
 <!-- Ko-fi Button -->
+<!-- Ko-fi Button -->
 <a href="https://ko-fi.com/combosim" target="_blank" style="
-  position: fixed; bottom: 80px; right: 20px; background: #29abe0; color: white;
+  position: fixed; top: 20px; right: 20px; background: #29abe0; color: white;
   border: none; padding: 10px 15px; border-radius: 8px; font-size: 16px;
   cursor: pointer; z-index: 9999; text-decoration: none;
-">Buy Me a 🍉 Celsius! </a>
+">Buy Me a 🍉 Celsius!</a>
+
 </body>
 </html>
