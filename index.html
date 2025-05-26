@@ -295,25 +295,22 @@ let lastPlayedStep = -1;
 let pingEnabled = true;
 
 // 🔈 Setup Ping Variables and Button
-let pingEnabled = false;
+let pingEnabled = false; // Start off
 let pingUnlocked = false;
 const pingAudio = new Audio('ping.wav');
 const togglePingBtn = document.getElementById('togglePingSound');
 
 togglePingBtn.addEventListener('click', () => {
-  pingEnabled = !pingEnabled;
+  pingEnabled = !pingEnabled; // Toggle state
   togglePingBtn.textContent = pingEnabled ? '🔈' : '🔇';
   if (pingEnabled && !pingUnlocked) {
     pingAudio.play().catch(() => {});
     pingAudio.pause();
-    pingUnlocked = true;
+    pingUnlocked = true; // Unlock playback
   }
 });
 
-
-
-
-// 🔈 Unlock audio on first user click
+// Unlock audio with first interaction (browser autoplay policy)
 window.addEventListener('click', () => {
   if (!pingUnlocked) {
     pingAudio.play().catch(() => {});
@@ -321,6 +318,8 @@ window.addEventListener('click', () => {
     pingUnlocked = true;
   }
 }, { once: true });
+
+
 
 
 video.src = 'video.mp4';
@@ -476,6 +475,7 @@ function updateMarker() {
   }
   requestAnimationFrame(updateMarker);
 }
+
 
 updateMarker();
 
