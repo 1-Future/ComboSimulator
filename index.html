@@ -5,29 +5,6 @@
   <title>Fancy Combo Trainer</title>
   <style>
 
-.label-perfect {
-  background-color: cyan;
-  box-shadow: 0 0 8px cyan;
-  border-color: cyan;
-}
-
-.label-great {
-  background-color: lime;
-  box-shadow: 0 0 8px lime;
-  border-color: lime;
-}
-
-.label-good {
-  background-color: gold;
-  box-shadow: 0 0 8px gold;
-  border-color: gold;
-}
-
-.label-miss {
-  background-color: red;
-  box-shadow: 0 0 8px red;
-  border-color: red;
-}
 
 
 body {
@@ -82,7 +59,7 @@ body {
   position: absolute;
   height: 100%;
   width: 4px;
-  background-color: #00aaff;
+  background-color: #ffffff;
   cursor: pointer;
 }
 
@@ -93,11 +70,11 @@ body {
   background-color: #001a33;
   padding: 2px 6px;
   border-radius: 4px;
-  border: 1px solid #00f;
+  border: 1px solid rgb(255, 255, 255);
   font-weight: bold;
   font-size: 12px;
-  color: #00f;
-  text-shadow: 0 0 3px #000, 0 0 6px #00f;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 3px #000, 0 0 6px #001531;
   white-space: nowrap;
   pointer-events: auto;
 }
@@ -369,23 +346,25 @@ function renderMarkers() {
   comboBar.innerHTML = '';
   comboBar.appendChild(currentMarker);
   if (buttonGroup) comboBar.appendChild(buttonGroup);
+
   comboSteps.forEach((step, index) => {
     const marker = document.createElement('div');
     marker.classList.add('comboMarker');
     marker.style.left = (step.time / video.duration * 100) + '%';
 
-    // Optional: change marker color (optional)
+    // 🌟 Keep the original color behavior for marker bars
     if (step.grade === 'Miss') marker.style.backgroundColor = '#f00';
-    else if (step.grade === 'Perfect') marker.style.backgroundColor = 'cyan';
-    else if (step.grade === 'Great') marker.style.backgroundColor = 'lime';
-    else if (step.grade === 'Good') marker.style.backgroundColor = 'gold';
+    else if (step.grade) marker.style.backgroundColor = '#0f0'; // green for any successful hit
 
     const label = document.createElement('div');
     label.className = 'comboLabel';
 
-    // 🔥 Apply the grade-specific class dynamically
+    // 🌟 Original logic: apply matching class based on grade
     if (step.grade) {
-      label.classList.add(`label-${step.grade.toLowerCase()}`);
+      if (step.grade === 'Perfect') label.classList.add('label-perfect');
+      else if (step.grade === 'Great') label.classList.add('label-great');
+      else if (step.grade === 'Good') label.classList.add('label-good');
+      else if (step.grade === 'Miss') label.classList.add('label-miss');
     }
 
     label.style.left = (step.time / video.duration * 100) + '%';
@@ -407,6 +386,7 @@ function renderMarkers() {
     comboBar.appendChild(label);
   });
 }
+
 
 resetBtn.addEventListener('click', e => {
   if (editMode) lockButton.click();
