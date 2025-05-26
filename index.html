@@ -370,19 +370,31 @@ function renderMarkers() {
     marker.classList.add('comboMarker');
     marker.style.left = (step.time / video.duration * 100) + '%';
 
-    // 🌟 Keep the original color behavior for marker bars
-    if (step.grade === 'Miss') marker.style.backgroundColor = '#f00';
-    else if (step.grade) marker.style.backgroundColor = '#0f0'; // green for any successful hit
+    // 🌟 Improved: Apply marker colors based on step.grade
+    switch (step.grade) {
+      case 'Perfect':
+        marker.style.backgroundColor = 'cyan';
+        break;
+      case 'Great':
+        marker.style.backgroundColor = 'lime';
+        break;
+      case 'Good':
+        marker.style.backgroundColor = 'gold';
+        break;
+      case 'Miss':
+        marker.style.backgroundColor = 'red';
+        break;
+      default:
+        marker.style.backgroundColor = 'white'; // default color if no grade
+        break;
+    }
 
     const label = document.createElement('div');
     label.className = 'comboLabel';
 
-    // 🌟 Original logic: apply matching class based on grade
+    // 🌟 Assign class for label color matching grade
     if (step.grade) {
-      if (step.grade === 'Perfect') label.classList.add('label-perfect');
-      else if (step.grade === 'Great') label.classList.add('label-great');
-      else if (step.grade === 'Good') label.classList.add('label-good');
-      else if (step.grade === 'Miss') label.classList.add('label-miss');
+      label.classList.add(`label-${step.grade.toLowerCase()}`);
     }
 
     label.style.left = (step.time / video.duration * 100) + '%';
@@ -391,7 +403,10 @@ function renderMarkers() {
     if (editMode) {
       label.onclick = () => {
         const newKey = prompt('Enter new key for this combo step:', step.key);
-        if (newKey) { step.key = newKey.toUpperCase(); renderMarkers(); }
+        if (newKey) {
+          step.key = newKey.toUpperCase();
+          renderMarkers();
+        }
       };
       label.oncontextmenu = (e) => {
         e.preventDefault();
