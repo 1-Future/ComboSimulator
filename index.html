@@ -4,6 +4,32 @@
   <meta charset="UTF-8" />
   <title>Fancy Combo Trainer</title>
   <style>
+
+.label-perfect {
+  background-color: cyan;
+  box-shadow: 0 0 8px cyan;
+  border-color: cyan;
+}
+
+.label-great {
+  background-color: lime;
+  box-shadow: 0 0 8px lime;
+  border-color: lime;
+}
+
+.label-good {
+  background-color: gold;
+  box-shadow: 0 0 8px gold;
+  border-color: gold;
+}
+
+.label-miss {
+  background-color: red;
+  box-shadow: 0 0 8px red;
+  border-color: red;
+}
+
+
 body {
   background-image: url('background.jpg'); /* Replace with your image path */
   background-size: cover;
@@ -347,13 +373,24 @@ function renderMarkers() {
     const marker = document.createElement('div');
     marker.classList.add('comboMarker');
     marker.style.left = (step.time / video.duration * 100) + '%';
+
+    // Optional: change marker color (optional)
     if (step.grade === 'Miss') marker.style.backgroundColor = '#f00';
-    else if (step.grade) marker.style.backgroundColor = '#0f0';
+    else if (step.grade === 'Perfect') marker.style.backgroundColor = 'cyan';
+    else if (step.grade === 'Great') marker.style.backgroundColor = 'lime';
+    else if (step.grade === 'Good') marker.style.backgroundColor = 'gold';
+
     const label = document.createElement('div');
     label.className = 'comboLabel';
-    if (step.grade) label.classList.add(`label-${step.grade.toLowerCase()}`);
+
+    // 🔥 Apply the grade-specific class dynamically
+    if (step.grade) {
+      label.classList.add(`label-${step.grade.toLowerCase()}`);
+    }
+
     label.style.left = (step.time / video.duration * 100) + '%';
     label.textContent = step.key;
+
     if (editMode) {
       label.onclick = () => {
         const newKey = prompt('Enter new key for this combo step:', step.key);
@@ -365,6 +402,7 @@ function renderMarkers() {
         renderMarkers();
       };
     }
+
     comboBar.appendChild(marker);
     comboBar.appendChild(label);
   });
