@@ -42,7 +42,7 @@
   margin: 6px 0;
 }
 
-.label-excellent { outline: 2px solid cyan; }
+.label-perfect { outline: 2px solid cyan; }
 .label-great     { outline: 2px solid lime; }
 .label-good      { outline: 2px solid gold; }
 .label-miss      { outline: 2px solid red; }
@@ -171,7 +171,7 @@
     }
 
     .combo-line { margin-bottom: 2px; font-weight: bold; }
-    .combo-excellent { color: cyan; text-shadow: 0 0 4px cyan; }
+    .combo-perfect { color: cyan; text-shadow: 0 0 4px cyan; }
     .combo-great { color: lime; text-shadow: 0 0 3px lime; }
     .combo-good { color: gold; text-shadow: 0 0 3px gold; }
     .combo-miss { color: red; text-shadow: 0 0 3px red; }
@@ -273,6 +273,7 @@
   </div>
 
 <script>
+const perfectAudio = new Audio('perfect.mp3');
 const video = document.getElementById('video');
 const fileInput = document.getElementById('fileInput');
 const comboBar = document.getElementById('comboBar');
@@ -433,7 +434,7 @@ document.addEventListener('keydown', e => {
     const expected = (comboSteps[currentStep].time - comboSteps[0].time) * 1000;
     const offset = now - comboStartTime - expected;
     let grade = 'Miss', cssClass = 'combo-miss';
-    if (Math.abs(offset) <= 10) { grade = 'Excellent'; cssClass = 'combo-excellent'; }
+    if (Math.abs(offset) <= 10) { grade = 'Perfect'; cssClass = 'combo-perfect'; perfectAudio.play().catch(() => {});  }
     else if (Math.abs(offset) <= 35) { grade = 'Great'; cssClass = 'combo-great'; }
     else if (Math.abs(offset) <= 65) { grade = 'Good'; cssClass = 'combo-good'; }
     const logLine = document.createElement('div');
@@ -656,7 +657,7 @@ fileInput.addEventListener('change', () => {
   display: none; box-shadow: 0 0 12px rgba(0,0,0,0.5); font-size: 16px; line-height: 1.4;
 ">
 
-  <h3>Welcome to Fancy Combo Trainer!</h3>
+  <h3>Welcome to Combo Simulator!</h3>
   <p>Here's how to use it:</p>
   <ul>
     <li>🎥 Load a video using the file input.</li>
