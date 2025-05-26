@@ -404,16 +404,23 @@ document.addEventListener('keydown', e => {
 
   const key = e.key.toLowerCase();
   if (resetKey && key === resetKey) {
-  video.pause();
-  currentStep = 0;
-  comboStartTime = null;
-  feedback.innerText = 'Combo reset.';
-  comboLog.innerHTML = '';
-  comboSteps.forEach(s => delete s.grade);
-  renderMarkers();
-  if (comboSteps.length) video.currentTime = Math.max(0, comboSteps[0].time - 0.01);
-  return;
+    video.pause();
+    currentStep = 0;
+    comboStartTime = null;
+    feedback.innerText = 'Combo reset.';
+    comboLog.innerHTML = '';
+    comboSteps.forEach(s => delete s.grade);
+    renderMarkers();
+    if (comboSteps.length) {
+        video.currentTime = Math.max(0, comboSteps[0].time - 0.01);
+    } else {
+        video.currentTime = 0;  // Ensure video jumps to start if no steps
+    }
+    lastPlayedStep = -1;  // Reset combo step tracking
+    return;
 }
+
+
 
 
   const upperKey = e.key.toUpperCase();
