@@ -416,7 +416,6 @@ document.addEventListener('keydown', e => {
     comboSteps.forEach(s => delete s.grade); renderMarkers();
     pingEnabled = false;
     if (comboSteps.length) video.currentTime = Math.max(0, comboSteps[0].time - 0.01);
-    setTimeout(() => { pingEnabled = true; }, 100);
     return;
   }
 
