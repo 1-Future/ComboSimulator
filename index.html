@@ -558,6 +558,17 @@ function makeDraggable(el) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
+
+  // Show instructions popup on load
+const instructionPopup = document.getElementById('instructionPopup');
+instructionPopup.style.display = 'block';
+
+// Info button to show instructions again
+const infoButton = document.getElementById('infoButton');
+infoButton.addEventListener('click', () => {
+  instructionPopup.style.display = 'block';
+});
+
 // Auto-load video.mp4 and combo.json from root
 fileInput.addEventListener('change', () => {
   const file = fileInput.files[0];
@@ -635,5 +646,31 @@ fileInput.addEventListener('change', () => {
 
 
 </script>
+<!-- Instruction Popup -->
+<div id="instructionPopup" style="
+  position: fixed; top: 20%; left: 50%; transform: translateX(-50%);
+  background: #222; color: white; border: 2px solid #555; border-radius: 8px;
+  padding: 16px; width: 300px; z-index: 99999; display: none; box-shadow: 0 0 12px rgba(0,0,0,0.5);
+">
+  <h3>Welcome to Fancy Combo Trainer!</h3>
+  <p>Here's how to use it:</p>
+  <ul>
+    <li>🎥 Load a video using the file input.</li>
+    <li>🔑 Press keys during playback to record combos.</li>
+    <li>🔈 Toggle ping sound with the 🔈 button.</li>
+    <li>🔓 Lock editing mode with 🔓/🔒 button.</li>
+    <li>📂 Save/Load combos as JSON.</li>
+    <li>🔄 Reset combo with your assigned key.</li>
+  </ul>
+  <button onclick="document.getElementById('instructionPopup').style.display='none';">Got it!</button>
+</div>
+
+<!-- Info Button -->
+<button id="infoButton" style="
+  position: fixed; bottom: 20px; right: 20px; background: #333; color: white;
+  border: none; padding: 8px 12px; border-radius: 50%; font-size: 18px;
+  cursor: pointer; z-index: 9999;
+">i</button>
+
 </body>
 </html>
