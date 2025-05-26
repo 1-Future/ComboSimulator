@@ -335,16 +335,31 @@ document.getElementById('videoSelector').addEventListener('change', function() {
   const [videoFile, jsonFile] = this.value.split('|');
   video.src = videoFile;
   video.load();
+  
+  // Reset state to match "Reset Combo" button
+  currentStep = 0;
+  comboStartTime = null;
+  lastPlayedStep = -1;
+  feedback.innerText = 'Combo reset.';
+  comboLog.innerHTML = '';
+  comboSteps.forEach(s => delete s.grade);
+
   fetch(jsonFile)
     .then(res => res.json())
     .then(data => {
       if (Array.isArray(data)) {
         comboSteps = data;
         renderMarkers();
+        if (comboSteps.length) {
+          video.currentTime = Math.max(0, comboSteps[0].time - 0.01);
+        } else {
+          video.currentTime = 0;
+        }
       }
     })
     .catch(err => console.warn(`Could not load combo JSON: ${jsonFile}`, err));
 });
+
 
 
 const perfectAudio = new Audio('perfect.mp3');
