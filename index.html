@@ -49,16 +49,21 @@
 
 
     body {
-      background-color: #121212;
-      color: #fff;
-      font-family: sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      padding: 10px;
-    }
+  background-image: url('background.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Optional */
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 10px;
+}
+
     #container {
       
       width: 800px;
@@ -232,6 +237,7 @@
 </style>
 </head>
 <body>
+  
   <div id="container">
     <!-- Logo positioned in the top-left corner -->
 <img src="logo.png" alt="Combo Simulator Logo"
