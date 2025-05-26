@@ -293,31 +293,33 @@ let currentStep = 0;
 let lastPlayedStep = -1;
 let pingEnabled = true;
 
-const pingAudio = new Audio('ping.wav'); // Load the sound
-let pingEnabled = false; // Start with ping sound OFF
-let pingUnlocked = false; // To unlock playing sound
-
+// 🔈 Setup Ping Variables and Button
+let pingEnabled = false;
+let pingUnlocked = false;
+const pingAudio = new Audio('ping.wav');
 const togglePingBtn = document.getElementById('togglePingSound');
-togglePingBtn.addEventListener('click', () => {
-  pingEnabled = !pingEnabled; // Toggle ON/OFF
-  togglePingBtn.textContent = pingEnabled ? '🔈' : '🔇'; // Change icon
 
-  // Unlock sound if it's first time enabling (browser security)
+togglePingBtn.addEventListener('click', () => {
+  pingEnabled = !pingEnabled;
+  togglePingBtn.textContent = pingEnabled ? '🔈' : '🔇';
   if (pingEnabled && !pingUnlocked) {
-    pingAudio.play().catch(() => {}); // Try playing
-    pingAudio.pause(); // Immediately pause (just to unlock)
-    pingAudio.currentTime = 0; // Reset to start
-    pingUnlocked = true; // Mark as unlocked
+    pingAudio.play().catch(() => {});
+    pingAudio.pause();
+    pingUnlocked = true;
   }
 });
 
 
-// Unlock audio on first user interaction
+
+// 🔈 Unlock audio on first user click
 window.addEventListener('click', () => {
-  pingAudio.play().catch(() => {});
-  pingAudio.pause();
-  pingAudio.currentTime = 0;
+  if (!pingUnlocked) {
+    pingAudio.play().catch(() => {});
+    pingAudio.pause();
+    pingUnlocked = true;
+  }
 }, { once: true });
+
 
 video.src = 'video.mp4';
 video.load();
@@ -458,10 +460,10 @@ function updateMarker() {
 
     for (let i = 0; i < comboSteps.length; i++) {
       const step = comboSteps[i];
-      if (pingEnabled && pingUnlocked && video.currentTime >= step.time && 
+      if (pingEnabled && pingUnlocked && video.currentTime >= step.time &&
           (lastPlayedStep < i || video.currentTime < comboSteps[lastPlayedStep]?.time)) {
         pingAudio.currentTime = 0;
-        pingAudio.play().catch(err => console.warn('Ping play failed:', err));
+        pingAudio.play().catch(() => {});
         lastPlayedStep = i;
       }
     }
@@ -472,6 +474,7 @@ function updateMarker() {
   }
   requestAnimationFrame(updateMarker);
 }
+
 updateMarker();
 
 
