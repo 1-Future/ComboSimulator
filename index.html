@@ -299,6 +299,7 @@ document.addEventListener('click', () => {
 
 video.src = 'video.mp4';
 video.load();
+video.pause();  // Pause the video after loading
 
 video.addEventListener('loadedmetadata', () => {
   fetch('combo.json')
