@@ -418,6 +418,7 @@ document.addEventListener('keydown', e => {
   }
 
   const key = e.key.toLowerCase();
+
   if (resetKey && key === resetKey) {
     video.pause();
     currentStep = 0;
@@ -428,13 +429,13 @@ document.addEventListener('keydown', e => {
     renderMarkers();
     if (comboSteps.length) {
       video.currentTime = comboSteps[0].time;
+    }
+    return;
   }
-  return;
-}
-
 
   const upperKey = e.key.toUpperCase();
-  if (editMode && video.duration) {
+
+  if (editMode && video.duration && upperKey.length === 1) {
     const time = video.currentTime;
     comboSteps.push({ key: upperKey, time });
     comboSteps.sort((a, b) => a.time - b.time);
@@ -484,6 +485,7 @@ document.addEventListener('keydown', e => {
   }
 });
 
+
 function updateMarker() {
   if (video.duration && currentMarker && !isDragging) {
     const percent = video.currentTime / video.duration;
@@ -523,22 +525,29 @@ function loadCombo() {
   const input = document.getElementById('loadComboInput');
   const file = input.files[0];
   if (!file) return;
+
   const reader = new FileReader();
   reader.onload = (e) => {
     try {
       const data = JSON.parse(e.target.result);
       if (Array.isArray(data)) {
         comboSteps = data;
+        comboSteps.sort((a, b) => a.time - b.time);
+        currentStep = 0;
+        comboStartTime = null;
+        comboLog.innerHTML = '';
+        feedback.innerText = '';
         renderMarkers();
       } else {
-        alert('Invalid combo file');
+        alert('Invalid combo file: JSON must be an array.');
       }
     } catch (err) {
-      alert('Error loading combo file');
+      alert('Error parsing combo file: ' + err);
     }
   };
   reader.readAsText(file);
 }
+
 function clearCombo() {
   comboSteps = [];
   renderMarkers();
