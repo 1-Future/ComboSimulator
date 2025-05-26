@@ -233,7 +233,7 @@
 </head>
 <body>
   <div id="container">
-    <video id="video" controls playsinline></video>
+    <video id="video" controls></video>
     <div id="clickOverlay" style="z-index: 2;"></div>
     <div id="floatingBar"></div>
     <div id="comboBar" style="z-index: 3;">
@@ -299,9 +299,8 @@ document.addEventListener('click', () => {
 
 video.src = 'video.mp4';
 video.load();
-video.pause();  // Pause the video after loading
-
 video.addEventListener('loadedmetadata', () => {
+  video.pause();  // Now it pauses after metadata is ready
   fetch('combo.json')
     .then(res => res.json())
     .then(data => {
