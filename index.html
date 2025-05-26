@@ -242,6 +242,7 @@
         <button id="positionToggle">⬆️</button>
         <button id="popoutToggle">⧉</button>
         <button id="lockButton">🔓</button>
+        <button id="togglePingSound">🔈</button>
       </div>
     </div>
 
@@ -291,7 +292,25 @@ let comboStartTime = null;
 let currentStep = 0;
 let lastPlayedStep = -1;
 let pingEnabled = true;
-const pingAudio = new Audio('ping.wav');
+
+const pingAudio = new Audio('ping.wav'); // Load the sound
+let pingEnabled = false; // Start with ping sound OFF
+let pingUnlocked = false; // To unlock playing sound
+
+const togglePingBtn = document.getElementById('togglePingSound');
+togglePingBtn.addEventListener('click', () => {
+  pingEnabled = !pingEnabled; // Toggle ON/OFF
+  togglePingBtn.textContent = pingEnabled ? '🔈' : '🔇'; // Change icon
+
+  // Unlock sound if it's first time enabling (browser security)
+  if (pingEnabled && !pingUnlocked) {
+    pingAudio.play().catch(() => {}); // Try playing
+    pingAudio.pause(); // Immediately pause (just to unlock)
+    pingAudio.currentTime = 0; // Reset to start
+    pingUnlocked = true; // Mark as unlocked
+  }
+});
+
 
 // Unlock audio on first user interaction
 window.addEventListener('click', () => {
@@ -436,17 +455,25 @@ function updateMarker() {
   if (video.duration && currentMarker && !isDragging) {
     const percent = video.currentTime / video.duration;
     currentMarker.style.left = (percent * 100) + '%';
+
     for (let i = 0; i < comboSteps.length; i++) {
       const step = comboSteps[i];
-      if (pingEnabled && video.currentTime >= step.time && (lastPlayedStep < i || video.currentTime < comboSteps[lastPlayedStep]?.time)) {
-        pingAudio.currentTime = 0; pingAudio.play(); lastPlayedStep = i;
+      if (pingEnabled && pingUnlocked && video.currentTime >= step.time && 
+          (lastPlayedStep < i || video.currentTime < comboSteps[lastPlayedStep]?.time)) {
+        pingAudio.currentTime = 0;
+        pingAudio.play().catch(err => console.warn('Ping play failed:', err));
+        lastPlayedStep = i;
       }
     }
-    if (lastPlayedStep !== -1 && video.currentTime < comboSteps[lastPlayedStep].time) lastPlayedStep = -1;
+
+    if (lastPlayedStep !== -1 && video.currentTime < comboSteps[lastPlayedStep].time) {
+      lastPlayedStep = -1;
+    }
   }
   requestAnimationFrame(updateMarker);
 }
 updateMarker();
+
 
 function loadCombo() {
   const input = document.getElementById('loadComboInput');
