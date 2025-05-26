@@ -102,6 +102,8 @@ body {
   width: 2px;
   background-color: #ff0;
   cursor: ew-resize;
+  transform: translateX(-50%);
+
 }
 
 .controls {
@@ -548,7 +550,7 @@ document.addEventListener('keydown', e => {
 function updateMarker() {
   if (video.duration && currentMarker && !isDragging) {
     const percent = video.currentTime / video.duration;
-    currentMarker.style.left = (percent * 100) + '%';
+      currentMarker.style.left = `calc(${percent * 100}% - 1px)`; // Centers marker (since it's 2px wide)
 
     for (let i = 0; i < comboSteps.length; i++) {
       const step = comboSteps[i];
