@@ -294,29 +294,22 @@ let currentStep = 0;
 let lastPlayedStep = -1;
 
 // 🔈 Setup Ping Variables and Button
-let pingEnabled = false; // Start off
-let pingUnlocked = false;
+let pingEnabled = false;
 const pingAudio = new Audio('ping.wav');
 const togglePingBtn = document.getElementById('togglePingSound');
 
+// One-time unlock for autoplay policy
+window.addEventListener('click', () => {
+  pingAudio.play().catch(() => {});
+  pingAudio.pause();
+}, { once: true });
+
+// Toggle ping sound
 togglePingBtn.addEventListener('click', () => {
-  pingEnabled = !pingEnabled; // Toggle state
+  pingEnabled = !pingEnabled;
   togglePingBtn.textContent = pingEnabled ? '🔈' : '🔇';
-  if (pingEnabled && !pingUnlocked) {
-    pingAudio.play().catch(() => {});
-    pingAudio.pause();
-    pingUnlocked = true; // Unlock playback
-  }
 });
 
-// Unlock audio with first interaction (browser autoplay policy)
-window.addEventListener('click', () => {
-  if (!pingUnlocked) {
-    pingAudio.play().catch(() => {});
-    pingAudio.pause();
-    pingUnlocked = true;
-  }
-}, { once: true });
 
 
 
@@ -459,8 +452,9 @@ function updateMarker() {
 
     for (let i = 0; i < comboSteps.length; i++) {
       const step = comboSteps[i];
-      if (pingEnabled && pingUnlocked && video.currentTime >= step.time &&
-          (lastPlayedStep < i || video.currentTime < comboSteps[lastPlayedStep]?.time)) {
+      if (pingEnabled && video.currentTime >= step.time &&
+      (lastPlayedStep < i || video.currentTime < comboSteps[lastPlayedStep]?.time)) {
+
         pingAudio.currentTime = 0;
         pingAudio.play().catch(() => {});
         lastPlayedStep = i;
