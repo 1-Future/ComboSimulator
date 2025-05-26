@@ -607,21 +607,30 @@ fileInput.addEventListener('change', () => {
   let streak = 0;
 
   window.evaluateComboSuccess = function() {
-    const allHit = comboSteps.every(s => s.grade && s.grade !== 'Miss');
-    totalCount++;
-    if (allHit) {
-      successCount++;
-      streak++;
-    } else {
-      streak = 0;
-    }
+  totalCount++;
+  
+  const allPerfect = comboSteps.every(s => s.grade === 'Perfect');
+  const allHit = comboSteps.every(s => s.grade && s.grade !== 'Miss');
 
-    const ratio = (successCount / totalCount) * 100;
-    accuracyEl.textContent = `${ratio.toFixed(1)}%`;
-    streakEl.textContent = streak;
-    successEl.textContent = successCount;
-    totalEl.textContent = totalCount;
-  };
+  if (allPerfect) {
+    successCount++;
+    streak++;
+    const perfectSound = new Audio('perfect.mp3');
+    perfectSound.play().catch(() => {});
+  } else if (allHit) {
+    successCount++;
+    streak++;
+  } else {
+    streak = 0;
+  }
+
+  const ratio = (successCount / totalCount) * 100;
+  accuracyEl.textContent = `${ratio.toFixed(1)}%`;
+  streakEl.textContent = streak;
+  successEl.textContent = successCount;
+  totalEl.textContent = totalCount;
+};
+
 
   const statsBox = document.getElementById('statsBox');
   const statsHeader = document.getElementById('statsHeader');
