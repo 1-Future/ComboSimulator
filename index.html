@@ -296,7 +296,7 @@ button:hover {
     </div>
 
     <div class="controls">
-  <label for="videoSelector" style="margin-right: 10px;">Choose Video:</label>
+  <label for="videoSelector" style="margin-right: 10px; color: white;">Choose Video:</label>
   <select id="videoSelector">
     <option value="keybladevideo.mp4|keybladecombo.json">Keyblade</option>
     <option value="beybladevideo.mp4|beybladecombo.json">Beyblade</option>
@@ -502,6 +502,7 @@ resetBtn.addEventListener('click', e => {
   if (editMode) lockButton.click();
   const label = document.createElement('label');
   label.textContent = 'Assign Reset Key:';
+  label.style.color = 'white';
   const input = document.createElement('input');
   input.type = 'text';
   input.maxLength = 1;
