@@ -337,8 +337,8 @@ document.getElementById('videoSelector').addEventListener('change', function() {
   const [videoFile, jsonFile] = this.value.split('|');
   video.src = videoFile;
   video.load();
-  
-  // Reset state immediately
+
+  // Reset internal state
   currentStep = 0;
   comboStartTime = null;
   lastPlayedStep = -1;
@@ -346,29 +346,34 @@ document.getElementById('videoSelector').addEventListener('change', function() {
   comboLog.innerHTML = '';
   comboSteps.forEach(s => delete s.grade);
 
-  // Wait for video metadata before loading combo JSON
-  video.addEventListener('loadedmetadata', function onLoad() {
-    video.removeEventListener('loadedmetadata', onLoad); // Avoid multiple triggers
+  // Immediately reset currentMarker position
+  currentMarker.style.left = '0%';  // Reset marker to start
 
+  // Load combo JSON after video metadata is available
+  video.addEventListener('loadedmetadata', function onLoad() {
+    video.removeEventListener('loadedmetadata', onLoad); // Avoid duplicate triggers
     fetch(jsonFile)
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data)) {
           comboSteps = data;
           renderMarkers();
+
           if (comboSteps.length) {
-            video.currentTime = Math.max(0, comboSteps[0].time - 0.01);
-            const percent = (comboSteps[0].time / video.duration) * 100;
-            currentMarker.style.left = `calc(${percent}% - 1px)`;  // 🟡 Update marker position
+            // Sync marker position to first combo time
+            const firstTime = comboSteps[0].time;
+            const percent = (firstTime / video.duration) * 100;
+            video.currentTime = Math.max(0, firstTime - 0.01);
+            currentMarker.style.left = `calc(${percent}% - 1px)`;  // Position marker correctly
           } else {
             video.currentTime = 0;
-            currentMarker.style.left = '0%';  // 🟡 Reset marker to start
           }
         }
       })
       .catch(err => console.warn(`Could not load combo JSON: ${jsonFile}`, err));
   });
 });
+
 
 
 const perfectAudio = new Audio('perfect.mp3');
