@@ -388,6 +388,7 @@ const lockButton = document.getElementById('lockButton');
 let currentMarker = document.getElementById('currentMarker');
 let isDragging = false;
 let comboSteps = [];
+let activeAttemptSteps = []; // Stores steps during a single combo attempt
 let editMode = false;
 let resetKey = null;
 let comboStartTime = null;
@@ -571,8 +572,13 @@ if (resetKey && key === resetKey) {
     if (!comboStartTime) { 
       comboStartTime = now; 
       video.currentTime = comboSteps[0].time; 
-      video.play(); 
+      video.play();
+      activeAttemptSteps = [];
+      activeAttemptSteps.push({ ...comboSteps[currentStep], grade }); 
     }
+
+    
+
     const expected = (comboSteps[currentStep].time - comboSteps[0].time) * 1000;
     const offset = now - comboStartTime - expected;
     
@@ -780,8 +786,9 @@ fileInput.addEventListener('change', () => {
   window.evaluateComboSuccess = function() {
   totalCount++;
   
-  const allPerfect = comboSteps.every(s => s.grade === 'Perfect');
-  const allHit = comboSteps.every(s => s.grade && s.grade !== 'Miss');
+  const allPerfect = activeAttemptSteps.every(s => s.grade === 'Perfect');
+  const allHit = activeAttemptSteps.every(s => s.grade && s.grade !== 'Miss');
+
 
   if (allPerfect) {
     successCount++;
