@@ -570,12 +570,12 @@ if (resetKey && key === resetKey) {
   if (!editMode && comboSteps[currentStep] && upperKey === comboSteps[currentStep].key) {
     const now = performance.now();
     if (!comboStartTime) { 
-      comboStartTime = now; 
-      video.currentTime = comboSteps[0].time; 
-      video.play();
-      activeAttemptSteps = [];
-      activeAttemptSteps.push({ ...comboSteps[currentStep], grade }); 
-    }
+  comboStartTime = now; 
+  video.currentTime = comboSteps[0].time; 
+  video.play();
+  activeAttemptSteps = [];
+}
+
 
     
 
@@ -598,7 +598,9 @@ if (resetKey && key === resetKey) {
     feedback.className = cssClass;  // This dynamically adds the color class!
     renderMarkers();
 
+    activeAttemptSteps.push({ ...comboSteps[currentStep], grade });
 
+    
     currentStep++;
     if (currentStep >= comboSteps.length) {
       const done = document.createElement('div');
