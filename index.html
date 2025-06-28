@@ -337,6 +337,8 @@ document.getElementById('loadComboInput').addEventListener('change', loadCombo);
 document.getElementById('videoSelector').addEventListener('change', function() {
   const [videoFile, jsonFile] = this.value.split('|');
   video.src = videoFile;
+  // Store the raw file name so the saved JSON can match it
+  currentVideoFileName = videoFile.split('/').pop();
   video.load();
 
   // Reset internal state
@@ -387,6 +389,10 @@ const comboLog = document.getElementById('comboLog');
 const lockButton = document.getElementById('lockButton');
 const container = document.getElementById('container');
 const toggleLogBtn = document.getElementById('toggleLogBtn');
+
+// Track the name of the currently loaded video so saved combos
+// can be associated with that video file
+let currentVideoFileName = 'keybladevideo.mp4';
 
 let currentMarker = document.getElementById('currentMarker');
 let isDragging = false;
@@ -460,6 +466,7 @@ function getStepDisplayKey(step) {
 
 
 video.src = 'keybladevideo.mp4';
+currentVideoFileName = 'keybladevideo.mp4';
 video.load();
 video.addEventListener('loadedmetadata', () => {
   video.pause();  // Now it pauses after metadata is ready
@@ -683,7 +690,9 @@ function saveCombo() {
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'combo.json';
+  // Name the file based on the loaded video filename
+  const base = currentVideoFileName.replace(/\.[^/.]+$/, '');
+  a.download = base + '.json';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -856,6 +865,8 @@ fileInput.addEventListener('change', () => {
   if (file) {
     const url = URL.createObjectURL(file);
     video.src = url;
+    // Keep the original filename so saved combos mirror it
+    currentVideoFileName = file.name;
     video.load();
 
     video.addEventListener('loadedmetadata', () => {
