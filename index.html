@@ -312,6 +312,7 @@ button:hover {
   <input type="file" id="loadComboInput" style="display:none;" >
   <button onclick="document.getElementById('loadComboInput').click()">Load JSON</button>
   <button onclick="clearCombo()">Clear JSON</button>
+  <button id="hotkeyBtn">Hotkeys</button>
 </div>
 
     <div class="grade-feedback" id="feedback"></div>
@@ -336,6 +337,8 @@ document.getElementById('loadComboInput').addEventListener('change', loadCombo);
 document.getElementById('videoSelector').addEventListener('change', function() {
   const [videoFile, jsonFile] = this.value.split('|');
   video.src = videoFile;
+  // Store the raw file name so the saved JSON can match it
+  currentVideoFileName = videoFile.split('/').pop();
   video.load();
 
   // Reset internal state
@@ -384,6 +387,12 @@ const resetBtn = document.getElementById('resetBtn');
 const feedback = document.getElementById('feedback');
 const comboLog = document.getElementById('comboLog');
 const lockButton = document.getElementById('lockButton');
+const container = document.getElementById('container');
+const toggleLogBtn = document.getElementById('toggleLogBtn');
+
+// Track the name of the currently loaded video so saved combos
+// can be associated with that video file
+let currentVideoFileName = 'keybladevideo.mp4';
 
 let currentMarker = document.getElementById('currentMarker');
 let isDragging = false;
@@ -413,10 +422,51 @@ togglePingBtn.addEventListener('click', () => {
 });
 
 
+// Hotkey configuration
+const defaultHotkeys = {
+  spell1: 'q',
+  spell2: 'w',
+  spell3: 'e',
+  spell4: 'r',
+  summoner1: 'f',
+  summoner2: 't',
+  autoattack: 'a',
+  item1: '1',
+  item2: '2',
+  item3: '3',
+  item4: '4'
+};
+
+let hotkeys = JSON.parse(localStorage.getItem('hotkeys') || 'null') || { ...defaultHotkeys };
+let keyToAction = buildInverseHotkeyMap();
+
+function buildInverseHotkeyMap() {
+  const map = {};
+  for (const [act, key] of Object.entries(hotkeys)) {
+    if (key) map[key] = act;
+  }
+  return map;
+}
+
+function saveHotkeys() {
+  localStorage.setItem('hotkeys', JSON.stringify(hotkeys));
+  keyToAction = buildInverseHotkeyMap();
+  renderMarkers();
+}
+
+function getStepDisplayKey(step) {
+  if (step.action) {
+    return (hotkeys[step.action] || '').toUpperCase();
+  }
+  return step.key || '';
+}
+
+
 
 
 
 video.src = 'keybladevideo.mp4';
+currentVideoFileName = 'keybladevideo.mp4';
 video.load();
 video.addEventListener('loadedmetadata', () => {
   video.pause();  // Now it pauses after metadata is ready
@@ -476,13 +526,21 @@ function renderMarkers() {
     }
 
     label.style.left = (step.time / video.duration * 100) + '%';
-    label.textContent = step.key;
+    label.textContent = getStepDisplayKey(step);
 
     if (editMode) {
       label.onclick = () => {
-        const newKey = prompt('Enter new key for this combo step:', step.key);
+        const current = getStepDisplayKey(step);
+        const newKey = prompt('Enter new key for this combo step:', current);
         if (newKey) {
-          step.key = newKey.toUpperCase();
+          const lower = newKey.toLowerCase();
+          if (keyToAction[lower]) {
+            step.action = keyToAction[lower];
+            delete step.key;
+          } else {
+            step.key = newKey.toUpperCase();
+            delete step.action;
+          }
           renderMarkers();
         }
       };
@@ -535,8 +593,8 @@ document.addEventListener('keydown', e => {
   if (e.key === 'ArrowLeft') { e.preventDefault(); video.currentTime = Math.max(0, video.currentTime - 1/30); return; }
   if (e.key === 'ArrowRight') { e.preventDefault(); video.currentTime = Math.min(video.duration, video.currentTime + 1/30); return; }
 
- const key = e.key.toLowerCase();
-if (resetKey && key === resetKey) {
+  const lowerKey = e.key.toLowerCase();
+  if (resetKey && lowerKey === resetKey) {
     video.pause();
     currentStep = 0;
     comboStartTime = null;
@@ -557,21 +615,27 @@ if (resetKey && key === resetKey) {
 
     lastPlayedStep = -1;  // Reset combo step tracking
     return;
-}
-
+  }
 
   const upperKey = e.key.toUpperCase();
   if (editMode && video.duration && upperKey.length === 1) {
-    comboSteps.push({ key: upperKey, time: video.currentTime });
+    if (keyToAction[lowerKey]) {
+      comboSteps.push({ action: keyToAction[lowerKey], time: video.currentTime });
+    } else {
+      comboSteps.push({ key: upperKey, time: video.currentTime });
+    }
     comboSteps.sort((a, b) => a.time - b.time);
     renderMarkers(); return;
   }
 
-  if (!editMode && comboSteps[currentStep] && upperKey === comboSteps[currentStep].key) {
-    const now = performance.now();
-    if (!comboStartTime) { 
-  comboStartTime = now; 
-  video.currentTime = comboSteps[0].time; 
+  if (!editMode && comboSteps[currentStep]) {
+    const step = comboSteps[currentStep];
+    const expected = step.action ? hotkeys[step.action] : (step.key ? step.key.toLowerCase() : '');
+    if (expected && lowerKey === expected) {
+      const now = performance.now();
+      if (!comboStartTime) {
+  comboStartTime = now;
+  video.currentTime = comboSteps[0].time;
   video.play();
   activeAttemptSteps = [];
 }
@@ -579,8 +643,8 @@ if (resetKey && key === resetKey) {
 
     
 
-    const expected = (comboSteps[currentStep].time - comboSteps[0].time) * 1000;
-    const offset = now - comboStartTime - expected;
+    const expectedTime = (comboSteps[currentStep].time - comboSteps[0].time) * 1000;
+    const offset = now - comboStartTime - expectedTime;
     
     let grade = 'Miss', cssClass = 'combo-miss';
     if (Math.abs(offset) <= 10) { grade = 'Perfect'; cssClass = 'combo-perfect'; }
@@ -589,7 +653,7 @@ if (resetKey && key === resetKey) {
 
     // 🌟 Add styled comboLog line
     const logLine = document.createElement('div');
-    logLine.textContent = `Step ${currentStep + 1}: ${comboSteps[currentStep].key} → ${grade} (${offset.toFixed(0)}ms)`;
+    logLine.textContent = `Step ${currentStep + 1}: ${getStepDisplayKey(step)} → ${grade} (${offset.toFixed(0)}ms)`;
     logLine.className = `combo-line ${cssClass}`;
     comboLog.appendChild(logLine);
 
@@ -610,7 +674,8 @@ if (resetKey && key === resetKey) {
       feedback.innerText += ' - Combo Completed!';
       evaluateComboSuccess();
     }
-}
+    }
+  }
 
 });
 
@@ -625,7 +690,9 @@ function saveCombo() {
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'combo.json';
+  // Name the file based on the loaded video filename
+  const base = currentVideoFileName.replace(/\.[^/.]+$/, '');
+  a.download = base + '.json';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -681,6 +748,16 @@ function clearCombo() {
   comboLog.innerHTML = '';
   currentStep = 0;
   comboStartTime = null;
+}
+
+function toggleLog() {
+  if (comboLog.style.display === 'none') {
+    comboLog.style.display = 'block';
+    toggleLogBtn.textContent = 'Hide Log';
+  } else {
+    comboLog.style.display = 'none';
+    toggleLogBtn.textContent = 'Show Log';
+  }
 }
 let isTop = false;
 let isFloating = false;
@@ -751,12 +828,45 @@ infoButton.addEventListener('click', () => {
   instructionPopup.style.display = 'block';
 });
 
+// Hotkey popup setup
+const hotkeyBtn = document.getElementById('hotkeyBtn');
+const hotkeyPopup = document.getElementById('hotkeyPopup');
+const hotkeyList = document.getElementById('hotkeyList');
+const closeHotkeyPopup = document.getElementById('closeHotkeyPopup');
+
+hotkeyBtn.addEventListener('click', () => {
+  hotkeyList.innerHTML = '';
+  for (const action of Object.keys(hotkeys)) {
+    const row = document.createElement('div');
+    const label = document.createElement('label');
+    label.textContent = action.replace(/([A-Z])/g, ' $1').replace(/^./, c => c.toUpperCase()) + ': ';
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.maxLength = 1;
+    input.value = hotkeys[action];
+    input.addEventListener('input', () => {
+      hotkeys[action] = input.value.toLowerCase();
+      saveHotkeys();
+    });
+    row.appendChild(label);
+    row.appendChild(input);
+    hotkeyList.appendChild(row);
+  }
+  hotkeyPopup.style.display = 'block';
+});
+
+closeHotkeyPopup.addEventListener('click', () => {
+  hotkeyPopup.style.display = 'none';
+});
+
 // Auto-load keybladevideo.mp4 and combo.json from root
 fileInput.addEventListener('change', () => {
   const file = fileInput.files[0];
   if (file) {
     const url = URL.createObjectURL(file);
     video.src = url;
+    // Keep the original filename so saved combos mirror it
+    currentVideoFileName = file.name;
     video.load();
 
     video.addEventListener('loadedmetadata', () => {
@@ -838,6 +948,17 @@ fileInput.addEventListener('change', () => {
 
 
 </script>
+<!-- Hotkey Popup -->
+<div id="hotkeyPopup" style="
+  position: fixed; top: 20%; left: 50%; transform: translateX(-50%);
+  background: #143f63; color: white; border: 2px solid #01b1ef; border-radius: 10px;
+  padding: 20px; width: 260px; z-index: 99999;
+  display: none; box-shadow: 0 0 12px rgba(0,0,0,0.5); font-size: 14px;
+">
+  <h3>Hotkeys</h3>
+  <div id="hotkeyList"></div>
+  <button id="closeHotkeyPopup" style="margin-top:10px;">Close</button>
+</div>
 <!-- Instruction Popup -->
 <div id="instructionPopup" style="
   position: fixed; top: 20%; left: 50%; transform: translateX(-50%);
