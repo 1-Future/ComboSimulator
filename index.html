@@ -385,6 +385,8 @@ const resetBtn = document.getElementById('resetBtn');
 const feedback = document.getElementById('feedback');
 const comboLog = document.getElementById('comboLog');
 const lockButton = document.getElementById('lockButton');
+const container = document.getElementById('container');
+const toggleLogBtn = document.getElementById('toggleLogBtn');
 
 let currentMarker = document.getElementById('currentMarker');
 let isDragging = false;
@@ -736,6 +738,16 @@ function clearCombo() {
   comboLog.innerHTML = '';
   currentStep = 0;
   comboStartTime = null;
+}
+
+function toggleLog() {
+  if (comboLog.style.display === 'none') {
+    comboLog.style.display = 'block';
+    toggleLogBtn.textContent = 'Hide Log';
+  } else {
+    comboLog.style.display = 'none';
+    toggleLogBtn.textContent = 'Show Log';
+  }
 }
 let isTop = false;
 let isFloating = false;
