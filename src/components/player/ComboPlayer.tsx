@@ -486,14 +486,14 @@ export function ComboPlayer() {
             </div>
           )}
 
-          {/* Timeline — always show in fullscreen */}
+          {/* Timeline */}
           {(isFullscreen || showTimeline) && <TimingOverlay inputs={selectedCombo.inputs} />}
 
-          {/* Early/Late — always show in fullscreen */}
+          {/* Early/Late */}
           {(isFullscreen || showEarlyLate) && <EarlyLateIndicator />}
 
-          {/* Combo Steps — hidden in fullscreen */}
-          {!isFullscreen && !isMobile && showComboSteps && <>
+          {/* Combo Steps */}
+          {(isFullscreen || (!isMobile && showComboSteps)) && <>
           <div className="mt-3 space-y-2">
             {/* Keyboard row */}
             <div className={activeDevice === 'keyboard' ? 'opacity-100' : 'opacity-40'}>
@@ -646,8 +646,8 @@ export function ComboPlayer() {
           </div>
           </>}
 
-          {/* Stats — hidden in fullscreen */}
-          {!isFullscreen && !isMobile && showStats && <StatsPanel />}
+          {/* Stats */}
+          {(isFullscreen || (!isMobile && showStats)) && <StatsPanel />}
         </>
       )}
     </div>
