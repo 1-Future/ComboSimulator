@@ -69,7 +69,7 @@ export function ApproachCircles({ inputs }: ApproachCirclesProps) {
           // Not started yet — show first step at center, ready
           progress = i === 0 ? 1 : 0
         } else {
-          const expectedTimeMs = (input.time - firstTime) * 1000
+          const expectedTimeMs = ((input.time - firstTime) * 1000) / speed
           const elapsed = now - comboStart
           const remaining = expectedTimeMs - elapsed
           progress = 1 - Math.max(0, Math.min(1, remaining / approachDuration))

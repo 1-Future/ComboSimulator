@@ -139,6 +139,7 @@ export class TimingEngine {
 
   setPlaybackRate(rate: number): void {
     this.videoSync.setPlaybackRate(rate)
+    this.runner.setPlaybackSpeed(rate)
   }
 
   setPingCallback(callback: ((stepIndex: number) => void) | null): void {

@@ -16,6 +16,7 @@ export class ComboRunner {
   private inputs: ComboInput[] = []
   private difficulty: Difficulty = 'normal'
   private calibrationOffset = 0
+  private playbackSpeed = 1
 
   constructor() {
     this.state = this.initialState()
@@ -32,11 +33,16 @@ export class ComboRunner {
     }
   }
 
-  loadCombo(inputs: ComboInput[], difficulty: Difficulty, calibrationOffset = 0): void {
+  loadCombo(inputs: ComboInput[], difficulty: Difficulty, calibrationOffset = 0, playbackSpeed = 1): void {
     this.inputs = inputs
     this.difficulty = difficulty
     this.calibrationOffset = calibrationOffset
+    this.playbackSpeed = playbackSpeed
     this.state = { ...this.initialState(), comboState: 'ready' }
+  }
+
+  setPlaybackSpeed(speed: number): void {
+    this.playbackSpeed = speed
   }
 
   reset(): void {
@@ -80,7 +86,7 @@ export class ComboRunner {
     }
 
     const firstStepTime = this.inputs[0]?.time ?? 0
-    const expectedTimeMs = (step.time - firstStepTime) * 1000
+    const expectedTimeMs = ((step.time - firstStepTime) * 1000) / this.playbackSpeed
     const actualTimeMs = timestamp - (this.state.comboStartTime ?? timestamp) - this.calibrationOffset
     const offset = isFirstStep ? 0 : actualTimeMs - expectedTimeMs
     const grade = isFirstStep ? 'Perfect' as const : scoreHit(offset, this.difficulty)
