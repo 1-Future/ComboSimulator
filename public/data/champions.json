@@ -1,0 +1,1505 @@
+{
+  "version": "1.0.0",
+  "champions": [
+    {
+      "id": "aatrox",
+      "name": "Aatrox",
+      "title": "The Darkin Blade",
+      "roles": ["fighter"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "aatrox.webp",
+      "tags": ["all-in", "animation-cancel", "trade"]
+    },
+    {
+      "id": "ahri",
+      "name": "Ahri",
+      "title": "The Nine-Tailed Fox",
+      "roles": ["mage", "assassin"],
+      "difficulty": 2,
+      "comboCount": 8,
+      "thumbnail": "ahri.webp",
+      "tags": ["burst", "poke", "flash-combo", "trade"]
+    },
+    {
+      "id": "akali",
+      "name": "Akali",
+      "title": "The Rogue Assassin",
+      "roles": ["assassin"],
+      "difficulty": 3,
+      "comboCount": 9,
+      "thumbnail": "akali.webp",
+      "tags": ["all-in", "burst", "animation-cancel", "trade"]
+    },
+    {
+      "id": "akshan",
+      "name": "Akshan",
+      "title": "The Rogue Sentinel",
+      "roles": ["marksman", "assassin"],
+      "difficulty": 2,
+      "comboCount": 3,
+      "thumbnail": "akshan.webp",
+      "tags": ["trade", "burst", "wall-combo"]
+    },
+    {
+      "id": "alistar",
+      "name": "Alistar",
+      "title": "The Minotaur",
+      "roles": ["tank", "support"],
+      "difficulty": 2,
+      "comboCount": 7,
+      "thumbnail": "alistar.webp",
+      "tags": ["engage", "flash-combo", "animation-cancel"]
+    },
+    {
+      "id": "ambessa",
+      "name": "Ambessa",
+      "title": "The Matriarch of War",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 3,
+      "comboCount": 9,
+      "thumbnail": "ambessa.webp",
+      "tags": ["all-in", "animation-cancel", "burst", "reset"]
+    },
+    {
+      "id": "amumu",
+      "name": "Amumu",
+      "title": "The Sad Mummy",
+      "roles": ["tank", "mage"],
+      "difficulty": 1,
+      "comboCount": 5,
+      "thumbnail": "amumu.webp",
+      "tags": ["engage", "flash-combo", "all-in"]
+    },
+    {
+      "id": "anivia",
+      "name": "Anivia",
+      "title": "The Cryophoenix",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 2,
+      "thumbnail": "anivia.webp",
+      "tags": ["poke", "wall-combo", "trade"]
+    },
+    {
+      "id": "annie",
+      "name": "Annie",
+      "title": "The Dark Child",
+      "roles": ["mage"],
+      "difficulty": 1,
+      "comboCount": 2,
+      "thumbnail": "annie.webp",
+      "tags": ["burst", "flash-combo", "engage"]
+    },
+    {
+      "id": "ashe",
+      "name": "Ashe",
+      "title": "The Frost Archer",
+      "roles": ["marksman", "support"],
+      "difficulty": 1,
+      "comboCount": 2,
+      "thumbnail": "ashe.webp",
+      "tags": ["poke", "engage", "trade"]
+    },
+    {
+      "id": "aurelion-sol",
+      "name": "Aurelion Sol",
+      "title": "The Star Forger",
+      "roles": ["mage"],
+      "difficulty": 3,
+      "comboCount": 7,
+      "thumbnail": "aurelion-sol.webp",
+      "tags": ["poke", "burst", "trade", "all-in"]
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "title": "The Witch Between Worlds",
+      "roles": ["mage", "assassin"],
+      "difficulty": 2,
+      "comboCount": 4,
+      "thumbnail": "aurora.webp",
+      "tags": ["burst", "trade", "engage"]
+    },
+    {
+      "id": "azir",
+      "name": "Azir",
+      "title": "The Emperor of the Sands",
+      "roles": ["mage", "marksman"],
+      "difficulty": 3,
+      "comboCount": 5,
+      "thumbnail": "azir.webp",
+      "tags": ["poke", "engage", "flash-combo", "wall-combo"]
+    },
+    {
+      "id": "bard",
+      "name": "Bard",
+      "title": "The Wandering Caretaker",
+      "roles": ["support", "mage"],
+      "difficulty": 2,
+      "comboCount": 2,
+      "thumbnail": "bard.webp",
+      "tags": ["engage", "poke", "trade"]
+    },
+    {
+      "id": "blitzcrank",
+      "name": "Blitzcrank",
+      "title": "The Great Steam Golem",
+      "roles": ["tank", "support"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "blitzcrank.webp",
+      "tags": ["engage", "burst", "flash-combo"]
+    },
+    {
+      "id": "brand",
+      "name": "Brand",
+      "title": "The Burning Vengeance",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 6,
+      "thumbnail": "brand.webp",
+      "tags": ["poke", "burst", "trade", "all-in"]
+    },
+    {
+      "id": "braum",
+      "name": "Braum",
+      "title": "The Heart of the Freljord",
+      "roles": ["support", "tank"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "braum.webp",
+      "tags": ["engage", "trade", "flash-combo"]
+    },
+    {
+      "id": "briar",
+      "name": "Briar",
+      "title": "The Restrained Hunger",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "briar.webp",
+      "tags": ["all-in", "burst", "engage"]
+    },
+    {
+      "id": "caitlyn",
+      "name": "Caitlyn",
+      "title": "The Sheriff of Piltover",
+      "roles": ["marksman"],
+      "difficulty": 2,
+      "comboCount": 6,
+      "thumbnail": "caitlyn.webp",
+      "tags": ["poke", "animation-cancel", "trade", "burst"]
+    },
+    {
+      "id": "camille",
+      "name": "Camille",
+      "title": "The Steel Shadow",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 3,
+      "comboCount": 20,
+      "thumbnail": "camille.webp",
+      "tags": ["all-in", "animation-cancel", "flash-combo", "wall-combo", "trade", "burst"]
+    },
+    {
+      "id": "cassiopeia",
+      "name": "Cassiopeia",
+      "title": "The Serpent's Embrace",
+      "roles": ["mage"],
+      "difficulty": 3,
+      "comboCount": 4,
+      "thumbnail": "cassiopeia.webp",
+      "tags": ["burst", "flash-combo", "trade", "all-in"]
+    },
+    {
+      "id": "chogath",
+      "name": "Chogath",
+      "title": "The Terror of the Void",
+      "roles": ["tank", "mage"],
+      "difficulty": 1,
+      "comboCount": 2,
+      "thumbnail": "chogath.webp",
+      "tags": ["burst", "flash-combo", "engage"]
+    },
+    {
+      "id": "corki",
+      "name": "Corki",
+      "title": "The Daring Bombardier",
+      "roles": ["marksman"],
+      "difficulty": 2,
+      "comboCount": 3,
+      "thumbnail": "corki.webp",
+      "tags": ["poke", "burst", "trade"]
+    },
+    {
+      "id": "darius",
+      "name": "Darius",
+      "title": "The Hand of Noxus",
+      "roles": ["fighter", "tank"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "darius.webp",
+      "tags": ["all-in", "flash-combo", "reset"]
+    },
+    {
+      "id": "diana",
+      "name": "Diana",
+      "title": "Scorn of the Moon",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 2,
+      "comboCount": 6,
+      "thumbnail": "diana.webp",
+      "tags": ["all-in", "burst", "engage", "flash-combo"]
+    },
+    {
+      "id": "draven",
+      "name": "Draven",
+      "title": "The Glorious Executioner",
+      "roles": ["marksman"],
+      "difficulty": 3,
+      "comboCount": 6,
+      "thumbnail": "draven.webp",
+      "tags": ["trade", "all-in", "animation-cancel", "reset"]
+    },
+    {
+      "id": "ekko",
+      "name": "Ekko",
+      "title": "The Boy Who Shattered Time",
+      "roles": ["assassin", "fighter"],
+      "difficulty": 3,
+      "comboCount": 12,
+      "thumbnail": "ekko.webp",
+      "tags": ["burst", "all-in", "trade", "animation-cancel", "flash-combo"]
+    },
+    {
+      "id": "elise",
+      "name": "Elise",
+      "title": "The Spider Queen",
+      "roles": ["mage", "fighter"],
+      "difficulty": 3,
+      "comboCount": 7,
+      "thumbnail": "elise.webp",
+      "tags": ["burst", "all-in", "trade", "engage"]
+    },
+    {
+      "id": "evelynn",
+      "name": "Evelynn",
+      "title": "Agony's Embrace",
+      "roles": ["assassin", "mage"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "evelynn.webp",
+      "tags": ["burst", "all-in", "flash-combo"]
+    },
+    {
+      "id": "ezreal",
+      "name": "Ezreal",
+      "title": "The Prodigal Explorer",
+      "roles": ["marksman", "mage"],
+      "difficulty": 2,
+      "comboCount": 8,
+      "thumbnail": "ezreal.webp",
+      "tags": ["poke", "burst", "animation-cancel", "trade"]
+    },
+    {
+      "id": "fiddlesticks",
+      "name": "Fiddlesticks",
+      "title": "The Ancient Fear",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 6,
+      "thumbnail": "fiddlesticks.webp",
+      "tags": ["engage", "flash-combo", "burst", "all-in"]
+    },
+    {
+      "id": "fiora",
+      "name": "Fiora",
+      "title": "The Grand Duelist",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 3,
+      "comboCount": 15,
+      "thumbnail": "fiora.webp",
+      "tags": ["all-in", "animation-cancel", "trade", "burst", "reset", "wall-combo"]
+    },
+    {
+      "id": "fizz",
+      "name": "Fizz",
+      "title": "The Tidal Trickster",
+      "roles": ["assassin", "fighter"],
+      "difficulty": 2,
+      "comboCount": 9,
+      "thumbnail": "fizz.webp",
+      "tags": ["burst", "all-in", "flash-combo", "trade"]
+    },
+    {
+      "id": "galio",
+      "name": "Galio",
+      "title": "The Colossus",
+      "roles": ["tank", "mage"],
+      "difficulty": 2,
+      "comboCount": 4,
+      "thumbnail": "galio.webp",
+      "tags": ["engage", "flash-combo", "burst", "trade"]
+    },
+    {
+      "id": "gangplank",
+      "name": "Gangplank",
+      "title": "The Saltwater Scourge",
+      "roles": ["fighter"],
+      "difficulty": 3,
+      "comboCount": 12,
+      "thumbnail": "gangplank.webp",
+      "tags": ["burst", "animation-cancel", "trade", "poke", "reset"]
+    },
+    {
+      "id": "garen",
+      "name": "Garen",
+      "title": "The Might of Demacia",
+      "roles": ["fighter", "tank"],
+      "difficulty": 1,
+      "comboCount": 1,
+      "thumbnail": "garen.webp",
+      "tags": ["all-in", "trade"]
+    },
+    {
+      "id": "gnar",
+      "name": "Gnar",
+      "title": "The Missing Link",
+      "roles": ["fighter", "tank"],
+      "difficulty": 2,
+      "comboCount": 4,
+      "thumbnail": "gnar.webp",
+      "tags": ["engage", "flash-combo", "trade", "wall-combo"]
+    },
+    {
+      "id": "gragas",
+      "name": "Gragas",
+      "title": "The Rabble Rouser",
+      "roles": ["fighter", "mage"],
+      "difficulty": 2,
+      "comboCount": 6,
+      "thumbnail": "gragas.webp",
+      "tags": ["burst", "flash-combo", "engage", "animation-cancel"]
+    },
+    {
+      "id": "graves",
+      "name": "Graves",
+      "title": "The Outlaw",
+      "roles": ["marksman"],
+      "difficulty": 2,
+      "comboCount": 10,
+      "thumbnail": "graves.webp",
+      "tags": ["burst", "animation-cancel", "all-in", "trade", "wall-combo"]
+    },
+    {
+      "id": "gwen",
+      "name": "Gwen",
+      "title": "The Hallowed Seamstress",
+      "roles": ["fighter"],
+      "difficulty": 2,
+      "comboCount": 9,
+      "thumbnail": "gwen.webp",
+      "tags": ["all-in", "animation-cancel", "trade", "burst"]
+    },
+    {
+      "id": "hecarim",
+      "name": "Hecarim",
+      "title": "The Shadow of War",
+      "roles": ["fighter", "tank"],
+      "difficulty": 2,
+      "comboCount": 4,
+      "thumbnail": "hecarim.webp",
+      "tags": ["engage", "all-in", "burst"]
+    },
+    {
+      "id": "heimerdinger",
+      "name": "Heimerdinger",
+      "title": "The Revered Inventor",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "heimerdinger.webp",
+      "tags": ["poke", "trade", "burst", "all-in"]
+    },
+    {
+      "id": "hwei",
+      "name": "Hwei",
+      "title": "The Visionary",
+      "roles": ["mage"],
+      "difficulty": 3,
+      "comboCount": 4,
+      "thumbnail": "hwei.webp",
+      "tags": ["poke", "burst", "trade", "engage"]
+    },
+    {
+      "id": "illaoi",
+      "name": "Illaoi",
+      "title": "The Kraken Priestess",
+      "roles": ["fighter", "tank"],
+      "difficulty": 2,
+      "comboCount": 6,
+      "thumbnail": "illaoi.webp",
+      "tags": ["all-in", "trade", "burst"]
+    },
+    {
+      "id": "irelia",
+      "name": "Irelia",
+      "title": "The Blade Dancer",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 3,
+      "comboCount": 6,
+      "thumbnail": "irelia.webp",
+      "tags": ["all-in", "animation-cancel", "reset", "trade"]
+    },
+    {
+      "id": "janna",
+      "name": "Janna",
+      "title": "The Storm's Fury",
+      "roles": ["support", "mage"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "janna.webp",
+      "tags": ["poke", "trade", "engage", "flash-combo"]
+    },
+    {
+      "id": "jarvan-iv",
+      "name": "Jarvan IV",
+      "title": "The Exemplar of Demacia",
+      "roles": ["tank", "fighter"],
+      "difficulty": 2,
+      "comboCount": 7,
+      "thumbnail": "jarvan-iv.webp",
+      "tags": ["engage", "all-in", "flash-combo", "burst"]
+    },
+    {
+      "id": "jax",
+      "name": "Jax",
+      "title": "Grandmaster at Arms",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 2,
+      "comboCount": 11,
+      "thumbnail": "jax.webp",
+      "tags": ["all-in", "animation-cancel", "trade", "burst", "reset"]
+    },
+    {
+      "id": "jayce",
+      "name": "Jayce",
+      "title": "The Defender of Tomorrow",
+      "roles": ["fighter", "marksman"],
+      "difficulty": 3,
+      "comboCount": 15,
+      "thumbnail": "jayce.webp",
+      "tags": ["poke", "burst", "animation-cancel", "all-in", "trade"]
+    },
+    {
+      "id": "jhin",
+      "name": "Jhin",
+      "title": "The Virtuoso",
+      "roles": ["marksman", "mage"],
+      "difficulty": 2,
+      "comboCount": 3,
+      "thumbnail": "jhin.webp",
+      "tags": ["poke", "burst", "trade"]
+    },
+    {
+      "id": "jinx",
+      "name": "Jinx",
+      "title": "The Loose Cannon",
+      "roles": ["marksman"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "jinx.webp",
+      "tags": ["poke", "trade", "burst", "reset"]
+    },
+    {
+      "id": "kaisa",
+      "name": "Kai'Sa",
+      "title": "Daughter of the Void",
+      "roles": ["marksman"],
+      "difficulty": 2,
+      "comboCount": 4,
+      "thumbnail": "kaisa.webp",
+      "tags": ["burst", "all-in", "trade"]
+    },
+    {
+      "id": "kalista",
+      "name": "Kalista",
+      "title": "The Spear of Vengeance",
+      "roles": ["marksman"],
+      "difficulty": 3,
+      "comboCount": 3,
+      "thumbnail": "kalista.webp",
+      "tags": ["trade", "all-in", "engage"]
+    },
+    {
+      "id": "karma",
+      "name": "Karma",
+      "title": "The Enlightened One",
+      "roles": ["mage", "support"],
+      "difficulty": 1,
+      "comboCount": 6,
+      "thumbnail": "karma.webp",
+      "tags": ["poke", "trade", "burst", "engage"]
+    },
+    {
+      "id": "kassadin",
+      "name": "Kassadin",
+      "title": "The Void Walker",
+      "roles": ["assassin", "mage"],
+      "difficulty": 2,
+      "comboCount": 4,
+      "thumbnail": "kassadin.webp",
+      "tags": ["burst", "all-in", "trade"]
+    },
+    {
+      "id": "katarina",
+      "name": "Katarina",
+      "title": "The Sinister Blade",
+      "roles": ["assassin", "mage"],
+      "difficulty": 3,
+      "comboCount": 7,
+      "thumbnail": "katarina.webp",
+      "tags": ["burst", "all-in", "reset", "animation-cancel"]
+    },
+    {
+      "id": "kayle",
+      "name": "Kayle",
+      "title": "The Righteous",
+      "roles": ["fighter", "marksman"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "kayle.webp",
+      "tags": ["trade", "burst", "all-in"]
+    },
+    {
+      "id": "kayn",
+      "name": "Kayn",
+      "title": "The Shadow Reaper",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 2,
+      "comboCount": 11,
+      "thumbnail": "kayn.webp",
+      "tags": ["all-in", "burst", "wall-combo", "animation-cancel", "trade"]
+    },
+    {
+      "id": "kennen",
+      "name": "Kennen",
+      "title": "The Heart of the Tempest",
+      "roles": ["mage", "marksman"],
+      "difficulty": 2,
+      "comboCount": 7,
+      "thumbnail": "kennen.webp",
+      "tags": ["engage", "flash-combo", "burst", "trade"]
+    },
+    {
+      "id": "khazix",
+      "name": "Kha'Zix",
+      "title": "The Voidreaver",
+      "roles": ["assassin"],
+      "difficulty": 2,
+      "comboCount": 3,
+      "thumbnail": "khazix.webp",
+      "tags": ["burst", "all-in", "reset"]
+    },
+    {
+      "id": "kindred",
+      "name": "Kindred",
+      "title": "The Eternal Hunters",
+      "roles": ["marksman"],
+      "difficulty": 2,
+      "comboCount": 3,
+      "thumbnail": "kindred.webp",
+      "tags": ["trade", "burst", "all-in"]
+    },
+    {
+      "id": "kled",
+      "name": "Kled",
+      "title": "The Cantankerous Cavalier",
+      "roles": ["fighter", "tank"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "kled.webp",
+      "tags": ["all-in", "engage", "animation-cancel", "trade"]
+    },
+    {
+      "id": "kogmaw",
+      "name": "Kog'Maw",
+      "title": "The Mouth of the Abyss",
+      "roles": ["marksman", "mage"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "kogmaw.webp",
+      "tags": ["poke", "trade", "burst"]
+    },
+    {
+      "id": "leblanc",
+      "name": "LeBlanc",
+      "title": "The Deceiver",
+      "roles": ["assassin", "mage"],
+      "difficulty": 3,
+      "comboCount": 7,
+      "thumbnail": "leblanc.webp",
+      "tags": ["burst", "trade", "all-in", "flash-combo"]
+    },
+    {
+      "id": "lee-sin",
+      "name": "Lee Sin",
+      "title": "The Blind Monk",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 3,
+      "comboCount": 10,
+      "thumbnail": "lee-sin.webp",
+      "tags": ["all-in", "animation-cancel", "flash-combo", "engage", "burst"]
+    },
+    {
+      "id": "leona",
+      "name": "Leona",
+      "title": "The Radiant Dawn",
+      "roles": ["tank", "support"],
+      "difficulty": 1,
+      "comboCount": 5,
+      "thumbnail": "leona.webp",
+      "tags": ["engage", "all-in", "flash-combo", "burst"]
+    },
+    {
+      "id": "lillia",
+      "name": "Lillia",
+      "title": "The Bashful Bloom",
+      "roles": ["fighter", "mage"],
+      "difficulty": 2,
+      "comboCount": 2,
+      "thumbnail": "lillia.webp",
+      "tags": ["poke", "engage", "flash-combo"]
+    },
+    {
+      "id": "lissandra",
+      "name": "Lissandra",
+      "title": "The Ice Witch",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 3,
+      "thumbnail": "lissandra.webp",
+      "tags": ["engage", "burst", "flash-combo", "trade"]
+    },
+    {
+      "id": "lucian",
+      "name": "Lucian",
+      "title": "The Purifier",
+      "roles": ["marksman"],
+      "difficulty": 2,
+      "comboCount": 9,
+      "thumbnail": "lucian.webp",
+      "tags": ["burst", "animation-cancel", "trade", "all-in"]
+    },
+    {
+      "id": "lulu",
+      "name": "Lulu",
+      "title": "The Fae Sorceress",
+      "roles": ["support", "mage"],
+      "difficulty": 2,
+      "comboCount": 4,
+      "thumbnail": "lulu.webp",
+      "tags": ["poke", "trade", "engage"]
+    },
+    {
+      "id": "lux",
+      "name": "Lux",
+      "title": "The Lady of Luminosity",
+      "roles": ["mage", "support"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "lux.webp",
+      "tags": ["poke", "burst", "trade"]
+    },
+    {
+      "id": "malphite",
+      "name": "Malphite",
+      "title": "Shard of the Monolith",
+      "roles": ["tank", "mage"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "malphite.webp",
+      "tags": ["engage", "flash-combo", "burst"]
+    },
+    {
+      "id": "malzahar",
+      "name": "Malzahar",
+      "title": "The Prophet of the Void",
+      "roles": ["mage", "assassin"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "malzahar.webp",
+      "tags": ["burst", "all-in", "trade"]
+    },
+    {
+      "id": "maokai",
+      "name": "Maokai",
+      "title": "The Twisted Treant",
+      "roles": ["tank", "mage"],
+      "difficulty": 1,
+      "comboCount": 4,
+      "thumbnail": "maokai.webp",
+      "tags": ["engage", "trade", "all-in"]
+    },
+    {
+      "id": "master-yi",
+      "name": "Master Yi",
+      "title": "The Wuju Bladesman",
+      "roles": ["assassin", "fighter"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "master-yi.webp",
+      "tags": ["all-in", "reset", "burst"]
+    },
+    {
+      "id": "mel",
+      "name": "Mel",
+      "title": "The Invoker",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "mel.webp",
+      "tags": ["poke", "burst", "trade", "all-in"]
+    },
+    {
+      "id": "mordekaiser",
+      "name": "Mordekaiser",
+      "title": "The Iron Revenant",
+      "roles": ["fighter"],
+      "difficulty": 2,
+      "comboCount": 8,
+      "thumbnail": "mordekaiser.webp",
+      "tags": ["all-in", "burst", "trade", "flash-combo"]
+    },
+    {
+      "id": "morgana",
+      "name": "Morgana",
+      "title": "The Fallen",
+      "roles": ["mage", "support"],
+      "difficulty": 1,
+      "comboCount": 5,
+      "thumbnail": "morgana.webp",
+      "tags": ["engage", "burst", "flash-combo", "trade"]
+    },
+    {
+      "id": "nami",
+      "name": "Nami",
+      "title": "The Tidecaller",
+      "roles": ["support", "mage"],
+      "difficulty": 1,
+      "comboCount": 1,
+      "thumbnail": "nami.webp",
+      "tags": ["poke", "trade", "engage"]
+    },
+    {
+      "id": "nasus",
+      "name": "Nasus",
+      "title": "The Curator of the Sands",
+      "roles": ["fighter", "tank"],
+      "difficulty": 1,
+      "comboCount": 2,
+      "thumbnail": "nasus.webp",
+      "tags": ["all-in", "trade"]
+    },
+    {
+      "id": "nautilus",
+      "name": "Nautilus",
+      "title": "The Titan of the Depths",
+      "roles": ["tank", "support"],
+      "difficulty": 1,
+      "comboCount": 2,
+      "thumbnail": "nautilus.webp",
+      "tags": ["engage", "all-in", "flash-combo"]
+    },
+    {
+      "id": "neeko",
+      "name": "Neeko",
+      "title": "The Curious Chameleon",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 8,
+      "thumbnail": "neeko.webp",
+      "tags": ["burst", "engage", "flash-combo", "trade"]
+    },
+    {
+      "id": "nidalee",
+      "name": "Nidalee",
+      "title": "The Bestial Huntress",
+      "roles": ["assassin", "mage"],
+      "difficulty": 3,
+      "comboCount": 1,
+      "thumbnail": "nidalee.webp",
+      "tags": ["poke", "burst", "all-in"]
+    },
+    {
+      "id": "nocturne",
+      "name": "Nocturne",
+      "title": "The Eternal Nightmare",
+      "roles": ["assassin", "fighter"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "nocturne.webp",
+      "tags": ["all-in", "burst", "engage"]
+    },
+    {
+      "id": "olaf",
+      "name": "Olaf",
+      "title": "The Berserker",
+      "roles": ["fighter", "tank"],
+      "difficulty": 1,
+      "comboCount": 5,
+      "thumbnail": "olaf.webp",
+      "tags": ["all-in", "trade", "engage"]
+    },
+    {
+      "id": "orianna",
+      "name": "Orianna",
+      "title": "The Lady of Clockwork",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "orianna.webp",
+      "tags": ["poke", "burst", "flash-combo", "engage", "trade"]
+    },
+    {
+      "id": "ornn",
+      "name": "Ornn",
+      "title": "The Fire Below the Mountain",
+      "roles": ["tank", "fighter"],
+      "difficulty": 2,
+      "comboCount": 9,
+      "thumbnail": "ornn.webp",
+      "tags": ["engage", "trade", "animation-cancel", "all-in", "wall-combo"]
+    },
+    {
+      "id": "pantheon",
+      "name": "Pantheon",
+      "title": "The Unbreakable Spear",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 2,
+      "comboCount": 11,
+      "thumbnail": "pantheon.webp",
+      "tags": ["all-in", "burst", "trade", "animation-cancel", "flash-combo"]
+    },
+    {
+      "id": "poppy",
+      "name": "Poppy",
+      "title": "Keeper of the Hammer",
+      "roles": ["tank", "fighter"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "poppy.webp",
+      "tags": ["engage", "wall-combo", "trade", "flash-combo"]
+    },
+    {
+      "id": "pyke",
+      "name": "Pyke",
+      "title": "The Bloodharbor Ripper",
+      "roles": ["support", "assassin"],
+      "difficulty": 3,
+      "comboCount": 9,
+      "thumbnail": "pyke.webp",
+      "tags": ["engage", "burst", "flash-combo", "all-in", "reset"]
+    },
+    {
+      "id": "qiyana",
+      "name": "Qiyana",
+      "title": "Empress of the Elements",
+      "roles": ["assassin", "fighter"],
+      "difficulty": 3,
+      "comboCount": 5,
+      "thumbnail": "qiyana.webp",
+      "tags": ["burst", "all-in", "animation-cancel", "wall-combo"]
+    },
+    {
+      "id": "quinn",
+      "name": "Quinn",
+      "title": "Demacia's Wings",
+      "roles": ["marksman", "assassin"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "quinn.webp",
+      "tags": ["trade", "burst", "all-in"]
+    },
+    {
+      "id": "rakan",
+      "name": "Rakan",
+      "title": "The Charmer",
+      "roles": ["support"],
+      "difficulty": 2,
+      "comboCount": 6,
+      "thumbnail": "rakan.webp",
+      "tags": ["engage", "flash-combo", "all-in", "burst"]
+    },
+    {
+      "id": "rammus",
+      "name": "Rammus",
+      "title": "The Armordillo",
+      "roles": ["tank", "fighter"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "rammus.webp",
+      "tags": ["engage", "all-in", "flash-combo"]
+    },
+    {
+      "id": "reksai",
+      "name": "Rek'Sai",
+      "title": "The Void Burrower",
+      "roles": ["fighter"],
+      "difficulty": 2,
+      "comboCount": 4,
+      "thumbnail": "reksai.webp",
+      "tags": ["all-in", "burst", "engage", "animation-cancel"]
+    },
+    {
+      "id": "rell",
+      "name": "Rell",
+      "title": "The Iron Maiden",
+      "roles": ["tank", "support"],
+      "difficulty": 2,
+      "comboCount": 10,
+      "thumbnail": "rell.webp",
+      "tags": ["engage", "flash-combo", "all-in", "animation-cancel"]
+    },
+    {
+      "id": "renekton",
+      "name": "Renekton",
+      "title": "The Butcher of the Sands",
+      "roles": ["fighter", "tank"],
+      "difficulty": 2,
+      "comboCount": 13,
+      "thumbnail": "renekton.webp",
+      "tags": ["all-in", "animation-cancel", "trade", "burst", "flash-combo"]
+    },
+    {
+      "id": "rengar",
+      "name": "Rengar",
+      "title": "The Pridestalker",
+      "roles": ["assassin", "fighter"],
+      "difficulty": 3,
+      "comboCount": 6,
+      "thumbnail": "rengar.webp",
+      "tags": ["burst", "all-in", "animation-cancel", "reset"]
+    },
+    {
+      "id": "riven",
+      "name": "Riven",
+      "title": "The Exile",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 3,
+      "comboCount": 14,
+      "thumbnail": "riven.webp",
+      "tags": ["all-in", "animation-cancel", "trade", "burst", "flash-combo", "wall-combo"]
+    },
+    {
+      "id": "rumble",
+      "name": "Rumble",
+      "title": "The Mechanized Menace",
+      "roles": ["fighter", "mage"],
+      "difficulty": 2,
+      "comboCount": 2,
+      "thumbnail": "rumble.webp",
+      "tags": ["trade", "all-in", "burst"]
+    },
+    {
+      "id": "ryze",
+      "name": "Ryze",
+      "title": "The Rune Mage",
+      "roles": ["mage", "fighter"],
+      "difficulty": 3,
+      "comboCount": 6,
+      "thumbnail": "ryze.webp",
+      "tags": ["burst", "trade", "all-in", "animation-cancel"]
+    },
+    {
+      "id": "samira",
+      "name": "Samira",
+      "title": "The Desert Rose",
+      "roles": ["marksman"],
+      "difficulty": 3,
+      "comboCount": 6,
+      "thumbnail": "samira.webp",
+      "tags": ["all-in", "burst", "animation-cancel", "reset"]
+    },
+    {
+      "id": "sejuani",
+      "name": "Sejuani",
+      "title": "Fury of the North",
+      "roles": ["tank", "fighter"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "sejuani.webp",
+      "tags": ["engage", "all-in", "flash-combo"]
+    },
+    {
+      "id": "senna",
+      "name": "Senna",
+      "title": "The Redeemer",
+      "roles": ["marksman", "support"],
+      "difficulty": 2,
+      "comboCount": 9,
+      "thumbnail": "senna.webp",
+      "tags": ["poke", "trade", "burst", "all-in"]
+    },
+    {
+      "id": "seraphine",
+      "name": "Seraphine",
+      "title": "The Starry-Eyed Songstress",
+      "roles": ["mage", "support"],
+      "difficulty": 1,
+      "comboCount": 7,
+      "thumbnail": "seraphine.webp",
+      "tags": ["poke", "engage", "burst", "trade"]
+    },
+    {
+      "id": "sett",
+      "name": "Sett",
+      "title": "The Boss",
+      "roles": ["fighter", "tank"],
+      "difficulty": 2,
+      "comboCount": 8,
+      "thumbnail": "sett.webp",
+      "tags": ["all-in", "flash-combo", "animation-cancel", "trade", "burst"]
+    },
+    {
+      "id": "shaco",
+      "name": "Shaco",
+      "title": "The Demon Jester",
+      "roles": ["assassin"],
+      "difficulty": 2,
+      "comboCount": 4,
+      "thumbnail": "shaco.webp",
+      "tags": ["burst", "all-in", "trade"]
+    },
+    {
+      "id": "shen",
+      "name": "Shen",
+      "title": "The Eye of Twilight",
+      "roles": ["tank"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "shen.webp",
+      "tags": ["trade", "engage", "flash-combo", "all-in"]
+    },
+    {
+      "id": "shyvana",
+      "name": "Shyvana",
+      "title": "The Half-Dragon",
+      "roles": ["fighter", "tank"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "shyvana.webp",
+      "tags": ["all-in", "burst", "engage"]
+    },
+    {
+      "id": "singed",
+      "name": "Singed",
+      "title": "The Mad Chemist",
+      "roles": ["tank", "mage"],
+      "difficulty": 2,
+      "comboCount": 2,
+      "thumbnail": "singed.webp",
+      "tags": ["engage", "trade", "flash-combo"]
+    },
+    {
+      "id": "sion",
+      "name": "Sion",
+      "title": "The Undead Juggernaut",
+      "roles": ["tank", "fighter"],
+      "difficulty": 1,
+      "comboCount": 2,
+      "thumbnail": "sion.webp",
+      "tags": ["engage", "flash-combo", "burst"]
+    },
+    {
+      "id": "sivir",
+      "name": "Sivir",
+      "title": "The Battle Mistress",
+      "roles": ["marksman"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "sivir.webp",
+      "tags": ["poke", "trade", "burst"]
+    },
+    {
+      "id": "skarner",
+      "name": "Skarner",
+      "title": "The Primordial Sovereign",
+      "roles": ["fighter", "tank"],
+      "difficulty": 2,
+      "comboCount": 7,
+      "thumbnail": "skarner.webp",
+      "tags": ["engage", "flash-combo", "all-in", "trade"]
+    },
+    {
+      "id": "smolder",
+      "name": "Smolder",
+      "title": "The Fiery Fledgling",
+      "roles": ["marksman"],
+      "difficulty": 1,
+      "comboCount": 4,
+      "thumbnail": "smolder.webp",
+      "tags": ["poke", "trade", "burst"]
+    },
+    {
+      "id": "sona",
+      "name": "Sona",
+      "title": "Maven of the Strings",
+      "roles": ["support", "mage"],
+      "difficulty": 1,
+      "comboCount": 1,
+      "thumbnail": "sona.webp",
+      "tags": ["poke", "trade", "engage"]
+    },
+    {
+      "id": "soraka",
+      "name": "Soraka",
+      "title": "The Starchild",
+      "roles": ["support", "mage"],
+      "difficulty": 1,
+      "comboCount": 2,
+      "thumbnail": "soraka.webp",
+      "tags": ["poke", "trade"]
+    },
+    {
+      "id": "swain",
+      "name": "Swain",
+      "title": "The Noxian Grand General",
+      "roles": ["mage", "fighter"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "swain.webp",
+      "tags": ["burst", "all-in", "engage", "trade"]
+    },
+    {
+      "id": "sylas",
+      "name": "Sylas",
+      "title": "The Unshackled",
+      "roles": ["mage", "assassin"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "sylas.webp",
+      "tags": ["burst", "all-in", "trade", "animation-cancel"]
+    },
+    {
+      "id": "syndra",
+      "name": "Syndra",
+      "title": "The Dark Sovereign",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "syndra.webp",
+      "tags": ["burst", "poke", "trade", "flash-combo"]
+    },
+    {
+      "id": "taliyah",
+      "name": "Taliyah",
+      "title": "The Stoneweaver",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 6,
+      "thumbnail": "taliyah.webp",
+      "tags": ["burst", "poke", "wall-combo", "trade"]
+    },
+    {
+      "id": "talon",
+      "name": "Talon",
+      "title": "The Blade's Shadow",
+      "roles": ["assassin"],
+      "difficulty": 2,
+      "comboCount": 10,
+      "thumbnail": "talon.webp",
+      "tags": ["burst", "all-in", "animation-cancel", "wall-combo", "trade"]
+    },
+    {
+      "id": "taric",
+      "name": "Taric",
+      "title": "The Shield of Valoran",
+      "roles": ["support", "fighter"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "taric.webp",
+      "tags": ["engage", "trade", "all-in"]
+    },
+    {
+      "id": "teemo",
+      "name": "Teemo",
+      "title": "The Swift Scout",
+      "roles": ["marksman", "assassin"],
+      "difficulty": 1,
+      "comboCount": 1,
+      "thumbnail": "teemo.webp",
+      "tags": ["poke", "trade"]
+    },
+    {
+      "id": "thresh",
+      "name": "Thresh",
+      "title": "The Chain Warden",
+      "roles": ["support", "fighter"],
+      "difficulty": 3,
+      "comboCount": 7,
+      "thumbnail": "thresh.webp",
+      "tags": ["engage", "flash-combo", "trade", "all-in"]
+    },
+    {
+      "id": "udyr",
+      "name": "Udyr",
+      "title": "The Spirit Walker",
+      "roles": ["fighter", "tank"],
+      "difficulty": 1,
+      "comboCount": 4,
+      "thumbnail": "udyr.webp",
+      "tags": ["all-in", "engage", "trade"]
+    },
+    {
+      "id": "urgot",
+      "name": "Urgot",
+      "title": "The Dreadnought",
+      "roles": ["fighter", "tank"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "urgot.webp",
+      "tags": ["all-in", "trade", "flash-combo", "burst"]
+    },
+    {
+      "id": "varus",
+      "name": "Varus",
+      "title": "The Arrow of Retribution",
+      "roles": ["marksman", "mage"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "varus.webp",
+      "tags": ["poke", "burst", "engage"]
+    },
+    {
+      "id": "vayne",
+      "name": "Vayne",
+      "title": "The Night Hunter",
+      "roles": ["marksman", "assassin"],
+      "difficulty": 2,
+      "comboCount": 3,
+      "thumbnail": "vayne.webp",
+      "tags": ["trade", "all-in", "wall-combo", "animation-cancel"]
+    },
+    {
+      "id": "veigar",
+      "name": "Veigar",
+      "title": "The Tiny Master of Evil",
+      "roles": ["mage"],
+      "difficulty": 1,
+      "comboCount": 5,
+      "thumbnail": "veigar.webp",
+      "tags": ["burst", "trade", "poke"]
+    },
+    {
+      "id": "velkoz",
+      "name": "Vel'Koz",
+      "title": "The Eye of the Void",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 3,
+      "thumbnail": "velkoz.webp",
+      "tags": ["poke", "burst", "trade"]
+    },
+    {
+      "id": "vex",
+      "name": "Vex",
+      "title": "The Gloomist",
+      "roles": ["mage"],
+      "difficulty": 1,
+      "comboCount": 2,
+      "thumbnail": "vex.webp",
+      "tags": ["burst", "all-in", "engage"]
+    },
+    {
+      "id": "vi",
+      "name": "Vi",
+      "title": "The Piltover Enforcer",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 2,
+      "comboCount": 7,
+      "thumbnail": "vi.webp",
+      "tags": ["all-in", "burst", "engage", "flash-combo", "animation-cancel"]
+    },
+    {
+      "id": "viego",
+      "name": "Viego",
+      "title": "The Ruined King",
+      "roles": ["assassin", "fighter"],
+      "difficulty": 2,
+      "comboCount": 3,
+      "thumbnail": "viego.webp",
+      "tags": ["all-in", "burst", "reset"]
+    },
+    {
+      "id": "viktor",
+      "name": "Viktor",
+      "title": "The Machine Herald",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 1,
+      "thumbnail": "viktor.webp",
+      "tags": ["poke", "burst", "trade"]
+    },
+    {
+      "id": "vladimir",
+      "name": "Vladimir",
+      "title": "The Crimson Reaper",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 4,
+      "thumbnail": "vladimir.webp",
+      "tags": ["burst", "all-in", "flash-combo", "trade"]
+    },
+    {
+      "id": "volibear",
+      "name": "Volibear",
+      "title": "The Relentless Storm",
+      "roles": ["fighter", "tank"],
+      "difficulty": 1,
+      "comboCount": 4,
+      "thumbnail": "volibear.webp",
+      "tags": ["all-in", "engage", "trade"]
+    },
+    {
+      "id": "warwick",
+      "name": "Warwick",
+      "title": "The Uncaged Wrath of Zaun",
+      "roles": ["fighter", "tank"],
+      "difficulty": 1,
+      "comboCount": 5,
+      "thumbnail": "warwick.webp",
+      "tags": ["all-in", "engage", "trade"]
+    },
+    {
+      "id": "wukong",
+      "name": "Wukong",
+      "title": "The Monkey King",
+      "roles": ["fighter", "tank"],
+      "difficulty": 2,
+      "comboCount": 7,
+      "thumbnail": "wukong.webp",
+      "tags": ["all-in", "engage", "animation-cancel", "burst", "trade"]
+    },
+    {
+      "id": "xayah",
+      "name": "Xayah",
+      "title": "The Rebel",
+      "roles": ["marksman"],
+      "difficulty": 2,
+      "comboCount": 4,
+      "thumbnail": "xayah.webp",
+      "tags": ["burst", "trade", "all-in"]
+    },
+    {
+      "id": "xerath",
+      "name": "Xerath",
+      "title": "The Magus Ascendant",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 3,
+      "thumbnail": "xerath.webp",
+      "tags": ["poke", "burst", "trade"]
+    },
+    {
+      "id": "yasuo",
+      "name": "Yasuo",
+      "title": "The Unforgiven",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 3,
+      "comboCount": 12,
+      "thumbnail": "yasuo.webp",
+      "tags": ["all-in", "animation-cancel", "burst", "trade", "flash-combo", "wall-combo"]
+    },
+    {
+      "id": "yone",
+      "name": "Yone",
+      "title": "The Unforgotten",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 2,
+      "comboCount": 7,
+      "thumbnail": "yone.webp",
+      "tags": ["all-in", "burst", "trade", "animation-cancel", "flash-combo"]
+    },
+    {
+      "id": "yorick",
+      "name": "Yorick",
+      "title": "Shepherd of Souls",
+      "roles": ["fighter", "tank"],
+      "difficulty": 1,
+      "comboCount": 3,
+      "thumbnail": "yorick.webp",
+      "tags": ["all-in", "trade", "wall-combo"]
+    },
+    {
+      "id": "yuumi",
+      "name": "Yuumi",
+      "title": "The Magical Cat",
+      "roles": ["support", "mage"],
+      "difficulty": 1,
+      "comboCount": 2,
+      "thumbnail": "yuumi.webp",
+      "tags": ["poke", "trade"]
+    },
+    {
+      "id": "zac",
+      "name": "Zac",
+      "title": "The Secret Weapon",
+      "roles": ["tank", "fighter"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "zac.webp",
+      "tags": ["engage", "flash-combo", "all-in"]
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "title": "The Master of Shadows",
+      "roles": ["assassin"],
+      "difficulty": 3,
+      "comboCount": 14,
+      "thumbnail": "zed.webp",
+      "tags": ["burst", "all-in", "animation-cancel", "trade", "flash-combo"]
+    },
+    {
+      "id": "ziggs",
+      "name": "Ziggs",
+      "title": "The Hexplosives Expert",
+      "roles": ["mage"],
+      "difficulty": 2,
+      "comboCount": 4,
+      "thumbnail": "ziggs.webp",
+      "tags": ["poke", "burst", "trade"]
+    },
+    {
+      "id": "zilean",
+      "name": "Zilean",
+      "title": "The Chronokeeper",
+      "roles": ["support", "mage"],
+      "difficulty": 2,
+      "comboCount": 5,
+      "thumbnail": "zilean.webp",
+      "tags": ["poke", "burst", "trade", "engage"]
+    },
+    {
+      "id": "zoe",
+      "name": "Zoe",
+      "title": "The Aspect of Twilight",
+      "roles": ["mage"],
+      "difficulty": 3,
+      "comboCount": 5,
+      "thumbnail": "zoe.webp",
+      "tags": ["burst", "poke", "trade"]
+    },
+    {
+      "id": "zyra",
+      "name": "Zyra",
+      "title": "Rise of the Thorns",
+      "roles": ["mage", "support"],
+      "difficulty": 2,
+      "comboCount": 6,
+      "thumbnail": "zyra.webp",
+      "tags": ["poke", "burst", "engage", "trade"]
+    }
+  ]
+}

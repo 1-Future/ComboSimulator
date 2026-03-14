@@ -1,0 +1,41 @@
+name: Sync Videos to R2
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type "sync" to confirm video upload to R2'
+        required: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    if: github.event.inputs.confirm == 'sync'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Install rclone
+        run: |
+          curl https://rclone.org/install.sh | sudo bash
+
+      - name: Configure rclone for R2
+        run: |
+          mkdir -p ~/.config/rclone
+          cat > ~/.config/rclone/rclone.conf << EOF
+          [r2]
+          type = s3
+          provider = Cloudflare
+          access_key_id = ${{ secrets.R2_ACCESS_KEY_ID }}
+          secret_access_key = ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          endpoint = https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          acl = private
+          EOF
+
+      - name: Sync videos to R2
+        run: |
+          rclone sync ./videos r2:combo-simulator-videos \
+            --progress \
+            --include "*.mp4" \
+            --transfers 8

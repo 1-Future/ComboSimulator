@@ -1,0 +1,19 @@
+name: Feature Request
+description: Suggest a feature for ComboSimulator
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature
+      placeholder: A clear description of the feature you'd like
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this useful?
+      placeholder: Who benefits from this feature?
+    validations:
+      required: true

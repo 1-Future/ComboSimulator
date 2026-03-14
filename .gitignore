@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+*.local
+
+# Videos (hosted on R2, not in Git)
+videos/
+!videos/.gitkeep
+
+# Old backup files from prototype
+*.bak
+
+# Test
+coverage/
+test-results/
+playwright-report/
+
+# Build cache
+*.tsbuildinfo

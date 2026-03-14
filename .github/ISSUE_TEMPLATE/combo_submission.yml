@@ -1,0 +1,43 @@
+name: Combo Submission
+description: Submit timing data for a champion combo
+title: "[Combo]: {Champion} - {Combo Name}"
+labels: ["combo-data"]
+body:
+  - type: input
+    id: champion
+    attributes:
+      label: Champion
+      placeholder: e.g., Yasuo
+    validations:
+      required: true
+  - type: input
+    id: combo-name
+    attributes:
+      label: Combo Name
+      placeholder: e.g., Keyblade Combo
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - beginner
+        - intermediate
+        - advanced
+        - expert
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Combo Inputs (JSON)
+      description: Paste the combo JSON data from the in-app editor
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: tips
+    attributes:
+      label: Tips
+      placeholder: Any tips for executing this combo?

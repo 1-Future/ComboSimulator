@@ -1,0 +1,132 @@
+{
+  "championId": "yasuo",
+  "patch": "14.24",
+  "lastVerified": "2026-03-01",
+  "combos": [
+    {
+      "id": "keyblade",
+      "name": "Keyblade Combo",
+      "description": "EQ Flash + Auto + R — the signature Yasuo play",
+      "difficulty": "expert",
+      "category": "signature",
+      "tags": ["flash-combo", "all-in", "animation-cancel"],
+      "video": {
+        "filename": "Yasuo/Yasuo qeqwaeqfaeqraq.mp4",
+        "duration": 6.0,
+        "fps": 60
+      },
+      "inputs": [
+        { "key": "E", "time": 0.40, "label": "E (dash)", "window": 100, "action": "spell3" },
+        { "key": "Q", "time": 0.55, "label": "Q (tornado)", "window": 80, "action": "spell1" },
+        { "key": "F", "time": 0.58, "label": "Flash", "window": 60, "action": "summoner2" },
+        { "key": "A", "time": 1.10, "label": "Auto Attack", "window": 120, "action": "autoattack" },
+        { "key": "R", "time": 1.35, "label": "Last Breath", "window": 150, "action": "spell4" }
+      ],
+      "tips": [
+        "E and Q should be near-simultaneous",
+        "Flash immediately after Q to redirect the tornado",
+        "Wait for the auto attack to land before R"
+      ]
+    },
+    {
+      "id": "beyblade",
+      "name": "Beyblade Combo",
+      "description": "EQ Flash — a faster, simpler version of the Keyblade",
+      "difficulty": "advanced",
+      "category": "all-in",
+      "tags": ["flash-combo", "engage"],
+      "video": {
+        "filename": "Yasuo/Yasuo qqeqaeqraq.mp4",
+        "duration": 5.0,
+        "fps": 60
+      },
+      "inputs": [
+        { "key": "Q", "time": 0.30, "label": "Q (first stack)", "window": 100, "action": "spell1" },
+        { "key": "Q", "time": 0.80, "label": "Q (second stack)", "window": 100, "action": "spell1" },
+        { "key": "E", "time": 1.20, "label": "E (dash to target)", "window": 80, "action": "spell3" },
+        { "key": "Q", "time": 1.35, "label": "EQ (spin)", "window": 80, "action": "spell1" },
+        { "key": "R", "time": 1.80, "label": "Last Breath", "window": 150, "action": "spell4" }
+      ],
+      "tips": [
+        "Stack Q twice before engaging",
+        "E to a minion near the target, then Q during E dash",
+        "R immediately after the knockup"
+      ]
+    },
+    {
+      "id": "airblade-low",
+      "name": "Airblade (Low CD)",
+      "description": "Air Blade with low cooldown — works with certain items",
+      "difficulty": "expert",
+      "category": "animation-cancel",
+      "tags": ["animation-cancel", "all-in"],
+      "video": {
+        "filename": "Yasuo/Yasuo qqeqarqa.mp4",
+        "duration": 5.0,
+        "fps": 60
+      },
+      "inputs": [
+        { "key": "Q", "time": 0.30, "label": "Q (first stack)", "window": 100, "action": "spell1" },
+        { "key": "Q", "time": 0.80, "label": "Q (second stack)", "window": 100, "action": "spell1" },
+        { "key": "E", "time": 1.20, "label": "E (dash)", "window": 80, "action": "spell3" },
+        { "key": "Q", "time": 1.35, "label": "EQ (knockup)", "window": 80, "action": "spell1" },
+        { "key": "A", "time": 1.50, "label": "Auto Attack", "window": 100, "action": "autoattack" },
+        { "key": "R", "time": 1.70, "label": "Last Breath", "window": 120, "action": "spell4" }
+      ],
+      "tips": [
+        "Notice the items — this requires low Q cooldown",
+        "The auto attack must land before pressing R",
+        "Timing the EQ during the dash is critical"
+      ]
+    },
+    {
+      "id": "airblade-med",
+      "name": "Airblade (Med CD)",
+      "description": "Air Blade with medium cooldown range",
+      "difficulty": "advanced",
+      "category": "animation-cancel",
+      "tags": ["animation-cancel", "all-in"],
+      "video": {
+        "filename": "Yasuo/Yasuo qqqeqraqa.mp4",
+        "duration": 5.5,
+        "fps": 60
+      },
+      "inputs": [
+        { "key": "Q", "time": 0.30, "label": "Q (first stack)", "window": 100, "action": "spell1" },
+        { "key": "Q", "time": 0.80, "label": "Q (second stack)", "window": 100, "action": "spell1" },
+        { "key": "Q", "time": 1.30, "label": "Q (tornado)", "window": 100, "action": "spell1" },
+        { "key": "E", "time": 1.70, "label": "E (dash)", "window": 80, "action": "spell3" },
+        { "key": "Q", "time": 1.85, "label": "EQ (extra damage)", "window": 80, "action": "spell1" },
+        { "key": "R", "time": 2.10, "label": "Last Breath", "window": 120, "action": "spell4" }
+      ],
+      "tips": [
+        "Medium CD means slightly slower Q stacking",
+        "The key is fitting EQ before the knockup ends",
+        "R cancels your Q animation for extra damage"
+      ]
+    },
+    {
+      "id": "airblade-high",
+      "name": "Airblade (Max Range)",
+      "description": "Air Blade at maximum range — the hardest variant",
+      "difficulty": "expert",
+      "category": "animation-cancel",
+      "tags": ["animation-cancel", "all-in", "max-range"],
+      "video": {
+        "filename": "Yasuo/Yasuo E  Q  Flash.mp4",
+        "duration": 4.0,
+        "fps": 60
+      },
+      "inputs": [
+        { "key": "E", "time": 0.40, "label": "E (long dash)", "window": 80, "action": "spell3" },
+        { "key": "Q", "time": 0.55, "label": "Q (during dash)", "window": 60, "action": "spell1" },
+        { "key": "F", "time": 0.60, "label": "Flash (redirect)", "window": 50, "action": "summoner2" }
+      ],
+      "tips": [
+        "This requires maximum range E target",
+        "Q must be pressed during the E dash animation",
+        "Flash redirects the Q hitbox to the target"
+      ]
+    }
+  ]
+}
