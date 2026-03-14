@@ -155,18 +155,16 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
           }
         }
 
-        // Hit flash
+        // Hit flash — brief glow on the circle, no outward ring
         if (isHit) {
           const hitData = hits.find((h) => h.stepIndex === i)
-          if (hitData && now - hitData.actualTime < 300) {
-            const flashProgress = (now - hitData.actualTime) / 300
-            const flashR = noteRadius + flashProgress * 25
+          if (hitData && now - hitData.actualTime < 200) {
+            const flashProgress = (now - hitData.actualTime) / 200
             ctx.beginPath()
-            ctx.arc(cx, cy, flashR, 0, Math.PI * 2)
-            ctx.strokeStyle = color
-            ctx.lineWidth = 3
-            ctx.globalAlpha = 1 - flashProgress
-            ctx.stroke()
+            ctx.arc(cx, cy, noteRadius, 0, Math.PI * 2)
+            ctx.fillStyle = color
+            ctx.globalAlpha = 0.4 * (1 - flashProgress)
+            ctx.fill()
             ctx.globalAlpha = 1
           }
         }
