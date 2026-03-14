@@ -74,7 +74,6 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
     if (!ctx) return
 
     const hitGradesMap = new Map(hits.map((h) => [h.stepIndex, h.grade as Grade]))
-    const approachDuration = 1200 / speed
     const noteRadius = 16
     const rowYOffsets = [0.78, 0.48, 0.18] // fraction from top for each stagger row
 
