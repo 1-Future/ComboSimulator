@@ -19,6 +19,18 @@ import { GRADE_COLORS } from '@/lib/constants'
 import type { ComboInput } from '@/types/combo'
 import type { Grade } from '@/types/engine'
 
+function SectionToggle({ label, visible, onToggle }: { label: string; visible: boolean; onToggle: () => void }) {
+  return (
+    <button
+      onClick={onToggle}
+      className="flex items-center gap-1 text-[10px] text-slate-500 hover:text-slate-300"
+    >
+      <span className={`transition-transform ${visible ? '' : '-rotate-90'}`}>&#x25BE;</span>
+      {label}
+    </button>
+  )
+}
+
 const SPEEDS = [0.5, 0.75, 1.0]
 const DIFFICULTIES: Array<{ value: 'easy' | 'normal' | 'strict'; label: string }> = [
   { value: 'easy', label: 'Easy' },
@@ -105,8 +117,10 @@ export function ComboPlayer() {
   const mappingDoneRef = useRef(false)
   const [editingStep, setEditingStep] = useState<number | null>(null)
   const [editFrame, setEditFrame] = useState<string | null>(null)
-  const [barDetached, setBarDetached] = useState(false)
-  const [barPosition, setBarPosition] = useState<'top' | 'inline'>('inline')
+  const [showTimeline, setShowTimeline] = useState(true)
+  const [showEarlyLate, setShowEarlyLate] = useState(true)
+  const [showComboSteps, setShowComboSteps] = useState(true)
+  const [showStats, setShowStats] = useState(true)
   const { getDisplayKey, getKeyboardKey, getGamepadButton, activeDevice } = useDisplayKey()
   const isMobile = useMediaQuery('(max-width: 768px)') || ('ontouchstart' in window && navigator.maxTouchPoints > 0)
 
@@ -414,55 +428,22 @@ export function ComboPlayer() {
 
       {!needsMapping && (
         <>
-          {/* Timing Bar — detachable glass panel */}
-          <div
-            className={
-              barDetached
-                ? 'fixed left-0 right-0 z-40 mx-auto max-w-4xl px-4 ' +
-                  (barPosition === 'top' ? 'top-14' : 'bottom-4')
-                : ''
-            }
-          >
-            <div
-              className={
-                barDetached
-                  ? 'rounded-xl border border-white/10 bg-slate-900/70 p-1.5 shadow-2xl backdrop-blur-xl'
-                  : ''
-              }
-            >
-              {/* Detach/pin controls */}
-              <div className="flex items-center justify-end gap-1 py-0.5">
-                {barDetached && (
-                  <button
-                    onClick={() => setBarPosition(barPosition === 'top' ? 'inline' : 'top')}
-                    className="rounded p-0.5 text-[10px] text-slate-500 hover:text-white"
-                    title={barPosition === 'top' ? 'Move to bottom' : 'Move to top'}
-                  >
-                    {barPosition === 'top' ? '\u2193' : '\u2191'}
-                  </button>
-                )}
-                <button
-                  onClick={() => {
-                    setBarDetached(!barDetached)
-                    if (!barDetached) setBarPosition('top')
-                  }}
-                  className="rounded p-0.5 text-[10px] text-slate-500 hover:text-white"
-                  title={barDetached ? 'Dock timeline' : 'Detach timeline'}
-                >
-                  {barDetached ? '\u{1F4CC}' : '\u29C9'}
-                </button>
-              </div>
-              <TimingOverlay inputs={selectedCombo.inputs} />
-              <EarlyLateIndicator />
-            </div>
+          {/* Section toggles */}
+          <div className="mt-1 flex items-center gap-3 border-b border-slate-800 pb-1">
+            <SectionToggle label="Timeline" visible={showTimeline} onToggle={() => setShowTimeline(!showTimeline)} />
+            <SectionToggle label="Early/Late" visible={showEarlyLate} onToggle={() => setShowEarlyLate(!showEarlyLate)} />
+            {!isMobile && <SectionToggle label="Keys" visible={showComboSteps} onToggle={() => setShowComboSteps(!showComboSteps)} />}
+            {!isMobile && <SectionToggle label="Stats" visible={showStats} onToggle={() => setShowStats(!showStats)} />}
           </div>
-          {/* Spacer when detached so content doesn't jump */}
-          {barDetached && <div className="h-32" />}
 
+          {/* Timeline */}
+          {showTimeline && <TimingOverlay inputs={selectedCombo.inputs} />}
+
+          {/* Early/Late */}
+          {showEarlyLate && <EarlyLateIndicator />}
 
           {/* Combo Steps — keyboard + gamepad rows (desktop only) */}
-          {!isMobile && <>
-          {/* Combo Steps */}
+          {!isMobile && showComboSteps && <>
           <div className="mt-3 space-y-2">
             {/* Keyboard row */}
             <div className={activeDevice === 'keyboard' ? 'opacity-100' : 'opacity-40'}>
@@ -615,8 +596,8 @@ export function ComboPlayer() {
           </div>
           </>}
 
-          {/* Stats — compact on mobile */}
-          {!isMobile && <StatsPanel />}
+          {/* Stats */}
+          {!isMobile && showStats && <StatsPanel />}
         </>
       )}
     </div>
