@@ -12,7 +12,6 @@ interface TimingOverlayProps {
 }
 
 export function TimingOverlay({ inputs }: TimingOverlayProps) {
-  const markerRef = useRef<HTMLDivElement>(null)
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
   const rafRef = useRef<number>(0)
@@ -35,35 +34,37 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
     return { rangeStart: rs, rangeDuration: re - rs }
   }, [inputs, videoDuration])
 
-  const timeToPercent = useCallback(
+  const timeToFraction = useCallback(
     (time: number) => {
       if (rangeDuration <= 0) return 0
-      return ((time - rangeStart) / rangeDuration) * 100
+      return (time - rangeStart) / rangeDuration
     },
     [rangeStart, rangeDuration],
   )
 
-  // Label staggering
+  // Stagger rows for overlapping labels
   const labelRows = useMemo(() => {
-    const percents = inputs.map((input) => timeToPercent(input.time))
+    const fracs = inputs.map((input) => timeToFraction(input.time))
     const rows: number[] = new Array(inputs.length).fill(0)
-    const minGap = 4
+    const minGap = 0.04
 
-    for (let i = 1; i < percents.length; i++) {
-      const prevPercent = percents[i - 1]!
-      const currPercent = percents[i]!
+    for (let i = 1; i < fracs.length; i++) {
+      const prev = fracs[i - 1]!
+      const curr = fracs[i]!
       const prevRow = rows[i - 1]!
-
-      if (Math.abs(currPercent - prevPercent) < minGap) {
+      if (Math.abs(curr - prev) < minGap) {
         rows[i] = (prevRow + 1) % 3
       } else {
         rows[i] = 0
       }
     }
     return rows
-  }, [inputs, timeToPercent])
+  }, [inputs, timeToFraction])
 
-  // Unified rAF loop — updates marker + draws approach rings on canvas
+  // Pre-compute display keys (can't call hook inside rAF)
+  const displayKeys = useMemo(() => inputs.map((i) => getDisplayKey(i)), [inputs, getDisplayKey])
+
+  // All rendering on canvas
   useEffect(() => {
     const canvas = canvasRef.current
     const container = containerRef.current
@@ -72,54 +73,72 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
     const ctx = canvas.getContext('2d')
     if (!ctx) return
 
+    const hitGradesMap = new Map(hits.map((h) => [h.stepIndex, h.grade as Grade]))
     const approachDuration = 1200 / speed
+    const noteRadius = 16
+    const rowYOffsets = [0.78, 0.48, 0.18] // fraction from top for each stagger row
 
     function tick() {
       if (!ctx || !canvas || !container) return
 
-      // Size canvas to match container
       const rect = container.getBoundingClientRect()
       const dpr = window.devicePixelRatio || 1
-      if (canvas.width !== rect.width * dpr || canvas.height !== rect.height * dpr) {
-        canvas.width = rect.width * dpr
-        canvas.height = rect.height * dpr
-        ctx.scale(dpr, dpr)
+      if (canvas.width !== Math.round(rect.width * dpr) || canvas.height !== Math.round(rect.height * dpr)) {
+        canvas.width = Math.round(rect.width * dpr)
+        canvas.height = Math.round(rect.height * dpr)
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
       }
 
       const w = rect.width
       const h = rect.height
 
-      // Update playhead marker
-      if (markerRef.current) {
-        const t = timingEngine.getVideoCurrentTime()
-        const pct = ((t - rangeStart) / rangeDuration) * 100
-        markerRef.current.style.left = `${Math.max(0, Math.min(100, pct))}%`
-      }
-
-      // Clear canvas
       ctx.clearRect(0, 0, w, h)
 
-      // Draw approach rings for upcoming steps
-      if (comboState === 'playing' || comboState === 'ready') {
-        const engineState = timingEngine.getState()
-        const now = performance.now()
-        const comboStart = engineState.comboStartTime
-        const firstTime = inputs[0]?.time ?? 0
-        const step = engineState.currentStep
+      // Draw playhead
+      const videoTime = timingEngine.getVideoCurrentTime()
+      const playheadX = timeToFraction(videoTime) * w
+      ctx.beginPath()
+      ctx.moveTo(playheadX, 0)
+      ctx.lineTo(playheadX, h)
+      ctx.strokeStyle = '#facc15'
+      ctx.lineWidth = 2
+      ctx.stroke()
 
-        for (let si = step; si < Math.min(step + 4, inputs.length); si++) {
-          const input = inputs[si]
-          if (!input) continue
+      const engineState = timingEngine.getState()
+      const now = performance.now()
+      const comboStart = engineState.comboStartTime
+      const firstTime = inputs[0]?.time ?? 0
 
-          const percent = timeToPercent(input.time)
-          const cx = (percent / 100) * w
-          // Match the stagger rows from the DOM labels
-          const rowIdx = labelRows[si] ?? 0
-          const cy = (rowCanvasY[rowIdx]! * h) + 16 // +16 to center on the 32px circle
+      // Draw each note
+      for (let i = 0; i < inputs.length; i++) {
+        const input = inputs[i]
+        if (!input) continue
 
+        const frac = timeToFraction(input.time)
+        const cx = frac * w
+        const row = labelRows[i] ?? 0
+        const cy = (rowYOffsets[row] ?? 0.78) * h
+        const grade = hitGradesMap.get(i)
+        const color = grade ? GRADE_COLORS[grade] : '#94a3b8'
+        const isCurrentStep = i === engineState.currentStep
+        const isHit = !!grade
+        const key = displayKeys[i] ?? '?'
+
+        // Vertical guide line
+        ctx.beginPath()
+        ctx.moveTo(cx, 0)
+        ctx.lineTo(cx, h)
+        ctx.strokeStyle = color
+        ctx.lineWidth = 1
+        ctx.globalAlpha = 0.1
+        ctx.stroke()
+        ctx.globalAlpha = 1
+
+        // Approach ring (for upcoming steps)
+        if (!isHit && (comboState === 'playing' || comboState === 'ready') && i >= engineState.currentStep) {
           let progress: number
           if (comboStart === null) {
-            progress = si === step ? 0.8 : 0
+            progress = isCurrentStep ? 0.6 : 0
           } else {
             const expectedTimeMs = ((input.time - firstTime) * 1000) / speed
             const elapsed = now - comboStart
@@ -127,53 +146,32 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
             progress = 1 - Math.max(0, Math.min(1, remaining / approachDuration))
           }
 
-          if (progress <= 0) continue
+          if (progress > 0) {
+            const outerR = noteRadius + (noteRadius * 2.5) * (1 - progress)
 
-          const maxRadius = h * 0.45
-          const innerRadius = 12
-          const outerRadius = innerRadius + (maxRadius - innerRadius) * (1 - progress)
+            // Ring color based on proximity
+            let ringColor: string = GRADE_COLORS.Good
+            if (progress > 0.85) ringColor = GRADE_COLORS.Great
+            if (progress > 0.93) ringColor = GRADE_COLORS.Perfect
 
-          // Ring color
-          let ringColor: string = GRADE_COLORS.Good
-          if (progress > 0.85) ringColor = GRADE_COLORS.Great
-          if (progress > 0.93) ringColor = GRADE_COLORS.Perfect
-
-          // Outer approach ring
-          ctx.beginPath()
-          ctx.arc(cx, cy, outerRadius, 0, Math.PI * 2)
-          ctx.strokeStyle = ringColor
-          ctx.lineWidth = 2
-          ctx.globalAlpha = 0.3 + progress * 0.7
-          ctx.stroke()
-          ctx.globalAlpha = 1
-
-          // Inner target circle (only for current step)
-          if (si === step) {
             ctx.beginPath()
-            ctx.arc(cx, cy, innerRadius, 0, Math.PI * 2)
-            ctx.fillStyle = `${ringColor}33`
-            ctx.fill()
+            ctx.arc(cx, cy, outerR, 0, Math.PI * 2)
             ctx.strokeStyle = ringColor
-            ctx.lineWidth = 2
+            ctx.lineWidth = 2.5
+            ctx.globalAlpha = 0.3 + progress * 0.7
             ctx.stroke()
+            ctx.globalAlpha = 1
           }
         }
 
-        // Hit flash for recent hits
-        const lastHit = hits[hits.length - 1]
-        if (lastHit && now - lastHit.actualTime < 250) {
-          const flashProgress = (now - lastHit.actualTime) / 250
-          const color = GRADE_COLORS[lastHit.grade]
-          const input = inputs[lastHit.stepIndex]
-          if (input) {
-            const percent = timeToPercent(input.time)
-            const cx = (percent / 100) * w
-            const hitRowIdx = labelRows[lastHit.stepIndex] ?? 0
-            const hitCy = (rowCanvasY[hitRowIdx]! * h) + 16
-            const radius = 12 + flashProgress * 30
-
+        // Hit flash
+        if (isHit) {
+          const hitData = hits.find((h) => h.stepIndex === i)
+          if (hitData && now - hitData.actualTime < 300) {
+            const flashProgress = (now - hitData.actualTime) / 300
+            const flashR = noteRadius + flashProgress * 25
             ctx.beginPath()
-            ctx.arc(cx, hitCy, radius, 0, Math.PI * 2)
+            ctx.arc(cx, cy, flashR, 0, Math.PI * 2)
             ctx.strokeStyle = color
             ctx.lineWidth = 3
             ctx.globalAlpha = 1 - flashProgress
@@ -181,6 +179,30 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
             ctx.globalAlpha = 1
           }
         }
+
+        // Note circle
+        const scale = isCurrentStep ? 1.2 : 1
+        const r = noteRadius * scale
+
+        // Fill
+        ctx.beginPath()
+        ctx.arc(cx, cy, r, 0, Math.PI * 2)
+        ctx.fillStyle = isHit ? `${color}33` : isCurrentStep ? 'rgba(8,145,178,0.2)' : 'rgba(10,20,40,0.9)'
+        ctx.fill()
+
+        // Border
+        ctx.beginPath()
+        ctx.arc(cx, cy, r, 0, Math.PI * 2)
+        ctx.strokeStyle = isCurrentStep ? '#22d3ee' : color
+        ctx.lineWidth = isCurrentStep ? 2.5 : 1.5
+        ctx.stroke()
+
+        // Key text
+        ctx.fillStyle = isCurrentStep ? '#22d3ee' : color
+        ctx.font = `bold ${scale * 11}px system-ui, sans-serif`
+        ctx.textAlign = 'center'
+        ctx.textBaseline = 'middle'
+        ctx.fillText(key, cx, cy)
       }
 
       rafRef.current = requestAnimationFrame(tick)
@@ -188,65 +210,14 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
 
     rafRef.current = requestAnimationFrame(tick)
     return () => cancelAnimationFrame(rafRef.current)
-  }, [rangeStart, rangeDuration, inputs, comboState, currentStep, hits, speed, timeToPercent])
-
-  const hitGrades = new Map(hits.map((h) => [h.stepIndex, h.grade]))
-  const rowBottoms = ['bottom-2', 'bottom-10', 'bottom-18']
-  const rowCanvasY = [0.82, 0.45, 0.1] // canvas y as fraction of height for each row
+  }, [rangeStart, rangeDuration, inputs, comboState, currentStep, hits, speed, timeToFraction, labelRows, displayKeys])
 
   return (
-    <div ref={containerRef} className="relative h-28 w-full overflow-hidden rounded-b-lg bg-slate-800/90">
-      {/* Canvas for approach circles */}
+    <div ref={containerRef} className="relative h-28 w-full rounded-b-lg bg-slate-800/90">
       <canvas
         ref={canvasRef}
-        className="absolute inset-0 h-full w-full"
-        style={{ pointerEvents: 'none' }}
+        className="h-full w-full"
       />
-
-      {/* Current time marker */}
-      <div
-        ref={markerRef}
-        className="absolute top-0 z-10 h-full w-0.5 bg-yellow-400"
-        style={{ left: '0%' }}
-      />
-
-      {/* Step markers and circle labels */}
-      {inputs.map((input, index) => {
-        const percent = timeToPercent(input.time)
-        const grade = hitGrades.get(index) as Grade | undefined
-        const color = grade ? GRADE_COLORS[grade] : '#94a3b8'
-        const row = labelRows[index] ?? 0
-        const isCurrent = index === currentStep && (comboState === 'playing' || comboState === 'ready')
-        const bottomClass = rowBottoms[row] ?? 'bottom-2'
-
-        return (
-          <div key={index}>
-            {/* Vertical marker line */}
-            <div
-              className="absolute top-0 h-full w-px"
-              style={{ left: `${percent}%`, backgroundColor: color, opacity: 0.15 }}
-            />
-            {/* Circle note */}
-            <div
-              className={`absolute z-10 -translate-x-1/2 transition-all ${bottomClass}`}
-              style={{ left: `${percent}%` }}
-            >
-              <div
-                className={`flex h-8 w-8 items-center justify-center rounded-full border-2 text-[10px] font-bold ${
-                  isCurrent ? 'scale-125' : ''
-                }`}
-                style={{
-                  borderColor: color,
-                  color,
-                  backgroundColor: grade ? `${color}22` : 'rgba(10, 44, 74, 0.9)',
-                }}
-              >
-                {getDisplayKey(input)}
-              </div>
-            </div>
-          </div>
-        )
-      })}
     </div>
   )
 }
