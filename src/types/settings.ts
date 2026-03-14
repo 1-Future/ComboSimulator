@@ -35,7 +35,7 @@ export const DEFAULT_HOTKEYS: Hotkeys = {
   spell4: 'r',
   summoner1: 'd',
   summoner2: 'f',
-  autoattack: 'a',
+  autoattack: 'mouse2',
   item1: '1',
   item2: '2',
   item3: '3',
