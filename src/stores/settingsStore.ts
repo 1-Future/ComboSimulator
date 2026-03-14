@@ -11,6 +11,7 @@ interface SettingsState extends Settings {
   setGamepadButton: (button: number, action: string) => void
   setDifficulty: (difficulty: Difficulty) => void
   setVolume: (volume: number) => void
+  setVideoVolume: (volume: number) => void
   setPingEnabled: (enabled: boolean) => void
   setGradeSoundsEnabled: (enabled: boolean) => void
   setCalibrationOffset: (offset: number) => void
@@ -34,6 +35,7 @@ export const useSettingsStore = create<SettingsState>()(
         })),
       setDifficulty: (difficulty) => set({ difficulty }),
       setVolume: (volume) => set({ volume }),
+      setVideoVolume: (videoVolume) => set({ videoVolume }),
       setPingEnabled: (pingEnabled) => set({ pingEnabled }),
       setGradeSoundsEnabled: (gradeSoundsEnabled) => set({ gradeSoundsEnabled }),
       setCalibrationOffset: (calibrationOffset) => set({ calibrationOffset }),

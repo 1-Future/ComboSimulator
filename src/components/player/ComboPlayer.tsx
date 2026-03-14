@@ -1,6 +1,7 @@
 import { useEffect, useRef, useCallback, useState } from 'react'
 import { useComboStore } from '@/stores/comboStore'
 import { useEngineStore } from '@/stores/engineStore'
+import { useSettingsStore } from '@/stores/settingsStore'
 import { useEngine } from '@/hooks/useEngine'
 import { useKeyboard } from '@/hooks/useKeyboard'
 import { useDisplayKey } from '@/hooks/useDisplayKey'
@@ -13,6 +14,42 @@ import { Button } from '@/components/ui/Button'
 import { GRADE_COLORS } from '@/lib/constants'
 import type { ComboInput } from '@/types/combo'
 import type { Grade } from '@/types/engine'
+
+function VolumeMixer() {
+  const sfxVol = useSettingsStore((s) => s.volume)
+  const vidVol = useSettingsStore((s) => s.videoVolume)
+  const setVolume = useSettingsStore((s) => s.setVolume)
+  const setVideoVolume = useSettingsStore((s) => s.setVideoVolume)
+
+  return (
+    <div className="flex items-center gap-3">
+      <div className="flex items-center gap-1.5">
+        <span className="text-[10px] text-slate-500">SFX</span>
+        <input
+          type="range"
+          min="0"
+          max="1"
+          step="0.05"
+          value={sfxVol}
+          onChange={(e) => setVolume(Number(e.target.value))}
+          className="h-1 w-16 cursor-pointer accent-cyan-500"
+        />
+      </div>
+      <div className="flex items-center gap-1.5">
+        <span className="text-[10px] text-slate-500">Vid</span>
+        <input
+          type="range"
+          min="0"
+          max="1"
+          step="0.05"
+          value={vidVol}
+          onChange={(e) => setVideoVolume(Number(e.target.value))}
+          className="h-1 w-16 cursor-pointer accent-cyan-500"
+        />
+      </div>
+    </div>
+  )
+}
 
 export function ComboPlayer() {
   const selectedCombo = useComboStore((s) => s.selectedCombo)
@@ -151,8 +188,7 @@ export function ComboPlayer() {
             <p className="text-xs text-slate-400">{selectedCombo.description}</p>
           </div>
         </div>
-        <div className="flex items-center gap-2">
-        </div>
+        <VolumeMixer />
       </div>
 
       {/* First load hint */}

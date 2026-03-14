@@ -22,6 +22,7 @@ export interface Settings {
   gamepadMap: GamepadMap
   difficulty: Difficulty
   volume: number
+  videoVolume: number
   pingEnabled: boolean
   gradeSoundsEnabled: boolean
   calibrationOffset: number
@@ -79,6 +80,7 @@ export const DEFAULT_SETTINGS: Settings = {
   gamepadMap: { ...DEFAULT_GAMEPAD_MAP },
   difficulty: 'normal',
   volume: 0.7,
+  videoVolume: 0.5,
   pingEnabled: true,
   gradeSoundsEnabled: true,
   calibrationOffset: 0,
