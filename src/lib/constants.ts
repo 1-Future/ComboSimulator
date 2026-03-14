@@ -20,5 +20,4 @@ export const UR_THRESHOLDS = {
 } as const
 
 export const VIDEO_BASE_URL =
-  import.meta.env.VITE_VIDEO_BASE_URL ??
-  (import.meta.env.DEV ? '/videos' : 'https://videos.combosimulator.com')
+  import.meta.env.VITE_VIDEO_BASE_URL ?? '/videos'

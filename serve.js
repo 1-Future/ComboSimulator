@@ -6,6 +6,7 @@
  */
 
 import { createServer } from 'node:http'
+import { createReadStream } from 'node:fs'
 import { readFile, stat } from 'node:fs/promises'
 import { join, extname } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -28,29 +29,50 @@ const MIME_TYPES = {
   '.woff2': 'font/woff2',
 }
 
-async function serveFile(res, filePath, cacheControl = 'public, max-age=3600') {
+const STREAMABLE = new Set(['.mp4', '.webm', '.mp3'])
+
+async function serveFile(req, res, filePath, cacheControl = 'public, max-age=3600') {
   try {
     const stats = await stat(filePath)
     if (!stats.isFile()) throw new Error('Not a file')
 
     const ext = extname(filePath)
     const mime = MIME_TYPES[ext] ?? 'application/octet-stream'
-
-    // Range request support for video seeking
-    const isVideo = ext === '.mp4' || ext === '.webm'
+    const fileSize = stats.size
 
     res.setHeader('Content-Type', mime)
     res.setHeader('Cache-Control', cacheControl)
     res.setHeader('Access-Control-Allow-Origin', '*')
 
-    if (isVideo) {
+    // Range request support for video/audio seeking
+    if (STREAMABLE.has(ext)) {
       res.setHeader('Accept-Ranges', 'bytes')
-      // Simple full-file response (range requests handled by browser retry)
+
+      const range = req.headers.range
+      if (range) {
+        const parts = range.replace(/bytes=/, '').split('-')
+        const start = parseInt(parts[0], 10)
+        const end = parts[1] ? parseInt(parts[1], 10) : fileSize - 1
+        const chunkSize = end - start + 1
+
+        res.writeHead(206, {
+          'Content-Range': `bytes ${start}-${end}/${fileSize}`,
+          'Content-Length': chunkSize,
+        })
+        createReadStream(filePath, { start, end }).pipe(res)
+        return true
+      }
     }
 
-    const data = await readFile(filePath)
-    res.writeHead(200)
-    res.end(data)
+    // Full file response (stream for large files)
+    if (fileSize > 1024 * 1024) {
+      res.writeHead(200, { 'Content-Length': fileSize })
+      createReadStream(filePath).pipe(res)
+    } else {
+      const data = await readFile(filePath)
+      res.writeHead(200, { 'Content-Length': fileSize })
+      res.end(data)
+    }
   } catch {
     return false
   }
@@ -64,7 +86,7 @@ const server = createServer(async (req, res) => {
   // Videos: /videos/Champion/file.mp4
   if (pathname.startsWith('/videos/')) {
     const videoPath = join(__dirname, pathname)
-    if (await serveFile(res, videoPath, 'public, max-age=86400')) return
+    if (await serveFile(req, res, videoPath, 'public, max-age=86400')) return
     res.writeHead(404)
     res.end('Video not found')
     return
@@ -74,11 +96,11 @@ const server = createServer(async (req, res) => {
   let filePath = join(__dirname, 'dist', pathname)
 
   // Try exact file first
-  if (await serveFile(res, filePath, 'public, max-age=31536000, immutable')) return
+  if (await serveFile(req, res, filePath, 'public, max-age=31536000, immutable')) return
 
   // SPA fallback: serve index.html for non-file routes
   filePath = join(__dirname, 'dist', 'index.html')
-  if (await serveFile(res, filePath, 'no-cache')) return
+  if (await serveFile(req, res, filePath, 'no-cache')) return
 
   res.writeHead(404)
   res.end('Not found')
