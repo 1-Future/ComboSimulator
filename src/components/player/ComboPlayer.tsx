@@ -3,7 +3,6 @@ import { useComboStore } from '@/stores/comboStore'
 import { useEngineStore } from '@/stores/engineStore'
 import { useEngine } from '@/hooks/useEngine'
 import { useKeyboard } from '@/hooks/useKeyboard'
-import { useScreenRecord } from '@/hooks/useScreenRecord'
 import { useDisplayKey } from '@/hooks/useDisplayKey'
 import { VideoPlayer } from './VideoPlayer'
 import { TimingOverlay } from './TimingOverlay'
@@ -28,7 +27,6 @@ export function ComboPlayer() {
   const mappingDoneRef = useRef(false)
   const [editingStep, setEditingStep] = useState<number | null>(null)
   const [editFrame, setEditFrame] = useState<string | null>(null)
-  const { isRecording, startRecording, stopRecording } = useScreenRecord()
   const { getDisplayKey, getKeyboardKey, getGamepadButton, activeDevice } = useDisplayKey()
 
   useEffect(() => {
@@ -141,14 +139,6 @@ export function ComboPlayer() {
           </div>
         </div>
         <div className="flex items-center gap-2">
-          <Button
-            variant={isRecording ? 'primary' : 'ghost'}
-            size="sm"
-            onClick={isRecording ? stopRecording : startRecording}
-            className={isRecording ? 'animate-pulse bg-red-600 hover:bg-red-500' : ''}
-          >
-            {isRecording ? 'Stop' : 'Rec'}
-          </Button>
         </div>
       </div>
 
