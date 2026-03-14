@@ -1,92 +1,51 @@
-import { useState, type RefObject, type ReactNode } from 'react'
-import { FloatingPanel } from './FloatingPanel'
-
-interface TaskbarItem {
-  id: string
-  label: string
-  icon: ReactNode
-}
+import { type ReactNode } from 'react'
 
 interface FullscreenModeProps {
-  videoRef: RefObject<HTMLVideoElement | null>
-  panels: Record<string, { title: string; content: ReactNode; defaultX: number; defaultY: number; defaultW: number; defaultH: number }>
+  videoElement: ReactNode
+  timeline: ReactNode
+  earlyLate: ReactNode
+  controls: ReactNode
+  stats: ReactNode
   onExit: () => void
-  children?: ReactNode
 }
 
-export function FullscreenMode({ panels, onExit, children }: FullscreenModeProps) {
-  const [visiblePanels, setVisiblePanels] = useState<Set<string>>(new Set(Object.keys(panels)))
-
-  function togglePanel(id: string) {
-    setVisiblePanels((prev) => {
-      const next = new Set(prev)
-      if (next.has(id)) {
-        next.delete(id)
-      } else {
-        next.add(id)
-      }
-      return next
-    })
-  }
-
-  const taskbarItems: TaskbarItem[] = Object.entries(panels).map(([id, p]) => ({
-    id,
-    label: p.title,
-    icon: <span className="text-[10px]">{p.title[0]}</span>,
-  }))
-
+export function FullscreenMode({
+  videoElement,
+  timeline,
+  earlyLate,
+  controls,
+  stats,
+  onExit,
+}: FullscreenModeProps) {
   return (
-    <div className="fixed inset-0 z-50 bg-black">
-      {/* Background content (video) */}
-      {children}
-
-      {/* Floating panels */}
-      {Object.entries(panels).map(([id, panel]) =>
-        visiblePanels.has(id) ? (
-          <FloatingPanel
-            key={id}
-            id={id}
-            title={panel.title}
-            defaultX={panel.defaultX}
-            defaultY={panel.defaultY}
-            defaultW={panel.defaultW}
-            defaultH={panel.defaultH}
+    <div className="fixed inset-0 z-50 flex flex-col bg-black">
+      {/* Top bar — controls left, stats right */}
+      <div className="flex shrink-0 items-center justify-between border-b border-white/5 bg-slate-900/80 px-3 py-1 backdrop-blur-sm">
+        <div>{controls}</div>
+        <div className="flex items-center gap-3">
+          {stats}
+          <button
+            onClick={onExit}
+            className="rounded p-1 text-slate-400 hover:bg-slate-800 hover:text-white"
+            title="Exit Fullscreen"
           >
-            {panel.content}
-          </FloatingPanel>
-        ) : null,
-      )}
-
-      {/* Bottom taskbar */}
-      <div className="absolute bottom-0 left-0 right-0 z-40 flex items-center justify-between border-t border-white/10 bg-slate-900/90 px-3 py-1 backdrop-blur-md">
-        {/* Panel toggles */}
-        <div className="flex items-center gap-1">
-          {taskbarItems.map((item) => {
-            const isActive = visiblePanels.has(item.id)
-            return (
-              <button
-                key={item.id}
-                onClick={() => togglePanel(item.id)}
-                className={`rounded px-2 py-1 text-[10px] font-medium transition-colors ${
-                  isActive
-                    ? 'bg-cyan-600/30 text-cyan-400'
-                    : 'bg-slate-800 text-slate-500 hover:text-slate-300'
-                }`}
-              >
-                {item.label}
-              </button>
-            )
-          })}
+            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 9V4.5M9 9H4.5M9 9L3.5 3.5M9 15v4.5M9 15H4.5M9 15l-5.5 5.5M15 9h4.5M15 9V4.5M15 9l5.5-5.5M15 15h4.5M15 15v4.5m0-4.5l5.5 5.5" />
+            </svg>
+          </button>
         </div>
-
-        {/* Exit fullscreen */}
-        <button
-          onClick={onExit}
-          className="rounded px-2 py-1 text-[10px] text-slate-400 hover:bg-slate-800 hover:text-white"
-        >
-          Exit Fullscreen
-        </button>
       </div>
+
+      {/* Video — fills remaining space */}
+      <div className="relative flex-1 overflow-hidden">
+        {videoElement}
+      </div>
+
+      {/* Early/Late — thin strip above timeline */}
+      <div className="shrink-0">{earlyLate}</div>
+
+      {/* Timeline — anchored to bottom */}
+      <div className="shrink-0">{timeline}</div>
     </div>
   )
 }

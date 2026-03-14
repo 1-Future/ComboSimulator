@@ -253,76 +253,45 @@ export function ComboPlayer() {
 
   // Fullscreen mode
   if (isFullscreen && selectedCombo && selectedChampion) {
-    const sw = typeof window !== 'undefined' ? window.innerWidth : 1920
-    const sh = typeof window !== 'undefined' ? window.innerHeight : 1080
-
     return (
       <FullscreenMode
-        videoRef={videoRef}
         onExit={() => setIsFullscreen(false)}
-        panels={{
-          timeline: {
-            title: 'Timeline',
-            content: <TimingOverlay inputs={selectedCombo.inputs} />,
-            defaultX: sw * 0.05,
-            defaultY: sh - 220,
-            defaultW: sw * 0.9,
-            defaultH: 140,
-          },
-          earlyLate: {
-            title: 'Early/Late',
-            content: <EarlyLateIndicator />,
-            defaultX: sw * 0.35,
-            defaultY: sh - 260,
-            defaultW: sw * 0.3,
-            defaultH: 30,
-          },
-          stats: {
-            title: 'Stats',
-            content: <StatsPanel />,
-            defaultX: sw - 420,
-            defaultY: 10,
-            defaultW: 400,
-            defaultH: 160,
-          },
-          controls: {
-            title: 'Controls',
-            content: (
-              <div className="p-2">
-                <ControlBar />
-                <div className="mt-2 flex items-center gap-2">
-                  <Button variant="secondary" size="sm" onClick={handleReset}>Reset</Button>
-                  <span className="text-[10px] text-slate-500">SPACE to reset</span>
+        controls={
+          <div className="flex items-center gap-3">
+            <ControlBar />
+            <Button variant="secondary" size="sm" onClick={handleReset}>Reset</Button>
+            <span className="text-[10px] text-slate-500">SPACE</span>
+          </div>
+        }
+        stats={
+          <div className="flex items-center gap-4 text-[11px]">
+            <span className="text-slate-400">Accuracy: <strong className="text-cyan-400">{useEngineStore.getState().accuracy.toFixed(0)}%</strong></span>
+            <span className="text-slate-400">Streak: <strong className="text-orange-400">{useStatsStore.getState().currentStreak}</strong></span>
+          </div>
+        }
+        earlyLate={<EarlyLateIndicator />}
+        timeline={<TimingOverlay inputs={selectedCombo.inputs} />}
+        videoElement={
+          <>
+            <VideoPlayer ref={videoRef} filename={selectedCombo.video.filename} fill />
+            <GradePopup />
+            {comboState === 'ready' && (
+              <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40">
+                <div className="text-center">
+                  <div className="text-3xl font-black text-white">
+                    Press <span className="text-cyan-400">{getDisplayKey(selectedCombo.inputs[0]!)}</span> to start
+                  </div>
                 </div>
               </div>
-            ),
-            defaultX: 10,
-            defaultY: 10,
-            defaultW: 400,
-            defaultH: 90,
-          },
-        }}
-      >
-        {/* Video fills the fullscreen background */}
-        <div className="absolute inset-0 flex items-center justify-center pb-10">
-          <VideoPlayer ref={videoRef} filename={selectedCombo.video.filename} />
-          <GradePopup />
-          {comboState === 'ready' && (
-            <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40">
-              <div className="text-center">
-                <div className="text-3xl font-black text-white">
-                  Press <span className="text-cyan-400">{getDisplayKey(selectedCombo.inputs[0]!)}</span> to start
-                </div>
+            )}
+            {comboState === 'complete' && (
+              <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40">
+                <div className="text-3xl font-black text-green-400">Complete! SPACE to retry</div>
               </div>
-            </div>
-          )}
-          {comboState === 'complete' && (
-            <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40">
-              <div className="text-3xl font-black text-green-400">Complete! SPACE to retry</div>
-            </div>
-          )}
-        </div>
-      </FullscreenMode>
+            )}
+          </>
+        }
+      />
     )
   }
 

@@ -4,11 +4,12 @@ import { useSettingsStore } from '@/stores/settingsStore'
 
 interface VideoPlayerProps {
   filename: string | null
+  fill?: boolean
   onLoadedMetadata?: () => void
 }
 
 export const VideoPlayer = forwardRef<HTMLVideoElement, VideoPlayerProps>(
-  function VideoPlayer({ filename, onLoadedMetadata }, ref) {
+  function VideoPlayer({ filename, fill, onLoadedMetadata }, ref) {
     const videoVolume = useSettingsStore((s) => s.videoVolume)
     const [muted, setMuted] = useState(true)
 
@@ -32,7 +33,7 @@ export const VideoPlayer = forwardRef<HTMLVideoElement, VideoPlayerProps>(
         <video
           ref={ref}
           src={getVideoUrl(filename)}
-          className="aspect-video w-full bg-black"
+          className={fill ? 'h-full w-full object-contain bg-black' : 'aspect-video w-full bg-black'}
           preload="auto"
           playsInline
           muted={muted}
