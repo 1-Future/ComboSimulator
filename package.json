@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "serve": "node serve.js",
     "tunnel": "cloudflared tunnel --url http://localhost:3000",
+    "demo": "node scripts/record-demo.js http://localhost:3000 45",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write \"src/**/*.{ts,tsx,json,css}\"",
