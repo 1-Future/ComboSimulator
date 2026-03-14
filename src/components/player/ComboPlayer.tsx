@@ -2,7 +2,6 @@ import { useEffect, useRef, useCallback, useState, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useComboStore } from '@/stores/comboStore'
 import { useEngineStore } from '@/stores/engineStore'
-import { useStatsStore } from '@/stores/statsStore'
 import { useSettingsStore } from '@/stores/settingsStore'
 import { useEngine } from '@/hooks/useEngine'
 import { useKeyboard } from '@/hooks/useKeyboard'
@@ -13,7 +12,6 @@ import { GradePopup } from './GradePopup'
 import { EarlyLateIndicator } from './EarlyLateIndicator'
 import { KeyMapper, getUnknownInputs, applyMapping, ACTION_OPTIONS } from './KeyMapper'
 import { MobileTapOverlay } from './MobileTapOverlay'
-import { FullscreenMode } from './FullscreenMode'
 import { useMediaQuery } from '@/hooks/useMediaQuery'
 import { StatsPanel } from '@/components/stats/StatsPanel'
 import { Button } from '@/components/ui/Button'
@@ -120,6 +118,7 @@ export function ComboPlayer() {
   const [editingStep, setEditingStep] = useState<number | null>(null)
   const [editFrame, setEditFrame] = useState<string | null>(null)
   const [isFullscreen, setIsFullscreen] = useState(false)
+  const playerContainerRef = useRef<HTMLDivElement>(null)
   const [showTimeline, setShowTimeline] = useState(true)
   const [showEarlyLate, setShowEarlyLate] = useState(true)
   const [showComboSteps, setShowComboSteps] = useState(true)
@@ -252,54 +251,14 @@ export function ComboPlayer() {
 
   const hitGrades = new Map(hits.map((h) => [h.stepIndex, h.grade]))
 
-  // Fullscreen mode
-  if (isFullscreen && selectedCombo && selectedChampion) {
-    return (
-      <FullscreenMode
-        onExit={() => setIsFullscreen(false)}
-        championName={selectedChampion.name}
-        comboName={selectedCombo.name}
-        controls={
-          <div className="flex items-center gap-2">
-            <ControlBar />
-            <Button variant="secondary" size="sm" onClick={handleReset}>Reset</Button>
-          </div>
-        }
-        stats={
-          <div className="flex items-center gap-4 text-[11px]">
-            <span className="text-slate-400">{hits.length > 0 ? `${useEngineStore.getState().accuracy.toFixed(0)}%` : ''}</span>
-            <span className="text-orange-400">{useStatsStore.getState().currentStreak > 0 ? `${useStatsStore.getState().currentStreak} streak` : ''}</span>
-          </div>
-        }
-        earlyLate={<EarlyLateIndicator />}
-        timeline={<TimingOverlay inputs={selectedCombo.inputs} />}
-        videoElement={
-          <>
-            <VideoPlayer ref={videoRef} filename={selectedCombo.video.filename} fill />
-            <GradePopup />
-            {comboState === 'ready' && (
-              <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/30">
-                <div className="text-center">
-                  <div className="text-4xl font-black text-white drop-shadow-lg">
-                    Press <span className="text-cyan-400">{getDisplayKey(selectedCombo.inputs[0]!)}</span>
-                  </div>
-                  <div className="mt-2 text-sm text-slate-400">SPACE to reset</div>
-                </div>
-              </div>
-            )}
-            {comboState === 'complete' && (
-              <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/30">
-                <div className="text-center">
-                  <div className="text-4xl font-black text-green-400 drop-shadow-lg">Complete!</div>
-                  <div className="mt-2 text-sm text-slate-400">SPACE to retry</div>
-                </div>
-              </div>
-            )}
-          </>
-        }
-      />
-    )
-  }
+  // Listen for fullscreen exit (Escape key)
+  useEffect(() => {
+    const handler = () => {
+      if (!document.fullscreenElement) setIsFullscreen(false)
+    }
+    document.addEventListener('fullscreenchange', handler)
+    return () => document.removeEventListener('fullscreenchange', handler)
+  }, [])
 
   return (
     <>
@@ -316,7 +275,10 @@ export function ComboPlayer() {
         }}
       />
     )}
-    <div className={`relative mx-auto max-w-4xl ${isMobile ? 'px-2 py-2' : 'px-4 py-6'}`}>
+    <div
+      ref={playerContainerRef}
+      className={`relative mx-auto ${isFullscreen ? 'flex h-screen max-w-none flex-col bg-black px-2 py-1' : `max-w-4xl ${isMobile ? 'px-2 py-2' : 'px-4 py-6'}`}`}
+    >
       {/* Header — compact on mobile */}
       <div className={`mb-2 flex items-center justify-between ${isMobile ? 'gap-2' : 'mb-4 gap-3'}`}>
         <div className="flex min-w-0 items-center gap-2">
@@ -342,7 +304,15 @@ export function ComboPlayer() {
           </button>
           {!isMobile && (
             <button
-              onClick={() => setIsFullscreen(true)}
+              onClick={() => {
+                if (!isFullscreen && playerContainerRef.current) {
+                  playerContainerRef.current.requestFullscreen()
+                  setIsFullscreen(true)
+                } else if (document.fullscreenElement) {
+                  document.exitFullscreen()
+                  setIsFullscreen(false)
+                }
+              }}
               className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-white"
               title="Fullscreen"
             >
@@ -455,8 +425,8 @@ export function ComboPlayer() {
       )}
 
       {/* Video + Overlay */}
-      <div className={`relative overflow-hidden ${isMobile ? 'rounded-lg' : 'rounded-xl border border-slate-700'}`}>
-        <VideoPlayer ref={videoRef} filename={selectedCombo.video.filename} />
+      <div className={`relative overflow-hidden ${isFullscreen ? 'min-h-0 flex-1' : isMobile ? 'rounded-lg' : 'rounded-xl border border-slate-700'}`}>
+        <VideoPlayer ref={videoRef} filename={selectedCombo.video.filename} fill={isFullscreen} />
         {!needsMapping && !isMobile && <GradePopup />}
 
         {/* Mobile: full-screen tap zone overlay */}
