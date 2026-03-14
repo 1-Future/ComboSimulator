@@ -12,6 +12,7 @@ import { GradePopup } from './GradePopup'
 import { EarlyLateIndicator } from './EarlyLateIndicator'
 import { KeyMapper, getUnknownInputs, applyMapping, ACTION_OPTIONS } from './KeyMapper'
 import { MobileTapOverlay } from './MobileTapOverlay'
+import { FullscreenMode } from './FullscreenMode'
 import { useMediaQuery } from '@/hooks/useMediaQuery'
 import { StatsPanel } from '@/components/stats/StatsPanel'
 import { Button } from '@/components/ui/Button'
@@ -117,6 +118,7 @@ export function ComboPlayer() {
   const mappingDoneRef = useRef(false)
   const [editingStep, setEditingStep] = useState<number | null>(null)
   const [editFrame, setEditFrame] = useState<string | null>(null)
+  const [isFullscreen, setIsFullscreen] = useState(false)
   const [showTimeline, setShowTimeline] = useState(true)
   const [showEarlyLate, setShowEarlyLate] = useState(true)
   const [showComboSteps, setShowComboSteps] = useState(true)
@@ -249,6 +251,84 @@ export function ComboPlayer() {
 
   const hitGrades = new Map(hits.map((h) => [h.stepIndex, h.grade]))
 
+  // Fullscreen mode
+  if (isFullscreen && selectedCombo && selectedChampion) {
+    return (
+      <FullscreenMode
+        videoRef={videoRef}
+        onExit={() => setIsFullscreen(false)}
+        panels={{
+          timeline: {
+            title: 'Timeline',
+            content: <TimingOverlay inputs={selectedCombo.inputs} />,
+            defaultX: 50,
+            defaultY: 50,
+            defaultW: 700,
+            defaultH: 140,
+          },
+          earlyLate: {
+            title: 'Early/Late',
+            content: <EarlyLateIndicator />,
+            defaultX: 50,
+            defaultY: 200,
+            defaultW: 300,
+            defaultH: 60,
+          },
+          stats: {
+            title: 'Stats',
+            content: <StatsPanel />,
+            defaultX: 50,
+            defaultY: 280,
+            defaultW: 400,
+            defaultH: 180,
+          },
+          controls: {
+            title: 'Controls',
+            content: (
+              <div className="p-2">
+                <ControlBar />
+                <div className="mt-2 flex items-center gap-2">
+                  <Button variant="secondary" size="sm" onClick={handleReset}>Reset</Button>
+                  <span className="text-[10px] text-slate-500">SPACE to reset</span>
+                </div>
+              </div>
+            ),
+            defaultX: 500,
+            defaultY: 280,
+            defaultW: 350,
+            defaultH: 100,
+          },
+        }}
+      >
+        {/* Video fills the fullscreen background */}
+        <div className="absolute inset-0">
+          <video
+            ref={videoRef}
+            src={selectedCombo.video.filename ? `/videos/${encodeURI(selectedCombo.video.filename)}` : undefined}
+            className="h-full w-full object-contain"
+            preload="auto"
+            playsInline
+          />
+          <GradePopup />
+          {comboState === 'ready' && (
+            <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40">
+              <div className="text-center">
+                <div className="text-3xl font-black text-white">
+                  Press <span className="text-cyan-400">{getDisplayKey(selectedCombo.inputs[0]!)}</span> to start
+                </div>
+              </div>
+            </div>
+          )}
+          {comboState === 'complete' && (
+            <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40">
+              <div className="text-3xl font-black text-green-400">Complete! SPACE to retry</div>
+            </div>
+          )}
+        </div>
+      </FullscreenMode>
+    )
+  }
+
   return (
     <>
     {/* Splash art — full page background */}
@@ -288,6 +368,17 @@ export function ComboPlayer() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
           </button>
+          {!isMobile && (
+            <button
+              onClick={() => setIsFullscreen(true)}
+              className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-white"
+              title="Fullscreen"
+            >
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5" />
+              </svg>
+            </button>
+          )}
         </div>
       </div>
 
