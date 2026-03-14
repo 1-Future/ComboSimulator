@@ -13,44 +13,51 @@ export function MobileTapOverlay({ inputs }: MobileTapOverlayProps) {
   const currentStep = useEngineStore((s) => s.currentStep)
   const hits = useEngineStore((s) => s.hits)
   const lastHit = useEngineStore((s) => s.lastHit)
+  const accuracy = useEngineStore((s) => s.accuracy)
   const { getDisplayKey } = useDisplayKey()
 
   return (
-    <div className="pointer-events-none absolute inset-0 z-10 flex flex-col items-center justify-end pb-8">
-      {/* Grade flash */}
-      {lastHit && (
+    <div className="pointer-events-none absolute inset-0 z-10 flex flex-col items-center justify-between py-4">
+      {/* Top: accuracy */}
+      {hits.length > 0 && (
+        <div className="rounded-full bg-black/40 px-3 py-1 text-xs font-medium text-slate-300 backdrop-blur-sm">
+          {accuracy.toFixed(0)}% accuracy
+        </div>
+      )}
+      {hits.length === 0 && <div />}
+
+      {/* Center: grade flash */}
+      {lastHit ? (
         <div
           key={`${lastHit.stepIndex}-${lastHit.offset}`}
-          className="absolute top-1/3 animate-[fadeOut_0.6s_ease-out_forwards] text-center"
+          className="animate-[fadeOut_0.6s_ease-out_forwards] text-center"
         >
           <div
-            className="text-5xl font-black drop-shadow-lg"
+            className="text-6xl font-black drop-shadow-lg"
             style={{ color: GRADE_COLORS[lastHit.grade] }}
           >
             {lastHit.grade}
           </div>
-          <div className="text-lg font-bold text-white/70">
+          <div className="mt-1 text-xl font-bold text-white/60">
             {lastHit.offset > 0 ? '+' : ''}{lastHit.offset.toFixed(0)}ms
           </div>
         </div>
+      ) : comboState === 'ready' ? (
+        <div className="text-center">
+          <div className="text-3xl font-black text-white">TAP</div>
+          <div className="mt-1 text-sm text-slate-400">to start</div>
+        </div>
+      ) : comboState === 'complete' ? (
+        <div className="text-center">
+          <div className="text-3xl font-black text-green-400">Done!</div>
+          <div className="mt-1 text-sm text-slate-400">TAP to reset</div>
+        </div>
+      ) : (
+        <div />
       )}
 
-      {/* Current state */}
-      {comboState === 'ready' && (
-        <div className="mb-4 text-center">
-          <div className="text-lg font-bold text-white">TAP to start</div>
-          <div className="text-xs text-slate-400">Tap anywhere to the rhythm</div>
-        </div>
-      )}
-      {comboState === 'complete' && (
-        <div className="mb-4 text-center">
-          <div className="text-2xl font-black text-green-400">Complete!</div>
-          <div className="text-xs text-slate-400">TAP to reset</div>
-        </div>
-      )}
-
-      {/* Combo step dots */}
-      <div className="flex items-center gap-2 rounded-full bg-black/50 px-4 py-2 backdrop-blur">
+      {/* Bottom: combo step dots */}
+      <div className="flex items-center gap-1.5 rounded-full bg-black/50 px-3 py-1.5 backdrop-blur-sm">
         {inputs.map((input, index) => {
           const hit = hits.find((h) => h.stepIndex === index)
           const isCurrent = index === currentStep && comboState === 'playing'
@@ -60,22 +67,16 @@ export function MobileTapOverlay({ inputs }: MobileTapOverlayProps) {
           return (
             <div
               key={index}
-              className={`flex flex-col items-center transition-all ${
-                isCurrent ? 'scale-125' : ''
+              className={`flex h-8 w-8 items-center justify-center rounded-full border text-[10px] font-bold transition-all ${
+                isCurrent
+                  ? 'scale-125 border-cyan-400 bg-cyan-950 text-cyan-400'
+                  : hit
+                    ? 'border-transparent'
+                    : 'border-slate-600 bg-slate-800/80 text-slate-500'
               }`}
+              style={color ? { borderColor: color, color, backgroundColor: `${color}22` } : undefined}
             >
-              <div
-                className={`flex h-10 w-10 items-center justify-center rounded-full border-2 text-sm font-bold ${
-                  isCurrent
-                    ? 'border-cyan-400 bg-cyan-950 text-cyan-400'
-                    : hit
-                      ? 'border-transparent'
-                      : 'border-slate-600 bg-slate-800/80 text-slate-400'
-                }`}
-                style={color ? { borderColor: color, color, backgroundColor: `${color}22` } : undefined}
-              >
-                {getDisplayKey(input)}
-              </div>
+              {getDisplayKey(input)}
             </div>
           )
         })}

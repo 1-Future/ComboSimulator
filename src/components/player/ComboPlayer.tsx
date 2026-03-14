@@ -201,7 +201,7 @@ export function ComboPlayer() {
   const hitGrades = new Map(hits.map((h) => [h.stepIndex, h.grade]))
 
   return (
-    <div className="relative mx-auto max-w-4xl px-4 py-6">
+    <div className={`relative mx-auto max-w-4xl ${isMobile ? 'px-2 py-2' : 'px-4 py-6'}`}>
       {/* Splash art background */}
       {selectedChampion.splash && (
         <div
@@ -215,25 +215,24 @@ export function ComboPlayer() {
           }}
         />
       )}
-      {/* Header */}
-      <div className="mb-4 flex items-center justify-between">
-        <div className="flex items-center gap-3">
+      {/* Header — compact on mobile */}
+      <div className={`mb-2 flex items-center justify-between ${isMobile ? 'gap-2' : 'mb-4 gap-3'}`}>
+        <div className="flex min-w-0 items-center gap-2">
           {selectedChampion.portrait && (
-            <img src={selectedChampion.portrait} alt="" className="h-10 w-10 rounded-lg" />
+            <img src={selectedChampion.portrait} alt="" className={`rounded-lg ${isMobile ? 'h-8 w-8' : 'h-10 w-10'}`} />
           )}
-          <div>
-            <h2 className="text-lg font-bold text-white">
-              {selectedChampion.name} — {selectedCombo.name}
+          <div className="min-w-0">
+            <h2 className={`truncate font-bold text-white ${isMobile ? 'text-sm' : 'text-lg'}`}>
+              {isMobile ? selectedCombo.name : `${selectedChampion.name} — ${selectedCombo.name}`}
             </h2>
-            <p className="text-xs text-slate-400">{selectedCombo.description}</p>
+            {!isMobile && <p className="text-xs text-slate-400">{selectedCombo.description}</p>}
           </div>
         </div>
-        <div className="flex items-center gap-3">
-          <VolumeMixer />
+        <div className="flex shrink-0 items-center gap-2">
+          {!isMobile && <VolumeMixer />}
           <button
             onClick={() => setShowChampSearch(!showChampSearch)}
             className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-white"
-            title="Search champions"
           >
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -303,26 +302,26 @@ export function ComboPlayer() {
 
       {/* Combo navigation arrows */}
       {comboList.length > 1 && (
-        <div className="mb-2 flex items-center justify-between">
+        <div className="mb-1 flex items-center justify-between">
           <button
             onClick={goPrev}
             disabled={currentComboIndex <= 0}
-            className="flex items-center gap-1 rounded px-2 py-1 text-xs text-slate-400 hover:bg-slate-800 hover:text-white disabled:opacity-30 disabled:hover:bg-transparent"
+            className="flex items-center gap-1 rounded px-2 py-1 text-xs text-slate-400 hover:bg-slate-800 hover:text-white disabled:opacity-30"
           >
             <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
-            Prev
+            {!isMobile && 'Prev'}
           </button>
           <span className="text-[10px] text-slate-500">
-            Combo {currentComboIndex + 1} of {comboList.length}
+            {currentComboIndex + 1} / {comboList.length}
           </span>
           <button
             onClick={goNext}
             disabled={currentComboIndex >= comboList.length - 1}
-            className="flex items-center gap-1 rounded px-2 py-1 text-xs text-slate-400 hover:bg-slate-800 hover:text-white disabled:opacity-30 disabled:hover:bg-transparent"
+            className="flex items-center gap-1 rounded px-2 py-1 text-xs text-slate-400 hover:bg-slate-800 hover:text-white disabled:opacity-30"
           >
-            Next
+            {!isMobile && 'Next'}
             <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
             </svg>
@@ -330,10 +329,12 @@ export function ComboPlayer() {
         </div>
       )}
 
-      {/* First load hint */}
-      <div className="mb-2 rounded border border-slate-700/50 bg-slate-800/30 px-3 py-1.5 text-[11px] text-slate-500">
-        If the video is out of sync, press <kbd className="rounded bg-slate-700 px-1 font-mono text-slate-400">SPACE</kbd> or refresh the page
-      </div>
+      {/* First load hint — desktop only */}
+      {!isMobile && (
+        <div className="mb-2 rounded border border-slate-700/50 bg-slate-800/30 px-3 py-1.5 text-[11px] text-slate-500">
+          If the video is out of sync, press <kbd className="rounded bg-slate-700 px-1 font-mono text-slate-400">SPACE</kbd> or refresh the page
+        </div>
+      )}
 
       {/* Key Mapper */}
       {needsMapping && (
@@ -341,7 +342,7 @@ export function ComboPlayer() {
       )}
 
       {/* Video + Overlay */}
-      <div className="relative overflow-hidden rounded-xl border border-slate-700">
+      <div className={`relative overflow-hidden ${isMobile ? 'rounded-lg' : 'rounded-xl border border-slate-700'}`}>
         <VideoPlayer ref={videoRef} filename={selectedCombo.video.filename} />
         {!needsMapping && !isMobile && <GradePopup />}
 
@@ -534,8 +535,8 @@ export function ComboPlayer() {
           </div>
           </>}
 
-          {/* Stats */}
-          <StatsPanel />
+          {/* Stats — compact on mobile */}
+          {!isMobile && <StatsPanel />}
         </>
       )}
     </div>

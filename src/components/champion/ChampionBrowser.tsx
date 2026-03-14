@@ -34,7 +34,7 @@ export function ChampionBrowser({ onComboSelect }: ChampionBrowserProps) {
     <div className="mx-auto max-w-7xl px-4 py-6">
       {/* Hero / Intro */}
       {showHero && (
-        <div className="relative mb-8 overflow-hidden rounded-2xl border border-cyan-900/30 bg-gradient-to-br from-slate-900 via-cyan-950/20 to-slate-900 p-8">
+        <div className="relative mb-6 overflow-hidden rounded-2xl border border-cyan-900/30 bg-gradient-to-br from-slate-900 via-cyan-950/20 to-slate-900 p-4 md:mb-8 md:p-8">
           <button
             onClick={() => setShowHero(false)}
             className="absolute right-4 top-4 text-slate-500 hover:text-white"
@@ -42,10 +42,10 @@ export function ChampionBrowser({ onComboSelect }: ChampionBrowserProps) {
             &#x2715;
           </button>
           <div className="max-w-2xl">
-            <h1 className="mb-2 text-3xl font-black tracking-tight text-white">
+            <h1 className="mb-2 text-2xl font-black tracking-tight text-white md:text-3xl">
               Combo<span className="text-cyan-400">Simulator</span>
             </h1>
-            <p className="mb-4 text-base text-slate-300">
+            <p className="mb-3 text-sm text-slate-300 md:mb-4 md:text-base">
               Practice League of Legends champion combos with timing-graded keypresses synced to video. Like osu! but for LoL combos.
             </p>
             <div className="flex flex-wrap gap-6 text-sm">
@@ -93,10 +93,10 @@ export function ChampionBrowser({ onComboSelect }: ChampionBrowserProps) {
 
       <ChampionSearch />
 
-      <div className="mt-6 flex gap-6">
+      <div className="mt-6 flex flex-col gap-6 md:flex-row">
         {/* Champion grid */}
         <div className="flex-1">
-          <div className="grid grid-cols-4 gap-3 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8">
+          <div className="grid grid-cols-4 gap-2 sm:grid-cols-5 md:grid-cols-6 md:gap-3 lg:grid-cols-8">
             {filtered.map((champion) => (
               <ChampionCard
                 key={champion.id}
@@ -113,10 +113,10 @@ export function ChampionBrowser({ onComboSelect }: ChampionBrowserProps) {
           )}
         </div>
 
-        {/* Combo sidebar */}
+        {/* Combo sidebar / bottom panel on mobile */}
         {selectedChampion && (
-          <div className="w-80 shrink-0">
-            <div className="sticky top-20 rounded-xl border border-slate-700/50 bg-slate-900/50 p-4">
+          <div className="w-full shrink-0 md:w-80">
+            <div className="rounded-xl border border-slate-700/50 bg-slate-900/50 p-4 md:sticky md:top-20">
               <div className="mb-3 flex items-center gap-3">
                 {selectedChampion.portrait && (
                   <img
