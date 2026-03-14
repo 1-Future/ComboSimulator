@@ -253,6 +253,9 @@ export function ComboPlayer() {
 
   // Fullscreen mode
   if (isFullscreen && selectedCombo && selectedChampion) {
+    const sw = typeof window !== 'undefined' ? window.innerWidth : 1920
+    const sh = typeof window !== 'undefined' ? window.innerHeight : 1080
+
     return (
       <FullscreenMode
         videoRef={videoRef}
@@ -261,26 +264,26 @@ export function ComboPlayer() {
           timeline: {
             title: 'Timeline',
             content: <TimingOverlay inputs={selectedCombo.inputs} />,
-            defaultX: 50,
-            defaultY: 50,
-            defaultW: 700,
+            defaultX: sw * 0.05,
+            defaultY: sh - 220,
+            defaultW: sw * 0.9,
             defaultH: 140,
           },
           earlyLate: {
             title: 'Early/Late',
             content: <EarlyLateIndicator />,
-            defaultX: 50,
-            defaultY: 200,
-            defaultW: 300,
-            defaultH: 60,
+            defaultX: sw * 0.35,
+            defaultY: sh - 260,
+            defaultW: sw * 0.3,
+            defaultH: 30,
           },
           stats: {
             title: 'Stats',
             content: <StatsPanel />,
-            defaultX: 50,
-            defaultY: 280,
+            defaultX: sw - 420,
+            defaultY: 10,
             defaultW: 400,
-            defaultH: 180,
+            defaultH: 160,
           },
           controls: {
             title: 'Controls',
@@ -293,22 +296,16 @@ export function ComboPlayer() {
                 </div>
               </div>
             ),
-            defaultX: 500,
-            defaultY: 280,
-            defaultW: 350,
-            defaultH: 100,
+            defaultX: 10,
+            defaultY: 10,
+            defaultW: 400,
+            defaultH: 90,
           },
         }}
       >
         {/* Video fills the fullscreen background */}
-        <div className="absolute inset-0">
-          <video
-            ref={videoRef}
-            src={selectedCombo.video.filename ? `/videos/${encodeURI(selectedCombo.video.filename)}` : undefined}
-            className="h-full w-full object-contain"
-            preload="auto"
-            playsInline
-          />
+        <div className="absolute inset-0 flex items-center justify-center pb-10">
+          <VideoPlayer ref={videoRef} filename={selectedCombo.video.filename} />
           <GradePopup />
           {comboState === 'ready' && (
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40">
