@@ -10,7 +10,6 @@ import { VideoPlayer } from './VideoPlayer'
 import { TimingOverlay } from './TimingOverlay'
 import { GradePopup } from './GradePopup'
 import { EarlyLateIndicator } from './EarlyLateIndicator'
-import { ApproachCircles } from './ApproachCircles'
 import { KeyMapper, getUnknownInputs, applyMapping, ACTION_OPTIONS } from './KeyMapper'
 import { MobileTapOverlay } from './MobileTapOverlay'
 import { useMediaQuery } from '@/hooks/useMediaQuery'
@@ -419,8 +418,6 @@ export function ComboPlayer() {
           {/* Early/Late indicator */}
           <EarlyLateIndicator />
 
-          {/* Approach circles */}
-          {!isMobile && <ApproachCircles inputs={selectedCombo.inputs} />}
 
           {/* Combo Steps — keyboard + gamepad rows (desktop only) */}
           {!isMobile && <>
