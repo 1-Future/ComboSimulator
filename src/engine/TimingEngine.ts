@@ -37,6 +37,22 @@ export class TimingEngine {
     this.inputHandler.setGamepadMap(map)
   }
 
+  setTapMode(enabled: boolean): void {
+    if (enabled) {
+      this.inputHandler.setTapMode(true, () => {
+        const state = this.runner.getState()
+        if (state.comboState === 'idle' || state.comboState === 'complete') {
+          return ' ' // Space to reset
+        }
+        const inputs = this.runner.getInputs()
+        const step = inputs[state.currentStep]
+        return step?.key.toLowerCase() ?? null
+      })
+    } else {
+      this.inputHandler.setTapMode(false, null)
+    }
+  }
+
   attachVideo(video: HTMLVideoElement): void {
     this.videoSync.attach(video)
   }

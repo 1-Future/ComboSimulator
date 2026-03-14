@@ -33,8 +33,11 @@ export class InputHandler {
   private inverseMap: Map<string, string> = new Map()
   private boundHandler: ((e: KeyboardEvent) => void) | null = null
   private boundMouseHandler: ((e: MouseEvent) => void) | null = null
+  private boundTouchHandler: ((e: TouchEvent) => void) | null = null
   private gamepadRafId: number | null = null
   private gamepadButtonState: boolean[] = []
+  private tapMode = false
+  private getNextExpectedKey: (() => string | null) | null = null
 
   setHotkeys(hotkeys: Hotkeys): void {
     this.hotkeys = hotkeys
@@ -46,6 +49,11 @@ export class InputHandler {
 
   setGamepadMap(map: GamepadMap): void {
     this.gamepadMap = { ...map }
+  }
+
+  setTapMode(enabled: boolean, getNextKey: (() => string | null) | null): void {
+    this.tapMode = enabled
+    this.getNextExpectedKey = getNextKey
   }
 
   resolveKey(key: string): string {
@@ -88,6 +96,21 @@ export class InputHandler {
     // Prevent context menu for right-click bindings
     document.addEventListener('contextmenu', this.preventContextMenu)
 
+    // Touch listener for mobile tap mode
+    this.boundTouchHandler = (e: TouchEvent) => {
+      if (!this.tapMode) return
+      // Ignore touches on UI elements
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLButtonElement || e.target instanceof HTMLSelectElement) return
+      e.preventDefault()
+
+      // In tap mode, send the next expected key
+      const nextKey = this.getNextExpectedKey?.()
+      if (nextKey) {
+        this.callback?.(nextKey, performance.now(), 'keyboard')
+      }
+    }
+    document.addEventListener('touchstart', this.boundTouchHandler, { passive: false })
+
     this.gamepadButtonState = []
     this.pollGamepad()
   }
@@ -108,6 +131,10 @@ export class InputHandler {
       document.removeEventListener('mousedown', this.boundMouseHandler)
       document.removeEventListener('contextmenu', this.preventContextMenu)
       this.boundMouseHandler = null
+    }
+    if (this.boundTouchHandler) {
+      document.removeEventListener('touchstart', this.boundTouchHandler)
+      this.boundTouchHandler = null
     }
     if (this.gamepadRafId !== null) {
       cancelAnimationFrame(this.gamepadRafId)

@@ -10,6 +10,8 @@ import { VideoPlayer } from './VideoPlayer'
 import { TimingOverlay } from './TimingOverlay'
 import { GradePopup } from './GradePopup'
 import { KeyMapper, getUnknownInputs, applyMapping, ACTION_OPTIONS } from './KeyMapper'
+import { MobileTapOverlay } from './MobileTapOverlay'
+import { useMediaQuery } from '@/hooks/useMediaQuery'
 import { StatsPanel } from '@/components/stats/StatsPanel'
 import { Button } from '@/components/ui/Button'
 import { GRADE_COLORS } from '@/lib/constants'
@@ -71,6 +73,7 @@ export function ComboPlayer() {
   const [editingStep, setEditingStep] = useState<number | null>(null)
   const [editFrame, setEditFrame] = useState<string | null>(null)
   const { getDisplayKey, getKeyboardKey, getGamepadButton, activeDevice } = useDisplayKey()
+  const isMobile = useMediaQuery('(max-width: 768px)') || ('ontouchstart' in window && navigator.maxTouchPoints > 0)
 
   useEffect(() => {
     if (videoRef.current) {
@@ -340,10 +343,15 @@ export function ComboPlayer() {
       {/* Video + Overlay */}
       <div className="relative overflow-hidden rounded-xl border border-slate-700">
         <VideoPlayer ref={videoRef} filename={selectedCombo.video.filename} />
-        {!needsMapping && <GradePopup />}
+        {!needsMapping && !isMobile && <GradePopup />}
 
-        {/* State overlay on video */}
-        {comboState === 'ready' && !needsMapping && (
+        {/* Mobile: full-screen tap zone overlay */}
+        {isMobile && !needsMapping && (
+          <MobileTapOverlay inputs={selectedCombo.inputs} />
+        )}
+
+        {/* Desktop: State overlay on video */}
+        {!isMobile && comboState === 'ready' && !needsMapping && (
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40">
             <div className="text-center">
               <div className="mb-2 text-xs font-medium tracking-widest text-slate-400 uppercase">Ready</div>
@@ -356,7 +364,7 @@ export function ComboPlayer() {
             </div>
           </div>
         )}
-        {comboState === 'complete' && (
+        {!isMobile && comboState === 'complete' && (
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40">
             <div className="text-center">
               <div className="text-3xl font-black text-green-400">Combo Complete!</div>
@@ -370,10 +378,12 @@ export function ComboPlayer() {
 
       {!needsMapping && (
         <>
-          {/* Timing Bar */}
+          {/* Timing Bar — always show */}
           <TimingOverlay inputs={selectedCombo.inputs} />
 
-          {/* Combo Steps — keyboard + gamepad rows */}
+          {/* Combo Steps — keyboard + gamepad rows (desktop only) */}
+          {!isMobile && <>
+          {/* Combo Steps */}
           <div className="mt-3 space-y-2">
             {/* Keyboard row */}
             <div className={activeDevice === 'keyboard' ? 'opacity-100' : 'opacity-40'}>
@@ -522,6 +532,7 @@ export function ComboPlayer() {
               Reset Combo
             </Button>
           </div>
+          </>}
 
           {/* Stats */}
           <StatsPanel />

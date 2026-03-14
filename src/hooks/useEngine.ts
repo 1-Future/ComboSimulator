@@ -86,6 +86,12 @@ export function useEngine() {
     timingEngine.setGamepadMap(settings.gamepadMap)
   }, [settings.gamepadMap])
 
+  // Enable tap mode on mobile
+  useEffect(() => {
+    const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0
+    timingEngine.setTapMode(isMobile)
+  }, [])
+
   // Set ping callback
   useEffect(() => {
     if (settings.pingEnabled) {
