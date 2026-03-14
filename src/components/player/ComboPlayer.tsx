@@ -152,6 +152,11 @@ export function ComboPlayer() {
         </div>
       </div>
 
+      {/* First load hint */}
+      <div className="mb-2 rounded border border-slate-700/50 bg-slate-800/30 px-3 py-1.5 text-[11px] text-slate-500">
+        If the video is out of sync, press <kbd className="rounded bg-slate-700 px-1 font-mono text-slate-400">SPACE</kbd> or refresh the page
+      </div>
+
       {/* Key Mapper */}
       {needsMapping && (
         <KeyMapper inputs={selectedCombo.inputs} videoRef={videoRef} onComplete={handleMappingComplete} />
