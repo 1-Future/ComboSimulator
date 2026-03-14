@@ -115,8 +115,7 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
           const cx = (percent / 100) * w
           // Match the stagger rows from the DOM labels
           const rowIdx = labelRows[si] ?? 0
-          const rowPcts = [50, 25, 75]
-          const cy = (rowPcts[rowIdx]! / 100) * h
+          const cy = (rowCanvasY[rowIdx]! * h) + 16 // +16 to center on the 32px circle
 
           let progress: number
           if (comboStart === null) {
@@ -170,8 +169,7 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
             const percent = timeToPercent(input.time)
             const cx = (percent / 100) * w
             const hitRowIdx = labelRows[lastHit.stepIndex] ?? 0
-            const hitRowPcts = [50, 25, 75]
-            const hitCy = (hitRowPcts[hitRowIdx]! / 100) * h
+            const hitCy = (rowCanvasY[hitRowIdx]! * h) + 16
             const radius = 12 + flashProgress * 30
 
             ctx.beginPath()
@@ -193,7 +191,8 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
   }, [rangeStart, rangeDuration, inputs, comboState, currentStep, hits, speed, timeToPercent])
 
   const hitGrades = new Map(hits.map((h) => [h.stepIndex, h.grade]))
-  const rowOffsets = [50, 25, 75] // % from top — stagger vertically
+  const rowBottoms = ['bottom-2', 'bottom-10', 'bottom-18']
+  const rowCanvasY = [0.82, 0.45, 0.1] // canvas y as fraction of height for each row
 
   return (
     <div ref={containerRef} className="relative h-28 w-full overflow-hidden rounded-b-lg bg-slate-800/90">
@@ -218,7 +217,7 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
         const color = grade ? GRADE_COLORS[grade] : '#94a3b8'
         const row = labelRows[index] ?? 0
         const isCurrent = index === currentStep && (comboState === 'playing' || comboState === 'ready')
-        const topPercent = rowOffsets[row] ?? 50
+        const bottomClass = rowBottoms[row] ?? 'bottom-2'
 
         return (
           <div key={index}>
@@ -229,8 +228,8 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
             />
             {/* Circle note */}
             <div
-              className="absolute z-10 -translate-x-1/2 -translate-y-1/2 transition-all"
-              style={{ left: `${percent}%`, top: `${topPercent}%` }}
+              className={`absolute z-10 -translate-x-1/2 transition-all ${bottomClass}`}
+              style={{ left: `${percent}%` }}
             >
               <div
                 className={`flex h-8 w-8 items-center justify-center rounded-full border-2 text-[10px] font-bold ${
