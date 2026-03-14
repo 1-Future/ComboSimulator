@@ -113,7 +113,10 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
 
           const percent = timeToPercent(input.time)
           const cx = (percent / 100) * w
-          const cy = h / 2
+          // Match the stagger rows from the DOM labels
+          const rowIdx = labelRows[si] ?? 0
+          const rowPcts = [50, 25, 75]
+          const cy = (rowPcts[rowIdx]! / 100) * h
 
           let progress: number
           if (comboStart === null) {
@@ -166,10 +169,13 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
           if (input) {
             const percent = timeToPercent(input.time)
             const cx = (percent / 100) * w
+            const hitRowIdx = labelRows[lastHit.stepIndex] ?? 0
+            const hitRowPcts = [50, 25, 75]
+            const hitCy = (hitRowPcts[hitRowIdx]! / 100) * h
             const radius = 12 + flashProgress * 30
 
             ctx.beginPath()
-            ctx.arc(cx, h / 2, radius, 0, Math.PI * 2)
+            ctx.arc(cx, hitCy, radius, 0, Math.PI * 2)
             ctx.strokeStyle = color
             ctx.lineWidth = 3
             ctx.globalAlpha = 1 - flashProgress
@@ -187,10 +193,10 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
   }, [rangeStart, rangeDuration, inputs, comboState, currentStep, hits, speed, timeToPercent])
 
   const hitGrades = new Map(hits.map((h) => [h.stepIndex, h.grade]))
-  const rowPositions = ['bottom-1', 'bottom-7', 'bottom-13']
+  const rowOffsets = [50, 25, 75] // % from top — stagger vertically
 
   return (
-    <div ref={containerRef} className="relative h-24 w-full overflow-hidden rounded-b-lg bg-slate-800/90">
+    <div ref={containerRef} className="relative h-28 w-full overflow-hidden rounded-b-lg bg-slate-800/90">
       {/* Canvas for approach circles */}
       <canvas
         ref={canvasRef}
@@ -205,34 +211,39 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
         style={{ left: '0%' }}
       />
 
-      {/* Step markers and labels */}
+      {/* Step markers and circle labels */}
       {inputs.map((input, index) => {
         const percent = timeToPercent(input.time)
         const grade = hitGrades.get(index) as Grade | undefined
-        const color = grade ? GRADE_COLORS[grade] : '#ffffff'
+        const color = grade ? GRADE_COLORS[grade] : '#94a3b8'
         const row = labelRows[index] ?? 0
         const isCurrent = index === currentStep && (comboState === 'playing' || comboState === 'ready')
+        const topPercent = rowOffsets[row] ?? 50
 
         return (
           <div key={index}>
-            {/* Marker line */}
+            {/* Vertical marker line */}
             <div
               className="absolute top-0 h-full w-px"
-              style={{ left: `${percent}%`, backgroundColor: color, opacity: 0.3 }}
+              style={{ left: `${percent}%`, backgroundColor: color, opacity: 0.15 }}
             />
-            {/* Key label */}
+            {/* Circle note */}
             <div
-              className={`absolute z-10 -translate-x-1/2 rounded border px-1.5 py-0.5 text-[10px] font-bold transition-all ${rowPositions[row]} ${
-                isCurrent ? 'scale-125' : ''
-              }`}
-              style={{
-                left: `${percent}%`,
-                borderColor: color,
-                color: color,
-                backgroundColor: grade ? `${color}22` : 'rgba(10, 44, 74, 0.9)',
-              }}
+              className="absolute z-10 -translate-x-1/2 -translate-y-1/2 transition-all"
+              style={{ left: `${percent}%`, top: `${topPercent}%` }}
             >
-              {getDisplayKey(input)}
+              <div
+                className={`flex h-8 w-8 items-center justify-center rounded-full border-2 text-[10px] font-bold ${
+                  isCurrent ? 'scale-125' : ''
+                }`}
+                style={{
+                  borderColor: color,
+                  color,
+                  backgroundColor: grade ? `${color}22` : 'rgba(10, 44, 74, 0.9)',
+                }}
+              >
+                {getDisplayKey(input)}
+              </div>
             </div>
           </div>
         )
