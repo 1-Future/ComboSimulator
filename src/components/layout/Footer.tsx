@@ -15,14 +15,6 @@ export function Footer() {
             GitHub
           </a>
           <a
-            href="https://discord.gg/aYsPnYmfjV"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-slate-300 transition-colors"
-          >
-            Discord
-          </a>
-          <a
             href="https://ko-fi.com/combosim"
             target="_blank"
             rel="noopener noreferrer"
