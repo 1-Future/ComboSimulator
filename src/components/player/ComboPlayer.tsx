@@ -105,6 +105,8 @@ export function ComboPlayer() {
   const mappingDoneRef = useRef(false)
   const [editingStep, setEditingStep] = useState<number | null>(null)
   const [editFrame, setEditFrame] = useState<string | null>(null)
+  const [barDetached, setBarDetached] = useState(false)
+  const [barPosition, setBarPosition] = useState<'top' | 'inline'>('inline')
   const { getDisplayKey, getKeyboardKey, getGamepadButton, activeDevice } = useDisplayKey()
   const isMobile = useMediaQuery('(max-width: 768px)') || ('ontouchstart' in window && navigator.maxTouchPoints > 0)
 
@@ -412,11 +414,50 @@ export function ComboPlayer() {
 
       {!needsMapping && (
         <>
-          {/* Timing Bar */}
-          <TimingOverlay inputs={selectedCombo.inputs} />
-
-          {/* Early/Late indicator */}
-          <EarlyLateIndicator />
+          {/* Timing Bar — detachable glass panel */}
+          <div
+            className={
+              barDetached
+                ? 'fixed left-0 right-0 z-40 mx-auto max-w-4xl px-4 ' +
+                  (barPosition === 'top' ? 'top-14' : 'bottom-4')
+                : ''
+            }
+          >
+            <div
+              className={
+                barDetached
+                  ? 'rounded-xl border border-white/10 bg-slate-900/70 p-1.5 shadow-2xl backdrop-blur-xl'
+                  : ''
+              }
+            >
+              {/* Detach/pin controls */}
+              <div className="flex items-center justify-end gap-1 py-0.5">
+                {barDetached && (
+                  <button
+                    onClick={() => setBarPosition(barPosition === 'top' ? 'inline' : 'top')}
+                    className="rounded p-0.5 text-[10px] text-slate-500 hover:text-white"
+                    title={barPosition === 'top' ? 'Move to bottom' : 'Move to top'}
+                  >
+                    {barPosition === 'top' ? '\u2193' : '\u2191'}
+                  </button>
+                )}
+                <button
+                  onClick={() => {
+                    setBarDetached(!barDetached)
+                    if (!barDetached) setBarPosition('top')
+                  }}
+                  className="rounded p-0.5 text-[10px] text-slate-500 hover:text-white"
+                  title={barDetached ? 'Dock timeline' : 'Detach timeline'}
+                >
+                  {barDetached ? '\u{1F4CC}' : '\u29C9'}
+                </button>
+              </div>
+              <TimingOverlay inputs={selectedCombo.inputs} />
+              <EarlyLateIndicator />
+            </div>
+          </div>
+          {/* Spacer when detached so content doesn't jump */}
+          {barDetached && <div className="h-32" />}
 
 
           {/* Combo Steps — keyboard + gamepad rows (desktop only) */}
@@ -529,7 +570,6 @@ export function ComboPlayer() {
               </div>
               <div className="flex flex-wrap items-center gap-3">
                 {selectedCombo.inputs.map((input, index) => {
-                  const hit = hits.find((h) => h.stepIndex === index)
                   const isCurrent = index === currentStep && comboState === 'playing'
                   const grade = hitGrades.get(index) as Grade | undefined
                   const color = grade ? GRADE_COLORS[grade] : undefined
