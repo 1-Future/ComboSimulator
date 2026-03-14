@@ -124,7 +124,20 @@ export function ComboPlayer() {
   const hitGrades = new Map(hits.map((h) => [h.stepIndex, h.grade]))
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-6">
+    <div className="relative mx-auto max-w-4xl px-4 py-6">
+      {/* Splash art background */}
+      {selectedChampion.splash && (
+        <div
+          className="pointer-events-none absolute inset-0 -z-10 opacity-10"
+          style={{
+            backgroundImage: `url(${selectedChampion.splash})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center top',
+            maskImage: 'linear-gradient(to bottom, black 30%, transparent 80%)',
+            WebkitMaskImage: 'linear-gradient(to bottom, black 30%, transparent 80%)',
+          }}
+        />
+      )}
       {/* Header */}
       <div className="mb-4 flex items-center justify-between">
         <div className="flex items-center gap-3">

@@ -7,6 +7,7 @@ export interface Champion {
   comboCount: number
   thumbnail: string
   portrait?: string
+  splash?: string
   tags: string[]
 }
 
