@@ -1,4 +1,5 @@
-import { useEffect, useRef, useCallback, useState } from 'react'
+import { useEffect, useRef, useCallback, useState, useMemo } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { useComboStore } from '@/stores/comboStore'
 import { useEngineStore } from '@/stores/engineStore'
 import { useSettingsStore } from '@/stores/settingsStore'
@@ -52,14 +53,19 @@ function VolumeMixer() {
 }
 
 export function ComboPlayer() {
+  const navigate = useNavigate()
   const selectedCombo = useComboStore((s) => s.selectedCombo)
   const selectedChampion = useComboStore((s) => s.selectedChampion)
+  const championCombos = useComboStore((s) => s.championCombos)
+  const champions = useComboStore((s) => s.champions)
   const selectCombo = useComboStore((s) => s.selectCombo)
   const comboState = useEngineStore((s) => s.comboState)
   const hits = useEngineStore((s) => s.hits)
   const currentStep = useEngineStore((s) => s.currentStep)
   const videoRef = useRef<HTMLVideoElement>(null)
   const { attachVideo, loadCombo, resetCombo, seek } = useEngine()
+  const [champSearch, setChampSearch] = useState('')
+  const [showChampSearch, setShowChampSearch] = useState(false)
   const [needsMapping, setNeedsMapping] = useState(false)
   const mappingDoneRef = useRef(false)
   const [editingStep, setEditingStep] = useState<number | null>(null)
@@ -147,7 +153,38 @@ export function ComboPlayer() {
     [editingStep, selectedCombo, seek],
   )
 
-  useKeyboard({ ' ': handleReset }, !!selectedCombo && !needsMapping)
+  useKeyboard({ ' ': handleReset }, !!selectedCombo && !needsMapping && !showChampSearch)
+
+  // Combo navigation
+  const comboList = championCombos?.combos ?? []
+  const currentComboIndex = comboList.findIndex((c) => c.id === selectedCombo?.id)
+
+  const goToCombo = useCallback(
+    (index: number) => {
+      const combo = comboList[index]
+      if (combo && selectedChampion) {
+        selectCombo(combo)
+        navigate(`/play/${selectedChampion.id}/${combo.id}`)
+      }
+    },
+    [comboList, selectedChampion, selectCombo, navigate],
+  )
+
+  const goPrev = useCallback(() => {
+    if (currentComboIndex > 0) goToCombo(currentComboIndex - 1)
+  }, [currentComboIndex, goToCombo])
+
+  const goNext = useCallback(() => {
+    if (currentComboIndex < comboList.length - 1) goToCombo(currentComboIndex + 1)
+  }, [currentComboIndex, comboList.length, goToCombo])
+
+  // Filtered champion search results
+  const filteredChampions = useMemo(() => {
+    if (!champSearch) return []
+    return champions
+      .filter((c) => c.name.toLowerCase().includes(champSearch.toLowerCase()))
+      .slice(0, 8)
+  }, [champions, champSearch])
 
   if (!selectedCombo || !selectedChampion) {
     const hasUrlParams = window.location.pathname.startsWith('/play/')
@@ -188,8 +225,97 @@ export function ComboPlayer() {
             <p className="text-xs text-slate-400">{selectedCombo.description}</p>
           </div>
         </div>
-        <VolumeMixer />
+        <div className="flex items-center gap-3">
+          <VolumeMixer />
+          <button
+            onClick={() => setShowChampSearch(!showChampSearch)}
+            className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-white"
+            title="Search champions"
+          >
+            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </button>
+        </div>
       </div>
+
+      {/* Champion quick search */}
+      {showChampSearch && (
+        <div className="relative mb-3">
+          <input
+            type="text"
+            placeholder="Search champions..."
+            value={champSearch}
+            onChange={(e) => setChampSearch(e.target.value)}
+            autoFocus
+            className="w-full rounded-lg border border-slate-700 bg-slate-800 py-2 pl-3 pr-8 text-sm text-white placeholder:text-slate-500 focus:border-cyan-500 focus:outline-none"
+            onKeyDown={(e) => {
+              if (e.key === 'Escape') {
+                setShowChampSearch(false)
+                setChampSearch('')
+              }
+            }}
+          />
+          <button
+            onClick={() => { setShowChampSearch(false); setChampSearch('') }}
+            className="absolute right-2 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white"
+          >
+            &#x2715;
+          </button>
+          {filteredChampions.length > 0 && (
+            <div className="absolute left-0 top-full z-50 mt-1 w-full rounded-lg border border-slate-700 bg-slate-800 py-1 shadow-xl">
+              {filteredChampions.map((champ) => (
+                <button
+                  key={champ.id}
+                  onClick={() => {
+                    navigate(`/play/${champ.id}/${champ.id}`)
+                    setShowChampSearch(false)
+                    setChampSearch('')
+                    // Force reload by navigating — the PlayPage useEffect will load data
+                    window.location.href = `/play/${champ.id}/${champ.id}`
+                  }}
+                  className="flex w-full items-center gap-2 px-3 py-1.5 text-left hover:bg-slate-700"
+                >
+                  {champ.portrait && (
+                    <img src={champ.portrait} alt="" className="h-6 w-6 rounded" />
+                  )}
+                  <span className="text-sm text-slate-300">{champ.name}</span>
+                  <span className="ml-auto text-[10px] text-slate-500">{champ.comboCount} combos</span>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Combo navigation arrows */}
+      {comboList.length > 1 && (
+        <div className="mb-2 flex items-center justify-between">
+          <button
+            onClick={goPrev}
+            disabled={currentComboIndex <= 0}
+            className="flex items-center gap-1 rounded px-2 py-1 text-xs text-slate-400 hover:bg-slate-800 hover:text-white disabled:opacity-30 disabled:hover:bg-transparent"
+          >
+            <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+            Prev
+          </button>
+          <span className="text-[10px] text-slate-500">
+            Combo {currentComboIndex + 1} of {comboList.length}
+          </span>
+          <button
+            onClick={goNext}
+            disabled={currentComboIndex >= comboList.length - 1}
+            className="flex items-center gap-1 rounded px-2 py-1 text-xs text-slate-400 hover:bg-slate-800 hover:text-white disabled:opacity-30 disabled:hover:bg-transparent"
+          >
+            Next
+            <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      )}
 
       {/* First load hint */}
       <div className="mb-2 rounded border border-slate-700/50 bg-slate-800/30 px-3 py-1.5 text-[11px] text-slate-500">
