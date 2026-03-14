@@ -257,17 +257,18 @@ export function ComboPlayer() {
     return (
       <FullscreenMode
         onExit={() => setIsFullscreen(false)}
+        championName={selectedChampion.name}
+        comboName={selectedCombo.name}
         controls={
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             <ControlBar />
             <Button variant="secondary" size="sm" onClick={handleReset}>Reset</Button>
-            <span className="text-[10px] text-slate-500">SPACE</span>
           </div>
         }
         stats={
           <div className="flex items-center gap-4 text-[11px]">
-            <span className="text-slate-400">Accuracy: <strong className="text-cyan-400">{useEngineStore.getState().accuracy.toFixed(0)}%</strong></span>
-            <span className="text-slate-400">Streak: <strong className="text-orange-400">{useStatsStore.getState().currentStreak}</strong></span>
+            <span className="text-slate-400">{hits.length > 0 ? `${useEngineStore.getState().accuracy.toFixed(0)}%` : ''}</span>
+            <span className="text-orange-400">{useStatsStore.getState().currentStreak > 0 ? `${useStatsStore.getState().currentStreak} streak` : ''}</span>
           </div>
         }
         earlyLate={<EarlyLateIndicator />}
@@ -277,17 +278,21 @@ export function ComboPlayer() {
             <VideoPlayer ref={videoRef} filename={selectedCombo.video.filename} fill />
             <GradePopup />
             {comboState === 'ready' && (
-              <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40">
+              <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/30">
                 <div className="text-center">
-                  <div className="text-3xl font-black text-white">
-                    Press <span className="text-cyan-400">{getDisplayKey(selectedCombo.inputs[0]!)}</span> to start
+                  <div className="text-4xl font-black text-white drop-shadow-lg">
+                    Press <span className="text-cyan-400">{getDisplayKey(selectedCombo.inputs[0]!)}</span>
                   </div>
+                  <div className="mt-2 text-sm text-slate-400">SPACE to reset</div>
                 </div>
               </div>
             )}
             {comboState === 'complete' && (
-              <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40">
-                <div className="text-3xl font-black text-green-400">Complete! SPACE to retry</div>
+              <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/30">
+                <div className="text-center">
+                  <div className="text-4xl font-black text-green-400 drop-shadow-lg">Complete!</div>
+                  <div className="mt-2 text-sm text-slate-400">SPACE to retry</div>
+                </div>
               </div>
             )}
           </>
