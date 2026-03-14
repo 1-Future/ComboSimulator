@@ -9,6 +9,8 @@ import { useDisplayKey } from '@/hooks/useDisplayKey'
 import { VideoPlayer } from './VideoPlayer'
 import { TimingOverlay } from './TimingOverlay'
 import { GradePopup } from './GradePopup'
+import { EarlyLateIndicator } from './EarlyLateIndicator'
+import { ApproachCircles } from './ApproachCircles'
 import { KeyMapper, getUnknownInputs, applyMapping, ACTION_OPTIONS } from './KeyMapper'
 import { MobileTapOverlay } from './MobileTapOverlay'
 import { useMediaQuery } from '@/hooks/useMediaQuery'
@@ -18,37 +20,69 @@ import { GRADE_COLORS } from '@/lib/constants'
 import type { ComboInput } from '@/types/combo'
 import type { Grade } from '@/types/engine'
 
-function VolumeMixer() {
+const SPEEDS = [0.5, 0.75, 1.0]
+const DIFFICULTIES: Array<{ value: 'easy' | 'normal' | 'strict'; label: string }> = [
+  { value: 'easy', label: 'Easy' },
+  { value: 'normal', label: 'Normal' },
+  { value: 'strict', label: 'Strict' },
+]
+
+function ControlBar() {
   const sfxVol = useSettingsStore((s) => s.volume)
   const vidVol = useSettingsStore((s) => s.videoVolume)
+  const speed = useSettingsStore((s) => s.playbackSpeed)
+  const difficulty = useSettingsStore((s) => s.difficulty)
   const setVolume = useSettingsStore((s) => s.setVolume)
   const setVideoVolume = useSettingsStore((s) => s.setVideoVolume)
+  const setSpeed = useSettingsStore((s) => s.setPlaybackSpeed)
+  const setDifficulty = useSettingsStore((s) => s.setDifficulty)
 
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex flex-wrap items-center gap-3">
+      {/* Speed */}
+      <div className="flex items-center gap-1">
+        {SPEEDS.map((s) => (
+          <button
+            key={s}
+            onClick={() => setSpeed(s)}
+            className={`rounded px-1.5 py-0.5 text-[10px] font-medium transition-colors ${
+              speed === s
+                ? 'bg-cyan-600 text-white'
+                : 'bg-slate-800 text-slate-400 hover:text-white'
+            }`}
+          >
+            {s}x
+          </button>
+        ))}
+      </div>
+      {/* Difficulty */}
+      <div className="flex items-center gap-1">
+        {DIFFICULTIES.map((d) => (
+          <button
+            key={d.value}
+            onClick={() => setDifficulty(d.value)}
+            className={`rounded px-1.5 py-0.5 text-[10px] font-medium transition-colors ${
+              difficulty === d.value
+                ? 'bg-cyan-600 text-white'
+                : 'bg-slate-800 text-slate-400 hover:text-white'
+            }`}
+          >
+            {d.label}
+          </button>
+        ))}
+      </div>
+      {/* Volume */}
       <div className="flex items-center gap-1.5">
         <span className="text-[10px] text-slate-500">SFX</span>
-        <input
-          type="range"
-          min="0"
-          max="1"
-          step="0.05"
-          value={sfxVol}
+        <input type="range" min="0" max="1" step="0.05" value={sfxVol}
           onChange={(e) => setVolume(Number(e.target.value))}
-          className="h-1 w-16 cursor-pointer accent-cyan-500"
-        />
+          className="h-1 w-14 cursor-pointer accent-cyan-500" />
       </div>
       <div className="flex items-center gap-1.5">
         <span className="text-[10px] text-slate-500">Vid</span>
-        <input
-          type="range"
-          min="0"
-          max="1"
-          step="0.05"
-          value={vidVol}
+        <input type="range" min="0" max="1" step="0.05" value={vidVol}
           onChange={(e) => setVideoVolume(Number(e.target.value))}
-          className="h-1 w-16 cursor-pointer accent-cyan-500"
-        />
+          className="h-1 w-14 cursor-pointer accent-cyan-500" />
       </div>
     </div>
   )
@@ -229,7 +263,7 @@ export function ComboPlayer() {
           </div>
         </div>
         <div className="flex shrink-0 items-center gap-2">
-          {!isMobile && <VolumeMixer />}
+          {!isMobile && <ControlBar />}
           <button
             onClick={() => setShowChampSearch(!showChampSearch)}
             className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-white"
@@ -379,8 +413,14 @@ export function ComboPlayer() {
 
       {!needsMapping && (
         <>
-          {/* Timing Bar — always show */}
+          {/* Timing Bar */}
           <TimingOverlay inputs={selectedCombo.inputs} />
+
+          {/* Early/Late indicator */}
+          <EarlyLateIndicator />
+
+          {/* Approach circles */}
+          {!isMobile && <ApproachCircles inputs={selectedCombo.inputs} />}
 
           {/* Combo Steps — keyboard + gamepad rows (desktop only) */}
           {!isMobile && <>

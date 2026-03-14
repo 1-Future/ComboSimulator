@@ -92,6 +92,11 @@ export function useEngine() {
     timingEngine.setTapMode(isMobile)
   }, [])
 
+  // Update playback speed
+  useEffect(() => {
+    timingEngine.setPlaybackRate(settings.playbackSpeed)
+  }, [settings.playbackSpeed])
+
   // Set ping callback
   useEffect(() => {
     if (settings.pingEnabled) {
