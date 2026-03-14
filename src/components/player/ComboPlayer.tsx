@@ -250,20 +250,21 @@ export function ComboPlayer() {
   const hitGrades = new Map(hits.map((h) => [h.stepIndex, h.grade]))
 
   return (
+    <>
+    {/* Splash art — full page background */}
+    {selectedChampion.splash && (
+      <div
+        className="pointer-events-none fixed inset-0 -z-10 opacity-10"
+        style={{
+          backgroundImage: `url(${selectedChampion.splash})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center top',
+          maskImage: 'linear-gradient(to bottom, black 40%, transparent 90%)',
+          WebkitMaskImage: 'linear-gradient(to bottom, black 40%, transparent 90%)',
+        }}
+      />
+    )}
     <div className={`relative mx-auto max-w-4xl ${isMobile ? 'px-2 py-2' : 'px-4 py-6'}`}>
-      {/* Splash art background */}
-      {selectedChampion.splash && (
-        <div
-          className="pointer-events-none absolute inset-0 -z-10 opacity-10"
-          style={{
-            backgroundImage: `url(${selectedChampion.splash})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center top',
-            maskImage: 'linear-gradient(to bottom, black 30%, transparent 80%)',
-            WebkitMaskImage: 'linear-gradient(to bottom, black 30%, transparent 80%)',
-          }}
-        />
-      )}
       {/* Header — compact on mobile */}
       <div className={`mb-2 flex items-center justify-between ${isMobile ? 'gap-2' : 'mb-4 gap-3'}`}>
         <div className="flex min-w-0 items-center gap-2">
@@ -601,5 +602,6 @@ export function ComboPlayer() {
         </>
       )}
     </div>
+    </>
   )
 }
