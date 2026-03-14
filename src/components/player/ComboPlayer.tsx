@@ -240,6 +240,15 @@ export function ComboPlayer() {
       .slice(0, 8)
   }, [champions, champSearch])
 
+  // Listen for fullscreen exit (Escape key)
+  useEffect(() => {
+    const handler = () => {
+      if (!document.fullscreenElement) setIsFullscreen(false)
+    }
+    document.addEventListener('fullscreenchange', handler)
+    return () => document.removeEventListener('fullscreenchange', handler)
+  }, [])
+
   if (!selectedCombo || !selectedChampion) {
     const hasUrlParams = window.location.pathname.startsWith('/play/')
     return (
@@ -250,15 +259,6 @@ export function ComboPlayer() {
   }
 
   const hitGrades = new Map(hits.map((h) => [h.stepIndex, h.grade]))
-
-  // Listen for fullscreen exit (Escape key)
-  useEffect(() => {
-    const handler = () => {
-      if (!document.fullscreenElement) setIsFullscreen(false)
-    }
-    document.addEventListener('fullscreenchange', handler)
-    return () => document.removeEventListener('fullscreenchange', handler)
-  }, [])
 
   return (
     <>
