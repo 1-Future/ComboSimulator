@@ -267,12 +267,22 @@ export function ComboPlayer() {
               {filteredChampions.map((champ) => (
                 <button
                   key={champ.id}
-                  onClick={() => {
-                    navigate(`/play/${champ.id}/${champ.id}`)
+                  onClick={async () => {
                     setShowChampSearch(false)
                     setChampSearch('')
-                    // Force reload by navigating — the PlayPage useEffect will load data
-                    window.location.href = `/play/${champ.id}/${champ.id}`
+                    // Load the champion's combos to find the first combo ID
+                    try {
+                      const res = await fetch(`/data/combos/${champ.id}.json`)
+                      const data = await res.json()
+                      const firstCombo = data.combos?.[0]
+                      if (firstCombo) {
+                        window.location.href = `/play/${champ.id}/${firstCombo.id}`
+                      } else {
+                        navigate('/')
+                      }
+                    } catch {
+                      navigate('/')
+                    }
                   }}
                   className="flex w-full items-center gap-2 px-3 py-1.5 text-left hover:bg-slate-700"
                 >
