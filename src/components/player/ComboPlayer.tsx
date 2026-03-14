@@ -118,6 +118,7 @@ export function ComboPlayer() {
   const [editingStep, setEditingStep] = useState<number | null>(null)
   const [editFrame, setEditFrame] = useState<string | null>(null)
   const [isFullscreen, setIsFullscreen] = useState(false)
+  const [showTopBar, setShowTopBar] = useState(false)
   const playerContainerRef = useRef<HTMLDivElement>(null)
   const [showTimeline, setShowTimeline] = useState(true)
   const [showEarlyLate, setShowEarlyLate] = useState(true)
@@ -240,14 +241,23 @@ export function ComboPlayer() {
       .slice(0, 8)
   }, [champions, champSearch])
 
-  // Listen for fullscreen exit (Escape key)
+  // Fullscreen: listen for exit + mouse hover for top bar
   useEffect(() => {
-    const handler = () => {
+    const fsHandler = () => {
       if (!document.fullscreenElement) setIsFullscreen(false)
     }
-    document.addEventListener('fullscreenchange', handler)
-    return () => document.removeEventListener('fullscreenchange', handler)
-  }, [])
+    const mouseHandler = (e: MouseEvent) => {
+      if (isFullscreen) {
+        setShowTopBar(e.clientY < 50)
+      }
+    }
+    document.addEventListener('fullscreenchange', fsHandler)
+    document.addEventListener('mousemove', mouseHandler)
+    return () => {
+      document.removeEventListener('fullscreenchange', fsHandler)
+      document.removeEventListener('mousemove', mouseHandler)
+    }
+  }, [isFullscreen])
 
   if (!selectedCombo || !selectedChampion) {
     const hasUrlParams = window.location.pathname.startsWith('/play/')
@@ -279,8 +289,12 @@ export function ComboPlayer() {
       ref={playerContainerRef}
       className={`relative mx-auto ${isFullscreen ? 'flex h-screen max-w-none flex-col bg-black px-2 py-1' : `max-w-4xl ${isMobile ? 'px-2 py-2' : 'px-4 py-6'}`}`}
     >
-      {/* Header — compact on mobile */}
-      <div className={`mb-2 flex items-center justify-between ${isMobile ? 'gap-2' : 'mb-4 gap-3'}`}>
+      {/* Header — auto-hides in fullscreen */}
+      <div className={`flex items-center justify-between transition-all ${
+        isFullscreen
+          ? `absolute left-0 right-0 top-0 z-30 bg-slate-900/90 px-3 py-1.5 backdrop-blur-sm ${showTopBar ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}`
+          : `mb-2 ${isMobile ? 'gap-2' : 'mb-4 gap-3'}`
+      }`}>
         <div className="flex min-w-0 items-center gap-2">
           {selectedChampion.portrait && (
             <img src={selectedChampion.portrait} alt="" className={`rounded-lg ${isMobile ? 'h-8 w-8' : 'h-10 w-10'}`} />
@@ -383,8 +397,8 @@ export function ComboPlayer() {
         </div>
       )}
 
-      {/* Combo navigation arrows */}
-      {comboList.length > 1 && (
+      {/* Combo navigation arrows — hidden in fullscreen */}
+      {!isFullscreen && comboList.length > 1 && (
         <div className="mb-1 flex items-center justify-between">
           <button
             onClick={goPrev}
@@ -412,8 +426,8 @@ export function ComboPlayer() {
         </div>
       )}
 
-      {/* First load hint — desktop only */}
-      {!isMobile && (
+      {/* First load hint — hidden in fullscreen */}
+      {!isFullscreen && !isMobile && (
         <div className="mb-2 rounded border border-slate-700/50 bg-slate-800/30 px-3 py-1.5 text-[11px] text-slate-500">
           If the video is out of sync, press <kbd className="rounded bg-slate-700 px-1 font-mono text-slate-400">SPACE</kbd> or refresh the page
         </div>
@@ -462,22 +476,24 @@ export function ComboPlayer() {
 
       {!needsMapping && (
         <>
-          {/* Section toggles */}
-          <div className="mt-1 flex items-center gap-3 border-b border-slate-800 pb-1">
-            <SectionToggle label="Timeline" visible={showTimeline} onToggle={() => setShowTimeline(!showTimeline)} />
-            <SectionToggle label="Early/Late" visible={showEarlyLate} onToggle={() => setShowEarlyLate(!showEarlyLate)} />
-            {!isMobile && <SectionToggle label="Keys" visible={showComboSteps} onToggle={() => setShowComboSteps(!showComboSteps)} />}
-            {!isMobile && <SectionToggle label="Stats" visible={showStats} onToggle={() => setShowStats(!showStats)} />}
-          </div>
+          {/* Section toggles — hidden in fullscreen */}
+          {!isFullscreen && (
+            <div className="mt-1 flex items-center gap-3 border-b border-slate-800 pb-1">
+              <SectionToggle label="Timeline" visible={showTimeline} onToggle={() => setShowTimeline(!showTimeline)} />
+              <SectionToggle label="Early/Late" visible={showEarlyLate} onToggle={() => setShowEarlyLate(!showEarlyLate)} />
+              {!isMobile && <SectionToggle label="Keys" visible={showComboSteps} onToggle={() => setShowComboSteps(!showComboSteps)} />}
+              {!isMobile && <SectionToggle label="Stats" visible={showStats} onToggle={() => setShowStats(!showStats)} />}
+            </div>
+          )}
 
-          {/* Timeline */}
-          {showTimeline && <TimingOverlay inputs={selectedCombo.inputs} />}
+          {/* Timeline — always show in fullscreen */}
+          {(isFullscreen || showTimeline) && <TimingOverlay inputs={selectedCombo.inputs} />}
 
-          {/* Early/Late */}
-          {showEarlyLate && <EarlyLateIndicator />}
+          {/* Early/Late — always show in fullscreen */}
+          {(isFullscreen || showEarlyLate) && <EarlyLateIndicator />}
 
-          {/* Combo Steps — keyboard + gamepad rows (desktop only) */}
-          {!isMobile && showComboSteps && <>
+          {/* Combo Steps — hidden in fullscreen */}
+          {!isFullscreen && !isMobile && showComboSteps && <>
           <div className="mt-3 space-y-2">
             {/* Keyboard row */}
             <div className={activeDevice === 'keyboard' ? 'opacity-100' : 'opacity-40'}>
@@ -630,8 +646,8 @@ export function ComboPlayer() {
           </div>
           </>}
 
-          {/* Stats */}
-          {!isMobile && showStats && <StatsPanel />}
+          {/* Stats — hidden in fullscreen */}
+          {!isFullscreen && !isMobile && showStats && <StatsPanel />}
         </>
       )}
     </div>
