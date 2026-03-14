@@ -131,16 +131,11 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
         ctx.stroke()
         ctx.globalAlpha = 1
 
-        // Approach ring (for upcoming steps) — driven by video time, not wall clock
-        if (!isHit && (comboState === 'playing' || comboState === 'ready') && i >= engineState.currentStep) {
+        // Approach ring — only while video is playing, driven by video time
+        if (!isHit && comboState === 'playing' && i >= engineState.currentStep) {
           const approachWindow = 1.2 // seconds before the note to start showing ring
           const timeUntilNote = input.time - videoTime
-          let progress: number
-          if (engineState.comboStartTime === null) {
-            progress = isCurrentStep ? 0.6 : 0
-          } else {
-            progress = 1 - Math.max(0, Math.min(1, timeUntilNote / approachWindow))
-          }
+          const progress = 1 - Math.max(0, Math.min(1, timeUntilNote / approachWindow))
 
           if (progress > 0) {
             const outerR = noteRadius + (noteRadius * 2.5) * (1 - progress)
