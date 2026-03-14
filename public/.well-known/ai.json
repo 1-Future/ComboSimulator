@@ -1,0 +1,75 @@
+{
+  "name": "ComboSim",
+  "description": "A rhythm-game-style combo trainer for video games. Players practice champion combos by pressing keys in time with video demonstrations. Currently supports League of Legends with 150 champions and 800+ combos.",
+  "url": "https://combosim.com",
+  "version": "1.0.0",
+  "type": "web-application",
+  "category": ["gaming", "training", "esports", "rhythm-game"],
+  "games": ["League of Legends"],
+  "open_source": {
+    "license": "MIT",
+    "repository": "https://github.com/1-Future/ComboSimulator"
+  },
+  "api": {
+    "base_url": "/api",
+    "endpoints": {
+      "champions": "/data/champions.json",
+      "combos": "/data/combos/{championId}.json"
+    },
+    "documentation": "/api/docs"
+  },
+  "capabilities": {
+    "combo_practice": "Users press keyboard/mouse/controller keys timed to video playback and receive accuracy grades (Perfect/Great/Good/Miss)",
+    "champion_browser": "Browse and search 150 League of Legends champions with role and difficulty filters",
+    "key_remapping": "Fully rebindable keyboard, mouse, and Xbox controller inputs",
+    "mobile_tap_mode": "On touch devices, users tap anywhere to the rhythm without needing specific keys",
+    "combo_editing": "Users can click combo steps to reassign keys with video frame preview at each timestamp",
+    "timing_grades": "Scoring based on millisecond accuracy — Perfect (≤16ms), Great (≤40ms), Good (≤80ms), Miss (>80ms) in Normal mode",
+    "difficulty_modes": "Easy, Normal, and Strict modes with different timing windows",
+    "stats_tracking": "Accuracy percentage, combo streaks, unstable rate (osu!-style), session history"
+  },
+  "data_schema": {
+    "champion": {
+      "id": "string — lowercase hyphenated (e.g. 'yasuo', 'lee-sin')",
+      "name": "string — display name",
+      "title": "string — champion title",
+      "roles": "array of: fighter, assassin, mage, marksman, tank, support",
+      "difficulty": "1 (easy), 2 (medium), 3 (hard)",
+      "comboCount": "number of available combos",
+      "portrait": "URL to champion portrait image (CommunityDragon)",
+      "splash": "URL to champion splash art (CommunityDragon)"
+    },
+    "combo": {
+      "id": "string — unique combo identifier",
+      "name": "string — combo name",
+      "description": "string — key sequence description",
+      "difficulty": "beginner, intermediate, advanced, or expert",
+      "inputs": "array of {key, time, label, window, action}",
+      "video": "{filename, duration, fps, comboStart}"
+    },
+    "input": {
+      "key": "string — display key (Q, W, E, R, A, F, D, 1-4, M1-M5)",
+      "time": "number — timestamp in seconds within the video",
+      "action": "string — spell1, spell2, spell3, spell4, summoner1, summoner2, autoattack, item1-4",
+      "window": "number — timing window in milliseconds"
+    }
+  },
+  "interaction_guide": {
+    "to_practice_a_combo": [
+      "GET /data/champions.json to list all champions",
+      "GET /data/combos/{championId}.json to get combos for a champion",
+      "Navigate to /play/{championId}/{comboId} to load the combo player",
+      "Press SPACE to reset the combo position",
+      "Press the first key to start (always graded Perfect)",
+      "Press subsequent keys timed to the video playback",
+      "Each key press is graded based on timing accuracy"
+    ],
+    "to_find_combos_for_a_champion": "GET /data/combos/{championId}.json — returns all combos with timing data",
+    "to_search_champions": "GET /data/champions.json and filter the champions array by name, role, or difficulty",
+    "to_link_to_a_specific_combo": "https://combosim.com/play/{championId}/{comboId}"
+  },
+  "contact": {
+    "support": "https://ko-fi.com/combosim",
+    "issues": "https://github.com/1-Future/ComboSimulator/issues"
+  }
+}

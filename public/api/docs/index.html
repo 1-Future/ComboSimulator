@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ComboSim API</title>
+<style>
+body { font-family: system-ui; max-width: 800px; margin: 40px auto; padding: 0 20px; background: #0a0e1a; color: #e2e8f0; line-height: 1.6; }
+h1 { color: #22d3ee; }
+h2 { color: #94a3b8; border-bottom: 1px solid #1e293b; padding-bottom: 8px; margin-top: 40px; }
+code { background: #1e293b; padding: 2px 6px; border-radius: 4px; font-size: 14px; }
+pre { background: #1e293b; padding: 16px; border-radius: 8px; overflow-x: auto; }
+a { color: #22d3ee; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid #1e293b; }
+th { color: #94a3b8; font-size: 12px; text-transform: uppercase; }
+</style>
+</head>
+<body>
+<h1>ComboSim API</h1>
+<p>Static JSON API for accessing champion and combo data. No authentication required.</p>
+
+<h2>Endpoints</h2>
+
+<h3>GET /data/champions.json</h3>
+<p>Returns all 150 champions with metadata.</p>
+<pre><code>{
+  "version": "1.0.0",
+  "champions": [
+    {
+      "id": "yasuo",
+      "name": "Yasuo",
+      "title": "The Unforgiven",
+      "roles": ["fighter", "assassin"],
+      "difficulty": 3,
+      "comboCount": 11,
+      "portrait": "https://cdn.communitydragon.org/latest/champion/157/portrait",
+      "splash": "https://cdn.communitydragon.org/latest/champion/157/splash-art",
+      "tags": ["animation-cancel", "keyblade"]
+    }
+  ]
+}</code></pre>
+
+<h3>GET /data/combos/{championId}.json</h3>
+<p>Returns all combos for a champion with timing data.</p>
+<p>Example: <code>/data/combos/yasuo.json</code></p>
+<pre><code>{
+  "championId": "yasuo",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "yasuo-e-q-aa-e",
+      "name": "Yasuo E Q AA E",
+      "description": "Yasuo: E → AA → Q → AA → E",
+      "difficulty": "intermediate",
+      "video": {
+        "filename": "Yasuo/Yasuo E  Q  AA  E.mp4",
+        "duration": 6.0,
+        "fps": 60,
+        "comboStart": 1.7
+      },
+      "inputs": [
+        { "key": "E", "time": 1.7, "label": "E", "window": 100, "action": "spell3" },
+        { "key": "A", "time": 2.2, "label": "AA", "window": 100, "action": "autoattack" }
+      ]
+    }
+  ]
+}</code></pre>
+
+<h2>URL Scheme</h2>
+<table>
+<tr><th>URL</th><th>Description</th></tr>
+<tr><td><code>/</code></td><td>Champion browser</td></tr>
+<tr><td><code>/play/{championId}/{comboId}</code></td><td>Combo player</td></tr>
+<tr><td><code>/editor</code></td><td>Combo editor (coming soon)</td></tr>
+<tr><td><code>/.well-known/ai.json</code></td><td>AI-readable site manifest</td></tr>
+</table>
+
+<h2>Actions</h2>
+<table>
+<tr><th>Action ID</th><th>Default Key</th><th>Description</th></tr>
+<tr><td>spell1</td><td>Q</td><td>First ability</td></tr>
+<tr><td>spell2</td><td>W</td><td>Second ability</td></tr>
+<tr><td>spell3</td><td>E</td><td>Third ability</td></tr>
+<tr><td>spell4</td><td>R</td><td>Ultimate ability</td></tr>
+<tr><td>summoner1</td><td>D</td><td>First summoner spell</td></tr>
+<tr><td>summoner2</td><td>F</td><td>Second summoner spell</td></tr>
+<tr><td>autoattack</td><td>M2 (right-click)</td><td>Auto attack</td></tr>
+<tr><td>item1-4</td><td>1-4</td><td>Active items</td></tr>
+</table>
+
+<h2>Scoring</h2>
+<table>
+<tr><th>Grade</th><th>Easy</th><th>Normal</th><th>Strict</th></tr>
+<tr><td>Perfect</td><td>≤30ms</td><td>≤16ms</td><td>≤10ms</td></tr>
+<tr><td>Great</td><td>≤65ms</td><td>≤40ms</td><td>≤25ms</td></tr>
+<tr><td>Good</td><td>≤120ms</td><td>≤80ms</td><td>≤50ms</td></tr>
+<tr><td>Miss</td><td>&gt;120ms</td><td>&gt;80ms</td><td>&gt;50ms</td></tr>
+</table>
+
+<p><a href="https://github.com/1-Future/ComboSimulator">GitHub</a> · <a href="https://combosim.com">combosim.com</a></p>
+</body>
+</html>
