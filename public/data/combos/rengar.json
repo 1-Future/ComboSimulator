@@ -1,0 +1,361 @@
+{
+  "championId": "rengar",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "rengar-aewqe",
+      "name": "Rengar aewqE",
+      "description": "Rengar: AA \u2192 F \u2192 E \u2192 W \u2192 Q \u2192 E \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rengar/Rengar aewqE.mp4",
+        "duration": 7.1,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 2.833,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 2.9,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "E",
+          "time": 3.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 3.167,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.367,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.967,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "F",
+          "time": 4.033,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "rengar-aewqqa",
+      "name": "Rengar aewqQa",
+      "description": "Rengar: AA \u2192 E \u2192 E \u2192 W \u2192 Q \u2192 Q \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rengar/Rengar aewqQa.mp4",
+        "duration": 6.8,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 2.833,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 2.9,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 3.133,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 3.233,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.3,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "Q",
+          "time": 3.567,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.633,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.2,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "rengar-aewqaqa",
+      "name": "Rengar aewqaQa",
+      "description": "Rengar: AA \u2192 F \u2192 E \u2192 W \u2192 Q \u2192 AA \u2192 R \u2192 Q \u2192 E \u2192 AA \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rengar/Rengar aewqaQa.mp4",
+        "duration": 6.8,
+        "fps": 60,
+        "comboStart": 2.633
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 2.633,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "Q",
+          "time": 4.0,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.067,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.133,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 4.2,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "rengar-aewqw",
+      "name": "Rengar aewqw",
+      "description": "Rengar: AA \u2192 F \u2192 E \u2192 W \u2192 Q \u2192 W \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rengar/Rengar aewqw.mp4",
+        "duration": 5.9,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 2.833,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 2.9,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "E",
+          "time": 3.0,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 3.133,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.367,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.7,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "rengar-ef",
+      "name": "Rengar ef",
+      "description": "Rengar: E \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rengar/Rengar ef.mp4",
+        "duration": 6.3,
+        "fps": 60,
+        "comboStart": 2.867
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.867,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 2.933,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "rengar-r-youmuus-ghostblade-faewqqa",
+      "name": "Rengar r  Youmuus Ghostblade  faewqQa",
+      "description": "Rengar: R \u2192 ? \u2192 ? \u2192 AA \u2192 E \u2192 E \u2192 W \u2192 Q \u2192 Q \u2192 F \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rengar/Rengar r  Youmuus Ghostblade  faewqQa.mp4",
+        "duration": 10.8,
+        "fps": 60,
+        "comboStart": 2.867
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 2.867,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 5.167,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 7.733,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 7.933,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 8.033,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "Q",
+          "time": 8.4,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "F",
+          "time": 8.467,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "A",
+          "time": 8.9,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

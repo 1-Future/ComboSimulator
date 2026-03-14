@@ -6,6 +6,7 @@ export interface Champion {
   difficulty: 1 | 2 | 3
   comboCount: number
   thumbnail: string
+  portrait?: string
   tags: string[]
 }
 

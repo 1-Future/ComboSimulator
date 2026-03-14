@@ -1,0 +1,83 @@
+{
+  "championId": "velkoz",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "velkoz-q-e-w-r",
+      "name": "VelKoz Q  E  W  R",
+      "description": "Vel'Koz: Q \u2192 E \u2192 W \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Vel'Koz/VelKoz Q  E  W  R.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.733
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.733,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 2.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 2.333,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 2.733,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "velkoz-q-e-w",
+      "name": "VelKoz Q  E  W",
+      "description": "Vel'Koz: Q \u2192 E \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Vel'Koz/VelKoz Q  E  W.mp4",
+        "duration": 6.0,
+        "fps": 60,
+        "comboStart": 1.733
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.733,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 1.9,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

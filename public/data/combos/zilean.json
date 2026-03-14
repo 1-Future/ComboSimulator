@@ -1,0 +1,239 @@
+{
+  "championId": "zilean",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "zilean-e-r-q-w-q-e",
+      "name": "Zilean E  R  Q  W  Q  E",
+      "description": "Zilean: E \u2192 R \u2192 W \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Zilean/Zilean E  R  Q  W  Q  E.mp4",
+        "duration": 10.6,
+        "fps": 60,
+        "comboStart": 2.3
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.3,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 2.933,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "W",
+          "time": 3.2,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "1",
+          "time": 5.733,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "zilean-q-e-w-q-flash",
+      "name": "Zilean Q  E  W  Q  Flash",
+      "description": "Zilean: Q \u2192 E \u2192 W \u2192 Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Zilean/Zilean Q  E  W  Q  Flash.mp4",
+        "duration": 10.9,
+        "fps": 60,
+        "comboStart": 2.267
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.267,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 2.867,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 3.6,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 4.667,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.733,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "zilean-q-w-q-flash",
+      "name": "Zilean Q  W  Q  Flash",
+      "description": "Zilean: Q \u2192 W \u2192 Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Zilean/Zilean Q  W  Q  Flash.mp4",
+        "duration": 9.4,
+        "fps": 60,
+        "comboStart": 2.6
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.6,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 2.933,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.0,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.933,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "zilean-q-w-q",
+      "name": "Zilean Q  W  Q",
+      "description": "Zilean: Q \u2192 W \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Zilean/Zilean Q  W  Q.mp4",
+        "duration": 8.8,
+        "fps": 60,
+        "comboStart": 2.033
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.033,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 2.3,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 2.833,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "zilean-qwq-everfrost-a",
+      "name": "Zilean qwq  Everfrost  a",
+      "description": "Zilean: Q \u2192 W \u2192 Q \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Zilean/Zilean qwq  Everfrost  a.mp4",
+        "duration": 8.7,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.833,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 2.933,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.2,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.733,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 5.433,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

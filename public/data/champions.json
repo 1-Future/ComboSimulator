@@ -5,1501 +5,2755 @@
       "id": "aatrox",
       "name": "Aatrox",
       "title": "The Darkin Blade",
-      "roles": ["fighter"],
+      "roles": [
+        "fighter"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "aatrox.webp",
-      "tags": ["all-in", "animation-cancel", "trade"]
+      "tags": [
+        "all-in",
+        "animation-cancel",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png"
     },
     {
       "id": "ahri",
       "name": "Ahri",
       "title": "The Nine-Tailed Fox",
-      "roles": ["mage", "assassin"],
+      "roles": [
+        "mage",
+        "assassin"
+      ],
       "difficulty": 2,
       "comboCount": 8,
       "thumbnail": "ahri.webp",
-      "tags": ["burst", "poke", "flash-combo", "trade"]
+      "tags": [
+        "burst",
+        "poke",
+        "flash-combo",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/103.png"
     },
     {
       "id": "akali",
       "name": "Akali",
       "title": "The Rogue Assassin",
-      "roles": ["assassin"],
+      "roles": [
+        "assassin"
+      ],
       "difficulty": 3,
       "comboCount": 9,
       "thumbnail": "akali.webp",
-      "tags": ["all-in", "burst", "animation-cancel", "trade"]
+      "tags": [
+        "all-in",
+        "burst",
+        "animation-cancel",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/84.png"
     },
     {
       "id": "akshan",
       "name": "Akshan",
       "title": "The Rogue Sentinel",
-      "roles": ["marksman", "assassin"],
+      "roles": [
+        "marksman",
+        "assassin"
+      ],
       "difficulty": 2,
       "comboCount": 3,
       "thumbnail": "akshan.webp",
-      "tags": ["trade", "burst", "wall-combo"]
+      "tags": [
+        "trade",
+        "burst",
+        "wall-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/166.png"
     },
     {
       "id": "alistar",
       "name": "Alistar",
       "title": "The Minotaur",
-      "roles": ["tank", "support"],
+      "roles": [
+        "tank",
+        "support"
+      ],
       "difficulty": 2,
       "comboCount": 7,
       "thumbnail": "alistar.webp",
-      "tags": ["engage", "flash-combo", "animation-cancel"]
+      "tags": [
+        "engage",
+        "flash-combo",
+        "animation-cancel"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/12.png"
     },
     {
       "id": "ambessa",
       "name": "Ambessa",
       "title": "The Matriarch of War",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 3,
       "comboCount": 9,
       "thumbnail": "ambessa.webp",
-      "tags": ["all-in", "animation-cancel", "burst", "reset"]
+      "tags": [
+        "all-in",
+        "animation-cancel",
+        "burst",
+        "reset"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/799.png"
     },
     {
       "id": "amumu",
       "name": "Amumu",
       "title": "The Sad Mummy",
-      "roles": ["tank", "mage"],
+      "roles": [
+        "tank",
+        "mage"
+      ],
       "difficulty": 1,
       "comboCount": 5,
       "thumbnail": "amumu.webp",
-      "tags": ["engage", "flash-combo", "all-in"]
+      "tags": [
+        "engage",
+        "flash-combo",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/32.png"
     },
     {
       "id": "anivia",
       "name": "Anivia",
       "title": "The Cryophoenix",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 2,
       "thumbnail": "anivia.webp",
-      "tags": ["poke", "wall-combo", "trade"]
+      "tags": [
+        "poke",
+        "wall-combo",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/34.png"
     },
     {
       "id": "annie",
       "name": "Annie",
       "title": "The Dark Child",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 1,
       "comboCount": 2,
       "thumbnail": "annie.webp",
-      "tags": ["burst", "flash-combo", "engage"]
+      "tags": [
+        "burst",
+        "flash-combo",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/1.png"
     },
     {
       "id": "ashe",
       "name": "Ashe",
       "title": "The Frost Archer",
-      "roles": ["marksman", "support"],
+      "roles": [
+        "marksman",
+        "support"
+      ],
       "difficulty": 1,
       "comboCount": 2,
       "thumbnail": "ashe.webp",
-      "tags": ["poke", "engage", "trade"]
+      "tags": [
+        "poke",
+        "engage",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/22.png"
     },
     {
       "id": "aurelion-sol",
       "name": "Aurelion Sol",
       "title": "The Star Forger",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 3,
       "comboCount": 7,
       "thumbnail": "aurelion-sol.webp",
-      "tags": ["poke", "burst", "trade", "all-in"]
+      "tags": [
+        "poke",
+        "burst",
+        "trade",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/136.png"
     },
     {
       "id": "aurora",
       "name": "Aurora",
       "title": "The Witch Between Worlds",
-      "roles": ["mage", "assassin"],
+      "roles": [
+        "mage",
+        "assassin"
+      ],
       "difficulty": 2,
       "comboCount": 4,
       "thumbnail": "aurora.webp",
-      "tags": ["burst", "trade", "engage"]
+      "tags": [
+        "burst",
+        "trade",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/893.png"
     },
     {
       "id": "azir",
       "name": "Azir",
       "title": "The Emperor of the Sands",
-      "roles": ["mage", "marksman"],
+      "roles": [
+        "mage",
+        "marksman"
+      ],
       "difficulty": 3,
       "comboCount": 5,
       "thumbnail": "azir.webp",
-      "tags": ["poke", "engage", "flash-combo", "wall-combo"]
+      "tags": [
+        "poke",
+        "engage",
+        "flash-combo",
+        "wall-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/268.png"
     },
     {
       "id": "bard",
       "name": "Bard",
       "title": "The Wandering Caretaker",
-      "roles": ["support", "mage"],
+      "roles": [
+        "support",
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 2,
       "thumbnail": "bard.webp",
-      "tags": ["engage", "poke", "trade"]
+      "tags": [
+        "engage",
+        "poke",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/432.png"
     },
     {
       "id": "blitzcrank",
       "name": "Blitzcrank",
       "title": "The Great Steam Golem",
-      "roles": ["tank", "support"],
+      "roles": [
+        "tank",
+        "support"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "blitzcrank.webp",
-      "tags": ["engage", "burst", "flash-combo"]
+      "tags": [
+        "engage",
+        "burst",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/53.png"
     },
     {
       "id": "brand",
       "name": "Brand",
       "title": "The Burning Vengeance",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 6,
       "thumbnail": "brand.webp",
-      "tags": ["poke", "burst", "trade", "all-in"]
+      "tags": [
+        "poke",
+        "burst",
+        "trade",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/63.png"
     },
     {
       "id": "braum",
       "name": "Braum",
       "title": "The Heart of the Freljord",
-      "roles": ["support", "tank"],
+      "roles": [
+        "support",
+        "tank"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "braum.webp",
-      "tags": ["engage", "trade", "flash-combo"]
+      "tags": [
+        "engage",
+        "trade",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/201.png"
     },
     {
       "id": "briar",
       "name": "Briar",
       "title": "The Restrained Hunger",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "briar.webp",
-      "tags": ["all-in", "burst", "engage"]
+      "tags": [
+        "all-in",
+        "burst",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/233.png"
     },
     {
       "id": "caitlyn",
       "name": "Caitlyn",
       "title": "The Sheriff of Piltover",
-      "roles": ["marksman"],
+      "roles": [
+        "marksman"
+      ],
       "difficulty": 2,
       "comboCount": 6,
       "thumbnail": "caitlyn.webp",
-      "tags": ["poke", "animation-cancel", "trade", "burst"]
+      "tags": [
+        "poke",
+        "animation-cancel",
+        "trade",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/51.png"
     },
     {
       "id": "camille",
       "name": "Camille",
       "title": "The Steel Shadow",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 3,
       "comboCount": 20,
       "thumbnail": "camille.webp",
-      "tags": ["all-in", "animation-cancel", "flash-combo", "wall-combo", "trade", "burst"]
+      "tags": [
+        "all-in",
+        "animation-cancel",
+        "flash-combo",
+        "wall-combo",
+        "trade",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/164.png"
     },
     {
       "id": "cassiopeia",
       "name": "Cassiopeia",
       "title": "The Serpent's Embrace",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 3,
       "comboCount": 4,
       "thumbnail": "cassiopeia.webp",
-      "tags": ["burst", "flash-combo", "trade", "all-in"]
+      "tags": [
+        "burst",
+        "flash-combo",
+        "trade",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/69.png"
     },
     {
       "id": "chogath",
       "name": "Chogath",
       "title": "The Terror of the Void",
-      "roles": ["tank", "mage"],
+      "roles": [
+        "tank",
+        "mage"
+      ],
       "difficulty": 1,
       "comboCount": 2,
       "thumbnail": "chogath.webp",
-      "tags": ["burst", "flash-combo", "engage"]
+      "tags": [
+        "burst",
+        "flash-combo",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/31.png"
     },
     {
       "id": "corki",
       "name": "Corki",
       "title": "The Daring Bombardier",
-      "roles": ["marksman"],
+      "roles": [
+        "marksman"
+      ],
       "difficulty": 2,
       "comboCount": 3,
       "thumbnail": "corki.webp",
-      "tags": ["poke", "burst", "trade"]
+      "tags": [
+        "poke",
+        "burst",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/42.png"
     },
     {
       "id": "darius",
       "name": "Darius",
       "title": "The Hand of Noxus",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "darius.webp",
-      "tags": ["all-in", "flash-combo", "reset"]
+      "tags": [
+        "all-in",
+        "flash-combo",
+        "reset"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/122.png"
     },
     {
       "id": "diana",
       "name": "Diana",
       "title": "Scorn of the Moon",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 2,
       "comboCount": 6,
       "thumbnail": "diana.webp",
-      "tags": ["all-in", "burst", "engage", "flash-combo"]
+      "tags": [
+        "all-in",
+        "burst",
+        "engage",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/131.png"
     },
     {
       "id": "draven",
       "name": "Draven",
       "title": "The Glorious Executioner",
-      "roles": ["marksman"],
+      "roles": [
+        "marksman"
+      ],
       "difficulty": 3,
       "comboCount": 6,
       "thumbnail": "draven.webp",
-      "tags": ["trade", "all-in", "animation-cancel", "reset"]
+      "tags": [
+        "trade",
+        "all-in",
+        "animation-cancel",
+        "reset"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/119.png"
     },
     {
       "id": "ekko",
       "name": "Ekko",
       "title": "The Boy Who Shattered Time",
-      "roles": ["assassin", "fighter"],
+      "roles": [
+        "assassin",
+        "fighter"
+      ],
       "difficulty": 3,
       "comboCount": 12,
       "thumbnail": "ekko.webp",
-      "tags": ["burst", "all-in", "trade", "animation-cancel", "flash-combo"]
+      "tags": [
+        "burst",
+        "all-in",
+        "trade",
+        "animation-cancel",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/245.png"
     },
     {
       "id": "elise",
       "name": "Elise",
       "title": "The Spider Queen",
-      "roles": ["mage", "fighter"],
+      "roles": [
+        "mage",
+        "fighter"
+      ],
       "difficulty": 3,
       "comboCount": 7,
       "thumbnail": "elise.webp",
-      "tags": ["burst", "all-in", "trade", "engage"]
+      "tags": [
+        "burst",
+        "all-in",
+        "trade",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/60.png"
     },
     {
       "id": "evelynn",
       "name": "Evelynn",
       "title": "Agony's Embrace",
-      "roles": ["assassin", "mage"],
+      "roles": [
+        "assassin",
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "evelynn.webp",
-      "tags": ["burst", "all-in", "flash-combo"]
+      "tags": [
+        "burst",
+        "all-in",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/28.png"
     },
     {
       "id": "ezreal",
       "name": "Ezreal",
       "title": "The Prodigal Explorer",
-      "roles": ["marksman", "mage"],
+      "roles": [
+        "marksman",
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 8,
       "thumbnail": "ezreal.webp",
-      "tags": ["poke", "burst", "animation-cancel", "trade"]
+      "tags": [
+        "poke",
+        "burst",
+        "animation-cancel",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/81.png"
     },
     {
       "id": "fiddlesticks",
       "name": "Fiddlesticks",
       "title": "The Ancient Fear",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 6,
       "thumbnail": "fiddlesticks.webp",
-      "tags": ["engage", "flash-combo", "burst", "all-in"]
+      "tags": [
+        "engage",
+        "flash-combo",
+        "burst",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/9.png"
     },
     {
       "id": "fiora",
       "name": "Fiora",
       "title": "The Grand Duelist",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 3,
-      "comboCount": 15,
+      "comboCount": 12,
       "thumbnail": "fiora.webp",
-      "tags": ["all-in", "animation-cancel", "trade", "burst", "reset", "wall-combo"]
+      "tags": [
+        "all-in",
+        "animation-cancel",
+        "trade",
+        "burst",
+        "reset",
+        "wall-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/114.png"
     },
     {
       "id": "fizz",
       "name": "Fizz",
       "title": "The Tidal Trickster",
-      "roles": ["assassin", "fighter"],
+      "roles": [
+        "assassin",
+        "fighter"
+      ],
       "difficulty": 2,
       "comboCount": 9,
       "thumbnail": "fizz.webp",
-      "tags": ["burst", "all-in", "flash-combo", "trade"]
+      "tags": [
+        "burst",
+        "all-in",
+        "flash-combo",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/105.png"
     },
     {
       "id": "galio",
       "name": "Galio",
       "title": "The Colossus",
-      "roles": ["tank", "mage"],
+      "roles": [
+        "tank",
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 4,
       "thumbnail": "galio.webp",
-      "tags": ["engage", "flash-combo", "burst", "trade"]
+      "tags": [
+        "engage",
+        "flash-combo",
+        "burst",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/3.png"
     },
     {
       "id": "gangplank",
       "name": "Gangplank",
       "title": "The Saltwater Scourge",
-      "roles": ["fighter"],
+      "roles": [
+        "fighter"
+      ],
       "difficulty": 3,
       "comboCount": 12,
       "thumbnail": "gangplank.webp",
-      "tags": ["burst", "animation-cancel", "trade", "poke", "reset"]
+      "tags": [
+        "burst",
+        "animation-cancel",
+        "trade",
+        "poke",
+        "reset"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/41.png"
     },
     {
       "id": "garen",
       "name": "Garen",
       "title": "The Might of Demacia",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 1,
       "comboCount": 1,
       "thumbnail": "garen.webp",
-      "tags": ["all-in", "trade"]
+      "tags": [
+        "all-in",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/86.png"
     },
     {
       "id": "gnar",
       "name": "Gnar",
       "title": "The Missing Link",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 2,
-      "comboCount": 4,
+      "comboCount": 3,
       "thumbnail": "gnar.webp",
-      "tags": ["engage", "flash-combo", "trade", "wall-combo"]
+      "tags": [
+        "engage",
+        "flash-combo",
+        "trade",
+        "wall-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/150.png"
     },
     {
       "id": "gragas",
       "name": "Gragas",
       "title": "The Rabble Rouser",
-      "roles": ["fighter", "mage"],
+      "roles": [
+        "fighter",
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 6,
       "thumbnail": "gragas.webp",
-      "tags": ["burst", "flash-combo", "engage", "animation-cancel"]
+      "tags": [
+        "burst",
+        "flash-combo",
+        "engage",
+        "animation-cancel"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/79.png"
     },
     {
       "id": "graves",
       "name": "Graves",
       "title": "The Outlaw",
-      "roles": ["marksman"],
+      "roles": [
+        "marksman"
+      ],
       "difficulty": 2,
       "comboCount": 10,
       "thumbnail": "graves.webp",
-      "tags": ["burst", "animation-cancel", "all-in", "trade", "wall-combo"]
+      "tags": [
+        "burst",
+        "animation-cancel",
+        "all-in",
+        "trade",
+        "wall-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/104.png"
     },
     {
       "id": "gwen",
       "name": "Gwen",
       "title": "The Hallowed Seamstress",
-      "roles": ["fighter"],
+      "roles": [
+        "fighter"
+      ],
       "difficulty": 2,
       "comboCount": 9,
       "thumbnail": "gwen.webp",
-      "tags": ["all-in", "animation-cancel", "trade", "burst"]
+      "tags": [
+        "all-in",
+        "animation-cancel",
+        "trade",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/887.png"
     },
     {
       "id": "hecarim",
       "name": "Hecarim",
       "title": "The Shadow of War",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 2,
-      "comboCount": 4,
+      "comboCount": 2,
       "thumbnail": "hecarim.webp",
-      "tags": ["engage", "all-in", "burst"]
+      "tags": [
+        "engage",
+        "all-in",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/120.png"
     },
     {
       "id": "heimerdinger",
       "name": "Heimerdinger",
       "title": "The Revered Inventor",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "heimerdinger.webp",
-      "tags": ["poke", "trade", "burst", "all-in"]
+      "tags": [
+        "poke",
+        "trade",
+        "burst",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/74.png"
     },
     {
       "id": "hwei",
       "name": "Hwei",
       "title": "The Visionary",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 3,
       "comboCount": 4,
       "thumbnail": "hwei.webp",
-      "tags": ["poke", "burst", "trade", "engage"]
+      "tags": [
+        "poke",
+        "burst",
+        "trade",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/910.png"
     },
     {
       "id": "illaoi",
       "name": "Illaoi",
       "title": "The Kraken Priestess",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 2,
       "comboCount": 6,
       "thumbnail": "illaoi.webp",
-      "tags": ["all-in", "trade", "burst"]
+      "tags": [
+        "all-in",
+        "trade",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/420.png"
     },
     {
       "id": "irelia",
       "name": "Irelia",
       "title": "The Blade Dancer",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 3,
       "comboCount": 6,
       "thumbnail": "irelia.webp",
-      "tags": ["all-in", "animation-cancel", "reset", "trade"]
+      "tags": [
+        "all-in",
+        "animation-cancel",
+        "reset",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/39.png"
     },
     {
       "id": "janna",
       "name": "Janna",
       "title": "The Storm's Fury",
-      "roles": ["support", "mage"],
+      "roles": [
+        "support",
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "janna.webp",
-      "tags": ["poke", "trade", "engage", "flash-combo"]
+      "tags": [
+        "poke",
+        "trade",
+        "engage",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/40.png"
     },
     {
       "id": "jarvan-iv",
       "name": "Jarvan IV",
       "title": "The Exemplar of Demacia",
-      "roles": ["tank", "fighter"],
+      "roles": [
+        "tank",
+        "fighter"
+      ],
       "difficulty": 2,
       "comboCount": 7,
       "thumbnail": "jarvan-iv.webp",
-      "tags": ["engage", "all-in", "flash-combo", "burst"]
+      "tags": [
+        "engage",
+        "all-in",
+        "flash-combo",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/59.png"
     },
     {
       "id": "jax",
       "name": "Jax",
       "title": "Grandmaster at Arms",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 2,
       "comboCount": 11,
       "thumbnail": "jax.webp",
-      "tags": ["all-in", "animation-cancel", "trade", "burst", "reset"]
+      "tags": [
+        "all-in",
+        "animation-cancel",
+        "trade",
+        "burst",
+        "reset"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/24.png"
     },
     {
       "id": "jayce",
       "name": "Jayce",
       "title": "The Defender of Tomorrow",
-      "roles": ["fighter", "marksman"],
+      "roles": [
+        "fighter",
+        "marksman"
+      ],
       "difficulty": 3,
-      "comboCount": 15,
+      "comboCount": 14,
       "thumbnail": "jayce.webp",
-      "tags": ["poke", "burst", "animation-cancel", "all-in", "trade"]
+      "tags": [
+        "poke",
+        "burst",
+        "animation-cancel",
+        "all-in",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/126.png"
     },
     {
       "id": "jhin",
       "name": "Jhin",
       "title": "The Virtuoso",
-      "roles": ["marksman", "mage"],
+      "roles": [
+        "marksman",
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 3,
       "thumbnail": "jhin.webp",
-      "tags": ["poke", "burst", "trade"]
+      "tags": [
+        "poke",
+        "burst",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/202.png"
     },
     {
       "id": "jinx",
       "name": "Jinx",
       "title": "The Loose Cannon",
-      "roles": ["marksman"],
+      "roles": [
+        "marksman"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "jinx.webp",
-      "tags": ["poke", "trade", "burst", "reset"]
+      "tags": [
+        "poke",
+        "trade",
+        "burst",
+        "reset"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/222.png"
     },
     {
       "id": "kaisa",
       "name": "Kai'Sa",
       "title": "Daughter of the Void",
-      "roles": ["marksman"],
+      "roles": [
+        "marksman"
+      ],
       "difficulty": 2,
       "comboCount": 4,
       "thumbnail": "kaisa.webp",
-      "tags": ["burst", "all-in", "trade"]
+      "tags": [
+        "burst",
+        "all-in",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/145.png"
     },
     {
       "id": "kalista",
       "name": "Kalista",
       "title": "The Spear of Vengeance",
-      "roles": ["marksman"],
+      "roles": [
+        "marksman"
+      ],
       "difficulty": 3,
       "comboCount": 3,
       "thumbnail": "kalista.webp",
-      "tags": ["trade", "all-in", "engage"]
+      "tags": [
+        "trade",
+        "all-in",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/429.png"
     },
     {
       "id": "karma",
       "name": "Karma",
       "title": "The Enlightened One",
-      "roles": ["mage", "support"],
+      "roles": [
+        "mage",
+        "support"
+      ],
       "difficulty": 1,
       "comboCount": 6,
       "thumbnail": "karma.webp",
-      "tags": ["poke", "trade", "burst", "engage"]
+      "tags": [
+        "poke",
+        "trade",
+        "burst",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/43.png"
     },
     {
       "id": "kassadin",
       "name": "Kassadin",
       "title": "The Void Walker",
-      "roles": ["assassin", "mage"],
+      "roles": [
+        "assassin",
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 4,
       "thumbnail": "kassadin.webp",
-      "tags": ["burst", "all-in", "trade"]
+      "tags": [
+        "burst",
+        "all-in",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/38.png"
     },
     {
       "id": "katarina",
       "name": "Katarina",
       "title": "The Sinister Blade",
-      "roles": ["assassin", "mage"],
+      "roles": [
+        "assassin",
+        "mage"
+      ],
       "difficulty": 3,
       "comboCount": 7,
       "thumbnail": "katarina.webp",
-      "tags": ["burst", "all-in", "reset", "animation-cancel"]
+      "tags": [
+        "burst",
+        "all-in",
+        "reset",
+        "animation-cancel"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/55.png"
     },
     {
       "id": "kayle",
       "name": "Kayle",
       "title": "The Righteous",
-      "roles": ["fighter", "marksman"],
+      "roles": [
+        "fighter",
+        "marksman"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "kayle.webp",
-      "tags": ["trade", "burst", "all-in"]
+      "tags": [
+        "trade",
+        "burst",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/10.png"
     },
     {
       "id": "kayn",
       "name": "Kayn",
       "title": "The Shadow Reaper",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 2,
-      "comboCount": 11,
+      "comboCount": 10,
       "thumbnail": "kayn.webp",
-      "tags": ["all-in", "burst", "wall-combo", "animation-cancel", "trade"]
+      "tags": [
+        "all-in",
+        "burst",
+        "wall-combo",
+        "animation-cancel",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/141.png"
     },
     {
       "id": "kennen",
       "name": "Kennen",
       "title": "The Heart of the Tempest",
-      "roles": ["mage", "marksman"],
+      "roles": [
+        "mage",
+        "marksman"
+      ],
       "difficulty": 2,
       "comboCount": 7,
       "thumbnail": "kennen.webp",
-      "tags": ["engage", "flash-combo", "burst", "trade"]
+      "tags": [
+        "engage",
+        "flash-combo",
+        "burst",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/85.png"
     },
     {
       "id": "khazix",
       "name": "Kha'Zix",
       "title": "The Voidreaver",
-      "roles": ["assassin"],
+      "roles": [
+        "assassin"
+      ],
       "difficulty": 2,
       "comboCount": 3,
       "thumbnail": "khazix.webp",
-      "tags": ["burst", "all-in", "reset"]
+      "tags": [
+        "burst",
+        "all-in",
+        "reset"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/121.png"
     },
     {
       "id": "kindred",
       "name": "Kindred",
       "title": "The Eternal Hunters",
-      "roles": ["marksman"],
+      "roles": [
+        "marksman"
+      ],
       "difficulty": 2,
       "comboCount": 3,
       "thumbnail": "kindred.webp",
-      "tags": ["trade", "burst", "all-in"]
+      "tags": [
+        "trade",
+        "burst",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/203.png"
     },
     {
       "id": "kled",
       "name": "Kled",
       "title": "The Cantankerous Cavalier",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "kled.webp",
-      "tags": ["all-in", "engage", "animation-cancel", "trade"]
+      "tags": [
+        "all-in",
+        "engage",
+        "animation-cancel",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/240.png"
     },
     {
       "id": "kogmaw",
       "name": "Kog'Maw",
       "title": "The Mouth of the Abyss",
-      "roles": ["marksman", "mage"],
+      "roles": [
+        "marksman",
+        "mage"
+      ],
       "difficulty": 1,
-      "comboCount": 3,
+      "comboCount": 2,
       "thumbnail": "kogmaw.webp",
-      "tags": ["poke", "trade", "burst"]
+      "tags": [
+        "poke",
+        "trade",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/96.png"
     },
     {
       "id": "leblanc",
       "name": "LeBlanc",
       "title": "The Deceiver",
-      "roles": ["assassin", "mage"],
+      "roles": [
+        "assassin",
+        "mage"
+      ],
       "difficulty": 3,
       "comboCount": 7,
       "thumbnail": "leblanc.webp",
-      "tags": ["burst", "trade", "all-in", "flash-combo"]
+      "tags": [
+        "burst",
+        "trade",
+        "all-in",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/7.png"
     },
     {
       "id": "lee-sin",
       "name": "Lee Sin",
       "title": "The Blind Monk",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 3,
       "comboCount": 10,
       "thumbnail": "lee-sin.webp",
-      "tags": ["all-in", "animation-cancel", "flash-combo", "engage", "burst"]
+      "tags": [
+        "all-in",
+        "animation-cancel",
+        "flash-combo",
+        "engage",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/64.png"
     },
     {
       "id": "leona",
       "name": "Leona",
       "title": "The Radiant Dawn",
-      "roles": ["tank", "support"],
+      "roles": [
+        "tank",
+        "support"
+      ],
       "difficulty": 1,
       "comboCount": 5,
       "thumbnail": "leona.webp",
-      "tags": ["engage", "all-in", "flash-combo", "burst"]
+      "tags": [
+        "engage",
+        "all-in",
+        "flash-combo",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/89.png"
     },
     {
       "id": "lillia",
       "name": "Lillia",
       "title": "The Bashful Bloom",
-      "roles": ["fighter", "mage"],
+      "roles": [
+        "fighter",
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 2,
       "thumbnail": "lillia.webp",
-      "tags": ["poke", "engage", "flash-combo"]
+      "tags": [
+        "poke",
+        "engage",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/876.png"
     },
     {
       "id": "lissandra",
       "name": "Lissandra",
       "title": "The Ice Witch",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 3,
       "thumbnail": "lissandra.webp",
-      "tags": ["engage", "burst", "flash-combo", "trade"]
+      "tags": [
+        "engage",
+        "burst",
+        "flash-combo",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/127.png"
     },
     {
       "id": "lucian",
       "name": "Lucian",
       "title": "The Purifier",
-      "roles": ["marksman"],
+      "roles": [
+        "marksman"
+      ],
       "difficulty": 2,
       "comboCount": 9,
       "thumbnail": "lucian.webp",
-      "tags": ["burst", "animation-cancel", "trade", "all-in"]
+      "tags": [
+        "burst",
+        "animation-cancel",
+        "trade",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/236.png"
     },
     {
       "id": "lulu",
       "name": "Lulu",
       "title": "The Fae Sorceress",
-      "roles": ["support", "mage"],
+      "roles": [
+        "support",
+        "mage"
+      ],
       "difficulty": 2,
-      "comboCount": 4,
+      "comboCount": 3,
       "thumbnail": "lulu.webp",
-      "tags": ["poke", "trade", "engage"]
+      "tags": [
+        "poke",
+        "trade",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/117.png"
     },
     {
       "id": "lux",
       "name": "Lux",
       "title": "The Lady of Luminosity",
-      "roles": ["mage", "support"],
+      "roles": [
+        "mage",
+        "support"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "lux.webp",
-      "tags": ["poke", "burst", "trade"]
+      "tags": [
+        "poke",
+        "burst",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/99.png"
     },
     {
       "id": "malphite",
       "name": "Malphite",
       "title": "Shard of the Monolith",
-      "roles": ["tank", "mage"],
+      "roles": [
+        "tank",
+        "mage"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "malphite.webp",
-      "tags": ["engage", "flash-combo", "burst"]
+      "tags": [
+        "engage",
+        "flash-combo",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/54.png"
     },
     {
       "id": "malzahar",
       "name": "Malzahar",
       "title": "The Prophet of the Void",
-      "roles": ["mage", "assassin"],
+      "roles": [
+        "mage",
+        "assassin"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "malzahar.webp",
-      "tags": ["burst", "all-in", "trade"]
+      "tags": [
+        "burst",
+        "all-in",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/90.png"
     },
     {
       "id": "maokai",
       "name": "Maokai",
       "title": "The Twisted Treant",
-      "roles": ["tank", "mage"],
+      "roles": [
+        "tank",
+        "mage"
+      ],
       "difficulty": 1,
       "comboCount": 4,
       "thumbnail": "maokai.webp",
-      "tags": ["engage", "trade", "all-in"]
+      "tags": [
+        "engage",
+        "trade",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/57.png"
     },
     {
       "id": "master-yi",
       "name": "Master Yi",
       "title": "The Wuju Bladesman",
-      "roles": ["assassin", "fighter"],
+      "roles": [
+        "assassin",
+        "fighter"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "master-yi.webp",
-      "tags": ["all-in", "reset", "burst"]
+      "tags": [
+        "all-in",
+        "reset",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/11.png"
     },
     {
       "id": "mel",
       "name": "Mel",
       "title": "The Invoker",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "mel.webp",
-      "tags": ["poke", "burst", "trade", "all-in"]
+      "tags": [
+        "poke",
+        "burst",
+        "trade",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/800.png"
     },
     {
       "id": "mordekaiser",
       "name": "Mordekaiser",
       "title": "The Iron Revenant",
-      "roles": ["fighter"],
+      "roles": [
+        "fighter"
+      ],
       "difficulty": 2,
       "comboCount": 8,
       "thumbnail": "mordekaiser.webp",
-      "tags": ["all-in", "burst", "trade", "flash-combo"]
+      "tags": [
+        "all-in",
+        "burst",
+        "trade",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/82.png"
     },
     {
       "id": "morgana",
       "name": "Morgana",
       "title": "The Fallen",
-      "roles": ["mage", "support"],
+      "roles": [
+        "mage",
+        "support"
+      ],
       "difficulty": 1,
       "comboCount": 5,
       "thumbnail": "morgana.webp",
-      "tags": ["engage", "burst", "flash-combo", "trade"]
+      "tags": [
+        "engage",
+        "burst",
+        "flash-combo",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/25.png"
     },
     {
       "id": "nami",
       "name": "Nami",
       "title": "The Tidecaller",
-      "roles": ["support", "mage"],
+      "roles": [
+        "support",
+        "mage"
+      ],
       "difficulty": 1,
       "comboCount": 1,
       "thumbnail": "nami.webp",
-      "tags": ["poke", "trade", "engage"]
+      "tags": [
+        "poke",
+        "trade",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/267.png"
     },
     {
       "id": "nasus",
       "name": "Nasus",
       "title": "The Curator of the Sands",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 1,
       "comboCount": 2,
       "thumbnail": "nasus.webp",
-      "tags": ["all-in", "trade"]
+      "tags": [
+        "all-in",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/75.png"
     },
     {
       "id": "nautilus",
       "name": "Nautilus",
       "title": "The Titan of the Depths",
-      "roles": ["tank", "support"],
+      "roles": [
+        "tank",
+        "support"
+      ],
       "difficulty": 1,
       "comboCount": 2,
       "thumbnail": "nautilus.webp",
-      "tags": ["engage", "all-in", "flash-combo"]
+      "tags": [
+        "engage",
+        "all-in",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/111.png"
     },
     {
       "id": "neeko",
       "name": "Neeko",
       "title": "The Curious Chameleon",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
-      "comboCount": 8,
+      "comboCount": 7,
       "thumbnail": "neeko.webp",
-      "tags": ["burst", "engage", "flash-combo", "trade"]
+      "tags": [
+        "burst",
+        "engage",
+        "flash-combo",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/518.png"
     },
     {
       "id": "nidalee",
       "name": "Nidalee",
       "title": "The Bestial Huntress",
-      "roles": ["assassin", "mage"],
+      "roles": [
+        "assassin",
+        "mage"
+      ],
       "difficulty": 3,
       "comboCount": 1,
       "thumbnail": "nidalee.webp",
-      "tags": ["poke", "burst", "all-in"]
+      "tags": [
+        "poke",
+        "burst",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/76.png"
     },
     {
       "id": "nocturne",
       "name": "Nocturne",
       "title": "The Eternal Nightmare",
-      "roles": ["assassin", "fighter"],
+      "roles": [
+        "assassin",
+        "fighter"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "nocturne.webp",
-      "tags": ["all-in", "burst", "engage"]
+      "tags": [
+        "all-in",
+        "burst",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/56.png"
     },
     {
       "id": "olaf",
       "name": "Olaf",
       "title": "The Berserker",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 1,
       "comboCount": 5,
       "thumbnail": "olaf.webp",
-      "tags": ["all-in", "trade", "engage"]
+      "tags": [
+        "all-in",
+        "trade",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/2.png"
     },
     {
       "id": "orianna",
       "name": "Orianna",
       "title": "The Lady of Clockwork",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "orianna.webp",
-      "tags": ["poke", "burst", "flash-combo", "engage", "trade"]
+      "tags": [
+        "poke",
+        "burst",
+        "flash-combo",
+        "engage",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/61.png"
     },
     {
       "id": "ornn",
       "name": "Ornn",
       "title": "The Fire Below the Mountain",
-      "roles": ["tank", "fighter"],
+      "roles": [
+        "tank",
+        "fighter"
+      ],
       "difficulty": 2,
       "comboCount": 9,
       "thumbnail": "ornn.webp",
-      "tags": ["engage", "trade", "animation-cancel", "all-in", "wall-combo"]
+      "tags": [
+        "engage",
+        "trade",
+        "animation-cancel",
+        "all-in",
+        "wall-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/516.png"
     },
     {
       "id": "pantheon",
       "name": "Pantheon",
       "title": "The Unbreakable Spear",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 2,
       "comboCount": 11,
       "thumbnail": "pantheon.webp",
-      "tags": ["all-in", "burst", "trade", "animation-cancel", "flash-combo"]
+      "tags": [
+        "all-in",
+        "burst",
+        "trade",
+        "animation-cancel",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/80.png"
     },
     {
       "id": "poppy",
       "name": "Poppy",
       "title": "Keeper of the Hammer",
-      "roles": ["tank", "fighter"],
+      "roles": [
+        "tank",
+        "fighter"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "poppy.webp",
-      "tags": ["engage", "wall-combo", "trade", "flash-combo"]
+      "tags": [
+        "engage",
+        "wall-combo",
+        "trade",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/78.png"
     },
     {
       "id": "pyke",
       "name": "Pyke",
       "title": "The Bloodharbor Ripper",
-      "roles": ["support", "assassin"],
+      "roles": [
+        "support",
+        "assassin"
+      ],
       "difficulty": 3,
       "comboCount": 9,
       "thumbnail": "pyke.webp",
-      "tags": ["engage", "burst", "flash-combo", "all-in", "reset"]
+      "tags": [
+        "engage",
+        "burst",
+        "flash-combo",
+        "all-in",
+        "reset"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/555.png"
     },
     {
       "id": "qiyana",
       "name": "Qiyana",
       "title": "Empress of the Elements",
-      "roles": ["assassin", "fighter"],
+      "roles": [
+        "assassin",
+        "fighter"
+      ],
       "difficulty": 3,
       "comboCount": 5,
       "thumbnail": "qiyana.webp",
-      "tags": ["burst", "all-in", "animation-cancel", "wall-combo"]
+      "tags": [
+        "burst",
+        "all-in",
+        "animation-cancel",
+        "wall-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/246.png"
     },
     {
       "id": "quinn",
       "name": "Quinn",
       "title": "Demacia's Wings",
-      "roles": ["marksman", "assassin"],
+      "roles": [
+        "marksman",
+        "assassin"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "quinn.webp",
-      "tags": ["trade", "burst", "all-in"]
+      "tags": [
+        "trade",
+        "burst",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/133.png"
     },
     {
       "id": "rakan",
       "name": "Rakan",
       "title": "The Charmer",
-      "roles": ["support"],
+      "roles": [
+        "support"
+      ],
       "difficulty": 2,
       "comboCount": 6,
       "thumbnail": "rakan.webp",
-      "tags": ["engage", "flash-combo", "all-in", "burst"]
+      "tags": [
+        "engage",
+        "flash-combo",
+        "all-in",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/497.png"
     },
     {
       "id": "rammus",
       "name": "Rammus",
       "title": "The Armordillo",
-      "roles": ["tank", "fighter"],
+      "roles": [
+        "tank",
+        "fighter"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "rammus.webp",
-      "tags": ["engage", "all-in", "flash-combo"]
+      "tags": [
+        "engage",
+        "all-in",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/33.png"
     },
     {
       "id": "reksai",
       "name": "Rek'Sai",
       "title": "The Void Burrower",
-      "roles": ["fighter"],
+      "roles": [
+        "fighter"
+      ],
       "difficulty": 2,
       "comboCount": 4,
       "thumbnail": "reksai.webp",
-      "tags": ["all-in", "burst", "engage", "animation-cancel"]
+      "tags": [
+        "all-in",
+        "burst",
+        "engage",
+        "animation-cancel"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/421.png"
     },
     {
       "id": "rell",
       "name": "Rell",
       "title": "The Iron Maiden",
-      "roles": ["tank", "support"],
+      "roles": [
+        "tank",
+        "support"
+      ],
       "difficulty": 2,
-      "comboCount": 10,
+      "comboCount": 9,
       "thumbnail": "rell.webp",
-      "tags": ["engage", "flash-combo", "all-in", "animation-cancel"]
+      "tags": [
+        "engage",
+        "flash-combo",
+        "all-in",
+        "animation-cancel"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/526.png"
     },
     {
       "id": "renekton",
       "name": "Renekton",
       "title": "The Butcher of the Sands",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 2,
       "comboCount": 13,
       "thumbnail": "renekton.webp",
-      "tags": ["all-in", "animation-cancel", "trade", "burst", "flash-combo"]
+      "tags": [
+        "all-in",
+        "animation-cancel",
+        "trade",
+        "burst",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/58.png"
     },
     {
       "id": "rengar",
       "name": "Rengar",
       "title": "The Pridestalker",
-      "roles": ["assassin", "fighter"],
+      "roles": [
+        "assassin",
+        "fighter"
+      ],
       "difficulty": 3,
       "comboCount": 6,
       "thumbnail": "rengar.webp",
-      "tags": ["burst", "all-in", "animation-cancel", "reset"]
+      "tags": [
+        "burst",
+        "all-in",
+        "animation-cancel",
+        "reset"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/107.png"
     },
     {
       "id": "riven",
       "name": "Riven",
       "title": "The Exile",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 3,
       "comboCount": 14,
       "thumbnail": "riven.webp",
-      "tags": ["all-in", "animation-cancel", "trade", "burst", "flash-combo", "wall-combo"]
+      "tags": [
+        "all-in",
+        "animation-cancel",
+        "trade",
+        "burst",
+        "flash-combo",
+        "wall-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/92.png"
     },
     {
       "id": "rumble",
       "name": "Rumble",
       "title": "The Mechanized Menace",
-      "roles": ["fighter", "mage"],
+      "roles": [
+        "fighter",
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 2,
       "thumbnail": "rumble.webp",
-      "tags": ["trade", "all-in", "burst"]
+      "tags": [
+        "trade",
+        "all-in",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/68.png"
     },
     {
       "id": "ryze",
       "name": "Ryze",
       "title": "The Rune Mage",
-      "roles": ["mage", "fighter"],
+      "roles": [
+        "mage",
+        "fighter"
+      ],
       "difficulty": 3,
       "comboCount": 6,
       "thumbnail": "ryze.webp",
-      "tags": ["burst", "trade", "all-in", "animation-cancel"]
+      "tags": [
+        "burst",
+        "trade",
+        "all-in",
+        "animation-cancel"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/13.png"
     },
     {
       "id": "samira",
       "name": "Samira",
       "title": "The Desert Rose",
-      "roles": ["marksman"],
+      "roles": [
+        "marksman"
+      ],
       "difficulty": 3,
       "comboCount": 6,
       "thumbnail": "samira.webp",
-      "tags": ["all-in", "burst", "animation-cancel", "reset"]
+      "tags": [
+        "all-in",
+        "burst",
+        "animation-cancel",
+        "reset"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/360.png"
     },
     {
       "id": "sejuani",
       "name": "Sejuani",
       "title": "Fury of the North",
-      "roles": ["tank", "fighter"],
+      "roles": [
+        "tank",
+        "fighter"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "sejuani.webp",
-      "tags": ["engage", "all-in", "flash-combo"]
+      "tags": [
+        "engage",
+        "all-in",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/113.png"
     },
     {
       "id": "senna",
       "name": "Senna",
       "title": "The Redeemer",
-      "roles": ["marksman", "support"],
+      "roles": [
+        "marksman",
+        "support"
+      ],
       "difficulty": 2,
-      "comboCount": 9,
+      "comboCount": 6,
       "thumbnail": "senna.webp",
-      "tags": ["poke", "trade", "burst", "all-in"]
+      "tags": [
+        "poke",
+        "trade",
+        "burst",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/235.png"
     },
     {
       "id": "seraphine",
       "name": "Seraphine",
       "title": "The Starry-Eyed Songstress",
-      "roles": ["mage", "support"],
+      "roles": [
+        "mage",
+        "support"
+      ],
       "difficulty": 1,
       "comboCount": 7,
       "thumbnail": "seraphine.webp",
-      "tags": ["poke", "engage", "burst", "trade"]
+      "tags": [
+        "poke",
+        "engage",
+        "burst",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/147.png"
     },
     {
       "id": "sett",
       "name": "Sett",
       "title": "The Boss",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 2,
       "comboCount": 8,
       "thumbnail": "sett.webp",
-      "tags": ["all-in", "flash-combo", "animation-cancel", "trade", "burst"]
+      "tags": [
+        "all-in",
+        "flash-combo",
+        "animation-cancel",
+        "trade",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/875.png"
     },
     {
       "id": "shaco",
       "name": "Shaco",
       "title": "The Demon Jester",
-      "roles": ["assassin"],
+      "roles": [
+        "assassin"
+      ],
       "difficulty": 2,
-      "comboCount": 4,
+      "comboCount": 2,
       "thumbnail": "shaco.webp",
-      "tags": ["burst", "all-in", "trade"]
+      "tags": [
+        "burst",
+        "all-in",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/35.png"
     },
     {
       "id": "shen",
       "name": "Shen",
       "title": "The Eye of Twilight",
-      "roles": ["tank"],
+      "roles": [
+        "tank"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "shen.webp",
-      "tags": ["trade", "engage", "flash-combo", "all-in"]
+      "tags": [
+        "trade",
+        "engage",
+        "flash-combo",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/98.png"
     },
     {
       "id": "shyvana",
       "name": "Shyvana",
       "title": "The Half-Dragon",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "shyvana.webp",
-      "tags": ["all-in", "burst", "engage"]
+      "tags": [
+        "all-in",
+        "burst",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/102.png"
     },
     {
       "id": "singed",
       "name": "Singed",
       "title": "The Mad Chemist",
-      "roles": ["tank", "mage"],
+      "roles": [
+        "tank",
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 2,
       "thumbnail": "singed.webp",
-      "tags": ["engage", "trade", "flash-combo"]
+      "tags": [
+        "engage",
+        "trade",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/27.png"
     },
     {
       "id": "sion",
       "name": "Sion",
       "title": "The Undead Juggernaut",
-      "roles": ["tank", "fighter"],
+      "roles": [
+        "tank",
+        "fighter"
+      ],
       "difficulty": 1,
       "comboCount": 2,
       "thumbnail": "sion.webp",
-      "tags": ["engage", "flash-combo", "burst"]
+      "tags": [
+        "engage",
+        "flash-combo",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/14.png"
     },
     {
       "id": "sivir",
       "name": "Sivir",
       "title": "The Battle Mistress",
-      "roles": ["marksman"],
+      "roles": [
+        "marksman"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "sivir.webp",
-      "tags": ["poke", "trade", "burst"]
+      "tags": [
+        "poke",
+        "trade",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/15.png"
     },
     {
       "id": "skarner",
       "name": "Skarner",
       "title": "The Primordial Sovereign",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 2,
       "comboCount": 7,
       "thumbnail": "skarner.webp",
-      "tags": ["engage", "flash-combo", "all-in", "trade"]
+      "tags": [
+        "engage",
+        "flash-combo",
+        "all-in",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/72.png"
     },
     {
       "id": "smolder",
       "name": "Smolder",
       "title": "The Fiery Fledgling",
-      "roles": ["marksman"],
+      "roles": [
+        "marksman"
+      ],
       "difficulty": 1,
       "comboCount": 4,
       "thumbnail": "smolder.webp",
-      "tags": ["poke", "trade", "burst"]
+      "tags": [
+        "poke",
+        "trade",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/901.png"
     },
     {
       "id": "sona",
       "name": "Sona",
       "title": "Maven of the Strings",
-      "roles": ["support", "mage"],
+      "roles": [
+        "support",
+        "mage"
+      ],
       "difficulty": 1,
       "comboCount": 1,
       "thumbnail": "sona.webp",
-      "tags": ["poke", "trade", "engage"]
+      "tags": [
+        "poke",
+        "trade",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/37.png"
     },
     {
       "id": "soraka",
       "name": "Soraka",
       "title": "The Starchild",
-      "roles": ["support", "mage"],
+      "roles": [
+        "support",
+        "mage"
+      ],
       "difficulty": 1,
       "comboCount": 2,
       "thumbnail": "soraka.webp",
-      "tags": ["poke", "trade"]
+      "tags": [
+        "poke",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/16.png"
     },
     {
       "id": "swain",
       "name": "Swain",
       "title": "The Noxian Grand General",
-      "roles": ["mage", "fighter"],
+      "roles": [
+        "mage",
+        "fighter"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "swain.webp",
-      "tags": ["burst", "all-in", "engage", "trade"]
+      "tags": [
+        "burst",
+        "all-in",
+        "engage",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/50.png"
     },
     {
       "id": "sylas",
       "name": "Sylas",
       "title": "The Unshackled",
-      "roles": ["mage", "assassin"],
+      "roles": [
+        "mage",
+        "assassin"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "sylas.webp",
-      "tags": ["burst", "all-in", "trade", "animation-cancel"]
+      "tags": [
+        "burst",
+        "all-in",
+        "trade",
+        "animation-cancel"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/517.png"
     },
     {
       "id": "syndra",
       "name": "Syndra",
       "title": "The Dark Sovereign",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "syndra.webp",
-      "tags": ["burst", "poke", "trade", "flash-combo"]
+      "tags": [
+        "burst",
+        "poke",
+        "trade",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/134.png"
     },
     {
       "id": "taliyah",
       "name": "Taliyah",
       "title": "The Stoneweaver",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 6,
       "thumbnail": "taliyah.webp",
-      "tags": ["burst", "poke", "wall-combo", "trade"]
+      "tags": [
+        "burst",
+        "poke",
+        "wall-combo",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/163.png"
     },
     {
       "id": "talon",
       "name": "Talon",
       "title": "The Blade's Shadow",
-      "roles": ["assassin"],
+      "roles": [
+        "assassin"
+      ],
       "difficulty": 2,
       "comboCount": 10,
       "thumbnail": "talon.webp",
-      "tags": ["burst", "all-in", "animation-cancel", "wall-combo", "trade"]
+      "tags": [
+        "burst",
+        "all-in",
+        "animation-cancel",
+        "wall-combo",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/91.png"
     },
     {
       "id": "taric",
       "name": "Taric",
       "title": "The Shield of Valoran",
-      "roles": ["support", "fighter"],
+      "roles": [
+        "support",
+        "fighter"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "taric.webp",
-      "tags": ["engage", "trade", "all-in"]
+      "tags": [
+        "engage",
+        "trade",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/44.png"
     },
     {
       "id": "teemo",
       "name": "Teemo",
       "title": "The Swift Scout",
-      "roles": ["marksman", "assassin"],
+      "roles": [
+        "marksman",
+        "assassin"
+      ],
       "difficulty": 1,
       "comboCount": 1,
       "thumbnail": "teemo.webp",
-      "tags": ["poke", "trade"]
+      "tags": [
+        "poke",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/17.png"
     },
     {
       "id": "thresh",
       "name": "Thresh",
       "title": "The Chain Warden",
-      "roles": ["support", "fighter"],
+      "roles": [
+        "support",
+        "fighter"
+      ],
       "difficulty": 3,
       "comboCount": 7,
       "thumbnail": "thresh.webp",
-      "tags": ["engage", "flash-combo", "trade", "all-in"]
+      "tags": [
+        "engage",
+        "flash-combo",
+        "trade",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/412.png"
     },
     {
       "id": "udyr",
       "name": "Udyr",
       "title": "The Spirit Walker",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 1,
       "comboCount": 4,
       "thumbnail": "udyr.webp",
-      "tags": ["all-in", "engage", "trade"]
+      "tags": [
+        "all-in",
+        "engage",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/77.png"
     },
     {
       "id": "urgot",
       "name": "Urgot",
       "title": "The Dreadnought",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "urgot.webp",
-      "tags": ["all-in", "trade", "flash-combo", "burst"]
+      "tags": [
+        "all-in",
+        "trade",
+        "flash-combo",
+        "burst"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/6.png"
     },
     {
       "id": "varus",
       "name": "Varus",
       "title": "The Arrow of Retribution",
-      "roles": ["marksman", "mage"],
+      "roles": [
+        "marksman",
+        "mage"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "varus.webp",
-      "tags": ["poke", "burst", "engage"]
+      "tags": [
+        "poke",
+        "burst",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/110.png"
     },
     {
       "id": "vayne",
       "name": "Vayne",
       "title": "The Night Hunter",
-      "roles": ["marksman", "assassin"],
+      "roles": [
+        "marksman",
+        "assassin"
+      ],
       "difficulty": 2,
       "comboCount": 3,
       "thumbnail": "vayne.webp",
-      "tags": ["trade", "all-in", "wall-combo", "animation-cancel"]
+      "tags": [
+        "trade",
+        "all-in",
+        "wall-combo",
+        "animation-cancel"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/67.png"
     },
     {
       "id": "veigar",
       "name": "Veigar",
       "title": "The Tiny Master of Evil",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 1,
       "comboCount": 5,
       "thumbnail": "veigar.webp",
-      "tags": ["burst", "trade", "poke"]
+      "tags": [
+        "burst",
+        "trade",
+        "poke"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/45.png"
     },
     {
       "id": "velkoz",
       "name": "Vel'Koz",
       "title": "The Eye of the Void",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
-      "comboCount": 3,
+      "comboCount": 2,
       "thumbnail": "velkoz.webp",
-      "tags": ["poke", "burst", "trade"]
+      "tags": [
+        "poke",
+        "burst",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/161.png"
     },
     {
       "id": "vex",
       "name": "Vex",
       "title": "The Gloomist",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 1,
       "comboCount": 2,
       "thumbnail": "vex.webp",
-      "tags": ["burst", "all-in", "engage"]
+      "tags": [
+        "burst",
+        "all-in",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/711.png"
     },
     {
       "id": "vi",
       "name": "Vi",
       "title": "The Piltover Enforcer",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 2,
       "comboCount": 7,
       "thumbnail": "vi.webp",
-      "tags": ["all-in", "burst", "engage", "flash-combo", "animation-cancel"]
+      "tags": [
+        "all-in",
+        "burst",
+        "engage",
+        "flash-combo",
+        "animation-cancel"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/254.png"
     },
     {
       "id": "viego",
       "name": "Viego",
       "title": "The Ruined King",
-      "roles": ["assassin", "fighter"],
+      "roles": [
+        "assassin",
+        "fighter"
+      ],
       "difficulty": 2,
       "comboCount": 3,
       "thumbnail": "viego.webp",
-      "tags": ["all-in", "burst", "reset"]
+      "tags": [
+        "all-in",
+        "burst",
+        "reset"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/234.png"
     },
     {
       "id": "viktor",
       "name": "Viktor",
       "title": "The Machine Herald",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 1,
       "thumbnail": "viktor.webp",
-      "tags": ["poke", "burst", "trade"]
+      "tags": [
+        "poke",
+        "burst",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/112.png"
     },
     {
       "id": "vladimir",
       "name": "Vladimir",
       "title": "The Crimson Reaper",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 4,
       "thumbnail": "vladimir.webp",
-      "tags": ["burst", "all-in", "flash-combo", "trade"]
+      "tags": [
+        "burst",
+        "all-in",
+        "flash-combo",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/8.png"
     },
     {
       "id": "volibear",
       "name": "Volibear",
       "title": "The Relentless Storm",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 1,
       "comboCount": 4,
       "thumbnail": "volibear.webp",
-      "tags": ["all-in", "engage", "trade"]
+      "tags": [
+        "all-in",
+        "engage",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/106.png"
     },
     {
       "id": "warwick",
       "name": "Warwick",
       "title": "The Uncaged Wrath of Zaun",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 1,
       "comboCount": 5,
       "thumbnail": "warwick.webp",
-      "tags": ["all-in", "engage", "trade"]
+      "tags": [
+        "all-in",
+        "engage",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/19.png"
     },
     {
       "id": "wukong",
       "name": "Wukong",
       "title": "The Monkey King",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 2,
       "comboCount": 7,
       "thumbnail": "wukong.webp",
-      "tags": ["all-in", "engage", "animation-cancel", "burst", "trade"]
+      "tags": [
+        "all-in",
+        "engage",
+        "animation-cancel",
+        "burst",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/62.png"
     },
     {
       "id": "xayah",
       "name": "Xayah",
       "title": "The Rebel",
-      "roles": ["marksman"],
+      "roles": [
+        "marksman"
+      ],
       "difficulty": 2,
       "comboCount": 4,
       "thumbnail": "xayah.webp",
-      "tags": ["burst", "trade", "all-in"]
+      "tags": [
+        "burst",
+        "trade",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/498.png"
     },
     {
       "id": "xerath",
       "name": "Xerath",
       "title": "The Magus Ascendant",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 3,
       "thumbnail": "xerath.webp",
-      "tags": ["poke", "burst", "trade"]
+      "tags": [
+        "poke",
+        "burst",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/101.png"
     },
     {
       "id": "yasuo",
       "name": "Yasuo",
       "title": "The Unforgiven",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 3,
-      "comboCount": 12,
+      "comboCount": 11,
       "thumbnail": "yasuo.webp",
-      "tags": ["all-in", "animation-cancel", "burst", "trade", "flash-combo", "wall-combo"]
+      "tags": [
+        "all-in",
+        "animation-cancel",
+        "burst",
+        "trade",
+        "flash-combo",
+        "wall-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/157.png"
     },
     {
       "id": "yone",
       "name": "Yone",
       "title": "The Unforgotten",
-      "roles": ["fighter", "assassin"],
+      "roles": [
+        "fighter",
+        "assassin"
+      ],
       "difficulty": 2,
       "comboCount": 7,
       "thumbnail": "yone.webp",
-      "tags": ["all-in", "burst", "trade", "animation-cancel", "flash-combo"]
+      "tags": [
+        "all-in",
+        "burst",
+        "trade",
+        "animation-cancel",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/777.png"
     },
     {
       "id": "yorick",
       "name": "Yorick",
       "title": "Shepherd of Souls",
-      "roles": ["fighter", "tank"],
+      "roles": [
+        "fighter",
+        "tank"
+      ],
       "difficulty": 1,
       "comboCount": 3,
       "thumbnail": "yorick.webp",
-      "tags": ["all-in", "trade", "wall-combo"]
+      "tags": [
+        "all-in",
+        "trade",
+        "wall-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/83.png"
     },
     {
       "id": "yuumi",
       "name": "Yuumi",
       "title": "The Magical Cat",
-      "roles": ["support", "mage"],
+      "roles": [
+        "support",
+        "mage"
+      ],
       "difficulty": 1,
       "comboCount": 2,
       "thumbnail": "yuumi.webp",
-      "tags": ["poke", "trade"]
+      "tags": [
+        "poke",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/350.png"
     },
     {
       "id": "zac",
       "name": "Zac",
       "title": "The Secret Weapon",
-      "roles": ["tank", "fighter"],
+      "roles": [
+        "tank",
+        "fighter"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "zac.webp",
-      "tags": ["engage", "flash-combo", "all-in"]
+      "tags": [
+        "engage",
+        "flash-combo",
+        "all-in"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/154.png"
     },
     {
       "id": "zed",
       "name": "Zed",
       "title": "The Master of Shadows",
-      "roles": ["assassin"],
+      "roles": [
+        "assassin"
+      ],
       "difficulty": 3,
       "comboCount": 14,
       "thumbnail": "zed.webp",
-      "tags": ["burst", "all-in", "animation-cancel", "trade", "flash-combo"]
+      "tags": [
+        "burst",
+        "all-in",
+        "animation-cancel",
+        "trade",
+        "flash-combo"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/238.png"
     },
     {
       "id": "ziggs",
       "name": "Ziggs",
       "title": "The Hexplosives Expert",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 4,
       "thumbnail": "ziggs.webp",
-      "tags": ["poke", "burst", "trade"]
+      "tags": [
+        "poke",
+        "burst",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/115.png"
     },
     {
       "id": "zilean",
       "name": "Zilean",
       "title": "The Chronokeeper",
-      "roles": ["support", "mage"],
+      "roles": [
+        "support",
+        "mage"
+      ],
       "difficulty": 2,
       "comboCount": 5,
       "thumbnail": "zilean.webp",
-      "tags": ["poke", "burst", "trade", "engage"]
+      "tags": [
+        "poke",
+        "burst",
+        "trade",
+        "engage"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/26.png"
     },
     {
       "id": "zoe",
       "name": "Zoe",
       "title": "The Aspect of Twilight",
-      "roles": ["mage"],
+      "roles": [
+        "mage"
+      ],
       "difficulty": 3,
       "comboCount": 5,
       "thumbnail": "zoe.webp",
-      "tags": ["burst", "poke", "trade"]
+      "tags": [
+        "burst",
+        "poke",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/142.png"
     },
     {
       "id": "zyra",
       "name": "Zyra",
       "title": "Rise of the Thorns",
-      "roles": ["mage", "support"],
+      "roles": [
+        "mage",
+        "support"
+      ],
       "difficulty": 2,
       "comboCount": 6,
       "thumbnail": "zyra.webp",
-      "tags": ["poke", "burst", "engage", "trade"]
+      "tags": [
+        "poke",
+        "burst",
+        "engage",
+        "trade"
+      ],
+      "portrait": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/143.png"
     }
   ]
 }

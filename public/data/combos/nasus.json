@@ -1,0 +1,139 @@
+{
+  "championId": "nasus",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "nasus-e-w-flash-q",
+      "name": "Nasus E  W  Flash  Q",
+      "description": "Nasus: E \u2192 W \u2192 E \u2192 AA \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Nasus/Nasus E  W  Flash  Q.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 1.267,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 1.533,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 1.633,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 2.0,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "nasus-e-w-r-q",
+      "name": "Nasus E  W  R  Q",
+      "description": "Nasus: E \u2192 ? \u2192 R \u2192 AA \u2192 Q \u2192 AA \u2192 AA \u2192 AA \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Nasus/Nasus E  W  R  Q.mp4",
+        "duration": 9.0,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 1.433,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "R",
+          "time": 1.867,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 2.467,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 2.967,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 4.2,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 5.467,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 6.767,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 7.033,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

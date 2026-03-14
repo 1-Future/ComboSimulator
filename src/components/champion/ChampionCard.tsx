@@ -21,13 +21,12 @@ export function ChampionCard({ champion, onClick, isSelected }: ChampionCardProp
     >
       <div className="relative mb-2 h-16 w-16 overflow-hidden rounded-lg bg-slate-700">
         <img
-          src={`/images/champions/${champion.thumbnail}`}
+          src={champion.portrait ?? `/images/champions/${champion.thumbnail}`}
           alt={champion.name}
-          className="h-full w-full object-cover"
+          className="relative z-10 h-full w-full object-cover"
           loading="lazy"
           onError={(e) => {
-            const target = e.currentTarget
-            target.style.display = 'none'
+            e.currentTarget.style.display = 'none'
           }}
         />
         <div className="absolute inset-0 flex items-center justify-center text-lg font-bold text-slate-500">

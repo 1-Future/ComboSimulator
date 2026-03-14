@@ -1,0 +1,309 @@
+{
+  "championId": "warwick",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "warwick-aa-q-aa",
+      "name": "Warwick AA  Q  AA",
+      "description": "Warwick: AA \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Warwick/Warwick AA  Q  AA.mp4",
+        "duration": 6.5,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 1.033,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 1.333,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 2.333,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "warwick-w-e-flash-q-r",
+      "name": "Warwick W  E  Flash  Q  R",
+      "description": "Warwick: W \u2192 E \u2192 E \u2192 Q \u2192 E \u2192 AA \u2192 R \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Warwick/Warwick W  E  Flash  Q  R.mp4",
+        "duration": 7.5,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.067,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 1.867,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 2.8,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 2.866,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.4,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.166,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 4.5,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 6.299,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "warwick-w-e-q",
+      "name": "Warwick W  E  Q",
+      "description": "Warwick: W \u2192 E \u2192 AA \u2192 E \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Warwick/Warwick W  E  Q.mp4",
+        "duration": 10.5,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.067,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 2.8,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 3.466,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 5.866,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 6.0,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 6.466,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "warwick-w-e-r-q",
+      "name": "Warwick W  E  R  Q",
+      "description": "Warwick: W \u2192 E \u2192 R \u2192 AA \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Warwick/Warwick W  E  R  Q.mp4",
+        "duration": 6.5,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.033,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 1.9,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 2.467,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 4.733,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 5.1,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "warwick-w-flash-r-e-q",
+      "name": "Warwick W  Flash  R  E  Q",
+      "description": "Warwick: W \u2192 E \u2192 R \u2192 AA \u2192 E \u2192 Q \u2192 AA \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Warwick/Warwick W  Flash  R  E  Q.mp4",
+        "duration": 10.5,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.033,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 2.9,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.167,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 5.433,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 5.567,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 5.833,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 6.833,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 8.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 8.9,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

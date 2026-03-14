@@ -1,0 +1,447 @@
+{
+  "championId": "rell",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "rell-e-flash-w-r-a-q",
+      "name": "Rell E  Flash  W  R  A  Q",
+      "description": "Rell: E \u2192 F \u2192 ? \u2192 R \u2192 AA \u2192 E \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rell/Rell E  Flash  W  R  A  Q.mp4",
+        "duration": 11.8,
+        "fps": 60,
+        "comboStart": 2.3
+      },
+      "inputs": [
+        {
+          "key": "1",
+          "time": 2.3,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "R",
+          "time": 3.533,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 5.6,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 5.667,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 6.733,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "rell-flash-w-q-a",
+      "name": "Rell Flash  W  Q  A",
+      "description": "Rell: E \u2192 W \u2192 Q \u2192 AA \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rell/Rell Flash  W  Q  A.mp4",
+        "duration": 9.6,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 3.033,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 4.4,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 5.167,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 5.233,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "rell-q-flash-w-a",
+      "name": "Rell Q  Flash  W  A",
+      "description": "Rell: Q \u2192 E \u2192 W \u2192 AA \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rell/Rell Q  Flash  W  A.mp4",
+        "duration": 9.9,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.833,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.1,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 3.567,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 4.933,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 5.0,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "rell-qf",
+      "name": "Rell qf",
+      "description": "Rell: Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rell/Rell qf.mp4",
+        "duration": 6.1,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.8,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 2.867,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "rell-waeqa",
+      "name": "Rell waeqa",
+      "description": "Rell: W \u2192 AA \u2192 E \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rell/Rell waeqa.mp4",
+        "duration": 8.1,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.8,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 4.4,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 4.633,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 5.033,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 5.933,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "rell-waeraqa",
+      "name": "Rell waeraqa",
+      "description": "Rell: W \u2192 AA \u2192 E \u2192 R \u2192 AA \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rell/Rell waeraqa.mp4",
+        "duration": 9.1,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.833,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.767,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 6.833,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 7.8,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "rell-weaq",
+      "name": "Rell weaq",
+      "description": "Rell: W \u2192 E \u2192 AA \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rell/Rell weaq.mp4",
+        "duration": 7.8,
+        "fps": 60,
+        "comboStart": 2.367
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.367,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 3.467,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.7,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 5.233,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "rell-wfaeqr",
+      "name": "Rell wfaeqr",
+      "description": "Rell: W \u2192 E \u2192 AA \u2192 E \u2192 Q \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rell/Rell wfaeqr.mp4",
+        "duration": 9.1,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.833,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 3.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 3.533,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.8,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 4.433,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "R",
+          "time": 5.033,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "rell-wreqa",
+      "name": "Rell wreqa",
+      "description": "Rell: W \u2192 R \u2192 E \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Rell/Rell wreqa.mp4",
+        "duration": 9.8,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.8,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 4.1,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 6.333,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 6.933,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 7.667,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

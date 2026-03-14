@@ -1,0 +1,757 @@
+{
+  "championId": "fiora",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "fiora-qaaatiametwaa",
+      "name": "Fiora QAAATiametWAA",
+      "description": "Fiora: Q \u2192 AA \u2192 E \u2192 W \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Fiora/Fiora QAAATiametWAA.mp4",
+        "duration": 11.4,
+        "fps": 60,
+        "comboStart": 2.533
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.533,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.033,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.433,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 4.267,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "1",
+          "time": 5.7,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "fiora-rwqaaeaatiamet",
+      "name": "Fiora RWQAAEAATiamet",
+      "description": "Fiora: R \u2192 W \u2192 Q \u2192 AA \u2192 E \u2192 AA \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Fiora/Fiora RWQAAEAATiamet.mp4",
+        "duration": 13.1,
+        "fps": 60,
+        "comboStart": 2.533
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 2.533,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "W",
+          "time": 2.633,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.7,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 4.8,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 5.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 6.0,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 6.467,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "fiora-tiamat-combo",
+      "name": "Fiora Tiamat combo",
+      "description": "Fiora: Q \u2192 AA \u2192 E \u2192 ? \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Fiora/Fiora Tiamat combo.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.067,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 1.667,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 1.867,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 2.133,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "A",
+          "time": 2.633,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "fiora-wraaeqaatiamet",
+      "name": "Fiora WRAAEQAATiamet",
+      "description": "Fiora: W \u2192 R \u2192 AA \u2192 E \u2192 Q \u2192 AA \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Fiora/Fiora WRAAEQAATiamet.mp4",
+        "duration": 12.6,
+        "fps": 60,
+        "comboStart": 2.567
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.567,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 3.7,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 4.867,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 5.667,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 6.167,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 7.133,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 7.467,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "fiora-qae-ironspike-whip-wa",
+      "name": "Fiora qae  Ironspike Whip  wa",
+      "description": "Fiora: Q \u2192 AA \u2192 E \u2192 ? \u2192 F \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Fiora/Fiora qae  Ironspike Whip  wa.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.1
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.1,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 1.533,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 1.933,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 2.167,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "F",
+          "time": 2.233,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "W",
+          "time": 2.433,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.333,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "fiora-qaewa",
+      "name": "Fiora qaewa",
+      "description": "Fiora: Q \u2192 AA \u2192 E \u2192 ? \u2192 F \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Fiora/Fiora qaewa.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.1
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.1,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 1.533,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 1.933,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 2.167,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "F",
+          "time": 2.233,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "W",
+          "time": 2.433,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.333,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "fiora-qwa",
+      "name": "Fiora qwa",
+      "description": "Fiora: Q \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Fiora/Fiora qwa.mp4",
+        "duration": 3.5,
+        "fps": 60,
+        "comboStart": 1.1
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.1,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 1.267,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 1.5,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "fiora-rwqaea-ironspike-whip",
+      "name": "Fiora rwqaea  Ironspike Whip",
+      "description": "Fiora: R \u2192 W \u2192 Q \u2192 AA \u2192 E \u2192 AA \u2192 ? \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Fiora/Fiora rwqaea  Ironspike Whip.mp4",
+        "duration": 6.5,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 1.033,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "W",
+          "time": 1.133,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 2.4,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.2,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.367,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.267,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 4.5,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "F",
+          "time": 4.567,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "fiora-rwqaea",
+      "name": "Fiora rwqaea",
+      "description": "Fiora: R \u2192 W \u2192 Q \u2192 AA \u2192 E \u2192 AA \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Fiora/Fiora rwqaea.mp4",
+        "duration": 6.5,
+        "fps": 60,
+        "comboStart": 1.1
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 1.1,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "W",
+          "time": 1.167,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 2.433,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.233,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.4,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 4.533,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "fiora-wraeqa-ironspike-whip",
+      "name": "Fiora wraeqa  Ironspike Whip",
+      "description": "Fiora: W \u2192 R \u2192 AA \u2192 E \u2192 Q \u2192 AA \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Fiora/Fiora wraeqa  Ironspike Whip.mp4",
+        "duration": 6.5,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.067,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 1.867,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 3.267,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.633,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 3.9,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 4.5,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 4.767,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "fiora-wraeqa",
+      "name": "Fiora wraeqa",
+      "description": "Fiora: W \u2192 R \u2192 AA \u2192 E \u2192 Q \u2192 AA \u2192 ? \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Fiora/Fiora wraeqa.mp4",
+        "duration": 6.5,
+        "fps": 60,
+        "comboStart": 1.1
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.1,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 1.9,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 3.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.667,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 3.933,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 4.533,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 4.8,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "F",
+          "time": 4.867,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "nw8lx0ecwie",
+      "name": "NW8lx0ecwiE",
+      "description": "Fiora: W \u2192 R \u2192 AA \u2192 E \u2192 Q \u2192 AA \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Fiora/NW8lx0ecwiE.mp4",
+        "duration": 13.1,
+        "fps": 60,
+        "comboStart": 2.5
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.5,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 3.3,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 5.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 6.6,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 6.833,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 7.567,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 7.967,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

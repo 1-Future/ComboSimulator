@@ -1,0 +1,375 @@
+{
+  "championId": "karma",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "karma-erqfawa",
+      "name": "Karma erqfawa",
+      "description": "Karma: E \u2192 R \u2192 E \u2192 R \u2192 Q \u2192 AA \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Karma/Karma erqfawa.mp4",
+        "duration": 8.2,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.267,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 3.7,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.8,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "Q",
+          "time": 3.867,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 4.1,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 4.4,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 6.9,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "karma-fwaqa",
+      "name": "Karma fwaqa",
+      "description": "Karma: E \u2192 W \u2192 AA \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Karma/Karma fwaqa.mp4",
+        "duration": 8.2,
+        "fps": 60,
+        "comboStart": 2.933
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.933,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 3.2,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.867,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 6.233,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 6.7,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "karma-qf",
+      "name": "Karma qf",
+      "description": "Karma: Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Karma/Karma qf.mp4",
+        "duration": 6.8,
+        "fps": 60,
+        "comboStart": 2.9
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.9,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 2.967,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "karma-rewfaqa",
+      "name": "Karma rewfaqa",
+      "description": "Karma: R \u2192 R \u2192 E \u2192 W \u2192 E \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Karma/Karma rewfaqa.mp4",
+        "duration": 9.1,
+        "fps": 60,
+        "comboStart": 2.867
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 2.867,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "R",
+          "time": 3.167,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 3.233,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 4.1,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 4.233,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 6.9,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 7.667,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "olbwycl_mts",
+      "name": "OLbWYCL_mts",
+      "description": "Karma: E \u2192 R \u2192 R \u2192 Q \u2192 E \u2192 AA \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Karma/OLbWYCL_mts.mp4",
+        "duration": 8.2,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.233,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "R",
+          "time": 3.533,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "Q",
+          "time": 3.6,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.7,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.1,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 4.4,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 6.9,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "yi1d0oa7x_m",
+      "name": "yI1D0oA7X_M",
+      "description": "Karma: R \u2192 R \u2192 E \u2192 W \u2192 E \u2192 AA \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Karma/yI1D0oA7X_M.mp4",
+        "duration": 9.1,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 2.833,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "R",
+          "time": 3.167,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 3.233,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 4.1,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 4.233,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.9,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 6.9,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 7.667,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

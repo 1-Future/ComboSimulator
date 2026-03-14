@@ -1,0 +1,727 @@
+{
+  "championId": "lucian",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "lucian-wa-galeforce-ea",
+      "name": "Lucian  wa  Galeforce  ea",
+      "description": "Lucian: W \u2192 ? \u2192 E \u2192 ? \u2192 E \u2192 AA \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lucian/Lucian  wa  Galeforce  ea.mp4",
+        "duration": 7.7,
+        "fps": 60,
+        "comboStart": 2.733
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.733,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "1",
+          "time": 4.367,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "E",
+          "time": 4.433,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 4.5,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "E",
+          "time": 4.767,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 5.067,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 5.133,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lucian-e-w-r",
+      "name": "Lucian E  W  R",
+      "description": "Lucian: E \u2192 W \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lucian/Lucian E  W  R.mp4",
+        "duration": 8.0,
+        "fps": 60,
+        "comboStart": 1.233
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.233,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 1.4,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 1.633,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lucian-r-flash-combo",
+      "name": "Lucian R  Flash Combo",
+      "description": "Lucian: W \u2192 R \u2192 E \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lucian/Lucian R  Flash Combo.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.367
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.367,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 1.7,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 1.9,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 2.233,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lucian-full-damage-dealing-combo",
+      "name": "Lucian full damage dealing combo",
+      "description": "Lucian: E \u2192 AA \u2192 Q \u2192 AA \u2192 ? \u2192 AA \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lucian/Lucian full damage dealing combo.mp4",
+        "duration": 9.0,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 1.467,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 1.633,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 2.333,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 2.633,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "A",
+          "time": 3.2,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 3.3,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lucian-w-galeforce-aeaqa",
+      "name": "Lucian w  Galeforce  aeaqa",
+      "description": "Lucian: W \u2192 ? \u2192 AA \u2192 R \u2192 E \u2192 AA \u2192 E \u2192 Q \u2192 AA \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lucian/Lucian w  Galeforce  aeaqa.mp4",
+        "duration": 7.7,
+        "fps": 60,
+        "comboStart": 2.733
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.733,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "1",
+          "time": 3.3,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "A",
+          "time": 3.7,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 3.767,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 4.0,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.267,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 4.333,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 4.6,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 5.2,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 5.267,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lucian-waeaqa-galeforce-aea",
+      "name": "Lucian waeaqa  Galeforce  aea",
+      "description": "Lucian: W \u2192 AA \u2192 E \u2192 E \u2192 AA \u2192 E \u2192 Q \u2192 AA \u2192 R \u2192 ? \u2192 AA \u2192 E \u2192 AA \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lucian/Lucian waeaqa  Galeforce  aea.mp4",
+        "duration": 8.7,
+        "fps": 60,
+        "comboStart": 2.7
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.7,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.6,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.667,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 3.733,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 3.967,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 4.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 4.3,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 5.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 5.367,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "1",
+          "time": 5.567,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "A",
+          "time": 6.233,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 6.533,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 6.733,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 6.8,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lucian-waeaqar",
+      "name": "Lucian waeaqar",
+      "description": "Lucian: W \u2192 AA \u2192 E \u2192 E \u2192 AA \u2192 F \u2192 Q \u2192 AA \u2192 E \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lucian/Lucian waeaqar.mp4",
+        "duration": 7.7,
+        "fps": 60,
+        "comboStart": 2.733
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.733,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.5,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.566,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 3.666,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 3.966,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 4.033,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "Q",
+          "time": 4.233,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 4.566,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 4.633,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 4.866,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lucian-wfaeaq-galeforce-ar",
+      "name": "Lucian wfaeaq  Galeforce  ar",
+      "description": "Lucian: W \u2192 E \u2192 AA \u2192 F \u2192 E \u2192 AA \u2192 E \u2192 Q \u2192 ? \u2192 AA \u2192 F \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lucian/Lucian wfaeaq  Galeforce  ar.mp4",
+        "duration": 10.2,
+        "fps": 60,
+        "comboStart": 2.767
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.767,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 3.5,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 3.667,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 3.733,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "E",
+          "time": 4.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 4.367,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 4.533,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "1",
+          "time": 4.833,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "A",
+          "time": 5.267,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 5.333,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "R",
+          "time": 5.667,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lucian-wr-galeforce-aeaqaea",
+      "name": "Lucian wr  Galeforce  aeaqaea",
+      "description": "Lucian: W \u2192 R \u2192 ? \u2192 AA \u2192 E \u2192 E \u2192 AA \u2192 R \u2192 Q \u2192 ? \u2192 F \u2192 E \u2192 AA \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lucian/Lucian wr  Galeforce  aeaqaea.mp4",
+        "duration": 10.7,
+        "fps": 60,
+        "comboStart": 2.7
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.7,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 2.967,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "1",
+          "time": 6.133,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "A",
+          "time": 6.767,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 6.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 7.0,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 7.367,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 7.433,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "Q",
+          "time": 7.667,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "1",
+          "time": 8.333,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "F",
+          "time": 8.4,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "E",
+          "time": 8.8,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 9.1,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 9.167,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

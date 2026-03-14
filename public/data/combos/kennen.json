@@ -1,0 +1,385 @@
+{
+  "championId": "kennen",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "kennen-aqwa",
+      "name": "Kennen aqwa",
+      "description": "Kennen: AA \u2192 R \u2192 Q \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Kennen/Kennen aqwa.mp4",
+        "duration": 6.8,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 2.833,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 2.9,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "Q",
+          "time": 3.233,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 3.7,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 4.233,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "kennen-awrfqe",
+      "name": "Kennen awrfqe",
+      "description": "Kennen: AA \u2192 E \u2192 W \u2192 R \u2192 E \u2192 Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Kennen/Kennen awrfqe.mp4",
+        "duration": 9.3,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 2.833,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 2.9,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 3.767,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 5.2,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 5.267,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 5.767,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 5.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "kennen-e-rocketbelt-frwq-zhonya",
+      "name": "Kennen e  Rocketbelt  frwq  Zhonya",
+      "description": "Kennen: E \u2192 ? \u2192 E \u2192 E \u2192 W \u2192 Q \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Kennen/Kennen e  Rocketbelt  frwq  Zhonya.mp4",
+        "duration": 9.3,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 3.267,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "E",
+          "time": 3.533,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 4.067,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 4.5,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 5.1,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "1",
+          "time": 6.333,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "kennen-eqw",
+      "name": "Kennen eqw",
+      "description": "Kennen: E \u2192 Q \u2192 W",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Kennen/Kennen eqw.mp4",
+        "duration": 6.8,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.8,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 4.533,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 4.9,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "kennen-erf-rocketbelt-wqa",
+      "name": "Kennen erf  Rocketbelt  wqa",
+      "description": "Kennen: E \u2192 R \u2192 E \u2192 ? \u2192 W \u2192 Q \u2192 AA \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Kennen/Kennen erf  Rocketbelt  wqa.mp4",
+        "duration": 8.2,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.8,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.6,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 3.667,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 4.2,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "W",
+          "time": 4.433,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 5.0,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 6.8,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 6.867,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "kennen-erfwq",
+      "name": "Kennen erfwq",
+      "description": "Kennen: E \u2192 R \u2192 E \u2192 W \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Kennen/Kennen erfwq.mp4",
+        "duration": 7.3,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.8,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.233,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 3.3,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 4.067,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 4.867,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "kennen-rf",
+      "name": "Kennen rf",
+      "description": "Kennen: R \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Kennen/Kennen rf.mp4",
+        "duration": 6.8,
+        "fps": 60,
+        "comboStart": 2.867
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 2.867,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 2.933,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

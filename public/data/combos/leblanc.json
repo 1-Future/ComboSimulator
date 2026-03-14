@@ -1,0 +1,483 @@
+{
+  "championId": "leblanc",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "leblanc-efqa",
+      "name": "LeBlanc efqa",
+      "description": "LeBlanc: E \u2192 E \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "LeBlanc/LeBlanc efqa.mp4",
+        "duration": 6.8,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.8,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 2.867,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 4.333,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 4.966,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "leblanc-rqwear",
+      "name": "LeBlanc rqwear",
+      "description": "LeBlanc: R \u2192 W \u2192 Q \u2192 W \u2192 E \u2192 AA \u2192 R \u2192 W",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "LeBlanc/LeBlanc rqwear.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 2.8,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "W",
+          "time": 2.866,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.733,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 3.966,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 4.666,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 5.166,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 5.533,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "W",
+          "time": 5.599,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "leblanc-weqaraw",
+      "name": "LeBlanc weqaraw",
+      "description": "LeBlanc: W \u2192 E \u2192 Q \u2192 AA \u2192 R \u2192 Q \u2192 AA \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "LeBlanc/LeBlanc weqaraw.mp4",
+        "duration": 7.4,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.833,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 3.533,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 3.733,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 4.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 4.867,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "Q",
+          "time": 4.933,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 5.7,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 6.1,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "leblanc-wfrqeaw",
+      "name": "LeBlanc wfrqeaw",
+      "description": "LeBlanc: W \u2192 E \u2192 R \u2192 W \u2192 Q \u2192 E \u2192 AA \u2192 R \u2192 W",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "LeBlanc/LeBlanc wfrqeaw.mp4",
+        "duration": 7.3,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.833,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 3.367,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.567,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "W",
+          "time": 3.633,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 4.2,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.733,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 5.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 5.666,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "leblanc-wqewr",
+      "name": "LeBlanc wqewr",
+      "description": "LeBlanc: W \u2192 Q \u2192 E \u2192 W \u2192 R \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "LeBlanc/LeBlanc wqewr.mp4",
+        "duration": 9.3,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.833,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.3,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.267,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 4.533,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 6.033,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 6.1,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "leblanc-wrefaqa",
+      "name": "LeBlanc wrefaqa",
+      "description": "LeBlanc: W \u2192 R \u2192 W \u2192 E \u2192 E \u2192 AA \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "LeBlanc/LeBlanc wrefaqa.mp4",
+        "duration": 7.4,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.833,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 3.333,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "W",
+          "time": 3.4,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 4.133,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 4.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.5,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 4.933,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 5.866,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "mcplwexfvqc",
+      "name": "mcPlWeXFvQc",
+      "description": "LeBlanc: W \u2192 E \u2192 R \u2192 W \u2192 Q \u2192 E \u2192 AA \u2192 R \u2192 W",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "LeBlanc/mcPlWeXFvQc.mp4",
+        "duration": 7.3,
+        "fps": 60,
+        "comboStart": 2.817
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.817,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 3.35,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.567,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "W",
+          "time": 3.617,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 4.2,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.734,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 5.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 5.667,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "W",
+          "time": 5.717,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

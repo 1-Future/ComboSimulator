@@ -1,0 +1,417 @@
+{
+  "championId": "caitlyn",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "caitlyn-aeqa",
+      "name": "Caitlyn aeqa",
+      "description": "Caitlyn: AA \u2192 E \u2192 Q \u2192 AA \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Caitlyn/Caitlyn aeqa.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 1.033,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 1.367,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 1.533,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 2.467,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "caitlyn-aewaqar",
+      "name": "Caitlyn aewaqar",
+      "description": "Caitlyn: AA \u2192 E \u2192 W \u2192 AA \u2192 F \u2192 Q \u2192 AA \u2192 F \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Caitlyn/Caitlyn aewaqar.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 1.033,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 1.367,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 1.7,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 1.9,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 1.967,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "Q",
+          "time": 2.967,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.867,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 3.933,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "R",
+          "time": 4.367,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "caitlyn-aewqaar",
+      "name": "Caitlyn aewqAAr",
+      "description": "Caitlyn: AA \u2192 E \u2192 W \u2192 Q \u2192 AA \u2192 E \u2192 AA \u2192 F \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Caitlyn/Caitlyn aewqAAr.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 1.033,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 1.4,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 1.633,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 2.0,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.033,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.1,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.1,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 4.167,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "R",
+          "time": 4.5,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "caitlyn-double-w-combo",
+      "name": "Caitlyn double W combo",
+      "description": "Caitlyn: W \u2192 W \u2192 Q \u2192 AA \u2192 E \u2192 AA \u2192 AA \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Caitlyn/Caitlyn double W combo.mp4",
+        "duration": 8.6,
+        "fps": 60,
+        "comboStart": 1.2
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.2,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "W",
+          "time": 2.533,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.167,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.933,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 4.133,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.633,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 5.367,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 5.933,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "caitlyn-wqa",
+      "name": "Caitlyn wqa",
+      "description": "Caitlyn: W \u2192 Q \u2192 AA \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Caitlyn/Caitlyn wqa.mp4",
+        "duration": 5.9,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.067,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.266,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 4.266,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 4.333,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "caitlyn-wwaeqaaa",
+      "name": "Caitlyn wwAeqAaA",
+      "description": "Caitlyn: W \u2192 W \u2192 AA \u2192 F \u2192 E \u2192 Q \u2192 AA \u2192 E \u2192 AA \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Caitlyn/Caitlyn wwAeqAaA.mp4",
+        "duration": 15.2,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.067,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "W",
+          "time": 2.0,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 2.9,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 2.967,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "E",
+          "time": 3.333,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 3.4,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 4.267,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 4.333,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 5.233,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 6.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

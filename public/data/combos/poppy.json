@@ -1,0 +1,246 @@
+{
+  "championId": "poppy",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "poppy-wall-stun-ult-combo",
+      "name": "Poppy Wall stun ult combo",
+      "description": "Poppy: AA \u2192 E \u2192 AA \u2192 Q \u2192 R \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Poppy/Poppy Wall stun ult combo.mp4",
+        "duration": 6.5,
+        "fps": 60,
+        "comboStart": 1.267
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 1.267,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 1.8,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 2.467,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 2.867,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "R",
+          "time": 3.3,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 3.8,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "poppy-efa",
+      "name": "Poppy efa",
+      "description": "Poppy: E \u2192 E \u2192 AA \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Poppy/Poppy efa.mp4",
+        "duration": 6.9,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 2.9,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 3.467,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.533,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "poppy-qf",
+      "name": "Poppy qf",
+      "description": "Poppy: Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Poppy/Poppy qf.mp4",
+        "duration": 6.3,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.8,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 2.867,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "poppy-reaqa",
+      "name": "Poppy reaqa",
+      "description": "Poppy: R \u2192 E \u2192 AA \u2192 F \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Poppy/Poppy reaqa.mp4",
+        "duration": 9.7,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 2.8,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 4.4,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 5.833,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "Q",
+          "time": 6.4,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 7.167,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "poppy-wall-stun-combo",
+      "name": "Poppy wall stun combo",
+      "description": "Poppy: AA \u2192 E \u2192 AA \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Poppy/Poppy wall stun combo.mp4",
+        "duration": 5.5,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 1.033,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 1.6,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 2.2,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 2.567,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.267,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

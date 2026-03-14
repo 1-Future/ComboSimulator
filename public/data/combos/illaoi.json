@@ -1,0 +1,256 @@
+{
+  "championId": "illaoi",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "illaoi-aa-w",
+      "name": "Illaoi AA  W",
+      "description": "Illaoi: AA \u2192 W",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Illaoi/Illaoi AA  W.mp4",
+        "duration": 4.0,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 1.067,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 1.467,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "illaoi-e-r-flash-w-q",
+      "name": "Illaoi E  R  Flash  W  Q",
+      "description": "Illaoi: E \u2192 R \u2192 E \u2192 AA \u2192 W \u2192 Q \u2192 AA \u2192 W \u2192 AA \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Illaoi/Illaoi E  R  Flash  W  Q.mp4",
+        "duration": 11.1,
+        "fps": 60,
+        "comboStart": 0.0
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 0.0,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 0.533,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 0.833,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 2.933,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.0,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 4.033,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "illaoi-e-w-q",
+      "name": "Illaoi E  W  Q",
+      "description": "Illaoi: E \u2192 AA \u2192 W \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Illaoi/Illaoi E  W  Q.mp4",
+        "duration": 6.0,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.067,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 2.533,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 2.967,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.467,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 4.5,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "illaoi-r-flash",
+      "name": "Illaoi R  Flash",
+      "description": "Illaoi: R \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Illaoi/Illaoi R  Flash.mp4",
+        "duration": 4.0,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 1.067,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 1.333,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "illaoi-w-q",
+      "name": "Illaoi W  Q",
+      "description": "Illaoi: AA \u2192 W \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Illaoi/Illaoi W  Q.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 1.067,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 1.4,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 1.733,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.0,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "illaoi-ef",
+      "name": "Illaoi ef",
+      "description": "Illaoi: E \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Illaoi/Illaoi ef.mp4",
+        "duration": 6.0,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 2.9,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "championId": "ezreal",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "ezreal-avoid-flash-full-damage-dealing-combo",
+      "name": "Ezreal Avoid Flash  Full damage dealing combo",
+      "description": "Ezreal: E \u2192 AA \u2192 Q \u2192 AA \u2192 W \u2192 AA \u2192 R \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Ezreal/Ezreal Avoid Flash  Full damage dealing combo.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.2
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 1.533,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 1.933,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 2.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 2.567,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.033,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 3.333,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 4.167,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "ezreal-e-flash-combo",
+      "name": "Ezreal E  Flash Combo",
+      "description": "Ezreal: Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Ezreal/Ezreal E  Flash Combo.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.533
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.533,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 1.667,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "ezreal-full-damage-dealing-combo",
+      "name": "Ezreal Full damage dealing combo",
+      "description": "Ezreal: R \u2192 E \u2192 AA \u2192 W \u2192 AA \u2192 Q \u2192 AA \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Ezreal/Ezreal Full damage dealing combo.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.167
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 1.167,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 1.9,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 2.4,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 2.533,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.0,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 3.367,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.733,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 4.1,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.367,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "ezreal-q-flash-combo",
+      "name": "Ezreal Q  Flash Combo",
+      "description": "Ezreal: Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Ezreal/Ezreal Q  Flash Combo.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.533
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.533,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 1.667,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "ezreal-w-flash-combo",
+      "name": "Ezreal W  Flash Combo",
+      "description": "Ezreal: W \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Ezreal/Ezreal W  Flash Combo.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.533
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.533,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 1.633,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "ezreal-qwqerfqwqeqwaq",
+      "name": "Ezreal qwqerfqwqeqwaq",
+      "description": "Ezreal: Q \u2192 W \u2192 Q \u2192 E \u2192 R \u2192 E \u2192 Q \u2192 W \u2192 Q \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Ezreal/Ezreal qwqerfqwqeqwaq.mp4",
+        "duration": 12.5,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.067,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 1.5,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 2.733,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.067,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.4,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 3.633,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 4.433,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 5.033,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 5.633,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "1",
+          "time": 5.933,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "ezreal-rewqa",
+      "name": "Ezreal rewqa",
+      "description": "Ezreal: R \u2192 E \u2192 W \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Ezreal/Ezreal rewqa.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 1.067,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 2.3,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 2.567,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 2.9,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "ezreal-wqeaa",
+      "name": "Ezreal wqeaa",
+      "description": "Ezreal: W \u2192 Q \u2192 E \u2192 AA \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Ezreal/Ezreal wqeaa.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.067,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 1.767,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 2.267,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 2.7,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 3.7,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

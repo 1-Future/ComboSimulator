@@ -1,0 +1,121 @@
+{
+  "championId": "darius",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "darius-q-flash",
+      "name": "Darius Q  Flash",
+      "description": "Darius: Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Darius/Darius Q  Flash.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 2.033
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.033,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 2.733,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "darius-trade-combo",
+      "name": "Darius Trade combo",
+      "description": "Darius: AA \u2192 E \u2192 AA \u2192 W \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Darius/Darius Trade combo.mp4",
+        "duration": 6.0,
+        "fps": 60,
+        "comboStart": 1.4
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 1.4,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 1.8,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 2.533,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 2.9,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.233,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "darius-full-damage-dealing-combo",
+      "name": "Darius full damage dealing combo",
+      "description": "Darius: AA \u2192 E \u2192 AA \u2192 W \u2192 Q \u2192 AA \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Darius/Darius full damage dealing combo.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 0.0
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 0.0,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 4.667,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

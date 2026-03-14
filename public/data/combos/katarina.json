@@ -1,0 +1,525 @@
+{
+  "championId": "katarina",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "katarina-flasheqwreaabelt",
+      "name": "Katarina FlashEQWREAABelt",
+      "description": "Katarina: F \u2192 E \u2192 Q \u2192 W \u2192 R \u2192 E \u2192 AA \u2192 ? \u2192 F \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Katarina/Katarina FlashEQWREAABelt.mp4",
+        "duration": 10.0,
+        "fps": 60,
+        "comboStart": 2.4
+      },
+      "inputs": [
+        {
+          "key": "F",
+          "time": 2.4,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "E",
+          "time": 2.667,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 3.167,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 3.333,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 3.4,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 5.1,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 5.6,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 5.667,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "F",
+          "time": 5.933,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "1",
+          "time": 6.0,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "katarina-qwerbelteaaflashaaeaa",
+      "name": "Katarina QWERBeltEAAFlashAAEAA",
+      "description": "Katarina: Q \u2192 W \u2192 E \u2192 R \u2192 ? \u2192 E \u2192 AA \u2192 E \u2192 AA \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Katarina/Katarina QWERBeltEAAFlashAAEAA.mp4",
+        "duration": 16.1,
+        "fps": 60,
+        "comboStart": 2.967
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.967,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.067,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.4,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "1",
+          "time": 6.233,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "E",
+          "time": 6.867,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 7.267,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 7.433,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 8.566,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 8.966,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 9.166,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "katarina-wbeltqeaareaa",
+      "name": "Katarina WBeltQEAAREAA",
+      "description": "Katarina: W \u2192 ? \u2192 Q \u2192 E \u2192 AA \u2192 R \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Katarina/Katarina WBeltQEAAREAA.mp4",
+        "duration": 12.5,
+        "fps": 60,
+        "comboStart": 3.0
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 3.0,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "1",
+          "time": 3.1,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "Q",
+          "time": 3.833,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.9,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 4.567,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 7.166,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 7.666,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "katarina-aea",
+      "name": "Katarina aea",
+      "description": "Katarina: AA \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Katarina/Katarina aea.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 2.8,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 3.5,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "katarina-feqwrea-rocketbelt",
+      "name": "Katarina feqwrea  Rocketbelt",
+      "description": "Katarina: E \u2192 E \u2192 Q \u2192 W \u2192 R \u2192 E \u2192 AA \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Katarina/Katarina feqwrea  Rocketbelt.mp4",
+        "duration": 7.6,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.8,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 2.966,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 3.333,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 3.633,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 4.0,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 5.1,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 5.666,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 5.866,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "katarina-qwr-rocketbelt-aefaea",
+      "name": "Katarina qwr  Rocketbelt  aefaea",
+      "description": "Katarina: Q \u2192 W \u2192 R \u2192 ? \u2192 AA \u2192 E \u2192 E \u2192 AA \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Katarina/Katarina qwr  Rocketbelt  aefaea.mp4",
+        "duration": 9.8,
+        "fps": 60,
+        "comboStart": 2.767
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.767,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 3.033,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 3.4,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "1",
+          "time": 6.133,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "A",
+          "time": 6.8,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 7.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 7.267,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 7.433,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 7.867,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 8.133,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "katarina-w-rocketbelt-qearea",
+      "name": "Katarina w  Rocketbelt  qearea",
+      "description": "Katarina: W \u2192 ? \u2192 Q \u2192 E \u2192 AA \u2192 R \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Katarina/Katarina w  Rocketbelt  qearea.mp4",
+        "duration": 10.8,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.8,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "1",
+          "time": 3.0,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "Q",
+          "time": 3.8,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.333,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 4.667,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 7.5,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 7.9,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

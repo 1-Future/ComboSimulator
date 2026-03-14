@@ -1,0 +1,222 @@
+{
+  "championId": "azir",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "azir-flash-shuffle",
+      "name": "Azir Flash Shuffle",
+      "description": "Azir: W \u2192 E \u2192 Q \u2192 F \u2192 R \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Azir/Azir Flash Shuffle.mp4",
+        "duration": 8.0,
+        "fps": 60,
+        "comboStart": 1.4
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.4,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 1.7,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 1.9,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "F",
+          "time": 2.1,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "R",
+          "time": 2.233,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "1",
+          "time": 3.0,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "azir-tower-safe-shuffle",
+      "name": "Azir Tower Safe Shuffle",
+      "description": "Azir: W \u2192 E \u2192 Q \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Azir/Azir Tower Safe Shuffle.mp4",
+        "duration": 11.0,
+        "fps": 60,
+        "comboStart": 1.3
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.3,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 5.767,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 6.0,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "R",
+          "time": 6.333,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "azir-weqflashrzhonyas-hourglass",
+      "name": "Azir WEQFlashRZhonyas Hourglass",
+      "description": "Azir: W \u2192 E \u2192 Q \u2192 E \u2192 R \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Azir/Azir WEQFlashRZhonyas Hourglass.mp4",
+        "duration": 10.0,
+        "fps": 60,
+        "comboStart": 2.133
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.133,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 2.566,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 2.833,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.166,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.433,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "1",
+          "time": 4.666,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "azir-weqfr",
+      "name": "Azir weqfr",
+      "description": "Azir: W \u2192 E \u2192 Q \u2192 E \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Azir/Azir weqfr.mp4",
+        "duration": 4.8,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.033,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 1.767,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 2.0,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 2.433,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 2.633,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

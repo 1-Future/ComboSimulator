@@ -1,0 +1,323 @@
+{
+  "championId": "morgana",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "morgana-e-a-w-q-a",
+      "name": "Morgana E  A  W  Q  A",
+      "description": "Morgana: E \u2192 AA \u2192 W \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Morgana/Morgana E  A  W  Q  A.mp4",
+        "duration": 9.8,
+        "fps": 60,
+        "comboStart": 2.1
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.1,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 3.6,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 4.267,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 5.033,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 5.533,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "morgana-flash-e-q-w-r-aaa",
+      "name": "Morgana Flash  E  Q  W  R  AAA",
+      "description": "Morgana: E \u2192 E \u2192 Q \u2192 W \u2192 R \u2192 AA \u2192 AA \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Morgana/Morgana Flash  E  Q  W  R  AAA.mp4",
+        "duration": 11.0,
+        "fps": 60,
+        "comboStart": 2.133
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.133,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 2.433,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 3.233,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 4.067,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 4.2,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 5.0,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 6.133,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 7.7,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "morgana-flash-r-w-a-q-a",
+      "name": "Morgana Flash  R  W  A  Q  A",
+      "description": "Morgana: E \u2192 R \u2192 W \u2192 ? \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Morgana/Morgana Flash  R  W  A  Q  A.mp4",
+        "duration": 9.8,
+        "fps": 60,
+        "comboStart": 2.133
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.133,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 2.333,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "W",
+          "time": 3.133,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "1",
+          "time": 3.7,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "Q",
+          "time": 4.3,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 5.133,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "morgana-q-r-a-w-a-e-a",
+      "name": "Morgana Q  R  A  W  A  E  A",
+      "description": "Morgana: Q \u2192 R \u2192 AA \u2192 W \u2192 AA \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Morgana/Morgana Q  R  A  W  A  E  A.mp4",
+        "duration": 11.7,
+        "fps": 60,
+        "comboStart": 2.1
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.1,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "R",
+          "time": 3.4,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 3.967,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 4.933,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 5.333,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 6.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 6.733,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "morgana-rqweawa",
+      "name": "Morgana rqweawa",
+      "description": "Morgana: R \u2192 Q \u2192 W \u2192 E \u2192 AA \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Morgana/Morgana rqweawa.mp4",
+        "duration": 15.9,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 2.8,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "Q",
+          "time": 3.467,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 3.733,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 4.7,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 5.333,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 8.9,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 9.4,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

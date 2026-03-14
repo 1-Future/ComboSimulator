@@ -1,4 +1,5 @@
 import { useEngineStore } from '@/stores/engineStore'
+import { useDisplayKey } from '@/hooks/useDisplayKey'
 import { GRADE_COLORS } from '@/lib/constants'
 import type { ComboInput } from '@/types/combo'
 import type { Grade } from '@/types/engine'
@@ -10,6 +11,7 @@ interface InputDisplayProps {
 export function InputDisplay({ inputs }: InputDisplayProps) {
   const hits = useEngineStore((s) => s.hits)
   const currentStep = useEngineStore((s) => s.currentStep)
+  const { getDisplayKey } = useDisplayKey()
 
   return (
     <div className="flex flex-wrap items-center justify-center gap-2 py-3">
@@ -35,7 +37,7 @@ export function InputDisplay({ inputs }: InputDisplayProps) {
               className="text-lg font-mono font-bold"
               style={{ color: color ?? (isCurrent ? '#22d3ee' : '#94a3b8') }}
             >
-              {input.key}
+              {getDisplayKey(input)}
             </span>
             {hit && (
               <span className="mt-0.5 text-[10px] font-medium" style={{ color }}>

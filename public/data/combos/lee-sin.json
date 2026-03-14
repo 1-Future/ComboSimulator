@@ -1,0 +1,611 @@
+{
+  "championId": "lee-sin",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "lee-sin-e-flash",
+      "name": "Lee Sin E  Flash",
+      "description": "Lee Sin: E \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lee Sin/Lee Sin E  Flash.mp4",
+        "duration": 10.0,
+        "fps": 60,
+        "comboStart": 3.766
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 3.766,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "F",
+          "time": 3.966,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lee-sin-insec-combo",
+      "name": "Lee Sin Insec combo",
+      "description": "Lee Sin: ? \u2192 ? \u2192 W \u2192 R \u2192 ? \u2192 E \u2192 ? \u2192 E \u2192 Q \u2192 AA \u2192 ? \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lee Sin/Lee Sin Insec combo.mp4",
+        "duration": 6.5,
+        "fps": 60,
+        "comboStart": 0.0
+      },
+      "inputs": [
+        {
+          "key": "1",
+          "time": 0.0,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "W",
+          "time": 1.133,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "1",
+          "time": 1.2,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 1.267,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "E",
+          "time": 2.267,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 2.667,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.2,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 3.6,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "A",
+          "time": 4.067,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lee-sin-q-q-flash-r",
+      "name": "Lee Sin Q  Q  Flash  R",
+      "description": "Lee Sin: Q \u2192 Q \u2192 E \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lee Sin/Lee Sin Q  Q  Flash  R.mp4",
+        "duration": 10.0,
+        "fps": 60,
+        "comboStart": 2.9
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.9,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 5.399,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lee-sin-q-q-ward-w-r",
+      "name": "Lee Sin Q  Q  ward  W  R",
+      "description": "Lee Sin: Q \u2192 Q \u2192 ? \u2192 W \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lee Sin/Lee Sin Q  Q  ward  W  R.mp4",
+        "duration": 10.0,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.833,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "Q",
+          "time": 4.0,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "1",
+          "time": 4.2,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "W",
+          "time": 4.4,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 4.7,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lee-sin-q-ward-w-flash-r-q-a",
+      "name": "Lee Sin Q  Ward  W  Flash  R  Q  A",
+      "description": "Lee Sin: Q \u2192 W \u2192 W \u2192 E \u2192 R \u2192 Q \u2192 AA \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lee Sin/Lee Sin Q  Ward  W  Flash  R  Q  A.mp4",
+        "duration": 10.0,
+        "fps": 60,
+        "comboStart": 2.866
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.866,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 3.066,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "W",
+          "time": 3.266,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 3.6,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 4.066,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "Q",
+          "time": 5.266,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 5.633,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 5.699,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lee-sin-stealing-dragon-2",
+      "name": "Lee Sin Stealing dragon 2",
+      "description": "Lee Sin: Q \u2192 Q \u2192 E \u2192 ? \u2192 W \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lee Sin/Lee Sin Stealing dragon 2.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.267
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.267,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "Q",
+          "time": 2.967,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.367,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 3.433,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "W",
+          "time": 3.533,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "1",
+          "time": 3.7,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lee-sin-stealing-dragon",
+      "name": "Lee Sin Stealing dragon",
+      "description": "Lee Sin: Q \u2192 Q \u2192 W \u2192 W \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lee Sin/Lee Sin Stealing dragon.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.067,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "Q",
+          "time": 3.167,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 3.267,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "W",
+          "time": 3.5,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "1",
+          "time": 3.6,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lee-sin-qqare-goredrinker",
+      "name": "Lee Sin qqare  Goredrinker",
+      "description": "Lee Sin: Q \u2192 Q \u2192 R \u2192 E \u2192 AA \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lee Sin/Lee Sin qqare  Goredrinker.mp4",
+        "duration": 7.8,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.8,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "Q",
+          "time": 4.417,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "R",
+          "time": 5.4,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 5.8,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 6.184,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 6.267,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "xqa5ziqmjzk",
+      "name": "Xqa5ZIQmjZk",
+      "description": "Lee Sin: Q \u2192 W \u2192 W \u2192 R \u2192 E \u2192 E \u2192 Q \u2192 AA \u2192 ? \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lee Sin/Xqa5ZIQmjZk.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.167
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.167,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 1.3,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "W",
+          "time": 1.367,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 1.866,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 1.933,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 2.166,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 2.5,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.066,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 3.366,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "A",
+          "time": 3.666,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "tiib6f7xp-k",
+      "name": "tIIB6f7XP-k",
+      "description": "Lee Sin: ? \u2192 ? \u2192 W \u2192 R \u2192 ? \u2192 E \u2192 ? \u2192 E \u2192 Q \u2192 AA \u2192 ? \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lee Sin/tIIB6f7XP-k.mp4",
+        "duration": 6.5,
+        "fps": 60,
+        "comboStart": 0.0
+      },
+      "inputs": [
+        {
+          "key": "1",
+          "time": 0.0,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "W",
+          "time": 1.1,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "1",
+          "time": 1.167,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 1.233,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "E",
+          "time": 2.233,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 2.633,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.167,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 3.533,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "A",
+          "time": 4.033,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

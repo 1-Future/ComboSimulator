@@ -1,0 +1,437 @@
+{
+  "championId": "sett",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "sett-flash-e-prowlers-claw-combo",
+      "name": "Sett Flash  E  Prowlers Claw Combo",
+      "description": "Sett: E \u2192 E \u2192 ? \u2192 W \u2192 AA \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Sett/Sett Flash  E  Prowlers Claw Combo.mp4",
+        "duration": 8.0,
+        "fps": 60,
+        "comboStart": 1.7
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.7,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 1.767,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 2.433,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "W",
+          "time": 2.867,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.9,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 4.967,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "sett-flash-prowlers-claw-combo",
+      "name": "Sett Flash  Prowlers Claw Combo",
+      "description": "Sett: E \u2192 ? \u2192 R \u2192 E \u2192 Q \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Sett/Sett Flash  Prowlers Claw Combo.mp4",
+        "duration": 8.1,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.067,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 1.267,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "R",
+          "time": 1.667,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 3.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 3.533,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 4.533,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 5.567,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "sett-prowlers-claw-combo",
+      "name": "Sett Prowlers Claw Combo",
+      "description": "Sett: ? \u2192 R \u2192 E \u2192 W \u2192 AA \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Sett/Sett Prowlers Claw Combo.mp4",
+        "duration": 9.0,
+        "fps": 60,
+        "comboStart": 1.733
+      },
+      "inputs": [
+        {
+          "key": "1",
+          "time": 1.733,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "R",
+          "time": 2.2,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 3.467,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 4.167,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 5.233,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 6.2,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "sett-q-e-w",
+      "name": "Sett Q  E  W",
+      "description": "Sett: AA \u2192 Q \u2192 E \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Sett/Sett Q  E  W.mp4",
+        "duration": 8.0,
+        "fps": 60,
+        "comboStart": 1.7
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 1.7,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 2.767,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.633,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 4.267,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 5.267,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "sett-r-e-w-q",
+      "name": "Sett R  E  W  Q",
+      "description": "Sett: R \u2192 E \u2192 W \u2192 AA \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Sett/Sett R  E  W  Q.mp4",
+        "duration": 8.0,
+        "fps": 60,
+        "comboStart": 1.733
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 1.733,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 3.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 3.8,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 4.933,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 5.8,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "sett-through-wall-r",
+      "name": "Sett Through Wall R",
+      "description": "Sett: R \u2192 E \u2192 W \u2192 AA \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Sett/Sett Through Wall R.mp4",
+        "duration": 9.0,
+        "fps": 60,
+        "comboStart": 1.7
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 1.7,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 3.067,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 4.3,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 5.467,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 6.467,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "sett-w-flash",
+      "name": "Sett W  Flash",
+      "description": "Sett: W \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Sett/Sett W  Flash.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.7
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.7,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 2.267,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "sett-e-gore-drinker-wraq",
+      "name": "Sett e  Gore drinker  wraq",
+      "description": "Sett: E \u2192 ? \u2192 W \u2192 R \u2192 AA \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Sett/Sett e  Gore drinker  wraq.mp4",
+        "duration": 8.2,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 3.367,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "W",
+          "time": 3.433,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 4.3,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 5.467,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 5.733,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

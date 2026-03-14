@@ -1,0 +1,329 @@
+{
+  "championId": "skarner",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "skarner-e-a-q-a-w",
+      "name": "Skarner E  A  Q  A  W",
+      "description": "Skarner: E \u2192 AA \u2192 E \u2192 ? \u2192 AA \u2192 W",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Skarner/Skarner E  A  Q  A  W.mp4",
+        "duration": 11.2,
+        "fps": 60,
+        "comboStart": 2.0
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.0,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 3.767,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 4.067,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "A",
+          "time": 4.6,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 4.933,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "skarner-e-q-a",
+      "name": "Skarner E  Q  A",
+      "description": "Skarner: E \u2192 Q \u2192 AA \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Skarner/Skarner E  Q  A.mp4",
+        "duration": 7.5,
+        "fps": 60,
+        "comboStart": 1.867
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.867,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 3.167,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.5,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.567,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "skarner-q-q-flash",
+      "name": "Skarner Q  Q  Flash",
+      "description": "Skarner: Q \u2192 Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Skarner/Skarner Q  Q  Flash.mp4",
+        "duration": 8.9,
+        "fps": 60,
+        "comboStart": 2.167
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.167,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "skarner-q-q-w-flash-r-e",
+      "name": "Skarner Q  Q  W  Flash  R  E",
+      "description": "Skarner: Q \u2192 ? \u2192 E \u2192 R \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Skarner/Skarner Q  Q  W  Flash  R  E.mp4",
+        "duration": 14.8,
+        "fps": 60,
+        "comboStart": 2.433
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.433,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "1",
+          "time": 3.167,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "E",
+          "time": 6.667,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 7.267,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 10.0,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "skarner-q-q-w-r-a",
+      "name": "Skarner Q  Q  W  R  A",
+      "description": "Skarner: Q \u2192 Q \u2192 W \u2192 R \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Skarner/Skarner Q  Q  W  R  A.mp4",
+        "duration": 11.9,
+        "fps": 60,
+        "comboStart": 2.467
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.467,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "Q",
+          "time": 4.567,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 5.4,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "R",
+          "time": 5.933,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 8.566,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "skarner-tower-w-flash-e-r-q",
+      "name": "Skarner Tower  W  Flash  E  R  Q",
+      "description": "Skarner: W \u2192 E \u2192 E \u2192 R \u2192 Q \u2192 AA \u2192 E \u2192 AA \u2192 Q \u2192 AA \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Skarner/Skarner Tower  W  Flash  E  R  Q.mp4",
+        "duration": 11.0,
+        "fps": 60,
+        "comboStart": 0.0
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 0.0,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 0.267,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 0.567,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 7.6,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 8.5,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "skarner-w-flash",
+      "name": "Skarner W  Flash",
+      "description": "Skarner: ? \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Skarner/Skarner W  Flash.mp4",
+        "duration": 9.1,
+        "fps": 60,
+        "comboStart": 3.367
+      },
+      "inputs": [
+        {
+          "key": "1",
+          "time": 3.367,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "F",
+          "time": 3.533,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

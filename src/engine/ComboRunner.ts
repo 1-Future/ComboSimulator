@@ -54,7 +54,7 @@ export class ComboRunner {
     return this.inputs
   }
 
-  handleKeyPress(key: string, timestamp: number): HitResult | null {
+  handleKeyPress(key: string, timestamp: number, action?: string): HitResult | null {
     if (this.state.comboState === 'idle' || this.state.comboState === 'complete') {
       return null
     }
@@ -62,20 +62,28 @@ export class ComboRunner {
     const step = this.inputs[this.state.currentStep]
     if (!step) return null
 
-    const expectedKey = step.key.toLowerCase()
-    if (key.toLowerCase() !== expectedKey) return null
+    // Match by action (hotkey-aware) or by raw key as fallback
+    let matched = false
+    if (step.action && action) {
+      matched = step.action === action
+    }
+    if (!matched) {
+      matched = key.toLowerCase() === step.key.toLowerCase()
+    }
+    if (!matched) return null
 
-    // Start the combo on first correct key press
-    if (this.state.comboStartTime === null) {
+    // First key press starts the combo — always Perfect (it's the trigger)
+    const isFirstStep = this.state.comboStartTime === null
+    if (isFirstStep) {
       this.state.comboStartTime = timestamp
       this.state.comboState = 'playing'
     }
 
     const firstStepTime = this.inputs[0]?.time ?? 0
     const expectedTimeMs = (step.time - firstStepTime) * 1000
-    const actualTimeMs = timestamp - this.state.comboStartTime - this.calibrationOffset
-    const offset = actualTimeMs - expectedTimeMs
-    const grade = scoreHit(offset, this.difficulty)
+    const actualTimeMs = timestamp - (this.state.comboStartTime ?? timestamp) - this.calibrationOffset
+    const offset = isFirstStep ? 0 : actualTimeMs - expectedTimeMs
+    const grade = isFirstStep ? 'Perfect' as const : scoreHit(offset, this.difficulty)
 
     const hit: HitResult = {
       stepIndex: this.state.currentStep,

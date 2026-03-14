@@ -1,0 +1,173 @@
+{
+  "championId": "hwei",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "hwei-eq-qe-wq",
+      "name": "Hwei EQ  QE  WQ",
+      "description": "Hwei: E \u2192 Q \u2192 W",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Hwei/Hwei EQ  QE  WQ.mp4",
+        "duration": 11.6,
+        "fps": 60,
+        "comboStart": 2.266
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.266,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 3.266,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 4.633,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "hwei-qe-we-ee-r",
+      "name": "Hwei QE  WE  EE  R",
+      "description": "Hwei: Q \u2192 W \u2192 E \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Hwei/Hwei QE  WE  EE  R.mp4",
+        "duration": 12.8,
+        "fps": 60,
+        "comboStart": 2.9
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.9,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 4.0,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 5.533,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 6.133,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "hwei-we-eq-qq-r",
+      "name": "Hwei WE  EQ  QQ  R",
+      "description": "Hwei: W \u2192 E \u2192 Q \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Hwei/Hwei WE  EQ  QQ  R.mp4",
+        "duration": 12.1,
+        "fps": 60,
+        "comboStart": 2.867
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.867,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 4.1,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 4.933,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "R",
+          "time": 5.633,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "hwei-we-qq-eq",
+      "name": "Hwei WE  QQ  EQ",
+      "description": "Hwei: ? \u2192 Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Hwei/Hwei WE  QQ  EQ.mp4",
+        "duration": 9.1,
+        "fps": 60,
+        "comboStart": 2.267
+      },
+      "inputs": [
+        {
+          "key": "1",
+          "time": 2.267,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "Q",
+          "time": 3.467,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.567,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "championId": "akshan",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "akshan-r-e-q-tower-dive",
+      "name": "Akshan R  E  Q Tower Dive",
+      "description": "Akshan: R \u2192 E \u2192 AA \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Akshan/Akshan R  E  Q Tower Dive.mp4",
+        "duration": 9.0,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 1.033,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 2.867,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.733,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 5.433,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 6.567,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "akshan-w-q-e",
+      "name": "Akshan W  Q  E",
+      "description": "Akshan: W \u2192 AA \u2192 Q \u2192 AA \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Akshan/Akshan W  Q  E.mp4",
+        "duration": 12.1,
+        "fps": 60,
+        "comboStart": 1.1
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.1,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 5.133,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 5.7,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 6.733,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 7.433,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 9.0,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "akshan-w-tips",
+      "name": "Akshan W Tips",
+      "description": "Akshan: 1 \u2192 1",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Akshan/Akshan W Tips.mp4",
+        "duration": 10.1,
+        "fps": 60,
+        "comboStart": 3.967
+      },
+      "inputs": [
+        {
+          "key": "1",
+          "time": 3.967,
+          "label": "1",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

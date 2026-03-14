@@ -1,0 +1,138 @@
+{
+  "championId": "kassadin",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "kassadin-r-flash",
+      "name": "Kassadin R  Flash",
+      "description": "Kassadin: R \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Kassadin/Kassadin R  Flash.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.367
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 1.367,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 1.467,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "kassadin-awa",
+      "name": "Kassadin awa",
+      "description": "Kassadin: AA \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Kassadin/Kassadin awa.mp4",
+        "duration": 10.7,
+        "fps": 60,
+        "comboStart": 2.667
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.667,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 6.933,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "kassadin-ef",
+      "name": "Kassadin ef",
+      "description": "Kassadin: E \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Kassadin/Kassadin ef.mp4",
+        "duration": 5.5,
+        "fps": 60,
+        "comboStart": 2.833
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 2.9,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "kassadin-full-damage-dealing-combo",
+      "name": "Kassadin full damage dealing combo",
+      "description": "Kassadin: Q \u2192 R \u2192 AA \u2192 AA \u2192 W \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Kassadin/Kassadin full damage dealing combo.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.067
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.067,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 2.6,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 3.533,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

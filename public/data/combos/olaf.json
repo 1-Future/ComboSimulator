@@ -1,0 +1,281 @@
+{
+  "championId": "olaf",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "olaf-flash-e",
+      "name": "Olaf Flash  E",
+      "description": "Olaf: F \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Olaf/Olaf Flash  E.mp4",
+        "duration": 6.8,
+        "fps": 60,
+        "comboStart": 3.1
+      },
+      "inputs": [
+        {
+          "key": "F",
+          "time": 3.1,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "E",
+          "time": 3.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "olaf-q-a-w-aa-e-aa-q-a",
+      "name": "Olaf Q  A  W  AA  E  AA  Q  A",
+      "description": "Olaf: Q \u2192 AA \u2192 W \u2192 AA \u2192 AA \u2192 E \u2192 AA \u2192 AA \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Olaf/Olaf Q  A  W  AA  E  AA  Q  A.mp4",
+        "duration": 13.7,
+        "fps": 60,
+        "comboStart": 2.067
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.067,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 3.767,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 4.067,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 4.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 4.8,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 5.7,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 6.167,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 7.267,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 8.267,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 8.867,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "olaf-q-flash",
+      "name": "Olaf Q  Flash",
+      "description": "Olaf: ? \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Olaf/Olaf Q  Flash.mp4",
+        "duration": 7.1,
+        "fps": 60,
+        "comboStart": 3.1
+      },
+      "inputs": [
+        {
+          "key": "1",
+          "time": 3.1,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "F",
+          "time": 3.2,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "olaf-q-r-a-e-a-w-aa-q-aa-q",
+      "name": "Olaf Q  R  A  E  A  W  AA  Q  AA  Q",
+      "description": "Olaf: Q \u2192 R \u2192 AA \u2192 E \u2192 AA \u2192 W \u2192 AA \u2192 Q \u2192 AA \u2192 AA \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Olaf/Olaf Q  R  A  E  A  W  AA  Q  AA  Q.mp4",
+        "duration": 15.2,
+        "fps": 60,
+        "comboStart": 2.1
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.1,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "R",
+          "time": 3.1,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 3.933,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 4.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.933,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 5.233,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 6.567,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 7.3,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 8.333,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 9.467,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 10.467,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "olaf-qf",
+      "name": "Olaf qf",
+      "description": "Olaf: Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Olaf/Olaf qf.mp4",
+        "duration": 5.4,
+        "fps": 60,
+        "comboStart": 2.733
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.733,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 2.9,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

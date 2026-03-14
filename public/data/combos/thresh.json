@@ -1,0 +1,322 @@
+{
+  "championId": "thresh",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "thresh-q-e",
+      "name": "Thresh Q  E",
+      "description": "Thresh: Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Thresh/Thresh Q  E.mp4",
+        "duration": 6.0,
+        "fps": 60,
+        "comboStart": 1.2
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.2,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.467,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "thresh-q-flash-e-r",
+      "name": "Thresh Q  Flash  E  R",
+      "description": "Thresh: Q \u2192 Q \u2192 E \u2192 E \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Thresh/Thresh Q  Flash  E  R.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.033
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.033,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "Q",
+          "time": 2.7,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.433,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 3.633,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 4.2,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "thresh-q-flash-w-e-r",
+      "name": "Thresh Q  Flash  W  E  R",
+      "description": "Thresh: Q \u2192 W \u2192 Q \u2192 E \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Thresh/Thresh Q  Flash  W  E  R.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.2
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.2,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 3.033,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.367,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.967,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 4.3,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "thresh-q-q-e-r-2",
+      "name": "Thresh Q  Q  E  R 2",
+      "description": "Thresh: Q \u2192 Q \u2192 R \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Thresh/Thresh Q  Q  E  R 2.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.2
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.2,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "Q",
+          "time": 3.1,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "R",
+          "time": 3.833,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 4.767,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "thresh-q-q-e",
+      "name": "Thresh Q  Q  E",
+      "description": "Thresh: Q \u2192 Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Thresh/Thresh Q  Q  E.mp4",
+        "duration": 6.5,
+        "fps": 60,
+        "comboStart": 1.233
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.233,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "Q",
+          "time": 3.3,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "thresh-q-q-e-r",
+      "name": "Thresh Q  Q E  R",
+      "description": "Thresh: Q \u2192 R \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Thresh/Thresh Q  Q E  R.mp4",
+        "duration": 6.0,
+        "fps": 60,
+        "comboStart": 1.2
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.2,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "R",
+          "time": 2.7,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 3.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "thresh-q-w-e-r",
+      "name": "Thresh Q  W  E  R",
+      "description": "Thresh: Q \u2192 W \u2192 Q \u2192 E \u2192 R \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Thresh/Thresh Q  W  E  R.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.2
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.2,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 2.2,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 2.933,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.4,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.767,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 4.733,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

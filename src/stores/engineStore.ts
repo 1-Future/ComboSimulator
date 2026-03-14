@@ -1,6 +1,8 @@
 import { create } from 'zustand'
 import type { ComboState, HitResult } from '@/types/engine'
 
+export type InputDevice = 'keyboard' | 'gamepad'
+
 interface EngineStoreState {
   comboState: ComboState
   currentStep: number
@@ -10,6 +12,7 @@ interface EngineStoreState {
   unstableRate: number
   videoCurrentTime: number
   videoDuration: number
+  activeDevice: InputDevice
 
   setComboState: (state: ComboState) => void
   setCurrentStep: (step: number) => void
@@ -18,6 +21,7 @@ interface EngineStoreState {
   setLastHit: (hit: HitResult | null) => void
   setAccuracy: (accuracy: number) => void
   setUnstableRate: (ur: number) => void
+  setActiveDevice: (device: InputDevice) => void
   setVideoCurrentTime: (time: number) => void
   setVideoDuration: (duration: number) => void
   reset: () => void
@@ -32,6 +36,7 @@ export const useEngineStore = create<EngineStoreState>()((set) => ({
   unstableRate: 0,
   videoCurrentTime: 0,
   videoDuration: 0,
+  activeDevice: 'keyboard' as const,
 
   setComboState: (comboState) => set({ comboState }),
   setCurrentStep: (currentStep) => set({ currentStep }),
@@ -42,6 +47,7 @@ export const useEngineStore = create<EngineStoreState>()((set) => ({
   setUnstableRate: (unstableRate) => set({ unstableRate }),
   setVideoCurrentTime: (videoCurrentTime) => set({ videoCurrentTime }),
   setVideoDuration: (videoDuration) => set({ videoDuration }),
+  setActiveDevice: (activeDevice) => set({ activeDevice }),
   reset: () =>
     set({
       comboState: 'idle',

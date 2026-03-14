@@ -1,0 +1,201 @@
+{
+  "championId": "smolder",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "smolder-a-q-e",
+      "name": "Smolder A  Q  E",
+      "description": "Smolder: AA \u2192 Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Smolder/Smolder A  Q  E.mp4",
+        "duration": 9.8,
+        "fps": 60,
+        "comboStart": 2.433
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 2.433,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 2.967,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.267,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "smolder-w-a-q-e-a",
+      "name": "Smolder W  A  Q  E  A",
+      "description": "Smolder: W \u2192 AA \u2192 Q \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Smolder/Smolder W  A  Q  E  A.mp4",
+        "duration": 10.6,
+        "fps": 60,
+        "comboStart": 2.7
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.7,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.633,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 4.1,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.333,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 6.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "smolder-w-a-q-e-r-aa-q",
+      "name": "Smolder W  A  Q  E  R  AA  Q",
+      "description": "Smolder: W \u2192 AA \u2192 Q \u2192 E \u2192 R \u2192 AA \u2192 AA \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Smolder/Smolder W  A  Q  E  R  AA  Q.mp4",
+        "duration": 14.9,
+        "fps": 60,
+        "comboStart": 2.767
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.767,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.7,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 4.2,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.5,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 6.233,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 8.033,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 9.166,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 10.1,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "smolder-w-flash",
+      "name": "Smolder W  Flash",
+      "description": "Smolder: ? \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Smolder/Smolder W  Flash.mp4",
+        "duration": 7.7,
+        "fps": 60,
+        "comboStart": 3.566
+      },
+      "inputs": [
+        {
+          "key": "1",
+          "time": 3.566,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "F",
+          "time": 3.833,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

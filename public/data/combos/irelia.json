@@ -1,0 +1,494 @@
+{
+  "championId": "irelia",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "irelia-e-q-e",
+      "name": "Irelia E  Q  E",
+      "description": "Irelia: E \u2192 Q \u2192 E \u2192 AA \u2192 Q \u2192 AA \u2192 AA \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Irelia/Irelia E  Q  E.mp4",
+        "duration": 12.5,
+        "fps": 60,
+        "comboStart": 1.2
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 3.867,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.333,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.933,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 5.367,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 5.867,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 6.867,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 7.233,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 9.267,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "irelia-e-q-r-q-w",
+      "name": "Irelia E  Q  R  Q  W",
+      "description": "Irelia: E \u2192 E \u2192 ? \u2192 ? \u2192 ? \u2192 ? \u2192 ? \u2192 ? \u2192 ? \u2192 ? \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Irelia/Irelia E  Q  R  Q  W.mp4",
+        "duration": 10.5,
+        "fps": 60,
+        "comboStart": 1.2
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 2.767,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 3.5,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 3.967,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 4.167,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 4.967,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 5.1,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 5.7,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 6.033,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 6.2,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 8.633,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "irelia-e-r-flash",
+      "name": "Irelia E  R  Flash",
+      "description": "Irelia: E \u2192 R \u2192 E \u2192 ? \u2192 ? \u2192 E \u2192 ? \u2192 ? \u2192 ? \u2192 ? \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Irelia/Irelia E  R  Flash.mp4",
+        "duration": 10.0,
+        "fps": 60,
+        "comboStart": 1.2
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 1.867,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 2.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 2.8,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 3.167,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "E",
+          "time": 3.567,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 4.3,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 4.533,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 5.233,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 5.4,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 8.0,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "irelia-ereqaqwaq",
+      "name": "Irelia ereqaqwaq",
+      "description": "Irelia: E \u2192 R \u2192 E \u2192 Q \u2192 AA \u2192 Q \u2192 W \u2192 AA \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Irelia/Irelia ereqaqwaq.mp4",
+        "duration": 7.1,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.8,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.033,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 3.467,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 3.567,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 4.233,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 4.467,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 4.9,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 5.433,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 5.733,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "irelia-weqqrqeaqaqaqa",
+      "name": "Irelia weqqrqeaqaqaqa",
+      "description": "Irelia: W \u2192 E \u2192 Q \u2192 Q \u2192 R \u2192 E \u2192 AA \u2192 Q \u2192 AA \u2192 Q \u2192 AA \u2192 Q \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Irelia/Irelia weqqrqeaqaqaqa.mp4",
+        "duration": 10.8,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.8,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 4.733,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 4.8,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "Q",
+          "time": 5.6,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "R",
+          "time": 5.967,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 6.4,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 6.867,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 7.033,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 7.533,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 8.2,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 8.367,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 8.767,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "1",
+          "time": 9.267,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "irelia-wf",
+      "name": "Irelia wf",
+      "description": "Irelia: W \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Irelia/Irelia wf.mp4",
+        "duration": 5.7,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 2.8,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 4.233,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

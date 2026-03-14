@@ -1,0 +1,128 @@
+{
+  "championId": "lulu",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "lulu-e-q",
+      "name": "Lulu E  Q",
+      "description": "Lulu: E \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lulu/Lulu E  Q.mp4",
+        "duration": 5.0,
+        "fps": 60,
+        "comboStart": 1.2
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "Q",
+          "time": 1.4,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lulu-aqaeaq",
+      "name": "Lulu aqaeaq",
+      "description": "Lulu: AA \u2192 Q \u2192 AA \u2192 E \u2192 AA \u2192 Q",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lulu/Lulu aqaeaq.mp4",
+        "duration": 12.7,
+        "fps": 60,
+        "comboStart": 3.4
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 3.4,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 3.8,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 5.4,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 8.5,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 8.9,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 10.633,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "lulu-qf",
+      "name": "Lulu qf",
+      "description": "Lulu: Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Lulu/Lulu qf.mp4",
+        "duration": 6.3,
+        "fps": 60,
+        "comboStart": 3.667
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 3.667,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.733,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

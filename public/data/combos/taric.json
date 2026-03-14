@@ -1,0 +1,267 @@
+{
+  "championId": "taric",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "taric-e-a-a-q-a-a",
+      "name": "Taric E  A  A  Q  A  A",
+      "description": "Taric: E \u2192 F \u2192 AA \u2192 ? \u2192 Q \u2192 AA \u2192 E \u2192 AA \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Taric/Taric E  A  A  Q  A  A.mp4",
+        "duration": 9.0,
+        "fps": 60,
+        "comboStart": 2.467
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.467,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "F",
+          "time": 2.867,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "A",
+          "time": 3.433,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 3.5,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "Q",
+          "time": 4.0,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 4.367,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 4.433,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 5.033,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 5.1,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "taric-e-flash",
+      "name": "Taric E  Flash",
+      "description": "Taric: E \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Taric/Taric E  Flash.mp4",
+        "duration": 8.6,
+        "fps": 60,
+        "comboStart": 2.467
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.467,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "F",
+          "time": 2.833,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "taric-e-w-a-a",
+      "name": "Taric E  W  A  A",
+      "description": "Taric: E \u2192 W \u2192 AA \u2192 F \u2192 AA \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Taric/Taric E  W  A  A.mp4",
+        "duration": 9.2,
+        "fps": 60,
+        "comboStart": 2.333
+      },
+      "inputs": [
+        {
+          "key": "F",
+          "time": 2.333,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "A",
+          "time": 2.467,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 5.3,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "taric-r-e-flash-a-q-aa-w-aa-q-aa",
+      "name": "Taric R  E  Flash  A  Q  AA  W  AA  Q  AA",
+      "description": "Taric: R \u2192 E \u2192 E \u2192 AA \u2192 E \u2192 Q \u2192 AA \u2192 R \u2192 AA \u2192 F \u2192 W \u2192 AA \u2192 E \u2192 AA \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Taric/Taric R  E  Flash  A  Q  AA  W  AA  Q  AA.mp4",
+        "duration": 14.4,
+        "fps": 60,
+        "comboStart": 3.167
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 3.167,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "R",
+          "time": 3.7,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 6.267,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "F",
+          "time": 6.333,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        },
+        {
+          "key": "W",
+          "time": 7.333,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 7.667,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 7.733,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 8.267,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 8.333,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "taric-ef",
+      "name": "Taric ef",
+      "description": "Taric: E \u2192 F",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Taric/Taric ef.mp4",
+        "duration": 7.1,
+        "fps": 60,
+        "comboStart": 3.767
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 3.767,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "F",
+          "time": 4.7,
+          "label": "F",
+          "window": 100,
+          "action": "summoner2"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

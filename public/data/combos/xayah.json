@@ -1,0 +1,166 @@
+{
+  "championId": "xayah",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "xayah-q-slow-e-combo",
+      "name": "Xayah Q  Slow E Combo",
+      "description": "Xayah: W \u2192 AA \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Xayah/Xayah Q  Slow E Combo.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.333
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.333,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 2.067,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "1",
+          "time": 2.567,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "xayah-r-e-flash-combo",
+      "name": "Xayah R  E  Flash combo",
+      "description": "Xayah: R \u2192 E \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Xayah/Xayah R  E  Flash combo.mp4",
+        "duration": 7.5,
+        "fps": 60,
+        "comboStart": 1.333
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 1.333,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 3.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 4.1,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "xayah-r-flash-combo",
+      "name": "Xayah R  Flash combo",
+      "description": "Xayah: R \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Xayah/Xayah R  Flash combo.mp4",
+        "duration": 6.0,
+        "fps": 60,
+        "comboStart": 1.967
+      },
+      "inputs": [
+        {
+          "key": "R",
+          "time": 1.967,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "E",
+          "time": 2.767,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "xayah-qwaea",
+      "name": "Xayah qwaea",
+      "description": "Xayah: Q \u2192 W \u2192 AA \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Xayah/Xayah qwaea.mp4",
+        "duration": 6.5,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.8,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 3.033,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.3,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 3.867,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.167,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

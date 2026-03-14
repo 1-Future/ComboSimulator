@@ -1,0 +1,260 @@
+{
+  "championId": "jinx",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "jinx-a-w-a",
+      "name": "Jinx A  W  A",
+      "description": "Jinx: AA \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Jinx/Jinx A  W  A.mp4",
+        "duration": 7.4,
+        "fps": 60,
+        "comboStart": 2.033
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 2.033,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 2.233,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 3.067,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "jinx-aaa-q-a-w-a-q-aa",
+      "name": "Jinx AAA  Q  A  W  A  Q  AA",
+      "description": "Jinx: AA \u2192 AA \u2192 AA \u2192 Q \u2192 AA \u2192 W \u2192 AA \u2192 Q \u2192 AA \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Jinx/Jinx AAA  Q  A  W  A  Q  AA.mp4",
+        "duration": 11.6,
+        "fps": 60,
+        "comboStart": 2.233
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 2.233,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 3.367,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 4.2,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 4.633,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 5.067,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "W",
+          "time": 5.5,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 6.233,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 6.633,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 6.9,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "A",
+          "time": 7.733,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "jinx-r-w",
+      "name": "Jinx R  W",
+      "description": "Jinx: ? \u2192 ?",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Jinx/Jinx R  W.mp4",
+        "duration": 7.7,
+        "fps": 60,
+        "comboStart": 3.2
+      },
+      "inputs": [
+        {
+          "key": "1",
+          "time": 3.2,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "1",
+          "time": 4.133,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "jinx-w-a-e-aa-q-aa-r-a-q-a",
+      "name": "Jinx W  A  E  AA  Q  AA  R  A  Q  A",
+      "description": "Jinx: W \u2192 AA \u2192 E \u2192 AA \u2192 AA \u2192 Q \u2192 AA \u2192 AA \u2192 R \u2192 AA \u2192 Q \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Jinx/Jinx W  A  E  AA  Q  AA  R  A  Q  A.mp4",
+        "duration": 13.8,
+        "fps": 60,
+        "comboStart": 1.933
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 1.933,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "R",
+          "time": 8.167,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        },
+        {
+          "key": "A",
+          "time": 9.167,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "Q",
+          "time": 9.533,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "A",
+          "time": 9.8,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "jinx-aewa",
+      "name": "Jinx aewa",
+      "description": "Jinx: AA \u2192 E \u2192 W \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Jinx/Jinx aewa.mp4",
+        "duration": 11.9,
+        "fps": 60,
+        "comboStart": 2.8
+      },
+      "inputs": [
+        {
+          "key": "A",
+          "time": 2.8,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        },
+        {
+          "key": "E",
+          "time": 4.933,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 5.0,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "A",
+          "time": 5.833,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

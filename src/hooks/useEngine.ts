@@ -19,6 +19,10 @@ export function useEngine() {
   useEffect(() => {
     timingEngine.init({
       onHit: (hit: HitResult) => {
+        // First hit unpauses the video
+        if (hit.stepIndex === 0) {
+          timingEngine.play()
+        }
         engineStore.addHit(hit)
         engineStore.setCurrentStep(hit.stepIndex + 1)
         if (settings.gradeSoundsEnabled) {
@@ -47,11 +51,28 @@ export function useEngine() {
         engineStore.setUnstableRate(state.unstableRate)
       },
       onVideoTick: (currentTime) => {
-        engineStore.setVideoCurrentTime(currentTime)
+        const last = useEngineStore.getState().videoCurrentTime
+        if (Math.abs(currentTime - last) > 0.25) {
+          engineStore.setVideoCurrentTime(currentTime)
+        }
+      },
+      onInputDevice: (source) => {
+        const current = useEngineStore.getState().activeDevice
+        if (current !== source) {
+          useEngineStore.getState().setActiveDevice(source)
+        }
+      },
+      onReset: () => {
+        timingEngine.reset()
+        timingEngine.seekToComboStart()
+        timingEngine.pause()
+        engineStore.reset()
+        engineStore.setComboState('ready')
       },
     })
 
     timingEngine.setHotkeys(settings.hotkeys)
+    timingEngine.setGamepadMap(settings.gamepadMap)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
@@ -59,6 +80,11 @@ export function useEngine() {
   useEffect(() => {
     timingEngine.setHotkeys(settings.hotkeys)
   }, [settings.hotkeys])
+
+  // Update gamepad map when it changes
+  useEffect(() => {
+    timingEngine.setGamepadMap(settings.gamepadMap)
+  }, [settings.gamepadMap])
 
   // Set ping callback
   useEffect(() => {
@@ -80,8 +106,12 @@ export function useEngine() {
   const loadCombo = useCallback(() => {
     if (!selectedCombo) return
     engineStore.reset()
-    timingEngine.loadCombo(selectedCombo.inputs, settings.difficulty, settings.calibrationOffset)
+    timingEngine.loadCombo(selectedCombo.inputs, settings.difficulty, settings.calibrationOffset, selectedCombo.video.comboStart)
     timingEngine.start()
+    // Seek to combo start and pause — wait for first key press
+    timingEngine.seekToComboStart()
+    timingEngine.pause()
+    engineStore.setComboState('ready')
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedCombo, settings.difficulty, settings.calibrationOffset])
 

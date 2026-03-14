@@ -1,0 +1,335 @@
+{
+  "championId": "pyke",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "pyke-e-flash",
+      "name": "Pyke E  Flash",
+      "description": "Pyke: E \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Pyke/Pyke E  Flash.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 1.967
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.967,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 2.833,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "pyke-e-r",
+      "name": "Pyke E  R",
+      "description": "Pyke: E \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Pyke/Pyke E  R.mp4",
+        "duration": 8.0,
+        "fps": 60,
+        "comboStart": 1.7
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.7,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 2.4,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "pyke-e-w-flash",
+      "name": "Pyke E  W  Flash",
+      "description": "Pyke: E \u2192 W \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Pyke/Pyke E  W  Flash.mp4",
+        "duration": 9.0,
+        "fps": 60,
+        "comboStart": 1.7
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 1.7,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "W",
+          "time": 2.1,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 2.867,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "pyke-q-e",
+      "name": "Pyke Q  E",
+      "description": "Pyke: Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Pyke/Pyke Q  E.mp4",
+        "duration": 8.0,
+        "fps": 60,
+        "comboStart": 1.733
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 1.733,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.567,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "pyke-q-flash",
+      "name": "Pyke Q  Flash",
+      "description": "Pyke: Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Pyke/Pyke Q  Flash.mp4",
+        "duration": 7.0,
+        "fps": 60,
+        "comboStart": 2.0
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 2.0,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 3.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "pyke-q-reverse-e",
+      "name": "Pyke Q  Reverse E",
+      "description": "Pyke: W \u2192 Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Pyke/Pyke Q  Reverse E.mp4",
+        "duration": 9.0,
+        "fps": 60,
+        "comboStart": 1.733
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.733,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 2.867,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.433,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "pyke-w-e-flash-r",
+      "name": "Pyke W  E  Flash  R",
+      "description": "Pyke: ? \u2192 E \u2192 E \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Pyke/Pyke W  E  Flash  R.mp4",
+        "duration": 8.0,
+        "fps": 60,
+        "comboStart": 1.733
+      },
+      "inputs": [
+        {
+          "key": "1",
+          "time": 1.733,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "E",
+          "time": 3.033,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 3.167,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "R",
+          "time": 3.733,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "pyke-w-q-e",
+      "name": "Pyke W  Q  E",
+      "description": "Pyke: W \u2192 Q \u2192 E",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Pyke/Pyke W  Q  E.mp4",
+        "duration": 10.0,
+        "fps": 60,
+        "comboStart": 1.733
+      },
+      "inputs": [
+        {
+          "key": "W",
+          "time": 1.733,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "Q",
+          "time": 3.733,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "E",
+          "time": 4.6,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "pyke-ef-prowlers-claw-r",
+      "name": "Pyke ef  Prowlers Claw  r",
+      "description": "Pyke: E \u2192 E \u2192 ? \u2192 R",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Pyke/Pyke ef  Prowlers Claw  r.mp4",
+        "duration": 5.8,
+        "fps": 60,
+        "comboStart": 2.733
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 2.733,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "E",
+          "time": 3.2,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "1",
+          "time": 3.367,
+          "label": "?",
+          "window": 100,
+          "action": "item1"
+        },
+        {
+          "key": "R",
+          "time": 3.5,
+          "label": "R",
+          "window": 100,
+          "action": "spell4"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

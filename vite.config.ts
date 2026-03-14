@@ -10,6 +10,12 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  server: {
+    // Serve the local videos/ directory during development
+    fs: {
+      allow: ['.', './videos'],
+    },
+  },
   test: {
     globals: true,
     environment: 'jsdom',

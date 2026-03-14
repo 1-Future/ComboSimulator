@@ -1,0 +1,83 @@
+{
+  "championId": "singed",
+  "patch": "14.24",
+  "lastVerified": "2026-03-14",
+  "combos": [
+    {
+      "id": "singed-ea",
+      "name": "Singed ea",
+      "description": "Singed: E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Singed/Singed ea.mp4",
+        "duration": 6.3,
+        "fps": 60,
+        "comboStart": 3.767
+      },
+      "inputs": [
+        {
+          "key": "E",
+          "time": 3.767,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 4.133,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "singed-qwea",
+      "name": "Singed qwea",
+      "description": "Singed: Q \u2192 W \u2192 E \u2192 AA",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": {
+        "filename": "Singed/Singed qwea.mp4",
+        "duration": 10.3,
+        "fps": 60,
+        "comboStart": 3.167
+      },
+      "inputs": [
+        {
+          "key": "Q",
+          "time": 3.167,
+          "label": "Q",
+          "window": 100,
+          "action": "spell1"
+        },
+        {
+          "key": "W",
+          "time": 7.1,
+          "label": "W",
+          "window": 100,
+          "action": "spell2"
+        },
+        {
+          "key": "E",
+          "time": 8.1,
+          "label": "E",
+          "window": 100,
+          "action": "spell3"
+        },
+        {
+          "key": "A",
+          "time": 8.6,
+          "label": "AA",
+          "window": 100,
+          "action": "autoattack"
+        }
+      ],
+      "tips": []
+    }
+  ]
+}

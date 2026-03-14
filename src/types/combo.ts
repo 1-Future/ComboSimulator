@@ -10,6 +10,7 @@ export interface ComboVideo {
   filename: string
   duration: number
   fps: number
+  comboStart?: number
 }
 
 export type ComboDifficulty = 'beginner' | 'intermediate' | 'advanced' | 'expert'

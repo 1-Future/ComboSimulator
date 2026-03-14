@@ -21,8 +21,8 @@ export const VideoPlayer = forwardRef<HTMLVideoElement, VideoPlayerProps>(
         ref={ref}
         src={getVideoUrl(filename)}
         className="aspect-video w-full bg-black"
-        controls
-        preload="metadata"
+        preload="auto"
+        playsInline
         onLoadedMetadata={onLoadedMetadata}
       />
     )
