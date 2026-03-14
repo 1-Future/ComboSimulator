@@ -1,6 +1,12 @@
 import { useState, useEffect, useRef } from 'react'
 import { useSettingsStore } from '@/stores/settingsStore'
 import { GAMEPAD_BUTTON_NAMES } from '@/types/settings'
+import { MOUSE_DISPLAY_NAMES } from '@/engine/InputHandler'
+
+function formatKeyDisplay(key: string): string {
+  if (MOUSE_DISPLAY_NAMES[key]) return MOUSE_DISPLAY_NAMES[key]
+  return key.toUpperCase()
+}
 
 const ACTIONS = [
   { id: 'spell1', label: 'Spell 1' },
@@ -52,28 +58,57 @@ export function KeybindEditor() {
     setListening(action)
     setListeningGamepad(null)
     setTimeout(() => {
-      const handler = (e: KeyboardEvent) => {
+      function applyKey(newKey: string) {
+        const displaced = findConflict(action, newKey)
+        if (displaced) {
+          setHotkey(displaced, '')
+          setHotkey(action, newKey)
+          setConflict({ newAction: action, newKey, displacedAction: displaced })
+          setListening(displaced)
+          cleanup()
+          setTimeout(() => handleStartListening(displaced), 100)
+          return
+        }
+        setHotkey(action, newKey)
+        setConflict(null)
+        setListening(null)
+        cleanup()
+      }
+
+      const keyHandler = (e: KeyboardEvent) => {
         e.preventDefault()
         e.stopImmediatePropagation()
-        if (e.key.length === 1) {
-          const newKey = e.key.toLowerCase()
-          const displaced = findConflict(action, newKey)
-          if (displaced) {
-            setHotkey(displaced, '')
-            setHotkey(action, newKey)
-            setConflict({ newAction: action, newKey, displacedAction: displaced })
-            setListening(displaced)
-            document.removeEventListener('keydown', handler, true)
-            setTimeout(() => handleStartListening(displaced), 100)
-            return
-          }
-          setHotkey(action, newKey)
-          setConflict(null)
+        if (e.key === 'Escape') {
+          setListening(null)
+          cleanup()
+          return
         }
-        setListening(null)
-        document.removeEventListener('keydown', handler, true)
+        if (e.key.length === 1) {
+          applyKey(e.key.toLowerCase())
+        }
       }
-      document.addEventListener('keydown', handler, true)
+
+      const mouseHandler = (e: MouseEvent) => {
+        e.preventDefault()
+        e.stopImmediatePropagation()
+        const mouseNames: Record<number, string> = { 0: 'mouse1', 1: 'mouse3', 2: 'mouse2', 3: 'mouse4', 4: 'mouse5' }
+        const mouseKey = mouseNames[e.button]
+        if (mouseKey) {
+          applyKey(mouseKey)
+        }
+      }
+
+      function cleanup() {
+        document.removeEventListener('keydown', keyHandler, true)
+        document.removeEventListener('mousedown', mouseHandler, true)
+        document.removeEventListener('contextmenu', preventCtx, true)
+      }
+
+      const preventCtx = (e: Event) => { e.preventDefault(); e.stopImmediatePropagation() }
+
+      document.addEventListener('keydown', keyHandler, true)
+      document.addEventListener('mousedown', mouseHandler, true)
+      document.addEventListener('contextmenu', preventCtx, true)
     }, 100)
   }
 
@@ -177,7 +212,7 @@ export function KeybindEditor() {
                     : 'border-slate-600 bg-slate-800 text-white hover:border-slate-500'
               }`}
             >
-              {isKbListening ? '...' : isEmpty ? '—' : hotkeys[id]?.toUpperCase()}
+              {isKbListening ? '...' : isEmpty ? '—' : formatKeyDisplay(hotkeys[id] ?? '')}
             </button>
 
             {/* Gamepad */}

@@ -9,12 +9,30 @@ const GAMEPAD_SPECIAL: Record<number, string> = {
   9: 'reset',   // Start/Menu
 }
 
+// Mouse button names used as key identifiers
+export const MOUSE_BUTTON_NAMES: Record<number, string> = {
+  0: 'mouse1',  // Left click
+  1: 'mouse3',  // Middle click
+  2: 'mouse2',  // Right click
+  3: 'mouse4',  // Back
+  4: 'mouse5',  // Forward
+}
+
+export const MOUSE_DISPLAY_NAMES: Record<string, string> = {
+  mouse1: 'M1 (Left)',
+  mouse2: 'M2 (Right)',
+  mouse3: 'M3 (Middle)',
+  mouse4: 'M4 (Back)',
+  mouse5: 'M5 (Forward)',
+}
+
 export class InputHandler {
   private callback: KeyCallback | null = null
   private hotkeys: Hotkeys | null = null
   private gamepadMap: GamepadMap = {}
   private inverseMap: Map<string, string> = new Map()
   private boundHandler: ((e: KeyboardEvent) => void) | null = null
+  private boundMouseHandler: ((e: MouseEvent) => void) | null = null
   private gamepadRafId: number | null = null
   private gamepadButtonState: boolean[] = []
 
@@ -56,14 +74,40 @@ export class InputHandler {
     }
     document.addEventListener('keydown', this.boundHandler)
 
+    // Mouse button listener
+    this.boundMouseHandler = (e: MouseEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return
+      if (e.target instanceof HTMLButtonElement || e.target instanceof HTMLSelectElement) return
+      const mouseKey = MOUSE_BUTTON_NAMES[e.button]
+      if (mouseKey) {
+        e.preventDefault()
+        this.callback?.(mouseKey, performance.now(), 'keyboard')
+      }
+    }
+    document.addEventListener('mousedown', this.boundMouseHandler)
+    // Prevent context menu for right-click bindings
+    document.addEventListener('contextmenu', this.preventContextMenu)
+
     this.gamepadButtonState = []
     this.pollGamepad()
+  }
+
+  private preventContextMenu = (e: Event): void => {
+    // Only prevent if right-click is bound to an action
+    if (this.inverseMap.has('mouse2')) {
+      e.preventDefault()
+    }
   }
 
   stop(): void {
     if (this.boundHandler) {
       document.removeEventListener('keydown', this.boundHandler)
       this.boundHandler = null
+    }
+    if (this.boundMouseHandler) {
+      document.removeEventListener('mousedown', this.boundMouseHandler)
+      document.removeEventListener('contextmenu', this.preventContextMenu)
+      this.boundMouseHandler = null
     }
     if (this.gamepadRafId !== null) {
       cancelAnimationFrame(this.gamepadRafId)
