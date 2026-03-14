@@ -438,44 +438,48 @@ export function ComboPlayer() {
                   click to edit
                 </span>
               </div>
-              <div className="flex flex-wrap items-center gap-1.5">
+              <div className="flex flex-wrap items-center gap-3">
                 {selectedCombo.inputs.map((input, index) => {
                   const hit = hits.find((h) => h.stepIndex === index)
                   const isCurrent = index === currentStep && comboState === 'playing'
                   const isEditing = editingStep === index
                   const grade = hitGrades.get(index) as Grade | undefined
                   const color = grade ? GRADE_COLORS[grade] : undefined
+                  const borderColor = color ?? (isCurrent ? '#22d3ee' : isEditing ? '#f59e0b' : '#334155')
 
                   return (
-                    <div key={index} className="relative">
+                    <div key={index} className="relative flex flex-col items-center">
+                      {/* Approach ring — pulses on current step */}
+                      {isCurrent && (
+                        <div
+                          className="absolute inset-0 m-auto h-12 w-12 animate-ping rounded-full opacity-30"
+                          style={{ backgroundColor: '#22d3ee' }}
+                        />
+                      )}
                       <button
                         onClick={() => handleEditStep(isEditing ? null : index)}
-                        className={`flex flex-col items-center rounded-lg border px-3 py-2 transition-all ${
+                        className={`relative flex h-11 w-11 items-center justify-center rounded-full border-2 text-base font-mono font-bold transition-all ${
                           isCurrent
-                            ? 'scale-110 border-cyan-400 bg-cyan-950/50 shadow-lg shadow-cyan-500/20'
-                            : hit
-                              ? 'border-transparent'
-                              : isEditing
-                                ? 'border-amber-500 bg-amber-950/30'
-                                : 'border-slate-700 bg-slate-800/50 hover:border-slate-500'
+                            ? 'scale-110 shadow-lg shadow-cyan-500/30'
+                            : ''
                         }`}
-                        style={color ? { borderColor: color, backgroundColor: `${color}15` } : undefined}
+                        style={{
+                          borderColor,
+                          color: color ?? (isCurrent ? '#22d3ee' : '#94a3b8'),
+                          backgroundColor: color ? `${color}15` : isCurrent ? 'rgba(8,145,178,0.15)' : isEditing ? 'rgba(245,158,11,0.1)' : 'rgba(30,41,59,0.8)',
+                        }}
                       >
-                        <span
-                          className="text-lg font-mono font-bold"
-                          style={{ color: color ?? (isCurrent ? '#22d3ee' : '#94a3b8') }}
-                        >
-                          {getKeyboardKey(input)}
-                        </span>
-                        {hit && (
-                          <span className="mt-0.5 text-[10px] font-medium" style={{ color }}>
-                            {hit.grade} ({hit.offset > 0 ? '+' : ''}{hit.offset.toFixed(0)}ms)
-                          </span>
-                        )}
-                        {!hit && (
-                          <span className="mt-0.5 text-[10px] text-slate-600">{input.label}</span>
-                        )}
+                        {getKeyboardKey(input)}
                       </button>
+                      {/* Grade label below */}
+                      {hit && (
+                        <span className="mt-1 text-[9px] font-medium" style={{ color }}>
+                          {hit.grade}
+                        </span>
+                      )}
+                      {!hit && !isCurrent && (
+                        <span className="mt-1 text-[9px] text-slate-600">{input.label}</span>
+                      )}
 
                       {/* Edit dropdown */}
                       {isEditing && (
@@ -523,36 +527,35 @@ export function ComboPlayer() {
                 </span>
                 {activeDevice === 'gamepad' && <span className="h-1.5 w-1.5 rounded-full bg-cyan-400" />}
               </div>
-              <div className="flex flex-wrap items-center gap-1.5">
+              <div className="flex flex-wrap items-center gap-3">
                 {selectedCombo.inputs.map((input, index) => {
                   const hit = hits.find((h) => h.stepIndex === index)
                   const isCurrent = index === currentStep && comboState === 'playing'
                   const grade = hitGrades.get(index) as Grade | undefined
                   const color = grade ? GRADE_COLORS[grade] : undefined
                   const gamepadLabel = getGamepadButton(input)
+                  const borderColor = color ?? (isCurrent ? '#22d3ee' : '#334155')
 
                   return (
-                    <div key={index} className="relative">
-                      <div
-                        className={`flex flex-col items-center rounded-lg border px-3 py-2 ${
-                          isCurrent
-                            ? 'border-cyan-400 bg-cyan-950/50'
-                            : hit
-                              ? 'border-transparent'
-                              : 'border-slate-700 bg-slate-800/50'
-                        }`}
-                        style={color ? { borderColor: color, backgroundColor: `${color}15` } : undefined}
-                      >
-                        <span
-                          className="text-sm font-bold"
-                          style={{ color: color ?? (isCurrent ? '#22d3ee' : '#64748b') }}
-                        >
-                          {gamepadLabel}
-                        </span>
-                      </div>
-                      {index < selectedCombo.inputs.length - 1 && (
-                        <span className="absolute -right-2.5 top-1/2 -translate-y-1/2 text-[10px] text-slate-600">›</span>
+                    <div key={index} className="relative flex flex-col items-center">
+                      {isCurrent && (
+                        <div
+                          className="absolute inset-0 m-auto h-10 w-10 animate-ping rounded-full opacity-30"
+                          style={{ backgroundColor: '#22d3ee' }}
+                        />
                       )}
+                      <div
+                        className={`flex h-10 w-10 items-center justify-center rounded-full border-2 text-xs font-bold transition-all ${
+                          isCurrent ? 'scale-110' : ''
+                        }`}
+                        style={{
+                          borderColor,
+                          color: color ?? (isCurrent ? '#22d3ee' : '#64748b'),
+                          backgroundColor: color ? `${color}15` : isCurrent ? 'rgba(8,145,178,0.15)' : 'rgba(30,41,59,0.8)',
+                        }}
+                      >
+                        {gamepadLabel}
+                      </div>
                     </div>
                   )
                 })}
