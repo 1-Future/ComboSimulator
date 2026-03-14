@@ -1,4 +1,4 @@
-import { useRef, useEffect, useMemo, useCallback } from 'react'
+import { useRef, useEffect, useMemo } from 'react'
 import { useEngineStore } from '@/stores/engineStore'
 import { useSettingsStore } from '@/stores/settingsStore'
 import { useDisplayKey } from '@/hooks/useDisplayKey'
@@ -11,6 +11,9 @@ interface TimingOverlayProps {
   inputs: ComboInput[]
 }
 
+// How many seconds of the combo are visible at once
+const WINDOW_SECONDS = 5
+
 export function TimingOverlay({ inputs }: TimingOverlayProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
@@ -22,49 +25,33 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
   const comboState = useEngineStore((s) => s.comboState)
   const speed = useSettingsStore((s) => s.playbackSpeed)
 
-  const { rangeStart, rangeDuration } = useMemo(() => {
-    if (inputs.length === 0) return { rangeStart: 0, rangeDuration: 1 }
+  // Full combo time range (for the mini progress bar)
+  const { comboStart, comboEnd } = useMemo(() => {
+    if (inputs.length === 0) return { comboStart: 0, comboEnd: 1 }
     const times = inputs.map((i) => i.time)
-    const minTime = Math.min(...times)
-    const maxTime = Math.max(...times)
-    const span = maxTime - minTime
-    const padding = Math.max(span * 0.15, 0.3)
-    const rs = Math.max(0, minTime - padding)
-    const re = Math.min(videoDuration || maxTime + padding, maxTime + padding)
-    return { rangeStart: rs, rangeDuration: re - rs }
-  }, [inputs, videoDuration])
-
-  const timeToFraction = useCallback(
-    (time: number) => {
-      if (rangeDuration <= 0) return 0
-      return (time - rangeStart) / rangeDuration
-    },
-    [rangeStart, rangeDuration],
-  )
+    return { comboStart: Math.min(...times), comboEnd: Math.max(...times) }
+  }, [inputs])
 
   // Stagger rows for overlapping labels
   const labelRows = useMemo(() => {
-    const fracs = inputs.map((input) => timeToFraction(input.time))
+    if (inputs.length === 0) return []
     const rows: number[] = new Array(inputs.length).fill(0)
-    const minGap = 0.04
-
-    for (let i = 1; i < fracs.length; i++) {
-      const prev = fracs[i - 1]!
-      const curr = fracs[i]!
+    // Use time gaps to determine stagger
+    for (let i = 1; i < inputs.length; i++) {
+      const gap = inputs[i]!.time - inputs[i - 1]!.time
       const prevRow = rows[i - 1]!
-      if (Math.abs(curr - prev) < minGap) {
+      if (gap < 0.4) {
         rows[i] = (prevRow + 1) % 3
       } else {
         rows[i] = 0
       }
     }
     return rows
-  }, [inputs, timeToFraction])
+  }, [inputs])
 
-  // Pre-compute display keys (can't call hook inside rAF)
+  // Pre-compute display keys
   const displayKeys = useMemo(() => inputs.map((i) => getDisplayKey(i)), [inputs, getDisplayKey])
 
-  // All rendering on canvas
   useEffect(() => {
     const canvas = canvasRef.current
     const container = containerRef.current
@@ -73,9 +60,8 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
     const ctx = canvas.getContext('2d')
     if (!ctx) return
 
-    const hitGradesMap = new Map(hits.map((h) => [h.stepIndex, h.grade as Grade]))
     const noteRadius = 16
-    const rowYOffsets = [0.78, 0.48, 0.18] // fraction from top for each stagger row
+    const rowYOffsets = [0.75, 0.45, 0.18]
 
     function tick() {
       if (!ctx || !canvas || !container) return
@@ -93,33 +79,56 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
 
       ctx.clearRect(0, 0, w, h)
 
-      // Draw playhead
       const videoTime = timingEngine.getVideoCurrentTime()
-      const playheadX = timeToFraction(videoTime) * w
+      const engineState = timingEngine.getState()
+      const now = performance.now()
+      const hitGradesMap = new Map(hits.map((ht) => [ht.stepIndex, ht.grade as Grade]))
+
+      // Sliding window: show WINDOW_SECONDS centered slightly ahead of current time
+      // 30% of the window is behind (past), 70% is ahead (future)
+      const windowSize = WINDOW_SECONDS / speed
+      const windowStart = videoTime - windowSize * 0.3
+      const windowEnd = videoTime + windowSize * 0.7
+
+      // Convert time to x position within the window
+      function timeToX(t: number): number {
+        return ((t - windowStart) / (windowEnd - windowStart)) * w
+      }
+
+      // Draw "consumed" background — dark overlay on the left (past)
+      const nowX = timeToX(videoTime)
+      ctx.fillStyle = 'rgba(0,0,0,0.3)'
+      ctx.fillRect(0, 0, nowX, h)
+
+      // Draw playhead
       ctx.beginPath()
-      ctx.moveTo(playheadX, 0)
-      ctx.lineTo(playheadX, h)
+      ctx.moveTo(nowX, 0)
+      ctx.lineTo(nowX, h)
       ctx.strokeStyle = '#facc15'
       ctx.lineWidth = 2
       ctx.stroke()
 
-      const engineState = timingEngine.getState()
-      const now = performance.now()
-
-      // Draw each note
+      // Draw each note (only if within visible window)
       for (let i = 0; i < inputs.length; i++) {
         const input = inputs[i]
         if (!input) continue
 
-        const frac = timeToFraction(input.time)
-        const cx = frac * w
+        // Skip notes outside visible window
+        if (input.time < windowStart - 1 || input.time > windowEnd + 1) continue
+
+        const cx = timeToX(input.time)
         const row = labelRows[i] ?? 0
-        const cy = (rowYOffsets[row] ?? 0.78) * h
+        const cy = (rowYOffsets[row] ?? 0.75) * h
         const grade = hitGradesMap.get(i)
         const color = grade ? GRADE_COLORS[grade] : '#94a3b8'
         const isCurrentStep = i === engineState.currentStep
         const isHit = !!grade
+        const isPast = input.time < videoTime
         const key = displayKeys[i] ?? '?'
+
+        // Fade past notes
+        const alpha = isPast && isHit ? 0.4 : isPast && !isHit ? 0.2 : 1
+        ctx.globalAlpha = alpha
 
         // Vertical guide line
         ctx.beginPath()
@@ -127,20 +136,18 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
         ctx.lineTo(cx, h)
         ctx.strokeStyle = color
         ctx.lineWidth = 1
-        ctx.globalAlpha = 0.1
+        ctx.globalAlpha = alpha * 0.1
         ctx.stroke()
-        ctx.globalAlpha = 1
+        ctx.globalAlpha = alpha
 
-        // Approach ring — only while video is playing, driven by video time
+        // Approach ring — only while playing, for upcoming steps
         if (!isHit && comboState === 'playing' && i >= engineState.currentStep) {
-          const approachWindow = 1.2 // seconds before the note to start showing ring
+          const approachWindow = 1.2
           const timeUntilNote = input.time - videoTime
           const progress = 1 - Math.max(0, Math.min(1, timeUntilNote / approachWindow))
 
           if (progress > 0) {
             const outerR = noteRadius + (noteRadius * 2.5) * (1 - progress)
-
-            // Ring color based on proximity
             let ringColor: string = GRADE_COLORS.Good
             if (progress > 0.85) ringColor = GRADE_COLORS.Great
             if (progress > 0.93) ringColor = GRADE_COLORS.Perfect
@@ -149,15 +156,15 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
             ctx.arc(cx, cy, outerR, 0, Math.PI * 2)
             ctx.strokeStyle = ringColor
             ctx.lineWidth = 2.5
-            ctx.globalAlpha = 0.3 + progress * 0.7
+            ctx.globalAlpha = alpha * (0.3 + progress * 0.7)
             ctx.stroke()
-            ctx.globalAlpha = 1
+            ctx.globalAlpha = alpha
           }
         }
 
-        // Hit flash — brief glow on the circle, no outward ring
+        // Hit glow
         if (isHit) {
-          const hitData = hits.find((h) => h.stepIndex === i)
+          const hitData = hits.find((ht) => ht.stepIndex === i)
           if (hitData && now - hitData.actualTime < 200) {
             const flashProgress = (now - hitData.actualTime) / 200
             ctx.beginPath()
@@ -165,7 +172,7 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
             ctx.fillStyle = color
             ctx.globalAlpha = 0.4 * (1 - flashProgress)
             ctx.fill()
-            ctx.globalAlpha = 1
+            ctx.globalAlpha = alpha
           }
         }
 
@@ -173,13 +180,11 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
         const scale = isCurrentStep ? 1.2 : 1
         const r = noteRadius * scale
 
-        // Fill
         ctx.beginPath()
         ctx.arc(cx, cy, r, 0, Math.PI * 2)
         ctx.fillStyle = isHit ? `${color}33` : isCurrentStep ? 'rgba(8,145,178,0.2)' : 'rgba(10,20,40,0.9)'
         ctx.fill()
 
-        // Border
         ctx.beginPath()
         ctx.arc(cx, cy, r, 0, Math.PI * 2)
         ctx.strokeStyle = isCurrentStep ? '#22d3ee' : color
@@ -192,6 +197,30 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
         ctx.textAlign = 'center'
         ctx.textBaseline = 'middle'
         ctx.fillText(key, cx, cy)
+
+        ctx.globalAlpha = 1
+      }
+
+      // Mini progress bar at the bottom — shows position in the full combo
+      const progressBarH = 3
+      const progressBarY = h - progressBarH
+      ctx.fillStyle = 'rgba(51,65,85,0.5)'
+      ctx.fillRect(0, progressBarY, w, progressBarH)
+
+      if (comboEnd > comboStart) {
+        const progressFrac = Math.max(0, Math.min(1, (videoTime - comboStart) / (comboEnd - comboStart)))
+        ctx.fillStyle = '#22d3ee'
+        ctx.fillRect(0, progressBarY, w * progressFrac, progressBarH)
+
+        // Dot markers for each note on the progress bar
+        for (let i = 0; i < inputs.length; i++) {
+          const input = inputs[i]
+          if (!input) continue
+          const dotX = ((input.time - comboStart) / (comboEnd - comboStart)) * w
+          const grade = hitGradesMap.get(i)
+          ctx.fillStyle = grade ? GRADE_COLORS[grade] : '#475569'
+          ctx.fillRect(dotX - 1, progressBarY, 2, progressBarH)
+        }
       }
 
       rafRef.current = requestAnimationFrame(tick)
@@ -199,14 +228,11 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
 
     rafRef.current = requestAnimationFrame(tick)
     return () => cancelAnimationFrame(rafRef.current)
-  }, [rangeStart, rangeDuration, inputs, comboState, currentStep, hits, speed, timeToFraction, labelRows, displayKeys])
+  }, [inputs, comboState, currentStep, hits, speed, comboStart, comboEnd, labelRows, displayKeys, videoDuration])
 
   return (
     <div ref={containerRef} className="relative h-28 w-full rounded-b-lg bg-slate-800/90">
-      <canvas
-        ref={canvasRef}
-        className="h-full w-full"
-      />
+      <canvas ref={canvasRef} className="h-full w-full" />
     </div>
   )
 }
