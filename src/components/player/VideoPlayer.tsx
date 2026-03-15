@@ -29,7 +29,7 @@ export const VideoPlayer = forwardRef<HTMLVideoElement, VideoPlayerProps>(
     }
 
     return (
-      <div className="relative">
+      <div className={fill ? 'relative h-full w-full' : 'relative'}>
         <video
           ref={ref}
           src={getVideoUrl(filename)}
