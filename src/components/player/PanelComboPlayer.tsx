@@ -182,9 +182,21 @@ export function PanelComboPlayer() {
     )
   }
 
-  // Default panel positions (relative to container)
+  // Default panel positions — tiled, no overlap
   const w = typeof window !== 'undefined' ? window.innerWidth : 1280
-  const h = typeof window !== 'undefined' ? window.innerHeight - 60 : 700 // minus header
+  const h = typeof window !== 'undefined' ? window.innerHeight - 56 : 700
+
+  // Layout math — everything tiles perfectly
+  const sidebarW = Math.min(350, w * 0.28)
+  const videoW = w - sidebarW
+  const timelineH = 140
+  const earlyLateH = 30
+  const taskbarH = 24
+  const bottomH = timelineH + earlyLateH + taskbarH
+  const topH = h - bottomH
+  const controlsH = 60
+  const keysH = Math.floor((topH - controlsH) * 0.5)
+  const statsH = topH - controlsH - keysH
 
   return (
     <div className="relative" style={{ height: `calc(100vh - 56px)` }}>
@@ -199,7 +211,7 @@ export function PanelComboPlayer() {
           {
             id: 'video',
             title: 'Video',
-            defaultLayout: { x: 0, y: 0, w: w * 0.7, h: h * 0.65, visible: true },
+            defaultLayout: { x: 0, y: 0, w: videoW, h: topH, visible: true },
             minW: 320, minH: 200,
             content: (
               <div className="relative h-full">
@@ -224,7 +236,7 @@ export function PanelComboPlayer() {
           {
             id: 'controls',
             title: 'Controls',
-            defaultLayout: { x: w * 0.7, y: 0, w: w * 0.3, h: 70, visible: true },
+            defaultLayout: { x: videoW, y: 0, w: sidebarW, h: controlsH, visible: true },
             minW: 200, minH: 50,
             content: (
               <div className="flex items-center gap-2 p-1">
@@ -236,28 +248,28 @@ export function PanelComboPlayer() {
           {
             id: 'keys',
             title: 'Keys',
-            defaultLayout: { x: w * 0.7, y: 70, w: w * 0.3, h: h * 0.25, visible: true },
+            defaultLayout: { x: videoW, y: controlsH, w: sidebarW, h: keysH, visible: true },
             minW: 200, minH: 60,
             content: <ComboSteps inputs={selectedCombo.inputs} onReassign={handleReassign} />,
           },
           {
             id: 'stats',
             title: 'Stats',
-            defaultLayout: { x: w * 0.7, y: 70 + h * 0.25, w: w * 0.3, h: h * 0.4 - 70, visible: true },
+            defaultLayout: { x: videoW, y: controlsH + keysH, w: sidebarW, h: statsH, visible: true },
             minW: 200, minH: 100,
             content: <StatsPanel />,
           },
           {
             id: 'timeline',
             title: 'Timeline',
-            defaultLayout: { x: 0, y: h * 0.65, w: w, h: h * 0.25, visible: true },
+            defaultLayout: { x: 0, y: topH, w: w, h: timelineH, visible: true },
             minW: 300, minH: 80,
             content: <TimingOverlay inputs={selectedCombo.inputs} />,
           },
           {
             id: 'earlylate',
             title: 'Early/Late',
-            defaultLayout: { x: 0, y: h * 0.9, w: w, h: 30, visible: true },
+            defaultLayout: { x: 0, y: topH + timelineH, w: w, h: earlyLateH, visible: true },
             minW: 200, minH: 25,
             content: <EarlyLateIndicator />,
           },
