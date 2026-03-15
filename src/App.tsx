@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, useNavigate, useParams } from 'react-rout
 import { useEffect, useRef } from 'react'
 import { AppShell } from '@/components/layout/AppShell'
 import { ChampionBrowser } from '@/components/champion/ChampionBrowser'
-import { ComboPlayer } from '@/components/player/ComboPlayer'
+import { PanelComboPlayer } from '@/components/player/PanelComboPlayer'
 import { ComboEditor } from '@/components/editor/ComboEditor'
 import { useComboStore } from '@/stores/comboStore'
 import { initAudio } from '@/lib/audio'
@@ -66,7 +66,7 @@ function PlayPage() {
     loadFromUrl()
   }, [championId, comboId])
 
-  return <ComboPlayer />
+  return <PanelComboPlayer />
 }
 
 export default function App() {
