@@ -339,18 +339,20 @@ export function PanelManagerProvider({ panels, children }: PanelManagerProviderP
         {children}
 
         {/* Toolbar */}
-        <div className="absolute bottom-0 left-0 right-0 z-40 flex items-center justify-between border-t border-white/5 bg-slate-900/90 px-2 py-0.5 backdrop-blur-sm">
-          <div className="flex items-center gap-1">
+        <div className="absolute bottom-0 left-0 right-0 z-40 flex items-center justify-between border-t border-white/10 bg-slate-900/95 px-3 py-1 backdrop-blur-sm">
+          {/* Panel toggles */}
+          <div className="flex items-center gap-1.5">
             {panels.map((panel) => {
               const layout = state.layouts[panel.id]
+              const isVisible = layout?.visible
               return (
                 <button
                   key={panel.id}
                   onClick={() => togglePanel(panel.id)}
-                  className={`rounded px-1.5 py-0.5 text-[9px] font-medium transition-colors ${
-                    layout?.visible
-                      ? 'bg-cyan-600/20 text-cyan-400'
-                      : 'text-slate-600 hover:text-slate-400'
+                  className={`rounded-md px-2.5 py-1 text-xs font-medium transition-colors ${
+                    isVisible
+                      ? 'bg-slate-700/80 text-slate-200'
+                      : 'bg-slate-800/50 text-slate-500 hover:text-slate-300'
                   }`}
                 >
                   {panel.title}
@@ -358,22 +360,40 @@ export function PanelManagerProvider({ panels, children }: PanelManagerProviderP
               )
             })}
           </div>
-          <div className="flex items-center gap-1">
-            <button
-              onClick={resetLayout}
-              className="rounded px-1.5 py-0.5 text-[9px] text-slate-600 hover:text-slate-400"
-            >
-              Reset
-            </button>
+
+          {/* Actions */}
+          <div className="flex items-center gap-2">
+            {state.unlocked && (
+              <button
+                onClick={resetLayout}
+                className="rounded-md px-2.5 py-1 text-xs text-slate-400 hover:bg-slate-700 hover:text-white"
+              >
+                Reset Layout
+              </button>
+            )}
             <button
               onClick={toggleLock}
-              className={`rounded px-1.5 py-0.5 text-[9px] font-medium ${
+              className={`flex items-center gap-1.5 rounded-md px-2.5 py-1 text-xs font-medium transition-colors ${
                 state.unlocked
-                  ? 'bg-cyan-600/30 text-cyan-400'
-                  : 'text-slate-600 hover:text-slate-400'
+                  ? 'bg-cyan-600 text-white'
+                  : 'bg-slate-700/50 text-slate-300 hover:bg-slate-700'
               }`}
             >
-              {state.unlocked ? 'Lock' : 'Unlock'}
+              {state.unlocked ? (
+                <>
+                  <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z" />
+                  </svg>
+                  Lock Layout
+                </>
+              ) : (
+                <>
+                  <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  </svg>
+                  Edit Layout
+                </>
+              )}
             </button>
           </div>
         </div>
