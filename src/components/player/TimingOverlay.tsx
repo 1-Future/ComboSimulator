@@ -140,13 +140,15 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
         ctx.stroke()
         ctx.globalAlpha = alpha
 
-        // Approach ring — collapses over 0.8s before the note should be hit
+        // Approach ring — collapses to match the drawn circle size
         if (!isHit && comboState === 'playing' && i >= engineState.currentStep) {
           const timeUntilNote = input.time - videoTime
           const progress = 1 - Math.max(0, Math.min(1, timeUntilNote / 0.8))
+          // Target radius matches the actual drawn note (scaled for current step)
+          const targetR = isCurrentStep ? noteRadius * 1.2 : noteRadius
 
           if (progress > 0) {
-            const outerR = noteRadius + (noteRadius * 2.5) * (1 - progress)
+            const outerR = targetR + (noteRadius * 2.5) * (1 - progress)
             let ringColor: string = GRADE_COLORS.Good
             if (progress > 0.85) ringColor = GRADE_COLORS.Great
             if (progress > 0.93) ringColor = GRADE_COLORS.Perfect
