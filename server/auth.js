@@ -11,7 +11,11 @@ const GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID ?? 'Ov23liWXZMIL7hJLSeB6'
 const GITHUB_CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET ?? '56a8c1496d12540cee1777d5a7fc33663abdeaba'
 const JWT_SECRET = process.env.JWT_SECRET ?? 'combosim-jwt-secret-change-in-production'
 const ADMINS = ['1-Future']
-const BASE_URL = process.env.BASE_URL ?? 'http://localhost:3000'
+function getBaseUrl(req) {
+  const host = req.headers.host ?? 'localhost:3000'
+  const proto = req.headers['x-forwarded-proto'] ?? (host.includes('localhost') ? 'http' : 'https')
+  return `${proto}://${host}`
+}
 
 async function getUsers() {
   try {
@@ -32,12 +36,13 @@ function getRole(username) {
 
 export async function handleAuth(req, res, url) {
   const pathname = url.pathname
+  const baseUrl = getBaseUrl(req)
 
   // GET /auth/github — redirect to GitHub
   if (pathname === '/auth/github') {
     const params = new URLSearchParams({
       client_id: GITHUB_CLIENT_ID,
-      redirect_uri: `${BASE_URL}/auth/callback`,
+      redirect_uri: `${baseUrl}/auth/callback`,
       scope: 'read:user',
     })
     res.writeHead(302, { Location: `https://github.com/login/oauth/authorize?${params}` })
@@ -99,7 +104,7 @@ export async function handleAuth(req, res, url) {
       )
 
       // Redirect to app with token
-      res.writeHead(302, { Location: `/?token=${token}` })
+      res.writeHead(302, { Location: `${baseUrl}/?token=${token}` })
       res.end()
     } catch (err) {
       console.error('Auth error:', err)
