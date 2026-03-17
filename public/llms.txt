@@ -1,0 +1,38 @@
+# ComboSim — combosim.com
+
+> A rhythm-game-style combo trainer for video games. Practice champion combos by pressing keys in time with video demonstrations.
+
+## What this site does
+ComboSim lets players practice League of Legends champion combos with timing-graded key presses synced to video. Players select a champion, choose a combo, watch the demonstration video, and press their keyboard/mouse/controller keys at the correct timing. Each key press is graded Perfect, Great, Good, or Miss based on millisecond accuracy.
+
+## Key facts
+- 150 League of Legends champions
+- 794 combo videos with auto-detected timing data
+- Keyboard, mouse (M1-M5), and Xbox controller support
+- All inputs are fully rebindable
+- Three difficulty modes: Easy, Normal, Strict
+- Speed modifier: 0.5x, 0.75x, 1.0x playback
+- Mobile tap mode: tap anywhere to the rhythm
+- Free, open source (MIT), no account required
+- GitHub: github.com/1-Future/ComboSimulator
+
+## API
+- GET /data/champions.json — all champions with metadata
+- GET /data/combos/{championId}.json — combo timing data for a champion
+- GET /.well-known/ai.json — machine-readable site manifest
+- GET /api/docs — developer documentation
+
+## URL scheme
+- / — champion browser
+- /play/{championId}/{comboId} — combo player
+- /editor — combo editor (coming soon)
+
+## Scoring thresholds (Normal mode)
+- Perfect: within 16ms
+- Great: within 40ms
+- Good: within 80ms
+- Miss: beyond 80ms
+
+## How to link to a specific combo
+https://combosim.com/play/{championId}/{comboId}
+Example: https://combosim.com/play/yasuo/yasuo-qqeqaeqraq
