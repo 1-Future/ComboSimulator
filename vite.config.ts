@@ -11,9 +11,11 @@ export default defineConfig({
     },
   },
   server: {
-    // Serve the local videos/ directory during development
     fs: {
       allow: ['.', './videos'],
+    },
+    proxy: {
+      '/auth': 'http://localhost:3000',
     },
   },
   test: {

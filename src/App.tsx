@@ -72,6 +72,10 @@ function PlayPage() {
 export default function App() {
   useEffect(() => {
     initAudio()
+    // Check auth on mount (handles OAuth redirect token)
+    import('@/stores/authStore').then(({ useAuthStore }) => {
+      useAuthStore.getState().checkAuth()
+    })
   }, [])
 
   return (

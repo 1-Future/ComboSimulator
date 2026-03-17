@@ -10,6 +10,7 @@ import { createReadStream } from 'node:fs'
 import { readFile, stat } from 'node:fs/promises'
 import { join, extname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { handleAuth } from './server/auth.js'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 const PORT = process.env.PORT ?? 3000
@@ -82,6 +83,11 @@ async function serveFile(req, res, filePath, cacheControl = 'public, max-age=360
 const server = createServer(async (req, res) => {
   const url = new URL(req.url ?? '/', `http://localhost:${PORT}`)
   let pathname = decodeURIComponent(url.pathname)
+
+  // Auth routes
+  if (pathname.startsWith('/auth/')) {
+    if (await handleAuth(req, res, url)) return
+  }
 
   // Videos: /videos/Champion/file.mp4
   if (pathname.startsWith('/videos/')) {

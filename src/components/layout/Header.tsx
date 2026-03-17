@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { SettingsModal } from '@/components/settings/SettingsModal'
+import { UserMenu } from './UserMenu'
 
 export function Header() {
   const [settingsOpen, setSettingsOpen] = useState(false)
@@ -49,6 +50,7 @@ export function Header() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
             </button>
+            <UserMenu />
           </nav>
         </div>
       </header>

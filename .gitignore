@@ -30,6 +30,9 @@ Thumbs.db
 .env.local
 *.local
 
+# Auth
+users.json
+
 # Videos (hosted on R2, not in Git)
 videos/
 !videos/.gitkeep
