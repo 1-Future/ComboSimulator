@@ -140,12 +140,10 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
         ctx.stroke()
         ctx.globalAlpha = alpha
 
-        // Approach ring — only while playing, for upcoming steps
-        // Ring starts collapsing when note enters the visible window (70% of WINDOW_SECONDS ahead)
+        // Approach ring — collapses over 0.8s before the note should be hit
         if (!isHit && comboState === 'playing' && i >= engineState.currentStep) {
-          const approachWindow = (WINDOW_SECONDS / speed) * 0.7 // match the visible future window
           const timeUntilNote = input.time - videoTime
-          const progress = 1 - Math.max(0, Math.min(1, timeUntilNote / approachWindow))
+          const progress = 1 - Math.max(0, Math.min(1, timeUntilNote / 0.8))
 
           if (progress > 0) {
             const outerR = noteRadius + (noteRadius * 2.5) * (1 - progress)
