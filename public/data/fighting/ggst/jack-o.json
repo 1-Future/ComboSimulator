@@ -1,0 +1,368 @@
+{
+  "characterId": "jack-o",
+  "game": "ggst",
+  "gameName": "Guilty Gear -Strive-",
+  "name": "Jack-O",
+  "combos": [
+    {
+      "id": "iad-j-s-or-j-h-2k-2d",
+      "name": "(IAD j.S or j.H) > 2K > 2D",
+      "notation": "(IAD j.S or j.H) > 2K > 2D",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2K",
+          "time": 0.0,
+          "label": "2K",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.1,
+          "label": "2D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "236k",
+      "name": "... > 236K",
+      "notation": "... > 236K",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "236K",
+          "time": 0.217,
+          "label": "236K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 5,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "5K": {
+      "input": "5K",
+      "startup": 7,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "c.S": {
+      "input": "c.S",
+      "startup": 7,
+      "on_hit": 4,
+      "raw_on_hit": "+4"
+    },
+    "f.S": {
+      "input": "f.S",
+      "startup": 11,
+      "on_hit": -6,
+      "raw_on_hit": "-6"
+    },
+    "5H": {
+      "input": "5H",
+      "startup": 10,
+      "on_hit": 28,
+      "raw_on_hit": "KD +28"
+    },
+    "2P": {
+      "input": "2P",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2K": {
+      "input": "2K",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "+0"
+    },
+    "2S": {
+      "input": "2S",
+      "startup": 9,
+      "on_hit": -12,
+      "raw_on_hit": "-12"
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 15,
+      "on_hit": 37,
+      "raw_on_hit": "KD +37"
+    },
+    "j.P": {
+      "input": "j.P",
+      "startup": 6,
+      "on_hit": 4,
+      "raw_on_hit": "+4 (IAD)"
+    },
+    "j.K": {
+      "input": "j.K",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.S": {
+      "input": "j.S",
+      "startup": 11,
+      "on_hit": 6,
+      "raw_on_hit": "+6 (IAD)"
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 11,
+      "on_hit": 8,
+      "raw_on_hit": "+8 (IAD)"
+    },
+    "j.D": {
+      "input": "j.D",
+      "startup": 21,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 10,
+      "on_hit": 23,
+      "raw_on_hit": "KD +23"
+    },
+    "6H": {
+      "input": "6H",
+      "startup": 8,
+      "on_hit": 28,
+      "raw_on_hit": "KD +28/-3"
+    },
+    "2D": {
+      "input": "2D",
+      "startup": 10,
+      "on_hit": 41,
+      "raw_on_hit": "HKD +41"
+    },
+    "5D": {
+      "input": "5D",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5[D]": {
+      "input": "5[D]",
+      "startup": 28,
+      "on_hit": 36,
+      "raw_on_hit": "KD +36"
+    },
+    "236P": {
+      "input": "236P",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236[P]": {
+      "input": "236[P]",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2P (near Servant)": {
+      "input": "2P (near Servant)",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "6P/6K/6S/6H/6D while holding Servant": {
+      "input": "6P/6K/6S/6H/6D while holding Servant",
+      "startup": 12,
+      "on_hit": 8,
+      "raw_on_hit": "+8"
+    },
+    "D while holding Servant": {
+      "input": "D while holding Servant",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214P": {
+      "input": "214P",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214K": {
+      "input": "214K",
+      "startup": 12,
+      "on_hit": 62,
+      "raw_on_hit": "KD +62"
+    },
+    "K while holding Servant": {
+      "input": "K while holding Servant",
+      "startup": 12,
+      "on_hit": 50,
+      "raw_on_hit": "KD +50"
+    },
+    "214S": {
+      "input": "214S",
+      "startup": 4,
+      "on_hit": 48,
+      "raw_on_hit": "KD +48"
+    },
+    "S while holding Servant": {
+      "input": "S while holding Servant",
+      "startup": 4,
+      "on_hit": 54,
+      "raw_on_hit": "KD +54"
+    },
+    "214H": {
+      "input": "214H",
+      "startup": 3,
+      "on_hit": 205,
+      "raw_on_hit": "HKD +205"
+    },
+    "236K": {
+      "input": "236K",
+      "startup": 15,
+      "on_hit": 22,
+      "raw_on_hit": "KD +22"
+    },
+    "j.236K": {
+      "input": "j.236K",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "Bounced Servant": {
+      "input": "Bounced Servant",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Launched Servant": {
+      "input": "Launched Servant",
+      "startup": 6,
+      "on_hit": -3,
+      "raw_on_hit": "-3"
+    },
+    "632146P": {
+      "input": "632146P",
+      "startup": 10,
+      "on_hit": 59,
+      "raw_on_hit": "HKD +59"
+    },
+    "236236S": {
+      "input": "236236S",
+      "startup": 3,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236236H": {
+      "input": "236236H",
+      "startup": 3,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 2,
+      "on_hit": 60,
+      "raw_on_hit": "HKD +60"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 2,
+      "on_hit": 48,
+      "raw_on_hit": "HKD +48 (IAD)"
+    },
+    "Wild Assault": {
+      "input": "Wild Assault",
+      "startup": 20,
+      "on_hit": 12,
+      "raw_on_hit": "Stagger +12"
+    },
+    "Charged Wild Assault": {
+      "input": "Charged Wild Assault",
+      "startup": 32,
+      "on_hit": 71,
+      "raw_on_hit": "HKD +71"
+    },
+    "Finish Blow": {
+      "input": "Finish Blow",
+      "startup": 12,
+      "on_hit": 23,
+      "raw_on_hit": "HKD +23"
+    },
+    "Dash Cancel": {
+      "input": "Dash Cancel",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Attack Lv 05P, 2P": {
+      "input": "Attack Lv 05P, 2P",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Attack Lv 15K, 2K": {
+      "input": "Attack Lv 15K, 2K",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Attack Lv 2f.S, 6P, 2D": {
+      "input": "Attack Lv 2f.S, 6P, 2D",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Attack Lv 3c.S, 6H(1), Servant Shoot (236K)": {
+      "input": "Attack Lv 3c.S, 6H(1), Servant Shoot (236K)",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Attack Lv 45H, 2H, 6H(2)": {
+      "input": "Attack Lv 45H, 2H, 6H(2)",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Servant BounceStriking a servant into an opponent at point-blank range, and cancelling off it.": {
+      "input": "Servant BounceStriking a servant into an opponent at point-blank range, and cancelling off it.",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    }
+  }
+}

@@ -1,0 +1,1080 @@
+{
+  "characterId": "potemkin",
+  "game": "ggst",
+  "gameName": "Guilty Gear -Strive-",
+  "name": "Potemkin",
+  "combos": [
+    {
+      "id": "k-xxx-mw-parser-output-combotext-display-inline",
+      "name": "k(XXX).mw-parser-output .ComboText{display:inline-block;font",
+      "notation": "k(XXX).mw-parser-output .ComboText{display:inline-block;font-family:monospace,monospace;font-weight:bold}",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "k.mw-parser-output .ComboText{display:inline-block;font-family:monospace",
+          "time": 0.0,
+          "label": "k.mw-parser-output .ComboText{display:inline-block;font-family:monospace",
+          "window": 100
+        },
+        {
+          "key": "monospace;font-weight:bold}",
+          "time": 0.217,
+          "label": "monospace;font-weight:bold}",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "grounded-hit-2d-hfb",
+      "name": "[Grounded hit] > 2D > HFB",
+      "notation": "[Grounded hit] > 2D > HFB",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "[Grounded hit]",
+          "time": 0.0,
+          "label": "[Grounded hit]",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.217,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "HFB",
+          "time": 1.183,
+          "label": "HFB",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "grounded-hit-236d-hfb-632146p",
+      "name": "[Grounded hit] > 236D > HFB > 632146P",
+      "notation": "[Grounded hit] > 236D > HFB > 632146P",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "[Grounded hit]",
+          "time": 0.0,
+          "label": "[Grounded hit]",
+          "window": 100
+        },
+        {
+          "key": "236D",
+          "time": 0.217,
+          "label": "236D",
+          "window": 100
+        },
+        {
+          "key": "HFB",
+          "time": 0.433,
+          "label": "HFB",
+          "window": 100
+        },
+        {
+          "key": "632146P",
+          "time": 0.65,
+          "label": "632146P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ch-c-s-2h-hfb-c-s-6h",
+      "name": "CH c.S > 2H > HFB, c.S > 6H...",
+      "notation": "CH c.S > 2H > HFB, c.S > 6H...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH c.S",
+          "time": 0.0,
+          "label": "CH c.S",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.217,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "HFB",
+          "time": 0.817,
+          "label": "HFB",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.033,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "6H...",
+          "time": 1.283,
+          "label": "6H...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "c-s-2h-236d-6h",
+      "name": "c.S > 2H > 236D > 6H...",
+      "notation": "c.S > 2H > 236D > 6H...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "c.S",
+          "time": 0.0,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.25,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "236D",
+          "time": 0.85,
+          "label": "236D",
+          "window": 100
+        },
+        {
+          "key": "6H...",
+          "time": 1.067,
+          "label": "6H...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ch-6h-hfb-hfb-c-s",
+      "name": "CH 6H > HFB > HFB , c.S...",
+      "notation": "CH 6H > HFB > HFB , c.S...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 6H",
+          "time": 0.0,
+          "label": "CH 6H",
+          "window": 100
+        },
+        {
+          "key": "HFB",
+          "time": 0.217,
+          "label": "HFB",
+          "window": 100
+        },
+        {
+          "key": "HFB",
+          "time": 0.433,
+          "label": "HFB",
+          "window": 100
+        },
+        {
+          "key": "c.S...",
+          "time": 0.65,
+          "label": "c.S...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "1-2-hits-6h-214-k-6h-ws-623k-623h",
+      "name": "[1-2 hits] > 6H > 214[K] > 6H > !WS 623K > 623H",
+      "notation": "[1-2 hits] > 6H > 214[K] > 6H > !WS 623K > 623H",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "[1-2 hits]",
+          "time": 0.0,
+          "label": "[1-2 hits]",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.217,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "214[K]",
+          "time": 1.3,
+          "label": "214[K]",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 3.283,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "!WS 623K",
+          "time": 4.367,
+          "label": "!WS 623K",
+          "window": 100
+        },
+        {
+          "key": "623H",
+          "time": 4.583,
+          "label": "623H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "3-hits-6h-hfb-c-s-6h-ws-623k-623h",
+      "name": "[3 hits] > 6H > HFB > c.S > 6H > !WS 623K > 623H",
+      "notation": "[3 hits] > 6H > HFB > c.S > 6H > !WS 623K > 623H",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "[3 hits]",
+          "time": 0.0,
+          "label": "[3 hits]",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.217,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "HFB",
+          "time": 1.3,
+          "label": "HFB",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.517,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 1.767,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "!WS 623K",
+          "time": 2.85,
+          "label": "!WS 623K",
+          "window": 100
+        },
+        {
+          "key": "623H",
+          "time": 3.067,
+          "label": "623H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ch-c-s-2h-hfb-5k-kbmf-2s",
+      "name": "CH c.S > 2H > HFB, 5K > kBMF > 2S...",
+      "notation": "CH c.S > 2H > HFB, 5K > kBMF > 2S...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH c.S",
+          "time": 0.0,
+          "label": "CH c.S",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.217,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "HFB",
+          "time": 0.817,
+          "label": "HFB",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 1.033,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "kBMF",
+          "time": 1.2,
+          "label": "kBMF",
+          "window": 100
+        },
+        {
+          "key": "2S...",
+          "time": 1.417,
+          "label": "2S...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "air-c-s-kbmf-2s",
+      "name": "(air) c.S > kBMF > 2S...",
+      "notation": "(air) c.S > kBMF > 2S...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "c.S",
+          "time": 0.0,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "kBMF",
+          "time": 0.25,
+          "label": "kBMF",
+          "window": 100
+        },
+        {
+          "key": "2S...",
+          "time": 0.467,
+          "label": "2S...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ch-c-s-2h-4-6h-dl-p-5k-jfkbmf",
+      "name": "CH c.S > 2H > [4]6H -> dl.P , 5K, JFkBMF...",
+      "notation": "CH c.S > 2H > [4]6H -> dl.P , 5K, JFkBMF...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH c.S",
+          "time": 0.0,
+          "label": "CH c.S",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.217,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "[4]6H -",
+          "time": 0.817,
+          "label": "[4]6H -",
+          "window": 100
+        },
+        {
+          "key": "dl.P",
+          "time": 1.033,
+          "label": "dl.P",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 1.25,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "JFkBMF...",
+          "time": 1.417,
+          "label": "JFkBMF...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2s-hfbkgk",
+      "name": "... 2S > HFBkGK ...",
+      "notation": "... 2S > HFBkGK ...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "... 2S",
+          "time": 0.0,
+          "label": "... 2S",
+          "window": 100
+        },
+        {
+          "key": "HFBkGK ...",
+          "time": 0.217,
+          "label": "HFBkGK ...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "6h-hfbkgk",
+      "name": "... 6H > HFBkGK ...",
+      "notation": "... 6H > HFBkGK ...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "... 6H",
+          "time": 0.0,
+          "label": "... 6H",
+          "window": 100
+        },
+        {
+          "key": "HFBkGK ...",
+          "time": 0.217,
+          "label": "HFBkGK ...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "giganter-mw-6h-214-k",
+      "name": "... Giganter, MW 6H > 214[K] ...",
+      "notation": "... Giganter, MW 6H > 214[K] ...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "... Giganter",
+          "time": 0.0,
+          "label": "... Giganter",
+          "window": 100
+        },
+        {
+          "key": "MW 6H",
+          "time": 0.217,
+          "label": "MW 6H",
+          "window": 100
+        },
+        {
+          "key": "214[K] ...",
+          "time": 0.433,
+          "label": "214[K] ...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "giganter-6h-623k",
+      "name": "... Giganter, 6H > 623K ...",
+      "notation": "... Giganter, 6H > 623K ...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "... Giganter",
+          "time": 0.0,
+          "label": "... Giganter",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.217,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "623K ...",
+          "time": 1.3,
+          "label": "623K ...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "giganter-2h-mega-fist-whiff-2",
+      "name": "... Giganter, (2H > Mega Fist whiff)×2 ...",
+      "notation": "... Giganter, (2H > Mega Fist whiff)×2 ...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "... Giganter",
+          "time": 0.0,
+          "label": "... Giganter",
+          "window": 100
+        },
+        {
+          "key": "(2H",
+          "time": 0.217,
+          "label": "(2H",
+          "window": 100
+        },
+        {
+          "key": "Mega Fist whiff)×2 ...",
+          "time": 0.433,
+          "label": "Mega Fist whiff)×2 ...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2s-2h-garuda-kfmf-ws-6h",
+      "name": "... 2S > 2H > Garuda, (kFMF, WS 6H)",
+      "notation": "... 2S > 2H > Garuda, (kFMF, WS 6H)",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "... 2S",
+          "time": 0.0,
+          "label": "... 2S",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.217,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "Garuda",
+          "time": 0.817,
+          "label": "Garuda",
+          "window": 100
+        },
+        {
+          "key": "(kFMF",
+          "time": 1.033,
+          "label": "(kFMF",
+          "window": 100
+        },
+        {
+          "key": "WS 6H)",
+          "time": 1.25,
+          "label": "WS 6H)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-6h-ws-623k-623h",
+      "name": "... 5K > 6H > !WS 623K > 623H",
+      "notation": "... 5K > 6H > !WS 623K > 623H",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "... 5K",
+          "time": 0.0,
+          "label": "... 5K",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.217,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "!WS 623K",
+          "time": 1.3,
+          "label": "!WS 623K",
+          "window": 100
+        },
+        {
+          "key": "623H",
+          "time": 1.517,
+          "label": "623H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "c-s-jc66brc-c-s-2h-214-k",
+      "name": "c.S > jc66BRC > c.S > 2H  > 214[K]...",
+      "notation": "c.S > jc66BRC > c.S > 2H  > 214[K]...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "c.S",
+          "time": 0.0,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "jc66BRC",
+          "time": 0.25,
+          "label": "jc66BRC",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.467,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.717,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "214[K]...",
+          "time": 1.317,
+          "label": "214[K]...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "c-s-jc66brc-j-s-c-s-214h",
+      "name": "c.S jc66BRC j.S > c.S > 214H ...",
+      "notation": "c.S jc66BRC j.S > c.S > 214H ...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "c.S jc66BRC j.S",
+          "time": 0.0,
+          "label": "c.S jc66BRC j.S",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.217,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "214H ...",
+          "time": 0.467,
+          "label": "214H ...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "potemkin-buster-prc-2h",
+      "name": "Potemkin Buster PRC~2H ...",
+      "notation": "Potemkin Buster PRC~2H ...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Potemkin Buster PRC",
+          "time": 0.0,
+          "label": "Potemkin Buster PRC",
+          "window": 100
+        },
+        {
+          "key": "2H ...",
+          "time": 0.217,
+          "label": "2H ...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "hammer-fall-66rrc-5k-kbmf",
+      "name": "Hammer Fall 66RRC~5K > kBMF ...",
+      "notation": "Hammer Fall 66RRC~5K > kBMF ...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Hammer Fall 66RRC",
+          "time": 0.0,
+          "label": "Hammer Fall 66RRC",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.217,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "kBMF ...",
+          "time": 0.383,
+          "label": "kBMF ...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 5,
+      "on_hit": 4,
+      "raw_on_hit": "+4"
+    },
+    "5K": {
+      "input": "5K",
+      "startup": 10,
+      "on_hit": -7,
+      "raw_on_hit": "-7"
+    },
+    "c.S": {
+      "input": "c.S",
+      "startup": 8,
+      "on_hit": 7,
+      "raw_on_hit": "+7"
+    },
+    "f.S": {
+      "input": "f.S",
+      "startup": 12,
+      "on_hit": -5,
+      "raw_on_hit": "-5"
+    },
+    "5H": {
+      "input": "5H",
+      "startup": 16,
+      "on_hit": -8,
+      "raw_on_hit": "-8"
+    },
+    "5D": {
+      "input": "5D",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5[D]": {
+      "input": "5[D]",
+      "startup": 28,
+      "on_hit": 36,
+      "raw_on_hit": "KD +36"
+    },
+    "2P": {
+      "input": "2P",
+      "startup": 9,
+      "on_hit": -5,
+      "raw_on_hit": "-5"
+    },
+    "2K": {
+      "input": "2K",
+      "startup": 7,
+      "on_hit": -10,
+      "raw_on_hit": "-10"
+    },
+    "2S": {
+      "input": "2S",
+      "startup": 14,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 13,
+      "on_hit": 23,
+      "raw_on_hit": "KD +23"
+    },
+    "2D": {
+      "input": "2D",
+      "startup": 13,
+      "on_hit": 45,
+      "raw_on_hit": "HKD +45"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 11,
+      "on_hit": 18,
+      "raw_on_hit": "KD +18"
+    },
+    "6K": {
+      "input": "6K",
+      "startup": 20,
+      "on_hit": -5,
+      "raw_on_hit": "-5"
+    },
+    "6H": {
+      "input": "6H",
+      "startup": 23,
+      "on_hit": 42,
+      "raw_on_hit": "KD +42"
+    },
+    "j.P": {
+      "input": "j.P",
+      "startup": 7,
+      "on_hit": 9,
+      "raw_on_hit": "+9 (Min. height)"
+    },
+    "j.K": {
+      "input": "j.K",
+      "startup": 10,
+      "on_hit": 11,
+      "raw_on_hit": "+11 (Min. height)"
+    },
+    "j.S": {
+      "input": "j.S",
+      "startup": 14,
+      "on_hit": 16,
+      "raw_on_hit": "+16 (Min. height)"
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 12,
+      "on_hit": 16,
+      "raw_on_hit": "+16 (Min. height)"
+    },
+    "j.D": {
+      "input": "j.D",
+      "startup": 13,
+      "on_hit": 2,
+      "raw_on_hit": "+2 (IAS)-3 ~ +7"
+    },
+    "[4]6H": {
+      "input": "[4]6H",
+      "startup": 18,
+      "on_hit": 35,
+      "raw_on_hit": "HKD +35"
+    },
+    "[4]6H P": {
+      "input": "[4]6H P",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "632146P": {
+      "input": "632146P",
+      "startup": 5,
+      "on_hit": 44,
+      "raw_on_hit": "HKD +44"
+    },
+    "623H": {
+      "input": "623H",
+      "startup": 12,
+      "on_hit": 41,
+      "raw_on_hit": "HKD +41"
+    },
+    "236P": {
+      "input": "236P",
+      "startup": 28,
+      "on_hit": 34,
+      "raw_on_hit": "KD +34"
+    },
+    "214P": {
+      "input": "214P",
+      "startup": 25,
+      "on_hit": 34,
+      "raw_on_hit": "KD +34"
+    },
+    "236S": {
+      "input": "236S",
+      "startup": 29,
+      "on_hit": 53,
+      "raw_on_hit": "HKD +53"
+    },
+    "214K": {
+      "input": "214K",
+      "startup": 18,
+      "on_hit": 28,
+      "raw_on_hit": "KD +28"
+    },
+    "214[K]": {
+      "input": "214[K]",
+      "startup": 36,
+      "on_hit": 83,
+      "raw_on_hit": "HKD +83"
+    },
+    "Reflect Projectile": {
+      "input": "Reflect Projectile",
+      "startup": 1,
+      "on_hit": 83,
+      "raw_on_hit": "HKD +83"
+    },
+    "214H": {
+      "input": "214H",
+      "startup": 28,
+      "on_hit": 25,
+      "raw_on_hit": "Stagger +25"
+    },
+    "623K": {
+      "input": "623K",
+      "startup": 12,
+      "on_hit": 27,
+      "raw_on_hit": "HKD +27"
+    },
+    "632146S": {
+      "input": "632146S",
+      "startup": 12,
+      "on_hit": 55,
+      "raw_on_hit": "HKD +55"
+    },
+    "632146H": {
+      "input": "632146H",
+      "startup": 10,
+      "on_hit": 141,
+      "raw_on_hit": "HKD +141"
+    },
+    "Mirror": {
+      "input": "Mirror",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "HKD"
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 2,
+      "on_hit": 53,
+      "raw_on_hit": "HKD +53"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 2,
+      "on_hit": 37,
+      "raw_on_hit": "HKD +37 (IAS)"
+    },
+    "Wild Assault": {
+      "input": "Wild Assault",
+      "startup": 20,
+      "on_hit": 33,
+      "raw_on_hit": "Stagger +33"
+    },
+    "Finish Blow": {
+      "input": "Finish Blow",
+      "startup": 16,
+      "on_hit": 23,
+      "raw_on_hit": "HKD +23"
+    },
+    "Charged Wild Assault": {
+      "input": "Charged Wild Assault",
+      "startup": 32,
+      "on_hit": 71,
+      "raw_on_hit": "HKD +71"
+    }
+  }
+}

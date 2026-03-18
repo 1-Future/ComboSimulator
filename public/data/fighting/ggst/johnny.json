@@ -1,0 +1,362 @@
+{
+  "characterId": "johnny",
+  "game": "ggst",
+  "gameName": "Guilty Gear -Strive-",
+  "name": "Johnny",
+  "combos": [
+    {
+      "id": "pmf-mw-parser-output-combotext-display-inline-blo",
+      "name": "PMF.mw-parser-output .ComboText{display:inline-block;font-fa",
+      "notation": "PMF.mw-parser-output .ComboText{display:inline-block;font-family:monospace,monospace;font-weight:bold}",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "PMF.mw-parser-output .ComboText{display:inline-block;font-family:monospace",
+          "time": 0.0,
+          "label": "PMF.mw-parser-output .ComboText{display:inline-block;font-family:monospace",
+          "window": 100
+        },
+        {
+          "key": "monospace;font-weight:bold}",
+          "time": 0.217,
+          "label": "monospace;font-weight:bold}",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "additional-notes-pmf-and-kmf-notably-have-twice",
+      "name": "Additional Notes:\n\nPMF and KMF notably have twice as much RI",
+      "notation": "Additional Notes:\n\nPMF and KMF notably have twice as much RISC loss as the other Mist Finer attacks, making them not ideal for use with optimal combos. Strangely, their aerial variants do not share this property.\nAttacks have been normalized based on the Damage / RISC of c.S, Johnny's most common combo filler. Values above 1.0 are preferred for combos, while values below it are ideally used as little as possible.\nThat's My Name and Joker Trick have been omitted due to Overdrive scaling not being applicable.\n1 Both 2H and 2D have had both of their hits factored in.",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Additional Notes: PMF and KMF notably have twice as much RISC loss as the other Mist Finer attacks",
+          "time": 0.0,
+          "label": "Additional Notes: PMF and KMF notably have twice as much RISC loss as the other Mist Finer attacks",
+          "window": 100
+        },
+        {
+          "key": "making them not ideal for use with optimal combos. Strangely",
+          "time": 0.217,
+          "label": "making them not ideal for use with optimal combos. Strangely",
+          "window": 100
+        },
+        {
+          "key": "their aerial variants do not share this property. Attacks have been normalized based on the Damage / RISC of c.S",
+          "time": 0.433,
+          "label": "their aerial variants do not share this property. Attacks have been normalized based on the Damage / RISC of c.S",
+          "window": 100
+        },
+        {
+          "key": "Johnny's most common combo filler. Values above 1.0 are preferred for combos",
+          "time": 0.65,
+          "label": "Johnny's most common combo filler. Values above 1.0 are preferred for combos",
+          "window": 100
+        },
+        {
+          "key": "while values below it are ideally used as little as possible. That's My Name and Joker Trick have been omitted due to Overdrive scaling not being applicable. 1 Both 2H and 2D have had both of their hits factored in.",
+          "time": 0.867,
+          "label": "while values below it are ideally used as little as possible. That's My Name and Joker Trick have been omitted due to Overdrive scaling not being applicable. 1 Both 2H and 2D have had both of their hits factored in.",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 6,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "5K": {
+      "input": "5K",
+      "startup": 7,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "c.S": {
+      "input": "c.S",
+      "startup": 7,
+      "on_hit": 4,
+      "raw_on_hit": "+4"
+    },
+    "f.S": {
+      "input": "f.S",
+      "startup": 9,
+      "on_hit": -8,
+      "raw_on_hit": "-8"
+    },
+    "5H": {
+      "input": "5H",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5D": {
+      "input": "5D",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5[D]": {
+      "input": "5[D]",
+      "startup": 28,
+      "on_hit": 36,
+      "raw_on_hit": "KD +36"
+    },
+    "2P": {
+      "input": "2P",
+      "startup": 5,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "2K": {
+      "input": "2K",
+      "startup": 6,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "2S": {
+      "input": "2S",
+      "startup": 11,
+      "on_hit": -7,
+      "raw_on_hit": "-7"
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "2D": {
+      "input": "2D",
+      "startup": 10,
+      "on_hit": 42,
+      "raw_on_hit": "HKD +42"
+    },
+    "j.P": {
+      "input": "j.P",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.K": {
+      "input": "j.K",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.S": {
+      "input": "j.S",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.D": {
+      "input": "j.D",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "6K": {
+      "input": "6K",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "6H": {
+      "input": "6H",
+      "startup": 18,
+      "on_hit": -16,
+      "raw_on_hit": "-16"
+    },
+    "214[P/K/S]": {
+      "input": "214[P/K/S]",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.214[P/K/S]": {
+      "input": "j.214[P/K/S]",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214]P[": {
+      "input": "214]P[",
+      "startup": 7,
+      "on_hit": 40,
+      "raw_on_hit": "KD +40"
+    },
+    "214]K[": {
+      "input": "214]K[",
+      "startup": 7,
+      "on_hit": 41,
+      "raw_on_hit": "KD +41"
+    },
+    "214]S[": {
+      "input": "214]S[",
+      "startup": 7,
+      "on_hit": 52,
+      "raw_on_hit": "HKD +52"
+    },
+    "j.214]P[": {
+      "input": "j.214]P[",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "j.214]K[": {
+      "input": "j.214]K[",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "j.214]S[": {
+      "input": "j.214]S[",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "H or D": {
+      "input": "H or D",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Mist Finer 66": {
+      "input": "Mist Finer 66",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Mist Finer 44": {
+      "input": "Mist Finer 44",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236P/K/S": {
+      "input": "236P/K/S",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Card hit by Mist Finer": {
+      "input": "Card hit by Mist Finer",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "j.236H": {
+      "input": "j.236H",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "236H": {
+      "input": "236H",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236HH": {
+      "input": "236HH",
+      "startup": 3,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "214H": {
+      "input": "214H",
+      "startup": 18,
+      "on_hit": 39,
+      "raw_on_hit": "KD +39"
+    },
+    "632146H": {
+      "input": "632146H",
+      "startup": 9,
+      "on_hit": 45,
+      "raw_on_hit": "HKD +45"
+    },
+    "236236S": {
+      "input": "236236S",
+      "startup": 6,
+      "on_hit": 58,
+      "raw_on_hit": "HKD +58"
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 2,
+      "on_hit": 58,
+      "raw_on_hit": "HKD +58"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 2,
+      "on_hit": 0,
+      "raw_on_hit": "HKD +?? (IAD)"
+    },
+    "Wild Assault": {
+      "input": "Wild Assault",
+      "startup": 16,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "Charged Wild Assault": {
+      "input": "Charged Wild Assault",
+      "startup": 29,
+      "on_hit": 64,
+      "raw_on_hit": "HKD +64"
+    },
+    "Finish Blow": {
+      "input": "Finish Blow",
+      "startup": 12,
+      "on_hit": 23,
+      "raw_on_hit": "HKD +23"
+    },
+    "Dash Cancel": {
+      "input": "Dash Cancel",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}
