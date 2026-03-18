@@ -12,7 +12,7 @@ export function Header() {
       <header className="border-b border-slate-800 bg-slate-900/80 backdrop-blur-sm">
         <div className="mx-auto flex h-12 max-w-7xl items-center justify-between px-3 md:h-14 md:px-4">
           <Link to="/" className="flex items-center gap-2">
-            <img src="/images/logo.png" alt="ComboSim" className="h-7 w-7 md:h-8 md:w-8" />
+            <img src="/images/logo.png?v=2" alt="ComboSim" className="h-7 w-7 md:h-8 md:w-8" />
             <span className="hidden text-lg font-bold text-white sm:inline">ComboSim</span>
           </Link>
 
