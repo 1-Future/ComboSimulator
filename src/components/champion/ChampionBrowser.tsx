@@ -44,7 +44,7 @@ export function ChampionBrowser({ onComboSelect }: ChampionBrowserProps) {
           <div className="max-w-2xl">
             <h1 className="mb-2 text-2xl font-black tracking-tight text-white md:text-3xl">
               <img src="/images/logo.png?v=2" alt="" className="mr-2 inline h-8 w-8 align-middle" />
-              Combo <span className="text-red-500">Simulator</span>
+              Combo<span className="text-red-500">Simulator</span>
               <span className="ml-2 text-sm font-normal text-neutral-500">by <a href="https://github.com/1-Future" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-white transition-colors">1-Future</a></span>
             </h1>
             <p className="mb-3 text-sm text-neutral-300 md:mb-4 md:text-base">
