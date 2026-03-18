@@ -1,153 +1,153 @@
 /**
- * Record a demo video with system audio using headed Playwright + FFmpeg.
+ * Record a scripted demo video using headed Playwright.
+ * Automates the full user flow while recording.
  *
- * Usage: node scripts/record-demo.js [url] [duration_seconds]
- * Example: node scripts/record-demo.js http://localhost:3000 60
- *
- * Requirements:
- * - FFmpeg installed (for screen + audio capture)
- * - Playwright installed (npm install)
- *
- * This launches a visible browser window and simultaneously records
- * the screen region + system audio using FFmpeg's gdigrab + dshow.
+ * Usage: node scripts/record-demo.js [url] [output]
  */
 
 import { chromium } from 'playwright'
-import { spawn, execSync } from 'child_process'
+import { spawn } from 'child_process'
 import { setTimeout as sleep } from 'timers/promises'
+import { readdirSync } from 'fs'
 
 const url = process.argv[2] ?? 'http://localhost:3000'
-const duration = parseInt(process.argv[3] ?? '45', 10)
-const output = `demo-${Date.now()}.mp4`
+const output = process.argv[3] ?? `demo-${Date.now()}.mp4`
 
-// Find FFmpeg
-const ffmpegPath = execSync('where ffmpeg', { encoding: 'utf-8' }).trim().split('\n')[0].trim()
-console.log(`FFmpeg: ${ffmpegPath}`)
+console.log(`Recording demo of ${url} → ${output}\n`)
 
-// Get system audio device name
-let audioDevice = null
-try {
-  const devices = execSync(`"${ffmpegPath}" -list_devices true -f dshow -i dummy 2>&1`, {
-    encoding: 'utf-8',
-    shell: true,
-  }).toString()
-
-  // Look for audio devices
-  const lines = devices.split('\n')
-  let inAudio = false
-  for (const line of lines) {
-    if (line.includes('DirectShow audio devices')) inAudio = true
-    if (inAudio && line.includes('"') && !line.includes('DirectShow')) {
-      const match = line.match(/"([^"]+)"/)
-      if (match) {
-        audioDevice = match[1]
-        break
-      }
-    }
-  }
-} catch (e) {
-  // Parse from stderr
-  const stderr = e.stderr?.toString() ?? e.stdout?.toString() ?? ''
-  const lines = stderr.split('\n')
-  let inAudio = false
-  for (const line of lines) {
-    if (line.includes('DirectShow audio devices')) inAudio = true
-    if (inAudio && line.includes('"') && !line.includes('DirectShow')) {
-      const match = line.match(/"([^"]+)"/)
-      if (match) {
-        audioDevice = match[1]
-        break
-      }
-    }
-  }
-}
-
-console.log(`Audio device: ${audioDevice ?? 'none (video only)'}`)
-console.log(`Recording ${duration}s to ${output}`)
-console.log(`URL: ${url}`)
-console.log('')
-
-// Launch browser
 const browser = await chromium.launch({
   headless: false,
   args: [
-    '--window-size=1280,800',
-    '--window-position=100,100',
+    '--start-maximized',
     '--disable-infobars',
     '--autoplay-policy=no-user-gesture-required',
   ],
 })
 
 const context = await browser.newContext({
-  viewport: { width: 1280, height: 800 },
+  viewport: null,
+  recordVideo: {
+    dir: './tmp_demo_vid',
+    size: { width: 1920, height: 1080 },
+  },
 })
+
 const page = await context.newPage()
 
-// Navigate
+// --- SCRIPTED DEMO FLOW ---
+
+// 1. Home page with hero
+console.log('1. Home page')
 await page.goto(url)
+await sleep(3000)
+
+// 2. Search for Yasuo
+console.log('2. Search Yasuo')
+await page.getByPlaceholder('Search champions...').fill('yasuo')
+await sleep(1500)
+
+// 3. Click Yasuo
+console.log('3. Click Yasuo')
+await page.locator('button:has-text("Yasuo")').first().click()
 await sleep(2000)
 
-// Get the browser window title for FFmpeg to capture
-const title = await page.title()
-console.log(`Browser title: "${title}"`)
+// 4. Pick the long combo
+console.log('4. Pick combo')
+const combo = page.locator('button:has-text("qqeqaeqraq")')
+if (await combo.isVisible()) {
+  await combo.click()
+} else {
+  await page.locator('button:has-text("qeqwaeqfaeqraq")').click().catch(() => {})
+}
+await sleep(3000)
 
-// Start FFmpeg recording — capture the whole screen
-// Using gdigrab for screen + dshow for system audio
-const ffmpegArgs = [
-  '-y',
-  // Screen capture
-  '-f', 'gdigrab',
-  '-framerate', '30',
-  '-offset_x', '100',
-  '-offset_y', '100',
-  '-video_size', '1280x800',
-  '-i', 'desktop',
-]
+// 5. Unmute video
+console.log('5. Unmute')
+await page.locator('button:near(video)').last().click().catch(() => {})
+await sleep(500)
 
-// Add audio if available
-if (audioDevice) {
-  ffmpegArgs.push(
-    '-f', 'dshow',
-    '-i', `audio=${audioDevice}`,
-  )
+// 6. Reset and play combo
+console.log('6. Play combo')
+await page.keyboard.press('Space')
+await sleep(1500)
+
+// Q Q E Q AA E Q R AA Q
+await page.keyboard.press('q')
+await sleep(2500)
+await page.keyboard.press('q')
+await sleep(2700)
+await page.keyboard.press('e')
+await sleep(400)
+await page.keyboard.press('q')
+await sleep(550)
+await page.mouse.click(640, 300, { button: 'right' })
+await sleep(100)
+await page.keyboard.press('e')
+await sleep(330)
+await page.keyboard.press('q')
+await sleep(70)
+await page.keyboard.press('r')
+await sleep(1260)
+await page.mouse.click(640, 300, { button: 'right' })
+await sleep(270)
+await page.keyboard.press('q')
+await sleep(3000)
+
+// 7. Reset and show editing
+console.log('7. Show combo editing')
+await page.keyboard.press('Space')
+await sleep(1500)
+
+// Click a step to show the frame preview editor
+const steps = await page.locator('.flex.flex-wrap.items-center.gap-1\\.5 button').all()
+if (steps.length > 3) {
+  await steps[3].click().catch(() => {})
+  await sleep(3000)
+  await steps[3].click().catch(() => {}) // close
+}
+await sleep(1000)
+
+// 8. Navigate to next combo
+console.log('8. Next combo')
+const nextBtn = page.locator('button:has-text("Next")')
+if (await nextBtn.isVisible()) {
+  await nextBtn.click()
+  await sleep(2500)
 }
 
-ffmpegArgs.push(
-  // Output settings
-  '-c:v', 'libx264',
-  '-preset', 'ultrafast',
-  '-crf', '23',
-  '-pix_fmt', 'yuv420p',
-)
+// 9. Open settings
+console.log('9. Settings')
+await page.getByLabel('Settings').click()
+await sleep(3000)
+await page.keyboard.press('Escape')
+await sleep(1000)
 
-if (audioDevice) {
-  ffmpegArgs.push('-c:a', 'aac', '-b:a', '128k')
-}
+// 10. Back to home
+console.log('10. Home')
+await page.goto(url)
+await sleep(2500)
 
-ffmpegArgs.push(
-  '-t', String(duration),
-  output,
-)
+// --- END FLOW ---
 
-console.log('Starting FFmpeg...')
-const ffmpeg = spawn(ffmpegPath, ffmpegArgs, { stdio: 'pipe' })
-
-ffmpeg.stderr.on('data', (data) => {
-  const line = data.toString().trim()
-  if (line.includes('frame=') || line.includes('time=')) {
-    process.stdout.write(`\r${line.substring(0, 80)}`)
-  }
-})
-
-console.log(`Recording for ${duration}s — interact with the browser window!`)
-console.log('Press Ctrl+C to stop early.\n')
-
-// Wait for recording to finish
-await new Promise((resolve) => {
-  ffmpeg.on('close', resolve)
-})
-
-console.log(`\n\nSaved: ${output}`)
-
+console.log('\nClosing browser...')
+await context.close()
 await browser.close()
-process.exit(0)
+
+// Find the video file
+const videoFiles = readdirSync('./tmp_demo_vid').filter(f => f.endsWith('.webm'))
+const videoFile = `./tmp_demo_vid/${videoFiles[videoFiles.length - 1]}`
+console.log(`Video: ${videoFile}`)
+
+// Convert to MP4
+console.log('Converting...')
+const ffmpeg = spawn('ffmpeg', [
+  '-i', videoFile,
+  '-c:v', 'libx264',
+  '-preset', 'fast',
+  '-crf', '20',
+  '-pix_fmt', 'yuv420p',
+  '-y', output,
+], { stdio: 'inherit' })
+
+await new Promise(r => ffmpeg.on('close', r))
+console.log(`\nDone! ${output}`)

@@ -57,8 +57,8 @@ export function CalibrationWizard() {
 
   return (
     <div>
-      <h3 className="mb-2 text-sm font-semibold text-slate-300">Input Calibration</h3>
-      <p className="mb-2 text-xs text-slate-400">
+      <h3 className="mb-2 text-sm font-semibold text-neutral-300">Input Calibration</h3>
+      <p className="mb-2 text-xs text-neutral-400">
         Current offset: <strong className="text-white">{calibrationOffset}ms</strong>
       </p>
 
@@ -68,7 +68,7 @@ export function CalibrationWizard() {
         </Button>
       ) : session.isRunning ? (
         <div className="space-y-2">
-          <p className="text-xs text-slate-400">
+          <p className="text-xs text-neutral-400">
             Round {session.currentRound + 1}/{session.totalRounds} — Press SPACE when you see the flash
           </p>
           <div

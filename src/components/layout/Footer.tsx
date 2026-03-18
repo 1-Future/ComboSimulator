@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="border-t border-slate-800 py-4 text-center text-xs text-slate-500">
+    <footer className="border-t border-neutral-800 py-4 text-center text-xs text-neutral-500">
       <div className="mx-auto max-w-7xl px-4">
         <p>
           ComboSimulator — Practice League of Legends champion combos
@@ -10,7 +10,7 @@ export function Footer() {
             href="https://github.com/1-Future/ComboSimulator"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-slate-300 transition-colors"
+            className="hover:text-neutral-300 transition-colors"
           >
             GitHub
           </a>
@@ -18,7 +18,7 @@ export function Footer() {
             href="https://ko-fi.com/combosim"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-slate-300 transition-colors"
+            className="hover:text-neutral-300 transition-colors"
           >
             Support
           </a>

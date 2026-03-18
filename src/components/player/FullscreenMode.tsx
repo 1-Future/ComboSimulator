@@ -33,13 +33,13 @@ export function FullscreenMode({
   return (
     <div className="fixed inset-0 z-50 flex flex-col bg-black">
       {/* Top bar */}
-      <div className="flex shrink-0 items-center justify-between border-b border-white/5 bg-slate-900/80 px-3 py-1.5 backdrop-blur-sm">
+      <div className="flex shrink-0 items-center justify-between border-b border-white/5 bg-black/80 px-3 py-1.5 backdrop-blur-sm">
         {/* Left: champion info + controls */}
         <div className="flex items-center gap-3">
           <div className="text-xs">
             <span className="font-bold text-white">{championName}</span>
-            <span className="mx-1 text-slate-600">|</span>
-            <span className="text-slate-400">{comboName}</span>
+            <span className="mx-1 text-neutral-600">|</span>
+            <span className="text-neutral-400">{comboName}</span>
           </div>
           <div className="h-4 w-px bg-slate-700" />
           {controls}
@@ -64,7 +64,7 @@ export function FullscreenMode({
           {/* Settings */}
           <button
             onClick={() => setSettingsOpen(true)}
-            className="rounded p-1 text-slate-400 hover:bg-slate-800 hover:text-white"
+            className="rounded p-1 text-neutral-400 hover:bg-neutral-800 hover:text-white"
             title="Settings"
           >
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -76,7 +76,7 @@ export function FullscreenMode({
           {/* Exit */}
           <button
             onClick={onExit}
-            className="rounded p-1 text-slate-400 hover:bg-red-900/50 hover:text-red-400"
+            className="rounded p-1 text-neutral-400 hover:bg-red-900/50 hover:text-red-400"
             title="Exit Fullscreen"
           >
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -88,7 +88,7 @@ export function FullscreenMode({
 
       {/* Combo steps — optional panel below top bar */}
       {showSteps && comboSteps && (
-        <div className="shrink-0 border-b border-white/5 bg-slate-900/60 px-4 py-2">
+        <div className="shrink-0 border-b border-white/5 bg-black/60 px-4 py-2">
           {comboSteps}
         </div>
       )}
@@ -102,7 +102,7 @@ export function FullscreenMode({
 
       {/* Early/Late */}
       {showEarlyLate && (
-        <div className="shrink-0 bg-slate-900/60">{earlyLate}</div>
+        <div className="shrink-0 bg-black/60">{earlyLate}</div>
       )}
 
       {/* Timeline — anchored to bottom */}
@@ -123,7 +123,7 @@ function ToggleBtn({ label, active, onClick }: { label: string; active: boolean;
       className={`rounded px-1.5 py-0.5 text-[9px] font-medium transition-colors ${
         active
           ? 'bg-cyan-600/30 text-cyan-400'
-          : 'text-slate-600 hover:text-slate-400'
+          : 'text-neutral-600 hover:text-neutral-400'
       }`}
     >
       {label}

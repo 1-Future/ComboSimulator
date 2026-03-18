@@ -153,14 +153,14 @@ function DraggablePanel({
       {/* Title bar — only shows when unlocked */}
       {unlocked && (
         <div
-          className="flex cursor-move items-center justify-between bg-slate-800/90 px-2 py-0.5"
+          className="flex cursor-move items-center justify-between bg-neutral-800/90 px-2 py-0.5"
           onMouseDown={handleDragStart}
         >
-          <span className="text-[9px] font-medium text-slate-400">{title}</span>
+          <span className="text-[9px] font-medium text-neutral-400">{title}</span>
           <div className="flex items-center gap-1">
             <button
               onClick={() => onLayoutChange(id, { visible: false })}
-              className="text-[10px] text-slate-500 hover:text-red-400"
+              className="text-[10px] text-neutral-500 hover:text-red-400"
             >
               &#x2715;
             </button>
@@ -339,7 +339,7 @@ export function PanelManagerProvider({ panels, children }: PanelManagerProviderP
         {children}
 
         {/* Toolbar */}
-        <div className="absolute bottom-0 left-0 right-0 z-40 flex items-center justify-between border-t border-white/10 bg-slate-900/95 px-3 py-1 backdrop-blur-sm">
+        <div className="absolute bottom-0 left-0 right-0 z-40 flex items-center justify-between border-t border-white/10 bg-black/95 px-3 py-1 backdrop-blur-sm">
           {/* Panel toggles */}
           <div className="flex items-center gap-1.5">
             {panels.map((panel) => {
@@ -351,8 +351,8 @@ export function PanelManagerProvider({ panels, children }: PanelManagerProviderP
                   onClick={() => togglePanel(panel.id)}
                   className={`rounded-md px-2.5 py-1 text-xs font-medium transition-colors ${
                     isVisible
-                      ? 'bg-slate-700/80 text-slate-200'
-                      : 'bg-slate-800/50 text-slate-500 hover:text-slate-300'
+                      ? 'bg-slate-700/80 text-neutral-200'
+                      : 'bg-neutral-800/50 text-neutral-500 hover:text-neutral-300'
                   }`}
                 >
                   {panel.title}
@@ -366,7 +366,7 @@ export function PanelManagerProvider({ panels, children }: PanelManagerProviderP
             {state.unlocked && (
               <button
                 onClick={resetLayout}
-                className="rounded-md px-2.5 py-1 text-xs text-slate-400 hover:bg-slate-700 hover:text-white"
+                className="rounded-md px-2.5 py-1 text-xs text-neutral-400 hover:bg-neutral-700 hover:text-white"
               >
                 Reset Layout
               </button>
@@ -376,7 +376,7 @@ export function PanelManagerProvider({ panels, children }: PanelManagerProviderP
               className={`flex items-center gap-1.5 rounded-md px-2.5 py-1 text-xs font-medium transition-colors ${
                 state.unlocked
                   ? 'bg-cyan-600 text-white'
-                  : 'bg-slate-700/50 text-slate-300 hover:bg-slate-700'
+                  : 'bg-slate-700/50 text-neutral-300 hover:bg-neutral-700'
               }`}
             >
               {state.unlocked ? (

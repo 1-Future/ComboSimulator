@@ -130,7 +130,7 @@ export function KeyMapper({ inputs, videoRef, onComplete }: KeyMapperProps) {
       <h3 className="mb-1 text-sm font-semibold text-amber-400">
         Unknown keys detected
       </h3>
-      <p className="mb-3 text-xs text-slate-400">
+      <p className="mb-3 text-xs text-neutral-400">
         Some inputs couldn't be auto-detected. Look at the video frame and pick the correct key.
       </p>
 
@@ -141,17 +141,17 @@ export function KeyMapper({ inputs, videoRef, onComplete }: KeyMapperProps) {
           const frame = frames[idx]
 
           return (
-            <div key={idx} className="flex gap-3 rounded-lg border border-slate-700/50 bg-slate-900/50 p-2">
+            <div key={idx} className="flex gap-3 rounded-lg border border-neutral-700/50 bg-neutral-900/50 p-2">
               {/* Frame preview */}
               <div className="shrink-0">
                 {frame ? (
                   <img
                     src={frame}
                     alt={`Step ${idx + 1}`}
-                    className="h-20 w-36 rounded border border-slate-700 object-cover"
+                    className="h-20 w-36 rounded border border-neutral-700 object-cover"
                   />
                 ) : (
-                  <div className="flex h-20 w-36 items-center justify-center rounded border border-slate-700 bg-slate-800 text-[10px] text-slate-600">
+                  <div className="flex h-20 w-36 items-center justify-center rounded border border-neutral-700 bg-neutral-800 text-[10px] text-neutral-600">
                     Loading frame...
                   </div>
                 )}
@@ -160,8 +160,8 @@ export function KeyMapper({ inputs, videoRef, onComplete }: KeyMapperProps) {
               {/* Info + selector */}
               <div className="flex flex-1 flex-col justify-center gap-1.5">
                 <div className="flex items-center gap-2">
-                  <span className="text-xs font-medium text-slate-300">Step {idx + 1}</span>
-                  <span className="text-[10px] text-slate-500">at {input.time.toFixed(2)}s</span>
+                  <span className="text-xs font-medium text-neutral-300">Step {idx + 1}</span>
+                  <span className="text-[10px] text-neutral-500">at {input.time.toFixed(2)}s</span>
                   <span className="rounded bg-amber-900/50 px-1.5 py-0.5 text-[10px] font-mono text-amber-400">
                     {input.label === '1' ? 'Item?' : input.label}
                   </span>
@@ -171,7 +171,7 @@ export function KeyMapper({ inputs, videoRef, onComplete }: KeyMapperProps) {
                   onChange={(e) =>
                     setMappings((prev) => ({ ...prev, [idx]: e.target.value }))
                   }
-                  className="w-full rounded border border-slate-600 bg-slate-800 px-2 py-1.5 text-xs text-white focus:border-cyan-500 focus:outline-none"
+                  className="w-full rounded border border-neutral-600 bg-neutral-800 px-2 py-1.5 text-xs text-white focus:border-cyan-500 focus:outline-none"
                 >
                   <option value="">What key is this?</option>
                   {ACTION_OPTIONS.map((opt) => (

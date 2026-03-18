@@ -29,7 +29,7 @@ export function InputDisplay({ inputs }: InputDisplayProps) {
                 ? 'scale-110 border-cyan-400 bg-cyan-950/50 shadow-lg shadow-cyan-500/20'
                 : hit
                   ? 'border-transparent'
-                  : 'border-slate-600 bg-slate-800/50'
+                  : 'border-neutral-600 bg-neutral-800/50'
             }`}
             style={color ? { borderColor: color, backgroundColor: `${color}15` } : undefined}
           >
@@ -45,7 +45,7 @@ export function InputDisplay({ inputs }: InputDisplayProps) {
               </span>
             )}
             {!hit && (
-              <span className="mt-0.5 text-[10px] text-slate-500">{input.label}</span>
+              <span className="mt-0.5 text-[10px] text-neutral-500">{input.label}</span>
             )}
           </div>
         )

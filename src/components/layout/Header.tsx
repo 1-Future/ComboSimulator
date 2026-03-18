@@ -9,7 +9,7 @@ export function Header() {
 
   return (
     <>
-      <header className="border-b border-slate-800 bg-slate-900/80 backdrop-blur-sm">
+      <header className="border-b border-neutral-800 bg-black/90 backdrop-blur-sm">
         <div className="mx-auto flex h-12 max-w-7xl items-center justify-between px-3 md:h-14 md:px-4">
           <Link to="/" className="flex items-center gap-2">
             <img src="/images/logo.png?v=2" alt="ComboSim" className="h-7 w-7 md:h-8 md:w-8" />
@@ -21,8 +21,8 @@ export function Header() {
               to="/"
               className={`rounded-lg px-2 py-1 text-xs transition-colors md:px-3 md:py-1.5 md:text-sm ${
                 location.pathname === '/'
-                  ? 'bg-slate-800 text-white'
-                  : 'text-slate-400 hover:text-white'
+                  ? 'bg-neutral-800 text-white'
+                  : 'text-neutral-400 hover:text-white'
               }`}
             >
               Champions
@@ -31,15 +31,15 @@ export function Header() {
               to="/editor"
               className={`rounded-lg px-2 py-1 text-xs transition-colors md:px-3 md:py-1.5 md:text-sm ${
                 location.pathname === '/editor'
-                  ? 'bg-slate-800 text-white'
-                  : 'text-slate-400 hover:text-white'
+                  ? 'bg-neutral-800 text-white'
+                  : 'text-neutral-400 hover:text-white'
               }`}
             >
               Editor
             </Link>
             <button
               onClick={() => setSettingsOpen(true)}
-              className="ml-1 rounded-lg p-1.5 text-slate-400 transition-colors hover:bg-slate-800 hover:text-white md:ml-2 md:p-2"
+              className="ml-1 rounded-lg p-1.5 text-neutral-400 transition-colors hover:bg-neutral-800 hover:text-white md:ml-2 md:p-2"
               aria-label="Settings"
             >
               <svg className="h-4 w-4 md:h-5 md:w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

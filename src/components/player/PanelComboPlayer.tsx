@@ -45,24 +45,24 @@ function ControlBar() {
       <div className="flex items-center gap-1">
         {SPEEDS.map((s) => (
           <button key={s} onClick={() => setSpeed(s)}
-            className={`rounded px-1.5 py-0.5 text-[10px] font-medium ${speed === s ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'}`}
+            className={`rounded px-1.5 py-0.5 text-[10px] font-medium ${speed === s ? 'bg-cyan-600 text-white' : 'bg-neutral-800 text-neutral-400 hover:text-white'}`}
           >{s}x</button>
         ))}
       </div>
       <div className="flex items-center gap-1">
         {DIFFICULTIES.map((d) => (
           <button key={d.value} onClick={() => setDifficulty(d.value)}
-            className={`rounded px-1.5 py-0.5 text-[10px] font-medium ${difficulty === d.value ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'}`}
+            className={`rounded px-1.5 py-0.5 text-[10px] font-medium ${difficulty === d.value ? 'bg-cyan-600 text-white' : 'bg-neutral-800 text-neutral-400 hover:text-white'}`}
           >{d.label}</button>
         ))}
       </div>
       <div className="flex items-center gap-1.5">
-        <span className="text-[10px] text-slate-500">SFX</span>
+        <span className="text-[10px] text-neutral-500">SFX</span>
         <input type="range" min="0" max="1" step="0.05" value={sfxVol}
           onChange={(e) => setVolume(Number(e.target.value))} className="h-1 w-12 accent-cyan-500" />
       </div>
       <div className="flex items-center gap-1.5">
-        <span className="text-[10px] text-slate-500">Vid</span>
+        <span className="text-[10px] text-neutral-500">Vid</span>
         <input type="range" min="0" max="1" step="0.05" value={vidVol}
           onChange={(e) => setVideoVolume(Number(e.target.value))} className="h-1 w-12 accent-cyan-500" />
       </div>
@@ -101,11 +101,11 @@ function ComboSteps({ inputs, onReassign }: { inputs: ComboInput[]; onReassign: 
             {grade && <span className="mt-0.5 text-[8px] font-medium" style={{ color }}>{grade}</span>}
 
             {editingStep === index && (
-              <div className="absolute left-0 top-full z-50 mt-1 w-36 rounded-lg border border-slate-600 bg-slate-800 py-1 shadow-xl">
+              <div className="absolute left-0 top-full z-50 mt-1 w-36 rounded-lg border border-neutral-600 bg-neutral-800 py-1 shadow-xl">
                 {ACTION_OPTIONS.map((opt) => (
                   <button key={opt.value}
                     onClick={(e) => { e.stopPropagation(); onReassign(index, opt.value); setEditingStep(null) }}
-                    className={`block w-full px-2 py-1 text-left text-[10px] hover:bg-slate-700 ${input.action === opt.value ? 'text-cyan-400' : 'text-slate-300'}`}
+                    className={`block w-full px-2 py-1 text-left text-[10px] hover:bg-neutral-700 ${input.action === opt.value ? 'text-cyan-400' : 'text-neutral-300'}`}
                   >{opt.label}</button>
                 ))}
               </div>
@@ -165,7 +165,7 @@ export function PanelComboPlayer() {
 
   if (!selectedCombo || !selectedChampion) {
     return (
-      <div className="flex h-96 items-center justify-center text-slate-500">
+      <div className="flex h-96 items-center justify-center text-neutral-500">
         {window.location.pathname.startsWith('/play/') ? 'Loading combo...' : 'Select a champion and combo'}
       </div>
     )
@@ -175,7 +175,7 @@ export function PanelComboPlayer() {
     return (
       <div className="mx-auto max-w-4xl px-4 py-6">
         <KeyMapper inputs={selectedCombo.inputs} videoRef={videoRef} onComplete={handleMappingComplete} />
-        <div className="relative mt-4 overflow-hidden rounded-xl border border-slate-700">
+        <div className="relative mt-4 overflow-hidden rounded-xl border border-neutral-700">
           <VideoPlayer ref={videoRef} filename={selectedCombo.video.filename} />
         </div>
       </div>
@@ -221,7 +221,7 @@ export function PanelComboPlayer() {
                   <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/30">
                     <div className="text-center">
                       <div className="text-2xl font-black text-white">Press <span className="text-cyan-400">{getDisplayKey(selectedCombo.inputs[0]!)}</span></div>
-                      <div className="mt-1 text-xs text-slate-400">SPACE to reset</div>
+                      <div className="mt-1 text-xs text-neutral-400">SPACE to reset</div>
                     </div>
                   </div>
                 )}

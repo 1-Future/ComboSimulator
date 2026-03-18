@@ -16,7 +16,7 @@ export function ChampionCard({ champion, onClick, isSelected }: ChampionCardProp
       className={`group flex flex-col items-center rounded-xl border p-3 transition-all hover:scale-105 ${
         isSelected
           ? 'border-cyan-500 bg-cyan-950/50 shadow-lg shadow-cyan-500/20'
-          : 'border-slate-700 bg-slate-800/50 hover:border-slate-600'
+          : 'border-neutral-700 bg-neutral-800/50 hover:border-neutral-600'
       }`}
     >
       <div className="relative mb-2 h-16 w-16 overflow-hidden rounded-lg bg-slate-700">
@@ -29,18 +29,18 @@ export function ChampionCard({ champion, onClick, isSelected }: ChampionCardProp
             e.currentTarget.style.display = 'none'
           }}
         />
-        <div className="absolute inset-0 flex items-center justify-center text-lg font-bold text-slate-500">
+        <div className="absolute inset-0 flex items-center justify-center text-lg font-bold text-neutral-500">
           {champion.name[0]}
         </div>
       </div>
-      <span className="text-xs font-medium text-slate-200 group-hover:text-white">
+      <span className="text-xs font-medium text-neutral-200 group-hover:text-white">
         {champion.name}
       </span>
       <div className="mt-1 flex items-center gap-1">
         <span className={`text-[10px] ${difficultyColors[champion.difficulty]}`}>
           {difficultyLabels[champion.difficulty]}
         </span>
-        <span className="text-[10px] text-slate-500">{champion.comboCount} combos</span>
+        <span className="text-[10px] text-neutral-500">{champion.comboCount} combos</span>
       </div>
     </button>
   )

@@ -16,10 +16,10 @@ export function AudioSettings() {
 
   return (
     <div className="space-y-3">
-      <h3 className="text-sm font-semibold text-slate-300">Audio</h3>
+      <h3 className="text-sm font-semibold text-neutral-300">Audio</h3>
 
       <div>
-        <label className="flex items-center justify-between text-xs text-slate-400">
+        <label className="flex items-center justify-between text-xs text-neutral-400">
           <span>Volume</span>
           <span>{Math.round(volume * 100)}%</span>
         </label>
@@ -34,7 +34,7 @@ export function AudioSettings() {
         />
       </div>
 
-      <label className="flex items-center justify-between text-xs text-slate-400">
+      <label className="flex items-center justify-between text-xs text-neutral-400">
         <span>Ping on combo steps</span>
         <input
           type="checkbox"
@@ -44,7 +44,7 @@ export function AudioSettings() {
         />
       </label>
 
-      <label className="flex items-center justify-between text-xs text-slate-400">
+      <label className="flex items-center justify-between text-xs text-neutral-400">
         <span>Grade sounds</span>
         <input
           type="checkbox"

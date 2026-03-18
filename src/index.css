@@ -9,7 +9,12 @@
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #334155 #0f172a;
+  scrollbar-color: #262626 #000000;
+}
+
+/* X.com night mode overrides */
+body {
+  background-color: #000 !important;
 }
 
 @keyframes fadeOut {

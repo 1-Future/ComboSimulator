@@ -6,7 +6,7 @@
     {
       "id": "rengar-aewqe",
       "name": "Rengar aewqE",
-      "description": "Rengar: AA \u2192 F \u2192 E \u2192 W \u2192 Q \u2192 E \u2192 F",
+      "description": "Rengar: AA → F → E → W → Q → E → F",
       "difficulty": "intermediate",
       "category": "bread-and-butter",
       "tags": [],
@@ -72,7 +72,7 @@
     {
       "id": "rengar-aewqqa",
       "name": "Rengar aewqQa",
-      "description": "Rengar: AA \u2192 E \u2192 E \u2192 W \u2192 Q \u2192 Q \u2192 E \u2192 AA",
+      "description": "Rengar: AA → E → W → Q → Q → AA",
       "difficulty": "intermediate",
       "category": "bread-and-butter",
       "tags": [],
@@ -89,13 +89,6 @@
           "label": "AA",
           "window": 100,
           "action": "autoattack"
-        },
-        {
-          "key": "E",
-          "time": 2.9,
-          "label": "E",
-          "window": 100,
-          "action": "spell3"
         },
         {
           "key": "E",
@@ -126,13 +119,6 @@
           "action": "spell1"
         },
         {
-          "key": "E",
-          "time": 3.633,
-          "label": "E",
-          "window": 100,
-          "action": "spell3"
-        },
-        {
           "key": "A",
           "time": 4.2,
           "label": "AA",
@@ -145,7 +131,7 @@
     {
       "id": "rengar-aewqaqa",
       "name": "Rengar aewqaQa",
-      "description": "Rengar: AA \u2192 F \u2192 E \u2192 W \u2192 Q \u2192 AA \u2192 R \u2192 Q \u2192 E \u2192 AA \u2192 F",
+      "description": "Rengar: AA → F → E → W → Q → AA → R → Q → E → AA → F",
       "difficulty": "intermediate",
       "category": "bread-and-butter",
       "tags": [],
@@ -197,7 +183,7 @@
     {
       "id": "rengar-aewqw",
       "name": "Rengar aewqw",
-      "description": "Rengar: AA \u2192 F \u2192 E \u2192 W \u2192 Q \u2192 W \u2192 E",
+      "description": "Rengar: AA → F → E → W → Q → W → E",
       "difficulty": "intermediate",
       "category": "bread-and-butter",
       "tags": [],
@@ -256,7 +242,7 @@
     {
       "id": "rengar-ef",
       "name": "Rengar ef",
-      "description": "Rengar: E \u2192 E",
+      "description": "Rengar: E → E",
       "difficulty": "intermediate",
       "category": "bread-and-butter",
       "tags": [],
@@ -287,7 +273,7 @@
     {
       "id": "rengar-r-youmuus-ghostblade-faewqqa",
       "name": "Rengar r  Youmuus Ghostblade  faewqQa",
-      "description": "Rengar: R \u2192 ? \u2192 ? \u2192 AA \u2192 E \u2192 E \u2192 W \u2192 Q \u2192 Q \u2192 F \u2192 AA",
+      "description": "Rengar: R → ? → ? → AA → E → E → W → Q → Q → F → AA",
       "difficulty": "intermediate",
       "category": "bread-and-butter",
       "tags": [],

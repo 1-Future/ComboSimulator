@@ -232,7 +232,7 @@ export function TimingOverlay({ inputs }: TimingOverlayProps) {
   }, [inputs, comboState, currentStep, hits, speed, comboStart, comboEnd, labelRows, displayKeys, videoDuration])
 
   return (
-    <div ref={containerRef} className="relative h-28 w-full rounded-b-lg bg-slate-800/90">
+    <div ref={containerRef} className="relative h-28 w-full rounded-b-lg bg-neutral-800/90">
       <canvas ref={canvasRef} className="h-full w-full" />
     </div>
   )

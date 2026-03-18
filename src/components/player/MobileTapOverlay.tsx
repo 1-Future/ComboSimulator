@@ -20,7 +20,7 @@ export function MobileTapOverlay({ inputs }: MobileTapOverlayProps) {
     <div className="pointer-events-none absolute inset-0 z-10 flex flex-col items-center justify-between py-4">
       {/* Top: accuracy */}
       {hits.length > 0 && (
-        <div className="rounded-full bg-black/40 px-3 py-1 text-xs font-medium text-slate-300 backdrop-blur-sm">
+        <div className="rounded-full bg-black/40 px-3 py-1 text-xs font-medium text-neutral-300 backdrop-blur-sm">
           {accuracy.toFixed(0)}% accuracy
         </div>
       )}
@@ -45,12 +45,12 @@ export function MobileTapOverlay({ inputs }: MobileTapOverlayProps) {
       ) : comboState === 'ready' ? (
         <div className="text-center">
           <div className="text-3xl font-black text-white">TAP</div>
-          <div className="mt-1 text-sm text-slate-400">to start</div>
+          <div className="mt-1 text-sm text-neutral-400">to start</div>
         </div>
       ) : comboState === 'complete' ? (
         <div className="text-center">
           <div className="text-3xl font-black text-green-400">Done!</div>
-          <div className="mt-1 text-sm text-slate-400">TAP to reset</div>
+          <div className="mt-1 text-sm text-neutral-400">TAP to reset</div>
         </div>
       ) : (
         <div />
@@ -72,7 +72,7 @@ export function MobileTapOverlay({ inputs }: MobileTapOverlayProps) {
                   ? 'scale-125 border-cyan-400 bg-cyan-950 text-cyan-400'
                   : hit
                     ? 'border-transparent'
-                    : 'border-slate-600 bg-slate-800/80 text-slate-500'
+                    : 'border-neutral-600 bg-neutral-800/80 text-neutral-500'
               }`}
               style={color ? { borderColor: color, color, backgroundColor: `${color}22` } : undefined}
             >

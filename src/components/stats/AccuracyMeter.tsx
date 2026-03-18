@@ -9,7 +9,7 @@ export function AccuracyMeter({ accuracy }: AccuracyMeterProps) {
   return (
     <div className="text-center">
       <div className={`text-3xl font-bold ${color}`}>{accuracy.toFixed(1)}%</div>
-      <div className="text-xs text-slate-500">Accuracy</div>
+      <div className="text-xs text-neutral-500">Accuracy</div>
     </div>
   )
 }

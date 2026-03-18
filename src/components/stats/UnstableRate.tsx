@@ -26,7 +26,7 @@ export function UnstableRate({ ur }: UnstableRateProps) {
   return (
     <div className="text-center">
       <div className={`text-3xl font-bold ${color}`}>{ur.toFixed(1)}</div>
-      <div className="text-xs text-slate-500">UR ({label})</div>
+      <div className="text-xs text-neutral-500">UR ({label})</div>
     </div>
   )
 }

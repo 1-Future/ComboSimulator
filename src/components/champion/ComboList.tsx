@@ -16,7 +16,7 @@ const difficultyColors = {
 export function ComboList({ combos, selectedComboId, onSelect }: ComboListProps) {
   if (combos.length === 0) {
     return (
-      <div className="rounded-lg border border-slate-700 p-6 text-center text-sm text-slate-500">
+      <div className="rounded-lg border border-neutral-700 p-6 text-center text-sm text-neutral-500">
         No combos available for this champion yet.
       </div>
     )
@@ -31,13 +31,13 @@ export function ComboList({ combos, selectedComboId, onSelect }: ComboListProps)
           className={`w-full rounded-lg border p-3 text-left transition-all ${
             selectedComboId === combo.id
               ? 'border-cyan-500 bg-cyan-950/40'
-              : 'border-slate-700 bg-slate-800/50 hover:border-slate-600'
+              : 'border-neutral-700 bg-neutral-800/50 hover:border-neutral-600'
           }`}
         >
           <div className="flex items-start justify-between gap-2">
             <div className="min-w-0 flex-1">
               <h4 className="text-sm font-medium text-white">{combo.name}</h4>
-              <p className="mt-0.5 truncate text-xs text-slate-400">{combo.description}</p>
+              <p className="mt-0.5 truncate text-xs text-neutral-400">{combo.description}</p>
             </div>
             <span
               className={`shrink-0 rounded border px-2 py-0.5 text-[10px] font-medium ${difficultyColors[combo.difficulty]}`}
@@ -49,7 +49,7 @@ export function ComboList({ combos, selectedComboId, onSelect }: ComboListProps)
             {combo.inputs.map((input, i) => (
               <span
                 key={i}
-                className="rounded bg-slate-700 px-1.5 py-0.5 text-[10px] font-mono text-slate-300"
+                className="rounded bg-slate-700 px-1.5 py-0.5 text-[10px] font-mono text-neutral-300"
               >
                 {input.key}
               </span>

@@ -15,7 +15,7 @@ export function DifficultySelector() {
 
   return (
     <div>
-      <h3 className="mb-2 text-sm font-semibold text-slate-300">Difficulty</h3>
+      <h3 className="mb-2 text-sm font-semibold text-neutral-300">Difficulty</h3>
       <div className="flex gap-2">
         {difficulties.map((d) => (
           <button
@@ -24,14 +24,14 @@ export function DifficultySelector() {
             className={`rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
               difficulty === d.value
                 ? 'bg-cyan-600 text-white'
-                : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
+                : 'bg-slate-700 text-neutral-300 hover:bg-slate-600'
             }`}
           >
             {d.label}
           </button>
         ))}
       </div>
-      <div className="mt-2 text-xs text-slate-500">
+      <div className="mt-2 text-xs text-neutral-500">
         Perfect: &le;{thresholds.perfect}ms | Great: &le;{thresholds.great}ms | Good: &le;{thresholds.good}ms
       </div>
     </div>

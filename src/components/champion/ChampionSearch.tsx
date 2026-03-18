@@ -15,7 +15,7 @@ export function ChampionSearch() {
     <div className="flex flex-wrap items-center gap-3">
       <div className="relative flex-1">
         <svg
-          className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"
+          className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-neutral-400"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -28,14 +28,14 @@ export function ChampionSearch() {
           placeholder="Search champions..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="w-full rounded-lg border border-slate-700 bg-slate-800 py-2 pl-10 pr-4 text-sm text-white placeholder:text-slate-500 focus:border-cyan-500 focus:outline-none"
+          className="w-full rounded-lg border border-neutral-700 bg-neutral-800 py-2 pl-10 pr-4 text-sm text-white placeholder:text-neutral-500 focus:border-cyan-500 focus:outline-none"
         />
       </div>
 
       <select
         value={roleFilter ?? ''}
         onChange={(e) => setRoleFilter(e.target.value || null)}
-        className="rounded-lg border border-slate-700 bg-slate-800 px-3 py-2 text-sm text-white focus:border-cyan-500 focus:outline-none"
+        className="rounded-lg border border-neutral-700 bg-neutral-800 px-3 py-2 text-sm text-white focus:border-cyan-500 focus:outline-none"
       >
         <option value="">All Roles</option>
         {roles.map((role) => (
@@ -48,7 +48,7 @@ export function ChampionSearch() {
       <select
         value={difficultyFilter ?? ''}
         onChange={(e) => setDifficultyFilter(e.target.value ? Number(e.target.value) : null)}
-        className="rounded-lg border border-slate-700 bg-slate-800 px-3 py-2 text-sm text-white focus:border-cyan-500 focus:outline-none"
+        className="rounded-lg border border-neutral-700 bg-neutral-800 px-3 py-2 text-sm text-white focus:border-cyan-500 focus:outline-none"
       >
         <option value="">All Difficulties</option>
         <option value="1">Easy</option>

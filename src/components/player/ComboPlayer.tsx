@@ -23,7 +23,7 @@ function SectionToggle({ label, visible, onToggle }: { label: string; visible: b
   return (
     <button
       onClick={onToggle}
-      className="flex items-center gap-1 text-[10px] text-slate-500 hover:text-slate-300"
+      className="flex items-center gap-1 text-[10px] text-neutral-500 hover:text-neutral-300"
     >
       <span className={`transition-transform ${visible ? '' : '-rotate-90'}`}>&#x25BE;</span>
       {label}
@@ -59,7 +59,7 @@ function ControlBar() {
             className={`rounded px-1.5 py-0.5 text-[10px] font-medium transition-colors ${
               speed === s
                 ? 'bg-cyan-600 text-white'
-                : 'bg-slate-800 text-slate-400 hover:text-white'
+                : 'bg-neutral-800 text-neutral-400 hover:text-white'
             }`}
           >
             {s}x
@@ -75,7 +75,7 @@ function ControlBar() {
             className={`rounded px-1.5 py-0.5 text-[10px] font-medium transition-colors ${
               difficulty === d.value
                 ? 'bg-cyan-600 text-white'
-                : 'bg-slate-800 text-slate-400 hover:text-white'
+                : 'bg-neutral-800 text-neutral-400 hover:text-white'
             }`}
           >
             {d.label}
@@ -84,13 +84,13 @@ function ControlBar() {
       </div>
       {/* Volume */}
       <div className="flex items-center gap-1.5">
-        <span className="text-[10px] text-slate-500">SFX</span>
+        <span className="text-[10px] text-neutral-500">SFX</span>
         <input type="range" min="0" max="1" step="0.05" value={sfxVol}
           onChange={(e) => setVolume(Number(e.target.value))}
           className="h-1 w-14 cursor-pointer accent-cyan-500" />
       </div>
       <div className="flex items-center gap-1.5">
-        <span className="text-[10px] text-slate-500">Vid</span>
+        <span className="text-[10px] text-neutral-500">Vid</span>
         <input type="range" min="0" max="1" step="0.05" value={vidVol}
           onChange={(e) => setVideoVolume(Number(e.target.value))}
           className="h-1 w-14 cursor-pointer accent-cyan-500" />
@@ -262,7 +262,7 @@ export function ComboPlayer() {
   if (!selectedCombo || !selectedChampion) {
     const hasUrlParams = window.location.pathname.startsWith('/play/')
     return (
-      <div className="flex h-96 items-center justify-center text-slate-500">
+      <div className="flex h-96 items-center justify-center text-neutral-500">
         {hasUrlParams ? 'Loading combo...' : 'Select a champion and combo to start practicing'}
       </div>
     )
@@ -292,7 +292,7 @@ export function ComboPlayer() {
       {/* Header — auto-hides in fullscreen */}
       <div className={`flex items-center justify-between transition-all ${
         isFullscreen
-          ? `absolute left-0 right-0 top-0 z-30 bg-slate-900/90 px-3 py-1.5 backdrop-blur-sm ${showTopBar ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}`
+          ? `absolute left-0 right-0 top-0 z-30 bg-black/90 px-3 py-1.5 backdrop-blur-sm ${showTopBar ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}`
           : `mb-2 ${isMobile ? 'gap-2' : 'mb-4 gap-3'}`
       }`}>
         <div className="flex min-w-0 items-center gap-2">
@@ -303,14 +303,14 @@ export function ComboPlayer() {
             <h2 className={`truncate font-bold text-white ${isMobile ? 'text-sm' : 'text-lg'}`}>
               {isMobile ? selectedCombo.name : `${selectedChampion.name} — ${selectedCombo.name}`}
             </h2>
-            {!isMobile && <p className="text-xs text-slate-400">{selectedCombo.description}</p>}
+            {!isMobile && <p className="text-xs text-neutral-400">{selectedCombo.description}</p>}
           </div>
         </div>
         <div className="flex shrink-0 items-center gap-2">
           {!isMobile && <ControlBar />}
           <button
             onClick={() => setShowChampSearch(!showChampSearch)}
-            className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-white"
+            className="rounded-lg p-1.5 text-neutral-400 hover:bg-neutral-800 hover:text-white"
           >
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -327,7 +327,7 @@ export function ComboPlayer() {
                   setIsFullscreen(false)
                 }
               }}
-              className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-white"
+              className="rounded-lg p-1.5 text-neutral-400 hover:bg-neutral-800 hover:text-white"
               title="Fullscreen"
             >
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -347,7 +347,7 @@ export function ComboPlayer() {
             value={champSearch}
             onChange={(e) => setChampSearch(e.target.value)}
             autoFocus
-            className="w-full rounded-lg border border-slate-700 bg-slate-800 py-2 pl-3 pr-8 text-sm text-white placeholder:text-slate-500 focus:border-cyan-500 focus:outline-none"
+            className="w-full rounded-lg border border-neutral-700 bg-neutral-800 py-2 pl-3 pr-8 text-sm text-white placeholder:text-neutral-500 focus:border-cyan-500 focus:outline-none"
             onKeyDown={(e) => {
               if (e.key === 'Escape') {
                 setShowChampSearch(false)
@@ -357,12 +357,12 @@ export function ComboPlayer() {
           />
           <button
             onClick={() => { setShowChampSearch(false); setChampSearch('') }}
-            className="absolute right-2 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white"
+            className="absolute right-2 top-1/2 -translate-y-1/2 text-neutral-500 hover:text-white"
           >
             &#x2715;
           </button>
           {filteredChampions.length > 0 && (
-            <div className="absolute left-0 top-full z-50 mt-1 w-full rounded-lg border border-slate-700 bg-slate-800 py-1 shadow-xl">
+            <div className="absolute left-0 top-full z-50 mt-1 w-full rounded-lg border border-neutral-700 bg-neutral-800 py-1 shadow-xl">
               {filteredChampions.map((champ) => (
                 <button
                   key={champ.id}
@@ -383,13 +383,13 @@ export function ComboPlayer() {
                       navigate('/')
                     }
                   }}
-                  className="flex w-full items-center gap-2 px-3 py-1.5 text-left hover:bg-slate-700"
+                  className="flex w-full items-center gap-2 px-3 py-1.5 text-left hover:bg-neutral-700"
                 >
                   {champ.portrait && (
                     <img src={champ.portrait} alt="" className="h-6 w-6 rounded" />
                   )}
-                  <span className="text-sm text-slate-300">{champ.name}</span>
-                  <span className="ml-auto text-[10px] text-slate-500">{champ.comboCount} combos</span>
+                  <span className="text-sm text-neutral-300">{champ.name}</span>
+                  <span className="ml-auto text-[10px] text-neutral-500">{champ.comboCount} combos</span>
                 </button>
               ))}
             </div>
@@ -403,20 +403,20 @@ export function ComboPlayer() {
           <button
             onClick={goPrev}
             disabled={currentComboIndex <= 0}
-            className="flex items-center gap-1 rounded px-2 py-1 text-xs text-slate-400 hover:bg-slate-800 hover:text-white disabled:opacity-30"
+            className="flex items-center gap-1 rounded px-2 py-1 text-xs text-neutral-400 hover:bg-neutral-800 hover:text-white disabled:opacity-30"
           >
             <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
             {!isMobile && 'Prev'}
           </button>
-          <span className="text-[10px] text-slate-500">
+          <span className="text-[10px] text-neutral-500">
             {currentComboIndex + 1} / {comboList.length}
           </span>
           <button
             onClick={goNext}
             disabled={currentComboIndex >= comboList.length - 1}
-            className="flex items-center gap-1 rounded px-2 py-1 text-xs text-slate-400 hover:bg-slate-800 hover:text-white disabled:opacity-30"
+            className="flex items-center gap-1 rounded px-2 py-1 text-xs text-neutral-400 hover:bg-neutral-800 hover:text-white disabled:opacity-30"
           >
             {!isMobile && 'Next'}
             <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -428,8 +428,8 @@ export function ComboPlayer() {
 
       {/* First load hint — hidden in fullscreen */}
       {!isFullscreen && !isMobile && (
-        <div className="mb-2 rounded border border-slate-700/50 bg-slate-800/30 px-3 py-1.5 text-[11px] text-slate-500">
-          If the video is out of sync, press <kbd className="rounded bg-slate-700 px-1 font-mono text-slate-400">SPACE</kbd> or refresh the page
+        <div className="mb-2 rounded border border-neutral-700/50 bg-neutral-800/30 px-3 py-1.5 text-[11px] text-neutral-500">
+          If the video is out of sync, press <kbd className="rounded bg-slate-700 px-1 font-mono text-neutral-400">SPACE</kbd> or refresh the page
         </div>
       )}
 
@@ -439,7 +439,7 @@ export function ComboPlayer() {
       )}
 
       {/* Video + Overlay */}
-      <div className={`relative overflow-hidden ${isFullscreen ? 'min-h-0 flex-1' : isMobile ? 'rounded-lg' : 'rounded-xl border border-slate-700'}`}>
+      <div className={`relative overflow-hidden ${isFullscreen ? 'min-h-0 flex-1' : isMobile ? 'rounded-lg' : 'rounded-xl border border-neutral-700'}`}>
         <VideoPlayer ref={videoRef} filename={selectedCombo.video.filename} fill={isFullscreen} />
         {!needsMapping && !isMobile && <GradePopup />}
 
@@ -452,11 +452,11 @@ export function ComboPlayer() {
         {!isMobile && comboState === 'ready' && !needsMapping && (
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40">
             <div className="text-center">
-              <div className="mb-2 text-xs font-medium tracking-widest text-slate-400 uppercase">Ready</div>
+              <div className="mb-2 text-xs font-medium tracking-widest text-neutral-400 uppercase">Ready</div>
               <div className="text-2xl font-black text-white">
                 Press <span className="rounded bg-cyan-500/20 px-2 py-1 text-cyan-400">{getDisplayKey(selectedCombo.inputs[0]!)}</span> to start
               </div>
-              <div className="mt-3 text-xs text-slate-500">
+              <div className="mt-3 text-xs text-neutral-500">
                 SPACE to reset position
               </div>
             </div>
@@ -466,7 +466,7 @@ export function ComboPlayer() {
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40">
             <div className="text-center">
               <div className="text-3xl font-black text-green-400">Combo Complete!</div>
-              <div className="mt-2 text-sm text-slate-300">
+              <div className="mt-2 text-sm text-neutral-300">
                 Press SPACE to try again
               </div>
             </div>
@@ -478,7 +478,7 @@ export function ComboPlayer() {
         <>
           {/* Section toggles — hidden in fullscreen */}
           {!isFullscreen && (
-            <div className="mt-1 flex items-center gap-3 border-b border-slate-800 pb-1">
+            <div className="mt-1 flex items-center gap-3 border-b border-neutral-800 pb-1">
               <SectionToggle label="Timeline" visible={showTimeline} onToggle={() => setShowTimeline(!showTimeline)} />
               <SectionToggle label="Early/Late" visible={showEarlyLate} onToggle={() => setShowEarlyLate(!showEarlyLate)} />
               {!isMobile && <SectionToggle label="Keys" visible={showComboSteps} onToggle={() => setShowComboSteps(!showComboSteps)} />}
@@ -498,15 +498,15 @@ export function ComboPlayer() {
             {/* Keyboard row */}
             <div className={activeDevice === 'keyboard' ? 'opacity-100' : 'opacity-40'}>
               <div className="mb-1 flex items-center gap-1.5">
-                <svg className="h-3.5 w-3.5 text-slate-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <svg className="h-3.5 w-3.5 text-neutral-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <rect x="2" y="6" width="20" height="12" rx="2" />
                   <path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M8 14h8" />
                 </svg>
-                <span className="text-[10px] font-medium uppercase tracking-wider text-slate-500">
+                <span className="text-[10px] font-medium uppercase tracking-wider text-neutral-500">
                   Keyboard
                 </span>
                 {activeDevice === 'keyboard' && <span className="h-1.5 w-1.5 rounded-full bg-cyan-400" />}
-                <span className="ml-auto text-[10px] text-slate-600">
+                <span className="ml-auto text-[10px] text-neutral-600">
                   click to edit
                 </span>
               </div>
@@ -550,16 +550,16 @@ export function ComboPlayer() {
                         </span>
                       )}
                       {!hit && !isCurrent && (
-                        <span className="mt-1 text-[9px] text-slate-600">{input.label}</span>
+                        <span className="mt-1 text-[9px] text-neutral-600">{input.label}</span>
                       )}
 
                       {/* Edit dropdown */}
                       {isEditing && (
-                        <div className="absolute left-0 top-full z-50 mt-1 rounded-lg border border-slate-600 bg-slate-800 shadow-xl">
+                        <div className="absolute left-0 top-full z-50 mt-1 rounded-lg border border-neutral-600 bg-neutral-800 shadow-xl">
                           {editFrame && (
-                            <div className="border-b border-slate-700 p-1.5">
+                            <div className="border-b border-neutral-700 p-1.5">
                               <img src={editFrame} alt={`Step ${index + 1}`} className="w-52 rounded" />
-                              <div className="mt-1 px-1 text-[10px] text-slate-500">
+                              <div className="mt-1 px-1 text-[10px] text-neutral-500">
                                 Step {index + 1} at {input.time.toFixed(2)}s — what key is this?
                               </div>
                             </div>
@@ -569,7 +569,7 @@ export function ComboPlayer() {
                               <button
                                 key={opt.value}
                                 onClick={(e) => { e.stopPropagation(); handleReassignKey(index, opt.value) }}
-                                className={`block w-full px-3 py-1.5 text-left text-xs hover:bg-slate-700 ${input.action === opt.value ? 'text-cyan-400' : 'text-slate-300'}`}
+                                className={`block w-full px-3 py-1.5 text-left text-xs hover:bg-neutral-700 ${input.action === opt.value ? 'text-cyan-400' : 'text-neutral-300'}`}
                               >
                                 {opt.label}
                               </button>
@@ -579,7 +579,7 @@ export function ComboPlayer() {
                       )}
 
                       {index < selectedCombo.inputs.length - 1 && (
-                        <span className="absolute -right-2.5 top-1/2 -translate-y-1/2 text-[10px] text-slate-600">›</span>
+                        <span className="absolute -right-2.5 top-1/2 -translate-y-1/2 text-[10px] text-neutral-600">›</span>
                       )}
                     </div>
                   )
@@ -590,11 +590,11 @@ export function ComboPlayer() {
             {/* Gamepad row */}
             <div className={activeDevice === 'gamepad' ? 'opacity-100' : 'opacity-40'}>
               <div className="mb-1 flex items-center gap-1.5">
-                <svg className="h-3.5 w-3.5 text-slate-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <svg className="h-3.5 w-3.5 text-neutral-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M6 11h4M8 9v4M15 12h.01M18 10h.01" />
                   <rect x="2" y="6" width="20" height="12" rx="4" />
                 </svg>
-                <span className="text-[10px] font-medium uppercase tracking-wider text-slate-500">
+                <span className="text-[10px] font-medium uppercase tracking-wider text-neutral-500">
                   Controller
                 </span>
                 {activeDevice === 'gamepad' && <span className="h-1.5 w-1.5 rounded-full bg-cyan-400" />}
@@ -635,10 +635,10 @@ export function ComboPlayer() {
           </div>
 
           {/* Controls bar */}
-          <div className="mt-4 flex items-center justify-between rounded-lg border border-slate-800 bg-slate-900/50 px-4 py-2">
-            <div className="flex items-center gap-4 text-[11px] text-slate-500">
-              <span><kbd className="rounded bg-slate-800 px-1.5 py-0.5 font-mono text-slate-400">SPACE</kbd> reset</span>
-              <span><kbd className="rounded bg-slate-800 px-1.5 py-0.5 font-mono text-slate-400">{getDisplayKey(selectedCombo.inputs[0]!)}</kbd> start</span>
+          <div className="mt-4 flex items-center justify-between rounded-lg border border-neutral-800 bg-neutral-900/50 px-4 py-2">
+            <div className="flex items-center gap-4 text-[11px] text-neutral-500">
+              <span><kbd className="rounded bg-neutral-800 px-1.5 py-0.5 font-mono text-neutral-400">SPACE</kbd> reset</span>
+              <span><kbd className="rounded bg-neutral-800 px-1.5 py-0.5 font-mono text-neutral-400">{getDisplayKey(selectedCombo.inputs[0]!)}</kbd> start</span>
             </div>
             <Button variant="secondary" size="sm" onClick={handleReset}>
               Reset Combo

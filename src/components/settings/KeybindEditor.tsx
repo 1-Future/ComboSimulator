@@ -158,7 +158,7 @@ export function KeybindEditor() {
 
   return (
     <div className="space-y-3">
-      <h3 className="text-sm font-semibold text-slate-300">Keybinds</h3>
+      <h3 className="text-sm font-semibold text-neutral-300">Keybinds</h3>
 
       {conflict && (
         <div className="rounded border border-amber-700/50 bg-amber-950/30 px-3 py-2 text-xs text-amber-400">
@@ -171,20 +171,20 @@ export function KeybindEditor() {
 
       {/* Column headers */}
       <div className="grid grid-cols-[1fr_4.5rem_4.5rem] items-center gap-2">
-        <span className="text-[10px] font-medium uppercase tracking-wider text-slate-600">Action</span>
+        <span className="text-[10px] font-medium uppercase tracking-wider text-neutral-600">Action</span>
         <div className="flex items-center justify-center gap-1">
-          <svg className="h-3 w-3 text-slate-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <svg className="h-3 w-3 text-neutral-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <rect x="2" y="6" width="20" height="12" rx="2" />
             <path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M8 14h8" />
           </svg>
-          <span className="text-[10px] text-slate-600">Key</span>
+          <span className="text-[10px] text-neutral-600">Key</span>
         </div>
         <div className="flex items-center justify-center gap-1">
-          <svg className="h-3 w-3 text-slate-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <svg className="h-3 w-3 text-neutral-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M6 11h4M8 9v4M15 12h.01M18 10h.01" />
             <rect x="2" y="6" width="20" height="12" rx="4" />
           </svg>
-          <span className="text-[10px] text-slate-600">Pad</span>
+          <span className="text-[10px] text-neutral-600">Pad</span>
         </div>
       </div>
 
@@ -197,7 +197,7 @@ export function KeybindEditor() {
 
         return (
           <div key={id} className="grid grid-cols-[1fr_4.5rem_4.5rem] items-center gap-2">
-            <span className={`text-xs ${isDisplaced ? 'font-semibold text-amber-400' : 'text-slate-400'}`}>
+            <span className={`text-xs ${isDisplaced ? 'font-semibold text-amber-400' : 'text-neutral-400'}`}>
               {label}
             </span>
 
@@ -209,7 +209,7 @@ export function KeybindEditor() {
                   ? 'animate-pulse border-cyan-500 bg-cyan-950 text-cyan-400'
                   : isDisplaced || isEmpty
                     ? 'border-amber-600 bg-amber-950/50 text-amber-400'
-                    : 'border-slate-600 bg-slate-800 text-white hover:border-slate-500'
+                    : 'border-neutral-600 bg-neutral-800 text-white hover:border-neutral-500'
               }`}
             >
               {isKbListening ? '...' : isEmpty ? '—' : formatKeyDisplay(hotkeys[id] ?? '')}
@@ -221,7 +221,7 @@ export function KeybindEditor() {
               className={`rounded border px-2 py-1 text-center text-xs font-mono transition-colors ${
                 isGpListening
                   ? 'animate-pulse border-cyan-500 bg-cyan-950 text-cyan-400'
-                  : 'border-slate-700 bg-slate-800/50 text-slate-400 hover:border-slate-500 hover:text-white'
+                  : 'border-neutral-700 bg-neutral-800/50 text-neutral-400 hover:border-neutral-500 hover:text-white'
               }`}
             >
               {isGpListening ? '...' : getGamepadButtonForAction(id)}

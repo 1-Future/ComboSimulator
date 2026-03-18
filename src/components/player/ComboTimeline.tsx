@@ -31,13 +31,13 @@ export function ComboTimeline({ inputs, onSeek, onContextMenu }: ComboTimelinePr
             key={index}
             onClick={() => onSeek(Math.max(0, input.time - 0.5))}
             onContextMenu={(e) => onContextMenu?.(index, e)}
-            className="flex shrink-0 flex-col items-center rounded border px-2 py-1 transition-colors hover:bg-slate-700"
+            className="flex shrink-0 flex-col items-center rounded border px-2 py-1 transition-colors hover:bg-neutral-700"
             style={{ borderColor: color }}
           >
             <span className="text-xs font-mono font-bold" style={{ color }}>
               {getDisplayKey(input)}
             </span>
-            <span className="text-[9px] text-slate-500">{input.time.toFixed(2)}s</span>
+            <span className="text-[9px] text-neutral-500">{input.time.toFixed(2)}s</span>
           </button>
         )
       })}

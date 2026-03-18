@@ -34,10 +34,10 @@ export function ChampionBrowser({ onComboSelect }: ChampionBrowserProps) {
     <div className="mx-auto max-w-7xl px-4 py-6">
       {/* Hero / Intro */}
       {showHero && (
-        <div className="relative mb-6 overflow-hidden rounded-2xl border border-cyan-900/30 bg-gradient-to-br from-slate-900 via-cyan-950/20 to-slate-900 p-4 md:mb-8 md:p-8">
+        <div className="relative mb-6 overflow-hidden rounded-2xl border border-cyan-900/30 bg-gradient-to-br from-neutral-900 via-neutral-900/80 to-neutral-900 p-4 md:mb-8 md:p-8">
           <button
             onClick={() => setShowHero(false)}
-            className="absolute right-4 top-4 text-slate-500 hover:text-white"
+            className="absolute right-4 top-4 text-neutral-500 hover:text-white"
           >
             &#x2715;
           </button>
@@ -46,27 +46,27 @@ export function ChampionBrowser({ onComboSelect }: ChampionBrowserProps) {
               <img src="/images/logo.png?v=2" alt="" className="mr-2 inline h-8 w-8 align-middle" />
               Combo<span className="text-cyan-400">Sim</span>
             </h1>
-            <p className="mb-3 text-sm text-slate-300 md:mb-4 md:text-base">
+            <p className="mb-3 text-sm text-neutral-300 md:mb-4 md:text-base">
               Practice League of Legends champion combos with timing-graded keypresses synced to video. Like osu! but for LoL combos.
             </p>
             <div className="flex flex-wrap gap-6 text-sm">
               <div className="flex items-center gap-2">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-cyan-500/20 text-cyan-400">1</div>
-                <span className="text-slate-300">Pick a champion</span>
+                <span className="text-neutral-300">Pick a champion</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-cyan-500/20 text-cyan-400">2</div>
-                <span className="text-slate-300">Choose a combo</span>
+                <span className="text-neutral-300">Choose a combo</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-cyan-500/20 text-cyan-400">3</div>
-                <span className="text-slate-300">Press keys in time with the video</span>
+                <span className="text-neutral-300">Press keys in time with the video</span>
               </div>
             </div>
-            <div className="mt-4 flex flex-wrap gap-3 text-xs text-slate-500">
-              <span className="rounded border border-slate-700 px-2 py-1">SPACE = reset combo</span>
-              <span className="rounded border border-slate-700 px-2 py-1">First key = starts video</span>
-              <span className="rounded border border-slate-700 px-2 py-1">Right-click timeline = edit keys</span>
+            <div className="mt-4 flex flex-wrap gap-3 text-xs text-neutral-500">
+              <span className="rounded border border-neutral-700 px-2 py-1">SPACE = reset combo</span>
+              <span className="rounded border border-neutral-700 px-2 py-1">First key = starts video</span>
+              <span className="rounded border border-neutral-700 px-2 py-1">Right-click timeline = edit keys</span>
             </div>
           </div>
           {/* Decorative gradient orb */}
@@ -80,12 +80,12 @@ export function ChampionBrowser({ onComboSelect }: ChampionBrowserProps) {
           <h2 className="text-xl font-bold text-white">
             {champions.length} Champions
           </h2>
-          <p className="text-xs text-slate-500">Click a champion, then pick a combo to start practicing</p>
+          <p className="text-xs text-neutral-500">Click a champion, then pick a combo to start practicing</p>
         </div>
         {!showHero && (
           <button
             onClick={() => setShowHero(true)}
-            className="text-xs text-slate-500 hover:text-cyan-400"
+            className="text-xs text-neutral-500 hover:text-cyan-400"
           >
             How does this work?
           </button>
@@ -108,7 +108,7 @@ export function ChampionBrowser({ onComboSelect }: ChampionBrowserProps) {
             ))}
           </div>
           {filtered.length === 0 && (
-            <div className="py-12 text-center text-slate-500">
+            <div className="py-12 text-center text-neutral-500">
               No champions match your filters.
             </div>
           )}
@@ -117,7 +117,7 @@ export function ChampionBrowser({ onComboSelect }: ChampionBrowserProps) {
         {/* Combo sidebar / bottom panel on mobile */}
         {selectedChampion && (
           <div className="w-full shrink-0 md:w-80">
-            <div className="rounded-xl border border-slate-700/50 bg-slate-900/50 p-4 md:sticky md:top-20">
+            <div className="rounded-xl border border-neutral-700/50 bg-neutral-900/50 p-4 md:sticky md:top-20">
               <div className="mb-3 flex items-center gap-3">
                 {selectedChampion.portrait && (
                   <img
@@ -128,10 +128,10 @@ export function ChampionBrowser({ onComboSelect }: ChampionBrowserProps) {
                 )}
                 <div>
                   <h2 className="text-lg font-semibold text-white">{selectedChampion.name}</h2>
-                  <p className="text-xs text-slate-400">{selectedChampion.title}</p>
+                  <p className="text-xs text-neutral-400">{selectedChampion.title}</p>
                 </div>
               </div>
-              <p className="mb-3 text-[10px] text-slate-500">Click a combo below to start practicing</p>
+              <p className="mb-3 text-[10px] text-neutral-500">Click a combo below to start practicing</p>
               {championCombos ? (
                 <ComboList
                   combos={championCombos.combos}
@@ -142,7 +142,7 @@ export function ChampionBrowser({ onComboSelect }: ChampionBrowserProps) {
                   }}
                 />
               ) : (
-                <div className="text-sm text-slate-500">Loading combos...</div>
+                <div className="text-sm text-neutral-500">Loading combos...</div>
               )}
             </div>
           </div>

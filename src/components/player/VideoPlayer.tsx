@@ -22,7 +22,7 @@ export const VideoPlayer = forwardRef<HTMLVideoElement, VideoPlayerProps>(
 
     if (!filename) {
       return (
-        <div className="flex aspect-video w-full items-center justify-center bg-slate-800 text-slate-500">
+        <div className="flex aspect-video w-full items-center justify-center bg-neutral-800 text-neutral-500">
           Select a combo to load the video
         </div>
       )
