@@ -1,0 +1,1656 @@
+{
+  "characterId": "gogeta_(ss4)",
+  "game": "dbfz",
+  "gameName": "Dragon Ball FighterZ",
+  "name": "Gogeta (SS4)",
+  "combos": [
+    {
+      "id": "2m-5m-jc-mll2h-sd-j-mll2h-jc-lll",
+      "name": "2M > 5M > jc.MLL2H > SD > j.MLL2H > jc.LLL",
+      "notation": "2M > 5M > jc.MLL2H > SD > j.MLL2H > jc.LLL",
+      "description": " — 4185 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2M",
+          "time": 0.0,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.183,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "jc.MLL2H",
+          "time": 0.333,
+          "label": "jc.MLL2H",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 0.55,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.MLL2H",
+          "time": 0.767,
+          "label": "j.MLL2H",
+          "window": 100
+        },
+        {
+          "key": "jc.LLL",
+          "time": 0.983,
+          "label": "jc.LLL",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "4185"
+    },
+    {
+      "id": "2m-5m-6h-jc-mll2h",
+      "name": "2M > 5M > 6H > jc.MLL2H...",
+      "notation": "2M > 5M > 6H > jc.MLL2H...",
+      "description": " — 4307 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2M",
+          "time": 0.0,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.183,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.333,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "jc.MLL2H...",
+          "time": 0.517,
+          "label": "jc.MLL2H...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "4307"
+    },
+    {
+      "id": "jc-lls-214l",
+      "name": "... > jc.LLS > 214L",
+      "notation": "... > jc.LLS > 214L",
+      "description": " — 4235 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "jc.LLS",
+          "time": 0.217,
+          "label": "jc.LLS",
+          "window": 100
+        },
+        {
+          "key": "214L",
+          "time": 0.433,
+          "label": "214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "4235"
+    },
+    {
+      "id": "2m-6h-6h-5h-sd-j-ll2h-jc-lmhs-214l",
+      "name": "2M > 6H-6H > 5H > SD > j.LL2H > jc.LMHS > 214L",
+      "notation": "2M > 6H-6H > 5H > SD > j.LL2H > jc.LMHS > 214L",
+      "description": " — 4427 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2M",
+          "time": 0.0,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "6H-6H",
+          "time": 0.183,
+          "label": "6H-6H",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.4,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 0.683,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.LL2H",
+          "time": 0.9,
+          "label": "j.LL2H",
+          "window": 100
+        },
+        {
+          "key": "jc.LMHS",
+          "time": 1.117,
+          "label": "jc.LMHS",
+          "window": 100
+        },
+        {
+          "key": "214L",
+          "time": 1.333,
+          "label": "214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "4427"
+    },
+    {
+      "id": "2m-5m-jc-m-j-236m-airdash-delay-j-m-la",
+      "name": "2M > 5M > jc.M > j.236M > airdash > delay j.M > land > 6H > ",
+      "notation": "2M > 5M > jc.M > j.236M > airdash > delay j.M > land > 6H > sjc.MLLSS > SD > j.LL2H > jc.LMHSS > 214L",
+      "description": " — 5107 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2M",
+          "time": 0.0,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.183,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "jc.M",
+          "time": 0.333,
+          "label": "jc.M",
+          "window": 100
+        },
+        {
+          "key": "j.236M",
+          "time": 0.55,
+          "label": "j.236M",
+          "window": 100
+        },
+        {
+          "key": "airdash",
+          "time": 0.833,
+          "label": "airdash",
+          "window": 100
+        },
+        {
+          "key": "delay j.M",
+          "time": 1.05,
+          "label": "delay j.M",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 1.267,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 1.483,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "sjc.MLLSS",
+          "time": 1.667,
+          "label": "sjc.MLLSS",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 1.883,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.LL2H",
+          "time": 2.1,
+          "label": "j.LL2H",
+          "window": 100
+        },
+        {
+          "key": "jc.LMHSS",
+          "time": 2.317,
+          "label": "jc.LMHSS",
+          "window": 100
+        },
+        {
+          "key": "214L",
+          "time": 2.533,
+          "label": "214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5107"
+    },
+    {
+      "id": "214s-sd-j-ll2h-jc-lll",
+      "name": "214S > SD > j.LL2H > jc.LLL",
+      "notation": "214S > SD > j.LL2H > jc.LLL",
+      "description": " — 2035 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "214S",
+          "time": 0.0,
+          "label": "214S",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 0.067,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.LL2H",
+          "time": 0.283,
+          "label": "j.LL2H",
+          "window": 100
+        },
+        {
+          "key": "jc.LLL",
+          "time": 0.5,
+          "label": "jc.LLL",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "2035"
+    },
+    {
+      "id": "sd-j-ml-jc-ll-j236m-airdash-js-j-214l",
+      "name": "SD > j.ML > jc.LL > j236M > airdash > jS > j.214L",
+      "notation": "SD > j.ML > jc.LL > j236M > airdash > jS > j.214L",
+      "description": " — 2490 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "SD",
+          "time": 0.0,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.ML",
+          "time": 0.217,
+          "label": "j.ML",
+          "window": 100
+        },
+        {
+          "key": "jc.LL",
+          "time": 0.433,
+          "label": "jc.LL",
+          "window": 100
+        },
+        {
+          "key": "j236M",
+          "time": 0.65,
+          "label": "j236M",
+          "window": 100
+        },
+        {
+          "key": "airdash",
+          "time": 0.867,
+          "label": "airdash",
+          "window": 100
+        },
+        {
+          "key": "jS",
+          "time": 1.083,
+          "label": "jS",
+          "window": 100
+        },
+        {
+          "key": "j.214L",
+          "time": 1.3,
+          "label": "j.214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "2490"
+    },
+    {
+      "id": "2h-dr-sd-j-mll2h-jc-lll",
+      "name": "2H/DR > SD > j.MLL2H > jc.LLL",
+      "notation": "2H/DR > SD > j.MLL2H > jc.LLL",
+      "description": " — 3445/2892 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2H/DR",
+          "time": 0.0,
+          "label": "2H/DR",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 0.217,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.MLL2H",
+          "time": 0.433,
+          "label": "j.MLL2H",
+          "window": 100
+        },
+        {
+          "key": "jc.LLL",
+          "time": 0.65,
+          "label": "jc.LLL",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "3445/2892"
+    },
+    {
+      "id": "2h-sd-j-mll2h-jc-ll2h-vanish-236l-whiff",
+      "name": "2H > SD > j.MLL2H > jc.LL2H > vanish > 236L(whiff) > j.LLS >",
+      "notation": "2H > SD > j.MLL2H > jc.LL2H > vanish > 236L(whiff) > j.LLS > 214L",
+      "description": " — 4105 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2H",
+          "time": 0.0,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 0.217,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.MLL2H",
+          "time": 0.433,
+          "label": "j.MLL2H",
+          "window": 100
+        },
+        {
+          "key": "jc.LL2H",
+          "time": 0.65,
+          "label": "jc.LL2H",
+          "window": 100
+        },
+        {
+          "key": "vanish",
+          "time": 0.867,
+          "label": "vanish",
+          "window": 100
+        },
+        {
+          "key": "236L",
+          "time": 1.083,
+          "label": "236L",
+          "window": 100
+        },
+        {
+          "key": "j.LLS",
+          "time": 1.3,
+          "label": "j.LLS",
+          "window": 100
+        },
+        {
+          "key": "214L",
+          "time": 1.517,
+          "label": "214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "4105"
+    },
+    {
+      "id": "vanish-microdash-2m-5m-6h-6h-5s-sd",
+      "name": "...vanish > microdash > 2M > 5M > 6H-6H > 5S > SD > j.LL2H >",
+      "notation": "...vanish > microdash > 2M > 5M > 6H-6H > 5S > SD > j.LL2H > j.LMH > j.S > 214L",
+      "description": " — 2575 (from 236S) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...vanish",
+          "time": 0.0,
+          "label": "...vanish",
+          "window": 100
+        },
+        {
+          "key": "microdash",
+          "time": 0.217,
+          "label": "microdash",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.433,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.617,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6H-6H",
+          "time": 0.767,
+          "label": "6H-6H",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.983,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 1.2,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.LL2H",
+          "time": 1.417,
+          "label": "j.LL2H",
+          "window": 100
+        },
+        {
+          "key": "j.LMH",
+          "time": 1.633,
+          "label": "j.LMH",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.85,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "214L",
+          "time": 2.067,
+          "label": "214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "2575 (from 236S)"
+    },
+    {
+      "id": "vanish-dash-5lll-sd-j-ll2h-j-lmh-j",
+      "name": "...vanish > dash > 5LLL > SD > j.LL2H > j.LMH > j.S > 214L",
+      "notation": "...vanish > dash > 5LLL > SD > j.LL2H > j.LMH > j.S > 214L",
+      "description": " — 2465 (from 236S) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...vanish",
+          "time": 0.0,
+          "label": "...vanish",
+          "window": 100
+        },
+        {
+          "key": "dash",
+          "time": 0.217,
+          "label": "dash",
+          "window": 100
+        },
+        {
+          "key": "5LLL",
+          "time": 0.433,
+          "label": "5LLL",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 0.683,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.LL2H",
+          "time": 0.9,
+          "label": "j.LL2H",
+          "window": 100
+        },
+        {
+          "key": "j.LMH",
+          "time": 1.117,
+          "label": "j.LMH",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.333,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "214L",
+          "time": 1.55,
+          "label": "214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "2465 (from 236S)"
+    },
+    {
+      "id": "jcll-j236l-vanish-whiff-236l-jlls-j21",
+      "name": "...jcLL > j236L > Vanish > (whiff 236L) jLLS > j214L",
+      "notation": "...jcLL > j236L > Vanish > (whiff 236L) jLLS > j214L",
+      "description": " — ~550 extra (from BnB) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...jcLL",
+          "time": 0.0,
+          "label": "...jcLL",
+          "window": 100
+        },
+        {
+          "key": "j236L",
+          "time": 0.217,
+          "label": "j236L",
+          "window": 100
+        },
+        {
+          "key": "Vanish",
+          "time": 0.433,
+          "label": "Vanish",
+          "window": 100
+        },
+        {
+          "key": "jLLS",
+          "time": 0.65,
+          "label": "jLLS",
+          "window": 100
+        },
+        {
+          "key": "j214L",
+          "time": 0.867,
+          "label": "j214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "~550 extra (from BnB)"
+    },
+    {
+      "id": "236h-large-delay-6h-6h-5s-sd-j-ll2h-jc",
+      "name": "236H > large delay > 6H-6H > 5S > SD > j.LL2H > jc.LMH > j.S",
+      "notation": "236H > large delay > 6H-6H > 5S > SD > j.LL2H > jc.LMH > j.S > 214L",
+      "description": " — 4270 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236H",
+          "time": 0.0,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "large delay",
+          "time": 0.217,
+          "label": "large delay",
+          "window": 100
+        },
+        {
+          "key": "6H-6H",
+          "time": 0.433,
+          "label": "6H-6H",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.65,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 0.867,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.LL2H",
+          "time": 1.083,
+          "label": "j.LL2H",
+          "window": 100
+        },
+        {
+          "key": "jc.LMH",
+          "time": 1.3,
+          "label": "jc.LMH",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.517,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "214L",
+          "time": 1.733,
+          "label": "214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "4270"
+    },
+    {
+      "id": "236h-microdash-very-slight-delay-2m-5m-6",
+      "name": "236H > microdash > very slight delay > 2M > 5M > 6H-6H > 5S ",
+      "notation": "236H > microdash > very slight delay > 2M > 5M > 6H-6H > 5S > SD > j.LL2H > jc.LMH > j.S > 214L",
+      "description": " — 4822 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236H",
+          "time": 0.0,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "microdash",
+          "time": 0.217,
+          "label": "microdash",
+          "window": 100
+        },
+        {
+          "key": "very slight delay",
+          "time": 0.433,
+          "label": "very slight delay",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.65,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.833,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6H-6H",
+          "time": 0.983,
+          "label": "6H-6H",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.2,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 1.417,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.LL2H",
+          "time": 1.633,
+          "label": "j.LL2H",
+          "window": 100
+        },
+        {
+          "key": "jc.LMH",
+          "time": 1.85,
+          "label": "jc.LMH",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.067,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "214L",
+          "time": 2.283,
+          "label": "214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "4822"
+    },
+    {
+      "id": "236h-land-6h-whiff-3h-2m-5m-6h-sjc-lm",
+      "name": "236H > land > 6H(whiff)-3H > 2M > 5M > 6H > sjc.LML2H > jc.L",
+      "notation": "236H > land > 6H(whiff)-3H > 2M > 5M > 6H > sjc.LML2H > jc.LMLS > SD > j.LMHS > 214L",
+      "description": " — 5210 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236H",
+          "time": 0.0,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 0.217,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "6H-3H",
+          "time": 0.433,
+          "label": "6H-3H",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.65,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.833,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.983,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "sjc.LML2H",
+          "time": 1.167,
+          "label": "sjc.LML2H",
+          "window": 100
+        },
+        {
+          "key": "jc.LMLS",
+          "time": 1.383,
+          "label": "jc.LMLS",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 1.6,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.LMHS",
+          "time": 1.817,
+          "label": "j.LMHS",
+          "window": 100
+        },
+        {
+          "key": "214L",
+          "time": 2.033,
+          "label": "214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5210"
+    },
+    {
+      "id": "236m-214h-5s-j-s-22s-vanish-5h-etc-214h-s-at",
+      "name": "236M/214H/5S/j.S/22S/.. Vanish/5H/etc > 214H+S (at level 7)",
+      "notation": "236M/214H/5S/j.S/22S/.. Vanish/5H/etc > 214H+S (at level 7)",
+      "description": " — 20000 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236M/214H/5S/j.S/22S/.. Vanish/5H/etc",
+          "time": 0.0,
+          "label": "236M/214H/5S/j.S/22S/.. Vanish/5H/etc",
+          "window": 100
+        },
+        {
+          "key": "214H+S",
+          "time": 0.217,
+          "label": "214H+S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "20000"
+    },
+    {
+      "id": "214s-236h-whiff-microdash-5ll-6h-sjc-m",
+      "name": "214S > 236H (whiff) > microdash > 5LL > 6H > sjc.MLLS > SD >",
+      "notation": "214S > 236H (whiff) > microdash > 5LL > 6H > sjc.MLLS > SD > j.LL2H > jc.LMHs > 214L",
+      "description": " — 2630 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "214S",
+          "time": 0.0,
+          "label": "214S",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.067,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "microdash",
+          "time": 0.283,
+          "label": "microdash",
+          "window": 100
+        },
+        {
+          "key": "5LL",
+          "time": 0.5,
+          "label": "5LL",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.65,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "sjc.MLLS",
+          "time": 0.833,
+          "label": "sjc.MLLS",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 1.05,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.LL2H",
+          "time": 1.267,
+          "label": "j.LL2H",
+          "window": 100
+        },
+        {
+          "key": "jc.LMHs",
+          "time": 1.483,
+          "label": "jc.LMHs",
+          "window": 100
+        },
+        {
+          "key": "214L",
+          "time": 1.7,
+          "label": "214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "2630"
+    },
+    {
+      "id": "236m-2m-5m-6h-6h-5h-5s-sd-j-ll",
+      "name": "... > 236M > 2M > 5M > 6H-6H > 5H > 5S > SD > j.LL2H > j.LMH",
+      "notation": "... > 236M > 2M > 5M > 6H-6H > 5H > 5S > SD > j.LL2H > j.LMHS > 214L",
+      "description": " — 5167 (from 2M) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.217,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.5,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.683,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6H-6H",
+          "time": 0.833,
+          "label": "6H-6H",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 1.05,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.333,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 1.55,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.LL2H",
+          "time": 1.767,
+          "label": "j.LL2H",
+          "window": 100
+        },
+        {
+          "key": "j.LMHS",
+          "time": 1.983,
+          "label": "j.LMHS",
+          "window": 100
+        },
+        {
+          "key": "214L",
+          "time": 2.2,
+          "label": "214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5167 (from 2M)"
+    },
+    {
+      "id": "236m-2m-5m-6h-sjc-4llmhs-sd-j-ll",
+      "name": "... > 236M > 2M > 5M > 6H > sjc.4LLMHS > SD > j.LL2H > j.LMH",
+      "notation": "... > 236M > 2M > 5M > 6H > sjc.4LLMHS > SD > j.LL2H > j.LMHS > j.214L",
+      "description": " — 5222 (from 2M) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.217,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.5,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.683,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.833,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "sjc.4LLMHS",
+          "time": 1.017,
+          "label": "sjc.4LLMHS",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 1.233,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.LL2H",
+          "time": 1.45,
+          "label": "j.LL2H",
+          "window": 100
+        },
+        {
+          "key": "j.LMHS",
+          "time": 1.667,
+          "label": "j.LMHS",
+          "window": 100
+        },
+        {
+          "key": "j.214L",
+          "time": 1.883,
+          "label": "j.214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5222 (from 2M)"
+    },
+    {
+      "id": "236m-2m-delay-6h-iad-j-ml-6h",
+      "name": "... > 236M > 2M > delay 6H > IAD j.ML > 6H > ...",
+      "notation": "... > 236M > 2M > delay 6H > IAD j.ML > 6H > ...",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.217,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.5,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "delay 6H",
+          "time": 0.683,
+          "label": "delay 6H",
+          "window": 100
+        },
+        {
+          "key": "IAD j.ML",
+          "time": 0.9,
+          "label": "IAD j.ML",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 1.117,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.3,
+          "label": "...",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2m-5m-jc-m-236m-delay-j-m-land-6h-sj",
+      "name": "2M > 5M > jc.M > 236M > delay j.M > land > 6H > sjc.LMLHS > ",
+      "notation": "2M > 5M > jc.M > 236M > delay j.M > land > 6H > sjc.LMLHS > SD > j.LL2H > j.LMHS > 214L",
+      "description": " — 5322 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2M",
+          "time": 0.0,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.183,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "jc.M",
+          "time": 0.333,
+          "label": "jc.M",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.55,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "delay j.M",
+          "time": 0.833,
+          "label": "delay j.M",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 1.05,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 1.267,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "sjc.LMLHS",
+          "time": 1.45,
+          "label": "sjc.LMLHS",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 1.667,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "j.LL2H",
+          "time": 1.883,
+          "label": "j.LL2H",
+          "window": 100
+        },
+        {
+          "key": "j.LMHS",
+          "time": 2.1,
+          "label": "j.LMHS",
+          "window": 100
+        },
+        {
+          "key": "214L",
+          "time": 2.317,
+          "label": "214L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5322"
+    },
+    {
+      "id": "2m-5m-6h-jc-m-jc-mlhs-sd-66j-m",
+      "name": "... > 2M > 5M > 6H > jc.M > jc.MLHS > SD > 66j.M > j.236M > ",
+      "notation": "... > 2M > 5M > 6H > jc.M > jc.MLHS > SD > 66j.M > j.236M > delay j.M > 6H6H > 5S > 5H > 22S",
+      "description": " — 5100 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.217,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.4,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.55,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "jc.M",
+          "time": 0.733,
+          "label": "jc.M",
+          "window": 100
+        },
+        {
+          "key": "jc.MLHS",
+          "time": 0.95,
+          "label": "jc.MLHS",
+          "window": 100
+        },
+        {
+          "key": "SD",
+          "time": 1.167,
+          "label": "SD",
+          "window": 100
+        },
+        {
+          "key": "66j.M",
+          "time": 1.383,
+          "label": "66j.M",
+          "window": 100
+        },
+        {
+          "key": "j.236M",
+          "time": 1.6,
+          "label": "j.236M",
+          "window": 100
+        },
+        {
+          "key": "delay j.M",
+          "time": 1.883,
+          "label": "delay j.M",
+          "window": 100
+        },
+        {
+          "key": "6H6H",
+          "time": 2.1,
+          "label": "6H6H",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 2.317,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 2.533,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "22S",
+          "time": 2.817,
+          "label": "22S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5100"
+    }
+  ],
+  "frameData": {
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "5L": {
+      "input": "5L",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5LL": {
+      "input": "5LL",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5LLL": {
+      "input": "5LLL",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5M": {
+      "input": "5M",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5H": {
+      "input": "5H",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5S": {
+      "input": "5S",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2L": {
+      "input": "2L",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2M": {
+      "input": "2M",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "6M": {
+      "input": "6M",
+      "startup": 24,
+      "on_hit": 18,
+      "raw_on_hit": "18"
+    },
+    "6H": {
+      "input": "6H",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "6H > 6H": {
+      "input": "6H > 6H",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "6H > 3H": {
+      "input": "6H > 3H",
+      "startup": 21,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "6S": {
+      "input": "6S",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.L": {
+      "input": "j.L",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.M": {
+      "input": "j.M",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.S": {
+      "input": "j.S",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.2H": {
+      "input": "j.2H",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236L": {
+      "input": "236L",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236M": {
+      "input": "236M",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236H": {
+      "input": "236H",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.236L": {
+      "input": "j.236L",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.236M": {
+      "input": "j.236M",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.236H": {
+      "input": "j.236H",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214L": {
+      "input": "214L",
+      "startup": 23,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214M": {
+      "input": "214M",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214H": {
+      "input": "214H",
+      "startup": 24,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.214L": {
+      "input": "j.214L",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.214M": {
+      "input": "j.214M",
+      "startup": 29,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.214H": {
+      "input": "j.214H",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236S": {
+      "input": "236S",
+      "startup": 24,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214S": {
+      "input": "214S",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.214S": {
+      "input": "j.214S",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "22S": {
+      "input": "22S",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Assist A": {
+      "input": "Assist A",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Assist B": {
+      "input": "Assist B",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Assist C": {
+      "input": "Assist C",
+      "startup": 30,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236L+M": {
+      "input": "236L+M",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.236L+M": {
+      "input": "j.236L+M",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214L+M": {
+      "input": "214L+M",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.214L+M": {
+      "input": "j.214L+M",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214H+S": {
+      "input": "214H+S",
+      "startup": 25,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.214H+S": {
+      "input": "j.214H+S",
+      "startup": 25,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

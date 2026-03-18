@@ -23,6 +23,17 @@ export const GAMES: Game[] = [
     comboCount: 794,
   },
   {
+    id: 'dbfz',
+    name: 'Dragon Ball FighterZ',
+    shortName: 'DBFZ',
+    image: '/images/games/dbfz.jpg',
+    color: '#FF9800',
+    description: '687 combos from Dustloop with frame-data timing.',
+    status: 'live',
+    characterCount: 20,
+    comboCount: 687,
+  },
+  {
     id: 'sf6',
     name: 'Street Fighter 6',
     shortName: 'SF6',
