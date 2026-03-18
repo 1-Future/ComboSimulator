@@ -109,7 +109,6 @@ export default function App() {
 
           {/* Coming soon games */}
           <Route path="/sf6" element={<ComingSoon />} />
-          <Route path="/tekken8" element={<ComingSoon />} />
           <Route path="/mk1" element={<ComingSoon />} />
           <Route path="/smash" element={<ComingSoon />} />
 
