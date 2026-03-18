@@ -6,6 +6,7 @@ import { timingEngine } from '@/engine/TimingEngine'
 import { TimingOverlay } from '@/components/player/TimingOverlay'
 import { EarlyLateIndicator } from '@/components/player/EarlyLateIndicator'
 import { StatsPanel } from '@/components/stats/StatsPanel'
+import { GameKeybindEditor } from './GameKeybindEditor'
 import { Button } from '@/components/ui/Button'
 import { GRADE_COLORS } from '@/lib/constants'
 import type { ComboInput } from '@/types/combo'
@@ -36,6 +37,7 @@ export function NotationComboPlayer() {
   const [charData, setCharData] = useState<CharacterData | null>(null)
   const [selectedCombo, setSelectedCombo] = useState<FightingCombo | null>(null)
   const [comboSearch, setComboSearch] = useState('')
+  const [showKeybinds, setShowKeybinds] = useState(false)
 
   const comboState = useEngineStore((s) => s.comboState)
   const hits = useEngineStore((s) => s.hits)
@@ -283,11 +285,26 @@ export function NotationComboPlayer() {
               {/* Early/Late */}
               <EarlyLateIndicator />
 
-              {/* Controls hint */}
-              <div className="mt-3 flex items-center gap-4 text-[11px] text-neutral-500">
-                <span><kbd className="rounded bg-neutral-800 px-1.5 py-0.5 font-mono text-neutral-400">SPACE</kbd> reset</span>
-                <span>Type the combo inputs in order — timing from frame data</span>
+              {/* Controls hint + keybind toggle */}
+              <div className="mt-3 flex items-center justify-between">
+                <div className="flex items-center gap-4 text-[11px] text-neutral-500">
+                  <span><kbd className="rounded bg-neutral-800 px-1.5 py-0.5 font-mono text-neutral-400">SPACE</kbd> reset</span>
+                  <span>Timing from frame data</span>
+                </div>
+                <button
+                  onClick={() => setShowKeybinds(!showKeybinds)}
+                  className="text-[11px] text-neutral-500 hover:text-white"
+                >
+                  {showKeybinds ? 'Hide Keybinds' : 'Keybinds'}
+                </button>
               </div>
+
+              {/* Per-game keybind editor */}
+              {showKeybinds && gameId && (
+                <div className="mt-3 rounded-lg border border-neutral-700 bg-neutral-900/50 p-4">
+                  <GameKeybindEditor gameId={gameId} />
+                </div>
+              )}
 
               {/* Stats */}
               <StatsPanel />
