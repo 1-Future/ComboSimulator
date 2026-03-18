@@ -52,15 +52,15 @@ export function ChampionBrowser({ onComboSelect }: ChampionBrowserProps) {
             </p>
             <div className="flex flex-wrap gap-6 text-sm">
               <div className="flex items-center gap-2">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-cyan-500/20 text-cyan-400">1</div>
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-red-500/20 text-red-500">1</div>
                 <span className="text-neutral-300">Pick a champion</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-cyan-500/20 text-cyan-400">2</div>
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-red-500/20 text-red-500">2</div>
                 <span className="text-neutral-300">Choose a combo</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-cyan-500/20 text-cyan-400">3</div>
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-red-500/20 text-red-500">3</div>
                 <span className="text-neutral-300">Press keys in time with the video</span>
               </div>
             </div>
