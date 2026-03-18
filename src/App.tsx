@@ -5,6 +5,8 @@ import { GameSelector } from '@/components/GameSelector'
 import { ChampionBrowser } from '@/components/champion/ChampionBrowser'
 import { PanelComboPlayer } from '@/components/player/PanelComboPlayer'
 import { ComboEditor } from '@/components/editor/ComboEditor'
+import { FightingCharacterBrowser } from '@/components/fighting/FightingCharacterBrowser'
+import { NotationComboPlayer } from '@/components/fighting/NotationComboPlayer'
 import { useComboStore } from '@/stores/comboStore'
 import { initAudio } from '@/lib/audio'
 import type { ChampionCombos } from '@/types/combo'
@@ -99,10 +101,21 @@ export default function App() {
           <Route path="/league" element={<LeagueBrowser />} />
           <Route path="/league/:championId/:comboId" element={<LeaguePlayPage />} />
 
+          {/* Fighting games — Dustloop data */}
+          <Route path="/ggst" element={<FightingCharacterBrowser />} />
+          <Route path="/ggst/:characterId" element={<NotationComboPlayer />} />
+          <Route path="/dbfz" element={<FightingCharacterBrowser />} />
+          <Route path="/dbfz/:characterId" element={<NotationComboPlayer />} />
+          <Route path="/bbcf" element={<FightingCharacterBrowser />} />
+          <Route path="/bbcf/:characterId" element={<NotationComboPlayer />} />
+          <Route path="/gbvsr" element={<FightingCharacterBrowser />} />
+          <Route path="/gbvsr/:characterId" element={<NotationComboPlayer />} />
+          <Route path="/p4au" element={<FightingCharacterBrowser />} />
+          <Route path="/p4au/:characterId" element={<NotationComboPlayer />} />
+
           {/* Coming soon games */}
           <Route path="/sf6/*" element={<ComingSoon />} />
           <Route path="/tekken8/*" element={<ComingSoon />} />
-          <Route path="/ggst/*" element={<ComingSoon />} />
           <Route path="/mk1/*" element={<ComingSoon />} />
           <Route path="/smash/*" element={<ComingSoon />} />
 
