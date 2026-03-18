@@ -95,34 +95,57 @@ function GameCard({ game }: { game: typeof GAMES[number] }) {
 
   const content = (
     <div
-      className={`group relative overflow-hidden rounded-xl border p-5 transition-all ${
+      className={`group relative overflow-hidden rounded-xl border transition-all ${
         isLive
           ? 'border-neutral-700 bg-neutral-900/80 hover:border-neutral-600 hover:bg-neutral-800/80'
           : 'border-neutral-800/50 bg-neutral-900/30 opacity-60'
       }`}
     >
-      {/* Status badge */}
-      {!isLive && (
-        <span className="absolute right-3 top-3 rounded bg-neutral-800 px-2 py-0.5 text-[10px] font-medium text-neutral-500">
-          Coming Soon
-        </span>
-      )}
+      {/* Cover art */}
+      <div className="relative h-40 overflow-hidden">
+        {game.image ? (
+          <img
+            src={game.image}
+            alt={game.name}
+            className="h-full w-full object-cover"
+          />
+        ) : (
+          <div
+            className="flex h-full items-center justify-center"
+            style={{ background: `linear-gradient(135deg, ${game.color}20 0%, transparent 100%)` }}
+          >
+            <span className="text-3xl font-black" style={{ color: game.color }}>{game.shortName}</span>
+          </div>
+        )}
+        {/* Gradient fade to card bg */}
+        <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-neutral-900 to-transparent" />
+      </div>
 
-      <h3 className="text-lg font-bold text-white">{game.name}</h3>
-      <p className="mt-1 text-xs text-neutral-500">{game.description}</p>
+      {/* Info */}
+      <div className="p-4">
+        {/* Status badge */}
+        {!isLive && (
+          <span className="mb-2 inline-block rounded bg-neutral-800 px-2 py-0.5 text-[10px] font-medium text-neutral-500">
+            Coming Soon
+          </span>
+        )}
 
-      {game.characterCount && (
-        <div className="mt-3 flex items-center gap-3 text-[11px] text-neutral-600">
-          <span>{game.characterCount} characters</span>
-          <span>{game.comboCount} combos</span>
-        </div>
-      )}
+        <h3 className="text-sm font-bold text-white">{game.name}</h3>
+        <p className="mt-1 text-xs text-neutral-500">{game.description}</p>
 
-      {isLive && (
-        <div className="mt-3 text-xs font-medium text-red-500 transition-colors group-hover:text-red-400">
-          Play now →
-        </div>
-      )}
+        {game.characterCount && (
+          <div className="mt-2 flex items-center gap-3 text-[11px] text-neutral-600">
+            <span>{game.characterCount} characters</span>
+            <span>{game.comboCount} combos</span>
+          </div>
+        )}
+
+        {isLive && (
+          <div className="mt-2 text-xs font-medium text-red-500 transition-colors group-hover:text-red-400">
+            Play now →
+          </div>
+        )}
+      </div>
     </div>
   )
 
