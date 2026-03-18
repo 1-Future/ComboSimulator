@@ -47,7 +47,6 @@ export function NotationComboPlayer() {
   const speed = useSettingsStore((s) => s.playbackSpeed)
   const setSpeed = useSettingsStore((s) => s.setPlaybackSpeed)
   const difficulty = useSettingsStore((s) => s.difficulty)
-  const intervalRef = useRef<number>(0)
 
   // Load character data
   useEffect(() => {
@@ -91,26 +90,29 @@ export function NotationComboPlayer() {
   }, [selectedCombo, difficulty])
 
   // Simulate video time progression when "playing"
-  // Since there's no video, we manually advance the engine's video time
+  // Since there's no video, we manually advance the video time via rAF
   useEffect(() => {
-    if (comboState !== 'playing') {
-      clearInterval(intervalRef.current)
-      return
-    }
+    if (comboState !== 'playing') return
 
+    let rafId: number
     const startTime = performance.now()
     const startVideoTime = timingEngine.getVideoCurrentTime()
+    let lastStore = 0
 
     const tick = () => {
       const elapsed = (performance.now() - startTime) / 1000 * speed
       const newTime = startVideoTime + elapsed
-      // Update the engine store's video time for the timeline
-      useEngineStore.getState().setVideoCurrentTime(newTime)
+      // Only update store at ~4fps to avoid re-render spam
+      const now = performance.now()
+      if (now - lastStore > 250) {
+        useEngineStore.getState().setVideoCurrentTime(newTime)
+        lastStore = now
+      }
+      rafId = requestAnimationFrame(tick)
     }
 
-    intervalRef.current = window.setInterval(tick, 16) // ~60fps
-
-    return () => clearInterval(intervalRef.current)
+    rafId = requestAnimationFrame(tick)
+    return () => cancelAnimationFrame(rafId)
   }, [comboState, speed])
 
   const handleReset = useCallback(() => {
@@ -133,16 +135,19 @@ export function NotationComboPlayer() {
     return () => document.removeEventListener('keydown', handler)
   }, [handleReset])
 
-  // First key starts the "playback"
+  // First key starts the "playback" — use a ref to avoid re-subscribing
+  const startedRef = useRef(false)
   useEffect(() => {
-    const unsub = useEngineStore.subscribe((state, prev) => {
-      if (prev.hits.length === 0 && state.hits.length === 1) {
-        // First hit — start time progression
-        useEngineStore.getState().setComboState('playing')
+    startedRef.current = false
+    const unsub = useEngineStore.subscribe((state) => {
+      if (!startedRef.current && state.hits.length === 1 && state.comboState !== 'playing') {
+        startedRef.current = true
+        // Defer to avoid setState during render
+        setTimeout(() => useEngineStore.getState().setComboState('playing'), 0)
       }
     })
     return unsub
-  }, [])
+  }, [selectedCombo])
 
   if (!charData) {
     return <div className="flex h-96 items-center justify-center text-neutral-500">Loading...</div>

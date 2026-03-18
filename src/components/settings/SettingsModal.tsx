@@ -1,4 +1,3 @@
-import { useLocation } from 'react-router-dom'
 import { Modal } from '@/components/ui/Modal'
 import { KeybindEditor } from './KeybindEditor'
 import { DifficultySelector } from './DifficultySelector'
@@ -12,16 +11,15 @@ interface SettingsModalProps {
   onClose: () => void
 }
 
-function detectGameFromPath(pathname: string): string | null {
-  const segment = pathname.split('/')[1]
+function detectGameFromPath(): string | null {
+  const segment = window.location.pathname.split('/')[1]
   if (segment && segment in GAME_INPUTS) return segment
   return null
 }
 
 export function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
-  const location = useLocation()
-  const currentGame = detectGameFromPath(location.pathname)
-  const isLeague = currentGame === 'league' || location.pathname.startsWith('/play/')
+  const currentGame = isOpen ? detectGameFromPath() : null
+  const isLeague = currentGame === 'league' || window.location.pathname.startsWith('/play/')
   const isFighting = currentGame && currentGame !== 'league'
 
   return (
@@ -30,7 +28,6 @@ export function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
         <DifficultySelector />
         <AudioSettings />
 
-        {/* Show the right keybind editor for the current game */}
         {isLeague && <KeybindEditor />}
         {isFighting && <GameKeybindEditor gameId={currentGame} />}
         {!isLeague && !isFighting && (
