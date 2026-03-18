@@ -3,7 +3,7 @@ export function Footer() {
     <footer className="border-t border-neutral-800 py-4 text-center text-xs text-neutral-500">
       <div className="mx-auto max-w-7xl px-4">
         <p>
-          ComboSimulator — Practice League of Legends champion combos
+          Combo Simulator by <a href="https://github.com/1-Future" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-white transition-colors">1-Future</a> on GitHub
         </p>
         <div className="mt-2 flex items-center justify-center gap-4">
           <a
