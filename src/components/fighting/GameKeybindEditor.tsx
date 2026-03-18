@@ -9,8 +9,15 @@ interface GameKeybindEditorProps {
 
 export function GameKeybindEditor({ gameId }: GameKeybindEditorProps) {
   const config = GAME_INPUTS[gameId]
-  const keybinds = useSettingsStore((s) => s.getGameKeybinds(gameId))
+  const savedKeybinds = useSettingsStore((s) => s.gameKeybinds[gameId])
   const setKeybind = useSettingsStore((s) => s.setGameKeybind)
+
+  // Use saved or defaults — computed outside selector to avoid new object per render
+  const keybinds = savedKeybinds ?? {
+    keyboard: { ...config?.defaultKeyboard },
+    directions: { ...config?.defaultDirections },
+    gamepad: { ...config?.defaultGamepad },
+  }
   const setDirection = useSettingsStore((s) => s.setGameDirection)
   const resetKeybinds = useSettingsStore((s) => s.resetGameKeybinds)
   const [listening, setListening] = useState<{ type: 'button' | 'direction'; id: string } | null>(null)
