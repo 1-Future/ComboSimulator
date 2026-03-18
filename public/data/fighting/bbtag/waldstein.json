@@ -1,0 +1,962 @@
+{
+  "characterId": "waldstein",
+  "game": "bbtag",
+  "gameName": "BlazBlue Cross Tag Battle",
+  "name": "Waldstein",
+  "combos": [
+    {
+      "id": "5a-236a",
+      "name": "5A > 236A",
+      "notation": "5A > 236A",
+      "description": "Any — 2908 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 0.467,
+          "label": "236A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "2908"
+    },
+    {
+      "id": "2bb-5bb-jc-j-aa-jc-j-aa-j-214a-j-c",
+      "name": "2BB > 5BB > jc > j.AA > jc > j.AA > j.214A/j.C",
+      "notation": "2BB > 5BB > jc > j.AA > jc > j.AA > j.214A/j.C",
+      "description": "Any — 6218/6236 with 2BB starter damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2BB",
+          "time": 0.0,
+          "label": "2BB",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 0.233,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.417,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.AA",
+          "time": 0.633,
+          "label": "j.AA",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.067,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.AA",
+          "time": 1.283,
+          "label": "j.AA",
+          "window": 100
+        },
+        {
+          "key": "j.214A/j.C",
+          "time": 1.717,
+          "label": "j.214A/j.C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6218/6236 with 2BB starter"
+    },
+    {
+      "id": "2bb-5bb-944-j-b-66-delay-j-aa-iad-j-aa-2",
+      "name": "2BB > 5BB > (944 > j.B 66/delay j.AA/IAD j.AA) > 2BB > Ender",
+      "notation": "2BB > 5BB > (944 > j.B 66/delay j.AA/IAD j.AA) > 2BB > Ender",
+      "description": "Any — 6794/6702 with 2BB starter damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2BB",
+          "time": 0.0,
+          "label": "2BB",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 0.233,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "(944",
+          "time": 0.417,
+          "label": "(944",
+          "window": 100
+        },
+        {
+          "key": "j.B 66/delay j.AA/IAD j.AA)",
+          "time": 0.633,
+          "label": "j.B 66/delay j.AA/IAD j.AA)",
+          "window": 100
+        },
+        {
+          "key": "2BB",
+          "time": 0.85,
+          "label": "2BB",
+          "window": 100
+        },
+        {
+          "key": "Ender",
+          "time": 1.083,
+          "label": "Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6794/6702 with 2BB starter"
+    },
+    {
+      "id": "5bb-944-j-b-66-delay-j-aa-iad-j-aa-2bb-5",
+      "name": "5BB > (944 > j.B 66/delay j.AA/IAD j.AA) > 2BB > 5BB, 2C > E",
+      "notation": "5BB > (944 > j.B 66/delay j.AA/IAD j.AA) > 2BB > 5BB, 2C > Ender",
+      "description": "Any — 7554/7251 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BB",
+          "time": 0.0,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "(944",
+          "time": 0.183,
+          "label": "(944",
+          "window": 100
+        },
+        {
+          "key": "j.B 66/delay j.AA/IAD j.AA)",
+          "time": 0.4,
+          "label": "j.B 66/delay j.AA/IAD j.AA)",
+          "window": 100
+        },
+        {
+          "key": "2BB",
+          "time": 0.617,
+          "label": "2BB",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 0.85,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.033,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "Ender",
+          "time": 1.217,
+          "label": "Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7554/7251"
+    },
+    {
+      "id": "6-4bc-66-5bb-944-j-b-66-delay-j-aa-iad-j-aa",
+      "name": "6/4BC 66 > 5BB > (944 > j.B 66/delay j.AA/IAD j.AA) > 2BB > ",
+      "notation": "6/4BC 66 > 5BB > (944 > j.B 66/delay j.AA/IAD j.AA) > 2BB > 5BB, 2C > Ender",
+      "description": "Any — 5662/5508 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6/4BC 66",
+          "time": 0.0,
+          "label": "6/4BC 66",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 0.217,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "(944",
+          "time": 0.4,
+          "label": "(944",
+          "window": 100
+        },
+        {
+          "key": "j.B 66/delay j.AA/IAD j.AA)",
+          "time": 0.617,
+          "label": "j.B 66/delay j.AA/IAD j.AA)",
+          "window": 100
+        },
+        {
+          "key": "2BB",
+          "time": 0.833,
+          "label": "2BB",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 1.067,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.25,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "Ender",
+          "time": 1.433,
+          "label": "Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5662/5508"
+    },
+    {
+      "id": "2bb-5bb-jc-iad-j-aa-2b-9hjc-j-b-dela",
+      "name": "2BB > 5BB > jc > IAD j.AA ▷ 2B > 9hjc > j.B > delay jc > j.A",
+      "notation": "2BB > 5BB > jc > IAD j.AA ▷ 2B > 9hjc > j.B > delay jc > j.A > j.214A",
+      "description": "Any — 5399 with 2A starter damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2BB",
+          "time": 0.0,
+          "label": "2BB",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 0.233,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.417,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "IAD j.AA ▷ 2B",
+          "time": 0.633,
+          "label": "IAD j.AA ▷ 2B",
+          "window": 100
+        },
+        {
+          "key": "9hjc",
+          "time": 0.85,
+          "label": "9hjc",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 1.067,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "delay jc",
+          "time": 1.283,
+          "label": "delay jc",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 1.5,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "j.214A",
+          "time": 2.017,
+          "label": "j.214A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5399 with 2A starter"
+    },
+    {
+      "id": "j-a-5p-5bb-944-j-b-66-delay-j-aa-iad-j-aa",
+      "name": "j.A + 5P > 5BB > (944 > j.B 66/delay j.AA/IAD j.AA) > 2BB  >",
+      "notation": "j.A + 5P > 5BB > (944 > j.B 66/delay j.AA/IAD j.AA) > 2BB  > Ender",
+      "description": "Any — Varies, 6293/6208 with Ragna 5P damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.A + 5P",
+          "time": 0.0,
+          "label": "j.A + 5P",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 0.217,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "(944",
+          "time": 0.4,
+          "label": "(944",
+          "window": 100
+        },
+        {
+          "key": "j.B 66/delay j.AA/IAD j.AA)",
+          "time": 0.617,
+          "label": "j.B 66/delay j.AA/IAD j.AA)",
+          "window": 100
+        },
+        {
+          "key": "2BB",
+          "time": 0.833,
+          "label": "2BB",
+          "window": 100
+        },
+        {
+          "key": "Ender",
+          "time": 1.067,
+          "label": "Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "Varies, 6293/6208 with Ragna 5P"
+    },
+    {
+      "id": "5bb-jc-j-a-j-214a",
+      "name": "5BB > jc > j.A > j.214A",
+      "notation": "5BB > jc > j.A > j.214A",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BB",
+          "time": 0.0,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.183,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 0.4,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "j.214A",
+          "time": 0.917,
+          "label": "j.214A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5bb-sjc-j-b-j-214a-b",
+      "name": "5BB > sjc > j.B > j.214A/B",
+      "notation": "5BB > sjc > j.B > j.214A/B",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BB",
+          "time": 0.0,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 0.183,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 0.4,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "j.214A/B",
+          "time": 0.617,
+          "label": "j.214A/B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5bb-214b-c-222b-c",
+      "name": "5BB > 214B+C/222B+C",
+      "notation": "5BB > 214B+C/222B+C",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BB",
+          "time": 0.0,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "214B+C/222B+C",
+          "time": 0.183,
+          "label": "214B+C/222B+C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5bb-jc-j-c",
+      "name": "5BB > jc > j.C",
+      "notation": "5BB > jc > j.C",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BB",
+          "time": 0.0,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.183,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.4,
+          "label": "j.C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5bb-jc-j-214c",
+      "name": "5BB > jc > j.214C",
+      "notation": "5BB > jc > j.214C",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BB",
+          "time": 0.0,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.183,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.214C",
+          "time": 0.4,
+          "label": "j.214C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5bb-delay-2c-delay-236b-c",
+      "name": "5BB > delay 2C > delay 236B+C",
+      "notation": "5BB > delay 2C > delay 236B+C",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BB",
+          "time": 0.0,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "delay 2C",
+          "time": 0.183,
+          "label": "delay 2C",
+          "window": 100
+        },
+        {
+          "key": "delay 236B+C",
+          "time": 0.4,
+          "label": "delay 236B+C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5bb-delay-2c-delay-5aaa",
+      "name": "5BB > delay 2C > delay 5AAA",
+      "notation": "5BB > delay 2C > delay 5AAA",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BB",
+          "time": 0.0,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "delay 2C",
+          "time": 0.183,
+          "label": "delay 2C",
+          "window": 100
+        },
+        {
+          "key": "delay 5AAA",
+          "time": 0.4,
+          "label": "delay 5AAA",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2c-jc-iad-j-a",
+      "name": "2C > jc > IAD j.A",
+      "notation": "2C > jc > IAD j.A",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2C",
+          "time": 0.0,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.183,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "IAD j.A",
+          "time": 0.4,
+          "label": "IAD j.A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "214a-b-c-214b-c-236b-c-222b-c",
+      "name": "214A/B/C > 214B+C/236B+C/222B+C",
+      "notation": "214A/B/C > 214B+C/236B+C/222B+C",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "214A/B/C",
+          "time": 0.0,
+          "label": "214A/B/C",
+          "window": 100
+        },
+        {
+          "key": "214B+C/236B+C/222B+C",
+          "time": 0.217,
+          "label": "214B+C/236B+C/222B+C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "j-214a-b-c-236b-c",
+      "name": "j.214A/B/C > 236B+C",
+      "notation": "j.214A/B/C > 236B+C",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.214A/B/C",
+          "time": 0.0,
+          "label": "j.214A/B/C",
+          "window": 100
+        },
+        {
+          "key": "236B+C",
+          "time": 0.217,
+          "label": "236B+C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "j-214a-214b-c-222b-c",
+      "name": "j.214A > 214B+C/222B+C",
+      "notation": "j.214A > 214B+C/222B+C",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.214A",
+          "time": 0.0,
+          "label": "j.214A",
+          "window": 100
+        },
+        {
+          "key": "214B+C/222B+C",
+          "time": 0.117,
+          "label": "214B+C/222B+C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "236a-236b-c",
+      "name": "236A > 236B+C",
+      "notation": "236A > 236B+C",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236A",
+          "time": 0.0,
+          "label": "236A",
+          "window": 100
+        },
+        {
+          "key": "236B+C",
+          "time": 0.25,
+          "label": "236B+C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    }
+  ],
+  "frameData": {
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 11,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 10,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5AAA": {
+      "input": "5AAA",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "5AAAA": {
+      "input": "5AAAA",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 8,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 15,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "5BB": {
+      "input": "5BB",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2BB": {
+      "input": "2BB",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5C": {
+      "input": "5C",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2C": {
+      "input": "2C",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 14,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.AA": {
+      "input": "j.AA",
+      "startup": 9,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.C": {
+      "input": "j.C",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "BC": {
+      "input": "BC",
+      "startup": 7,
+      "on_hit": 60,
+      "raw_on_hit": "Launch 60 + Down 29"
+    },
+    "AD": {
+      "input": "AD",
+      "startup": 22,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236A": {
+      "input": "236A",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236B": {
+      "input": "236B",
+      "startup": 30,
+      "on_hit": 19,
+      "raw_on_hit": "19×2, Launch"
+    },
+    "214A": {
+      "input": "214A",
+      "startup": 8,
+      "on_hit": 19,
+      "raw_on_hit": "Launch 19 + Down 53"
+    },
+    "214B": {
+      "input": "214B",
+      "startup": 13,
+      "on_hit": 19,
+      "raw_on_hit": "Launch 19 + Down 53"
+    },
+    "j.214A": {
+      "input": "j.214A",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.214B": {
+      "input": "j.214B",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236C": {
+      "input": "236C",
+      "startup": 15,
+      "on_hit": 19,
+      "raw_on_hit": "19×2, Launch×2"
+    },
+    "214C": {
+      "input": "214C",
+      "startup": 13,
+      "on_hit": 19,
+      "raw_on_hit": "Launch 19 + Down 53"
+    },
+    "j.214C": {
+      "input": "j.214C",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 18,
+      "on_hit": 19,
+      "raw_on_hit": "19×2, Launch"
+    },
+    "4P": {
+      "input": "4P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236BC": {
+      "input": "236BC",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214BC": {
+      "input": "214BC",
+      "startup": 13,
+      "on_hit": 120,
+      "raw_on_hit": "Launch 120 + Down 43"
+    },
+    "Distortion Skill Duo": {
+      "input": "Distortion Skill Duo",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "222BC": {
+      "input": "222BC",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

@@ -1,0 +1,1696 @@
+{
+  "characterId": "merkava",
+  "game": "bbtag",
+  "gameName": "BlazBlue Cross Tag Battle",
+  "name": "Merkava",
+  "combos": [
+    {
+      "id": "5aa-5bbb-2c-j-aa-j-aac",
+      "name": "5AA > 5BBB > 2C > j.AA > j.AAC",
+      "notation": "5AA > 5BBB > 2C > j.AA > j.AAC",
+      "description": "Ground — 5635 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5AA",
+          "time": 0.0,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.417,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.017,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "j.AA",
+          "time": 1.217,
+          "label": "j.AA",
+          "window": 100
+        },
+        {
+          "key": "j.AAC",
+          "time": 1.65,
+          "label": "j.AAC",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5635"
+    },
+    {
+      "id": "5a-2c-sj-b-j-66-xx-j-a-5a-2c-sj-b",
+      "name": "5A > 2C > sj.B > j.66 > xx > j.A > 5A > 2C > sj.B > j.66 > x",
+      "notation": "5A > 2C > sj.B > j.66 > xx > j.A > 5A > 2C > sj.B > j.66 > xx > j.A > 5A",
+      "description": "Ground — 5986 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.45,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 0.65,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 0.867,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 1.517,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 1.733,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 2.183,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 2.633,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 2.833,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 3.05,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 3.7,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 3.917,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 4.367,
+          "label": "5A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5986"
+    },
+    {
+      "id": "5a-2c-sj-b-j-8b-j-214a-xx-j-66-j-b",
+      "name": "5A > 2C > sj.B > j.8B > j.214A > xx > j.66 > j.B > 5AA > 5BB",
+      "notation": "5A > 2C > sj.B > j.8B > j.214A > xx > j.66 > j.B > 5AA > 5BBB > 236A",
+      "description": "Ground — 6174 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.45,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 0.65,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.8B",
+          "time": 0.867,
+          "label": "j.8B",
+          "window": 100
+        },
+        {
+          "key": "j.214A",
+          "time": 1.083,
+          "label": "j.214A",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 1.4,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 1.617,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 2.267,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 2.833,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 3.25,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 3.85,
+          "label": "236A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6174"
+    },
+    {
+      "id": "5b-2c-sj-b-j-66-xx-j-b-5a-2c-sj-b",
+      "name": "5B > 2C > sj.B > j.66 > xx > j.B > 5A > 2C > sj.B > j.66 > x",
+      "notation": "5B > 2C > sj.B > j.66 > xx > j.B > 5A > 2C > sj.B > j.66 > xx > j.B > 5A",
+      "description": "Ground — 6656 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.5,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 0.7,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 0.917,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 1.567,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 1.783,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 2.35,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 2.8,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 3.0,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 3.217,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 3.867,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 4.083,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 4.65,
+          "label": "5A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6656"
+    },
+    {
+      "id": "5b-2c-j-b-xx-j-a-5a-2c-j-b-xx-j",
+      "name": "5B > 2C > j.B > xx > j.A > 5A > 2C > j.B > xx > j.A > 5A",
+      "notation": "5B > 2C > j.B > xx > j.A > 5A > 2C > j.B > xx > j.A > 5A",
+      "description": "Ground — 6641 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.5,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 0.7,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 1.267,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 1.483,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 1.933,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 2.383,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 2.583,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 3.15,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 3.367,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 3.817,
+          "label": "5A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6641"
+    },
+    {
+      "id": "2a-2c-sj-b-j-66-xx-j-a-5aa-5bbb-2c",
+      "name": "2A > 2C > sj.B > j.66 > xx > j.A > 5AA > 5BBB > 2C > 236A",
+      "notation": "2A > 2C > sj.B > j.66 > xx > j.A > 5AA > 5BBB > 2C > 236A",
+      "description": "Ground — 5209 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2A",
+          "time": 0.0,
+          "label": "2A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.35,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 0.55,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 0.767,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 1.417,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 1.633,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 2.083,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 2.5,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 3.1,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 3.3,
+          "label": "236A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5209"
+    },
+    {
+      "id": "2b-2c-sj-b-j-66-xx-j-a-5aa-5bbb-2c",
+      "name": "2B > 2C > sj.B > j.66 > xx > j.A > 5AA > 5BBB > 2C > 236A",
+      "notation": "2B > 2C > sj.B > j.66 > xx > j.A > 5AA > 5BBB > 2C > 236A",
+      "description": "Ground — 6055 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2B",
+          "time": 0.0,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.5,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 0.7,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 0.917,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 1.567,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 1.783,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 2.233,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 2.65,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 3.25,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 3.45,
+          "label": "236A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6055"
+    },
+    {
+      "id": "2c-sj-b-j-66-xx-j-a-5a-2c-sj-b-j-6",
+      "name": "2C > sj.B > j.66 > xx > j.a > 5A > 2C > sj.B > j.66 > xx > j",
+      "notation": "2C > sj.B > j.66 > xx > j.a > 5A > 2C > sj.B > j.66 > xx > j.A > 5A > 2C(1) > 236A",
+      "description": "Ground — 6234 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2C",
+          "time": 0.0,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 0.2,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 0.417,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 1.067,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.a",
+          "time": 1.283,
+          "label": "j.a",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 1.5,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.95,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 2.15,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 2.367,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 3.017,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 3.233,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 3.683,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 4.133,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 4.333,
+          "label": "236A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6234"
+    },
+    {
+      "id": "j-b-xx-j-a-5b-2c-sj-b-j-66-xx-j-a",
+      "name": "j.B > xx > j.A > 5B > 2C > sj.B > j.66 > xx > j.A > 5A > 2C ",
+      "notation": "j.B > xx > j.A > 5B > 2C > sj.B > j.66 > xx > j.A > 5A > 2C > 5BB > 236A",
+      "description": "Air — 5857 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "air"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.B",
+          "time": 0.0,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 0.567,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 0.783,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 1.233,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.733,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 1.933,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 2.15,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 2.8,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 3.017,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 3.467,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 3.917,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 4.117,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 4.65,
+          "label": "236A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5857"
+    },
+    {
+      "id": "j-c-j-214b-6-5a-2c-sj-b-j-66-xx-j",
+      "name": "j.C > j.214B > 6 > 5A > 2C > sj.B > j.66 > xx > j.A > 5A > 2",
+      "notation": "j.C > j.214B > 6 > 5A > 2C > sj.B > j.66 > xx > j.A > 5A > 2C > 5BB > 236A",
+      "description": "Counter Hit — 6027 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "counter hit"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.C",
+          "time": 0.0,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 0.617,
+          "label": "j.214B",
+          "window": 100
+        },
+        {
+          "key": "6",
+          "time": 1.0,
+          "label": "6",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 1.217,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.667,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 1.867,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 2.083,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 2.733,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 2.95,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 3.4,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 3.85,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 4.05,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 4.583,
+          "label": "236A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6027"
+    },
+    {
+      "id": "j-c-j-214c-5a-2c-sj-b-j-66-xx-j-a",
+      "name": "j.C > j.214C > 5A > 2C > sj.B > j.66 > xx > j.A > 5A > 2C > ",
+      "notation": "j.C > j.214C > 5A > 2C > sj.B > j.66 > xx > j.A > 5A > 2C > 5BB > 236A",
+      "description": "Air — 5879 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "air"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.C",
+          "time": 0.0,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214C",
+          "time": 0.617,
+          "label": "j.214C",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 0.983,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.433,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 1.633,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 1.85,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 2.5,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 2.717,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 3.167,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 3.617,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 3.817,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 4.35,
+          "label": "236A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5879"
+    },
+    {
+      "id": "j-66-j-a-5a-2c-sj-b-j-66-xx-j-a-5a",
+      "name": "j.66 > j.A > 5A > 2C > sj.B > j.66 > xx > j.A > 5AA > 5BB > ",
+      "notation": "j.66 > j.A > 5A > 2C > sj.B > j.66 > xx > j.A > 5AA > 5BB > 236A",
+      "description": "Ground — 5382 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.66",
+          "time": 0.0,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 0.65,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 1.1,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.55,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 1.75,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 1.967,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 2.617,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 2.833,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 3.283,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 3.7,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 4.233,
+          "label": "236A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5382"
+    },
+    {
+      "id": "6-2c-sj-b-j-66-xx-j-a-5aa-5bb-236a",
+      "name": "6 > 2C > sj.B > j.66 > xx > j.A > 5AA > 5BB > 236A",
+      "notation": "6 > 2C > sj.B > j.66 > xx > j.A > 5AA > 5BB > 236A",
+      "description": "Ground — 4990 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6",
+          "time": 0.0,
+          "label": "6",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.217,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "sj.B",
+          "time": 0.417,
+          "label": "sj.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 0.633,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 1.283,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 1.5,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 1.95,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 2.367,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 2.9,
+          "label": "236A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "4990"
+    },
+    {
+      "id": "9-xx-j-b-j-66-xx-j-a-5a-2c-5bb-2",
+      "name": "9 > xx > j.B > j.66 > xx > j.A > 5A > 2C > 5BB > 236A",
+      "notation": "9 > xx > j.B > j.66 > xx > j.A > 5A > 2C > 5BB > 236A",
+      "description": "Ground — 4944 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "9",
+          "time": 0.0,
+          "label": "9",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 0.217,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 0.433,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "j.66",
+          "time": 1.0,
+          "label": "j.66",
+          "window": 100
+        },
+        {
+          "key": "xx",
+          "time": 1.65,
+          "label": "xx",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 1.867,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 2.317,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 2.767,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 2.967,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 3.5,
+          "label": "236A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "4944"
+    },
+    {
+      "id": "5a-2c-236a-6a-2c-236a-6a-2c-236a",
+      "name": "5A > 2C > 236A > 6A > 2C > 236A > 6A > 2C > 236A > 6A",
+      "notation": "5A > 2C > 236A > 6A > 2C > 236A > 6A > 2C > 236A > 6A",
+      "description": "Ground — 6545 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.45,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 0.65,
+          "label": "236A",
+          "window": 100
+        },
+        {
+          "key": "6A",
+          "time": 0.867,
+          "label": "6A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.083,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 1.283,
+          "label": "236A",
+          "window": 100
+        },
+        {
+          "key": "6A",
+          "time": 1.5,
+          "label": "6A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.717,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 1.917,
+          "label": "236A",
+          "window": 100
+        },
+        {
+          "key": "6A",
+          "time": 2.133,
+          "label": "6A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6545"
+    },
+    {
+      "id": "5b-2c-236a-6a-2c-236a-6a-2c-236a",
+      "name": "5B > 2C > 236A > 6A > 2C > 236A > 6A > 2C > 236A > 6A (214BC",
+      "notation": "5B > 2C > 236A > 6A > 2C > 236A > 6A > 2C > 236A > 6A (214BC)",
+      "description": "Ground — 7127 (9081) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.5,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 0.7,
+          "label": "236A",
+          "window": 100
+        },
+        {
+          "key": "6A",
+          "time": 0.917,
+          "label": "6A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.133,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 1.333,
+          "label": "236A",
+          "window": 100
+        },
+        {
+          "key": "6A",
+          "time": 1.55,
+          "label": "6A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.767,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 1.967,
+          "label": "236A",
+          "window": 100
+        },
+        {
+          "key": "6A",
+          "time": 2.183,
+          "label": "6A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7127 (9081)"
+    },
+    {
+      "id": "2c-236a-6a-2c-236a-6a-2c-236a-6a",
+      "name": "2C > 236A > 6A > 2C > 236A > 6A > 2C > 236A > 6A",
+      "notation": "2C > 236A > 6A > 2C > 236A > 6A > 2C > 236A > 6A",
+      "description": "Ground — 6686 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "ground"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2C",
+          "time": 0.0,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 0.2,
+          "label": "236A",
+          "window": 100
+        },
+        {
+          "key": "6A",
+          "time": 0.417,
+          "label": "6A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.633,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 0.833,
+          "label": "236A",
+          "window": 100
+        },
+        {
+          "key": "6A",
+          "time": 1.05,
+          "label": "6A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.267,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 1.467,
+          "label": "236A",
+          "window": 100
+        },
+        {
+          "key": "6A",
+          "time": 1.683,
+          "label": "6A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6686"
+    },
+    {
+      "id": "j-c-j-214a-2a-1-5a-2c-236a-6a-2c",
+      "name": "j.C > j.214A > 2A(1) > 5A > 2C > 236A > 6A > 2C > 236A > 6A",
+      "notation": "j.C > j.214A > 2A(1) > 5A > 2C > 236A > 6A > 2C > 236A > 6A",
+      "description": "Air — 5412 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "air"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.C",
+          "time": 0.0,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214A",
+          "time": 0.617,
+          "label": "j.214A",
+          "window": 100
+        },
+        {
+          "key": "2A",
+          "time": 0.933,
+          "label": "2A",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 1.283,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.733,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 1.933,
+          "label": "236A",
+          "window": 100
+        },
+        {
+          "key": "6A",
+          "time": 2.15,
+          "label": "6A",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 2.367,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "236A",
+          "time": 2.567,
+          "label": "236A",
+          "window": 100
+        },
+        {
+          "key": "6A",
+          "time": 2.783,
+          "label": "6A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5412"
+    }
+  ],
+  "frameData": {
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 10,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 8,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5AAA": {
+      "input": "5AAA",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "5AAAA": {
+      "input": "5AAAA",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 7,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 13,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5BB": {
+      "input": "5BB",
+      "startup": 15,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5BBB": {
+      "input": "5BBB",
+      "startup": 17,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 13,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5C": {
+      "input": "5C",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2C": {
+      "input": "2C",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 10,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.AA": {
+      "input": "j.AA",
+      "startup": 9,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 15,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.C": {
+      "input": "j.C",
+      "startup": 14,
+      "on_hit": 23,
+      "raw_on_hit": "Down 23"
+    },
+    "BC": {
+      "input": "BC",
+      "startup": 7,
+      "on_hit": 60,
+      "raw_on_hit": "Launch 60 + Down 33"
+    },
+    "AD": {
+      "input": "AD",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.AD": {
+      "input": "j.AD",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236A": {
+      "input": "236A",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236B": {
+      "input": "236B",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214A": {
+      "input": "214A",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214B": {
+      "input": "214B",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214A": {
+      "input": "j.214A",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214B": {
+      "input": "j.214B",
+      "startup": 23,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.66": {
+      "input": "j.66",
+      "startup": 20,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.44": {
+      "input": "j.44",
+      "startup": 25,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.8": {
+      "input": "j.8",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236C": {
+      "input": "236C",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214C": {
+      "input": "214C",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214C": {
+      "input": "j.214C",
+      "startup": 22,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "4P": {
+      "input": "4P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236BC": {
+      "input": "236BC",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214BC": {
+      "input": "214BC",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214BC": {
+      "input": "j.214BC",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Distortion Skill Duo": {
+      "input": "Distortion Skill Duo",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "222BC": {
+      "input": "222BC",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

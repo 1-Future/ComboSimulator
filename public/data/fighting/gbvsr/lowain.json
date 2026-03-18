@@ -1,0 +1,351 @@
+{
+  "characterId": "lowain",
+  "game": "gbvsr",
+  "gameName": "Granblue Fantasy Versus: Rising",
+  "name": "Lowain",
+  "combos": [],
+  "frameData": {
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "onHit"
+    },
+    "c.L": {
+      "input": "c.L",
+      "startup": 5,
+      "on_hit": 8,
+      "raw_on_hit": "+8"
+    },
+    "c.M": {
+      "input": "c.M",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "±0"
+    },
+    "c.H": {
+      "input": "c.H",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "±0"
+    },
+    "c.XX": {
+      "input": "c.XX",
+      "startup": 9,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "c.XXX": {
+      "input": "c.XXX",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "±0"
+    },
+    "c.XX6M": {
+      "input": "c.XX6M",
+      "startup": 12,
+      "on_hit": 30,
+      "raw_on_hit": "KD +30"
+    },
+    "c.XX6H": {
+      "input": "c.XX6H",
+      "startup": 18,
+      "on_hit": 1,
+      "raw_on_hit": "+1Force Crouch"
+    },
+    "f.L": {
+      "input": "f.L",
+      "startup": 6,
+      "on_hit": 5,
+      "raw_on_hit": "+5"
+    },
+    "f.M": {
+      "input": "f.M",
+      "startup": 9,
+      "on_hit": -2,
+      "raw_on_hit": "-2"
+    },
+    "f.H": {
+      "input": "f.H",
+      "startup": 11,
+      "on_hit": -3,
+      "raw_on_hit": "-3"
+    },
+    "2L": {
+      "input": "2L",
+      "startup": 6,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    },
+    "2M": {
+      "input": "2M",
+      "startup": 7,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 11,
+      "on_hit": -7,
+      "raw_on_hit": "-7"
+    },
+    "2U": {
+      "input": "2U",
+      "startup": 9,
+      "on_hit": 44,
+      "raw_on_hit": "HKD +44"
+    },
+    "66L": {
+      "input": "66L",
+      "startup": 8,
+      "on_hit": 6,
+      "raw_on_hit": "+6"
+    },
+    "66M": {
+      "input": "66M",
+      "startup": 12,
+      "on_hit": 24,
+      "raw_on_hit": "KD +24"
+    },
+    "66H": {
+      "input": "66H",
+      "startup": 29,
+      "on_hit": 30,
+      "raw_on_hit": "KD +30"
+    },
+    "j.L": {
+      "input": "j.L",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.M": {
+      "input": "j.M",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.U": {
+      "input": "j.U",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5U": {
+      "input": "5U",
+      "startup": 38,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236L": {
+      "input": "236L",
+      "startup": 21,
+      "on_hit": 53,
+      "raw_on_hit": "KD +53~+79"
+    },
+    "236M": {
+      "input": "236M",
+      "startup": 26,
+      "on_hit": 47,
+      "raw_on_hit": "+47~+71"
+    },
+    "236H": {
+      "input": "236H",
+      "startup": 21,
+      "on_hit": 76,
+      "raw_on_hit": "KD +76~+115"
+    },
+    "214L": {
+      "input": "214L",
+      "startup": 19,
+      "on_hit": 29,
+      "raw_on_hit": "KD +29"
+    },
+    "214M": {
+      "input": "214M",
+      "startup": 17,
+      "on_hit": 29,
+      "raw_on_hit": "KD +29"
+    },
+    "214H": {
+      "input": "214H",
+      "startup": 15,
+      "on_hit": 25,
+      "raw_on_hit": "KD +25"
+    },
+    "623L": {
+      "input": "623L",
+      "startup": 4,
+      "on_hit": 40,
+      "raw_on_hit": "KD +40"
+    },
+    "623M": {
+      "input": "623M",
+      "startup": 1,
+      "on_hit": 45,
+      "raw_on_hit": "KD +45"
+    },
+    "623H": {
+      "input": "623H",
+      "startup": 1,
+      "on_hit": 32,
+      "raw_on_hit": "KD +32"
+    },
+    "22L": {
+      "input": "22L",
+      "startup": 38,
+      "on_hit": 53,
+      "raw_on_hit": "+53"
+    },
+    "22M": {
+      "input": "22M",
+      "startup": 38,
+      "on_hit": 43,
+      "raw_on_hit": "+43"
+    },
+    "22H": {
+      "input": "22H",
+      "startup": 38,
+      "on_hit": 80,
+      "raw_on_hit": "KD +80"
+    },
+    "236U": {
+      "input": "236U",
+      "startup": 6,
+      "on_hit": 85,
+      "raw_on_hit": "HKD +85~+105"
+    },
+    "623U": {
+      "input": "623U",
+      "startup": 8,
+      "on_hit": 34,
+      "raw_on_hit": "HKD +34 [HKD +30]"
+    },
+    "214U": {
+      "input": "214U",
+      "startup": 11,
+      "on_hit": 98,
+      "raw_on_hit": "HKD +98 [HKD +63]"
+    },
+    "22U": {
+      "input": "22U",
+      "startup": 17,
+      "on_hit": 116,
+      "raw_on_hit": "HKD +116~+259"
+    },
+    "236236H": {
+      "input": "236236H",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236236H~L": {
+      "input": "236236H~L",
+      "startup": 8,
+      "on_hit": 6,
+      "raw_on_hit": "+6"
+    },
+    "236236H~M": {
+      "input": "236236H~M",
+      "startup": 9,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    },
+    "236236H~H": {
+      "input": "236236H~H",
+      "startup": 19,
+      "on_hit": 18,
+      "raw_on_hit": "+18Force Crouch"
+    },
+    "236236H~U": {
+      "input": "236236H~U",
+      "startup": 23,
+      "on_hit": 72,
+      "raw_on_hit": "HKD +72"
+    },
+    "236236H~G": {
+      "input": "236236H~G",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236236H~236U": {
+      "input": "236236H~236U",
+      "startup": 14,
+      "on_hit": 39,
+      "raw_on_hit": "HKD +39"
+    },
+    "236236U": {
+      "input": "236236U",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236236U~L": {
+      "input": "236236U~L",
+      "startup": 18,
+      "on_hit": 58,
+      "raw_on_hit": "HKD +58"
+    },
+    "236236U~M": {
+      "input": "236236U~M",
+      "startup": 22,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236236U~H": {
+      "input": "236236U~H",
+      "startup": 30,
+      "on_hit": 52,
+      "raw_on_hit": "Air Tech +52"
+    },
+    "236236U~U": {
+      "input": "236236U~U",
+      "startup": 45,
+      "on_hit": 74,
+      "raw_on_hit": "Air Tech +74"
+    },
+    "name": {
+      "input": "name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "onHit"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 4,
+      "on_hit": 44,
+      "raw_on_hit": "HKD +44/HKD +36"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 5,
+      "on_hit": 47,
+      "raw_on_hit": "HKD +47"
+    },
+    "Raging Strike": {
+      "input": "Raging Strike",
+      "startup": 28,
+      "on_hit": 15,
+      "raw_on_hit": "+15Force Crouch (KD +40)"
+    },
+    "Raging Chain": {
+      "input": "Raging Chain",
+      "startup": 13,
+      "on_hit": 15,
+      "raw_on_hit": "+15Force Crouch (HKD +63)"
+    },
+    "Brave Counter": {
+      "input": "Brave Counter",
+      "startup": 10,
+      "on_hit": 21,
+      "raw_on_hit": "Air Tech +21 [+5]"
+    }
+  }
+}

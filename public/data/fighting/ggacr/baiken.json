@@ -1,0 +1,6336 @@
+{
+  "characterId": "baiken",
+  "game": "ggacr",
+  "gameName": "Guilty Gear XX Accent Core +R",
+  "name": "Baiken",
+  "combos": [
+    {
+      "id": "dash-6p-41236h-6p-63214k-412p",
+      "name": "(Dash) 6P > 41236H > 6P > 63214K~412P",
+      "notation": "(Dash) 6P > 41236H > 6P > 63214K~412P",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6P",
+          "time": 0.0,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 0.3,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.183,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 1.483,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 1.483,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "dashjump-j-s-works-and-6p-zakuro-possible",
+      "name": "Dashjump j.S Works and 6P > Zakuro Possible",
+      "notation": "Dashjump j.S Works and 6P > Zakuro Possible",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Dashjump j.S Works and 6P",
+          "time": 0.0,
+          "label": "Dashjump j.S Works and 6P",
+          "window": 100
+        },
+        {
+          "key": "Zakuro Possible",
+          "time": 0.217,
+          "label": "Zakuro Possible",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "236k-frc-neutral-jump-j-h-j-236k",
+      "name": "236K FRC > Neutral Jump > j.H > j.236K",
+      "notation": "236K FRC > Neutral Jump > j.H > j.236K",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K FRC",
+          "time": 0.0,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "Neutral Jump",
+          "time": 0.217,
+          "label": "Neutral Jump",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 0.433,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.0,
+          "label": "j.236K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2k-c-s-2d",
+      "name": "2K > c.S > 2D",
+      "notation": "2K > c.S > 2D",
+      "description": "Anywhere",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2K",
+          "time": 0.0,
+          "label": "2K",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.25,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.617,
+          "label": "2D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2k-6p-623p-dash-6p-63214k-412p",
+      "name": "2K > 6P > 623P > Dash > 6P > 63214K~412P",
+      "notation": "2K > 6P > 623P > Dash > 6P > 63214K~412P",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2K",
+          "time": 0.0,
+          "label": "2K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.25,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "623P",
+          "time": 0.55,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 1.55,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.767,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.067,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.067,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2k-6p-623p-dash-6p-jc-j-k-djc-j-h",
+      "name": "2K > 6P > 623P > Dash  > 6P > jc > j.K > djc > j.H > j.236K",
+      "notation": "2K > 6P > 623P > Dash  > 6P > jc > j.K > djc > j.H > j.236K",
+      "description": "Anywhere",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2K",
+          "time": 0.0,
+          "label": "2K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.25,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "623P",
+          "time": 0.55,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 1.55,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.767,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 2.067,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 2.283,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.4,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 2.617,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 3.183,
+          "label": "j.236K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "anti-air-6p-jc-j-s-j-p-j-k-djc-j-h-j",
+      "name": "Anti-Air 6P > jc > j.S > j.P > j.K > djc > j.H > j.236K",
+      "notation": "Anti-Air 6P > jc > j.S > j.P > j.K > djc > j.H > j.236K",
+      "description": "Anywhere",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Anti-Air 6P",
+          "time": 0.0,
+          "label": "Anti-Air 6P",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.217,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.433,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.8,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.05,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.167,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.383,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.95,
+          "label": "j.236K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "airdash-j-s-j-p-j-k-land-j-k-djc-j-h",
+      "name": "Airdash > j.S > j.P > j.K > land > j.K > djc > j.H > j.236K",
+      "notation": "Airdash > j.S > j.P > j.K > land > j.K > djc > j.H > j.236K",
+      "description": "Anywhere",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Airdash",
+          "time": 0.0,
+          "label": "Airdash",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.217,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.583,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.833,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 0.95,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.167,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.283,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.5,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.067,
+          "label": "j.236K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "sakura-gc-412s-frc-rc-dash-6p-623p-dash",
+      "name": "Sakura [GC 412S] FRC/RC > Dash > 6P > 623P > Dash > 6P > 632",
+      "notation": "Sakura [GC 412S] FRC/RC > Dash > 6P > 623P > Dash > 6P > 63214K~412P",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Sakura [GC 412S] FRC/RC",
+          "time": 0.0,
+          "label": "Sakura [GC 412S] FRC/RC",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.217,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.433,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "623P",
+          "time": 0.733,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 1.733,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.95,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.25,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.25,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ch-ouren-gc-412h-dash-6p-63214k-412p",
+      "name": "CH Ouren [GC 412H] > Dash > 6P > 63214K~412P",
+      "notation": "CH Ouren [GC 412H] > Dash > 6P > 63214K~412P",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH Ouren [GC 412H]",
+          "time": 0.0,
+          "label": "CH Ouren [GC 412H]",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.217,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.433,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 0.733,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 0.733,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ch-baku-gc-412d-dash-6p-623p-dash-6p",
+      "name": "CH Baku [GC 412D] > Dash > 6P > 623P > Dash > 6P > 63214K~41",
+      "notation": "CH Baku [GC 412D] > Dash > 6P > 623P > Dash > 6P > 63214K~412P",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH Baku [GC 412D]",
+          "time": 0.0,
+          "label": "CH Baku [GC 412D]",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.217,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.433,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "623P",
+          "time": 0.733,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 1.733,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.95,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.25,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.25,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2d-5h-236k-2d-jc-j-k-djc-j-h-j-236k",
+      "name": "2D/5H > 236K > 2D > jc > j.K > djc > j.H > j.236K > 6P > 632",
+      "notation": "2D/5H > 236K > 2D > jc > j.K > djc > j.H > j.236K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2D/5H",
+          "time": 0.0,
+          "label": "2D/5H",
+          "window": 100
+        },
+        {
+          "key": "236K",
+          "time": 0.217,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.7,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.833,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.05,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.167,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.383,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.95,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.483,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.783,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.783,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2d-5h-236k-2d-f-s-jc-j-s-j-d-frc-rc-ai",
+      "name": "2D/5H > 236K > 2D/f.S > jc > j.S > j.D FRC/RC > Air Dash j.H",
+      "notation": "2D/5H > 236K > 2D/f.S > jc > j.S > j.D FRC/RC > Air Dash j.H > j.236K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2D/5H",
+          "time": 0.0,
+          "label": "2D/5H",
+          "window": 100
+        },
+        {
+          "key": "236K",
+          "time": 0.217,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "2D/f.S",
+          "time": 0.7,
+          "label": "2D/f.S",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.917,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.133,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D FRC/RC",
+          "time": 1.5,
+          "label": "j.D FRC/RC",
+          "window": 100
+        },
+        {
+          "key": "Air Dash j.H",
+          "time": 1.717,
+          "label": "Air Dash j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.933,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.467,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.767,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.767,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-dash-6p-63214k-412p",
+      "name": "Throw > (Dash) > 6P > 63214K~412P",
+      "notation": "Throw > (Dash) > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.217,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 0.517,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 0.517,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "tk-j-623s-rc-j-236k-2d-jc-j-k-djc-j",
+      "name": "TK j.623S > RC > j.236K > 2D > jc > j.K > djc > j.H > j.236K",
+      "notation": "TK j.623S > RC > j.236K > 2D > jc > j.K > djc > j.H > j.236K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK j.623S",
+          "time": 0.0,
+          "label": "TK j.623S",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.967,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.1,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.317,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.433,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.65,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.217,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.75,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 3.05,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.05,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2k-c-s-2d",
+      "name": "2K > c.S > 2D",
+      "notation": "2K > c.S > 2D",
+      "description": "Anywhere",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2K",
+          "time": 0.0,
+          "label": "2K",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.25,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.617,
+          "label": "2D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-623p-dash-6p-63214k-412p",
+      "name": "(Starter) > 623P > Dash > 6P > 63214K~412P",
+      "notation": "(Starter) > 623P > Dash > 6P > 63214K~412P",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623P",
+          "time": 0.0,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 1.0,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.217,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 1.517,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 1.517,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-623p-6p-2nd-hit-only-63214k-412p",
+      "name": "(Starter) > 623P > 6P [2nd Hit Only] > 63214K~412P",
+      "notation": "(Starter) > 623P > 6P [2nd Hit Only] > 63214K~412P",
+      "description": "Anywhere",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623P",
+          "time": 0.0,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "6P [2nd Hit Only]",
+          "time": 1.0,
+          "label": "6P [2nd Hit Only]",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 1.217,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 1.217,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-623p-dash-2d-6p-jc-j-k-djc",
+      "name": "(Starter) > 623P > Dash > (2D/6P > jc) > j.K > djc > j.H > j",
+      "notation": "(Starter) > 623P > Dash > (2D/6P > jc) > j.K > djc > j.H > j.236K",
+      "description": "Anywhere",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623P",
+          "time": 0.0,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 1.0,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "(2D/6P",
+          "time": 1.217,
+          "label": "(2D/6P",
+          "window": 100
+        },
+        {
+          "key": "jc)",
+          "time": 1.433,
+          "label": "jc)",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.65,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.767,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.983,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.55,
+          "label": "j.236K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-623p-6h-jc-j-d",
+      "name": "(Starter) > 623P > 6H > jc > j.D",
+      "notation": "(Starter) > 623P > 6H > jc > j.D",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623P",
+          "time": 0.0,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 1.0,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.567,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.783,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-623p-dash-6p-41236h-6p-63214",
+      "name": "(Starter) > 623P > Dash > 6P > 41236H > 6P > 63214K~412P",
+      "notation": "(Starter) > 623P > Dash > 6P > 41236H > 6P > 63214K~412P",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623P",
+          "time": 0.0,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 1.0,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.217,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 1.517,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.4,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.7,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.7,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-623p-dash-6p-41236h-6h-jc",
+      "name": "(Starter) > 623P > Dash > 6P > 41236H > 6H > jc > j.D",
+      "notation": "(Starter) > 623P > Dash > 6P > 41236H > 6H > jc > j.D",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623P",
+          "time": 0.0,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 1.0,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.217,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 1.517,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 2.4,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 2.967,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 3.183,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-623p-dash-6p-41236h-s-6p-632",
+      "name": "(Starter) > 623P > Dash > 6P > 41236H-S > 6P > 63214K~412P",
+      "notation": "(Starter) > 623P > Dash > 6P > 41236H-S > 6P > 63214K~412P",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623P",
+          "time": 0.0,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 1.0,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.217,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "41236H-S",
+          "time": 1.517,
+          "label": "41236H-S",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.733,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.033,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.033,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-623p-2h-6p-63214k-412p",
+      "name": "(Starter) > 623P > 2H > 6P > 63214K~412P",
+      "notation": "(Starter) > 623P > 2H > 6P > 63214K~412P",
+      "description": "Back to Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "back to corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623P",
+          "time": 0.0,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 1.0,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.65,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 1.95,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 1.95,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-623p-dash-6p-41236h-6k-2h",
+      "name": "(Starter) > 623P > Dash > 6P > 41236H > 6K > 2H > 6P > 63214",
+      "notation": "(Starter) > 623P > Dash > 6P > 41236H > 6K > 2H > 6P > 63214K~412P",
+      "description": "Back to Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "back to corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623P",
+          "time": 0.0,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 1.0,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.217,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 1.517,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 2.4,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 2.883,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 3.533,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 3.833,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.833,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2k-c-s-f-s-jc-j-d",
+      "name": "2K > c.S/f.S > jc > j.D",
+      "notation": "2K > c.S/f.S > jc > j.D",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2K",
+          "time": 0.0,
+          "label": "2K",
+          "window": 100
+        },
+        {
+          "key": "c.S/f.S",
+          "time": 0.25,
+          "label": "c.S/f.S",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.467,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 0.683,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2d-jc-j-d-j-s-j-k",
+      "name": "2D > jc > j.D/j.S/j.K",
+      "notation": "2D > jc > j.D/j.S/j.K",
+      "description": "Anywhere",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2D",
+          "time": 0.0,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.133,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D/j.S/j.K",
+          "time": 0.35,
+          "label": "j.D/j.S/j.K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "anti-air-6p-jc-j-s-j-p-j-k-djc-j-h-j",
+      "name": "Anti-Air 6P > jc > j.S > j.P > j.K > djc > j.H > j.236K",
+      "notation": "Anti-Air 6P > jc > j.S > j.P > j.K > djc > j.H > j.236K",
+      "description": "Anywhere",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Anti-Air 6P",
+          "time": 0.0,
+          "label": "Anti-Air 6P",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.217,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.433,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.8,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.05,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.167,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.383,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.95,
+          "label": "j.236K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "anti-air-6p-jc-j-d",
+      "name": "Anti-Air 6P > jc > j.D",
+      "notation": "Anti-Air 6P > jc > j.D",
+      "description": "Anywhere",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Anti-Air 6P",
+          "time": 0.0,
+          "label": "Anti-Air 6P",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.217,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 0.433,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "anti-air-6p-41236h-6p-41236h-6k-2h-6",
+      "name": "Anti-Air 6P > 41236H > 6P > 41236H > (6K > 2H) > 6P > 63214K",
+      "notation": "Anti-Air 6P > 41236H > 6P > 41236H > (6K > 2H) > 6P > 63214K~412P",
+      "description": "Anywhere",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Anti-Air 6P",
+          "time": 0.0,
+          "label": "Anti-Air 6P",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 0.217,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.1,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 1.4,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "(6K",
+          "time": 2.283,
+          "label": "(6K",
+          "window": 100
+        },
+        {
+          "key": "2H)",
+          "time": 2.5,
+          "label": "2H)",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.717,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 3.017,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.017,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "airdash-j-s-j-p-j-k-land-j-k-djc-j-h",
+      "name": "Airdash > j.S > j.P > j.K > land > j.K > djc j.H > j.236K",
+      "notation": "Airdash > j.S > j.P > j.K > land > j.K > djc j.H > j.236K",
+      "description": "Anywhere",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Airdash",
+          "time": 0.0,
+          "label": "Airdash",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.217,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.583,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.833,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 0.95,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.167,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc j.H",
+          "time": 1.283,
+          "label": "djc j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.5,
+          "label": "j.236K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "instant-airdash-j-s-counter-hit-j-236k-dash",
+      "name": "Instant Airdash j.S Counter Hit > j.236K > Dash > f.S > jc >",
+      "notation": "Instant Airdash j.S Counter Hit > j.236K > Dash > f.S > jc > j.D",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Instant Airdash j.S Counter Hit",
+          "time": 0.0,
+          "label": "Instant Airdash j.S Counter Hit",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.217,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.75,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.967,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.35,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.567,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-623p-dash-2d-j-k-djc-j-h-j",
+      "name": "(Starter) > 623P > (Dash 2D) > j.K > djc > j.H > j.236K > la",
+      "notation": "(Starter) > 623P > (Dash 2D) > j.K > djc > j.H > j.236K > land > j.K > djc > j.H > j.236K > 6P > 63214K~412P",
+      "description": "Near Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "near corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623P",
+          "time": 0.0,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.0,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.117,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.333,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.9,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 2.433,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 2.65,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.767,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 2.983,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 3.55,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 4.083,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 4.383,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 4.383,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-623p-dash-2d-j-k-djc-j-h-j-2",
+      "name": "(Starter) > 623P > Dash 2D > j.K > djc > j.H > j.236K > land",
+      "notation": "(Starter) > 623P > Dash 2D > j.K > djc > j.H > j.236K > land > j.S > j.D",
+      "description": "Near Corner",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "near corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623P",
+          "time": 0.0,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "Dash 2D",
+          "time": 1.0,
+          "label": "Dash 2D",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.217,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.333,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.55,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.117,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 2.65,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.867,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 3.233,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-2d-jc-j-k-djc-j-h-j-2",
+      "name": "(Starter) > 236K > 2D > jc > j.K > djc > j.H > j.236K > 6P >",
+      "notation": "(Starter) > 236K > 2D > jc > j.K > djc > j.H > j.236K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K",
+          "time": 0.0,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.483,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.617,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.833,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 0.95,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.167,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.733,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.267,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.567,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.567,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-2d-jc-j-k-djc-j-h-j-2",
+      "name": "(Starter) > 236K > 2D > jc > j.K > djc > j.H > j.236K > (6K)",
+      "notation": "(Starter) > 236K > 2D > jc > j.K > djc > j.H > j.236K > (6K) > 2H > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K",
+          "time": 0.0,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.483,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.617,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.833,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 0.95,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.167,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.733,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 2.267,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.917,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 3.217,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.217,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-5h-236k-j-p-j-k-djc",
+      "name": "(Starter) > 236K > 5H > 236K > (j.P) > j.K > djc > j.H > j.2",
+      "notation": "(Starter) > 236K > 5H > 236K > (j.P) > j.K > djc > j.H > j.236K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K",
+          "time": 0.0,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.483,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "236K",
+          "time": 0.95,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.433,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.55,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.767,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.333,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.867,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 3.167,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.167,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-dash-2d-jc-j-k-8djc-j",
+      "name": "(Starter) > 236K > (Dash) 2D > jc > j.K > 8djc > j.H > j.236",
+      "notation": "(Starter) > 236K > (Dash) 2D > jc > j.K > 8djc > j.H > j.236K > ((Dash) 2D > jc) > j.K > 8djc > j.H > j.236K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K",
+          "time": 0.0,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.483,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.617,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.833,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "8djc",
+          "time": 0.95,
+          "label": "8djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.167,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.733,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 2.267,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "jc)",
+          "time": 2.4,
+          "label": "jc)",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 2.617,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "8djc",
+          "time": 2.733,
+          "label": "8djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 2.95,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 3.517,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 4.05,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 4.35,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 4.35,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "f-s-2s-5h-6h-236d",
+      "name": "f.S/2S/5H/6H > 236D",
+      "notation": "f.S/2S/5H/6H > 236D",
+      "description": "Anywhere",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "f.S/2S/5H/6H",
+          "time": 0.0,
+          "label": "f.S/2S/5H/6H",
+          "window": 100
+        },
+        {
+          "key": "236D",
+          "time": 0.217,
+          "label": "236D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-low-j-d-frc-air-dash-j-236k-dash",
+      "name": "(Starter) > Low j.D FRC > Air Dash > j.236K > dash > f.S > j",
+      "notation": "(Starter) > Low j.D FRC > Air Dash > j.236K > dash > f.S > jc > j.D",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Low j.D FRC",
+          "time": 0.0,
+          "label": "Low j.D FRC",
+          "window": 100
+        },
+        {
+          "key": "Air Dash",
+          "time": 0.217,
+          "label": "Air Dash",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "dash",
+          "time": 0.967,
+          "label": "dash",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 1.183,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.567,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.783,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-low-j-d-frc-air-dash-j-236k-dash",
+      "name": "(Starter) > Low j.D FRC > Air Dash > j.236K > dash > (f.S > ",
+      "notation": "(Starter) > Low j.D FRC > Air Dash > j.236K > dash > (f.S > jc) > j.D FRC > Air Dash > j.236K > 6P > 63214K~412P",
+      "description": "Baiken Cornered",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "baiken cornered"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Low j.D FRC",
+          "time": 0.0,
+          "label": "Low j.D FRC",
+          "window": 100
+        },
+        {
+          "key": "Air Dash",
+          "time": 0.217,
+          "label": "Air Dash",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "dash",
+          "time": 0.967,
+          "label": "dash",
+          "window": 100
+        },
+        {
+          "key": "(f.S",
+          "time": 1.183,
+          "label": "(f.S",
+          "window": 100
+        },
+        {
+          "key": "jc)",
+          "time": 1.4,
+          "label": "jc)",
+          "window": 100
+        },
+        {
+          "key": "j.D FRC",
+          "time": 1.617,
+          "label": "j.D FRC",
+          "window": 100
+        },
+        {
+          "key": "Air Dash",
+          "time": 1.833,
+          "label": "Air Dash",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.05,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.583,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.883,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.883,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-low-j-d-frc-air-dash-j-236k-4123",
+      "name": "(Starter) > Low j.D FRC > Air Dash > j.236K > 41236H > (6K >",
+      "notation": "(Starter) > Low j.D FRC > Air Dash > j.236K > 41236H > (6K > 2H) > 6P > 63214K~412P",
+      "description": "Anywhere",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Low j.D FRC",
+          "time": 0.0,
+          "label": "Low j.D FRC",
+          "window": 100
+        },
+        {
+          "key": "Air Dash",
+          "time": 0.217,
+          "label": "Air Dash",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 0.967,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "(6K",
+          "time": 1.85,
+          "label": "(6K",
+          "window": 100
+        },
+        {
+          "key": "2H)",
+          "time": 2.067,
+          "label": "2H)",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.283,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.583,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.583,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-low-j-d-frc-air-dash-j-236k-4123",
+      "name": "(Starter) > Low j.D FRC > Air Dash > j.236K > 41236H > 6H > ",
+      "notation": "(Starter) > Low j.D FRC > Air Dash > j.236K > 41236H > 6H > jc > j.D",
+      "description": "Anywhere",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Low j.D FRC",
+          "time": 0.0,
+          "label": "Low j.D FRC",
+          "window": 100
+        },
+        {
+          "key": "Air Dash",
+          "time": 0.217,
+          "label": "Air Dash",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 0.967,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 1.85,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 2.417,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 2.633,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-frc-kire-iad-j-236k-dash-f",
+      "name": "(Starter) > 236K FRC > Kire/IAD j.236K > dash > f.S/6H > jc ",
+      "notation": "(Starter) > 236K FRC > Kire/IAD j.236K > dash > f.S/6H > jc > j.D",
+      "description": "Anywhere",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K FRC",
+          "time": 0.0,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "Kire/IAD j.236K",
+          "time": 0.217,
+          "label": "Kire/IAD j.236K",
+          "window": 100
+        },
+        {
+          "key": "dash",
+          "time": 0.433,
+          "label": "dash",
+          "window": 100
+        },
+        {
+          "key": "f.S/6H",
+          "time": 0.65,
+          "label": "f.S/6H",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.867,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.083,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-frc-kire-iad-j-236k-dash-f",
+      "name": "(Starter) > 236K FRC > Kire/IAD j.236K > dash > f.S/6H > jc ",
+      "notation": "(Starter) > 236K FRC > Kire/IAD j.236K > dash > f.S/6H > jc > j.D FRC > Air Dash > j.236K > 6P > 63214K~412P",
+      "description": "Baiken Cornered",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "baiken cornered"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K FRC",
+          "time": 0.0,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "Kire/IAD j.236K",
+          "time": 0.217,
+          "label": "Kire/IAD j.236K",
+          "window": 100
+        },
+        {
+          "key": "dash",
+          "time": 0.433,
+          "label": "dash",
+          "window": 100
+        },
+        {
+          "key": "f.S/6H",
+          "time": 0.65,
+          "label": "f.S/6H",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.867,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D FRC",
+          "time": 1.083,
+          "label": "j.D FRC",
+          "window": 100
+        },
+        {
+          "key": "Air Dash",
+          "time": 1.3,
+          "label": "Air Dash",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.517,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.05,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.35,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.35,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-frc-kire-iad-j-236k-41236h",
+      "name": "(Starter) > 236K FRC > Kire/IAD j.236K > 41236H > (6K > 2H) ",
+      "notation": "(Starter) > 236K FRC > Kire/IAD j.236K > 41236H > (6K > 2H) > 6P > 63214K~412P",
+      "description": "Anywhere",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K FRC",
+          "time": 0.0,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "Kire/IAD j.236K",
+          "time": 0.217,
+          "label": "Kire/IAD j.236K",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 0.433,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "(6K",
+          "time": 1.317,
+          "label": "(6K",
+          "window": 100
+        },
+        {
+          "key": "2H)",
+          "time": 1.533,
+          "label": "2H)",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.75,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.05,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.05,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-frc-kire-iad-j-236k-41236h",
+      "name": "(Starter) > 236K FRC > Kire/IAD j.236K > 41236H > 6H > jc > ",
+      "notation": "(Starter) > 236K FRC > Kire/IAD j.236K > 41236H > 6H > jc > j.D",
+      "description": "Anywhere",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K FRC",
+          "time": 0.0,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "Kire/IAD j.236K",
+          "time": 0.217,
+          "label": "Kire/IAD j.236K",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 0.433,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 1.317,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.883,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 2.1,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-frc-kire-iad-j-236k-iad-j-s",
+      "name": "(Starter) > 236K FRC > Kire/IAD j.236K > IAD > j.S > delay j",
+      "notation": "(Starter) > 236K FRC > Kire/IAD j.236K > IAD > j.S > delay j.P > j.K > land > j.K > dj > j.H > j.236K > land > j.K > dj > j.H > j.236K > land > j.P > j.K > dj > j.H > j.623S",
+      "description": "Baiken Cornered",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "baiken cornered"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K FRC",
+          "time": 0.0,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "Kire/IAD j.236K",
+          "time": 0.217,
+          "label": "Kire/IAD j.236K",
+          "window": 100
+        },
+        {
+          "key": "IAD",
+          "time": 0.433,
+          "label": "IAD",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.65,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "delay j.P",
+          "time": 1.017,
+          "label": "delay j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.233,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 1.35,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.567,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 1.683,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.9,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.467,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 3.0,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 3.217,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 3.333,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 3.55,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 4.117,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 4.65,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 4.867,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 5.117,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 5.233,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 5.45,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.623S",
+          "time": 6.017,
+          "label": "j.623S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236d-frc-kire-iad-j-236k-dashjump",
+      "name": "(Starter) > 236D FRC > Kire/IAD j.236K > Dashjump > j.S > de",
+      "notation": "(Starter) > 236D FRC > Kire/IAD j.236K > Dashjump > j.S > delay j.P > j.K > dj > j.H > j.236K > land > j.K > dj > j.H > j.236K > land > j.PPPK > dj > j.PPPK > j.623S",
+      "description": "Anywhere",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236D FRC",
+          "time": 0.0,
+          "label": "236D FRC",
+          "window": 100
+        },
+        {
+          "key": "Kire/IAD j.236K",
+          "time": 0.217,
+          "label": "Kire/IAD j.236K",
+          "window": 100
+        },
+        {
+          "key": "Dashjump",
+          "time": 0.433,
+          "label": "Dashjump",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.65,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "delay j.P",
+          "time": 1.017,
+          "label": "delay j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.233,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 1.35,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.567,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.133,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 2.667,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 2.883,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 3.0,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 3.217,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 3.783,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 4.317,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "j.PPPK",
+          "time": 4.533,
+          "label": "j.PPPK",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 4.75,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.PPPK",
+          "time": 4.967,
+          "label": "j.PPPK",
+          "window": 100
+        },
+        {
+          "key": "j.623S",
+          "time": 5.183,
+          "label": "j.623S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236d-dash-6p-63214k-412p",
+      "name": "(Starter) > 236D > Dash > 6P > 63214K~412P",
+      "notation": "(Starter) > 236D > Dash > 6P > 63214K~412P",
+      "description": "Half-screen from corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "half-screen from corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236D",
+          "time": 0.0,
+          "label": "236D",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.233,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.45,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 0.75,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 0.75,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236d-6h-jc-j-d",
+      "name": "(Starter) > 236D > 6H > jc > j.D",
+      "notation": "(Starter) > 236D > 6H > jc > j.D",
+      "description": "Half-screen from corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "half-screen from corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236D",
+          "time": 0.0,
+          "label": "236D",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.233,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.8,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.017,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236d-dash-f-s-jc-j-d",
+      "name": "(Starter) > 236D > Dash > f.S > jc > j.D",
+      "notation": "(Starter) > 236D > Dash > f.S > jc > j.D",
+      "description": "One Screen from corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "one screen from corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236D",
+          "time": 0.0,
+          "label": "236D",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.233,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.45,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.833,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.05,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236d-dash-2d-jc-j-k-djc-j",
+      "name": "(Starter) > 236D > Dash > 2D > jc > j.K > djc > j.H > j.236K",
+      "notation": "(Starter) > 236D > Dash > 2D > jc > j.K > djc > j.H > j.236K > (6K > 2H) > 6P > 63214K~412P",
+      "description": "Half-screen from corner",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "half-screen from corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236D",
+          "time": 0.0,
+          "label": "236D",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.233,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.45,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.583,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.8,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 0.917,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.133,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.7,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "(6K",
+          "time": 2.233,
+          "label": "(6K",
+          "window": 100
+        },
+        {
+          "key": "2H)",
+          "time": 2.45,
+          "label": "2H)",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.667,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.967,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.967,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236d-dash-5h-236k",
+      "name": "(Starter) > 236D > Dash > 5H > 236K > ???",
+      "notation": "(Starter) > 236D > Dash > 5H > 236K > ???",
+      "description": "Half-screen from corner",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "half-screen from corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236D",
+          "time": 0.0,
+          "label": "236D",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.233,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.45,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "236K",
+          "time": 0.917,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "???",
+          "time": 1.4,
+          "label": "???",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-623p-6h-2d-jc-j-s-j-d-frc",
+      "name": "(Starter) > 623P > (6H/2D > jc > ) j.S > j.D FRC > Air Dash ",
+      "notation": "(Starter) > 623P > (6H/2D > jc > ) j.S > j.D FRC > Air Dash > j.H > j.236K > (6K > 2H) > 6P > 63214K~412P",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623P",
+          "time": 0.0,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "(6H/2D",
+          "time": 1.0,
+          "label": "(6H/2D",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.217,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": ") j.S",
+          "time": 1.433,
+          "label": ") j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D FRC",
+          "time": 1.65,
+          "label": "j.D FRC",
+          "window": 100
+        },
+        {
+          "key": "Air Dash",
+          "time": 1.867,
+          "label": "Air Dash",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 2.083,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.65,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "(6K",
+          "time": 3.183,
+          "label": "(6K",
+          "window": 100
+        },
+        {
+          "key": "2H)",
+          "time": 3.4,
+          "label": "2H)",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 3.617,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 3.917,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.917,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-air-dash-kire-j-236k-dash-f-s-jc",
+      "name": "(Starter) > Air Dash/Kire j.236K > Dash > f.S > jc > j.S > j",
+      "notation": "(Starter) > Air Dash/Kire j.236K > Dash > f.S > jc > j.S > j.D FRC > Air Dash > j.H > j.236K > 6P > 63214K~412P",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Air Dash/Kire j.236K",
+          "time": 0.0,
+          "label": "Air Dash/Kire j.236K",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.217,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.433,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.817,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.033,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D FRC",
+          "time": 1.4,
+          "label": "j.D FRC",
+          "window": 100
+        },
+        {
+          "key": "Air Dash",
+          "time": 1.617,
+          "label": "Air Dash",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.833,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.4,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.933,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 3.233,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.233,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-air-dash-kire-j-236k-dash-c-s-2d",
+      "name": "(Starter) > Air Dash/Kire j.236K > dash > c.S/2D > jc > j.K ",
+      "notation": "(Starter) > Air Dash/Kire j.236K > dash > c.S/2D > jc > j.K > djc > j.H > j.236K > 6P > 63214K~412P",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Air Dash/Kire j.236K",
+          "time": 0.0,
+          "label": "Air Dash/Kire j.236K",
+          "window": 100
+        },
+        {
+          "key": "dash",
+          "time": 0.217,
+          "label": "dash",
+          "window": 100
+        },
+        {
+          "key": "c.S/2D",
+          "time": 0.433,
+          "label": "c.S/2D",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.65,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.867,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 0.983,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.2,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.767,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.3,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.6,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.6,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-air-dash-kire-j-236k-dash-6h-5h",
+      "name": "(Starter) > Air Dash/Kire j.236K > dash > 6H/5H > 236K > j.K",
+      "notation": "(Starter) > Air Dash/Kire j.236K > dash > 6H/5H > 236K > j.K > djc > j.H > j.236K > 6P > 63214K~412P",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Air Dash/Kire j.236K",
+          "time": 0.0,
+          "label": "Air Dash/Kire j.236K",
+          "window": 100
+        },
+        {
+          "key": "dash",
+          "time": 0.217,
+          "label": "dash",
+          "window": 100
+        },
+        {
+          "key": "6H/5H",
+          "time": 0.433,
+          "label": "6H/5H",
+          "window": 100
+        },
+        {
+          "key": "236K",
+          "time": 0.65,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.133,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.25,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.467,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.033,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.567,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.867,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.867,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-frc-41236h",
+      "name": "(Starter) > 236K FRC > 41236H > ???",
+      "notation": "(Starter) > 236K FRC > 41236H > ???",
+      "description": "One screen from corner",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "one screen from corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K FRC",
+          "time": 0.0,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 0.217,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "???",
+          "time": 1.1,
+          "label": "???",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-frc-delayed-high-air-dash-j-h",
+      "name": "(Starter) > 236K FRC > Delayed/High Air Dash j.H > j.236K > ",
+      "notation": "(Starter) > 236K FRC > Delayed/High Air Dash j.H > j.236K > ???",
+      "description": "One screen from corner",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "one screen from corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K FRC",
+          "time": 0.0,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "Delayed/High Air Dash j.H",
+          "time": 0.217,
+          "label": "Delayed/High Air Dash j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "???",
+          "time": 0.967,
+          "label": "???",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-2d-f-s-j-s-j-d-frc-airdas",
+      "name": "(Starter) > 236K > 2D/f.S > j.S > j.D FRC > Airdash > j.H > ",
+      "notation": "(Starter) > 236K > 2D/f.S > j.S > j.D FRC > Airdash > j.H > j.236K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K",
+          "time": 0.0,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "2D/f.S",
+          "time": 0.483,
+          "label": "2D/f.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.7,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D FRC",
+          "time": 1.067,
+          "label": "j.D FRC",
+          "window": 100
+        },
+        {
+          "key": "Airdash",
+          "time": 1.283,
+          "label": "Airdash",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.5,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.067,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.6,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.9,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.9,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-2d-f-s-j-s-j-d-frc-airdas",
+      "name": "(Starter) > 236K > 2D/f.S > j.S > j.D FRC > Airdash > j.H > ",
+      "notation": "(Starter) > 236K > 2D/f.S > j.S > j.D FRC > Airdash > j.H > j.236K > (6K) > 2H > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K",
+          "time": 0.0,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "2D/f.S",
+          "time": 0.483,
+          "label": "2D/f.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.7,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D FRC",
+          "time": 1.067,
+          "label": "j.D FRC",
+          "window": 100
+        },
+        {
+          "key": "Airdash",
+          "time": 1.283,
+          "label": "Airdash",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.5,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.067,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 2.6,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 3.25,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 3.55,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.55,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-5h-236k-frc-8-j-h-j-236k",
+      "name": "(Starter) > 236K > 5H > 236K FRC > 8 j.H > j.236K > 6H > 236",
+      "notation": "(Starter) > 236K > 5H > 236K FRC > 8 j.H > j.236K > 6H > 236K FRC > 8 j.H > j.236K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K",
+          "time": 0.0,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.483,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "236K FRC",
+          "time": 0.95,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "8 j.H",
+          "time": 1.167,
+          "label": "8 j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.383,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 1.917,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "236K FRC",
+          "time": 2.483,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "8 j.H",
+          "time": 2.7,
+          "label": "8 j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.917,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 3.45,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 3.75,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.75,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "starter-236k-frc-8-j-h-j-236k-6h-5h-23",
+      "name": "(Starter) > 236K FRC > 8 j.H > j.236K > 6H/5H > 236K FRC > 8",
+      "notation": "(Starter) > 236K FRC > 8 j.H > j.236K > 6H/5H > 236K FRC > 8 j.H > j.236K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K FRC",
+          "time": 0.0,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "8 j.H",
+          "time": 0.217,
+          "label": "8 j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6H/5H",
+          "time": 0.967,
+          "label": "6H/5H",
+          "window": 100
+        },
+        {
+          "key": "236K FRC",
+          "time": 1.183,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "8 j.H",
+          "time": 1.4,
+          "label": "8 j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.617,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.15,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.45,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.45,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ch-236k-ch-j-236k-dash-6h-j-d",
+      "name": "CH 236K/CH j.236K > Dash > 6H > j.D",
+      "notation": "CH 236K/CH j.236K > Dash > 6H > j.D",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 236K/CH j.236K",
+          "time": 0.0,
+          "label": "CH 236K/CH j.236K",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.217,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.433,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.0,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ch-236k-ch-j-236k-dash-6p-63214k-412p",
+      "name": "CH 236K/CH j.236K > Dash > 6P > 63214K~412P",
+      "notation": "CH 236K/CH j.236K > Dash > 6P > 63214K~412P",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 236K/CH j.236K",
+          "time": 0.0,
+          "label": "CH 236K/CH j.236K",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.217,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.433,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 0.733,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 0.733,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "j-236k-dash-f-s-jc-j-d",
+      "name": "j.236K > Dash > f.S > jc > j.D",
+      "notation": "j.236K > Dash > f.S > jc > j.D",
+      "description": "Grounded/Low Enemy Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "grounded/low enemy midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.236K",
+          "time": 0.0,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.533,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.75,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.133,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.35,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "j-236k-41236h-various-combos",
+      "name": "j.236K > 41236H > Various Combos",
+      "notation": "j.236K > 41236H > Various Combos",
+      "description": "Grounded/Low Enemy Midscreen",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "grounded/low enemy midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.236K",
+          "time": 0.0,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 0.533,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "Various Combos",
+          "time": 1.417,
+          "label": "Various Combos",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "j-236k-dashjump-j-s-j-d",
+      "name": "j.236K > Dashjump > j.S > j.D",
+      "notation": "j.236K > Dashjump > j.S > j.D",
+      "description": "Airbourne/High Enemy Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "airbourne/high enemy midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.236K",
+          "time": 0.0,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "Dashjump",
+          "time": 0.533,
+          "label": "Dashjump",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.75,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.117,
+          "label": "j.D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "j-236k-dashjump-j-s-j-p-j-k-dj-j-h-j",
+      "name": "j.236K > Dashjump > j.S > j.P > j.K > dj > j.H > j.236K",
+      "notation": "j.236K > Dashjump > j.S > j.P > j.K > dj > j.H > j.236K",
+      "description": "Airbourne/High Enemy Midscreen",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "airbourne/high enemy midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.236K",
+          "time": 0.0,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "Dashjump",
+          "time": 0.533,
+          "label": "Dashjump",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.75,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 1.117,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.367,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 1.483,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.7,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.267,
+          "label": "j.236K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "j-236k-5h-6h-236k-various-corner-combos",
+      "name": "j.236K > 5H/6H > 236K > Various Corner Combos",
+      "notation": "j.236K > 5H/6H > 236K > Various Corner Combos",
+      "description": "Grounded/Low Enemy Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "grounded/low enemy corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.236K",
+          "time": 0.0,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "5H/6H",
+          "time": 0.533,
+          "label": "5H/6H",
+          "window": 100
+        },
+        {
+          "key": "236K",
+          "time": 0.75,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "Various Corner Combos",
+          "time": 1.233,
+          "label": "Various Corner Combos",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-dash-6p-41236h-6p-63214k-412p",
+      "name": "Throw > (Dash) > 6P > 41236H > 6P > 63214K~412P",
+      "notation": "Throw > (Dash) > 6P > 41236H > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.217,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 0.517,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.4,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 1.7,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 1.7,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-dash-6p-63214k-412p",
+      "name": "Throw > (Dash) > 6P > 63214K~412P",
+      "notation": "Throw > (Dash) > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.217,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 0.517,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 0.517,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-dash-2k-6p-63214k-412p",
+      "name": "Throw > Dash > 2K > 6P > 63214K~412P",
+      "notation": "Throw > Dash > 2K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.217,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "2K",
+          "time": 0.433,
+          "label": "2K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.683,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 0.983,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 0.983,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-5h-236k-j-p-j-s-j-d-frc-air-dash",
+      "name": "Throw > 5H > 236K > j.P > j.S > j.D FRC > Air Dash > j.H > j",
+      "notation": "Throw > 5H > 236K > j.P > j.S > j.D FRC > Air Dash > j.H > j.236K > 6P > jc > j.PPPP > j.K > djc > j.PPPP > j.K > j.623S",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.217,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "236K",
+          "time": 0.683,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 1.167,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.417,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D FRC",
+          "time": 1.783,
+          "label": "j.D FRC",
+          "window": 100
+        },
+        {
+          "key": "Air Dash",
+          "time": 2.0,
+          "label": "Air Dash",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 2.217,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.783,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 3.317,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 3.617,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.PPPP",
+          "time": 3.833,
+          "label": "j.PPPP",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 4.05,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 4.167,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.PPPP",
+          "time": 4.383,
+          "label": "j.PPPP",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 4.6,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.623S",
+          "time": 4.717,
+          "label": "j.623S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-236236s",
+      "name": "Throw > 236236S",
+      "notation": "Throw > 236236S",
+      "description": "Corner",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "236236S",
+          "time": 0.217,
+          "label": "236236S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-dash-6p-63214k-412d-x-x",
+      "name": "Throw > (Dash) > 6P > 63214K~412D~X~X",
+      "notation": "Throw > (Dash) > 6P > 63214K~412D~X~X",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.217,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 0.517,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412D",
+          "time": 0.517,
+          "label": "412D",
+          "window": 100
+        },
+        {
+          "key": "X",
+          "time": 0.733,
+          "label": "X",
+          "window": 100
+        },
+        {
+          "key": "X",
+          "time": 0.95,
+          "label": "X",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "airthrow-5h-6h-236k",
+      "name": "Airthrow > 5H/6H > 236K > ???",
+      "notation": "Airthrow > 5H/6H > 236K > ???",
+      "description": "Near Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "near corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Airthrow",
+          "time": 0.0,
+          "label": "Airthrow",
+          "window": 100
+        },
+        {
+          "key": "5H/6H",
+          "time": 0.217,
+          "label": "5H/6H",
+          "window": 100
+        },
+        {
+          "key": "236K",
+          "time": 0.433,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "???",
+          "time": 0.917,
+          "label": "???",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "airthrow-c-s-2d-jc-j-k-djc-j-h-j-236k",
+      "name": "Airthrow > c.S/2D > jc > j.K > djc > j.H > j.236K > (6K > 2H",
+      "notation": "Airthrow > c.S/2D > jc > j.K > djc > j.H > j.236K > (6K > 2H) > 63214~412P",
+      "description": "Near Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "near corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Airthrow",
+          "time": 0.0,
+          "label": "Airthrow",
+          "window": 100
+        },
+        {
+          "key": "c.S/2D",
+          "time": 0.217,
+          "label": "c.S/2D",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.433,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.65,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 0.767,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 0.983,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.55,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "(6K",
+          "time": 2.083,
+          "label": "(6K",
+          "window": 100
+        },
+        {
+          "key": "2H)",
+          "time": 2.3,
+          "label": "2H)",
+          "window": 100
+        },
+        {
+          "key": "63214",
+          "time": 2.517,
+          "label": "63214",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.733,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "airthrow-f-s-2d-jc-j-s-j-d-frc-air-dash",
+      "name": "Airthrow > f.S/2D > jc > j.S > j.D FRC > Air Dash > j.H > j.",
+      "notation": "Airthrow > f.S/2D > jc > j.S > j.D FRC > Air Dash > j.H > j.236K > (6K > 2H) > 63214~412P",
+      "description": "Near Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "near corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Airthrow",
+          "time": 0.0,
+          "label": "Airthrow",
+          "window": 100
+        },
+        {
+          "key": "f.S/2D",
+          "time": 0.217,
+          "label": "f.S/2D",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.433,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.65,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D FRC",
+          "time": 1.017,
+          "label": "j.D FRC",
+          "window": 100
+        },
+        {
+          "key": "Air Dash",
+          "time": 1.233,
+          "label": "Air Dash",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.45,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.017,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "(6K",
+          "time": 2.55,
+          "label": "(6K",
+          "window": 100
+        },
+        {
+          "key": "2H)",
+          "time": 2.767,
+          "label": "2H)",
+          "window": 100
+        },
+        {
+          "key": "63214",
+          "time": 2.983,
+          "label": "63214",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.2,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "airthrow-5p-6p-cl-s",
+      "name": "Airthrow > 5P > 6P/cl.S > ???",
+      "notation": "Airthrow > 5P > 6P/cl.S > ???",
+      "description": "Very Close to Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "very close to corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Airthrow",
+          "time": 0.0,
+          "label": "Airthrow",
+          "window": 100
+        },
+        {
+          "key": "5P",
+          "time": 0.217,
+          "label": "5P",
+          "window": 100
+        },
+        {
+          "key": "6P/cl.S",
+          "time": 0.467,
+          "label": "6P/cl.S",
+          "window": 100
+        },
+        {
+          "key": "???",
+          "time": 0.683,
+          "label": "???",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "tk-j-623s-rc-j-236k-2d-jc-j-k-djc-j",
+      "name": "TK j.623S > RC > j.236K > 2D > jc > j.K > djc > j.H > j.236K",
+      "notation": "TK j.623S > RC > j.236K > 2D > jc > j.K > djc > j.H > j.236K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK j.623S",
+          "time": 0.0,
+          "label": "TK j.623S",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.967,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.1,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.317,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.433,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.65,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.217,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.75,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 3.05,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.05,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "tk-j-623s-rc-j-236k-6h-236k-j-p-j-k",
+      "name": "TK j.623S > RC > j.236K > 6H > 236K > (j.P) > j.K > djc j.H ",
+      "notation": "TK j.623S > RC > j.236K > 6H > 236K > (j.P) > j.K > djc j.H > j.236K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK j.623S",
+          "time": 0.0,
+          "label": "TK j.623S",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.967,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "236K",
+          "time": 1.533,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 2.017,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc j.H",
+          "time": 2.133,
+          "label": "djc j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.35,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 2.883,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 3.183,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.183,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "tk-j-623s-rc-j-236k-6h-236k-j-k-8djc-j",
+      "name": "TK j.623S > RC > j.236K > 6H > 236K > j.K > 8djc j.H > j.236",
+      "notation": "TK j.623S > RC > j.236K > 6H > 236K > j.K > 8djc j.H > j.236K > 2D > j.K > 8djc j.H > j.236K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK j.623S",
+          "time": 0.0,
+          "label": "TK j.623S",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.967,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "236K",
+          "time": 1.533,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 2.017,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "8djc j.H",
+          "time": 2.133,
+          "label": "8djc j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.35,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 2.883,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 3.017,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "8djc j.H",
+          "time": 3.133,
+          "label": "8djc j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 3.35,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 3.883,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 4.183,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 4.183,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "tk-j-623s-rc-j-236k-6h-236k-frc-8j-h-j",
+      "name": "TK j.623S > RC > j.236K > 6H > 236K FRC > 8j.H > j.236K > 6H",
+      "notation": "TK j.623S > RC > j.236K > 6H > 236K FRC > 8j.H > j.236K > 6H > 236K FRC > 8j.H > j.236K > 6P > 63214K~412P",
+      "description": "Corner",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK j.623S",
+          "time": 0.0,
+          "label": "TK j.623S",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.967,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "236K FRC",
+          "time": 1.533,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "8j.H",
+          "time": 1.75,
+          "label": "8j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 1.967,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 2.5,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "236K FRC",
+          "time": 3.067,
+          "label": "236K FRC",
+          "window": 100
+        },
+        {
+          "key": "8j.H",
+          "time": 3.283,
+          "label": "8j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 3.5,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 4.033,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 4.333,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 4.333,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "tk-j-623s-rc-j-236k-dash-f-s-jc-j-s",
+      "name": "TK j.623S > RC > j.236K > Dash > (f.S jc >) j.S > j.D FRC > ",
+      "notation": "TK j.623S > RC > j.236K > Dash > (f.S jc >) j.S > j.D FRC > Air Dash > j.H > j.236K > ((6K) > 2H) > 6P > 63214K~412P",
+      "description": "Midscreen",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK j.623S",
+          "time": 0.0,
+          "label": "TK j.623S",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "Dash",
+          "time": 0.967,
+          "label": "Dash",
+          "window": 100
+        },
+        {
+          "key": "(f.S jc",
+          "time": 1.183,
+          "label": "(f.S jc",
+          "window": 100
+        },
+        {
+          "key": ") j.S",
+          "time": 1.4,
+          "label": ") j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D FRC",
+          "time": 1.617,
+          "label": "j.D FRC",
+          "window": 100
+        },
+        {
+          "key": "Air Dash",
+          "time": 1.833,
+          "label": "Air Dash",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 2.05,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.617,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "2H)",
+          "time": 3.15,
+          "label": "2H)",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 3.367,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 3.667,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.667,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "tk-j-623s-rc-j-236k-dashjump-j-s-delay-j",
+      "name": "TK j.623S > RC > j.236K > Dashjump > j.S > delay j.P > j.K >",
+      "notation": "TK j.623S > RC > j.236K > Dashjump > j.S > delay j.P > j.K > dj > j.H > j.236K > 6P > 63214K~412P",
+      "description": "Midscreen",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK j.623S",
+          "time": 0.0,
+          "label": "TK j.623S",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "Dashjump",
+          "time": 0.967,
+          "label": "Dashjump",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.183,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "delay j.P",
+          "time": 1.55,
+          "label": "delay j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.767,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 1.883,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 2.1,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.667,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 3.2,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 3.5,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 3.5,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "tk-j-623s-rc-j-236k-41236h",
+      "name": "TK j.623S > RC > j.236K > 41236H > ?",
+      "notation": "TK j.623S > RC > j.236K > 41236H > ?",
+      "description": "Midscreen",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK j.623S",
+          "time": 0.0,
+          "label": "TK j.623S",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.433,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 0.967,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "?",
+          "time": 1.85,
+          "label": "?",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "tk-j-623s-rc-j-k-djc-j-h-j-236k",
+      "name": "TK j.623S > RC > j.K > djc j.H > j.236K > ?",
+      "notation": "TK j.623S > RC > j.K > djc j.H > j.236K > ?",
+      "description": "Midscreen Close",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen close"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK j.623S",
+          "time": 0.0,
+          "label": "TK j.623S",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.433,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc j.H",
+          "time": 0.55,
+          "label": "djc j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 0.767,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "?",
+          "time": 1.3,
+          "label": "?",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "baku-412d-s-d-reset-unblockable-j-h-or-j-2",
+      "name": "Baku (412D) > S > D -reset- Unblockable j.H or j.236K",
+      "notation": "Baku (412D) > S > D -reset- Unblockable j.H or j.236K",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Baku",
+          "time": 0.0,
+          "label": "Baku",
+          "window": 100
+        },
+        {
+          "key": "S",
+          "time": 0.217,
+          "label": "S",
+          "window": 100
+        },
+        {
+          "key": "D -reset- Unblockable j.H or j.236K",
+          "time": 0.433,
+          "label": "D -reset- Unblockable j.H or j.236K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "baku-412d-k-p-s-5h-236k-6h-236k-x3",
+      "name": "Baku (412D) > K > P/S > 5H > 236K > [6H > 236K] x3-4 > 63214",
+      "notation": "Baku (412D) > K > P/S > 5H > 236K > [6H > 236K] x3-4 > 63214K~412P",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Baku",
+          "time": 0.0,
+          "label": "Baku",
+          "window": 100
+        },
+        {
+          "key": "K",
+          "time": 0.217,
+          "label": "K",
+          "window": 100
+        },
+        {
+          "key": "P/S",
+          "time": 0.433,
+          "label": "P/S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.65,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "236K",
+          "time": 1.117,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "[6H",
+          "time": 1.6,
+          "label": "[6H",
+          "window": 100
+        },
+        {
+          "key": "236K] x3-4",
+          "time": 1.817,
+          "label": "236K] x3-4",
+          "window": 100
+        },
+        {
+          "key": "63214K",
+          "time": 2.033,
+          "label": "63214K",
+          "window": 100
+        },
+        {
+          "key": "412P",
+          "time": 2.033,
+          "label": "412P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5d-7-8-9-j-s-j-s-j-s-j-p-j-k-j-s",
+      "name": "5D > [7/8/9] > j.S > j.S > j.S > j.P > j.K > j.S > j.P > j.K",
+      "notation": "5D > [7/8/9] > j.S > j.S > j.S > j.P > j.K > j.S > j.P > j.K > djc > j.H > j.236K/j.623S",
+      "description": "Anywhere",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5D",
+          "time": 0.0,
+          "label": "5D",
+          "window": 100
+        },
+        {
+          "key": "[7/8/9]",
+          "time": 1.25,
+          "label": "[7/8/9]",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.467,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.833,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.2,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 2.567,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 2.817,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.933,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 3.3,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 3.55,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.667,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 3.883,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K/j.623S",
+          "time": 4.45,
+          "label": "j.236K/j.623S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5d-9-5-dj9-j-k-land",
+      "name": "5D > 9 > 5 > dj9 > j.K > Land > ???",
+      "notation": "5D > 9 > 5 > dj9 > j.K > Land > ???",
+      "description": "Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5D",
+          "time": 0.0,
+          "label": "5D",
+          "window": 100
+        },
+        {
+          "key": "9",
+          "time": 1.25,
+          "label": "9",
+          "window": 100
+        },
+        {
+          "key": "5",
+          "time": 1.467,
+          "label": "5",
+          "window": 100
+        },
+        {
+          "key": "dj9",
+          "time": 1.683,
+          "label": "dj9",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.9,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "Land",
+          "time": 2.017,
+          "label": "Land",
+          "window": 100
+        },
+        {
+          "key": "???",
+          "time": 2.233,
+          "label": "???",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5d-9-fd-j-k-delayed-djc-j-h-j-236k-l",
+      "name": "5D > 9 > FD > j.K > delayed djc > j.H > j.236K > Land > ???",
+      "notation": "5D > 9 > FD > j.K > delayed djc > j.H > j.236K > Land > ???",
+      "description": "Anywhere",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5D",
+          "time": 0.0,
+          "label": "5D",
+          "window": 100
+        },
+        {
+          "key": "9",
+          "time": 1.25,
+          "label": "9",
+          "window": 100
+        },
+        {
+          "key": "FD",
+          "time": 1.467,
+          "label": "FD",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.683,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "delayed djc",
+          "time": 1.8,
+          "label": "delayed djc",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 2.017,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.236K",
+          "time": 2.583,
+          "label": "j.236K",
+          "window": 100
+        },
+        {
+          "key": "Land",
+          "time": 3.117,
+          "label": "Land",
+          "window": 100
+        },
+        {
+          "key": "???",
+          "time": 3.333,
+          "label": "???",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5d-9-fd-j-h-land",
+      "name": "5D > 9 > FD > j.H > Land > ???",
+      "notation": "5D > 9 > FD > j.H > Land > ???",
+      "description": "Close Dust Anywhere",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "close dust anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5D",
+          "time": 0.0,
+          "label": "5D",
+          "window": 100
+        },
+        {
+          "key": "9",
+          "time": 1.25,
+          "label": "9",
+          "window": 100
+        },
+        {
+          "key": "FD",
+          "time": 1.467,
+          "label": "FD",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.683,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Land",
+          "time": 2.25,
+          "label": "Land",
+          "window": 100
+        },
+        {
+          "key": "???",
+          "time": 2.467,
+          "label": "???",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    }
+  ],
+  "frameData": {
+    "1": {
+      "input": "1",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 5,
+      "on_hit": 10,
+      "raw_on_hit": "10"
+    },
+    "5K": {
+      "input": "5K",
+      "startup": 8,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "c.S": {
+      "input": "c.S",
+      "startup": 8,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "f.S": {
+      "input": "f.S",
+      "startup": 9,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "5H": {
+      "input": "5H",
+      "startup": 9,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "5D": {
+      "input": "5D",
+      "startup": 27,
+      "on_hit": 48,
+      "raw_on_hit": "Launch 48"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 8,
+      "on_hit": 10,
+      "raw_on_hit": "10, 12"
+    },
+    "6K": {
+      "input": "6K",
+      "startup": 12,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "6H": {
+      "input": "6H",
+      "startup": 15,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "2P": {
+      "input": "2P",
+      "startup": 6,
+      "on_hit": 10,
+      "raw_on_hit": "10"
+    },
+    "2K": {
+      "input": "2K",
+      "startup": 5,
+      "on_hit": 10,
+      "raw_on_hit": "10"
+    },
+    "2S": {
+      "input": "2S",
+      "startup": 11,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 15,
+      "on_hit": 24,
+      "raw_on_hit": "Stagger 24"
+    },
+    "2D": {
+      "input": "2D",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "Down"
+    },
+    "j.P": {
+      "input": "j.P",
+      "startup": 5,
+      "on_hit": 10,
+      "raw_on_hit": "10"
+    },
+    "j.K": {
+      "input": "j.K",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.S": {
+      "input": "j.S",
+      "startup": 8,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 15,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.D": {
+      "input": "j.D",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "name": {
+      "input": "name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 0,
+      "on_hit": 60,
+      "raw_on_hit": "Launch 60 + Slide 46"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Dead Angle Attack": {
+      "input": "Dead Angle Attack",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236K": {
+      "input": "236K",
+      "startup": 15,
+      "on_hit": 14,
+      "raw_on_hit": "Launch [14]"
+    },
+    "j.236K": {
+      "input": "j.236K",
+      "startup": 18,
+      "on_hit": 14,
+      "raw_on_hit": "Launch [14]"
+    },
+    "j.623S": {
+      "input": "j.623S",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "623P": {
+      "input": "623P",
+      "startup": 12,
+      "on_hit": 48,
+      "raw_on_hit": "Launch 48"
+    },
+    "63214K": {
+      "input": "63214K",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "41236H": {
+      "input": "41236H",
+      "startup": 20,
+      "on_hit": 33,
+      "raw_on_hit": "Stagger 33"
+    },
+    "41236H > S": {
+      "input": "41236H > S",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Guard > 412P": {
+      "input": "Guard > 412P",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Guard > 412K": {
+      "input": "Guard > 412K",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Guard > 412S": {
+      "input": "Guard > 412S",
+      "startup": 10,
+      "on_hit": 50,
+      "raw_on_hit": "Stagger 50"
+    },
+    "Guard > 412H": {
+      "input": "Guard > 412H",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Guard > 412D": {
+      "input": "Guard > 412D",
+      "startup": 11,
+      "on_hit": 27,
+      "raw_on_hit": "27"
+    },
+    "412D > P/K/S": {
+      "input": "412D > P/K/S",
+      "startup": 6,
+      "on_hit": 85,
+      "raw_on_hit": "Stagger 85"
+    },
+    "412D > X > P": {
+      "input": "412D > X > P",
+      "startup": 15,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "412D > X > K": {
+      "input": "412D > X > K",
+      "startup": 18,
+      "on_hit": 17,
+      "raw_on_hit": "17, Launch"
+    },
+    "412D > X > S": {
+      "input": "412D > X > S",
+      "startup": 15,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "412D > X > H": {
+      "input": "412D > X > H",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "412D > X > D": {
+      "input": "412D > X > D",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236D": {
+      "input": "236D",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236236S": {
+      "input": "236236S",
+      "startup": 7,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "236236H": {
+      "input": "236236H",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

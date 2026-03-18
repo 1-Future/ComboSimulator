@@ -1,0 +1,195 @@
+{
+  "characterId": "kunoichi",
+  "game": "dnfd",
+  "gameName": "DNF Duel",
+  "name": "Kunoichi",
+  "combos": [],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 6,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 8,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 5,
+      "on_hit": -7,
+      "raw_on_hit": "-7"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Flame Cut": {
+      "input": "Flame Cut",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Rising Cut": {
+      "input": "Rising Cut",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Kunai Throw": {
+      "input": "Kunai Throw",
+      "startup": 15,
+      "on_hit": -11,
+      "raw_on_hit": "-11"
+    },
+    "Ninpo: Log Clone": {
+      "input": "Ninpo: Log Clone",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Kunai Throw (Air)": {
+      "input": "Kunai Throw (Air)",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Flying Squirrel": {
+      "input": "Flying Squirrel",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Fire Art: Fireball": {
+      "input": "Fire Art: Fireball",
+      "startup": 21,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Nin-Bound Fire Art: Fireball": {
+      "input": "Nin-Bound Fire Art: Fireball",
+      "startup": 52,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Heavenly Fire Blast": {
+      "input": "Heavenly Fire Blast",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Nin-Bound Heavenly Fire Blast": {
+      "input": "Nin-Bound Heavenly Fire Blast",
+      "startup": 45,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Flame Tornado": {
+      "input": "Flame Tornado",
+      "startup": 30,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Nin-Bound Flame Tornado": {
+      "input": "Nin-Bound Flame Tornado",
+      "startup": 60,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Toad Oil Bomb": {
+      "input": "Toad Oil Bomb",
+      "startup": 31,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Nin-Bound Toad Oil Bomb": {
+      "input": "Nin-Bound Toad Oil Bomb",
+      "startup": 61,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Flying Air Shuriken": {
+      "input": "Flying Air Shuriken",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Nin-Bound Flying Air Shuriken": {
+      "input": "Nin-Bound Flying Air Shuriken",
+      "startup": 45,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Throw": {
+      "input": "Throw",
+      "startup": 5,
+      "on_hit": 2,
+      "raw_on_hit": "HKD(+2)"
+    },
+    "Dodge": {
+      "input": "Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Backwards Dodge": {
+      "input": "Backwards Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Guard Cancel": {
+      "input": "Guard Cancel",
+      "startup": 18,
+      "on_hit": 12,
+      "raw_on_hit": "+12"
+    },
+    "Burning Stigma": {
+      "input": "Burning Stigma",
+      "startup": 150,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Sword of Kusanagi": {
+      "input": "Sword of Kusanagi",
+      "startup": 2,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    }
+  }
+}

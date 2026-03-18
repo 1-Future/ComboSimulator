@@ -1,0 +1,189 @@
+{
+  "characterId": "dragon_knight",
+  "game": "dnfd",
+  "gameName": "DNF Duel",
+  "name": "Dragon Knight",
+  "combos": [],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 6,
+      "on_hit": -2,
+      "raw_on_hit": "-2"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 8,
+      "on_hit": -2,
+      "raw_on_hit": "-2"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 5,
+      "on_hit": -2,
+      "raw_on_hit": "-2"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 13,
+      "on_hit": 10,
+      "raw_on_hit": "KD (+10)"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 6,
+      "on_hit": 15,
+      "raw_on_hit": "~+15"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 12,
+      "on_hit": -4,
+      "raw_on_hit": "-4~+19"
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Lethal Punto": {
+      "input": "Lethal Punto",
+      "startup": 14,
+      "on_hit": -3,
+      "raw_on_hit": "-3"
+    },
+    "Charged Lethal Punto": {
+      "input": "Charged Lethal Punto",
+      "startup": 36,
+      "on_hit": -3,
+      "raw_on_hit": "-3"
+    },
+    "Shield Uppercut": {
+      "input": "Shield Uppercut",
+      "startup": 13,
+      "on_hit": 35,
+      "raw_on_hit": "KD (+35)"
+    },
+    "Sky Break": {
+      "input": "Sky Break",
+      "startup": 22,
+      "on_hit": 62,
+      "raw_on_hit": "KD (+62)"
+    },
+    "Finish!": {
+      "input": "Finish!",
+      "startup": 28,
+      "on_hit": 22,
+      "raw_on_hit": "KD (+22)"
+    },
+    "Knuckle Blaster": {
+      "input": "Knuckle Blaster",
+      "startup": 20,
+      "on_hit": 36,
+      "raw_on_hit": "KD (~+36)"
+    },
+    "Summon Astra": {
+      "input": "Summon Astra",
+      "startup": 18,
+      "on_hit": 25,
+      "raw_on_hit": "+25"
+    },
+    "Dragon Smash": {
+      "input": "Dragon Smash",
+      "startup": 10,
+      "on_hit": 14,
+      "raw_on_hit": "KD (+14)"
+    },
+    "Dragon Warrior Princess": {
+      "input": "Dragon Warrior Princess",
+      "startup": 20,
+      "on_hit": 30,
+      "raw_on_hit": "KD (+30)"
+    },
+    "Biting Dragon": {
+      "input": "Biting Dragon",
+      "startup": 16,
+      "on_hit": 37,
+      "raw_on_hit": "KD (+37)"
+    },
+    "Dragon Wing": {
+      "input": "Dragon Wing",
+      "startup": 29,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Boost Wing (Forward)": {
+      "input": "Boost Wing (Forward)",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Boost Wing (Back)": {
+      "input": "Boost Wing (Back)",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Dragon Force": {
+      "input": "Dragon Force",
+      "startup": 68,
+      "on_hit": 25,
+      "raw_on_hit": "+25"
+    },
+    "Dragon Breath": {
+      "input": "Dragon Breath",
+      "startup": 93,
+      "on_hit": 125,
+      "raw_on_hit": "~+125"
+    },
+    "Dragon Fang": {
+      "input": "Dragon Fang",
+      "startup": 58,
+      "on_hit": 70,
+      "raw_on_hit": "~+70"
+    },
+    "Throw": {
+      "input": "Throw",
+      "startup": 60,
+      "on_hit": 2,
+      "raw_on_hit": "KD (+2)"
+    },
+    "Dodge": {
+      "input": "Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Backwards Dodge": {
+      "input": "Backwards Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Guard Cancel": {
+      "input": "Guard Cancel",
+      "startup": 18,
+      "on_hit": 12,
+      "raw_on_hit": "KD (+12)"
+    },
+    "Dragon Sortie": {
+      "input": "Dragon Sortie",
+      "startup": 2,
+      "on_hit": 2,
+      "raw_on_hit": "HKD (+2)"
+    }
+  }
+}

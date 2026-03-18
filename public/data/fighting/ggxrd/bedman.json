@@ -1,0 +1,1874 @@
+{
+  "characterId": "bedman",
+  "game": "ggxrd",
+  "gameName": "Guilty Gear Xrd REV 2",
+  "name": "Bedman",
+  "combos": [
+    {
+      "id": "j-p-j-p-j-s",
+      "name": "j.P > j.P > j.S",
+      "notation": "j.P > j.P > j.S",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.P",
+          "time": 0.0,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.1,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.2,
+          "label": "j.S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "j-s-j-p-j-s",
+      "name": "j.S > j.P > j.S",
+      "notation": "j.S > j.P > j.S",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.S",
+          "time": 0.0,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.167,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.267,
+          "label": "j.S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "hover-3-j-p",
+      "name": "Hover > 3 > j.P",
+      "notation": "Hover > 3 > j.P",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Hover",
+          "time": 0.0,
+          "label": "Hover",
+          "window": 100
+        },
+        {
+          "key": "3",
+          "time": 0.0,
+          "label": "3",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.217,
+          "label": "j.P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "29-hover-6-j-k-c-s",
+      "name": "29 Hover > 6 > j.K, c.S",
+      "notation": "29 Hover > 6 > j.K, c.S",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "29 Hover",
+          "time": 0.0,
+          "label": "29 Hover",
+          "window": 100
+        },
+        {
+          "key": "6",
+          "time": 0.217,
+          "label": "6",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.433,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.583,
+          "label": "c.S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "c-s-5h-2-1h-task-c",
+      "name": "c.S > 5H(2) > 1H > Task C",
+      "notation": "c.S > 5H(2) > 1H > Task C",
+      "description": "Midscreen — 153 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "c.S",
+          "time": 0.0,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.1,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "1H",
+          "time": 0.3,
+          "label": "1H",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 0.55,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "153"
+    },
+    {
+      "id": "c-s-5h-2-1h-sjc-j-p-j-k-j-s-air-task",
+      "name": "c.S > 5H(2) > 1H > SJC j.P > j.K > j.S > air Task C, j.K > 6",
+      "notation": "c.S > 5H(2) > 1H > SJC j.P > j.K > j.S > air Task C, j.K > 6j.K > j.S, Task C",
+      "description": "Midscreen — 186 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "c.S",
+          "time": 0.0,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.1,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "1H",
+          "time": 0.3,
+          "label": "1H",
+          "window": 100
+        },
+        {
+          "key": "SJC j.P",
+          "time": 0.55,
+          "label": "SJC j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.767,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.917,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "air Task C",
+          "time": 1.083,
+          "label": "air Task C",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.3,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "6j.K",
+          "time": 1.45,
+          "label": "6j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.667,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.833,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "186"
+    },
+    {
+      "id": "c-s-5h-2-1h-sjc-j-s-j-p-j-s-air-task",
+      "name": "c.S > 5H(2) > 1H > SJC j.S > j.P > j.S > air Task C, j.K > 6",
+      "notation": "c.S > 5H(2) > 1H > SJC j.S > j.P > j.S > air Task C, j.K > 6j.K > j.S, Task C",
+      "description": "Midscreen — 194 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "c.S",
+          "time": 0.0,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.1,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "1H",
+          "time": 0.3,
+          "label": "1H",
+          "window": 100
+        },
+        {
+          "key": "SJC j.S",
+          "time": 0.55,
+          "label": "SJC j.S",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.767,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.867,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "air Task C",
+          "time": 1.033,
+          "label": "air Task C",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.25,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "6j.K",
+          "time": 1.4,
+          "label": "6j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.617,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.783,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "194"
+    },
+    {
+      "id": "c-s-5h-2-1h-sjc-j-k-3j-s-task-c-c-s-j",
+      "name": "c.S > 5H(2) > 1H > SJC j.K > 3j.S, Task C, c.S > JC j.K > 6j",
+      "notation": "c.S > 5H(2) > 1H > SJC j.K > 3j.S, Task C, c.S > JC j.K > 6j.K > j.S, Task C",
+      "description": "Midscreen — 205 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "c.S",
+          "time": 0.0,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.1,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "1H",
+          "time": 0.3,
+          "label": "1H",
+          "window": 100
+        },
+        {
+          "key": "SJC j.K",
+          "time": 0.55,
+          "label": "SJC j.K",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 0.767,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 0.983,
+          "label": "Task C",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.2,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "JC j.K",
+          "time": 1.3,
+          "label": "JC j.K",
+          "window": 100
+        },
+        {
+          "key": "6j.K",
+          "time": 1.517,
+          "label": "6j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.733,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.9,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "205"
+    },
+    {
+      "id": "c-s-5h-2-1h-sjc-j-k-3j-s-task-c-2p-c",
+      "name": "c.S > 5H(2) > 1H > SJC j.K > 3j.S, Task C, (2P>) c.S > Task ",
+      "notation": "c.S > 5H(2) > 1H > SJC j.K > 3j.S, Task C, (2P>) c.S > Task C",
+      "description": "Midscreen — 200 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "c.S",
+          "time": 0.0,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.1,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "1H",
+          "time": 0.3,
+          "label": "1H",
+          "window": 100
+        },
+        {
+          "key": "SJC j.K",
+          "time": 0.55,
+          "label": "SJC j.K",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 0.767,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 0.983,
+          "label": "Task C",
+          "window": 100
+        },
+        {
+          "key": "(2P",
+          "time": 1.2,
+          "label": "(2P",
+          "window": 100
+        },
+        {
+          "key": ") c.S",
+          "time": 1.417,
+          "label": ") c.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.633,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "200"
+    },
+    {
+      "id": "c-s-5h-2-1h-sjc-j-p-j-p-j-s-air-task",
+      "name": "c.S > 5H(2) > 1H > SJC j.P > j.P > j.S > air Task C, j.K > 6",
+      "notation": "c.S > 5H(2) > 1H > SJC j.P > j.P > j.S > air Task C, j.K > 6j.K > j.S, Task C",
+      "description": "Midscreen — 183 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "c.S",
+          "time": 0.0,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.1,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "1H",
+          "time": 0.3,
+          "label": "1H",
+          "window": 100
+        },
+        {
+          "key": "SJC j.P",
+          "time": 0.55,
+          "label": "SJC j.P",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.767,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.867,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "air Task C",
+          "time": 1.033,
+          "label": "air Task C",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.25,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "6j.K",
+          "time": 1.4,
+          "label": "6j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.617,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.783,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "183"
+    },
+    {
+      "id": "c-s-5h-2-1h-jc-83-j-p-task-c-c-s-jc-j-p",
+      "name": "c.S > 5H(2) > 1H > JC 83 j.P, Task C, c.S > JC j.P > 6j.P > ",
+      "notation": "c.S > 5H(2) > 1H > JC 83 j.P, Task C, c.S > JC j.P > 6j.P > j.S > Task C",
+      "description": "Midscreen — 188 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "c.S",
+          "time": 0.0,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.1,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "1H",
+          "time": 0.3,
+          "label": "1H",
+          "window": 100
+        },
+        {
+          "key": "JC 83 j.P",
+          "time": 0.55,
+          "label": "JC 83 j.P",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 0.767,
+          "label": "Task C",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.983,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "JC j.P",
+          "time": 1.083,
+          "label": "JC j.P",
+          "window": 100
+        },
+        {
+          "key": "6j.P",
+          "time": 1.3,
+          "label": "6j.P",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.517,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.683,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "188"
+    },
+    {
+      "id": "c-s-5h-2-1h-sjc-3-j-p-task-c-2p-c-s-t",
+      "name": "c.S > 5H(2) > 1H > SJC 3 j.P, Task C, 2P > c.S > Task C",
+      "notation": "c.S > 5H(2) > 1H > SJC 3 j.P, Task C, 2P > c.S > Task C",
+      "description": "Midscreen — 188 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "c.S",
+          "time": 0.0,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.1,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "1H",
+          "time": 0.3,
+          "label": "1H",
+          "window": 100
+        },
+        {
+          "key": "SJC 3 j.P",
+          "time": 0.55,
+          "label": "SJC 3 j.P",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 0.767,
+          "label": "Task C",
+          "window": 100
+        },
+        {
+          "key": "2P",
+          "time": 0.983,
+          "label": "2P",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.067,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.167,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "188"
+    },
+    {
+      "id": "c-s-5h-2-1h-jc-j-s-3j-s-task-c-2p-c-s",
+      "name": "c.S > 5H(2) > 1H > JC j.S > 3j.S, Task C, 2P > c.S > Task C",
+      "notation": "c.S > 5H(2) > 1H > JC j.S > 3j.S, Task C, 2P > c.S > Task C",
+      "description": "Midscreen — 185 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "c.S",
+          "time": 0.0,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.1,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "1H",
+          "time": 0.3,
+          "label": "1H",
+          "window": 100
+        },
+        {
+          "key": "JC j.S",
+          "time": 0.55,
+          "label": "JC j.S",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 0.767,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 0.983,
+          "label": "Task C",
+          "window": 100
+        },
+        {
+          "key": "2P",
+          "time": 1.2,
+          "label": "2P",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.283,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.383,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "185"
+    },
+    {
+      "id": "throw-f-s-9j-k-3j-s-task-c",
+      "name": "Throw > f.S > 9j.K > 3j.S > Task C",
+      "notation": "Throw > f.S > 9j.K > 3j.S > Task C",
+      "description": "Corner — 112 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.217,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "9j.K",
+          "time": 0.367,
+          "label": "9j.K",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 0.583,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 0.8,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "112"
+    },
+    {
+      "id": "throw-f-s-9j-k-3j-s-5h-1-task-c",
+      "name": "Throw > f.S > 9j.K > 3j.S > 5H(1) > Task C",
+      "notation": "Throw > f.S > 9j.K > 3j.S > 5H(1) > Task C",
+      "description": "Corner — 118 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.217,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "9j.K",
+          "time": 0.367,
+          "label": "9j.K",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 0.583,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.8,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.0,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "118"
+    },
+    {
+      "id": "throw-f-s-9j-k-3j-s-9j-s-3j-s-task-c",
+      "name": "Throw > f.S > 9j.K > 3j.S > 9j.S > 3j.S > Task C",
+      "notation": "Throw > f.S > 9j.K > 3j.S > 9j.S > 3j.S > Task C",
+      "description": "Corner — 126 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.217,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "9j.K",
+          "time": 0.367,
+          "label": "9j.K",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 0.583,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "9j.S",
+          "time": 0.8,
+          "label": "9j.S",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 1.017,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.233,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "126"
+    },
+    {
+      "id": "throw-f-s-9j-k-3j-s-9j-s-3j-s-9j-s-3",
+      "name": "Throw > f.S > 9j.K > 3j.S > 9j.S > 3j.S > 9j.S > 3j.S > Task",
+      "notation": "Throw > f.S > 9j.K > 3j.S > 9j.S > 3j.S > 9j.S > 3j.S > Task C",
+      "description": "Corner — 134 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.217,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "9j.K",
+          "time": 0.367,
+          "label": "9j.K",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 0.583,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "9j.S",
+          "time": 0.8,
+          "label": "9j.S",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 1.017,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "9j.S",
+          "time": 1.233,
+          "label": "9j.S",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 1.45,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.667,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "134"
+    },
+    {
+      "id": "throw-f-s-9j-k-3j-s-9j-s-3j-s-9j-s-3",
+      "name": "Throw > f.S > 9j.K > 3j.S > 9j.S > 3j.S > 9j.S > 3j.S > 9j.S",
+      "notation": "Throw > f.S > 9j.K > 3j.S > 9j.S > 3j.S > 9j.S > 3j.S > 9j.S > 3j.S > Task C",
+      "description": "Corner — 141 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.217,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "9j.K",
+          "time": 0.367,
+          "label": "9j.K",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 0.583,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "9j.S",
+          "time": 0.8,
+          "label": "9j.S",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 1.017,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "9j.S",
+          "time": 1.233,
+          "label": "9j.S",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 1.45,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "9j.S",
+          "time": 1.667,
+          "label": "9j.S",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 1.883,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 2.1,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "141"
+    },
+    {
+      "id": "throw-5k-9j-k-6j-p-j-s-task-c-2p-c-s",
+      "name": "Throw > 5K > 9j.K > 6j.P > j.S > Task C > 2P > c.S > 9j.P > ",
+      "notation": "Throw > 5K > 9j.K > 6j.P > j.S > Task C > 2P > c.S > 9j.P > Air Task B",
+      "description": "Corner — 118 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.217,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "9j.K",
+          "time": 0.35,
+          "label": "9j.K",
+          "window": 100
+        },
+        {
+          "key": "6j.P",
+          "time": 0.567,
+          "label": "6j.P",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.783,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 0.95,
+          "label": "Task C",
+          "window": 100
+        },
+        {
+          "key": "2P",
+          "time": 1.167,
+          "label": "2P",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.25,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "9j.P",
+          "time": 1.35,
+          "label": "9j.P",
+          "window": 100
+        },
+        {
+          "key": "Air Task B",
+          "time": 1.567,
+          "label": "Air Task B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "118"
+    },
+    {
+      "id": "throw-5k-9j-k-6j-p-j-s-6p-task-c-2p",
+      "name": "Throw > 5K > 9j.K > 6j.P > j.S > 6P > Task C > 2P > c.S > 9j",
+      "notation": "Throw > 5K > 9j.K > 6j.P > j.S > 6P > Task C > 2P > c.S > 9j.P > Air Task B",
+      "description": "Corner — 124 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.217,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "9j.K",
+          "time": 0.35,
+          "label": "9j.K",
+          "window": 100
+        },
+        {
+          "key": "6j.P",
+          "time": 0.567,
+          "label": "6j.P",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.783,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.95,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.1,
+          "label": "Task C",
+          "window": 100
+        },
+        {
+          "key": "2P",
+          "time": 1.317,
+          "label": "2P",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.4,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "9j.P",
+          "time": 1.5,
+          "label": "9j.P",
+          "window": 100
+        },
+        {
+          "key": "Air Task B",
+          "time": 1.717,
+          "label": "Air Task B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "124"
+    },
+    {
+      "id": "throw-f-s-9j-k-3j-s-2h-task-c-2p-c-s",
+      "name": "Throw > f.S > 9j.K > 3j.S > 2H > Task C > 2P > c.S > 9j.P > ",
+      "notation": "Throw > f.S > 9j.K > 3j.S > 2H > Task C > 2P > c.S > 9j.P > Air Task B",
+      "description": "Corner — 136 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.217,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "9j.K",
+          "time": 0.367,
+          "label": "9j.K",
+          "window": 100
+        },
+        {
+          "key": "3j.S",
+          "time": 0.583,
+          "label": "3j.S",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.8,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.05,
+          "label": "Task C",
+          "window": 100
+        },
+        {
+          "key": "2P",
+          "time": 1.267,
+          "label": "2P",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.35,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "9j.P",
+          "time": 1.45,
+          "label": "9j.P",
+          "window": 100
+        },
+        {
+          "key": "Air Task B",
+          "time": 1.667,
+          "label": "Air Task B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "136"
+    },
+    {
+      "id": "throw-f-s-9j-k-6j-s-delay-j-p-6p-task",
+      "name": "Throw > f.S > 9j.K > 6j.S > delay j.P > 6P > Task C > 2P > c",
+      "notation": "Throw > f.S > 9j.K > 6j.S > delay j.P > 6P > Task C > 2P > c.S > 9j.P > Air Task B",
+      "description": "Corner — 133 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.217,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "9j.K",
+          "time": 0.367,
+          "label": "9j.K",
+          "window": 100
+        },
+        {
+          "key": "6j.S",
+          "time": 0.583,
+          "label": "6j.S",
+          "window": 100
+        },
+        {
+          "key": "delay j.P",
+          "time": 0.8,
+          "label": "delay j.P",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.017,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.167,
+          "label": "Task C",
+          "window": 100
+        },
+        {
+          "key": "2P",
+          "time": 1.383,
+          "label": "2P",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.467,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "9j.P",
+          "time": 1.567,
+          "label": "9j.P",
+          "window": 100
+        },
+        {
+          "key": "Air Task B",
+          "time": 1.783,
+          "label": "Air Task B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "133"
+    },
+    {
+      "id": "throw-f-s-9j-k-6j-s-delay-j-p-6p-task",
+      "name": "Throw > f.S > 9j.K > 6j.S > delay j.P > 6P > Task C > c.S > ",
+      "notation": "Throw > f.S > 9j.K > 6j.S > delay j.P > 6P > Task C > c.S > 9j.P > Air Task B",
+      "description": "Corner — 133 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.217,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "9j.K",
+          "time": 0.367,
+          "label": "9j.K",
+          "window": 100
+        },
+        {
+          "key": "6j.S",
+          "time": 0.583,
+          "label": "6j.S",
+          "window": 100
+        },
+        {
+          "key": "delay j.P",
+          "time": 0.8,
+          "label": "delay j.P",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 1.017,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.167,
+          "label": "Task C",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.383,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "9j.P",
+          "time": 1.483,
+          "label": "9j.P",
+          "window": 100
+        },
+        {
+          "key": "Air Task B",
+          "time": 1.7,
+          "label": "Air Task B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "133"
+    },
+    {
+      "id": "throw-f-s-9j-k-2j-p-task-b-2p-c-s-ta",
+      "name": "Throw > f.S > 9j.K > 2j.P > Task B > 2P > c.S > Task C",
+      "notation": "Throw > f.S > 9j.K > 2j.P > Task B > 2P > c.S > Task C",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.217,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "9j.K",
+          "time": 0.367,
+          "label": "9j.K",
+          "window": 100
+        },
+        {
+          "key": "2j.P",
+          "time": 0.583,
+          "label": "2j.P",
+          "window": 100
+        },
+        {
+          "key": "Task B",
+          "time": 0.8,
+          "label": "Task B",
+          "window": 100
+        },
+        {
+          "key": "2P",
+          "time": 1.017,
+          "label": "2P",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.1,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "Task C",
+          "time": 1.2,
+          "label": "Task C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5K": {
+      "input": "5K",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "c.S": {
+      "input": "c.S",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "f.S": {
+      "input": "f.S",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5H": {
+      "input": "5H",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2P": {
+      "input": "2P",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2K": {
+      "input": "2K",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2S": {
+      "input": "2S",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "1H": {
+      "input": "1H",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "3H": {
+      "input": "3H",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.P": {
+      "input": "j.P",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.K": {
+      "input": "j.K",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.S": {
+      "input": "j.S",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.D": {
+      "input": "j.D",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6H": {
+      "input": "6H",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6HH": {
+      "input": "6HH",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2D": {
+      "input": "2D",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5D": {
+      "input": "5D",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "DAA": {
+      "input": "DAA",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Blitz": {
+      "input": "Blitz",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[Blitz]": {
+      "input": "[Blitz]",
+      "startup": 50,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Crawl": {
+      "input": "Crawl",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Hover": {
+      "input": "Hover",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Hover > Direction": {
+      "input": "Hover > Direction",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Dash": {
+      "input": "Dash",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "236P": {
+      "input": "236P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.236P": {
+      "input": "j.236P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214P": {
+      "input": "214P",
+      "startup": 29,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214P": {
+      "input": "j.214P",
+      "startup": 29,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "236K": {
+      "input": "236K",
+      "startup": 37,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.236K": {
+      "input": "j.236K",
+      "startup": 37,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214K": {
+      "input": "214K",
+      "startup": 48,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214K": {
+      "input": "j.214K",
+      "startup": 48,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "236S": {
+      "input": "236S",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.236S": {
+      "input": "j.236S",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214S": {
+      "input": "214S",
+      "startup": 23,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214S": {
+      "input": "j.214S",
+      "startup": 23,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "236H": {
+      "input": "236H",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.236H": {
+      "input": "j.236H",
+      "startup": 21,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214H": {
+      "input": "214H",
+      "startup": 30,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214H": {
+      "input": "j.214H",
+      "startup": 28,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Icon Properties": {
+      "input": "Icon Properties",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214X": {
+      "input": "214X",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214X": {
+      "input": "j.214X",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "632146H": {
+      "input": "632146H",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "632146S": {
+      "input": "632146S",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "236236H": {
+      "input": "236236H",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    }
+  }
+}

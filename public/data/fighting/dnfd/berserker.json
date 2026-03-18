@@ -1,0 +1,984 @@
+{
+  "characterId": "berserker",
+  "game": "dnfd",
+  "gameName": "DNF Duel",
+  "name": "Berserker",
+  "combos": [
+    {
+      "id": "5aa-2a-5b-2b-5s-4s",
+      "name": "(5AA/2A) > 5B > 2B > 5S > 4S",
+      "notation": "(5AA/2A) > 5B > 2B > 5S > 4S",
+      "description": "Anywhere — 246 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.2,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.467,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.683,
+          "label": "4S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "246"
+    },
+    {
+      "id": "2a-5b-2b-2s-j-s-j-2s-1-j-m-5s-5m",
+      "name": "2A > 5B > 2B > 2S > j.S > j.2S(1) > j.M, 5S > 5M, IAS j.M, d",
+      "notation": "2A > 5B > 2B > 2S > j.S > j.2S(1) > j.M, 5S > 5M, IAS j.M, dl.5S > 4S",
+      "description": "Anywhere — 295 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2A",
+          "time": 0.0,
+          "label": "2A",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.1,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.3,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.567,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.783,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.2S",
+          "time": 1.0,
+          "label": "j.2S",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 1.217,
+          "label": "j.M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.433,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.65,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "IAS j.M",
+          "time": 1.867,
+          "label": "IAS j.M",
+          "window": 100
+        },
+        {
+          "key": "dl.5S",
+          "time": 2.083,
+          "label": "dl.5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.3,
+          "label": "4S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "295"
+    },
+    {
+      "id": "5a-5b-2b-5s-5m-ias-j-2s-236m-dash-5s",
+      "name": "5A > 5B > 2B > 5S > 5M, IAS j.2S > 236M, dash 5S > 5M, IAS j",
+      "notation": "5A > 5B > 2B > 5S > 5M, IAS j.2S > 236M, dash 5S > 5M, IAS j.M, 5S > 4S",
+      "description": "Midscreen — 305 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.15,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.35,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.617,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.833,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "IAS j.2S",
+          "time": 1.05,
+          "label": "IAS j.2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 1.267,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "dash 5S",
+          "time": 1.483,
+          "label": "dash 5S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.7,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "IAS j.M",
+          "time": 1.917,
+          "label": "IAS j.M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 2.133,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.35,
+          "label": "4S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "305"
+    },
+    {
+      "id": "5a-5b-2b-5s-5m-ias-j-2s-236m-2-conve",
+      "name": "5A > 5B > 2B > 5S > 5M, IAS j.2S > 236M(2) > Conversion > 5M",
+      "notation": "5A > 5B > 2B > 5S > 5M, IAS j.2S > 236M(2) > Conversion > 5M, dash fr.5B(2) > fr.2B > 4S > 236M, 5S > 4S",
+      "description": "Midscreen to Corner — 313 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen to corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.15,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.35,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.617,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.833,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "IAS j.2S",
+          "time": 1.05,
+          "label": "IAS j.2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 1.267,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "Conversion",
+          "time": 1.483,
+          "label": "Conversion",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.7,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "dash fr.5B",
+          "time": 1.917,
+          "label": "dash fr.5B",
+          "window": 100
+        },
+        {
+          "key": "fr.2B",
+          "time": 2.133,
+          "label": "fr.2B",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.35,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 2.567,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 2.783,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 3.0,
+          "label": "4S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "313"
+    },
+    {
+      "id": "5b-5s-4s-j-2s-5m-fr-5a-1-fr-5b-fr-2b",
+      "name": "5B > 5S > 4S~j.2S > 5M, fr.5A(1) > fr.5B > fr.2B > 5S >4S~j.",
+      "notation": "5B > 5S > 4S~j.2S > 5M, fr.5A(1) > fr.5B > fr.2B > 5S >4S~j.2S > [fr.236M] or [fr.5M], (dash) 5S > 4S > (CV 4S) > 214M, (AS)",
+      "description": "Anywhere — 386/424 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.25,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.467,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "j.2S",
+          "time": 0.683,
+          "label": "j.2S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.9,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "fr.5A",
+          "time": 1.117,
+          "label": "fr.5A",
+          "window": 100
+        },
+        {
+          "key": "fr.5B",
+          "time": 1.333,
+          "label": "fr.5B",
+          "window": 100
+        },
+        {
+          "key": "fr.2B",
+          "time": 1.55,
+          "label": "fr.2B",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.767,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.983,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "j.2S",
+          "time": 2.2,
+          "label": "j.2S",
+          "window": 100
+        },
+        {
+          "key": "[fr.236M] or [fr.5M]",
+          "time": 2.417,
+          "label": "[fr.236M] or [fr.5M]",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 2.633,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.85,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 3.067,
+          "label": "214M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "386/424"
+    },
+    {
+      "id": "5b-5s-4s-j-2s-236m-2-kara-jc-5m-run-fr-5",
+      "name": "5B > 5S > 4S~j.2S > 236M(2) > kara jc 5M, run fr.5B > fr.2B ",
+      "notation": "5B > 5S > 4S~j.2S > 236M(2) > kara jc 5M, run fr.5B > fr.2B > 5S >4S~j.2S > [fr.236M] or [fr.5M], (dash) 5S > 4S > (CV 4S) > 214M, (AS)",
+      "description": "Anywhere — 426/473 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.25,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.467,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "j.2S",
+          "time": 0.683,
+          "label": "j.2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.9,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "kara jc 5M",
+          "time": 1.117,
+          "label": "kara jc 5M",
+          "window": 100
+        },
+        {
+          "key": "run fr.5B",
+          "time": 1.333,
+          "label": "run fr.5B",
+          "window": 100
+        },
+        {
+          "key": "fr.2B",
+          "time": 1.55,
+          "label": "fr.2B",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.767,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.983,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "j.2S",
+          "time": 2.2,
+          "label": "j.2S",
+          "window": 100
+        },
+        {
+          "key": "[fr.236M] or [fr.5M]",
+          "time": 2.417,
+          "label": "[fr.236M] or [fr.5M]",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 2.633,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.85,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 3.067,
+          "label": "214M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "426/473"
+    },
+    {
+      "id": "ch-5s-death",
+      "name": "CH 5S > death",
+      "notation": "CH 5S > death",
+      "description": "Anywhere — you die damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5S",
+          "time": 0.0,
+          "label": "CH 5S",
+          "window": 100
+        },
+        {
+          "key": "death",
+          "time": 0.217,
+          "label": "death",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "you die"
+    },
+    {
+      "id": "6ss-2a-5b-2b-2s-j-s-j-2s-1-j-m-5s",
+      "name": "6SS, 2A > 5B > 2B > 2S > j.S > j.2S(1) > j.M, 5S > 4S > 236M",
+      "notation": "6SS, 2A > 5B > 2B > 2S > j.S > j.2S(1) > j.M, 5S > 4S > 236M, 5S > 5M > IAS j.M, 5S > 4S > 5M/AS",
+      "description": "Corner — 375 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6SS",
+          "time": 0.0,
+          "label": "6SS",
+          "window": 100
+        },
+        {
+          "key": "2A",
+          "time": 0.217,
+          "label": "2A",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.317,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.517,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.783,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.0,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.2S",
+          "time": 1.217,
+          "label": "j.2S",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 1.433,
+          "label": "j.M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.65,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.867,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 2.083,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 2.3,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.517,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "IAS j.M",
+          "time": 2.733,
+          "label": "IAS j.M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 2.95,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 3.167,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M/AS",
+          "time": 3.383,
+          "label": "5M/AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "375"
+    },
+    {
+      "id": "214m-623m",
+      "name": "214M, 623M",
+      "notation": "214M, 623M",
+      "description": "Corner — ~240 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "214M",
+          "time": 0.0,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "623M",
+          "time": 0.217,
+          "label": "623M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "~240"
+    },
+    {
+      "id": "214m-as",
+      "name": "214M, AS",
+      "notation": "214M, AS",
+      "description": "Corner — ~400 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "214M",
+          "time": 0.0,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "AS",
+          "time": 0.217,
+          "label": "AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "~400"
+    },
+    {
+      "id": "fr-214m-ias-j-2s-236m-5s-4s-2-as",
+      "name": "fr.214M, IAS j.2S > [236M, 5S > 4S]*2 > (AS)",
+      "notation": "fr.214M, IAS j.2S > [236M, 5S > 4S]*2 > (AS)",
+      "description": "Corner — 322 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "fr.214M",
+          "time": 0.0,
+          "label": "fr.214M",
+          "window": 100
+        },
+        {
+          "key": "IAS j.2S",
+          "time": 0.217,
+          "label": "IAS j.2S",
+          "window": 100
+        },
+        {
+          "key": "[236M",
+          "time": 0.433,
+          "label": "[236M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.65,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S]*2",
+          "time": 0.867,
+          "label": "4S]*2",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "322"
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 8,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 9,
+      "on_hit": -4,
+      "raw_on_hit": "-4"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 12,
+      "on_hit": -3,
+      "raw_on_hit": "-3"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5A (Frenzy)": {
+      "input": "5A (Frenzy)",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5AA (Frenzy)": {
+      "input": "5AA (Frenzy)",
+      "startup": 0,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "5B (Frenzy)": {
+      "input": "5B (Frenzy)",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "HKD"
+    },
+    "2B (Frenzy)": {
+      "input": "2B (Frenzy)",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "j.B (Frenzy)": {
+      "input": "j.B (Frenzy)",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Blood Twister": {
+      "input": "Blood Twister",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "Ghost Slash": {
+      "input": "Ghost Slash",
+      "startup": 18,
+      "on_hit": -4,
+      "raw_on_hit": "-4"
+    },
+    "Upward Slash": {
+      "input": "Upward Slash",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Gore Cross": {
+      "input": "Gore Cross",
+      "startup": 15,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    },
+    "Gore Cross: Expulsion": {
+      "input": "Gore Cross: Expulsion",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Mountainous Wheel": {
+      "input": "Mountainous Wheel",
+      "startup": 25,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Blood Smash": {
+      "input": "Blood Smash",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Ashe Fork": {
+      "input": "Ashe Fork",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Frenzy": {
+      "input": "Frenzy",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Raging Fury": {
+      "input": "Raging Fury",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "HKD"
+    },
+    "Blood Sword": {
+      "input": "Blood Sword",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "Blood Lust": {
+      "input": "Blood Lust",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "HKD"
+    },
+    "Outrage Break": {
+      "input": "Outrage Break",
+      "startup": 27,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "Throw": {
+      "input": "Throw",
+      "startup": 5,
+      "on_hit": 2,
+      "raw_on_hit": "HKD(+2)"
+    },
+    "Dodge": {
+      "input": "Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Backwards Dodge": {
+      "input": "Backwards Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Guard Cancel": {
+      "input": "Guard Cancel",
+      "startup": 18,
+      "on_hit": 10,
+      "raw_on_hit": "+10 (HKD)"
+    },
+    "Blood Riven": {
+      "input": "Blood Riven",
+      "startup": 2,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    }
+  }
+}

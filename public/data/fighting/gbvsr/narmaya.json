@@ -1,0 +1,441 @@
+{
+  "characterId": "narmaya",
+  "game": "gbvsr",
+  "gameName": "Granblue Fantasy Versus: Rising",
+  "name": "Narmaya",
+  "combos": [],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5L[g]": {
+      "input": "5L[g]",
+      "startup": 6,
+      "on_hit": 7,
+      "raw_on_hit": "+7"
+    },
+    "c.M[g]": {
+      "input": "c.M[g]",
+      "startup": 6,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    },
+    "c.H[g]": {
+      "input": "c.H[g]",
+      "startup": 8,
+      "on_hit": -3,
+      "raw_on_hit": "-3"
+    },
+    "f.M[g]": {
+      "input": "f.M[g]",
+      "startup": 9,
+      "on_hit": -2,
+      "raw_on_hit": "-2"
+    },
+    "f.H[g]": {
+      "input": "f.H[g]",
+      "startup": 10,
+      "on_hit": -7,
+      "raw_on_hit": "-7"
+    },
+    "2L[g]": {
+      "input": "2L[g]",
+      "startup": 6,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    },
+    "2M[g]": {
+      "input": "2M[g]",
+      "startup": 8,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "2H[g]": {
+      "input": "2H[g]",
+      "startup": 11,
+      "on_hit": -7,
+      "raw_on_hit": "-7"
+    },
+    "2U[g]": {
+      "input": "2U[g]",
+      "startup": 9,
+      "on_hit": 44,
+      "raw_on_hit": "HKD +44"
+    },
+    "66H[g]": {
+      "input": "66H[g]",
+      "startup": 20,
+      "on_hit": 41,
+      "raw_on_hit": "KD +41"
+    },
+    "j.L[g]": {
+      "input": "j.L[g]",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.M[g]": {
+      "input": "j.M[g]",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.H[g]": {
+      "input": "j.H[g]",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.U[g]": {
+      "input": "j.U[g]",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5L[k]": {
+      "input": "5L[k]",
+      "startup": 5,
+      "on_hit": 8,
+      "raw_on_hit": "+8"
+    },
+    "c.M[k]": {
+      "input": "c.M[k]",
+      "startup": 6,
+      "on_hit": 4,
+      "raw_on_hit": "+4"
+    },
+    "c.H[k]": {
+      "input": "c.H[k]",
+      "startup": 9,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    },
+    "f.M[k]": {
+      "input": "f.M[k]",
+      "startup": 7,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "f.H[k]": {
+      "input": "f.H[k]",
+      "startup": 9,
+      "on_hit": -5,
+      "raw_on_hit": "-5"
+    },
+    "2L[k]": {
+      "input": "2L[k]",
+      "startup": 6,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    },
+    "2M[k]": {
+      "input": "2M[k]",
+      "startup": 7,
+      "on_hit": 5,
+      "raw_on_hit": "+5"
+    },
+    "2H[k]": {
+      "input": "2H[k]",
+      "startup": 11,
+      "on_hit": -9,
+      "raw_on_hit": "-9"
+    },
+    "2U[k]": {
+      "input": "2U[k]",
+      "startup": 7,
+      "on_hit": 43,
+      "raw_on_hit": "HKD +43"
+    },
+    "66H[k]": {
+      "input": "66H[k]",
+      "startup": 15,
+      "on_hit": 11,
+      "raw_on_hit": "+11Force Crouch"
+    },
+    "j.L[k]": {
+      "input": "j.L[k]",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.M[k]": {
+      "input": "j.M[k]",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.H[k]": {
+      "input": "j.H[k]",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.U[k]": {
+      "input": "j.U[k]",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "c.XX": {
+      "input": "c.XX",
+      "startup": 9,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "c.XXX": {
+      "input": "c.XXX",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "±0"
+    },
+    "c.XX6M": {
+      "input": "c.XX6M",
+      "startup": 12,
+      "on_hit": 30,
+      "raw_on_hit": "KD +30"
+    },
+    "c.XX6H": {
+      "input": "c.XX6H",
+      "startup": 18,
+      "on_hit": 1,
+      "raw_on_hit": "+1Force Crouch"
+    },
+    "66L": {
+      "input": "66L",
+      "startup": 8,
+      "on_hit": 6,
+      "raw_on_hit": "+6"
+    },
+    "66M": {
+      "input": "66M",
+      "startup": 12,
+      "on_hit": 24,
+      "raw_on_hit": "KD +24"
+    },
+    "5U": {
+      "input": "5U",
+      "startup": 2,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 4,
+      "on_hit": 44,
+      "raw_on_hit": "HKD +44"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 5,
+      "on_hit": 46,
+      "raw_on_hit": "HKD ≈+46"
+    },
+    "Raging Strike": {
+      "input": "Raging Strike",
+      "startup": 28,
+      "on_hit": 15,
+      "raw_on_hit": "+15Force Crouch (KD +40)"
+    },
+    "Raging Chain": {
+      "input": "Raging Chain",
+      "startup": 13,
+      "on_hit": 15,
+      "raw_on_hit": "+15Force Crouch (HKD +63)"
+    },
+    "Brave Counter": {
+      "input": "Brave Counter",
+      "startup": 10,
+      "on_hit": 21,
+      "raw_on_hit": "Air Tech +21 [+5]"
+    },
+    "236L[g]": {
+      "input": "236L[g]",
+      "startup": 14,
+      "on_hit": 18,
+      "raw_on_hit": "Air Tech +18"
+    },
+    "236M[g]": {
+      "input": "236M[g]",
+      "startup": 32,
+      "on_hit": 20,
+      "raw_on_hit": "+20Force Crouch"
+    },
+    "236H[g]": {
+      "input": "236H[g]",
+      "startup": 15,
+      "on_hit": 37,
+      "raw_on_hit": "KD +37"
+    },
+    "623L[g]": {
+      "input": "623L[g]",
+      "startup": 6,
+      "on_hit": 31,
+      "raw_on_hit": "KD +31"
+    },
+    "623M[g]": {
+      "input": "623M[g]",
+      "startup": 9,
+      "on_hit": 15,
+      "raw_on_hit": "Air Tech +15"
+    },
+    "623H[g]": {
+      "input": "623H[g]",
+      "startup": 11,
+      "on_hit": 31,
+      "raw_on_hit": "KD +31"
+    },
+    "214L[g]": {
+      "input": "214L[g]",
+      "startup": 34,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214M[g]": {
+      "input": "214M[g]",
+      "startup": 40,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214H[g]": {
+      "input": "214H[g]",
+      "startup": 23,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236U[g]": {
+      "input": "236U[g]",
+      "startup": 14,
+      "on_hit": 60,
+      "raw_on_hit": "HKD +60"
+    },
+    "623U[g]": {
+      "input": "623U[g]",
+      "startup": 8,
+      "on_hit": 44,
+      "raw_on_hit": "HKD +44"
+    },
+    "214U[g]": {
+      "input": "214U[g]",
+      "startup": 17,
+      "on_hit": 44,
+      "raw_on_hit": "HKD +44"
+    },
+    "236L[k]": {
+      "input": "236L[k]",
+      "startup": 13,
+      "on_hit": 17,
+      "raw_on_hit": "Air Tech +17"
+    },
+    "236M[k]": {
+      "input": "236M[k]",
+      "startup": 16,
+      "on_hit": 29,
+      "raw_on_hit": "KD +29"
+    },
+    "236H[k]": {
+      "input": "236H[k]",
+      "startup": 15,
+      "on_hit": 39,
+      "raw_on_hit": "KD +39"
+    },
+    "623L[k]": {
+      "input": "623L[k]",
+      "startup": 6,
+      "on_hit": 30,
+      "raw_on_hit": "KD +30"
+    },
+    "623M[k]": {
+      "input": "623M[k]",
+      "startup": 20,
+      "on_hit": 15,
+      "raw_on_hit": "Air Tech +15"
+    },
+    "623H[k]": {
+      "input": "623H[k]",
+      "startup": 20,
+      "on_hit": 29,
+      "raw_on_hit": "KD +29"
+    },
+    "214L[k]": {
+      "input": "214L[k]",
+      "startup": 27,
+      "on_hit": 17,
+      "raw_on_hit": "KD +17"
+    },
+    "214M[k]": {
+      "input": "214M[k]",
+      "startup": 38,
+      "on_hit": 3,
+      "raw_on_hit": "+3"
+    },
+    "214H[k]": {
+      "input": "214H[k]",
+      "startup": 32,
+      "on_hit": 6,
+      "raw_on_hit": "+6"
+    },
+    "j.214L[k]": {
+      "input": "j.214L[k]",
+      "startup": 5,
+      "on_hit": 27,
+      "raw_on_hit": "KD +27"
+    },
+    "j.214M[k]": {
+      "input": "j.214M[k]",
+      "startup": 5,
+      "on_hit": 36,
+      "raw_on_hit": "KD +36"
+    },
+    "j.214H[k]": {
+      "input": "j.214H[k]",
+      "startup": 5,
+      "on_hit": 40,
+      "raw_on_hit": "KD +40"
+    },
+    "236U[k]": {
+      "input": "236U[k]",
+      "startup": 13,
+      "on_hit": 61,
+      "raw_on_hit": "HKD +61"
+    },
+    "623U[k]": {
+      "input": "623U[k]",
+      "startup": 12,
+      "on_hit": 44,
+      "raw_on_hit": "HKD +44"
+    },
+    "214U[k]": {
+      "input": "214U[k]",
+      "startup": 27,
+      "on_hit": 8,
+      "raw_on_hit": "+8"
+    },
+    "j.214U[k]": {
+      "input": "j.214U[k]",
+      "startup": 27,
+      "on_hit": 8,
+      "raw_on_hit": "+8"
+    },
+    "236236H": {
+      "input": "236236H",
+      "startup": 7,
+      "on_hit": 52,
+      "raw_on_hit": "HKD +52 (HKD +73)"
+    },
+    "236236U": {
+      "input": "236236U",
+      "startup": 7,
+      "on_hit": 42,
+      "raw_on_hit": "HKD +42 [HKD +30]"
+    }
+  }
+}

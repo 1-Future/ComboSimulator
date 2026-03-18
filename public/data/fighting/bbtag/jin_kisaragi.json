@@ -1,0 +1,6300 @@
+{
+  "characterId": "jin_kisaragi",
+  "game": "bbtag",
+  "gameName": "BlazBlue Cross Tag Battle",
+  "name": "Jin Kisaragi",
+  "combos": [
+    {
+      "id": "5aa-5c-a-b-c",
+      "name": "5AA > 5C~A/B/C",
+      "notation": "5AA > 5C~A/B/C",
+      "description": "Any — 5147 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5AA",
+          "time": 0.0,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5C",
+          "time": 0.467,
+          "label": "5C",
+          "window": 100
+        },
+        {
+          "key": "A/B/C",
+          "time": 0.833,
+          "label": "A/B/C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5147"
+    },
+    {
+      "id": "5aa-2b-5bb-2c-214b-a-b-c",
+      "name": "5AA > (2B) > 5BB > 2C > 214B~A/B/C",
+      "notation": "5AA > (2B) > 5BB > 2C > 214B~A/B/C",
+      "description": "Any — 5487 (5947) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5AA",
+          "time": 0.0,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 0.467,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.033,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "214B",
+          "time": 1.25,
+          "label": "214B",
+          "window": 100
+        },
+        {
+          "key": "A/B/C",
+          "time": 1.533,
+          "label": "A/B/C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5487 (5947)"
+    },
+    {
+      "id": "5aa-5bbb-2b-delay-sjc-j-bb-djc-j-2b-b",
+      "name": "5AA > 5BBB > 2B > delay sjc > j.BB > djc > j.2B(B) > j.C > d",
+      "notation": "5AA > 5BBB > 2B > delay sjc > j.BB > djc > j.2B(B) > j.C > delay j.214B",
+      "description": "Any — 6697 (6850) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5AA",
+          "time": 0.0,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.467,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.717,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.267,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 1.483,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.017,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 2.233,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.767,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 3.0,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6697 (6850)"
+    },
+    {
+      "id": "5aa-2b-5bbb-jc-iad-j-bb-2b-delay-sjc",
+      "name": "5AA > (2B) > 5BBB > jc > IAD j.BB > 2B > delay sjc > j.BB > ",
+      "notation": "5AA > (2B) > 5BBB > jc > IAD j.BB > 2B > delay sjc > j.BB > djc > j.2B > j.C > delay j.214B",
+      "description": "Any — 6979 (7212) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5AA",
+          "time": 0.0,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.467,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.717,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "IAD j.BB",
+          "time": 0.933,
+          "label": "IAD j.BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.15,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.7,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 1.917,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.45,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 2.667,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.2,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 3.433,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6979 (7212)"
+    },
+    {
+      "id": "5aaa-236c-iad-j-c-j-236b-dash-5aaa-a-or-21",
+      "name": "5AAA > 236C > IAD j.C > j.236B > dash 5AAA(A or 214B~A/B/C)",
+      "notation": "5AAA > 236C > IAD j.C > j.236B > dash 5AAA(A or 214B~A/B/C)",
+      "description": "Any — 7946 (8051) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5AAA",
+          "time": 0.0,
+          "label": "5AAA",
+          "window": 100
+        },
+        {
+          "key": "236C",
+          "time": 0.417,
+          "label": "236C",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 0.867,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.083,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAA(A or 214B",
+          "time": 1.767,
+          "label": "dash 5AAA(A or 214B",
+          "window": 100
+        },
+        {
+          "key": "A/B/C)",
+          "time": 1.983,
+          "label": "A/B/C)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7946 (8051)"
+    },
+    {
+      "id": "aa-5a-2b-delay-sjc-j-bb-djc-j-2bb-j-c",
+      "name": "AA 5A > 2B > delay sjc > j.BB > djc > j.2BB > j.C > delay j.",
+      "notation": "AA 5A > 2B > delay sjc > j.BB > djc > j.2BB > j.C > delay j.214B",
+      "description": "Any — 6044 (6556) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 5A",
+          "time": 0.0,
+          "label": "AA 5A",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.217,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 0.767,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 0.983,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.517,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2BB",
+          "time": 1.733,
+          "label": "j.2BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.95,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 2.183,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6044 (6556)"
+    },
+    {
+      "id": "ch-5aaa-dash-5aa-5bbb-2b-delay-sjc-j-bb",
+      "name": "CH 5AAA > dash 5AA > 5BBB > 2B > delay sjc > j.BB > djc > j.",
+      "notation": "CH 5AAA > dash 5AA > 5BBB > 2B > delay sjc > j.BB > djc > j.2BB > j.C > delay j.214B",
+      "description": "Any — 7853 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5AAA",
+          "time": 0.0,
+          "label": "CH 5AAA",
+          "window": 100
+        },
+        {
+          "key": "dash 5AA",
+          "time": 0.217,
+          "label": "dash 5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.433,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.683,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.233,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 1.45,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.983,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2BB",
+          "time": 2.2,
+          "label": "j.2BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.417,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 2.65,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7853"
+    },
+    {
+      "id": "ch-5aaa-dash-5aaa-236c-iad-j-c-j-236b-da",
+      "name": "CH 5AAA > dash 5AAA > 236C > IAD j.C > j.236B > dash 5AAA(A ",
+      "notation": "CH 5AAA > dash 5AAA > 236C > IAD j.C > j.236B > dash 5AAA(A or 214B~A/B/C)",
+      "description": "Any — 8785 (8875) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5AAA",
+          "time": 0.0,
+          "label": "CH 5AAA",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAA",
+          "time": 0.217,
+          "label": "dash 5AAA",
+          "window": 100
+        },
+        {
+          "key": "236C",
+          "time": 0.433,
+          "label": "236C",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 0.883,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.1,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAA(A or 214B",
+          "time": 1.783,
+          "label": "dash 5AAA(A or 214B",
+          "window": 100
+        },
+        {
+          "key": "A/B/C)",
+          "time": 2.0,
+          "label": "A/B/C)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8785 (8875)"
+    },
+    {
+      "id": "rb-ch-5aaa-236c-iad-j-c-j-236c-j-214b-c",
+      "name": "RB CH 5AAA > 236C > IAD j.C > j.236C > j.214B+C > 214B~A/B/C",
+      "notation": "RB CH 5AAA > 236C > IAD j.C > j.236C > j.214B+C > 214B~A/B/C > j.214B+C > 236B+C",
+      "description": "Midscreen — 13484 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "RB CH 5AAA",
+          "time": 0.0,
+          "label": "RB CH 5AAA",
+          "window": 100
+        },
+        {
+          "key": "236C",
+          "time": 0.217,
+          "label": "236C",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 0.667,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236C",
+          "time": 0.883,
+          "label": "j.236C",
+          "window": 100
+        },
+        {
+          "key": "j.214B+C",
+          "time": 1.283,
+          "label": "j.214B+C",
+          "window": 100
+        },
+        {
+          "key": "214B",
+          "time": 1.5,
+          "label": "214B",
+          "window": 100
+        },
+        {
+          "key": "A/B/C",
+          "time": 1.783,
+          "label": "A/B/C",
+          "window": 100
+        },
+        {
+          "key": "j.214B+C",
+          "time": 2.0,
+          "label": "j.214B+C",
+          "window": 100
+        },
+        {
+          "key": "236B+C",
+          "time": 2.217,
+          "label": "236B+C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "13484"
+    },
+    {
+      "id": "5bb-2c-214b-a-b-c",
+      "name": "5BB > 2C > 214B~A/B/C",
+      "notation": "5BB > 2C > 214B~A/B/C",
+      "description": "Any — 4842 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BB",
+          "time": 0.0,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.567,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "214B",
+          "time": 0.783,
+          "label": "214B",
+          "window": 100
+        },
+        {
+          "key": "A/B/C",
+          "time": 1.067,
+          "label": "A/B/C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "4842"
+    },
+    {
+      "id": "5bb-2c-214c-a-b-c-dash-5bb-2b-delay-sjc",
+      "name": "5BB > 2C > 214C~A/B/C > dash 5BB > 2B > delay sjc > j.BB > d",
+      "notation": "5BB > 2C > 214C~A/B/C > dash 5BB > 2B > delay sjc > j.BB > djc > j.2BB > j.C > delay j.214B",
+      "description": "Any — 7393 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BB",
+          "time": 0.0,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.567,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "214C",
+          "time": 0.783,
+          "label": "214C",
+          "window": 100
+        },
+        {
+          "key": "A/B/C",
+          "time": 1.067,
+          "label": "A/B/C",
+          "window": 100
+        },
+        {
+          "key": "dash 5BB",
+          "time": 1.283,
+          "label": "dash 5BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.5,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 2.05,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.267,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.8,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2BB",
+          "time": 3.017,
+          "label": "j.2BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.233,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 3.467,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7393"
+    },
+    {
+      "id": "5bbb-2b-delay-sjc-j-bb-djc-j-2b-b-j-c",
+      "name": "5BBB > 2B > delay sjc > j.BB > djc > j.2B(B) > j.C > delay j",
+      "notation": "5BBB > 2B > delay sjc > j.BB > djc > j.2B(B) > j.C > delay j.214B",
+      "description": "Any — 6626 (6850) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BBB",
+          "time": 0.0,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.25,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 0.8,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 1.017,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.55,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 1.767,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.3,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 2.533,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6626 (6850)"
+    },
+    {
+      "id": "5bbb-jc-iad-j-bb-2b-delay-sjc-j-bb-djc",
+      "name": "5BBB > jc > IAD j.BB > 2B > delay sjc > j.BB > djc > j.2B > ",
+      "notation": "5BBB > jc > IAD j.BB > 2B > delay sjc > j.BB > djc > j.2B > j.C > delay j.214B",
+      "description": "Any — 7041 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BBB",
+          "time": 0.0,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.25,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "IAD j.BB",
+          "time": 0.467,
+          "label": "IAD j.BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.683,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.233,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 1.45,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.983,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 2.2,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.733,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 2.967,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7041"
+    },
+    {
+      "id": "aa-5b-2b-delay-sjc-j-bb-djc-j-2b-b-j",
+      "name": "AA 5B > 2B > delay sjc > j.BB > djc > j.2B(B) > j.C > delay ",
+      "notation": "AA 5B > 2B > delay sjc > j.BB > djc > j.2B(B) > j.C > delay j.214B",
+      "description": "Any — 6392 (6744) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 5B",
+          "time": 0.0,
+          "label": "AA 5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.217,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 0.767,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 0.983,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.517,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 1.733,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.267,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 2.5,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6392 (6744)"
+    },
+    {
+      "id": "ch-5bb-5aa-5c-a-b-c",
+      "name": "CH 5BB > 5AA > 5C~A/B/C",
+      "notation": "CH 5BB > 5AA > 5C~A/B/C",
+      "description": "Any — 6106 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5BB",
+          "time": 0.0,
+          "label": "CH 5BB",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 0.217,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5C",
+          "time": 0.683,
+          "label": "5C",
+          "window": 100
+        },
+        {
+          "key": "A/B/C",
+          "time": 1.05,
+          "label": "A/B/C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6106"
+    },
+    {
+      "id": "ch-5bb-5aa-5bbb-2b-delay-sjc-j-bb-djc",
+      "name": "CH 5BB > 5AA > 5BBB > 2B > delay sjc > j.BB > djc > j.2BB > ",
+      "notation": "CH 5BB > 5AA > 5BBB > 2B > delay sjc > j.BB > djc > j.2BB > j.C > delay j.214B",
+      "description": "Any — 7553 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5BB",
+          "time": 0.0,
+          "label": "CH 5BB",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 0.217,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.683,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.933,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.483,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 1.7,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.233,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2BB",
+          "time": 2.45,
+          "label": "j.2BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.667,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 2.9,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7553"
+    },
+    {
+      "id": "ch-5bb-5aa-2b-5bbb-jc-iad-j-bb-2b",
+      "name": "CH 5BB > 5AA > (2B) > 5BBB > jc > IAD j.BB > 2B > delay sjc ",
+      "notation": "CH 5BB > 5AA > (2B) > 5BBB > jc > IAD j.BB > 2B > delay sjc > j.BB > djc > (j.2B) > j.C > delay j.214B",
+      "description": "Any — 7661 (7768) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5BB",
+          "time": 0.0,
+          "label": "CH 5BB",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 0.217,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.683,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.933,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "IAD j.BB",
+          "time": 1.15,
+          "label": "IAD j.BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.367,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.917,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.133,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.667,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.883,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 3.117,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7661 (7768)"
+    },
+    {
+      "id": "ch-5bb-5aaa-236c-iad-j-c-j-236b-dash-5aa",
+      "name": "CH 5BB > 5AAA > 236C > IAD j.C > j.236B > dash 5AAA(A or 214",
+      "notation": "CH 5BB > 5AAA > 236C > IAD j.C > j.236B > dash 5AAA(A or 214B~A/B/C)",
+      "description": "Any — 8485 (8575) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5BB",
+          "time": 0.0,
+          "label": "CH 5BB",
+          "window": 100
+        },
+        {
+          "key": "5AAA",
+          "time": 0.217,
+          "label": "5AAA",
+          "window": 100
+        },
+        {
+          "key": "236C",
+          "time": 0.633,
+          "label": "236C",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 1.083,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.3,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAA(A or 214B",
+          "time": 1.983,
+          "label": "dash 5AAA(A or 214B",
+          "window": 100
+        },
+        {
+          "key": "A/B/C)",
+          "time": 2.2,
+          "label": "A/B/C)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8485 (8575)"
+    },
+    {
+      "id": "ch-5bbb-jc-iad-j-b-5aa-5bb-delay-2b-sj",
+      "name": "CH 5BBB > jc > IAD j.B > 5AA > 5BB > delay 2B > sjc > j.BB >",
+      "notation": "CH 5BBB > jc > IAD j.B > 5AA > 5BB > delay 2B > sjc > j.BB > djc > j.2B > j.C > delay j.214B",
+      "description": "Any — 7104 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5BBB",
+          "time": 0.0,
+          "label": "CH 5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.217,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "IAD j.B",
+          "time": 0.433,
+          "label": "IAD j.B",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 0.65,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 1.117,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "delay 2B",
+          "time": 1.683,
+          "label": "delay 2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 1.9,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.117,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.65,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 2.867,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.4,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 3.633,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7104"
+    },
+    {
+      "id": "ch-5bbb-jc-iad-j-c-j-236b-5aa-5bb-2b",
+      "name": "CH 5BBB > jc > IAD j.C > j.236B > 5AA > 5BB > 2B > delay sjc",
+      "notation": "CH 5BBB > jc > IAD j.C > j.236B > 5AA > 5BB > 2B > delay sjc > j.BB > djc > j.2B > j.C > delay j.214B",
+      "description": "Any — 8043 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5BBB",
+          "time": 0.0,
+          "label": "CH 5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.217,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 0.433,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.65,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 1.333,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 1.8,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 2.367,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 2.917,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.133,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.667,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 3.883,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 4.417,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 4.65,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8043"
+    },
+    {
+      "id": "2b-5bbb-sjc-j-bb-djc-j-2bb-j-c-j-214",
+      "name": "2B > 5BBB > sjc > j.BB > djc > j.2BB > j.C > j.214B",
+      "notation": "2B > 5BBB > sjc > j.BB > djc > j.2BB > j.C > j.214B",
+      "description": "Any — 6851 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2B",
+          "time": 0.0,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.55,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 0.8,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 1.017,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.55,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2BB",
+          "time": 1.767,
+          "label": "j.2BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.983,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 2.217,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6851"
+    },
+    {
+      "id": "2b-5bbb-jc-iad-j-bb-2b-delay-sjc-j-bb",
+      "name": "2B > 5BBB > jc > IAD j.BB > 2B > delay sjc > j.BB > djc > j.",
+      "notation": "2B > 5BBB > jc > IAD j.BB > 2B > delay sjc > j.BB > djc > j.2B > j.C > delay j.214B",
+      "description": "Any — 7041 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2B",
+          "time": 0.0,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.55,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.8,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "IAD j.BB",
+          "time": 1.017,
+          "label": "IAD j.BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.233,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.783,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.0,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.533,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 2.75,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.283,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 3.517,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7041"
+    },
+    {
+      "id": "aa-2b-delay-sjc-j-bb-djc-j-2b-b-j-c-d",
+      "name": "AA 2B > delay sjc > j.BB > djc > j.2B(B) > j.C > delay j.214",
+      "notation": "AA 2B > delay sjc > j.BB > djc > j.2B(B) > j.C > delay j.214B",
+      "description": "Any — 5979 (6377) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 2B",
+          "time": 0.0,
+          "label": "AA 2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 0.217,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 0.433,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 0.967,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 1.183,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.717,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 1.95,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5979 (6377)"
+    },
+    {
+      "id": "ch-aa-2b-5aa-5bb-2b-delay-sjc-j-bb-djc",
+      "name": "CH AA 2B > 5AA > 5BB > 2B > delay sjc > j.BB > djc > j.2BB >",
+      "notation": "CH AA 2B > 5AA > 5BB > 2B > delay sjc > j.BB > djc > j.2BB > j.C > delay j.214B",
+      "description": "Any — 7084 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH AA 2B",
+          "time": 0.0,
+          "label": "CH AA 2B",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 0.217,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 0.683,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.25,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.8,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.017,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.55,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2BB",
+          "time": 2.767,
+          "label": "j.2BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.983,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 3.217,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7084"
+    },
+    {
+      "id": "ch-aa-2b-jc-iad-j-c-j-236b-5aa-5bb-2b",
+      "name": "CH AA 2B > jc > IAD j.C > j.236B > 5AA > 5BB > 2B > delay sj",
+      "notation": "CH AA 2B > jc > IAD j.C > j.236B > 5AA > 5BB > 2B > delay sjc > j.BB > djc > j.2B > j.C > delay j.214B",
+      "description": "Any — 8162 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH AA 2B",
+          "time": 0.0,
+          "label": "CH AA 2B",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.217,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 0.433,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.65,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 1.333,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 1.8,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 2.367,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 2.917,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.133,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.667,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 3.883,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 4.417,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 4.65,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8162"
+    },
+    {
+      "id": "2c-214b-a-b-c",
+      "name": "2C > 214B~A/B/C",
+      "notation": "2C > 214B~A/B/C",
+      "description": "Any — 3462 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2C",
+          "time": 0.0,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "214B",
+          "time": 0.217,
+          "label": "214B",
+          "window": 100
+        },
+        {
+          "key": "A/B/C",
+          "time": 0.5,
+          "label": "A/B/C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "3462"
+    },
+    {
+      "id": "2c-214c-a-b-c-dash-5aa-5bb-2b-delay-sjc",
+      "name": "2C > 214C~A/B/C > dash 5AA > 5BB > 2B > delay sjc > j.BB > d",
+      "notation": "2C > 214C~A/B/C > dash 5AA > 5BB > 2B > delay sjc > j.BB > djc > j.2BB > j.C > delay j.214B",
+      "description": "Any — 6875 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2C",
+          "time": 0.0,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "214C",
+          "time": 0.217,
+          "label": "214C",
+          "window": 100
+        },
+        {
+          "key": "A/B/C",
+          "time": 0.5,
+          "label": "A/B/C",
+          "window": 100
+        },
+        {
+          "key": "dash 5AA",
+          "time": 0.717,
+          "label": "dash 5AA",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 0.933,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.5,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 2.05,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.267,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.8,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2BB",
+          "time": 3.017,
+          "label": "j.2BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.233,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 3.467,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6875"
+    },
+    {
+      "id": "iad-j-2bb-5aa-5c-a-b-c",
+      "name": "IAD j.2BB > 5AA > 5C~A/B/C",
+      "notation": "IAD j.2BB > 5AA > 5C~A/B/C",
+      "description": "Any — 5502 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "IAD j.2BB",
+          "time": 0.0,
+          "label": "IAD j.2BB",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 0.217,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5C",
+          "time": 0.683,
+          "label": "5C",
+          "window": 100
+        },
+        {
+          "key": "A/B/C",
+          "time": 1.05,
+          "label": "A/B/C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5502"
+    },
+    {
+      "id": "iad-j-2bb-5aa-5bbb-2b-delay-sjc-j-bb-d",
+      "name": "IAD j.2BB > 5AA > 5BBB > 2B > delay sjc > j.BB > djc > j.2B(",
+      "notation": "IAD j.2BB > 5AA > 5BBB > 2B > delay sjc > j.BB > djc > j.2B(B) > j.C > delay j.214B",
+      "description": "Any — 6484 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "IAD j.2BB",
+          "time": 0.0,
+          "label": "IAD j.2BB",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 0.217,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.683,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.933,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.483,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 1.7,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.233,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 2.45,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.983,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 3.217,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6484"
+    },
+    {
+      "id": "iad-j-2bb-5aa-5bbb-jc-iad-j-bb-2b-dela",
+      "name": "IAD j.2BB > 5AA > 5BBB > jc > IAD j.BB > 2B > delay sjc > j.",
+      "notation": "IAD j.2BB > 5AA > 5BBB > jc > IAD j.BB > 2B > delay sjc > j.BB > djc > j.2B > j.C > delay j.214B",
+      "description": "Any — 6566 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "IAD j.2BB",
+          "time": 0.0,
+          "label": "IAD j.2BB",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 0.217,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.683,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.933,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "IAD j.BB",
+          "time": 1.15,
+          "label": "IAD j.BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.367,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.917,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.133,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.667,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 2.883,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.417,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 3.65,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6566"
+    },
+    {
+      "id": "iad-j-c-j-236b-dash-5aa-5bb-2b-delay-sjc",
+      "name": "IAD j.C > j.236B > dash 5AA > 5BB > 2B > delay sjc > j.BB > ",
+      "notation": "IAD j.C > j.236B > dash 5AA > 5BB > 2B > delay sjc > j.BB > djc > j.2BB > j.C > delay j.214B",
+      "description": "Any — 7416 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "IAD j.C",
+          "time": 0.0,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.217,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AA",
+          "time": 0.9,
+          "label": "dash 5AA",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 1.117,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.683,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 2.233,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.45,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.983,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2BB",
+          "time": 3.2,
+          "label": "j.2BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.417,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 3.65,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7416"
+    },
+    {
+      "id": "6b-c-236b-dash-5aa-5c-a-b-c",
+      "name": "6B+C > 236B > dash 5AA > 5C~A/B/C",
+      "notation": "6B+C > 236B > dash 5AA > 5C~A/B/C",
+      "description": "Any — 5031 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6B+C",
+          "time": 0.0,
+          "label": "6B+C",
+          "window": 100
+        },
+        {
+          "key": "236B",
+          "time": 0.217,
+          "label": "236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AA",
+          "time": 1.233,
+          "label": "dash 5AA",
+          "window": 100
+        },
+        {
+          "key": "5C",
+          "time": 1.45,
+          "label": "5C",
+          "window": 100
+        },
+        {
+          "key": "A/B/C",
+          "time": 1.817,
+          "label": "A/B/C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5031"
+    },
+    {
+      "id": "6b-c-236b-dash-5aa-5bbb-2b-delay-sjc-j",
+      "name": "6B+C > 236B > dash 5AA > 5BBB > 2B > delay sjc > j.BB > djc ",
+      "notation": "6B+C > 236B > dash 5AA > 5BBB > 2B > delay sjc > j.BB > djc > j.2B(B) > j.C > delay j.214B",
+      "description": "Any — 5662 (5740) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6B+C",
+          "time": 0.0,
+          "label": "6B+C",
+          "window": 100
+        },
+        {
+          "key": "236B",
+          "time": 0.217,
+          "label": "236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AA",
+          "time": 1.233,
+          "label": "dash 5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 1.45,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.7,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 2.25,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.467,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.0,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 3.217,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.75,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 3.983,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5662 (5740)"
+    },
+    {
+      "id": "6b-c-236b-dash-5aa-5bbb-jc-iad-j-bb-2b",
+      "name": "6B+C > 236B > dash 5AA > 5BBB > jc > IAD j.BB > 2B > delay s",
+      "notation": "6B+C > 236B > dash 5AA > 5BBB > jc > IAD j.BB > 2B > delay sjc > j.B > djc > j.2B > j.C > delay j.214B",
+      "description": "Any — 5740 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6B+C",
+          "time": 0.0,
+          "label": "6B+C",
+          "window": 100
+        },
+        {
+          "key": "236B",
+          "time": 0.217,
+          "label": "236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AA",
+          "time": 1.233,
+          "label": "dash 5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 1.45,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.7,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "IAD j.BB",
+          "time": 1.917,
+          "label": "IAD j.BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 2.133,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 2.683,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 2.9,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.383,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 3.6,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 4.133,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 4.367,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5740"
+    },
+    {
+      "id": "4-6b-c-dash-5aa-5c-a-b-c",
+      "name": "4/6B+C > dash 5AA > 5C~A/B/C",
+      "notation": "4/6B+C > dash 5AA > 5C~A/B/C",
+      "description": "Any — 4493 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "4/6B+C",
+          "time": 0.0,
+          "label": "4/6B+C",
+          "window": 100
+        },
+        {
+          "key": "dash 5AA",
+          "time": 0.217,
+          "label": "dash 5AA",
+          "window": 100
+        },
+        {
+          "key": "5C",
+          "time": 0.433,
+          "label": "5C",
+          "window": 100
+        },
+        {
+          "key": "A/B/C",
+          "time": 0.8,
+          "label": "A/B/C",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "4493"
+    },
+    {
+      "id": "4-6b-c-dash-5aa-5bbb-2b-delay-sjc-j-bb",
+      "name": "4/6B+C > dash 5AA > 5BBB > 2B > delay sjc > j.BB > djc > j.2",
+      "notation": "4/6B+C > dash 5AA > 5BBB > 2B > delay sjc > j.BB > djc > j.2B(B) > j.C > delay j.214B",
+      "description": "Any — 5266 (5348) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "4/6B+C",
+          "time": 0.0,
+          "label": "4/6B+C",
+          "window": 100
+        },
+        {
+          "key": "dash 5AA",
+          "time": 0.217,
+          "label": "dash 5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.433,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.683,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.233,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 1.45,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.983,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 2.2,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.733,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 2.967,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5266 (5348)"
+    },
+    {
+      "id": "4-6b-c-dash-5aa-2b-5bbb-jc-iad-j-bb",
+      "name": "4/6B+C > dash 5AA > (2B) > 5BBB > jc > IAD j.BB > 2B > delay",
+      "notation": "4/6B+C > dash 5AA > (2B) > 5BBB > jc > IAD j.BB > 2B > delay sjc > j.B > djc > (j.2B) > j.C > delay j.214B",
+      "description": "Any — 5348 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "4/6B+C",
+          "time": 0.0,
+          "label": "4/6B+C",
+          "window": 100
+        },
+        {
+          "key": "dash 5AA",
+          "time": 0.217,
+          "label": "dash 5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.433,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.683,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "IAD j.BB",
+          "time": 0.9,
+          "label": "IAD j.BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.117,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.667,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 1.883,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.367,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.583,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 2.817,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5348"
+    },
+    {
+      "id": "5aa-5c-a-b-c",
+      "name": "5AA > 5C~A/B(C)",
+      "notation": "5AA > 5C~A/B(C)",
+      "description": "Any — 6371 (7731) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5AA",
+          "time": 0.0,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5C",
+          "time": 0.467,
+          "label": "5C",
+          "window": 100
+        },
+        {
+          "key": "A/B",
+          "time": 0.833,
+          "label": "A/B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6371 (7731)"
+    },
+    {
+      "id": "5aaaa-call-assist-iad-j-c-j-236b-dash-5a",
+      "name": "5AAAA > [Call Assist] > IAD j.C > j.236B > dash 5AAA(A or 21",
+      "notation": "5AAAA > [Call Assist] > IAD j.C > j.236B > dash 5AAA(A or 214B)",
+      "description": "Any — 8279 (8359) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5AAAA",
+          "time": 0.0,
+          "label": "5AAAA",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.283,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 0.5,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.717,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAA",
+          "time": 1.4,
+          "label": "dash 5AAA",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8279 (8359)"
+    },
+    {
+      "id": "aa-5a-2b-sjc-j-c-j-214b-call-assist",
+      "name": "AA 5A > 2B > sjc > j.C > j.214B > [Call Assist] > IAD j.C > ",
+      "notation": "AA 5A > 2B > sjc > j.C > j.214B > [Call Assist] > IAD j.C > j.236B > dash 5AAA(A or 214B)",
+      "description": "Any — 8034 (8118) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 5A",
+          "time": 0.0,
+          "label": "AA 5A",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.217,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 0.767,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.983,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 1.217,
+          "label": "j.214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 1.783,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 2.0,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.217,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAA",
+          "time": 2.9,
+          "label": "dash 5AAA",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8034 (8118)"
+    },
+    {
+      "id": "5bbb-jc-j-c-j-214b-call-assist-iad-j-c",
+      "name": "5BBB > jc > j.C > j.214B > [Call Assist] > IAD j.C > j.236B ",
+      "notation": "5BBB > jc > j.C > j.214B > [Call Assist] > IAD j.C > j.236B > dash 5AAA(A or 214B)",
+      "description": "Any — 8118 (8181) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BBB",
+          "time": 0.0,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.25,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.467,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 0.7,
+          "label": "j.214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 1.267,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 1.483,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.7,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAA",
+          "time": 2.383,
+          "label": "dash 5AAA",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8118 (8181)"
+    },
+    {
+      "id": "aa-5b-2b-sjc-j-c-j-214b-call-assist",
+      "name": "AA 5B > 2B > sjc > j.C > j.214B > [Call Assist] > IAD j.C > ",
+      "notation": "AA 5B > 2B > sjc > j.C > j.214B > [Call Assist] > IAD j.C > j.236B > dash 5AAA(A or 214B)",
+      "description": "Any — 8734 (8818) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 5B",
+          "time": 0.0,
+          "label": "AA 5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.217,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 0.767,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.983,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 1.217,
+          "label": "j.214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 1.783,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 2.0,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.217,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAA",
+          "time": 2.9,
+          "label": "dash 5AAA",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8734 (8818)"
+    },
+    {
+      "id": "ch-5bb-5aa-5c-a-b-c",
+      "name": "CH 5BB > 5AA > 5C~A/B(C)",
+      "notation": "CH 5BB > 5AA > 5C~A/B(C)",
+      "description": "Any — 7145 (8302) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5BB",
+          "time": 0.0,
+          "label": "CH 5BB",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 0.217,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5C",
+          "time": 0.683,
+          "label": "5C",
+          "window": 100
+        },
+        {
+          "key": "A/B",
+          "time": 1.05,
+          "label": "A/B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7145 (8302)"
+    },
+    {
+      "id": "ch-5bb-5aaa-call-assist-iad-j-c-j-236b",
+      "name": "CH 5BB > 5AAA > [Call Assist] > IAD j.C > j.236B > dash 5AAA",
+      "notation": "CH 5BB > 5AAA > [Call Assist] > IAD j.C > j.236B > dash 5AAA(A or 214B)",
+      "description": "Any — 8448 (8528) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5BB",
+          "time": 0.0,
+          "label": "CH 5BB",
+          "window": 100
+        },
+        {
+          "key": "5AAA",
+          "time": 0.217,
+          "label": "5AAA",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.633,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 0.85,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.067,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAA",
+          "time": 1.75,
+          "label": "dash 5AAA",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8448 (8528)"
+    },
+    {
+      "id": "2b-5bb-2c-call-assist-iad-j-c-j-236b",
+      "name": "2B > 5BB > 2C > [Call Assist] > IAD j.C > j.236B > dash 5AAA",
+      "notation": "2B > 5BB > 2C > [Call Assist] > IAD j.C > j.236B > dash 5AAA(A or 214B)",
+      "description": "Any — 7399 (7471) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2B",
+          "time": 0.0,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5BB",
+          "time": 0.55,
+          "label": "5BB",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 1.117,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 1.333,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 1.55,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.767,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAA",
+          "time": 2.45,
+          "label": "dash 5AAA",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7399 (7471)"
+    },
+    {
+      "id": "aa-2b-sjc-j-c-j-214b-call-assist-iad-j",
+      "name": "AA 2B > sjc > j.C > j.214B > [Call Assist] > IAD j.C > j.236",
+      "notation": "AA 2B > sjc > j.C > j.214B > [Call Assist] > IAD j.C > j.236B > dash 5AAA(A or 214B)",
+      "description": "Any — 8619 (8715) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 2B",
+          "time": 0.0,
+          "label": "AA 2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 0.217,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.433,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 0.667,
+          "label": "j.214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 1.233,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 1.45,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.667,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAA",
+          "time": 2.35,
+          "label": "dash 5AAA",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8619 (8715)"
+    },
+    {
+      "id": "call-assist-2c-iad-j-c-j-236b-dash-2b",
+      "name": "[Call Assist] > 2C > IAD j.C > j.236B > dash 2B > delay sjc ",
+      "notation": "[Call Assist] > 2C > IAD j.C > j.236B > dash 2B > delay sjc > j.BB > djc > j.2BB > j.C > delay j.214B",
+      "description": "Any — 8141 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "[Call Assist]",
+          "time": 0.0,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.217,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 0.433,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.65,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 2B",
+          "time": 1.333,
+          "label": "dash 2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.55,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 1.767,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.3,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2BB",
+          "time": 2.517,
+          "label": "j.2BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.733,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 2.967,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8141"
+    },
+    {
+      "id": "call-assist-2c-iad-j-c-j-236b-dash-2b",
+      "name": "[Call Assist] > 2C > IAD j.C > j.236B > dash 2B > delay sjc ",
+      "notation": "[Call Assist] > 2C > IAD j.C > j.236B > dash 2B > delay sjc > j.BB > djc > j.2BB > j.C > delay j.214B > [Call Assist] > IAD j.C > j.214B",
+      "description": "Any — 8809 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "[Call Assist]",
+          "time": 0.0,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.217,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 0.433,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.65,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 2B",
+          "time": 1.333,
+          "label": "dash 2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.55,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 1.767,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.3,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2BB",
+          "time": 2.517,
+          "label": "j.2BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.733,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 2.967,
+          "label": "delay j.214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 3.183,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 3.4,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 3.617,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8809"
+    },
+    {
+      "id": "2c-214b-call-assist-iad-j-c-j-236b-das",
+      "name": "2C > 214B > [Call Assist] > IAD j.C > j.236B > dash 2B > del",
+      "notation": "2C > 214B > [Call Assist] > IAD j.C > j.236B > dash 2B > delay sjc > j.BB > djc > j.2B > j.C > delay j.214B",
+      "description": "Any — 7468 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2C",
+          "time": 0.0,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "214B",
+          "time": 0.217,
+          "label": "214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.5,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 0.717,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.933,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 2B",
+          "time": 1.617,
+          "label": "dash 2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.833,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.05,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.583,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 2.8,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.333,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "delay j.214B",
+          "time": 3.567,
+          "label": "delay j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7468"
+    },
+    {
+      "id": "iad-j-2bb-5aa-5c-a-b-c",
+      "name": "IAD j.2BB > 5AA > 5C~A/B(C)",
+      "notation": "IAD j.2BB > 5AA > 5C~A/B(C)",
+      "description": "Any — 6206 (6993) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "IAD j.2BB",
+          "time": 0.0,
+          "label": "IAD j.2BB",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 0.217,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5C",
+          "time": 0.683,
+          "label": "5C",
+          "window": 100
+        },
+        {
+          "key": "A/B",
+          "time": 1.05,
+          "label": "A/B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6206 (6993)"
+    },
+    {
+      "id": "iad-j-2bb-2b-2c-call-assist-iad-j-c-j",
+      "name": "IAD j.2BB > 2B > 2C > [Call Assist] > IAD j.C > j.236B > das",
+      "notation": "IAD j.2BB > 2B > 2C > [Call Assist] > IAD j.C > j.236B > dash 5AAA(A or 214B)",
+      "description": "Any — 7141 (7210) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "IAD j.2BB",
+          "time": 0.0,
+          "label": "IAD j.2BB",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.217,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.767,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.983,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 1.2,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.417,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAA",
+          "time": 2.1,
+          "label": "dash 5AAA",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7141 (7210)"
+    },
+    {
+      "id": "iad-j-c-j-214b-call-assist-iad-j-c-j-236",
+      "name": "IAD j.C > j.214B > [Call Assist] > IAD j.C > j.236B > dash 5",
+      "notation": "IAD j.C > j.214B > [Call Assist] > IAD j.C > j.236B > dash 5AAA(A or 214B)",
+      "description": "Any — 7955 (8057) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "IAD j.C",
+          "time": 0.0,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 0.217,
+          "label": "j.214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.783,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "IAD j.C",
+          "time": 1.0,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.217,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAA",
+          "time": 1.9,
+          "label": "dash 5AAA",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7955 (8057)"
+    },
+    {
+      "id": "6b-c-236b-dash-5aa-5c-a-b-c",
+      "name": "6B+C > 236B > dash 5AA > 5C~A/B(C)",
+      "notation": "6B+C > 236B > dash 5AA > 5C~A/B(C)",
+      "description": "Any — 5519 (6062) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6B+C",
+          "time": 0.0,
+          "label": "6B+C",
+          "window": 100
+        },
+        {
+          "key": "236B",
+          "time": 0.217,
+          "label": "236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AA",
+          "time": 1.233,
+          "label": "dash 5AA",
+          "window": 100
+        },
+        {
+          "key": "5C",
+          "time": 1.45,
+          "label": "5C",
+          "window": 100
+        },
+        {
+          "key": "A/B",
+          "time": 1.817,
+          "label": "A/B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5519 (6062)"
+    },
+    {
+      "id": "6b-c-236b-dash-5aaaa-call-assist-iad-j-b",
+      "name": "6B+C > 236B > dash 5AAAA > [Call Assist] > IAD j.B > 5AAA(A ",
+      "notation": "6B+C > 236B > dash 5AAAA > [Call Assist] > IAD j.B > 5AAA(A or 214B)",
+      "description": "Any — 6064 (6111) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6B+C",
+          "time": 0.0,
+          "label": "6B+C",
+          "window": 100
+        },
+        {
+          "key": "236B",
+          "time": 0.217,
+          "label": "236B",
+          "window": 100
+        },
+        {
+          "key": "dash 5AAAA",
+          "time": 1.233,
+          "label": "dash 5AAAA",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 1.45,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "IAD j.B",
+          "time": 1.667,
+          "label": "IAD j.B",
+          "window": 100
+        },
+        {
+          "key": "5AAA",
+          "time": 1.883,
+          "label": "5AAA",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6064 (6111)"
+    },
+    {
+      "id": "4-6b-c-dash-5aa-5c-a-b-c",
+      "name": "4/6B+C > dash 5AA > 5C~A/B(C)",
+      "notation": "4/6B+C > dash 5AA > 5C~A/B(C)",
+      "description": "Any — 5105 (5785) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "4/6B+C",
+          "time": 0.0,
+          "label": "4/6B+C",
+          "window": 100
+        },
+        {
+          "key": "dash 5AA",
+          "time": 0.217,
+          "label": "dash 5AA",
+          "window": 100
+        },
+        {
+          "key": "5C",
+          "time": 0.433,
+          "label": "5C",
+          "window": 100
+        },
+        {
+          "key": "A/B",
+          "time": 0.8,
+          "label": "A/B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5105 (5785)"
+    },
+    {
+      "id": "4-6b-c-5aaaa-call-assist-iad-dash-5aaa-a-o",
+      "name": "4/6B+C > 5AAAA > [Call Assist] > IAD dash 5AAA(A or 214B)",
+      "notation": "4/6B+C > 5AAAA > [Call Assist] > IAD dash 5AAA(A or 214B)",
+      "description": "Any — 5776 (5824) damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "4/6B+C",
+          "time": 0.0,
+          "label": "4/6B+C",
+          "window": 100
+        },
+        {
+          "key": "5AAAA",
+          "time": 0.217,
+          "label": "5AAAA",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.5,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "IAD dash 5AAA",
+          "time": 0.717,
+          "label": "IAD dash 5AAA",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5776 (5824)"
+    },
+    {
+      "id": "5aa-5bbb-jc-j-c-j-236b-j-c-j-236b-j",
+      "name": "5AA > 5BBB > jc > j.C > j.236B > j.C > j.236B > j.B > j.C > ",
+      "notation": "5AA > 5BBB > jc > j.C > j.236B > j.C > j.236B > j.B > j.C > j.214B",
+      "description": "Corner — 7413 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5AA",
+          "time": 0.0,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.467,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.717,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.933,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.167,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.85,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.083,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 2.767,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.25,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 3.483,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7413"
+    },
+    {
+      "id": "aa-5a-1-2b-sjc-j-c-j-236b-j-c-j-236",
+      "name": "AA 5A(1) > 2B > sjc > j.C > j.236B > j.C > j.236 > 2B > sjc ",
+      "notation": "AA 5A(1) > 2B > sjc > j.C > j.236B > j.C > j.236 > 2B > sjc > j.BB > djc > j.2B > j.C > j.214B",
+      "description": "Corner — 8094 (8606) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 5A",
+          "time": 0.0,
+          "label": "AA 5A",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.217,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 0.767,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.983,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.217,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.9,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236",
+          "time": 2.133,
+          "label": "j.236",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 2.35,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 2.9,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.117,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.65,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 3.867,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 4.4,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.633,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8094 (8606)"
+    },
+    {
+      "id": "5bbb-jc-j-c-j-236b-j-c-j-236b-delay-j",
+      "name": "5BBB > jc > j.C > j.236B > j.C > j.236B > delay j.BB > djc >",
+      "notation": "5BBB > jc > j.C > j.236B > j.C > j.236B > delay j.BB > djc > j.2BB > j.C > j.214B",
+      "description": "Corner — 8166 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5BBB",
+          "time": 0.0,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.25,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.467,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.7,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.383,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.617,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "delay j.BB",
+          "time": 2.3,
+          "label": "delay j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.517,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2BB",
+          "time": 2.733,
+          "label": "j.2BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.95,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 3.183,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8166"
+    },
+    {
+      "id": "aa-5b-2b-sjc-j-c-j-236b-j-c-j-236b-2",
+      "name": "AA 5B > 2B > sjc > j.C > j.236B > j.C > j.236B > 2B > sjc > ",
+      "notation": "AA 5B > 2B > sjc > j.C > j.236B > j.C > j.236B > 2B > sjc > j.BB > djc > j.B > j.C > j.214B",
+      "description": "Corner — 8794 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 5B",
+          "time": 0.0,
+          "label": "AA 5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.217,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 0.767,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.983,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.217,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.9,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.133,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 2.817,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 3.367,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.583,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 4.117,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 4.333,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 4.817,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 5.05,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8794"
+    },
+    {
+      "id": "ch-5bb-5aa-5bbb-jc-j-c-j-236b-j-c-j",
+      "name": "CH 5BB > 5AA > 5BBB > jc > j.C > j.236B > j.C > j.236B > j.C",
+      "notation": "CH 5BB > 5AA > 5BBB > jc > j.C > j.236B > j.C > j.236B > j.C > j.214B",
+      "description": "Corner — 7903 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5BB",
+          "time": 0.0,
+          "label": "CH 5BB",
+          "window": 100
+        },
+        {
+          "key": "5AA",
+          "time": 0.217,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.683,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.933,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.15,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.383,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.067,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.3,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.983,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 3.217,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7903"
+    },
+    {
+      "id": "2b-5bbb-jc-j-c-j-236b-dash-2b-delay-sj",
+      "name": "2B > 5BBB > jc > j.C > j.236B > dash 2B > delay sjc > j.BB >",
+      "notation": "2B > 5BBB > jc > j.C > j.236B > dash 2B > delay sjc > j.BB > djc > j.BB > j.C > j.214B",
+      "description": "Corner — 7341 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2B",
+          "time": 0.0,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.55,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.8,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.017,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.25,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 2B",
+          "time": 1.933,
+          "label": "dash 2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 2.15,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.367,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.9,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.117,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.65,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 3.883,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7341"
+    },
+    {
+      "id": "aa-2b-j-c-j-236b-dash-2b-delay-sjc-j-bb",
+      "name": "AA 2B > j.C > j.236B > dash 2B > delay sjc > j.BB > djc > j.",
+      "notation": "AA 2B > j.C > j.236B > dash 2B > delay sjc > j.BB > djc > j.B > j.C > j.214B",
+      "description": "Corner — 7718 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 2B",
+          "time": 0.0,
+          "label": "AA 2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.217,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.45,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 2B",
+          "time": 1.133,
+          "label": "dash 2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 1.35,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 1.567,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.1,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 2.317,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.8,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 3.033,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7718"
+    },
+    {
+      "id": "aa-2b-j-c-j-236b-j-c-j-236b-dash-2b-de",
+      "name": "AA 2B > j.C > j.236B > j.C > j.236B > dash 2B > delay sjc > ",
+      "notation": "AA 2B > j.C > j.236B > j.C > j.236B > dash 2B > delay sjc > j.BB > djc > j.BB > j.C > j.214B",
+      "description": "Corner — 8854 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 2B",
+          "time": 0.0,
+          "label": "AA 2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.217,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.45,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.133,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.367,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "dash 2B",
+          "time": 2.05,
+          "label": "dash 2B",
+          "window": 100
+        },
+        {
+          "key": "delay sjc",
+          "time": 2.267,
+          "label": "delay sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.483,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.017,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.233,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.767,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.0,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8854"
+    },
+    {
+      "id": "2c-214c-a-b-c-2b-jc-j-c-j-236b-j-c-j",
+      "name": "2C > 214C~A/B/C > 2B > jc > j.C > j.236B > j.C > j.236B > j.",
+      "notation": "2C > 214C~A/B/C > 2B > jc > j.C > j.236B > j.C > j.236B > j.BB > djc > j.C > j.214B",
+      "description": "Corner — 7744 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2C",
+          "time": 0.0,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "214C",
+          "time": 0.217,
+          "label": "214C",
+          "window": 100
+        },
+        {
+          "key": "A/B/C",
+          "time": 0.5,
+          "label": "A/B/C",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.717,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.267,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.483,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.717,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.4,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.633,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.317,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.85,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 4.067,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.3,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7744"
+    },
+    {
+      "id": "iad-j-2bb-5bbb-jc-j-c-j-236b-j-c-j-236",
+      "name": "IAD j.2BB > 5BBB > jc > j.C > j.236B > j.C > j.236B > j.BB >",
+      "notation": "IAD j.2BB > 5BBB > jc > j.C > j.236B > j.C > j.236B > j.BB > djc > j.C > j.214B",
+      "description": "Corner — 6991 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "IAD j.2BB",
+          "time": 0.0,
+          "label": "IAD j.2BB",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.217,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.467,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.683,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.917,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.6,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.833,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.517,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.05,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.267,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 3.5,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6991"
+    },
+    {
+      "id": "iad-j-c-j-236b-j-c-j-236b-2b-sjc-j-b",
+      "name": "(IAD) j.C > j.236B > j.C > j.236B > 2B > sjc > j.BB > djc > ",
+      "notation": "(IAD) j.C > j.236B > j.C > j.236B > 2B > sjc > j.BB > djc > j.BB > j.C > j.214B",
+      "description": "Corner — 8206 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.C",
+          "time": 0.0,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.233,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.917,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.15,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.833,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 2.383,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.6,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.133,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.35,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.883,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.117,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8206"
+    },
+    {
+      "id": "214c-a-b-c-2b-jc-j-c-j-236b-j-c-j-236b",
+      "name": "214C~A/B/C > 2B > jc > j.C > j.236B > j.C > j.236B > j.BB > ",
+      "notation": "214C~A/B/C > 2B > jc > j.C > j.236B > j.C > j.236B > j.BB > djc > j.2B > j.C > j.214B",
+      "description": "Corner — 7068 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "214C",
+          "time": 0.0,
+          "label": "214C",
+          "window": 100
+        },
+        {
+          "key": "A/B/C",
+          "time": 0.283,
+          "label": "A/B/C",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.5,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.05,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.267,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.5,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.183,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.417,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.1,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.633,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 3.85,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 4.383,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.617,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7068"
+    },
+    {
+      "id": "tk-j-214c-2a-5bbb-sjc-j-c-j-236b-2b",
+      "name": "TK j.214C > 2A > 5BBB > sjc > j.C > j.236B > 2B > sjc > j.BB",
+      "notation": "TK j.214C > 2A > 5BBB > sjc > j.C > j.236B > 2B > sjc > j.BB > djc > j.B > j.C > j.214B",
+      "description": "Corner — 6223 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK j.214C",
+          "time": 0.0,
+          "label": "TK j.214C",
+          "window": 100
+        },
+        {
+          "key": "2A",
+          "time": 0.217,
+          "label": "2A",
+          "window": 100
+        },
+        {
+          "key": "5BBB",
+          "time": 0.6,
+          "label": "5BBB",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 0.85,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.067,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.3,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.983,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 2.533,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.75,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.283,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 3.5,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.983,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.217,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6223"
+    },
+    {
+      "id": "4-6b-c-236b-j-c-j-236b-j-c-j-236b-2b",
+      "name": "4/6B+C > 236B > j.C > j.236B > j.C > j.236B > 2B > sjc > j.B",
+      "notation": "4/6B+C > 236B > j.C > j.236B > j.C > j.236B > 2B > sjc > j.B > djc > j.2B > j.C > j.214B",
+      "description": "Corner — 6581 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "4/6B+C",
+          "time": 0.0,
+          "label": "4/6B+C",
+          "window": 100
+        },
+        {
+          "key": "236B",
+          "time": 0.217,
+          "label": "236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.233,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.467,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.15,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.383,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 3.067,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 3.617,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 3.833,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 4.317,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 4.533,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 5.067,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 5.3,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6581"
+    },
+    {
+      "id": "5aaa-call-assist-j-c-j-236b-j-c-j-236b",
+      "name": "5AAA > [Call Assist] > j.C > j.236B > j.C > j.236B > j.B > d",
+      "notation": "5AAA > [Call Assist] > j.C > j.236B > j.C > j.236B > j.B > djc > j.C > j.214B",
+      "description": "Corner — 8514 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5AAA",
+          "time": 0.0,
+          "label": "5AAA",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.417,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.633,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.867,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.55,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.783,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 2.467,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 2.95,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.167,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 3.4,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8514"
+    },
+    {
+      "id": "aa-5a-2b-sjc-j-c-j-214b-call-assist",
+      "name": "AA 5A > 2B > sjc > j.C > j.214B > [Call Assist] > j.C > j.23",
+      "notation": "AA 5A > 2B > sjc > j.C > j.214B > [Call Assist] > j.C > j.236B > j.C > j.236B > j.C > j.214B",
+      "description": "Corner — 8422 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 5A",
+          "time": 0.0,
+          "label": "AA 5A",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.217,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 0.767,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.983,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 1.217,
+          "label": "j.214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 1.783,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.0,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.233,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.917,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 3.15,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.833,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.067,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8422"
+    },
+    {
+      "id": "5b-2c-call-assist-j-c-j-236b-j-c-j-2",
+      "name": "5B > 2C > [Call Assist] > j.C > j.236B > j.C > j.236B > 2B >",
+      "notation": "5B > 2C > [Call Assist] > j.C > j.236B > j.C > j.236B > 2B > sjc > j.BB > djc > j.2B > j.C > j.214B",
+      "description": "Corner — 8775 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.45,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.667,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.883,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.117,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.8,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.033,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 2.717,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 3.267,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.483,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 4.017,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 4.233,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 4.767,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 5.0,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8775"
+    },
+    {
+      "id": "aa-5b-2b-sjc-j-c-j-214b-call-assist",
+      "name": "AA 5B > 2B > sjc > j.C > j.214B > [Call Assist] > j.C > j.23",
+      "notation": "AA 5B > 2B > sjc > j.C > j.214B > [Call Assist] > j.C > j.236B > j.C > j.236B > j.C > j.214B",
+      "description": "Corner — 9122 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 5B",
+          "time": 0.0,
+          "label": "AA 5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.217,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 0.767,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.983,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 1.217,
+          "label": "j.214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 1.783,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.0,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.233,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.917,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 3.15,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.833,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.067,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "9122"
+    },
+    {
+      "id": "ch-5bb-5aaa-call-assist-j-c-j-236b-j-c",
+      "name": "CH 5BB > 5AAA > [Call Assist] > j.C > j.236B > j.C > j.236B ",
+      "notation": "CH 5BB > 5AAA > [Call Assist] > j.C > j.236B > j.C > j.236B > j.B > djc > j.C > j.214B",
+      "description": "Corner — 8813 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5BB",
+          "time": 0.0,
+          "label": "CH 5BB",
+          "window": 100
+        },
+        {
+          "key": "5AAA",
+          "time": 0.217,
+          "label": "5AAA",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.633,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.85,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.083,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.767,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.0,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 2.683,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.167,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.383,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 3.617,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8813"
+    },
+    {
+      "id": "2b-2c-call-assist-j-c-j-236b-j-c-j-2",
+      "name": "2B > 2C > [Call Assist] > j.C > j.236B > j.C > j.236B > 2B >",
+      "notation": "2B > 2C > [Call Assist] > j.C > j.236B > j.C > j.236B > 2B > sjc > j.BB > djc > j.2B > j.C > j.214B",
+      "description": "Corner — 8656 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2B",
+          "time": 0.0,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.55,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.767,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.983,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.217,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.9,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.133,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 2.817,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 3.367,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.583,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 4.117,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 4.333,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 4.867,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 5.1,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8656"
+    },
+    {
+      "id": "aa-2b-sjc-j-c-j-214b-call-assist-j-c",
+      "name": "AA 2B > sjc > j.C > j.214B > [Call Assist] > j.C > j.236B > ",
+      "notation": "AA 2B > sjc > j.C > j.214B > [Call Assist] > j.C > j.236B > j.C > j.236B > j.B > j.C > j.214B",
+      "description": "Corner — 9238 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 2B",
+          "time": 0.0,
+          "label": "AA 2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 0.217,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.433,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 0.667,
+          "label": "j.214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 1.233,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.45,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.683,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.367,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.6,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 3.283,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.767,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.0,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "9238"
+    },
+    {
+      "id": "2c-call-assist-j-c-j-236b-j-c-j-236b",
+      "name": "2C > [Call Assist] > j.C > j.236B > j.C > j.236B > 2B > sjc ",
+      "notation": "2C > [Call Assist] > j.C > j.236B > j.C > j.236B > 2B > sjc > j.BB > djc > j.2B > j.C > j.214B",
+      "description": "Corner — 8662 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2C",
+          "time": 0.0,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.217,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.433,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.667,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.35,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.583,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 2.267,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 2.817,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.033,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.567,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 3.783,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 4.317,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.55,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8662"
+    },
+    {
+      "id": "2c-call-assist-j-c-j-236b-j-c-j-236b",
+      "name": "2C > [Call Assist] > j.C > j.236B > j.C > j.236B > 2B > sjc ",
+      "notation": "2C > [Call Assist] > j.C > j.236B > j.C > j.236B > 2B > sjc > j.BB > djc > j.2B > j.C > j.214B > [Call Assist] > j.C > j.214B",
+      "description": "Corner — 9227 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2C",
+          "time": 0.0,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.217,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.433,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.667,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.35,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.583,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 2.267,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 2.817,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.033,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.567,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 3.783,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 4.317,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.55,
+          "label": "j.214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 5.117,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 5.333,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 5.567,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "9227"
+    },
+    {
+      "id": "iad-j-2bb-2c-call-assist-j-c-j-236b-j",
+      "name": "IAD j.2BB > 2C > [Call Assist] > j.C > j.236B > j.C > j.236B",
+      "notation": "IAD j.2BB > 2C > [Call Assist] > j.C > j.236B > j.C > j.236B > j.BB > djc > j.2B > j.C > j.214B",
+      "description": "Corner — 7782 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "IAD j.2BB",
+          "time": 0.0,
+          "label": "IAD j.2BB",
+          "window": 100
+        },
+        {
+          "key": "2C",
+          "time": 0.217,
+          "label": "2C",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.433,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.65,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 0.883,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.567,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.8,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.483,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.017,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 3.233,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 3.767,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.0,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7782"
+    },
+    {
+      "id": "iad-j-c-j-214b-call-assist-j-c-j-236b",
+      "name": "IAD j.C > j.214B > [Call Assist] > j.C > j.236B > j.C > j.23",
+      "notation": "IAD j.C > j.214B > [Call Assist] > j.C > j.236B > j.C > j.236B > j.BB > djc > j.2B > j.C > j.214B",
+      "description": "Corner — 8906 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "IAD j.C",
+          "time": 0.0,
+          "label": "IAD j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 0.217,
+          "label": "j.214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.783,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.0,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.233,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.917,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.15,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 2.833,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.367,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 3.583,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 4.117,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.35,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8906"
+    },
+    {
+      "id": "j-214b-call-assist-j-c-j-236b-j-c-j-23",
+      "name": "j.214B > [Call Assist] > j.C > j.236B > j.C > j.236B > 2B > ",
+      "notation": "j.214B > [Call Assist] > j.C > j.236B > j.C > j.236B > 2B > sjc > j.BB > djc > j.2B > j.C > j.214B",
+      "description": "Corner — 7987 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.214B",
+          "time": 0.0,
+          "label": "j.214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 0.567,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 0.783,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.017,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.7,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 1.933,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 2.617,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "sjc",
+          "time": 3.167,
+          "label": "sjc",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.383,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.917,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 4.133,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 4.667,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.9,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7987"
+    },
+    {
+      "id": "4-6b-c-236b-j-c-j-214b-call-assist-j-c",
+      "name": "4/6B+C > 236B > j.C > j.214B > [Call Assist] > j.C > j.236B ",
+      "notation": "4/6B+C > 236B > j.C > j.214B > [Call Assist] > j.C > j.236B > j.BB > djc > j.2B > j.214B",
+      "description": "Corner — 6829 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "4/6B+C",
+          "time": 0.0,
+          "label": "4/6B+C",
+          "window": 100
+        },
+        {
+          "key": "236B",
+          "time": 0.217,
+          "label": "236B",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 1.233,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 1.467,
+          "label": "j.214B",
+          "window": 100
+        },
+        {
+          "key": "[Call Assist]",
+          "time": 2.033,
+          "label": "[Call Assist]",
+          "window": 100
+        },
+        {
+          "key": "j.C",
+          "time": 2.25,
+          "label": "j.C",
+          "window": 100
+        },
+        {
+          "key": "j.236B",
+          "time": 2.483,
+          "label": "j.236B",
+          "window": 100
+        },
+        {
+          "key": "j.BB",
+          "time": 3.167,
+          "label": "j.BB",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 3.7,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.2B",
+          "time": 3.917,
+          "label": "j.2B",
+          "window": 100
+        },
+        {
+          "key": "j.214B",
+          "time": 4.45,
+          "label": "j.214B",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6829"
+    }
+  ],
+  "frameData": {
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "4A": {
+      "input": "4A",
+      "startup": 6,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 7,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 9,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "5AAA": {
+      "input": "5AAA",
+      "startup": 8,
+      "on_hit": 17,
+      "raw_on_hit": "17×3, Crumple"
+    },
+    "5AAAA": {
+      "input": "5AAAA",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": "Crumple, Launch"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 9,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 10,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5BB": {
+      "input": "5BB",
+      "startup": 15,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "5BBB": {
+      "input": "5BBB",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 14,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "5C": {
+      "input": "5C",
+      "startup": 22,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2C": {
+      "input": "2C",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 9,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.AA": {
+      "input": "j.AA",
+      "startup": 10,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 10,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.BB": {
+      "input": "j.BB",
+      "startup": 13,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.2B": {
+      "input": "j.2B",
+      "startup": 13,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.C": {
+      "input": "j.C",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "BC": {
+      "input": "BC",
+      "startup": 7,
+      "on_hit": 40,
+      "raw_on_hit": "Crumple, Launch 40"
+    },
+    "4BC": {
+      "input": "4BC",
+      "startup": 7,
+      "on_hit": 40,
+      "raw_on_hit": "Launch 40"
+    },
+    "AD": {
+      "input": "AD",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236A": {
+      "input": "236A",
+      "startup": 13,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.236A": {
+      "input": "j.236A",
+      "startup": 20,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "236B": {
+      "input": "236B",
+      "startup": 44,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.236B": {
+      "input": "j.236B",
+      "startup": 24,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "214A": {
+      "input": "214A",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214A > X": {
+      "input": "214A > X",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214B": {
+      "input": "214B",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214A": {
+      "input": "j.214A",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214B": {
+      "input": "j.214B",
+      "startup": 15,
+      "on_hit": 19,
+      "raw_on_hit": "19, Launch"
+    },
+    "236C": {
+      "input": "236C",
+      "startup": 27,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.236C": {
+      "input": "j.236C",
+      "startup": 24,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214C": {
+      "input": "214C",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214C > X": {
+      "input": "214C > X",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214C": {
+      "input": "j.214C",
+      "startup": 9,
+      "on_hit": 19,
+      "raw_on_hit": "19, Launch"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "4P": {
+      "input": "4P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236BC": {
+      "input": "236BC",
+      "startup": 1,
+      "on_hit": 15,
+      "raw_on_hit": "Crumple [, Crumple + Down 15]"
+    },
+    "214BC": {
+      "input": "214BC",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214BC": {
+      "input": "j.214BC",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Distortion Skill Duo": {
+      "input": "Distortion Skill Duo",
+      "startup": 1,
+      "on_hit": 19,
+      "raw_on_hit": "19 [×5], Crumple 53"
+    },
+    "222BC": {
+      "input": "222BC",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

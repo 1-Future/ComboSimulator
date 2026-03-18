@@ -1,0 +1,412 @@
+{
+  "characterId": "charlotta",
+  "game": "gbvsr",
+  "gameName": "Granblue Fantasy Versus: Rising",
+  "name": "Charlotta",
+  "combos": [
+    {
+      "id": "f-x-4-6l",
+      "name": "f.X > [4]6L",
+      "notation": "f.X > [4]6L",
+      "description": "Anywhere — 1600, 1900, 2300 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "f.X",
+          "time": 0.0,
+          "label": "f.X",
+          "window": 100
+        },
+        {
+          "key": "[4]6L",
+          "time": 0.217,
+          "label": "[4]6L",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "1600, 1900, 2300"
+    },
+    {
+      "id": "f-m-4-6x",
+      "name": "f.M > [4]6X",
+      "notation": "f.M > [4]6X",
+      "description": "Anywhere — 1900, 2300, 2400 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "f.M",
+          "time": 0.0,
+          "label": "f.M",
+          "window": 100
+        },
+        {
+          "key": "[4]6X",
+          "time": 0.15,
+          "label": "[4]6X",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "1900, 2300, 2400"
+    },
+    {
+      "id": "22m-h-f-m-4-6h-66h-f-m-2-8m",
+      "name": "22M.H, f.M > [4]6H, 66H, f.M > [2]8M",
+      "notation": "22M.H, f.M > [4]6H, 66H, f.M > [2]8M",
+      "description": "Corner Carry — 5110 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner carry"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "22M.H",
+          "time": 0.0,
+          "label": "22M.H",
+          "window": 100
+        },
+        {
+          "key": "f.M",
+          "time": 0.217,
+          "label": "f.M",
+          "window": 100
+        },
+        {
+          "key": "[4]6H",
+          "time": 0.333,
+          "label": "[4]6H",
+          "window": 100
+        },
+        {
+          "key": "66H",
+          "time": 1.017,
+          "label": "66H",
+          "window": 100
+        },
+        {
+          "key": "f.M",
+          "time": 1.45,
+          "label": "f.M",
+          "window": 100
+        },
+        {
+          "key": "[2]8M",
+          "time": 1.567,
+          "label": "[2]8M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5110"
+    }
+  ],
+  "frameData": {
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "onHit"
+    },
+    "c.L": {
+      "input": "c.L",
+      "startup": 5,
+      "on_hit": 8,
+      "raw_on_hit": "+8"
+    },
+    "c.M": {
+      "input": "c.M",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "±0"
+    },
+    "c.H": {
+      "input": "c.H",
+      "startup": 9,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    },
+    "c.XX": {
+      "input": "c.XX",
+      "startup": 9,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "c.XXX": {
+      "input": "c.XXX",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "±0"
+    },
+    "c.XX6M": {
+      "input": "c.XX6M",
+      "startup": 12,
+      "on_hit": 30,
+      "raw_on_hit": "KD +30"
+    },
+    "c.XX6H": {
+      "input": "c.XX6H",
+      "startup": 18,
+      "on_hit": 1,
+      "raw_on_hit": "+1Force Crouch"
+    },
+    "f.L": {
+      "input": "f.L",
+      "startup": 6,
+      "on_hit": 5,
+      "raw_on_hit": "+5"
+    },
+    "f.M": {
+      "input": "f.M",
+      "startup": 7,
+      "on_hit": -2,
+      "raw_on_hit": "-2"
+    },
+    "f.H": {
+      "input": "f.H",
+      "startup": 24,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "2L": {
+      "input": "2L",
+      "startup": 6,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    },
+    "2M": {
+      "input": "2M",
+      "startup": 9,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 14,
+      "on_hit": -6,
+      "raw_on_hit": "-6 [-4]"
+    },
+    "2U": {
+      "input": "2U",
+      "startup": 9,
+      "on_hit": 46,
+      "raw_on_hit": "HKD +46"
+    },
+    "66L": {
+      "input": "66L",
+      "startup": 8,
+      "on_hit": 6,
+      "raw_on_hit": "+6"
+    },
+    "66M": {
+      "input": "66M",
+      "startup": 12,
+      "on_hit": 24,
+      "raw_on_hit": "KD +24"
+    },
+    "66H": {
+      "input": "66H",
+      "startup": 15,
+      "on_hit": 11,
+      "raw_on_hit": "+11Force Crouch"
+    },
+    "j.L": {
+      "input": "j.L",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.M": {
+      "input": "j.M",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.U": {
+      "input": "j.U",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5U": {
+      "input": "5U",
+      "startup": 6,
+      "on_hit": 37,
+      "raw_on_hit": "HKD +37 [+6]"
+    },
+    "[4]6L": {
+      "input": "[4]6L",
+      "startup": 11,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    },
+    "[4]6M": {
+      "input": "[4]6M",
+      "startup": 15,
+      "on_hit": 26,
+      "raw_on_hit": "KD +26"
+    },
+    "[4]6H": {
+      "input": "[4]6H",
+      "startup": 11,
+      "on_hit": 30,
+      "raw_on_hit": "KD +30"
+    },
+    "[2]8L": {
+      "input": "[2]8L",
+      "startup": 6,
+      "on_hit": 25,
+      "raw_on_hit": "KD +25"
+    },
+    "[2]8M": {
+      "input": "[2]8M",
+      "startup": 9,
+      "on_hit": 10,
+      "raw_on_hit": "KD +10"
+    },
+    "[2]8H": {
+      "input": "[2]8H",
+      "startup": 11,
+      "on_hit": 12,
+      "raw_on_hit": "KD +12"
+    },
+    "214L": {
+      "input": "214L",
+      "startup": 7,
+      "on_hit": 24,
+      "raw_on_hit": "Air Tech +24"
+    },
+    "214M": {
+      "input": "214M",
+      "startup": 18,
+      "on_hit": 5,
+      "raw_on_hit": "+5"
+    },
+    "214H": {
+      "input": "214H",
+      "startup": 13,
+      "on_hit": 8,
+      "raw_on_hit": "+8"
+    },
+    "22X": {
+      "input": "22X",
+      "startup": 21,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "22X~5": {
+      "input": "22X~5",
+      "startup": 9,
+      "on_hit": 31,
+      "raw_on_hit": "KD +31 [KD +44]"
+    },
+    "22X~L": {
+      "input": "22X~L",
+      "startup": 9,
+      "on_hit": 3,
+      "raw_on_hit": "+3 [+7]"
+    },
+    "22X~M": {
+      "input": "22X~M",
+      "startup": 16,
+      "on_hit": 12,
+      "raw_on_hit": "KD +12"
+    },
+    "22X~H": {
+      "input": "22X~H",
+      "startup": 5,
+      "on_hit": 66,
+      "raw_on_hit": "HKD ≈+66"
+    },
+    "[4]6U": {
+      "input": "[4]6U",
+      "startup": 11,
+      "on_hit": 67,
+      "raw_on_hit": "HKD +67"
+    },
+    "[2]8U": {
+      "input": "[2]8U",
+      "startup": 8,
+      "on_hit": 40,
+      "raw_on_hit": "HKD +40"
+    },
+    "214U": {
+      "input": "214U",
+      "startup": 11,
+      "on_hit": 40,
+      "raw_on_hit": "HKD +40"
+    },
+    "22U": {
+      "input": "22U",
+      "startup": 9,
+      "on_hit": 61,
+      "raw_on_hit": "HKD +61"
+    },
+    "236236H": {
+      "input": "236236H",
+      "startup": 8,
+      "on_hit": 43,
+      "raw_on_hit": "HKD +43"
+    },
+    "236236U": {
+      "input": "236236U",
+      "startup": 8,
+      "on_hit": 49,
+      "raw_on_hit": "HKD +49 [HKD +44]"
+    },
+    "name": {
+      "input": "name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "onHit"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 4,
+      "on_hit": 40,
+      "raw_on_hit": "HKD +40"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 5,
+      "on_hit": 44,
+      "raw_on_hit": "HKD ≈+44"
+    },
+    "Raging Strike": {
+      "input": "Raging Strike",
+      "startup": 28,
+      "on_hit": 15,
+      "raw_on_hit": "+15Force Crouch (KD +40)"
+    },
+    "Raging Chain": {
+      "input": "Raging Chain",
+      "startup": 13,
+      "on_hit": 15,
+      "raw_on_hit": "+15Force Crouch (HKD +63)"
+    },
+    "Brave Counter": {
+      "input": "Brave Counter",
+      "startup": 10,
+      "on_hit": 21,
+      "raw_on_hit": "Air Tech +21 [+5]"
+    }
+  }
+}

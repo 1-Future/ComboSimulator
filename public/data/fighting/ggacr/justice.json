@@ -1,0 +1,255 @@
+{
+  "characterId": "justice",
+  "game": "ggacr",
+  "gameName": "Guilty Gear XX Accent Core +R",
+  "name": "Justice",
+  "combos": [],
+  "frameData": {
+    "Justice": {
+      "input": "Justice",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Justice (Omega Shift)": {
+      "input": "Justice (Omega Shift)",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 6,
+      "on_hit": 10,
+      "raw_on_hit": "10"
+    },
+    "5K": {
+      "input": "5K",
+      "startup": 8,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "c.S": {
+      "input": "c.S",
+      "startup": 6,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "f.S": {
+      "input": "f.S",
+      "startup": 10,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "5H": {
+      "input": "5H",
+      "startup": 12,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "5D": {
+      "input": "5D",
+      "startup": 29,
+      "on_hit": 48,
+      "raw_on_hit": "Launch 48"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 10,
+      "on_hit": 15,
+      "raw_on_hit": "Crouch 15"
+    },
+    "6H": {
+      "input": "6H",
+      "startup": 17,
+      "on_hit": 19,
+      "raw_on_hit": "19, Launch 28"
+    },
+    "2P": {
+      "input": "2P",
+      "startup": 5,
+      "on_hit": 10,
+      "raw_on_hit": "10"
+    },
+    "2K": {
+      "input": "2K",
+      "startup": 7,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "2S": {
+      "input": "2S",
+      "startup": 9,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2D": {
+      "input": "2D",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Down"
+    },
+    "j.P": {
+      "input": "j.P",
+      "startup": 4,
+      "on_hit": 10,
+      "raw_on_hit": "10"
+    },
+    "j.K": {
+      "input": "j.K",
+      "startup": 5,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "j.S": {
+      "input": "j.S",
+      "startup": 8,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 13,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.D": {
+      "input": "j.D",
+      "startup": 11,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "name": {
+      "input": "name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "Blue Burst": {
+      "input": "Blue Burst",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Gold Burst": {
+      "input": "Gold Burst",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "Down + GBounce"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Dead Angle Attack": {
+      "input": "Dead Angle Attack",
+      "startup": 13,
+      "on_hit": 28,
+      "raw_on_hit": "Launch 28 + WBounce"
+    },
+    "236P": {
+      "input": "236P",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "41236S": {
+      "input": "41236S",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "41236H": {
+      "input": "41236H",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.41236S": {
+      "input": "j.41236S",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.41236H": {
+      "input": "j.41236H",
+      "startup": 21,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "623K": {
+      "input": "623K",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "22X": {
+      "input": "22X",
+      "startup": 7,
+      "on_hit": 14,
+      "raw_on_hit": "14, Launch×3"
+    },
+    "236D": {
+      "input": "236D",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.236D": {
+      "input": "j.236D",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "632146H": {
+      "input": "632146H",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "632146S": {
+      "input": "632146S",
+      "startup": 5,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "46463214H": {
+      "input": "46463214H",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "46463214S": {
+      "input": "46463214S",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236236H": {
+      "input": "236236H",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

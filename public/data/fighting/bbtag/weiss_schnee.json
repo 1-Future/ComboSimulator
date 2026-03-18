@@ -1,0 +1,309 @@
+{
+  "characterId": "weiss_schnee",
+  "game": "bbtag",
+  "gameName": "BlazBlue Cross Tag Battle",
+  "name": "Weiss Schnee",
+  "combos": [],
+  "frameData": {
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "4A": {
+      "input": "4A",
+      "startup": 7,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 8,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 12,
+      "on_hit": 14,
+      "raw_on_hit": "14, 17"
+    },
+    "5AAA": {
+      "input": "5AAA",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "5AAAA": {
+      "input": "5AAAA",
+      "startup": 25,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 7,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 14,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "5BB": {
+      "input": "5BB",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 12,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5C": {
+      "input": "5C",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2C": {
+      "input": "2C",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 9,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "j.AA": {
+      "input": "j.AA",
+      "startup": 11,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 11,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.BB": {
+      "input": "j.BB",
+      "startup": 9,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "j.C": {
+      "input": "j.C",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "BC": {
+      "input": "BC",
+      "startup": 7,
+      "on_hit": 30,
+      "raw_on_hit": "Launch 30, 40 + WBounce 60"
+    },
+    "AD": {
+      "input": "AD",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236A": {
+      "input": "236A",
+      "startup": 60,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "236[A]": {
+      "input": "236[A]",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236B": {
+      "input": "236B",
+      "startup": 60,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "236[B]": {
+      "input": "236[B]",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214A": {
+      "input": "214A",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214[A]": {
+      "input": "214[A]",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214B": {
+      "input": "214B",
+      "startup": 22,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214[B]": {
+      "input": "214[B]",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.214A": {
+      "input": "j.214A",
+      "startup": 4,
+      "on_hit": 20,
+      "raw_on_hit": "20"
+    },
+    "j.214B": {
+      "input": "j.214B",
+      "startup": 4,
+      "on_hit": 27,
+      "raw_on_hit": "27"
+    },
+    "214A/B > 8A": {
+      "input": "214A/B > 8A",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214A/B > 8A": {
+      "input": "j.214A/B > 8A",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214A/B > 8B": {
+      "input": "214A/B > 8B",
+      "startup": 34,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214A/B > 8B": {
+      "input": "j.214A/B > 8B",
+      "startup": 22,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214A/B > 8C": {
+      "input": "214A/B > 8C",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214A/B > 8C": {
+      "input": "j.214A/B > 8C",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "22A": {
+      "input": "22A",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "22B": {
+      "input": "22B",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236C": {
+      "input": "236C",
+      "startup": 60,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "236[C]": {
+      "input": "236[C]",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214C": {
+      "input": "214C",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214C": {
+      "input": "j.214C",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "22C": {
+      "input": "22C",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "22C Attack": {
+      "input": "22C Attack",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 18,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "4P": {
+      "input": "4P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236BC": {
+      "input": "236BC",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214BC": {
+      "input": "214BC",
+      "startup": 1,
+      "on_hit": 19,
+      "raw_on_hit": "19, Launch×4 [×8]"
+    },
+    "Distortion Skill Duo": {
+      "input": "Distortion Skill Duo",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "222BC": {
+      "input": "222BC",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

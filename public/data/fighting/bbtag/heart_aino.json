@@ -1,0 +1,279 @@
+{
+  "characterId": "heart_aino",
+  "game": "bbtag",
+  "gameName": "BlazBlue Cross Tag Battle",
+  "name": "Heart Aino",
+  "combos": [],
+  "frameData": {
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "4A": {
+      "input": "4A",
+      "startup": 6,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 8,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 7,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5AAA": {
+      "input": "5AAA",
+      "startup": 10,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5AAAA": {
+      "input": "5AAAA",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 7,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 11,
+      "on_hit": 19,
+      "raw_on_hit": "19 [21]"
+    },
+    "5BB": {
+      "input": "5BB",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "5BBB": {
+      "input": "5BBB",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "5C": {
+      "input": "5C",
+      "startup": 22,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2C": {
+      "input": "2C",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 8,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "j.AA": {
+      "input": "j.AA",
+      "startup": 10,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 9,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.BB": {
+      "input": "j.BB",
+      "startup": 12,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.C": {
+      "input": "j.C",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "BC": {
+      "input": "BC",
+      "startup": 7,
+      "on_hit": 30,
+      "raw_on_hit": "30, Launch 60"
+    },
+    "4BC": {
+      "input": "4BC",
+      "startup": 7,
+      "on_hit": 60,
+      "raw_on_hit": "Launch 60 + Down 23"
+    },
+    "AD": {
+      "input": "AD",
+      "startup": 10,
+      "on_hit": 2,
+      "raw_on_hit": "Launch×2, 19"
+    },
+    "j.AD": {
+      "input": "j.AD",
+      "startup": 7,
+      "on_hit": 2,
+      "raw_on_hit": "Launch×2, 19"
+    },
+    "AD > X": {
+      "input": "AD > X",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236A": {
+      "input": "236A",
+      "startup": 13,
+      "on_hit": 28,
+      "raw_on_hit": "28"
+    },
+    "236B": {
+      "input": "236B",
+      "startup": 25,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214A": {
+      "input": "214A",
+      "startup": 51,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.214A": {
+      "input": "j.214A",
+      "startup": 51,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "214B": {
+      "input": "214B",
+      "startup": 61,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.214B": {
+      "input": "j.214B",
+      "startup": 61,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.236A": {
+      "input": "j.236A",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.236B": {
+      "input": "j.236B",
+      "startup": 23,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Projectile Clash": {
+      "input": "Projectile Clash",
+      "startup": 0,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "236C": {
+      "input": "236C",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214C": {
+      "input": "214C",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214C": {
+      "input": "j.214C",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.236C": {
+      "input": "j.236C",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Homing Cancel": {
+      "input": "Homing Cancel",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "4P": {
+      "input": "4P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236BC": {
+      "input": "236BC",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214BC": {
+      "input": "214BC",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.236BC": {
+      "input": "j.236BC",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Distortion Skill Duo": {
+      "input": "Distortion Skill Duo",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "222BC": {
+      "input": "222BC",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

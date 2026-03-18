@@ -1,0 +1,2638 @@
+{
+  "characterId": "hitman",
+  "game": "dnfd",
+  "gameName": "DNF Duel",
+  "name": "Hitman",
+  "combos": [
+    {
+      "id": "5a-5b-2s-4s-66-4s-otg",
+      "name": "5A > 5B > 2S > 4S > 66 > 4S OTG",
+      "notation": "5A > 5B > 2S > 4S > 66 > 4S OTG",
+      "description": "Anywhere — 218 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.183,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.367,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.583,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.8,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.017,
+          "label": "4S OTG",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "218"
+    },
+    {
+      "id": "5a-5b-2b-2s-5m",
+      "name": "5A > 5B > 2B > 2S > 5M",
+      "notation": "5A > 5B > 2B > 2S > 5M",
+      "description": "Anywhere — 215 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.183,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.367,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.583,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.8,
+          "label": "5M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "215"
+    },
+    {
+      "id": "623m-ss-as",
+      "name": "623M.SS > AS",
+      "notation": "623M.SS > AS",
+      "description": "Anywhere — 400 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623M.SS",
+          "time": 0.0,
+          "label": "623M.SS",
+          "window": 100
+        },
+        {
+          "key": "AS",
+          "time": 0.217,
+          "label": "AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "400"
+    },
+    {
+      "id": "5a-5b-2b-2s-4s-66-4s-otg-236m",
+      "name": "5A > 5B > 2B > 2S > 4S > 66 > 4S OTG > 236M",
+      "notation": "5A > 5B > 2B > 2S > 4S > 66 > 4S OTG > 236M",
+      "description": "Anywhere — 270 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.183,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.367,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.583,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.8,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.017,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.233,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 1.45,
+          "label": "236M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "270"
+    },
+    {
+      "id": "5a-5b-2s-1-6s-1-236m-5a-2s-4s-6",
+      "name": "5A > 5B* > 2S(1) > 6S(1) > 236M > 5A > 2S > 4S > 66 > 4S OTG",
+      "notation": "5A > 5B* > 2S(1) > 6S(1) > 236M > 5A > 2S > 4S > 66 > 4S OTG > 214M",
+      "description": "Anywhere — 305 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "5B*",
+          "time": 0.183,
+          "label": "5B*",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.4,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.617,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.833,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 1.05,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.183,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.4,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.617,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.833,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 2.05,
+          "label": "214M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "305"
+    },
+    {
+      "id": "j-a-j-s-j-m-66-4s-otg",
+      "name": "j.A > j.S > j.M > 66 > 4S OTG",
+      "notation": "j.A > j.S > j.M > 66 > 4S OTG",
+      "description": "Anywhere — 144-178 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.A",
+          "time": 0.0,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.1,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 0.317,
+          "label": "j.M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.533,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 0.75,
+          "label": "4S OTG",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "144-178"
+    },
+    {
+      "id": "5a-2s-1-6s-1-5m-ss-66-5m-ss-4s-5m",
+      "name": "5A > 2S(1) > 6S(1)  > 5M.SS > 66 > 5M.SS > 4S > 5M.SS > 66 >",
+      "notation": "5A > 2S(1) > 6S(1)  > 5M.SS > 66 > 5M.SS > 4S > 5M.SS > 66 > 4S OTG > 5M.SS > Delayed AS",
+      "description": "Midscreen — 614 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.183,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.4,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 0.617,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.833,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 1.05,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.267,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 1.483,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.7,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.917,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 2.133,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "Delayed AS",
+          "time": 2.35,
+          "label": "Delayed AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "614"
+    },
+    {
+      "id": "2a-5b-2b-2s-1-6s-1-9jc-j-a-3-j-s-5",
+      "name": "2A > 5B > 2B  > 2S(1) > 6S(1) > 9jc j.A(3) > j.S(5) > 66 2B ",
+      "notation": "2A > 5B > 2B  > 2S(1) > 6S(1) > 9jc j.A(3) > j.S(5) > 66 2B > 6S(1) > 6M > 9jc > dl.j.S(5) > j.M > 66 > 4S",
+      "description": "Cornered — 290 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "cornered"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2A",
+          "time": 0.0,
+          "label": "2A",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.167,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.35,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.567,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.783,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "9jc j.A",
+          "time": 1.0,
+          "label": "9jc j.A",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.217,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "66 2B",
+          "time": 1.433,
+          "label": "66 2B",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.65,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "6M",
+          "time": 1.867,
+          "label": "6M",
+          "window": 100
+        },
+        {
+          "key": "9jc",
+          "time": 2.083,
+          "label": "9jc",
+          "window": 100
+        },
+        {
+          "key": "dl.j.S",
+          "time": 2.3,
+          "label": "dl.j.S",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 2.517,
+          "label": "j.M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 2.733,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.95,
+          "label": "4S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "290"
+    },
+    {
+      "id": "5b-2s-1-6s-1-5m-5b-2s-1-6s-1-23",
+      "name": "5B > 2S(1) > 6S(1)  > 5M > 5B > 2S(1) > 6S(1) > 236M > 5A > ",
+      "notation": "5B > 2S(1) > 6S(1)  > 5M > 5B > 2S(1) > 6S(1) > 236M > 5A > 2S > 4S > 66 > 4S OTG > 214M",
+      "description": "Anywhere — 402 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.183,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.4,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.617,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.833,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.017,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.233,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 1.45,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 1.667,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.8,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.017,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 2.233,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 2.45,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 2.667,
+          "label": "214M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "402"
+    },
+    {
+      "id": "5b-2s-5m-66-2s-5m-6s-1-214m",
+      "name": "5B > 2S > 5M > 66 > 2S > 5M > 6S(1)  > 214M",
+      "notation": "5B > 2S > 5M > 66 > 2S > 5M > 6S(1)  > 214M",
+      "description": "Anywhere — 379 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.183,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.4,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.617,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.833,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.05,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.267,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 1.483,
+          "label": "214M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "379"
+    },
+    {
+      "id": "2b-6s-1-214m",
+      "name": "2B > 6S(1) > 214M",
+      "notation": "2B > 6S(1) > 214M",
+      "description": "Anywhere — 208 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2B",
+          "time": 0.0,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.217,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 0.433,
+          "label": "214M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "208"
+    },
+    {
+      "id": "2b-5s-1-6s-1-236m-conversion-66-2s",
+      "name": "2B > 5S(1) > 6S(1) > 236M > Conversion > 66 > 2S > 9 > Sligh",
+      "notation": "2B > 5S(1) > 6S(1) > 236M > Conversion > 66 > 2S > 9 > Slight Delay j.S > Slight Delay j.M > 66 > 4S OTG",
+      "description": "Anywhere — 286(May Vary) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2B",
+          "time": 0.0,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.217,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.433,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.65,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "Conversion",
+          "time": 0.867,
+          "label": "Conversion",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.083,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.3,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "9",
+          "time": 1.517,
+          "label": "9",
+          "window": 100
+        },
+        {
+          "key": "Slight Delay j.S",
+          "time": 1.733,
+          "label": "Slight Delay j.S",
+          "window": 100
+        },
+        {
+          "key": "Slight Delay j.M",
+          "time": 1.95,
+          "label": "Slight Delay j.M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 2.167,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 2.383,
+          "label": "4S OTG",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "286(May Vary)"
+    },
+    {
+      "id": "2b-6s-2-214m-2s-9-slight-delay-j-s-sl",
+      "name": "2B > 6S(2) > 214M > 2S > 9 > Slight Delay j.S > Slight Delay",
+      "notation": "2B > 6S(2) > 214M > 2S > 9 > Slight Delay j.S > Slight Delay j.M > 66 > 4S OTG > 214M > 2B > 236M",
+      "description": "Corner — 367 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2B",
+          "time": 0.0,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.217,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 0.433,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.65,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "9",
+          "time": 0.867,
+          "label": "9",
+          "window": 100
+        },
+        {
+          "key": "Slight Delay j.S",
+          "time": 1.083,
+          "label": "Slight Delay j.S",
+          "window": 100
+        },
+        {
+          "key": "Slight Delay j.M",
+          "time": 1.3,
+          "label": "Slight Delay j.M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.517,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.733,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 1.95,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 2.167,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 2.383,
+          "label": "236M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "367"
+    },
+    {
+      "id": "2b-6s-1-9jc-j-a-2-3-j-b-1-2-j-s-5",
+      "name": "2B > 6S(1) > 9jc > j.A (2~3) > j.B (1~2) > j.S(5) > 2S > 9jc",
+      "notation": "2B > 6S(1) > 9jc > j.A (2~3) > j.B (1~2) > j.S(5) > 2S > 9jc > j.S > j.M > IASInstant Air SpecialConceptually includes Tiger Knee. Performing a special as soon as possible after becoming airborne. Usually, but not always, involves an input trick.For Example: 2369S for a j.236S input. j.M > 2B > 6S(1) > 9jc > j.A",
+      "description": "Near Corner — 288~300 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "near corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2B",
+          "time": 0.0,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.217,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "9jc",
+          "time": 0.433,
+          "label": "9jc",
+          "window": 100
+        },
+        {
+          "key": "j.A (2",
+          "time": 0.65,
+          "label": "j.A (2",
+          "window": 100
+        },
+        {
+          "key": "3)",
+          "time": 0.867,
+          "label": "3)",
+          "window": 100
+        },
+        {
+          "key": "j.B (1",
+          "time": 1.083,
+          "label": "j.B (1",
+          "window": 100
+        },
+        {
+          "key": "2)",
+          "time": 1.3,
+          "label": "2)",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.517,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.733,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "9jc",
+          "time": 1.95,
+          "label": "9jc",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.167,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 2.383,
+          "label": "j.M",
+          "window": 100
+        },
+        {
+          "key": "IASInstant Air SpecialConceptually includes Tiger Knee. Performing a special as soon as possible after becoming airborne. Usually",
+          "time": 2.6,
+          "label": "IASInstant Air SpecialConceptually includes Tiger Knee. Performing a special as soon as possible after becoming airborne. Usually",
+          "window": 100
+        },
+        {
+          "key": "but not always",
+          "time": 2.817,
+          "label": "but not always",
+          "window": 100
+        },
+        {
+          "key": "involves an input trick.For Example: 2369S for a j.236S input. j.M",
+          "time": 3.033,
+          "label": "involves an input trick.For Example: 2369S for a j.236S input. j.M",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 3.25,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 3.467,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "9jc",
+          "time": 3.683,
+          "label": "9jc",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 3.9,
+          "label": "j.A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "288~300"
+    },
+    {
+      "id": "delayed-j-b-delayed-j-s-2b-6s-214m",
+      "name": "Delayed j.B > Delayed j.S > 2B > 6S > 214M",
+      "notation": "Delayed j.B > Delayed j.S > 2B > 6S > 214M",
+      "description": "Anywhere — 209 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Delayed j.B",
+          "time": 0.0,
+          "label": "Delayed j.B",
+          "window": 100
+        },
+        {
+          "key": "Delayed j.S",
+          "time": 0.217,
+          "label": "Delayed j.S",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.433,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.65,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 0.867,
+          "label": "214M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "209"
+    },
+    {
+      "id": "delayed-j-b-delayed-j-s-5b-2s-9-j-s-j",
+      "name": "Delayed j.B > Delayed j.S > 5B >  2S > 9 > j.S > j.M > 4S > ",
+      "notation": "Delayed j.B > Delayed j.S > 5B >  2S > 9 > j.S > j.M > 4S > 214M",
+      "description": "Corner — 270 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Delayed j.B",
+          "time": 0.0,
+          "label": "Delayed j.B",
+          "window": 100
+        },
+        {
+          "key": "Delayed j.S",
+          "time": 0.217,
+          "label": "Delayed j.S",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.433,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.617,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "9",
+          "time": 0.833,
+          "label": "9",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.05,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 1.267,
+          "label": "j.M",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.483,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 1.7,
+          "label": "214M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "270"
+    },
+    {
+      "id": "delayed-meaty-j-b-5a-5b-2s-9jc-j-s-lan",
+      "name": "Delayed/Meaty j.B > 5A > 5B > 2S > 9jc > j.S > land > 2S > 9",
+      "notation": "Delayed/Meaty j.B > 5A > 5B > 2S > 9jc > j.S > land > 2S > 9jc >  j.S(1) > j.M > 4S > (5M > Rising j.A)",
+      "description": "Corner — - damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Delayed/Meaty j.B",
+          "time": 0.0,
+          "label": "Delayed/Meaty j.B",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 0.217,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.35,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.533,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "9jc",
+          "time": 0.75,
+          "label": "9jc",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.967,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 1.183,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.4,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "9jc",
+          "time": 1.617,
+          "label": "9jc",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.833,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 2.05,
+          "label": "j.M",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.267,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "(5M",
+          "time": 2.483,
+          "label": "(5M",
+          "window": 100
+        },
+        {
+          "key": "Rising j.A)",
+          "time": 2.7,
+          "label": "Rising j.A)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "-"
+    },
+    {
+      "id": "5b-2s-1-6s-1-5m-ss-66-5m-ss-4s-5m",
+      "name": "5B > 2S(1) > 6S(1) > 5M.SS > 66 > 5M.SS > 4S > 5M.SS > 66 > ",
+      "notation": "5B > 2S(1) > 6S(1) > 5M.SS > 66 > 5M.SS > 4S > 5M.SS > 66 > 4S OTG > 236M > AS",
+      "description": "Anywhere — 673 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.183,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.4,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 0.617,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.833,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 1.05,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.267,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 1.483,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.7,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.917,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 2.133,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "AS",
+          "time": 2.35,
+          "label": "AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "673"
+    },
+    {
+      "id": "6s-1-5m-5b-6s-1-5m-5b-2s-9-j-s",
+      "name": "6S(1) > 5M > 5B > 6S(1) > 5M > 5B > 2S > 9 > j.S > j.M > 66 ",
+      "notation": "6S(1) > 5M > 5B > 6S(1) > 5M > 5B > 2S > 9 > j.S > j.M > 66 > 4S OTG > 214M",
+      "description": "Anywhere — 445 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6S",
+          "time": 0.0,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.217,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.433,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.617,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.833,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 1.05,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.233,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "9",
+          "time": 1.45,
+          "label": "9",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.667,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 1.883,
+          "label": "j.M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 2.1,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 2.317,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 2.533,
+          "label": "214M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "445"
+    },
+    {
+      "id": "6s-1-5m-66-5a-5s-1-6s-1-236m-5a",
+      "name": "6S(1) > 5M > 66 > 5A > 5S(1) > 6S(1) > 236M > 5A > 2S > 4S >",
+      "notation": "6S(1) > 5M > 66 > 5A > 5S(1) > 6S(1) > 236M > 5A > 2S > 4S > 66 > 4S OTG > 214M",
+      "description": "Anywhere — 372 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6S",
+          "time": 0.0,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.217,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.433,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 0.65,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.783,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.0,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 1.217,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 1.433,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.567,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.783,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 2.0,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 2.217,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 2.433,
+          "label": "214M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "372"
+    },
+    {
+      "id": "6s-1-5m-2b-6s-1-9jc-j-a-3-j-b-2",
+      "name": "6S(1) > 5M > 2B > 6S(1) > 9jc > j.A(3) > j.B(2) > j.S(5) > j",
+      "notation": "6S(1) > 5M > 2B > 6S(1) > 9jc > j.A(3) > j.B(2) > j.S(5) > j.M > 4S OTG > 214M M",
+      "description": "Near corner — ~365 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "near corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6S",
+          "time": 0.0,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.217,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.433,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.65,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "9jc",
+          "time": 0.867,
+          "label": "9jc",
+          "window": 100
+        },
+        {
+          "key": "j.A",
+          "time": 1.083,
+          "label": "j.A",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 1.183,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.35,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 1.567,
+          "label": "j.M",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.783,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "214M M",
+          "time": 2.0,
+          "label": "214M M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "~365"
+    },
+    {
+      "id": "6s-236m-9jc-low-j-b-2a-2s-4s-4s",
+      "name": "6S > 236M > 9jc > low j.B > 2A > 2S > 4S > 4S",
+      "notation": "6S > 236M > 9jc > low j.B > 2A > 2S > 4S > 4S",
+      "description": "Corner — ~ damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6S",
+          "time": 0.0,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.217,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "9jc",
+          "time": 0.433,
+          "label": "9jc",
+          "window": 100
+        },
+        {
+          "key": "low j.B",
+          "time": 0.65,
+          "label": "low j.B",
+          "window": 100
+        },
+        {
+          "key": "2A",
+          "time": 0.867,
+          "label": "2A",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.033,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.25,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.467,
+          "label": "4S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "~"
+    },
+    {
+      "id": "2s-5m-66-2s-5m-66-2s-5m-6s",
+      "name": "2S > 5M > 66 > 2S > 5M > 66 > 2S > 5M > 6S",
+      "notation": "2S > 5M > 66 > 2S > 5M > 66 > 2S > 5M > 6S",
+      "description": "Anywhere — 419 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2S",
+          "time": 0.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.217,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.433,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.65,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.867,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.083,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.3,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.517,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.733,
+          "label": "6S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "419"
+    },
+    {
+      "id": "6s-5m-ss-66-5m-ss-4s-5m-ss-66-4s-otg",
+      "name": "6S > 5M.SS > 66 > 5M.SS > 4S > 5M.SS > 66 > 4S OTG > 5M.SS >",
+      "notation": "6S > 5M.SS > 66 > 5M.SS > 4S > 5M.SS > 66 > 4S OTG > 5M.SS > 66 > 4S OTG > AS",
+      "description": "Anywhere — 721 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6S",
+          "time": 0.0,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 0.217,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.433,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 0.65,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.867,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 1.083,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.3,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.517,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 1.733,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.95,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 2.167,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "AS",
+          "time": 2.383,
+          "label": "AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "721"
+    },
+    {
+      "id": "2s-5m-ss-66-2s-4s-5m-ss-66-4s-otg",
+      "name": "2S > 5M.SS > 66 > 2S > 4S > 5M.SS > 66 > 4S OTG > 214M.SS > ",
+      "notation": "2S > 5M.SS > 66 > 2S > 4S > 5M.SS > 66 > 4S OTG > 214M.SS > 66 > 4S OTG > 623M.SS Delayed AS",
+      "description": "Corner — 765 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2S",
+          "time": 0.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 0.217,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.433,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.65,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.867,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 1.083,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.3,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.517,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "214M.SS",
+          "time": 1.733,
+          "label": "214M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.95,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 2.167,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "623M.SS Delayed AS",
+          "time": 2.383,
+          "label": "623M.SS Delayed AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "765"
+    },
+    {
+      "id": "ch-5m-66-5m-2s-5m-6s",
+      "name": "CH 5M > 66 > 5M > 2S > 5M > 6S",
+      "notation": "CH 5M > 66 > 5M > 2S > 5M > 6S",
+      "description": "Midscren - Corner — 420~446 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscren - corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5M",
+          "time": 0.0,
+          "label": "CH 5M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.217,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.433,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.65,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.867,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.083,
+          "label": "6S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "420~446"
+    },
+    {
+      "id": "ch-5m-66-5m-2s-5m-66-2s-4s-66-4s",
+      "name": "CH 5M > 66 > 5M > 2S > 5M > 66 > 2S > 4S 66 > 4S > 214M",
+      "notation": "CH 5M > 66 > 5M > 2S > 5M > 66 > 2S > 4S 66 > 4S > 214M",
+      "description": "Corner — 544 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5M",
+          "time": 0.0,
+          "label": "CH 5M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.217,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.433,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.65,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.867,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.083,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.3,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "4S 66",
+          "time": 1.517,
+          "label": "4S 66",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.733,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 1.95,
+          "label": "214M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "544"
+    },
+    {
+      "id": "ch-5m-66-5m-ss-4s-5m-ss-66-4s-otg-5m",
+      "name": "CH 5M > 66 > 5M.SS > 4S > 5M.SS > 66 > 4S OTG > 5M.SS > 66 >",
+      "notation": "CH 5M > 66 > 5M.SS > 4S > 5M.SS > 66 > 4S OTG > 5M.SS > 66 > 4S OTG > 236M > AS",
+      "description": "Midscren - Corner — ~891 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscren - corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5M",
+          "time": 0.0,
+          "label": "CH 5M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.217,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 0.433,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.65,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 0.867,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.083,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.3,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 1.517,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.733,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.95,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 2.167,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "AS",
+          "time": 2.383,
+          "label": "AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "~891"
+    },
+    {
+      "id": "5m-ss-66-5m-ss-4s-214m-ss-4s-otg-236m",
+      "name": "5M.SS > 66 > 5M.SS > 4S > 214M.SS > 4S OTG  > 236M > AS",
+      "notation": "5M.SS > 66 > 5M.SS > 4S > 214M.SS > 4S OTG  > 236M > AS",
+      "description": "Midscreen~Corner — ~808 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen~corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5M.SS",
+          "time": 0.0,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.217,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 0.433,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.65,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M.SS",
+          "time": 0.867,
+          "label": "214M.SS",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.083,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 1.3,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "AS",
+          "time": 1.517,
+          "label": "AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "~808"
+    },
+    {
+      "id": "5m-ss-66-5m-ss-dl-6s-1-9jc-j-s-5-j-m",
+      "name": "5M.SS > 66 > 5M.SS > dl.6S(1) > 9jc > j.S(5) > j.M.SS > IASI",
+      "notation": "5M.SS > 66 > 5M.SS > dl.6S(1) > 9jc > j.S(5) > j.M.SS > IASInstant Air SpecialConceptually includes Tiger Knee. Performing a special as soon as possible after becoming airborne. Usually, but not always, involves an input trick.For Example: 2369S for a j.236S input. j.M.SS > 4S > AS",
+      "description": "Midscreen~Corner — 872~891 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen~corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5M.SS",
+          "time": 0.0,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.217,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 0.433,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "dl.6S",
+          "time": 0.65,
+          "label": "dl.6S",
+          "window": 100
+        },
+        {
+          "key": "9jc",
+          "time": 0.867,
+          "label": "9jc",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.083,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.M.SS",
+          "time": 1.3,
+          "label": "j.M.SS",
+          "window": 100
+        },
+        {
+          "key": "IASInstant Air SpecialConceptually includes Tiger Knee. Performing a special as soon as possible after becoming airborne. Usually",
+          "time": 1.517,
+          "label": "IASInstant Air SpecialConceptually includes Tiger Knee. Performing a special as soon as possible after becoming airborne. Usually",
+          "window": 100
+        },
+        {
+          "key": "but not always",
+          "time": 1.733,
+          "label": "but not always",
+          "window": 100
+        },
+        {
+          "key": "involves an input trick.For Example: 2369S for a j.236S input. j.M.SS",
+          "time": 1.95,
+          "label": "involves an input trick.For Example: 2369S for a j.236S input. j.M.SS",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.167,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "AS",
+          "time": 2.383,
+          "label": "AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "872~891"
+    },
+    {
+      "id": "623m-ss-66-4s-otg-214m-ss-66-4s-otg-62",
+      "name": "623M.SS > 66 > 4S OTG > 214M.SS > 66 > 4S OTG > 623M.SS > De",
+      "notation": "623M.SS > 66 > 4S OTG > 214M.SS > 66 > 4S OTG > 623M.SS > Delayed AS",
+      "description": "Anywhere — 539 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623M.SS",
+          "time": 0.0,
+          "label": "623M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.217,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 0.433,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "214M.SS",
+          "time": 0.65,
+          "label": "214M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.867,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.083,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "623M.SS",
+          "time": 1.3,
+          "label": "623M.SS",
+          "window": 100
+        },
+        {
+          "key": "Delayed AS",
+          "time": 1.517,
+          "label": "Delayed AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "539"
+    },
+    {
+      "id": "623m-ss-dl-6s-1-9jc-j-s-5-j-m-ss-iasin",
+      "name": "623M.SS > dl.6S(1) > 9jc > j.S(5) > j.M.SS > IASInstant Air ",
+      "notation": "623M.SS > dl.6S(1) > 9jc > j.S(5) > j.M.SS > IASInstant Air SpecialConceptually includes Tiger Knee. Performing a special as soon as possible after becoming airborne. Usually, but not always, involves an input trick.For Example: 2369S for a j.236S input. j.M.SS 4S OTG >AS",
+      "description": "Anywhere — ~586 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "623M.SS",
+          "time": 0.0,
+          "label": "623M.SS",
+          "window": 100
+        },
+        {
+          "key": "dl.6S",
+          "time": 0.217,
+          "label": "dl.6S",
+          "window": 100
+        },
+        {
+          "key": "9jc",
+          "time": 0.433,
+          "label": "9jc",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.65,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.M.SS",
+          "time": 0.867,
+          "label": "j.M.SS",
+          "window": 100
+        },
+        {
+          "key": "IASInstant Air SpecialConceptually includes Tiger Knee. Performing a special as soon as possible after becoming airborne. Usually",
+          "time": 1.083,
+          "label": "IASInstant Air SpecialConceptually includes Tiger Knee. Performing a special as soon as possible after becoming airborne. Usually",
+          "window": 100
+        },
+        {
+          "key": "but not always",
+          "time": 1.3,
+          "label": "but not always",
+          "window": 100
+        },
+        {
+          "key": "involves an input trick.For Example: 2369S for a j.236S input. j.M.SS 4S OTG",
+          "time": 1.517,
+          "label": "involves an input trick.For Example: 2369S for a j.236S input. j.M.SS 4S OTG",
+          "window": 100
+        },
+        {
+          "key": "AS",
+          "time": 1.733,
+          "label": "AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "~586"
+    },
+    {
+      "id": "ss-66-5m-ss-6s-214m-ss-66-4s-otg-236",
+      "name": "SS > 66 > 5M.SS > 6S > 214M.SS > 66 > 4S OTG > 236M >  AS",
+      "notation": "SS > 66 > 5M.SS > 6S > 214M.SS > 66 > 4S OTG > 236M >  AS",
+      "description": "Anywhere — ~739 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "SS",
+          "time": 0.0,
+          "label": "SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.217,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "5M.SS",
+          "time": 0.433,
+          "label": "5M.SS",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.65,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "214M.SS",
+          "time": 0.867,
+          "label": "214M.SS",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.083,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "4S OTG",
+          "time": 1.3,
+          "label": "4S OTG",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 1.517,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "AS",
+          "time": 1.733,
+          "label": "AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "~739"
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 8,
+      "on_hit": -3,
+      "raw_on_hit": "-3"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 10,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 7,
+      "on_hit": 3,
+      "raw_on_hit": "+3"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Varies"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "Varies"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "Varies"
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Surprise Cut": {
+      "input": "Surprise Cut",
+      "startup": 15,
+      "on_hit": -4,
+      "raw_on_hit": "-4"
+    },
+    "Dead Lift": {
+      "input": "Dead Lift",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "Varies"
+    },
+    "Agile Maneuver": {
+      "input": "Agile Maneuver",
+      "startup": 18,
+      "on_hit": -6,
+      "raw_on_hit": "-6"
+    },
+    "Mighty Strike": {
+      "input": "Mighty Strike",
+      "startup": 22,
+      "on_hit": 0,
+      "raw_on_hit": "HKD"
+    },
+    "Dead Six": {
+      "input": "Dead Six",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Varies"
+    },
+    "Final Strike": {
+      "input": "Final Strike",
+      "startup": 26,
+      "on_hit": 14,
+      "raw_on_hit": "+14"
+    },
+    "Bill Drill": {
+      "input": "Bill Drill",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "Varies"
+    },
+    "Caracole": {
+      "input": "Caracole",
+      "startup": 15,
+      "on_hit": 15,
+      "raw_on_hit": "+15"
+    },
+    "Sweep": {
+      "input": "Sweep",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "Varies"
+    },
+    "Helix Dive": {
+      "input": "Helix Dive",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "HKD"
+    },
+    "Shattering Strike (Battle Command)": {
+      "input": "Shattering Strike (Battle Command)",
+      "startup": 0,
+      "on_hit": 14,
+      "raw_on_hit": "+14(vs Ground Crumples/vs Air HKD)"
+    },
+    "Shattering Strike (Mission in Action)": {
+      "input": "Shattering Strike (Mission in Action)",
+      "startup": 25,
+      "on_hit": 11,
+      "raw_on_hit": "+11"
+    },
+    "Throw": {
+      "input": "Throw",
+      "startup": 5,
+      "on_hit": 3,
+      "raw_on_hit": "HKD(+3)"
+    },
+    "Dodge": {
+      "input": "Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Backwards Dodge": {
+      "input": "Backwards Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Guard Cancel": {
+      "input": "Guard Cancel",
+      "startup": 23,
+      "on_hit": 24,
+      "raw_on_hit": "+24"
+    },
+    "Dusk Wings": {
+      "input": "Dusk Wings",
+      "startup": 2,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

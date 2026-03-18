@@ -1,0 +1,171 @@
+{
+  "characterId": "ghostblade",
+  "game": "dnfd",
+  "gameName": "DNF Duel",
+  "name": "Ghostblade",
+  "combos": [],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 8,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 9,
+      "on_hit": -4,
+      "raw_on_hit": "-4"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 11,
+      "on_hit": -3,
+      "raw_on_hit": "-3"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 7,
+      "on_hit": -4,
+      "raw_on_hit": "-4"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Ultimate Phantom Slash": {
+      "input": "Ultimate Phantom Slash",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "Spectral Eradication": {
+      "input": "Spectral Eradication",
+      "startup": 23,
+      "on_hit": 10,
+      "raw_on_hit": "+10"
+    },
+    "6S": {
+      "input": "6S",
+      "startup": 15,
+      "on_hit": -13,
+      "raw_on_hit": "-13"
+    },
+    "6S~S": {
+      "input": "6S~S",
+      "startup": 12,
+      "on_hit": -13,
+      "raw_on_hit": "-13"
+    },
+    "6S~S~S": {
+      "input": "6S~S~S",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "Soul Strike": {
+      "input": "Soul Strike",
+      "startup": 22,
+      "on_hit": 0,
+      "raw_on_hit": "HKD"
+    },
+    "Cross Slash": {
+      "input": "Cross Slash",
+      "startup": 29,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "Ghost: Single Strike": {
+      "input": "Ghost: Single Strike",
+      "startup": 21,
+      "on_hit": 16,
+      "raw_on_hit": "+16"
+    },
+    "Dyad: Soul Cross": {
+      "input": "Dyad: Soul Cross",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "Crumple"
+    },
+    "Ghost Retracer": {
+      "input": "Ghost Retracer",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Ghost: Sky Slash": {
+      "input": "Ghost: Sky Slash",
+      "startup": 22,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "Ghost: Phantom Wind": {
+      "input": "Ghost: Phantom Wind",
+      "startup": 40,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "Ghost: Targeted Hit": {
+      "input": "Ghost: Targeted Hit",
+      "startup": 34,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "Throw": {
+      "input": "Throw",
+      "startup": 5,
+      "on_hit": 3,
+      "raw_on_hit": "HKD(+3)"
+    },
+    "Dodge": {
+      "input": "Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Backwards Dodge": {
+      "input": "Backwards Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Guard Cancel": {
+      "input": "Guard Cancel",
+      "startup": 23,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Phantasmal Slayer": {
+      "input": "Phantasmal Slayer",
+      "startup": 2,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    }
+  }
+}

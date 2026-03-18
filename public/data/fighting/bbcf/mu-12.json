@@ -1,0 +1,267 @@
+{
+  "characterId": "mu-12",
+  "game": "bbcf",
+  "gameName": "BlazBlue: Central Fiction",
+  "name": "Mu-12",
+  "combos": [],
+  "frameData": {
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 6,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 8,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "5C": {
+      "input": "5C",
+      "startup": 12,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 7,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 8,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "2C": {
+      "input": "2C",
+      "startup": 14,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "6A": {
+      "input": "6A",
+      "startup": 11,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "6B": {
+      "input": "6B",
+      "startup": 16,
+      "on_hit": 17,
+      "raw_on_hit": "17, Launch"
+    },
+    "6C": {
+      "input": "6C",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "3C": {
+      "input": "3C",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 8,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 10,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "j.C": {
+      "input": "j.C",
+      "startup": 12,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.2C": {
+      "input": "j.2C",
+      "startup": 14,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5D": {
+      "input": "5D",
+      "startup": 144,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "5D OD": {
+      "input": "5D OD",
+      "startup": 76,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "5[D]": {
+      "input": "5[D]",
+      "startup": 176,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.D": {
+      "input": "j.D",
+      "startup": 151,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "j.D OD": {
+      "input": "j.D OD",
+      "startup": 84,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.[D]": {
+      "input": "j.[D]",
+      "startup": 184,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "B+C": {
+      "input": "B+C",
+      "startup": 7,
+      "on_hit": 100,
+      "raw_on_hit": "Launch 100"
+    },
+    "j.B+C": {
+      "input": "j.B+C",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "6A+B": {
+      "input": "6A+B",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "5A+B": {
+      "input": "5A+B",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "Crumple"
+    },
+    "5[A+B]": {
+      "input": "5[A+B]",
+      "startup": 30,
+      "on_hit": 0,
+      "raw_on_hit": "Crumple"
+    },
+    "44": {
+      "input": "44",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236D": {
+      "input": "236D",
+      "startup": 26,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.236D": {
+      "input": "j.236D",
+      "startup": 26,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "214D": {
+      "input": "214D",
+      "startup": 40,
+      "on_hit": 0,
+      "raw_on_hit": "Crumple [, Launch]"
+    },
+    "j.214D": {
+      "input": "j.214D",
+      "startup": 40,
+      "on_hit": 0,
+      "raw_on_hit": "Crumple [, Launch]"
+    },
+    "236A": {
+      "input": "236A",
+      "startup": 15,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.236A": {
+      "input": "j.236A",
+      "startup": 19,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "623C": {
+      "input": "623C",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.623C": {
+      "input": "j.623C",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "63214B": {
+      "input": "63214B",
+      "startup": 31,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "63214C": {
+      "input": "63214C",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "632146C": {
+      "input": "632146C",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "Crumple"
+    },
+    "632146D": {
+      "input": "632146D",
+      "startup": 5,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.632146D": {
+      "input": "j.632146D",
+      "startup": 5,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "632146D Extra Laser": {
+      "input": "632146D Extra Laser",
+      "startup": 0,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "A+B+C+D": {
+      "input": "A+B+C+D",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "222D": {
+      "input": "222D",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "characterId": "litchi_faye_ling",
+  "game": "bbcf",
+  "gameName": "BlazBlue: Central Fiction",
+  "name": "Litchi Faye Ling",
+  "combos": [],
+  "frameData": {
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 6,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "5Bm": {
+      "input": "5Bm",
+      "startup": 11,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "5Be": {
+      "input": "5Be",
+      "startup": 8,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5Cm": {
+      "input": "5Cm",
+      "startup": 17,
+      "on_hit": 21,
+      "raw_on_hit": "21"
+    },
+    "5Ce": {
+      "input": "5Ce",
+      "startup": 15,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 7,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "2Bm": {
+      "input": "2Bm",
+      "startup": 17,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "2Be": {
+      "input": "2Be",
+      "startup": 12,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "2Cm": {
+      "input": "2Cm",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2Ce": {
+      "input": "2Ce",
+      "startup": 12,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "6Am": {
+      "input": "6Am",
+      "startup": 25,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "6Ae": {
+      "input": "6Ae",
+      "startup": 22,
+      "on_hit": 21,
+      "raw_on_hit": "Crouch 21"
+    },
+    "6Bm": {
+      "input": "6Bm",
+      "startup": 17,
+      "on_hit": 21,
+      "raw_on_hit": "21"
+    },
+    "6[B]m": {
+      "input": "6[B]m",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "6Be": {
+      "input": "6Be",
+      "startup": 17,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "6[B]e": {
+      "input": "6[B]e",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "6Cm": {
+      "input": "6Cm",
+      "startup": 23,
+      "on_hit": 44,
+      "raw_on_hit": "Spin Fall 44"
+    },
+    "6Ce": {
+      "input": "6Ce",
+      "startup": 11,
+      "on_hit": 28,
+      "raw_on_hit": "Crumple, Launch + Down 28"
+    },
+    "4Bm": {
+      "input": "4Bm",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "4Be": {
+      "input": "4Be",
+      "startup": 14,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "3Cm": {
+      "input": "3Cm",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "3Ce": {
+      "input": "3Ce",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 7,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "j.Bm": {
+      "input": "j.Bm",
+      "startup": 11,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.Be": {
+      "input": "j.Be",
+      "startup": 9,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.Cm": {
+      "input": "j.Cm",
+      "startup": 15,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.Ce": {
+      "input": "j.Ce",
+      "startup": 12,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "44": {
+      "input": "44",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "447": {
+      "input": "447",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5Dm": {
+      "input": "5Dm",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2Dm": {
+      "input": "2Dm",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "6Dm": {
+      "input": "6Dm",
+      "startup": 15,
+      "on_hit": 21,
+      "raw_on_hit": "21, 25"
+    },
+    "4Dm": {
+      "input": "4Dm",
+      "startup": 22,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.Dm": {
+      "input": "j.Dm",
+      "startup": 14,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.2Dm": {
+      "input": "j.2Dm",
+      "startup": 17,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5De": {
+      "input": "5De",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2De": {
+      "input": "2De",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "6[6]De": {
+      "input": "6[6]De",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.De": {
+      "input": "j.De",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Staff Launch Vertical": {
+      "input": "Staff Launch Vertical",
+      "startup": 0,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "Staff Launch Horizontal": {
+      "input": "Staff Launch Horizontal",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "OD Staff": {
+      "input": "OD Staff",
+      "startup": 13,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "B+C": {
+      "input": "B+C",
+      "startup": 7,
+      "on_hit": 45,
+      "raw_on_hit": "Crumple, Launch 45"
+    },
+    "4B+C": {
+      "input": "4B+C",
+      "startup": 7,
+      "on_hit": 62,
+      "raw_on_hit": "Launch 62"
+    },
+    "j.B+C": {
+      "input": "j.B+C",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "6A+B": {
+      "input": "6A+B",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "5A+B": {
+      "input": "5A+B",
+      "startup": 20,
+      "on_hit": 10,
+      "raw_on_hit": "Crumple + Down 10"
+    },
+    "5[A+B]": {
+      "input": "5[A+B]",
+      "startup": 30,
+      "on_hit": 10,
+      "raw_on_hit": "Crumple + Down 10"
+    },
+    "41236Am": {
+      "input": "41236Am",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "41236Bm": {
+      "input": "41236Bm",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "41236Cm": {
+      "input": "41236Cm",
+      "startup": 21,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "41236Xm~D": {
+      "input": "41236Xm~D",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214Bm": {
+      "input": "214Bm",
+      "startup": 14,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "214Cm": {
+      "input": "214Cm",
+      "startup": 34,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "623Dm": {
+      "input": "623Dm",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236Ae": {
+      "input": "236Ae",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236Be": {
+      "input": "236Be",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.236Be": {
+      "input": "j.236Be",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236Ce": {
+      "input": "236Ce",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.236Ce": {
+      "input": "j.236Ce",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "421Ce": {
+      "input": "421Ce",
+      "startup": 16,
+      "on_hit": 14,
+      "raw_on_hit": "14×2, Launch"
+    },
+    "63214Ae": {
+      "input": "63214Ae",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "63214Ae~A": {
+      "input": "63214Ae~A",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "63214Ae~B": {
+      "input": "63214Ae~B",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "63214Ae~C": {
+      "input": "63214Ae~C",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "63214Ae~D": {
+      "input": "63214Ae~D",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "63214Be": {
+      "input": "63214Be",
+      "startup": 45,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "63214Ce": {
+      "input": "63214Ce",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "41236De Vertical": {
+      "input": "41236De Vertical",
+      "startup": 44,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "41236De Horizontal": {
+      "input": "41236De Horizontal",
+      "startup": 41,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "623De": {
+      "input": "623De",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.623De": {
+      "input": "j.623De",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "421De": {
+      "input": "421De",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.421De": {
+      "input": "j.421De",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "632146C": {
+      "input": "632146C",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "6428C": {
+      "input": "6428C",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "632146De Vertical": {
+      "input": "632146De Vertical",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "632146De Horizontal": {
+      "input": "632146De Horizontal",
+      "startup": 26,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "A+B+C+D": {
+      "input": "A+B+C+D",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "63214Ae~46D": {
+      "input": "63214Ae~46D",
+      "startup": 25,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

@@ -1,0 +1,2434 @@
+{
+  "characterId": "i-no",
+  "game": "ggxrd",
+  "gameName": "Guilty Gear Xrd REV 2",
+  "name": "I-No",
+  "combos": [
+    {
+      "id": "j-d-vcl-5k-j-s-j-h-hcl-d",
+      "name": "j.D > VCL > 5K > j.S > j.H > HCL ~ D",
+      "notation": "j.D > VCL > 5K > j.S > j.H > HCL ~ D",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.D",
+          "time": 0.0,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.267,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.483,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.6,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 0.733,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 0.933,
+          "label": "HCL",
+          "window": 100
+        },
+        {
+          "key": "D",
+          "time": 1.15,
+          "label": "D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "j-d-vcl-5p-5k-sj-s-sj-h-sdive-5p-c",
+      "name": "j.D > VCL > 5P > 5K > sj.S > sj.H > Sdive > 5P > c.S > sj.S ",
+      "notation": "j.D > VCL > 5P > 5K > sj.S > sj.H > Sdive > 5P > c.S > sj.S > sj.H > Kdive",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.D",
+          "time": 0.0,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.267,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "5P",
+          "time": 0.483,
+          "label": "5P",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.55,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "sj.S",
+          "time": 0.667,
+          "label": "sj.S",
+          "window": 100
+        },
+        {
+          "key": "sj.H",
+          "time": 0.883,
+          "label": "sj.H",
+          "window": 100
+        },
+        {
+          "key": "Sdive",
+          "time": 1.1,
+          "label": "Sdive",
+          "window": 100
+        },
+        {
+          "key": "5P",
+          "time": 1.317,
+          "label": "5P",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.383,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "sj.S",
+          "time": 1.483,
+          "label": "sj.S",
+          "window": 100
+        },
+        {
+          "key": "sj.H",
+          "time": 1.7,
+          "label": "sj.H",
+          "window": 100
+        },
+        {
+          "key": "Kdive",
+          "time": 1.917,
+          "label": "Kdive",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "j-d-vcl-5k-j-s-dj-h-sdive-5p-c-s-s",
+      "name": "j.D > VCL > 5K > j.S > dj.H > Sdive > 5P > c.S > sj.S > sj.H",
+      "notation": "j.D > VCL > 5K > j.S > dj.H > Sdive > 5P > c.S > sj.S > sj.H > Pdive > dash j.H > Pdive",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.D",
+          "time": 0.0,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.267,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.483,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.6,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "dj.H",
+          "time": 0.733,
+          "label": "dj.H",
+          "window": 100
+        },
+        {
+          "key": "Sdive",
+          "time": 0.95,
+          "label": "Sdive",
+          "window": 100
+        },
+        {
+          "key": "5P",
+          "time": 1.167,
+          "label": "5P",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.233,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "sj.S",
+          "time": 1.333,
+          "label": "sj.S",
+          "window": 100
+        },
+        {
+          "key": "sj.H",
+          "time": 1.55,
+          "label": "sj.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.767,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 1.983,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 2.2,
+          "label": "Pdive",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "j-d-fortissimo-vcl-5k-j-s-j-h-hcl-d",
+      "name": "j.D > Fortissimo > VCL > 5K > j.S > j.H > HCL ~ D",
+      "notation": "j.D > Fortissimo > VCL > 5K > j.S > j.H > HCL ~ D",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.D",
+          "time": 0.0,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Fortissimo",
+          "time": 0.267,
+          "label": "Fortissimo",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.483,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.7,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.817,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 0.95,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 1.15,
+          "label": "HCL",
+          "window": 100
+        },
+        {
+          "key": "D",
+          "time": 1.367,
+          "label": "D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2s-hcl-rc-dash-ffvcl-5h-iad-j-k-j-s",
+      "name": "2S > HCL > RC > dash FFVCL > 5H > IAD j.K > j.S > FFVCL > j.",
+      "notation": "2S > HCL > RC > dash FFVCL > 5H > IAD j.K > j.S > FFVCL > j.S > HCL ~ D",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2S",
+          "time": 0.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 0.15,
+          "label": "HCL",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.367,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "dash FFVCL",
+          "time": 0.583,
+          "label": "dash FFVCL",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.8,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "IAD j.K",
+          "time": 1.017,
+          "label": "IAD j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.233,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 1.367,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.583,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 1.717,
+          "label": "HCL",
+          "window": 100
+        },
+        {
+          "key": "D",
+          "time": 1.933,
+          "label": "D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2s-rc-dash-j-h-6p-5h-iad-j-k-j-s-ffv",
+      "name": "2S > RC > dash j.H > 6P > 5H > IAD j.K > j.S > FFVCL > j.S >",
+      "notation": "2S > RC > dash j.H > 6P > 5H > IAD j.K > j.S > FFVCL > j.S > j.H > Kdive",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2S",
+          "time": 0.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.15,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 0.367,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.583,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.733,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "IAD j.K",
+          "time": 0.95,
+          "label": "IAD j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.167,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 1.3,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.517,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.65,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Kdive",
+          "time": 1.85,
+          "label": "Kdive",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "sm-pdive-dash-j-s-j-k-ffvcl-j-s-hcl",
+      "name": "SM > Pdive > dash j.S > j.K > FFVCL > j.S > HCL ~ D",
+      "notation": "SM > Pdive > dash j.S > j.K > FFVCL > j.S > HCL ~ D",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "SM",
+          "time": 0.0,
+          "label": "SM",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 0.217,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.S",
+          "time": 0.433,
+          "label": "dash j.S",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.65,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 0.733,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.95,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 1.083,
+          "label": "HCL",
+          "window": 100
+        },
+        {
+          "key": "D",
+          "time": 1.3,
+          "label": "D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "fortissimo-iad-j-k-j-s-ffvcl-j-s-j-h-s",
+      "name": "Fortissimo > IAD j.K > j.S > FFVCL > j.S > j.H > Sdive > c.S",
+      "notation": "Fortissimo > IAD j.K > j.S > FFVCL > j.S > j.H > Sdive > c.S > j.S > j.H > Pdive > dash j.H > Pdive",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Fortissimo",
+          "time": 0.0,
+          "label": "Fortissimo",
+          "window": 100
+        },
+        {
+          "key": "IAD j.K",
+          "time": 0.217,
+          "label": "IAD j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.433,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 0.567,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.783,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 0.917,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Sdive",
+          "time": 1.117,
+          "label": "Sdive",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.333,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.433,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.567,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.767,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 1.983,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 2.2,
+          "label": "Pdive",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "fortissimo-j-s-pdive-dash-j-h-ffj-d-vcl",
+      "name": "Fortissimo > j.S > Pdive > dash j.H > FFj.D > VCL > c.S > sj",
+      "notation": "Fortissimo > j.S > Pdive > dash j.H > FFj.D > VCL > c.S > sj.S > sj.H > Kdive",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Fortissimo",
+          "time": 0.0,
+          "label": "Fortissimo",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.217,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 0.35,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 0.567,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "FFj.D",
+          "time": 0.783,
+          "label": "FFj.D",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 1.0,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.217,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "sj.S",
+          "time": 1.317,
+          "label": "sj.S",
+          "window": 100
+        },
+        {
+          "key": "sj.H",
+          "time": 1.533,
+          "label": "sj.H",
+          "window": 100
+        },
+        {
+          "key": "Kdive",
+          "time": 1.75,
+          "label": "Kdive",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "j-d-vcl-c-s-vcl-c-s-j-s-j-h-pdive",
+      "name": "j.D > VCL > c.S > VCL > c.S > j.S > j.H > Pdive > dash j.H >",
+      "notation": "j.D > VCL > c.S > VCL > c.S > j.S > j.H > Pdive > dash j.H > FFVCL > c.S > sj.S > sj.H > Kdive",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.D",
+          "time": 0.0,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.267,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.483,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.583,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.8,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.9,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.033,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.233,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 1.45,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 1.667,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.883,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "sj.S",
+          "time": 1.983,
+          "label": "sj.S",
+          "window": 100
+        },
+        {
+          "key": "sj.H",
+          "time": 2.2,
+          "label": "sj.H",
+          "window": 100
+        },
+        {
+          "key": "Kdive",
+          "time": 2.417,
+          "label": "Kdive",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "j-d-fortissimo-vcl-c-s-vcl-c-s-j-s-j",
+      "name": "j.D > Fortissimo > VCL > c.S > VCL > c.S > j.S > j.H > Pdive",
+      "notation": "j.D > Fortissimo > VCL > c.S > VCL > c.S > j.S > j.H > Pdive > dash j.H > Pdive",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.D",
+          "time": 0.0,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Fortissimo",
+          "time": 0.267,
+          "label": "Fortissimo",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.483,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.7,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.8,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.017,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.117,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.25,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.45,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 1.667,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.883,
+          "label": "Pdive",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2d-desperation-5h-j-h-pdive-dash-j-h-f",
+      "name": "2D > Desperation > 5H > j.H > Pdive > dash j.H > FFVCL > c.S",
+      "notation": "2D > Desperation > 5H > j.H > Pdive > dash j.H > FFVCL > c.S > sj.S > sj.H > PDive > dash j.H > Pdive",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2D",
+          "time": 0.0,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "Desperation",
+          "time": 0.167,
+          "label": "Desperation",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.383,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 0.6,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 0.8,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 1.017,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 1.233,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.45,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "sj.S",
+          "time": 1.55,
+          "label": "sj.S",
+          "window": 100
+        },
+        {
+          "key": "sj.H",
+          "time": 1.767,
+          "label": "sj.H",
+          "window": 100
+        },
+        {
+          "key": "PDive",
+          "time": 1.983,
+          "label": "PDive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 2.2,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 2.417,
+          "label": "Pdive",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2d-desperation-5h-iad-j-k-j-s-ffvcl-j",
+      "name": "2D > Desperation > 5H > IAD j.K > j.S > FFVCL > j.S > j.H > ",
+      "notation": "2D > Desperation > 5H > IAD j.K > j.S > FFVCL > j.S > j.H > Pdive > dash j.H > FFVCL > c.S > HCL",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2D",
+          "time": 0.0,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "Desperation",
+          "time": 0.167,
+          "label": "Desperation",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.383,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "IAD j.K",
+          "time": 0.6,
+          "label": "IAD j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.817,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 0.95,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.167,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.3,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.5,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 1.717,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 1.933,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 2.15,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 2.25,
+          "label": "HCL",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "fortissimo-c-s-vcl-c-s-vcl-c-s-j-s-j",
+      "name": "Fortissimo > c.S > VCL > c.S > VCL > c.S > j.S > j.H > Pdive",
+      "notation": "Fortissimo > c.S > VCL > c.S > VCL > c.S > j.S > j.H > Pdive > dash j.H > FFVCL > 2S > HCL",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Fortissimo",
+          "time": 0.0,
+          "label": "Fortissimo",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.217,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.317,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.533,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.633,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.85,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.95,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.083,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.283,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 1.5,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 1.717,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.933,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 2.083,
+          "label": "HCL",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "fortissimo-fortissimo-c-s-vcl-c-s-vcl",
+      "name": "Fortissimo > Fortissimo > c.S > VCL > c.S > VCL > c.S > j.S ",
+      "notation": "Fortissimo > Fortissimo > c.S > VCL > c.S > VCL > c.S > j.S > j.H > Pdive > dash j.H > FFVCL > c.S > HCL",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Fortissimo",
+          "time": 0.0,
+          "label": "Fortissimo",
+          "window": 100
+        },
+        {
+          "key": "Fortissimo",
+          "time": 0.217,
+          "label": "Fortissimo",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.433,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.533,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.75,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.85,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.067,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.167,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.3,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.5,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 1.717,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 1.933,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 2.15,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 2.25,
+          "label": "HCL",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5d-dash-j-h-5h-stbt-h-5h-iad-j-k-j-s",
+      "name": "5D > dash j.H > 5H > STBT-H > 5H > IAD j.K > j.S > FFVCL > j",
+      "notation": "5D > dash j.H > 5H > STBT-H > 5H > IAD j.K > j.S > FFVCL > j.S > j.H > Pdive > dash j.H > Pdive",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5D",
+          "time": 0.0,
+          "label": "5D",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 0.433,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.65,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "STBT-H",
+          "time": 0.867,
+          "label": "STBT-H",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 1.083,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "IAD j.K",
+          "time": 1.3,
+          "label": "IAD j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.517,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 1.65,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.867,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 2.0,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 2.2,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 2.417,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 2.633,
+          "label": "Pdive",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-rc-slight-dash-j-d-vcl-c-s-vcl-c",
+      "name": "Throw > RC > slight dash j.D > VCL > c.S > VCL > c.S > VCL >",
+      "notation": "Throw > RC > slight dash j.D > VCL > c.S > VCL > c.S > VCL > c.S > j.S > j.H > Pdive > dash j.H > Pdive",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "slight dash j.D",
+          "time": 0.433,
+          "label": "slight dash j.D",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.65,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.867,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.967,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.183,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 1.283,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.5,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.6,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.733,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.933,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 2.15,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 2.367,
+          "label": "Pdive",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-rc-slight-dash-j-d-vcl-c-s-vcl-c",
+      "name": "Throw > RC > slight dash j.D > VCL > c.S > VCL > c.S > VCL >",
+      "notation": "Throw > RC > slight dash j.D > VCL > c.S > VCL > c.S > VCL > c.S > j.S > j.H > Pdive > dash j.H > FFVCL > c.S > HCL",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "slight dash j.D",
+          "time": 0.433,
+          "label": "slight dash j.D",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.65,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.867,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.967,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.183,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 1.283,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.5,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.6,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.733,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.933,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 2.15,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 2.367,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 2.583,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 2.683,
+          "label": "HCL",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-rc-fortissimo-vcl-c-s-vcl-c-s",
+      "name": "Throw > RC > Fortissimo > VCL > c.S > VCL > c.S > 5H > sj.H ",
+      "notation": "Throw > RC > Fortissimo > VCL > c.S > VCL > c.S > 5H > sj.H > Pdive > dash j.H > Pdive",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "Fortissimo",
+          "time": 0.433,
+          "label": "Fortissimo",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.65,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.867,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.967,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.183,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 1.283,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "sj.H",
+          "time": 1.5,
+          "label": "sj.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.717,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 1.933,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 2.15,
+          "label": "Pdive",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2s-hcl-rc-dash-j-d-vcl-c-s-vcl-c-s",
+      "name": "2S > HCL > RC > dash j.D > VCL > c.S > VCL > c.S > j.S > j.H",
+      "notation": "2S > HCL > RC > dash j.D > VCL > c.S > VCL > c.S > j.S > j.H > Pdive > dash j.H > FFVCL > c.S > HCL",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2S",
+          "time": 0.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 0.15,
+          "label": "HCL",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.367,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "dash j.D",
+          "time": 0.583,
+          "label": "dash j.D",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.8,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.017,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 1.117,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.333,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.433,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.567,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.767,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 1.983,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 2.2,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 2.417,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 2.517,
+          "label": "HCL",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "2s-rc-dash-j-h-6p-5h-iad-j-k-j-s-ffv",
+      "name": "2S > RC > dash j.H > 6P > 5H > IAD j.K > j.S > FFVCL > j.S >",
+      "notation": "2S > RC > dash j.H > 6P > 5H > IAD j.K > j.S > FFVCL > j.S > j.H > Pdive > dash j.H > FFVCL > 2S > HCL",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2S",
+          "time": 0.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.15,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 0.367,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.583,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.733,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "IAD j.K",
+          "time": 0.95,
+          "label": "IAD j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.167,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 1.3,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.517,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.65,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.85,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 2.067,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 2.283,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.5,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 2.65,
+          "label": "HCL",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "vcl-yrc-j-d-vcl-c-s-vcl-j-s-j-h-pdiv",
+      "name": "VCL YRC > j.D > VCL > c.S > VCL > j.S > j.H > Pdive > dash j",
+      "notation": "VCL YRC > j.D > VCL > c.S > VCL > j.S > j.H > Pdive > dash j.H > FFVCL > 2S > HCL",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "VCL YRC",
+          "time": 0.0,
+          "label": "VCL YRC",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 0.217,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.483,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.7,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.8,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.017,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.15,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.35,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 1.567,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 1.783,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 2.15,
+          "label": "HCL",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "vcl-yrc-c-s-5h-j-s-j-h-pdive-dash-j-h",
+      "name": "VCL YRC > c.S > 5H > j.S > j.H > Pdive > dash j.H > FFVCL > ",
+      "notation": "VCL YRC > c.S > 5H > j.S > j.H > Pdive > dash j.H > FFVCL > c.S > j.S > j.H > Kdive",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "VCL YRC",
+          "time": 0.0,
+          "label": "VCL YRC",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.217,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.317,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.533,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 0.667,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 0.867,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 1.083,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 1.3,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.517,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.617,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.75,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Kdive",
+          "time": 1.95,
+          "label": "Kdive",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "hcl-yrc-dash-ffj-d-vcl-c-s-vcl-c-s-vcl",
+      "name": "HCL YRC > dash FFj.D > VCL > c.S > VCL > c.S > VCL > c.S > j",
+      "notation": "HCL YRC > dash FFj.D > VCL > c.S > VCL > c.S > VCL > c.S > j.S > j.H > Pdive > dash j.H > FFVCL > c.S > HCL",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "HCL YRC",
+          "time": 0.0,
+          "label": "HCL YRC",
+          "window": 100
+        },
+        {
+          "key": "dash FFj.D",
+          "time": 0.217,
+          "label": "dash FFj.D",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.433,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.65,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 0.75,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.967,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "VCL",
+          "time": 1.067,
+          "label": "VCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.283,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.383,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.517,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Pdive",
+          "time": 1.717,
+          "label": "Pdive",
+          "window": 100
+        },
+        {
+          "key": "dash j.H",
+          "time": 1.933,
+          "label": "dash j.H",
+          "window": 100
+        },
+        {
+          "key": "FFVCL",
+          "time": 2.15,
+          "label": "FFVCL",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 2.367,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "HCL",
+          "time": 2.467,
+          "label": "HCL",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5K": {
+      "input": "5K",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "c.S": {
+      "input": "c.S",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "f.S": {
+      "input": "f.S",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5H": {
+      "input": "5H",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5D": {
+      "input": "5D",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6S": {
+      "input": "6S",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6H": {
+      "input": "6H",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2P": {
+      "input": "2P",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2K": {
+      "input": "2K",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2S": {
+      "input": "2S",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2D": {
+      "input": "2D",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.P": {
+      "input": "j.P",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.K": {
+      "input": "j.K",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.S": {
+      "input": "j.S",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.D": {
+      "input": "j.D",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "DAA": {
+      "input": "DAA",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Blitz": {
+      "input": "Blitz",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[Blitz]": {
+      "input": "[Blitz]",
+      "startup": 50,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "66": {
+      "input": "66",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Hover > 66": {
+      "input": "Hover > 66",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214P": {
+      "input": "214P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214P": {
+      "input": "j.214P",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "41236S": {
+      "input": "41236S",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "41236H": {
+      "input": "41236H",
+      "startup": 28,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.236P": {
+      "input": "j.236P",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.236K": {
+      "input": "j.236K",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.236S": {
+      "input": "j.236S",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.236H": {
+      "input": "j.236H",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214K": {
+      "input": "214K",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214K": {
+      "input": "j.214K",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214K > 214S": {
+      "input": "214K > 214S",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214S": {
+      "input": "214S",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214S": {
+      "input": "j.214S",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214H": {
+      "input": "214H",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214H": {
+      "input": "j.214H",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "632146H": {
+      "input": "632146H",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.2363214S": {
+      "input": "j.2363214S",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "236236H": {
+      "input": "236236H",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    }
+  }
+}

@@ -1,0 +1,588 @@
+{
+  "characterId": "crusader",
+  "game": "dnfd",
+  "gameName": "DNF Duel",
+  "name": "Crusader",
+  "combos": [
+    {
+      "id": "5s-236m-2b-5s-236m-2b-5s-5m-2a",
+      "name": "5S > 236M > 2B > 5S > 236M > 2B > 5S > 5M > 2A",
+      "notation": "5S > 236M > 2B > 5S > 236M > 2B > 5S > 5M > 2A",
+      "description": "Anywhere — 388 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5S",
+          "time": 0.0,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.217,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.433,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.733,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.95,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.167,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.467,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.683,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2A",
+          "time": 1.9,
+          "label": "2A",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "388"
+    },
+    {
+      "id": "5a-a-236m-2s-236m-66-j-b-5s-5m",
+      "name": "5A(A) > 236M > 2S > 236M > 66 > j.B > 5S > 5M",
+      "notation": "5A(A) > 236M > 2S > 236M > 66 > j.B > 5S > 5M",
+      "description": "Anywhere — x damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.167,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.383,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.6,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.817,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 1.033,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.267,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.483,
+          "label": "5M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "x"
+    },
+    {
+      "id": "5a-a-236m-5s-6s-2b-66-5s-236m-66",
+      "name": "5A(A) > 236M > 5S > 6S > 2B > 66 > 5S > 236M > 66 > 2S > 5M",
+      "notation": "5A(A) > 236M > 5S > 6S > 2B > 66 > 5S > 236M > 66 > 2S > 5M",
+      "description": "Anywhere — x damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.167,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.383,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.6,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.817,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.117,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.333,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 1.55,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.767,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.983,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.2,
+          "label": "5M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "x"
+    },
+    {
+      "id": "2s-6s-j-b-j-5m-xn-j-b-5s-5m",
+      "name": "2S > 6S > [j.B > j.5M] xN > j.B > 5S > 5M",
+      "notation": "2S > 6S > [j.B > j.5M] xN > j.B > 5S > 5M",
+      "description": "Corner — N/A damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2S",
+          "time": 0.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.217,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "[j.B",
+          "time": 0.433,
+          "label": "[j.B",
+          "window": 100
+        },
+        {
+          "key": "j.5M] xN",
+          "time": 0.65,
+          "label": "j.5M] xN",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 0.867,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.1,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.317,
+          "label": "5M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "N/A"
+    },
+    {
+      "id": "j-s-6s-j-s-j-m-j-b-j-s-6s-j-s-j-m-j",
+      "name": "j.S > 6S > j.S~j.M > j.B > j.S > 6S > j.S~j.M > j.B > j.S > ",
+      "notation": "j.S > 6S > j.S~j.M > j.B > j.S > 6S > j.S~j.M > j.B > j.S > 6S > j.B > j.S > 5M",
+      "description": "Corner — 553 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.S",
+          "time": 0.0,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.217,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.433,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 0.65,
+          "label": "j.M",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 0.867,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.1,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.317,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.533,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 1.75,
+          "label": "j.M",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 1.967,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.2,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.417,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 2.633,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.867,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 3.083,
+          "label": "5M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "553"
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 11,
+      "on_hit": -5,
+      "raw_on_hit": "-5"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Grace 5B": {
+      "input": "Grace 5B",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 7,
+      "on_hit": 6,
+      "raw_on_hit": "+6"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Grace 2B": {
+      "input": "Grace 2B",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Grace 5S": {
+      "input": "Grace 5S",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Grace 2S": {
+      "input": "Grace 2S",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Hammer of Repentance": {
+      "input": "Hammer of Repentance",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Sacred Upper": {
+      "input": "Sacred Upper",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Flash Sphere": {
+      "input": "Flash Sphere",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Saint Counter": {
+      "input": "Saint Counter",
+      "startup": 3,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Hammer of Repentance (Air)": {
+      "input": "Hammer of Repentance (Air)",
+      "startup": 33,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Hammer of Repentance (Air + Grace)": {
+      "input": "Hammer of Repentance (Air + Grace)",
+      "startup": 33,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Miracle Splitter": {
+      "input": "Miracle Splitter",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Haptism": {
+      "input": "Haptism",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Deflect Wall": {
+      "input": "Deflect Wall",
+      "startup": 22,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Grace of Lemidios": {
+      "input": "Grace of Lemidios",
+      "startup": 48,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Holy Shock": {
+      "input": "Holy Shock",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Strike of Repentance": {
+      "input": "Strike of Repentance",
+      "startup": 22,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Apocalypse": {
+      "input": "Apocalypse",
+      "startup": 200,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Spear of Victory": {
+      "input": "Spear of Victory",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "name": {
+      "input": "name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "onHit"
+    },
+    "Throw": {
+      "input": "Throw",
+      "startup": 5,
+      "on_hit": 4,
+      "raw_on_hit": "HKD(+4)"
+    },
+    "Dodge": {
+      "input": "Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Backwards Dodge": {
+      "input": "Backwards Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Guard Cancel": {
+      "input": "Guard Cancel",
+      "startup": 18,
+      "on_hit": 3,
+      "raw_on_hit": "+3"
+    },
+    "Ascension": {
+      "input": "Ascension",
+      "startup": 2,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

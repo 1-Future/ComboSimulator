@@ -1,0 +1,207 @@
+{
+  "characterId": "nen_master",
+  "game": "dnfd",
+  "gameName": "DNF Duel",
+  "name": "Nen Master",
+  "combos": [],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 5,
+      "on_hit": -2,
+      "raw_on_hit": "-2"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 9,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 6,
+      "on_hit": -3,
+      "raw_on_hit": "-3"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 14,
+      "on_hit": 19,
+      "raw_on_hit": "KD (+19)"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 4,
+      "on_hit": -3,
+      "raw_on_hit": "-3 ~ +17"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 11,
+      "on_hit": 9,
+      "raw_on_hit": "+9 ~ +19"
+    },
+    "TC 5A": {
+      "input": "TC 5A",
+      "startup": 5,
+      "on_hit": -1,
+      "raw_on_hit": "-1 ~ +3"
+    },
+    "TC 5AA": {
+      "input": "TC 5AA",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0 ~ +5"
+    },
+    "TC 5B": {
+      "input": "TC 5B",
+      "startup": 9,
+      "on_hit": -1,
+      "raw_on_hit": "-1 ~ +7"
+    },
+    "5BB": {
+      "input": "5BB",
+      "startup": 11,
+      "on_hit": 32,
+      "raw_on_hit": "+32 ~ +42"
+    },
+    "TC 2A": {
+      "input": "TC 2A",
+      "startup": 6,
+      "on_hit": -2,
+      "raw_on_hit": "-2 ~ +2"
+    },
+    "TC 2B": {
+      "input": "TC 2B",
+      "startup": 14,
+      "on_hit": 55,
+      "raw_on_hit": "HKD (+55)"
+    },
+    "TC j.A": {
+      "input": "TC j.A",
+      "startup": 4,
+      "on_hit": -3,
+      "raw_on_hit": "-3 ~ +17"
+    },
+    "TC j.B": {
+      "input": "TC j.B",
+      "startup": 11,
+      "on_hit": 9,
+      "raw_on_hit": "+9 ~ +26"
+    },
+    "5M~5M": {
+      "input": "5M~5M",
+      "startup": 17,
+      "on_hit": 40,
+      "raw_on_hit": "KD(+40)"
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Flash Bolt": {
+      "input": "Flash Bolt",
+      "startup": 12,
+      "on_hit": -2,
+      "raw_on_hit": "-2"
+    },
+    "Leonine Roar": {
+      "input": "Leonine Roar",
+      "startup": 24,
+      "on_hit": 50,
+      "raw_on_hit": "KD(+50)"
+    },
+    "Nen Blast": {
+      "input": "Nen Blast",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "Fallen Flower": {
+      "input": "Fallen Flower",
+      "startup": 12,
+      "on_hit": 40,
+      "raw_on_hit": "HKD(+40)"
+    },
+    "Lightning Wave": {
+      "input": "Lightning Wave",
+      "startup": 18,
+      "on_hit": 7,
+      "raw_on_hit": "+7 ~ +12"
+    },
+    "Thunderclap: Nen Beast of Light": {
+      "input": "Thunderclap: Nen Beast of Light",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Focus": {
+      "input": "Focus",
+      "startup": 16,
+      "on_hit": 28,
+      "raw_on_hit": "KD(+28)"
+    },
+    "Lightning Strike": {
+      "input": "Lightning Strike",
+      "startup": 14,
+      "on_hit": 49,
+      "raw_on_hit": "KD(+49)"
+    },
+    "Inhalation Shot": {
+      "input": "Inhalation Shot",
+      "startup": 22,
+      "on_hit": 47,
+      "raw_on_hit": "KD(+47 ~ +48)"
+    },
+    "Thirteen-Palmed Dragon of Light": {
+      "input": "Thirteen-Palmed Dragon of Light",
+      "startup": 24,
+      "on_hit": 43,
+      "raw_on_hit": "KD(+43)"
+    },
+    "Throw": {
+      "input": "Throw",
+      "startup": 5,
+      "on_hit": 2,
+      "raw_on_hit": "HKD (+2)"
+    },
+    "Dodge": {
+      "input": "Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Backwards Dodge": {
+      "input": "Backwards Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Guard Cancel": {
+      "input": "Guard Cancel",
+      "startup": 18,
+      "on_hit": 12,
+      "raw_on_hit": "KD (+12)"
+    },
+    "Flame Insignia Dragon Wave: Origin of Everything": {
+      "input": "Flame Insignia Dragon Wave: Origin of Everything",
+      "startup": 23,
+      "on_hit": 2,
+      "raw_on_hit": "HKD(+2)"
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "characterId": "mai_natsume",
+  "game": "bbtag",
+  "gameName": "BlazBlue Cross Tag Battle",
+  "name": "Mai Natsume",
+  "combos": [],
+  "frameData": {
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "4A": {
+      "input": "4A",
+      "startup": 8,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "4AA": {
+      "input": "4AA",
+      "startup": 7,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "4AAA": {
+      "input": "4AAA",
+      "startup": 16,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "4AAAA": {
+      "input": "4AAAA",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 10,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 9,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5AAA": {
+      "input": "5AAA",
+      "startup": 8,
+      "on_hit": 21,
+      "raw_on_hit": "21"
+    },
+    "5AAAA": {
+      "input": "5AAAA",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 7,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 25,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "5[B]": {
+      "input": "5[B]",
+      "startup": 52,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "5BB": {
+      "input": "5BB",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "5C": {
+      "input": "5C",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2C": {
+      "input": "2C",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 11,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.AA": {
+      "input": "j.AA",
+      "startup": 8,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 27,
+      "on_hit": 23,
+      "raw_on_hit": "Launch + Down 23"
+    },
+    "j.[B]": {
+      "input": "j.[B]",
+      "startup": 53,
+      "on_hit": 23,
+      "raw_on_hit": "Launch + Down 23"
+    },
+    "j.BB": {
+      "input": "j.BB",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.C": {
+      "input": "j.C",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "BC": {
+      "input": "BC",
+      "startup": 7,
+      "on_hit": 80,
+      "raw_on_hit": "Launch 80, 80 + GBounce + Down 23"
+    },
+    "AD": {
+      "input": "AD",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "AD > X": {
+      "input": "AD > X",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.AD": {
+      "input": "j.AD",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236": {
+      "input": "236",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236A": {
+      "input": "236A",
+      "startup": 6,
+      "on_hit": 27,
+      "raw_on_hit": "27"
+    },
+    "236B": {
+      "input": "236B",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214": {
+      "input": "214",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.214": {
+      "input": "j.214",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214A": {
+      "input": "214A",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214B": {
+      "input": "214B",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236C": {
+      "input": "236C",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214C": {
+      "input": "214C",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 18,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "4P": {
+      "input": "4P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236BC": {
+      "input": "236BC",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214BC": {
+      "input": "214BC",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Distortion Skill Duo": {
+      "input": "Distortion Skill Duo",
+      "startup": 1,
+      "on_hit": 12,
+      "raw_on_hit": "Crumple×12 [×18], Launch"
+    },
+    "222BC": {
+      "input": "222BC",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

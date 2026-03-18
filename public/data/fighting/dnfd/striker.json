@@ -1,0 +1,153 @@
+{
+  "characterId": "striker",
+  "game": "dnfd",
+  "gameName": "DNF Duel",
+  "name": "Striker",
+  "combos": [],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 5,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 7,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 9,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 10,
+      "on_hit": 8,
+      "raw_on_hit": "HKD (+8~+17)"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 5,
+      "on_hit": -4,
+      "raw_on_hit": "-4~+12"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 9,
+      "on_hit": -7,
+      "raw_on_hit": "-7~+17"
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Tiger Chain Strike": {
+      "input": "Tiger Chain Strike",
+      "startup": 14,
+      "on_hit": 17,
+      "raw_on_hit": "Launch (+17)"
+    },
+    "Tiger Chain Bash Data": {
+      "input": "Tiger Chain Bash Data",
+      "startup": 7,
+      "on_hit": 26,
+      "raw_on_hit": "Launch (+26)"
+    },
+    "Muse&#039;s Uppercut": {
+      "input": "Muse&#039;s Uppercut",
+      "startup": 12,
+      "on_hit": -1,
+      "raw_on_hit": "Launch (-1)"
+    },
+    "Crushing Fist": {
+      "input": "Crushing Fist",
+      "startup": 16,
+      "on_hit": -12,
+      "raw_on_hit": "-12"
+    },
+    "Low Kick": {
+      "input": "Low Kick",
+      "startup": 14,
+      "on_hit": 6,
+      "raw_on_hit": "+6"
+    },
+    "Air Walk": {
+      "input": "Air Walk",
+      "startup": 14,
+      "on_hit": 15,
+      "raw_on_hit": "~+15"
+    },
+    "Shadowless Kick": {
+      "input": "Shadowless Kick",
+      "startup": 8,
+      "on_hit": 31,
+      "raw_on_hit": "Launch (+31)"
+    },
+    "Rising Fist": {
+      "input": "Rising Fist",
+      "startup": 9,
+      "on_hit": 6,
+      "raw_on_hit": "HKD (+6)"
+    },
+    "Mountain Pusher": {
+      "input": "Mountain Pusher",
+      "startup": 18,
+      "on_hit": 19,
+      "raw_on_hit": "Launch (+19), WBounce (+41~)"
+    },
+    "One Inch Punch": {
+      "input": "One Inch Punch",
+      "startup": 29,
+      "on_hit": 137,
+      "raw_on_hit": "+137"
+    },
+    "Tornado Kick": {
+      "input": "Tornado Kick",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Throw": {
+      "input": "Throw",
+      "startup": 5,
+      "on_hit": 3,
+      "raw_on_hit": "HKD(+3)"
+    },
+    "Dodge": {
+      "input": "Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Guard Cancel": {
+      "input": "Guard Cancel",
+      "startup": 18,
+      "on_hit": 12,
+      "raw_on_hit": "+12 (KD)"
+    },
+    "Empress&#039;s Climactic Fist": {
+      "input": "Empress&#039;s Climactic Fist",
+      "startup": 20,
+      "on_hit": 2,
+      "raw_on_hit": "+2"
+    }
+  }
+}

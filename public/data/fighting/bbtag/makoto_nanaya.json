@@ -1,0 +1,309 @@
+{
+  "characterId": "makoto_nanaya",
+  "game": "bbtag",
+  "gameName": "BlazBlue Cross Tag Battle",
+  "name": "Makoto Nanaya",
+  "combos": [],
+  "frameData": {
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "4A": {
+      "input": "4A",
+      "startup": 5,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 7,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 8,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "5AAA": {
+      "input": "5AAA",
+      "startup": 7,
+      "on_hit": 21,
+      "raw_on_hit": "21"
+    },
+    "5AAAA": {
+      "input": "5AAAA",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 6,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 11,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5BB": {
+      "input": "5BB",
+      "startup": 14,
+      "on_hit": 21,
+      "raw_on_hit": "21"
+    },
+    "5BBB": {
+      "input": "5BBB",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 9,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5C": {
+      "input": "5C",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2C": {
+      "input": "2C",
+      "startup": 30,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "2[C]": {
+      "input": "2[C]",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 10,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.AA": {
+      "input": "j.AA",
+      "startup": 5,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 11,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "j.C": {
+      "input": "j.C",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "Crumple"
+    },
+    "BC": {
+      "input": "BC",
+      "startup": 7,
+      "on_hit": 42,
+      "raw_on_hit": "Launch 42"
+    },
+    "4BC": {
+      "input": "4BC",
+      "startup": 7,
+      "on_hit": 60,
+      "raw_on_hit": "Launch 60 + Down 37"
+    },
+    "AD": {
+      "input": "AD",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.AD": {
+      "input": "j.AD",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "AD > X": {
+      "input": "AD > X",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236A": {
+      "input": "236A",
+      "startup": 14,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "236A > A": {
+      "input": "236A > A",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236B": {
+      "input": "236B",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214A": {
+      "input": "214A",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214B": {
+      "input": "214B",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214C": {
+      "input": "214C",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214A > A": {
+      "input": "214A > A",
+      "startup": 9,
+      "on_hit": 17,
+      "raw_on_hit": "17×2, Launch"
+    },
+    "214A > A > A": {
+      "input": "214A > A > A",
+      "startup": 9,
+      "on_hit": 17,
+      "raw_on_hit": "17×6, Launch"
+    },
+    "214A > A > B": {
+      "input": "214A > A > B",
+      "startup": 13,
+      "on_hit": 19,
+      "raw_on_hit": "19 [21]"
+    },
+    "214A > B": {
+      "input": "214A > B",
+      "startup": 17,
+      "on_hit": 25,
+      "raw_on_hit": "25 [27]"
+    },
+    "214B/C > C": {
+      "input": "214B/C > C",
+      "startup": 0,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "236C": {
+      "input": "236C",
+      "startup": 26,
+      "on_hit": 19,
+      "raw_on_hit": "19 [Launch]"
+    },
+    "214A > A > C": {
+      "input": "214A > A > C",
+      "startup": 12,
+      "on_hit": 21,
+      "raw_on_hit": "21"
+    },
+    "214A > C": {
+      "input": "214A > C",
+      "startup": 16,
+      "on_hit": 27,
+      "raw_on_hit": "27"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 18,
+      "on_hit": 17,
+      "raw_on_hit": "17×2, Launch"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "4P": {
+      "input": "4P",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236BC": {
+      "input": "236BC",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Enhanced 236BC": {
+      "input": "Enhanced 236BC",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214BC": {
+      "input": "214BC",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214BC > X": {
+      "input": "214BC > X",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214BC > X > X": {
+      "input": "214BC > X > X",
+      "startup": 28,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Enhanced 214BC": {
+      "input": "Enhanced 214BC",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "Enhanced 214BC > X": {
+      "input": "Enhanced 214BC > X",
+      "startup": 1,
+      "on_hit": 17,
+      "raw_on_hit": "17, Launch"
+    },
+    "Enhanced 214BC > X > X": {
+      "input": "Enhanced 214BC > X > X",
+      "startup": 28,
+      "on_hit": 21,
+      "raw_on_hit": "21"
+    },
+    "Distortion Skill Duo": {
+      "input": "Distortion Skill Duo",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "222BC": {
+      "input": "222BC",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

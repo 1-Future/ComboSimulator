@@ -1,0 +1,1780 @@
+{
+  "characterId": "venom",
+  "game": "ggxrd",
+  "gameName": "Guilty Gear Xrd REV 2",
+  "name": "Venom",
+  "combos": [
+    {
+      "id": "2d-1-2-8s-dash-c-s-1-sj-kshd-6h",
+      "name": "2D(1) > [2]8S, Dash c.S(1) > sj.KSHD ▷ 6H",
+      "notation": "2D(1) > [2]8S, Dash c.S(1) > sj.KSHD ▷ 6H",
+      "description": "Corner — 145 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2D",
+          "time": 0.0,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "[2]8S",
+          "time": 0.1,
+          "label": "[2]8S",
+          "window": 100
+        },
+        {
+          "key": "Dash c.S",
+          "time": 0.367,
+          "label": "Dash c.S",
+          "window": 100
+        },
+        {
+          "key": "sj.KSHD ▷ 6H",
+          "time": 0.583,
+          "label": "sj.KSHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "145"
+    },
+    {
+      "id": "2d-1-2-8s-dash-c-s-1-j-kshd-6h",
+      "name": "2D(1) > [2]8S, Dash c.S(1) > j.KSHD ▷ 6H",
+      "notation": "2D(1) > [2]8S, Dash c.S(1) > j.KSHD ▷ 6H",
+      "description": "Corner — 145 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2D",
+          "time": 0.0,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "[2]8S",
+          "time": 0.1,
+          "label": "[2]8S",
+          "window": 100
+        },
+        {
+          "key": "Dash c.S",
+          "time": 0.367,
+          "label": "Dash c.S",
+          "window": 100
+        },
+        {
+          "key": "j.KSHD ▷ 6H",
+          "time": 0.583,
+          "label": "j.KSHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "145"
+    },
+    {
+      "id": "2d-1-2-8s-dash-c-s-1-delay-j-s-j-hd-6h",
+      "name": "2D(1) > [2]8S, Dash c.S(1) > Delay j.S > j.HD ▷ 6H",
+      "notation": "2D(1) > [2]8S, Dash c.S(1) > Delay j.S > j.HD ▷ 6H",
+      "description": "Corner — 147 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2D",
+          "time": 0.0,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "[2]8S",
+          "time": 0.1,
+          "label": "[2]8S",
+          "window": 100
+        },
+        {
+          "key": "Dash c.S",
+          "time": 0.367,
+          "label": "Dash c.S",
+          "window": 100
+        },
+        {
+          "key": "Delay j.S",
+          "time": 0.583,
+          "label": "Delay j.S",
+          "window": 100
+        },
+        {
+          "key": "j.HD ▷ 6H",
+          "time": 0.8,
+          "label": "j.HD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "147"
+    },
+    {
+      "id": "low-airdash-j-sd-6h-41236k-dash-5k-6p-bh-6",
+      "name": "Low Airdash j.SD, 6H > 41236K, Dash 5K > 6P BH > 6H",
+      "notation": "Low Airdash j.SD, 6H > 41236K, Dash 5K > 6P BH > 6H",
+      "description": "Corner — 179 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Low Airdash j.SD",
+          "time": 0.0,
+          "label": "Low Airdash j.SD",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.217,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "41236K",
+          "time": 0.467,
+          "label": "41236K",
+          "window": 100
+        },
+        {
+          "key": "Dash 5K",
+          "time": 0.683,
+          "label": "Dash 5K",
+          "window": 100
+        },
+        {
+          "key": "6P BH",
+          "time": 0.9,
+          "label": "6P BH",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 1.117,
+          "label": "6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "179"
+    },
+    {
+      "id": "low-airdash-j-sd-6h-41236s-dash-5p-bh-iad",
+      "name": "Low Airdash j.SD, 6H > 41236S, (Dash) 5P BH > IAD j.SHD ▷ 6H",
+      "notation": "Low Airdash j.SD, 6H > 41236S, (Dash) 5P BH > IAD j.SHD ▷ 6H",
+      "description": "Corner — 188 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Low Airdash j.SD",
+          "time": 0.0,
+          "label": "Low Airdash j.SD",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.217,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "41236S",
+          "time": 0.467,
+          "label": "41236S",
+          "window": 100
+        },
+        {
+          "key": "5P BH",
+          "time": 0.683,
+          "label": "5P BH",
+          "window": 100
+        },
+        {
+          "key": "IAD j.SHD ▷ 6H",
+          "time": 0.9,
+          "label": "IAD j.SHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "188"
+    },
+    {
+      "id": "low-airdash-j-sd-dash-j-kshd-6h",
+      "name": "Low Airdash j.SD, Dash j.KSHD ▷ 6H",
+      "notation": "Low Airdash j.SD, Dash j.KSHD ▷ 6H",
+      "description": "Corner — 149 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Low Airdash j.SD",
+          "time": 0.0,
+          "label": "Low Airdash j.SD",
+          "window": 100
+        },
+        {
+          "key": "Dash j.KSHD ▷ 6H",
+          "time": 0.217,
+          "label": "Dash j.KSHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "149"
+    },
+    {
+      "id": "throw-dash-c-s-3-2h-2-2-8s-dash-6h",
+      "name": "Throw > Dash c.S(3)/2H(2) > [2]8S, Dash 6H",
+      "notation": "Throw > Dash c.S(3)/2H(2) > [2]8S, Dash 6H",
+      "description": "Midscreen — 60 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "Dash c.S/2H",
+          "time": 0.217,
+          "label": "Dash c.S/2H",
+          "window": 100
+        },
+        {
+          "key": "[2]8S",
+          "time": 0.433,
+          "label": "[2]8S",
+          "window": 100
+        },
+        {
+          "key": "Dash 6H",
+          "time": 0.7,
+          "label": "Dash 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "60"
+    },
+    {
+      "id": "throw-dash-c-s-3-2h-2-2-8s-iad-j-shd-6h",
+      "name": "Throw > Dash c.S(3)/2H(2) > [2]8S, IAD j.SHD ▷ 6H",
+      "notation": "Throw > Dash c.S(3)/2H(2) > [2]8S, IAD j.SHD ▷ 6H",
+      "description": "Midscreen — 75 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "Dash c.S/2H",
+          "time": 0.217,
+          "label": "Dash c.S/2H",
+          "window": 100
+        },
+        {
+          "key": "[2]8S",
+          "time": 0.433,
+          "label": "[2]8S",
+          "window": 100
+        },
+        {
+          "key": "IAD j.SHD ▷ 6H",
+          "time": 0.7,
+          "label": "IAD j.SHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "75"
+    },
+    {
+      "id": "throw-dash-c-s-3-2h-2-2-8s-dash-j-kshd-6",
+      "name": "Throw > Dash c.S(3)/2H(2) > [2]8S, Dash j.KSHD ▷ 6H",
+      "notation": "Throw > Dash c.S(3)/2H(2) > [2]8S, Dash j.KSHD ▷ 6H",
+      "description": "Midscreen — 74 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "Dash c.S/2H",
+          "time": 0.217,
+          "label": "Dash c.S/2H",
+          "window": 100
+        },
+        {
+          "key": "[2]8S",
+          "time": 0.433,
+          "label": "[2]8S",
+          "window": 100
+        },
+        {
+          "key": "Dash j.KSHD ▷ 6H",
+          "time": 0.7,
+          "label": "Dash j.KSHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "74"
+    },
+    {
+      "id": "throw-44-5h-41236s-5p-bh-41236x",
+      "name": "Throw > 44 > 5H > 41236S, 5P BH > 41236X",
+      "notation": "Throw > 44 > 5H > 41236S, 5P BH > 41236X",
+      "description": "Corner — 63 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "44",
+          "time": 0.217,
+          "label": "44",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.433,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "41236S",
+          "time": 0.6,
+          "label": "41236S",
+          "window": 100
+        },
+        {
+          "key": "5P BH",
+          "time": 0.817,
+          "label": "5P BH",
+          "window": 100
+        },
+        {
+          "key": "41236X",
+          "time": 1.033,
+          "label": "41236X",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "63"
+    },
+    {
+      "id": "high-airthrow-c-s-1-sj-shd-6h",
+      "name": "High Airthrow > c.S(1) > sj.SHD ▷ 6H",
+      "notation": "High Airthrow > c.S(1) > sj.SHD ▷ 6H",
+      "description": "Corner — 70 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "High Airthrow",
+          "time": 0.0,
+          "label": "High Airthrow",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.217,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "sj.SHD ▷ 6H",
+          "time": 0.3,
+          "label": "sj.SHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "70"
+    },
+    {
+      "id": "high-airthrow-c-s-1-jump-back-airdash-j-shd",
+      "name": "High Airthrow > c.S(1) > Jump Back > Airdash j.SHD ▷ 6H",
+      "notation": "High Airthrow > c.S(1) > Jump Back > Airdash j.SHD ▷ 6H",
+      "description": "Corner — 70 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "High Airthrow",
+          "time": 0.0,
+          "label": "High Airthrow",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.217,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "Jump Back",
+          "time": 0.3,
+          "label": "Jump Back",
+          "window": 100
+        },
+        {
+          "key": "Airdash j.SHD ▷ 6H",
+          "time": 0.517,
+          "label": "Airdash j.SHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "70"
+    },
+    {
+      "id": "high-airthrow-c-s-1-214s-c-s-1-6p-bh-6",
+      "name": "High Airthrow > c.S(1) > 214S > c.S(1) > 6P BH > 6H",
+      "notation": "High Airthrow > c.S(1) > 214S > c.S(1) > 6P BH > 6H",
+      "description": "Corner — 65 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "High Airthrow",
+          "time": 0.0,
+          "label": "High Airthrow",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.217,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "214S",
+          "time": 0.3,
+          "label": "214S",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.517,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "6P BH",
+          "time": 0.6,
+          "label": "6P BH",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.817,
+          "label": "6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "65"
+    },
+    {
+      "id": "aa-6p-j-ph",
+      "name": "AA 6P > j.PH",
+      "notation": "AA 6P > j.PH",
+      "description": "Everywhere — 62 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 6P",
+          "time": 0.0,
+          "label": "AA 6P",
+          "window": 100
+        },
+        {
+          "key": "j.PH",
+          "time": 0.217,
+          "label": "j.PH",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "62"
+    },
+    {
+      "id": "ch-aa-6p-6h",
+      "name": "CH AA 6P > 6H",
+      "notation": "CH AA 6P > 6H",
+      "description": "Everywhere — 75 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH AA 6P",
+          "time": 0.0,
+          "label": "CH AA 6P",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.217,
+          "label": "6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "75"
+    },
+    {
+      "id": "ch-aa-6p-iad-j-shd-6h",
+      "name": "CH AA 6P > IAD j.SHD ▷ 6H",
+      "notation": "CH AA 6P > IAD j.SHD ▷ 6H",
+      "description": "Everywhere — 134 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH AA 6P",
+          "time": 0.0,
+          "label": "CH AA 6P",
+          "window": 100
+        },
+        {
+          "key": "IAD j.SHD ▷ 6H",
+          "time": 0.217,
+          "label": "IAD j.SHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "134"
+    },
+    {
+      "id": "aa-c-s-1-2-j-kshd-6h",
+      "name": "AA c.S(1/2) > j.KSHD ▷ 6H",
+      "notation": "AA c.S(1/2) > j.KSHD ▷ 6H",
+      "description": "Everywhere — 118 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA c.S",
+          "time": 0.0,
+          "label": "AA c.S",
+          "window": 100
+        },
+        {
+          "key": "j.KSHD ▷ 6H",
+          "time": 0.217,
+          "label": "j.KSHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "118"
+    },
+    {
+      "id": "ch-aa-c-s-3-sj-shd-6h",
+      "name": "CH AA c.S(3) > sj.SHD ▷ 6H",
+      "notation": "CH AA c.S(3) > sj.SHD ▷ 6H",
+      "description": "Everywhere — 119 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH AA c.S",
+          "time": 0.0,
+          "label": "CH AA c.S",
+          "window": 100
+        },
+        {
+          "key": "sj.SHD ▷ 6H",
+          "time": 0.217,
+          "label": "sj.SHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "119"
+    },
+    {
+      "id": "ch-aa-c-s-1-41236p-lvl-1-6h-delay-41236k",
+      "name": "CH AA c.S(1) > 41236P(Lvl 1) > 6H > Delay 41236K > 6H",
+      "notation": "CH AA c.S(1) > 41236P(Lvl 1) > 6H > Delay 41236K > 6H",
+      "description": "Everywhere — x damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH AA c.S",
+          "time": 0.0,
+          "label": "CH AA c.S",
+          "window": 100
+        },
+        {
+          "key": "41236P",
+          "time": 0.217,
+          "label": "41236P",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.433,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "Delay 41236K",
+          "time": 0.683,
+          "label": "Delay 41236K",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.9,
+          "label": "6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "x"
+    },
+    {
+      "id": "ch-aa-2h-1-2-iad-j-shd-6h",
+      "name": "CH AA 2H(1/2) > IAD j.SHD ▷ 6H",
+      "notation": "CH AA 2H(1/2) > IAD j.SHD ▷ 6H",
+      "description": "Everywhere — 147 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH AA 2H",
+          "time": 0.0,
+          "label": "CH AA 2H",
+          "window": 100
+        },
+        {
+          "key": "IAD j.SHD ▷ 6H",
+          "time": 0.217,
+          "label": "IAD j.SHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "147"
+    },
+    {
+      "id": "ch-aa-2h-1-2-dash-j-kshd-6h",
+      "name": "CH AA 2H(1/2) > Dash j.KSHD ▷ 6H",
+      "notation": "CH AA 2H(1/2) > Dash j.KSHD ▷ 6H",
+      "description": "Everywhere — 147 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH AA 2H",
+          "time": 0.0,
+          "label": "CH AA 2H",
+          "window": 100
+        },
+        {
+          "key": "Dash j.KSHD ▷ 6H",
+          "time": 0.217,
+          "label": "Dash j.KSHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "147"
+    },
+    {
+      "id": "ch-2h-1-5h-2d-1-41236k-5k-6p-bh-6h",
+      "name": "CH 2H(1)/5H/2D(1) > 41236K, 5K > 6P BH > 6H",
+      "notation": "CH 2H(1)/5H/2D(1) > 41236K, 5K > 6P BH > 6H",
+      "description": "Everywhere — 124/146/120 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 2H/5H/2D",
+          "time": 0.0,
+          "label": "CH 2H/5H/2D",
+          "window": 100
+        },
+        {
+          "key": "41236K",
+          "time": 0.217,
+          "label": "41236K",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.433,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "6P BH",
+          "time": 0.55,
+          "label": "6P BH",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.767,
+          "label": "6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "124/146/120"
+    },
+    {
+      "id": "ch-2h-1-5h-2d-1-41236s-5p-bh-iad-j-shd-6h",
+      "name": "CH 2H(1)/5H/2D(1) > 41236S, 5P BH > IAD j.SHD ▷ 6H",
+      "notation": "CH 2H(1)/5H/2D(1) > 41236S, 5P BH > IAD j.SHD ▷ 6H",
+      "description": "Everywhere — 136/158/133 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 2H/5H/2D",
+          "time": 0.0,
+          "label": "CH 2H/5H/2D",
+          "window": 100
+        },
+        {
+          "key": "41236S",
+          "time": 0.217,
+          "label": "41236S",
+          "window": 100
+        },
+        {
+          "key": "5P BH",
+          "time": 0.433,
+          "label": "5P BH",
+          "window": 100
+        },
+        {
+          "key": "IAD j.SHD ▷ 6H",
+          "time": 0.65,
+          "label": "IAD j.SHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "136/158/133"
+    },
+    {
+      "id": "ch-41236h-dash-6p-bh-6h",
+      "name": "CH 41236H, Dash 6P BH > 6H",
+      "notation": "CH 41236H, Dash 6P BH > 6H",
+      "description": "Midscreen — 116 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 41236H",
+          "time": 0.0,
+          "label": "CH 41236H",
+          "window": 100
+        },
+        {
+          "key": "Dash 6P BH",
+          "time": 0.217,
+          "label": "Dash 6P BH",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.433,
+          "label": "6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "116"
+    },
+    {
+      "id": "ch-41236p-5p-whiff-bh-dash-j-kshd-6h",
+      "name": "CH 41236P, 5P (whiff) BH, Dash j.KSHD ▷ 6H",
+      "notation": "CH 41236P, 5P (whiff) BH, Dash j.KSHD ▷ 6H",
+      "description": "Midscreen — 138 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 41236P",
+          "time": 0.0,
+          "label": "CH 41236P",
+          "window": 100
+        },
+        {
+          "key": "5P BH",
+          "time": 0.217,
+          "label": "5P BH",
+          "window": 100
+        },
+        {
+          "key": "Dash j.KSHD ▷ 6H",
+          "time": 0.433,
+          "label": "Dash j.KSHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "138"
+    },
+    {
+      "id": "ch-41236p-5k-whiff-bh-iad-j-shd-6h",
+      "name": "CH 41236P, 5K (whiff) BH, IAD j.SHD ▷ 6H",
+      "notation": "CH 41236P, 5K (whiff) BH, IAD j.SHD ▷ 6H",
+      "description": "Midscreen — 140 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 41236P",
+          "time": 0.0,
+          "label": "CH 41236P",
+          "window": 100
+        },
+        {
+          "key": "5K BH",
+          "time": 0.217,
+          "label": "5K BH",
+          "window": 100
+        },
+        {
+          "key": "IAD j.SHD ▷ 6H",
+          "time": 0.433,
+          "label": "IAD j.SHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "140"
+    },
+    {
+      "id": "ch-41236k-dash-j-s-whiff-bh-j-s-dj-shd-6h",
+      "name": "CH 41236K, Dash j.S (whiff) BH, j.S > dj.SHD ▷ 6H",
+      "notation": "CH 41236K, Dash j.S (whiff) BH, j.S > dj.SHD ▷ 6H",
+      "description": "Midscreen — 156 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 41236K",
+          "time": 0.0,
+          "label": "CH 41236K",
+          "window": 100
+        },
+        {
+          "key": "Dash j.S BH",
+          "time": 0.217,
+          "label": "Dash j.S BH",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.433,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "dj.SHD ▷ 6H",
+          "time": 0.55,
+          "label": "dj.SHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "156"
+    },
+    {
+      "id": "starter-c-s-3-41236p-s-dash-j-kshd-6h-21",
+      "name": "Starter > c.S(3) > 41236P/S, Dash j.KSHD ▷ 6H > 214X",
+      "notation": "Starter > c.S(3) > 41236P/S, Dash j.KSHD ▷ 6H > 214X",
+      "description": "Everywhere — 123 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Starter",
+          "time": 0.0,
+          "label": "Starter",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.217,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "41236P/S",
+          "time": 0.3,
+          "label": "41236P/S",
+          "window": 100
+        },
+        {
+          "key": "Dash j.KSHD ▷ 6H",
+          "time": 0.517,
+          "label": "Dash j.KSHD ▷ 6H",
+          "window": 100
+        },
+        {
+          "key": "214X",
+          "time": 0.733,
+          "label": "214X",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "123"
+    },
+    {
+      "id": "starter-c-s-3-41236h-dash-c-s-1-j-kshd-6",
+      "name": "Starter > c.S(3) > 41236H, Dash c.S(1), j.KSHD ▷ 6H > 214X",
+      "notation": "Starter > c.S(3) > 41236H, Dash c.S(1), j.KSHD ▷ 6H > 214X",
+      "description": "Everywhere — 123 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Starter",
+          "time": 0.0,
+          "label": "Starter",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.217,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "41236H",
+          "time": 0.3,
+          "label": "41236H",
+          "window": 100
+        },
+        {
+          "key": "Dash c.S",
+          "time": 0.517,
+          "label": "Dash c.S",
+          "window": 100
+        },
+        {
+          "key": "j.KSHD ▷ 6H",
+          "time": 0.733,
+          "label": "j.KSHD ▷ 6H",
+          "window": 100
+        },
+        {
+          "key": "214X",
+          "time": 0.95,
+          "label": "214X",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "123"
+    },
+    {
+      "id": "2d-1-2-8s-dash-c-s-1-delay-jc-j-kshd",
+      "name": "2D(1) > [2]8S, Dash c.S(1) > Delay jc > j.KSHD ▷ (Dash) 6H",
+      "notation": "2D(1) > [2]8S, Dash c.S(1) > Delay jc > j.KSHD ▷ (Dash) 6H",
+      "description": "Everywhere — 145 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2D",
+          "time": 0.0,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "[2]8S",
+          "time": 0.1,
+          "label": "[2]8S",
+          "window": 100
+        },
+        {
+          "key": "Dash c.S",
+          "time": 0.367,
+          "label": "Dash c.S",
+          "window": 100
+        },
+        {
+          "key": "Delay jc",
+          "time": 0.583,
+          "label": "Delay jc",
+          "window": 100
+        },
+        {
+          "key": "j.KSHD ▷ 6H",
+          "time": 0.8,
+          "label": "j.KSHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "145"
+    },
+    {
+      "id": "2d-1-2-8s-dash-c-s-1-delay-jc-j-kshd-i",
+      "name": "2D(1) > [2]8S, Dash c.S(1) > Delay jc > j.KSHD > IAD sj.SHD ",
+      "notation": "2D(1) > [2]8S, Dash c.S(1) > Delay jc > j.KSHD > IAD sj.SHD > Dash j.KSHD ▷ 6H",
+      "description": "Everywhere — 178 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2D",
+          "time": 0.0,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "[2]8S",
+          "time": 0.1,
+          "label": "[2]8S",
+          "window": 100
+        },
+        {
+          "key": "Dash c.S",
+          "time": 0.367,
+          "label": "Dash c.S",
+          "window": 100
+        },
+        {
+          "key": "Delay jc",
+          "time": 0.583,
+          "label": "Delay jc",
+          "window": 100
+        },
+        {
+          "key": "j.KSHD",
+          "time": 0.8,
+          "label": "j.KSHD",
+          "window": 100
+        },
+        {
+          "key": "IAD sj.SHD",
+          "time": 1.017,
+          "label": "IAD sj.SHD",
+          "window": 100
+        },
+        {
+          "key": "Dash j.KSHD ▷ 6H",
+          "time": 1.233,
+          "label": "Dash j.KSHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "178"
+    },
+    {
+      "id": "2d-1-2-8s-dash-c-s-1-j-sh",
+      "name": "2D(1) > [2]8S, Dash c.S(1) > j.SH",
+      "notation": "2D(1) > [2]8S, Dash c.S(1) > j.SH",
+      "description": "Everywhere — 101 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2D",
+          "time": 0.0,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "[2]8S",
+          "time": 0.1,
+          "label": "[2]8S",
+          "window": 100
+        },
+        {
+          "key": "Dash c.S",
+          "time": 0.367,
+          "label": "Dash c.S",
+          "window": 100
+        },
+        {
+          "key": "j.SH",
+          "time": 0.583,
+          "label": "j.SH",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "101"
+    },
+    {
+      "id": "2d-1-2-8s-dash-6p-j-sh",
+      "name": "2D(1) > [2]8S, (Dash) 6P > j.SH",
+      "notation": "2D(1) > [2]8S, (Dash) 6P > j.SH",
+      "description": "Everywhere — 111 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "everywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2D",
+          "time": 0.0,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "[2]8S",
+          "time": 0.1,
+          "label": "[2]8S",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.367,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "j.SH",
+          "time": 0.483,
+          "label": "j.SH",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "111"
+    },
+    {
+      "id": "41236s-5p-bh-iad-j-shd-6h",
+      "name": "... > 41236S > 5P BH > IAD j.SHD ▷ 6H",
+      "notation": "... > 41236S > 5P BH > IAD j.SHD ▷ 6H",
+      "description": " — 162 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "41236S",
+          "time": 0.217,
+          "label": "41236S",
+          "window": 100
+        },
+        {
+          "key": "5P BH",
+          "time": 0.433,
+          "label": "5P BH",
+          "window": 100
+        },
+        {
+          "key": "IAD j.SHD ▷ 6H",
+          "time": 0.65,
+          "label": "IAD j.SHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "162"
+    },
+    {
+      "id": "41236s-6p-bh-iad-j-shd-6h",
+      "name": "... > 41236S > 6P BH > IAD j.SHD ▷ 6H",
+      "notation": "... > 41236S > 6P BH > IAD j.SHD ▷ 6H",
+      "description": " — 175 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "41236S",
+          "time": 0.217,
+          "label": "41236S",
+          "window": 100
+        },
+        {
+          "key": "6P BH",
+          "time": 0.433,
+          "label": "6P BH",
+          "window": 100
+        },
+        {
+          "key": "IAD j.SHD ▷ 6H",
+          "time": 0.65,
+          "label": "IAD j.SHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "175"
+    },
+    {
+      "id": "41236p-41236s-5p-bh-6h",
+      "name": "... > 41236P / 41236S > 5P BH ▷ 6H",
+      "notation": "... > 41236P / 41236S > 5P BH ▷ 6H",
+      "description": " — 152 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "41236P / 41236S",
+          "time": 0.217,
+          "label": "41236P / 41236S",
+          "window": 100
+        },
+        {
+          "key": "5P BH ▷ 6H",
+          "time": 0.433,
+          "label": "5P BH ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "152"
+    },
+    {
+      "id": "dash-j-kshd-6h",
+      "name": "... > Dash j.KSHD ▷ 6H",
+      "notation": "... > Dash j.KSHD ▷ 6H",
+      "description": " — X damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "Dash j.KSHD ▷ 6H",
+          "time": 0.217,
+          "label": "Dash j.KSHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "X"
+    },
+    {
+      "id": "dash-j-kshd-6h",
+      "name": "... > Dash j.KSHD ▷ 6H",
+      "notation": "... > Dash j.KSHD ▷ 6H",
+      "description": " — 144 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "Dash j.KSHD ▷ 6H",
+          "time": 0.217,
+          "label": "Dash j.KSHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "144"
+    },
+    {
+      "id": "dash-delayed-j-shd-6h",
+      "name": "... > Dash delayed j.SHD ▷ 6H",
+      "notation": "... > Dash delayed j.SHD ▷ 6H",
+      "description": " — 147 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "Dash delayed j.SHD ▷ 6H",
+          "time": 0.217,
+          "label": "Dash delayed j.SHD ▷ 6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "147"
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5K": {
+      "input": "5K",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "c.S": {
+      "input": "c.S",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "f.S": {
+      "input": "f.S",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5H": {
+      "input": "5H",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5D": {
+      "input": "5D",
+      "startup": 25,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6H": {
+      "input": "6H",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2P": {
+      "input": "2P",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2K": {
+      "input": "2K",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2S": {
+      "input": "2S",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2D": {
+      "input": "2D",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.P": {
+      "input": "j.P",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.K": {
+      "input": "j.K",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.S": {
+      "input": "j.S",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.D": {
+      "input": "j.D",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "DAA": {
+      "input": "DAA",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Blitz": {
+      "input": "Blitz",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[Blitz]": {
+      "input": "[Blitz]",
+      "startup": 50,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214P/K/S/H": {
+      "input": "214P/K/S/H",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Ball Hit": {
+      "input": "Ball Hit",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "623K": {
+      "input": "623K",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "41236P/K/S/H": {
+      "input": "41236P/K/S/H",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[4]6S Level 0": {
+      "input": "[4]6S Level 0",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[4]6S Level 1": {
+      "input": "[4]6S Level 1",
+      "startup": 27,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[4]6S Level 2": {
+      "input": "[4]6S Level 2",
+      "startup": 48,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[4]6S Level 3": {
+      "input": "[4]6S Level 3",
+      "startup": 75,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[4]6H Level 0": {
+      "input": "[4]6H Level 0",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[4]6H Level 1": {
+      "input": "[4]6H Level 1",
+      "startup": 21,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[4]6H Level 2": {
+      "input": "[4]6H Level 2",
+      "startup": 42,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[4]6H Level 3": {
+      "input": "[4]6H Level 3",
+      "startup": 69,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[2]8S": {
+      "input": "[2]8S",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[2]8H": {
+      "input": "[2]8H",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "623S": {
+      "input": "623S",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "623H": {
+      "input": "623H",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.236S": {
+      "input": "j.236S",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.236H": {
+      "input": "j.236H",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2363214S": {
+      "input": "2363214S",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2363214D": {
+      "input": "2363214D",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.236236H": {
+      "input": "j.236236H",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2363214H": {
+      "input": "2363214H",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "236236H": {
+      "input": "236236H",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    }
+  }
+}

@@ -1,0 +1,782 @@
+{
+  "characterId": "grappler",
+  "game": "dnfd",
+  "gameName": "DNF Duel",
+  "name": "Grappler",
+  "combos": [
+    {
+      "id": "5aa-5b-2b-2s-jc-j-a-j-b-j-s-4-s-5-m",
+      "name": "5AA > 5B > 2B > 2S jc j.A > j.B > j.S ▷ 4[S] > 5[M]~6, 2B > ",
+      "notation": "5AA > 5B > 2B > 2S jc j.A > j.B > j.S ▷ 4[S] > 5[M]~6, 2B > 4S",
+      "description": "Any — 309 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5AA",
+          "time": 0.0,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.15,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.35,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "2S jc j.A",
+          "time": 0.55,
+          "label": "2S jc j.A",
+          "window": 100
+        },
+        {
+          "key": "j.B",
+          "time": 0.767,
+          "label": "j.B",
+          "window": 100
+        },
+        {
+          "key": "j.S ▷ 4[S]",
+          "time": 0.933,
+          "label": "j.S ▷ 4[S]",
+          "window": 100
+        },
+        {
+          "key": "5[M]",
+          "time": 1.15,
+          "label": "5[M]",
+          "window": 100
+        },
+        {
+          "key": "6",
+          "time": 1.367,
+          "label": "6",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.583,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.783,
+          "label": "4S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "309"
+    },
+    {
+      "id": "5aa-5b-2s-jc-dl-j-b-dl-j-s-2s-jc-dl-j",
+      "name": "5AA > 5B > 2S > jc dl j.B > dl j.S ▷ 2S > jc dl j.B > dl j.S",
+      "notation": "5AA > 5B > 2S > jc dl j.B > dl j.S ▷ 2S > jc dl j.B > dl j.S ▷ 4[S] > 5[M]~6 > 2B > 4S",
+      "description": "Any — 333 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5AA",
+          "time": 0.0,
+          "label": "5AA",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.15,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.35,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc dl j.B",
+          "time": 0.567,
+          "label": "jc dl j.B",
+          "window": 100
+        },
+        {
+          "key": "dl j.S ▷ 2S",
+          "time": 0.783,
+          "label": "dl j.S ▷ 2S",
+          "window": 100
+        },
+        {
+          "key": "jc dl j.B",
+          "time": 1.0,
+          "label": "jc dl j.B",
+          "window": 100
+        },
+        {
+          "key": "dl j.S ▷ 4[S]",
+          "time": 1.217,
+          "label": "dl j.S ▷ 4[S]",
+          "window": 100
+        },
+        {
+          "key": "5[M]",
+          "time": 1.433,
+          "label": "5[M]",
+          "window": 100
+        },
+        {
+          "key": "6",
+          "time": 1.65,
+          "label": "6",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.867,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.067,
+          "label": "4S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "333"
+    },
+    {
+      "id": "5a-2b-2s-jc-dl-j-b-dl-j-s-2s-jc-dl-j-b",
+      "name": "5A > 2B > 2S > jc dl j.B > dl j.S ▷ 2S > jc dl j.B > dl j.S ",
+      "notation": "5A > 2B > 2S > jc dl j.B > dl j.S ▷ 2S > jc dl j.B > dl j.S ▷ 4[S] > 5[M]~6 > 2B > 4S",
+      "description": "Any — 363 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.117,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.317,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc dl j.B",
+          "time": 0.533,
+          "label": "jc dl j.B",
+          "window": 100
+        },
+        {
+          "key": "dl j.S ▷ 2S",
+          "time": 0.75,
+          "label": "dl j.S ▷ 2S",
+          "window": 100
+        },
+        {
+          "key": "jc dl j.B",
+          "time": 0.967,
+          "label": "jc dl j.B",
+          "window": 100
+        },
+        {
+          "key": "dl j.S ▷ 4[S]",
+          "time": 1.183,
+          "label": "dl j.S ▷ 4[S]",
+          "window": 100
+        },
+        {
+          "key": "5[M]",
+          "time": 1.4,
+          "label": "5[M]",
+          "window": 100
+        },
+        {
+          "key": "6",
+          "time": 1.617,
+          "label": "6",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.833,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.033,
+          "label": "4S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "363"
+    },
+    {
+      "id": "5b-6s-5a-2s-jc-dl-j-b-dl-j-s-2s-jc-d",
+      "name": "5B > 6S > 5A > 2S > jc dl j.B > dl j.S ▷ 2S > jc dl j.B > dl",
+      "notation": "5B > 6S > 5A > 2S > jc dl j.B > dl j.S ▷ 2S > jc dl j.B > dl j.S ▷ 4[S] > 5[M]~6 > 2B > 4S",
+      "description": "Any — 371 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.2,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5A",
+          "time": 0.417,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.533,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc dl j.B",
+          "time": 0.75,
+          "label": "jc dl j.B",
+          "window": 100
+        },
+        {
+          "key": "dl j.S ▷ 2S",
+          "time": 0.967,
+          "label": "dl j.S ▷ 2S",
+          "window": 100
+        },
+        {
+          "key": "jc dl j.B",
+          "time": 1.183,
+          "label": "jc dl j.B",
+          "window": 100
+        },
+        {
+          "key": "dl j.S ▷ 4[S]",
+          "time": 1.4,
+          "label": "dl j.S ▷ 4[S]",
+          "window": 100
+        },
+        {
+          "key": "5[M]",
+          "time": 1.617,
+          "label": "5[M]",
+          "window": 100
+        },
+        {
+          "key": "6",
+          "time": 1.833,
+          "label": "6",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 2.05,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.25,
+          "label": "4S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "371"
+    },
+    {
+      "id": "5b-2b-2s-jc-j-s-j-b-dl-j-s-2s-jc-d",
+      "name": "5B > 2B > 2S > jc j.[S] ▷ j.B > dl j.S ▷ 2S > jc dl j.B > dl",
+      "notation": "5B > 2B > 2S > jc j.[S] ▷ j.B > dl j.S ▷ 2S > jc dl j.B > dl j.S ▷ 4[S] > 5[M]~6 > 2B > 4S",
+      "description": "Any — 444 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.2,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.4,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.[S] ▷ j.B",
+          "time": 0.617,
+          "label": "jc j.[S] ▷ j.B",
+          "window": 100
+        },
+        {
+          "key": "dl j.S ▷ 2S",
+          "time": 0.833,
+          "label": "dl j.S ▷ 2S",
+          "window": 100
+        },
+        {
+          "key": "jc dl j.B",
+          "time": 1.05,
+          "label": "jc dl j.B",
+          "window": 100
+        },
+        {
+          "key": "dl j.S ▷ 4[S]",
+          "time": 1.267,
+          "label": "dl j.S ▷ 4[S]",
+          "window": 100
+        },
+        {
+          "key": "5[M]",
+          "time": 1.483,
+          "label": "5[M]",
+          "window": 100
+        },
+        {
+          "key": "6",
+          "time": 1.7,
+          "label": "6",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.917,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.117,
+          "label": "4S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "444"
+    },
+    {
+      "id": "5b-2s-jc-j-s-2s-jc-dl-j-b-dl-j-s-2s",
+      "name": "5B > 2S > jc j.[S] ▷ 2S > jc dl j.B > dl j.S ▷ 2S > jc dl j.",
+      "notation": "5B > 2S > jc j.[S] ▷ 2S > jc dl j.B > dl j.S ▷ 2S > jc dl j.B > dl j.S 4[S] > 5[M]~6 > 2B > 4S",
+      "description": "Any — 460 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.2,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.[S] ▷ 2S",
+          "time": 0.417,
+          "label": "jc j.[S] ▷ 2S",
+          "window": 100
+        },
+        {
+          "key": "jc dl j.B",
+          "time": 0.633,
+          "label": "jc dl j.B",
+          "window": 100
+        },
+        {
+          "key": "dl j.S ▷ 2S",
+          "time": 0.85,
+          "label": "dl j.S ▷ 2S",
+          "window": 100
+        },
+        {
+          "key": "jc dl j.B",
+          "time": 1.067,
+          "label": "jc dl j.B",
+          "window": 100
+        },
+        {
+          "key": "dl j.S 4[S]",
+          "time": 1.283,
+          "label": "dl j.S 4[S]",
+          "window": 100
+        },
+        {
+          "key": "5[M]",
+          "time": 1.5,
+          "label": "5[M]",
+          "window": 100
+        },
+        {
+          "key": "6",
+          "time": 1.717,
+          "label": "6",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.933,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.133,
+          "label": "4S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "460"
+    },
+    {
+      "id": "5b-2s-6-s-5-m-2s-jc-dl-j-b-dl-j-s",
+      "name": "5B > 2S > 6[S] > 5[M] > 2S > jc dl j.B > dl j.S ▷ 4[S] > 5[M",
+      "notation": "5B > 2S > 6[S] > 5[M] > 2S > jc dl j.B > dl j.S ▷ 4[S] > 5[M]~6 > 2B > 4S",
+      "description": "Any — 491 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.2,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "6[S]",
+          "time": 0.417,
+          "label": "6[S]",
+          "window": 100
+        },
+        {
+          "key": "5[M]",
+          "time": 0.633,
+          "label": "5[M]",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.85,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc dl j.B",
+          "time": 1.067,
+          "label": "jc dl j.B",
+          "window": 100
+        },
+        {
+          "key": "dl j.S ▷ 4[S]",
+          "time": 1.283,
+          "label": "dl j.S ▷ 4[S]",
+          "window": 100
+        },
+        {
+          "key": "5[M]",
+          "time": 1.5,
+          "label": "5[M]",
+          "window": 100
+        },
+        {
+          "key": "6",
+          "time": 1.717,
+          "label": "6",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.933,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.133,
+          "label": "4S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "491"
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 8,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 11,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 6,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Fling": {
+      "input": "Fling",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Charged Fling": {
+      "input": "Charged Fling",
+      "startup": 32,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "High Kick": {
+      "input": "High Kick",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Charged High Kick": {
+      "input": "Charged High Kick",
+      "startup": 29,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Neck Snap": {
+      "input": "Neck Snap",
+      "startup": 20,
+      "on_hit": 8,
+      "raw_on_hit": "+8"
+    },
+    "Charged Neck Snap": {
+      "input": "Charged Neck Snap",
+      "startup": 35,
+      "on_hit": 31,
+      "raw_on_hit": "+31"
+    },
+    "Air Steiner": {
+      "input": "Air Steiner",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Charged Air Steiner": {
+      "input": "Charged Air Steiner",
+      "startup": 24,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Slam Kick": {
+      "input": "Slam Kick",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Charged Slam Kick": {
+      "input": "Charged Slam Kick",
+      "startup": 29,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Magnumsault": {
+      "input": "Magnumsault",
+      "startup": 31,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Charged Magnumsault": {
+      "input": "Charged Magnumsault",
+      "startup": 41,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Seismic Crash": {
+      "input": "Seismic Crash",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Shoulder Tackle": {
+      "input": "Shoulder Tackle",
+      "startup": 24,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Charged Shoulder Tackle": {
+      "input": "Charged Shoulder Tackle",
+      "startup": 40,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Break Down": {
+      "input": "Break Down",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Charged Break Down": {
+      "input": "Charged Break Down",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Aerial Break Down": {
+      "input": "Aerial Break Down",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Charged Aerial Break Down": {
+      "input": "Charged Aerial Break Down",
+      "startup": 28,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Throw": {
+      "input": "Throw",
+      "startup": 5,
+      "on_hit": 2,
+      "raw_on_hit": "HKD(+2)"
+    },
+    "Dodge": {
+      "input": "Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Backwards Dodge": {
+      "input": "Backwards Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Guard Cancel": {
+      "input": "Guard Cancel",
+      "startup": 18,
+      "on_hit": 14,
+      "raw_on_hit": "+14 (HKD)"
+    },
+    "Sole Bearer: Quaking Tiger": {
+      "input": "Sole Bearer: Quaking Tiger",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

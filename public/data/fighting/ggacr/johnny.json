@@ -1,0 +1,4798 @@
+{
+  "characterId": "johnny",
+  "game": "ggacr",
+  "gameName": "Guilty Gear XX Accent Core +R",
+  "name": "Johnny",
+  "combos": [
+    {
+      "id": "throw-coin-mf-level-2-high-delay-coin-da",
+      "name": "Throw > Coin > MF Level 2 High > (delay) Coin > dash iad > j",
+      "notation": "Throw > Coin > MF Level 2 High > (delay) Coin > dash iad > j.P > j.K > j.D > Enkasu",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.217,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "MF Level 2 High",
+          "time": 0.433,
+          "label": "MF Level 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.65,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "dash iad",
+          "time": 0.867,
+          "label": "dash iad",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 1.083,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.35,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.683,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 1.817,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "airthrow-5k-coin",
+      "name": "Airthrow > 5K > Coin",
+      "notation": "Airthrow > 5K > Coin",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Airthrow",
+          "time": 0.0,
+          "label": "Airthrow",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.217,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.517,
+          "label": "Coin",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-air-string-enkasu-land-otg-coin",
+      "name": "Throw > Air String > Enkasu > land > OTG Coin",
+      "notation": "Throw > Air String > Enkasu > land > OTG Coin",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "Air String",
+          "time": 0.217,
+          "label": "Air String",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 0.433,
+          "label": "Enkasu",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 0.65,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "OTG Coin",
+          "time": 0.867,
+          "label": "OTG Coin",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "tk-ensenga-rc-falling-ensenga-f-s-coin-5",
+      "name": "TK Ensenga > RC > falling Ensenga > f.S > Coin > 5H > MF Lvl",
+      "notation": "TK Ensenga > RC > falling Ensenga > f.S > Coin > 5H > MF Lvl 2 High > Coin > etc",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK Ensenga",
+          "time": 0.0,
+          "label": "TK Ensenga",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "falling Ensenga",
+          "time": 0.433,
+          "label": "falling Ensenga",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.65,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.067,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 1.283,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 1.783,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 2.0,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 2.217,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-or-c-s-6p-up-coin-5k-f-s-etc-coin",
+      "name": "5K or c.S > 6P > Up Coin > 5K / f.S / etc > (coin hits) > MF",
+      "notation": "5K or c.S > 6P > Up Coin > 5K / f.S / etc > (coin hits) > MF Lvl 2 High > Coin > etc",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K or c.S",
+          "time": 0.0,
+          "label": "5K or c.S",
+          "window": 100
+        },
+        {
+          "key": "6P",
+          "time": 0.217,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 0.867,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "5K / f.S / etc",
+          "time": 1.083,
+          "label": "5K / f.S / etc",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 1.3,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.517,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 1.733,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "6k-immediate-special-cancel-coin-5p-mf-lvl",
+      "name": "6K > (Immediate Special Cancel) Coin > 5P > MF Lvl 2 High > ",
+      "notation": "6K > (Immediate Special Cancel) Coin > 5P > MF Lvl 2 High > Coin > etc",
+      "description": "Midscreen Only",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen only"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6K",
+          "time": 0.0,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.267,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "5P",
+          "time": 0.483,
+          "label": "5P",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 0.733,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.95,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 1.167,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "6k-up-coin-mf-lvl-2-high-coin-etc",
+      "name": "6K > Up Coin > MF Lvl 2 High > Coin > etc",
+      "notation": "6K > Up Coin > MF Lvl 2 High > Coin > etc",
+      "description": "Midscreen Only",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen only"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6K",
+          "time": 0.0,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 0.267,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 0.483,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.7,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 0.917,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "f-s-mist-jackhound-5k-c-s-2d-mist-jackho",
+      "name": "f.S > Mist Jackhound > 5K > c.S > 2D > Mist Jackhound > 2P >",
+      "notation": "f.S > Mist Jackhound > 5K > c.S > 2D > Mist Jackhound > 2P > f.S > Coin > MF Lvl 2 High > Coin > etc",
+      "description": "Midscreen Only",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen only"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "f.S",
+          "time": 0.0,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "Mist Jackhound",
+          "time": 0.417,
+          "label": "Mist Jackhound",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.633,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.933,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 1.267,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "Mist Jackhound",
+          "time": 1.417,
+          "label": "Mist Jackhound",
+          "window": 100
+        },
+        {
+          "key": "2P",
+          "time": 1.633,
+          "label": "2P",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 1.883,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 2.3,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 2.517,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 2.733,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 2.95,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "6p-j-k-j-s-dj-j-k-j-s-j-d-ensenga",
+      "name": "6P > j.K > j.S > dj > j.K > j.S > j.D > Ensenga",
+      "notation": "6P > j.K > j.S > dj > j.K > j.S > j.D > Ensenga",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6P",
+          "time": 0.0,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.65,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.983,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 1.383,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.6,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.933,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 2.333,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 2.467,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-j-k-j-s-dj-j-k-j-s-j-d-ensenga",
+      "name": "Throw > j.K > j.S > dj > j.K > j.S > j.D > Ensenga",
+      "notation": "Throw > j.K > j.S > dj > j.K > j.S > j.D > Ensenga",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.217,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.55,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 0.95,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.167,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.5,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.9,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 2.033,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "tk-ensenga-rc-airdash-j-s-ensenga",
+      "name": "TK Ensenga RC > airdash > j.S > Ensenga",
+      "notation": "TK Ensenga RC > airdash > j.S > Ensenga",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK Ensenga RC",
+          "time": 0.0,
+          "label": "TK Ensenga RC",
+          "window": 100
+        },
+        {
+          "key": "airdash",
+          "time": 0.217,
+          "label": "airdash",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.433,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 0.833,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-8-ji-5h-killer-joker-transport-killer",
+      "name": "5K > 8 (JI) > 5H > Killer Joker Transport ~ Killer Joker FRC",
+      "notation": "5K > 8 (JI) > 5H > Killer Joker Transport ~ Killer Joker FRC > j.S > dj > j.K > j.S > j.D > Ensenga",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "8",
+          "time": 0.3,
+          "label": "8",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.517,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "Killer Joker Transport",
+          "time": 1.017,
+          "label": "Killer Joker Transport",
+          "window": 100
+        },
+        {
+          "key": "Killer Joker FRC",
+          "time": 1.233,
+          "label": "Killer Joker FRC",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.45,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 1.85,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 2.067,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.4,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 2.8,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 2.933,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "killer-joker-frc-j-s-dj-j-k-j-s-j-d-en",
+      "name": "Killer Joker FRC > j.S > dj > j.K > j.S > j.D > Ensenga",
+      "notation": "Killer Joker FRC > j.S > dj > j.K > j.S > j.D > Ensenga",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Killer Joker FRC",
+          "time": 0.0,
+          "label": "Killer Joker FRC",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.217,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 0.617,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.833,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.167,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.567,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 1.7,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-kjt-kj-frc-j-h-delayed-j-d-land",
+      "name": "5K > 5H > KJT KJ FRC > j.H > delayed j.D > land > 6K > sj. A",
+      "notation": "5K > 5H > KJT KJ FRC > j.H > delayed j.D > land > 6K > sj. Aircombo",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "KJT KJ FRC",
+          "time": 0.8,
+          "label": "KJT KJ FRC",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.017,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "delayed j.D",
+          "time": 1.467,
+          "label": "delayed j.D",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 1.683,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 1.9,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "sj. Aircombo",
+          "time": 2.167,
+          "label": "sj. Aircombo",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "tk-ensenga-rc-airdash-j-k-j-d-land-rising",
+      "name": "TK Ensenga RC > airdash j.K > j.D > land > rising  j.K > j.S",
+      "notation": "TK Ensenga RC > airdash j.K > j.D > land > rising  j.K > j.S > dj > j.K > j.S > j.D > Ensenga",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK Ensenga RC",
+          "time": 0.0,
+          "label": "TK Ensenga RC",
+          "window": 100
+        },
+        {
+          "key": "airdash j.K",
+          "time": 0.217,
+          "label": "airdash j.K",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 0.433,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 0.567,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "rising j.K",
+          "time": 0.783,
+          "label": "rising j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.0,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 1.4,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.617,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.95,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 2.35,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 2.483,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-kjt-kj-frc-j-k-j-d-enkasu",
+      "name": "5K > 5H > KJT KJ FRC > j.K > j.D > Enkasu",
+      "notation": "5K > 5H > KJT KJ FRC > j.K > j.D > Enkasu",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "KJT KJ FRC",
+          "time": 0.8,
+          "label": "KJT KJ FRC",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.017,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.35,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 1.483,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-kjt-kj-frc-db-frc-falling-j-d-land",
+      "name": "5K > 5H > KJT KJ FRC > DB FRC > falling j.D > land > j.K > j",
+      "notation": "5K > 5H > KJT KJ FRC > DB FRC > falling j.D > land > j.K > j.S > dj > j.K > j.S > j.D > Ensenga",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "KJT KJ FRC",
+          "time": 0.8,
+          "label": "KJT KJ FRC",
+          "window": 100
+        },
+        {
+          "key": "DB FRC",
+          "time": 1.017,
+          "label": "DB FRC",
+          "window": 100
+        },
+        {
+          "key": "falling j.D",
+          "time": 1.233,
+          "label": "falling j.D",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 1.45,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.667,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.0,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 2.4,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 2.617,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.95,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 3.35,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 3.483,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-kjt-kj-frc-db-frc-falling-j-d-land",
+      "name": "5K > 5H > KJT KJ FRC > DB FRC > falling j.D > land > 5H > MF",
+      "notation": "5K > 5H > KJT KJ FRC > DB FRC > falling j.D > land > 5H > MF Lvl 1 High > sj.S > Ensenga",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "KJT KJ FRC",
+          "time": 0.8,
+          "label": "KJT KJ FRC",
+          "window": 100
+        },
+        {
+          "key": "DB FRC",
+          "time": 1.017,
+          "label": "DB FRC",
+          "window": 100
+        },
+        {
+          "key": "falling j.D",
+          "time": 1.233,
+          "label": "falling j.D",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 1.45,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 1.667,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 1 High",
+          "time": 2.167,
+          "label": "MF Lvl 1 High",
+          "window": 100
+        },
+        {
+          "key": "sj.S",
+          "time": 2.383,
+          "label": "sj.S",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 2.6,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-kjt-kj-frc-j-h-j-d-land-rising-j",
+      "name": "5K > 5H > KJT KJ FRC > j.H > j.D > land > rising j.K > j.S >",
+      "notation": "5K > 5H > KJT KJ FRC > j.H > j.D > land > rising j.K > j.S > etc",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "KJT KJ FRC",
+          "time": 0.8,
+          "label": "KJT KJ FRC",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.017,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.467,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 1.6,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "rising j.K",
+          "time": 1.817,
+          "label": "rising j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.033,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 2.433,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ground-string-2d-bacchus-sigh",
+      "name": "Ground String > 2D > Bacchus Sigh",
+      "notation": "Ground String > 2D > Bacchus Sigh",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Ground String",
+          "time": 0.0,
+          "label": "Ground String",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.217,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "Bacchus Sigh",
+          "time": 0.367,
+          "label": "Bacchus Sigh",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-5h-divine-blade-transport-divine-blade",
+      "name": "Throw > 5H > Divine Blade Transport ~ Divine Blade",
+      "notation": "Throw > 5H > Divine Blade Transport ~ Divine Blade",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.217,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "Divine Blade Transport",
+          "time": 0.717,
+          "label": "Divine Blade Transport",
+          "window": 100
+        },
+        {
+          "key": "Divine Blade",
+          "time": 0.933,
+          "label": "Divine Blade",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-j-s-j-h-divine-blade",
+      "name": "Throw > j.S > ( j.H )*, Divine Blade",
+      "notation": "Throw > j.S > ( j.H )*, Divine Blade",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.217,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "*",
+          "time": 0.617,
+          "label": "*",
+          "window": 100
+        },
+        {
+          "key": "Divine Blade",
+          "time": 0.833,
+          "label": "Divine Blade",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-dash-jump-j-p-j-s-j-h-divine-blade",
+      "name": "Throw > dash jump j.P > j.S > j.H > Divine Blade",
+      "notation": "Throw > dash jump j.P > j.S > j.H > Divine Blade",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "dash jump j.P",
+          "time": 0.217,
+          "label": "dash jump j.P",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.433,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 0.833,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "Divine Blade",
+          "time": 1.283,
+          "label": "Divine Blade",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-mf-lvl-2-low-air-combo",
+      "name": "5K > 5H > MF Lvl 2 Low > Air Combo",
+      "notation": "5K > 5H > MF Lvl 2 Low > Air Combo",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Low",
+          "time": 0.8,
+          "label": "MF Lvl 2 Low",
+          "window": 100
+        },
+        {
+          "key": "Air Combo",
+          "time": 1.017,
+          "label": "Air Combo",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ground-string-2d-1-mist-stance-jackhound-ba",
+      "name": "Ground String > 2D(1) > Mist Stance Jackhound > Bacchus Sigh",
+      "notation": "Ground String > 2D(1) > Mist Stance Jackhound > Bacchus Sigh",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Ground String",
+          "time": 0.0,
+          "label": "Ground String",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.217,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "Mist Stance Jackhound",
+          "time": 0.367,
+          "label": "Mist Stance Jackhound",
+          "window": 100
+        },
+        {
+          "key": "Bacchus Sigh",
+          "time": 0.583,
+          "label": "Bacchus Sigh",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-kjt-kt-frc-j-h-j-d-5h-mf-lvl-2-h",
+      "name": "5K> 5H > KJT KT FRC > j.H > j.D > (5H>) MF Lvl 2 High > Coin",
+      "notation": "5K> 5H > KJT KT FRC > j.H > j.D > (5H>) MF Lvl 2 High > Coin > etc",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "KJT KT FRC",
+          "time": 0.8,
+          "label": "KJT KT FRC",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.017,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.467,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "(5H",
+          "time": 1.6,
+          "label": "(5H",
+          "window": 100
+        },
+        {
+          "key": ") MF Lvl 2 High",
+          "time": 1.817,
+          "label": ") MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 2.033,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 2.25,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-kjt-kt-frc-delayed-j-d-land-side-s",
+      "name": "5K > 5H > KJT KT FRC > delayed j.D > Land & side swap > MF L",
+      "notation": "5K > 5H > KJT KT FRC > delayed j.D > Land & side swap > MF Lvl 2 High > Coin > etc",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "KJT KT FRC",
+          "time": 0.8,
+          "label": "KJT KT FRC",
+          "window": 100
+        },
+        {
+          "key": "delayed j.D",
+          "time": 1.017,
+          "label": "delayed j.D",
+          "window": 100
+        },
+        {
+          "key": "Land & side swap",
+          "time": 1.233,
+          "label": "Land & side swap",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 1.45,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.667,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 1.883,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ground-string-mist-stance-jackhound-5k-mf-lv",
+      "name": "Ground String > Mist Stance Jackhound > 5K > MF Lvl 2 Low > ",
+      "notation": "Ground String > Mist Stance Jackhound > 5K > MF Lvl 2 Low > (opponent goes behind you) > Coin > MF Lvl 2 High > Coin > etc",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Ground String",
+          "time": 0.0,
+          "label": "Ground String",
+          "window": 100
+        },
+        {
+          "key": "Mist Stance Jackhound",
+          "time": 0.217,
+          "label": "Mist Stance Jackhound",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.433,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Low",
+          "time": 0.733,
+          "label": "MF Lvl 2 Low",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.95,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 1.167,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.383,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 1.6,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ground-string-mist-stance-dash-jackhound-mf-lv",
+      "name": "Ground String > Mist Stance Dash Jackhound > MF Lvl 2 Low > ",
+      "notation": "Ground String > Mist Stance Dash Jackhound > MF Lvl 2 Low > (opponent goes behind you) > Coin > MF Lvl 2 High > Coin > etc",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Ground String",
+          "time": 0.0,
+          "label": "Ground String",
+          "window": 100
+        },
+        {
+          "key": "Mist Stance Dash Jackhound",
+          "time": 0.217,
+          "label": "Mist Stance Dash Jackhound",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Low",
+          "time": 0.433,
+          "label": "MF Lvl 2 Low",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.65,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 0.867,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.083,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 1.3,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ground-string-mist-stance-dash-jackhound-2d-1",
+      "name": "Ground String > Mist Stance Dash Jackhound > 2D(1) > MC > 5K",
+      "notation": "Ground String > Mist Stance Dash Jackhound > 2D(1) > MC > 5K > 5H > MF Lvl 2 High > Coin > etc",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Ground String",
+          "time": 0.0,
+          "label": "Ground String",
+          "window": 100
+        },
+        {
+          "key": "Mist Stance Dash Jackhound",
+          "time": 0.217,
+          "label": "Mist Stance Dash Jackhound",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.433,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "MC",
+          "time": 0.583,
+          "label": "MC",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.8,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 1.1,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 1.6,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.817,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 2.033,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-mf-lvl-2-mid-coin-dash-5k-c-s-5h",
+      "name": "5K > 5H > MF Lvl 2 Mid > Coin > dash 5K/c.S > 5H > MF Lvl 2 ",
+      "notation": "5K > 5H > MF Lvl 2 Mid > Coin > dash 5K/c.S > 5H > MF Lvl 2 High > j.K > j.S > dj > j.K > j.S > j.D > Ensenga",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Mid",
+          "time": 0.8,
+          "label": "MF Lvl 2 Mid",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.017,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "dash 5K/c.S",
+          "time": 1.233,
+          "label": "dash 5K/c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 1.45,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 1.95,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 2.167,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.5,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 2.9,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 3.117,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 3.45,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 3.85,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 3.983,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-mf-lvl-2-mid-coin-dash-5k-c-s-5h",
+      "name": "5K > 5H > MF Lvl 2 Mid > Coin > dash 5K/c.S > 5H > MF Lvl 2 ",
+      "notation": "5K > 5H > MF Lvl 2 Mid > Coin > dash 5K/c.S > 5H > MF Lvl 2 High > Coin > iad > j.P > j.K > j.D > Ensenga",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Mid",
+          "time": 0.8,
+          "label": "MF Lvl 2 Mid",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.017,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "dash 5K/c.S",
+          "time": 1.233,
+          "label": "dash 5K/c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 1.45,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 1.95,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 2.167,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "iad",
+          "time": 2.383,
+          "label": "iad",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 2.6,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 2.867,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 3.2,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 3.333,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-mf-lvl-2-mid-coin-dash-5k-c-s-5h",
+      "name": "5K > 5H > MF Lvl 2 Mid > Coin > dash 5K/c.S > 5H > MF Lvl 2 ",
+      "notation": "5K > 5H > MF Lvl 2 Mid > Coin > dash 5K/c.S > 5H > MF Lvl 2 High > Up Coin > f.S > Divine Blade Transport > (Coin hits) > Divine Blade",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Mid",
+          "time": 0.8,
+          "label": "MF Lvl 2 Mid",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.017,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "dash 5K/c.S",
+          "time": 1.233,
+          "label": "dash 5K/c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 1.45,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 1.95,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 2.167,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 2.383,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "Divine Blade Transport",
+          "time": 2.8,
+          "label": "Divine Blade Transport",
+          "window": 100
+        },
+        {
+          "key": "Divine Blade",
+          "time": 3.017,
+          "label": "Divine Blade",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-mf-lvl-2-mid-coin-dash-5k-c-s-5h",
+      "name": "5K > 5H > MF Lvl 2 Mid > Coin > dash 5K/c.S > 5H > MF Lvl 2 ",
+      "notation": "5K > 5H > MF Lvl 2 Mid > Coin > dash 5K/c.S > 5H > MF Lvl 2 High > Up Coin > 5K > (Coin hits) > (sj) iad > j.P > j.K > j.D > Enkasu [144 dmg]",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Mid",
+          "time": 0.8,
+          "label": "MF Lvl 2 Mid",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.017,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "dash 5K/c.S",
+          "time": 1.233,
+          "label": "dash 5K/c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 1.45,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 1.95,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 2.167,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 2.383,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "iad",
+          "time": 2.683,
+          "label": "iad",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 2.9,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 3.167,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 3.5,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu [144 dmg]",
+          "time": 3.633,
+          "label": "Enkasu [144 dmg]",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-mf-lvl-2-mid-coin-dash-5k-5h-mf",
+      "name": "5K > 5H > MF Lvl 2 Mid > Coin > dash 5K > 5H > MF Lvl 2 High",
+      "notation": "5K > 5H > MF Lvl 2 Mid > Coin > dash 5K > 5H > MF Lvl 2 High > Up Coin > 3H > 6H > MF Lvl 2 High > Coin > (dash) iad > j.P > j.K > j.D > Enkasu / other Loop options",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Mid",
+          "time": 0.8,
+          "label": "MF Lvl 2 Mid",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.017,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "dash 5K",
+          "time": 1.233,
+          "label": "dash 5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 1.45,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 1.95,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 2.167,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "3H",
+          "time": 2.383,
+          "label": "3H",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 2.883,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 3.5,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 3.717,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "iad",
+          "time": 3.933,
+          "label": "iad",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 4.15,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 4.417,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 4.75,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu / other Loop options",
+          "time": 4.883,
+          "label": "Enkasu / other Loop options",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-mf-lvl-2-mid-dash-6h-mist-jackhoun",
+      "name": "5K > 5H > MF Lvl 2 Mid > dash 6H > (Mist) Jackhound > c.S > ",
+      "notation": "5K > 5H > MF Lvl 2 Mid > dash 6H > (Mist) Jackhound > c.S > MF Lvl 1 High > j.S > Ensenga",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Mid",
+          "time": 0.8,
+          "label": "MF Lvl 2 Mid",
+          "window": 100
+        },
+        {
+          "key": "dash 6H",
+          "time": 1.017,
+          "label": "dash 6H",
+          "window": 100
+        },
+        {
+          "key": "Jackhound",
+          "time": 1.233,
+          "label": "Jackhound",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.45,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 1 High",
+          "time": 1.783,
+          "label": "MF Lvl 1 High",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.0,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 2.4,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-mf-lvl-2-mid-coin-dash-5h-mist-sta",
+      "name": "5K > 5H > MF Lvl 2 Mid > Coin > dash 5H > Mist Stance Jackho",
+      "notation": "5K > 5H > MF Lvl 2 Mid > Coin > dash 5H > Mist Stance Jackhound > Bacchus Sigh",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Mid",
+          "time": 0.8,
+          "label": "MF Lvl 2 Mid",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.017,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "dash 5H",
+          "time": 1.233,
+          "label": "dash 5H",
+          "window": 100
+        },
+        {
+          "key": "Mist Stance Jackhound",
+          "time": 1.45,
+          "label": "Mist Stance Jackhound",
+          "window": 100
+        },
+        {
+          "key": "Bacchus Sigh",
+          "time": 1.667,
+          "label": "Bacchus Sigh",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-mf-lvl-2-mid-coin-dash-5k-c-s-f",
+      "name": "5K > 5H > MF lvl 2 mid > coin > dash 5K / c.S / f.S / 5H > M",
+      "notation": "5K > 5H > MF lvl 2 mid > coin > dash 5K / c.S / f.S / 5H > MF Lvl 2 mid > coin > dash c.S / 5H > mist stance jackhound > 2D(2) > Bacchus Sigh",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF lvl 2 mid",
+          "time": 0.8,
+          "label": "MF lvl 2 mid",
+          "window": 100
+        },
+        {
+          "key": "coin",
+          "time": 1.017,
+          "label": "coin",
+          "window": 100
+        },
+        {
+          "key": "dash 5K / c.S / f.S / 5H",
+          "time": 1.233,
+          "label": "dash 5K / c.S / f.S / 5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 mid",
+          "time": 1.45,
+          "label": "MF Lvl 2 mid",
+          "window": 100
+        },
+        {
+          "key": "coin",
+          "time": 1.667,
+          "label": "coin",
+          "window": 100
+        },
+        {
+          "key": "dash c.S / 5H",
+          "time": 1.883,
+          "label": "dash c.S / 5H",
+          "window": 100
+        },
+        {
+          "key": "mist stance jackhound",
+          "time": 2.1,
+          "label": "mist stance jackhound",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 2.317,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "Bacchus Sigh",
+          "time": 2.467,
+          "label": "Bacchus Sigh",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "close-hitting-2s-mf-lvl-2-mid-coin-up-coin",
+      "name": "Close hitting 2S > MF Lvl 2 Mid > Coin > Up Coin > f.S > (sl",
+      "notation": "Close hitting 2S > MF Lvl 2 Mid > Coin > Up Coin > f.S > (slight delay) MF Lvl 2 High > Bacchus Sigh",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Close hitting 2S",
+          "time": 0.0,
+          "label": "Close hitting 2S",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Mid",
+          "time": 0.217,
+          "label": "MF Lvl 2 Mid",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.433,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 0.65,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.867,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 1.283,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Bacchus Sigh",
+          "time": 1.5,
+          "label": "Bacchus Sigh",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-mf-lvl-2-mid-dash-6h-forward-tk-kj-f",
+      "name": "5K > 5H > MF lvl 2 Mid > dash 6H > forward TK KJ FRC > j.H /",
+      "notation": "5K > 5H > MF lvl 2 Mid > dash 6H > forward TK KJ FRC > j.H / j.K > j.D > land > c.S > MF Lvl 1 High > j.S > Ensenga",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF lvl 2 Mid",
+          "time": 0.8,
+          "label": "MF lvl 2 Mid",
+          "window": 100
+        },
+        {
+          "key": "dash 6H",
+          "time": 1.017,
+          "label": "dash 6H",
+          "window": 100
+        },
+        {
+          "key": "forward TK KJ FRC",
+          "time": 1.233,
+          "label": "forward TK KJ FRC",
+          "window": 100
+        },
+        {
+          "key": "j.H / j.K",
+          "time": 1.45,
+          "label": "j.H / j.K",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.667,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "land",
+          "time": 1.8,
+          "label": "land",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 2.017,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 1 High",
+          "time": 2.35,
+          "label": "MF Lvl 1 High",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.567,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 2.967,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "5k-5h-mf-lvl-2-mid-coin-dash-iad-j-k",
+      "name": "5K > 5H > MF Lvl 2 Mid > Coin > (dash) iad > j.K > j.S > j.D",
+      "notation": "5K > 5H > MF Lvl 2 Mid > Coin > (dash) iad > j.K > j.S > j.D > Enkasu / Land > Continue",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.3,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Mid",
+          "time": 0.8,
+          "label": "MF Lvl 2 Mid",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.017,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "iad",
+          "time": 1.233,
+          "label": "iad",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.45,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.783,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 2.183,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu / Land",
+          "time": 2.317,
+          "label": "Enkasu / Land",
+          "window": 100
+        },
+        {
+          "key": "Continue",
+          "time": 2.533,
+          "label": "Continue",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "f-s-dash-mist-stance-jackhound-5k-mf-level",
+      "name": "f.S > Dash / Mist Stance Jackhound > 5K > MF Level 2 Low > W",
+      "notation": "f.S > Dash / Mist Stance Jackhound > 5K > MF Level 2 Low > Walk Forward > late 2S > MF Lvl 1 High > Coin > Level 2 High > backdash > Level 2 High > Coin > etc",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "f.S",
+          "time": 0.0,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "Dash / Mist Stance Jackhound",
+          "time": 0.417,
+          "label": "Dash / Mist Stance Jackhound",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.633,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "MF Level 2 Low",
+          "time": 0.933,
+          "label": "MF Level 2 Low",
+          "window": 100
+        },
+        {
+          "key": "Walk Forward",
+          "time": 1.15,
+          "label": "Walk Forward",
+          "window": 100
+        },
+        {
+          "key": "late 2S",
+          "time": 1.367,
+          "label": "late 2S",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 1 High",
+          "time": 1.583,
+          "label": "MF Lvl 1 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.8,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "Level 2 High",
+          "time": 2.017,
+          "label": "Level 2 High",
+          "window": 100
+        },
+        {
+          "key": "backdash",
+          "time": 2.233,
+          "label": "backdash",
+          "window": 100
+        },
+        {
+          "key": "Level 2 High",
+          "time": 2.45,
+          "label": "Level 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 2.667,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 2.883,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "f-s-dash-mist-stance-jackhound-5k-mf-level",
+      "name": "f.S > Dash / Mist Stance Jackhound > 5K > MF Level 2 Low > F",
+      "notation": "f.S > Dash / Mist Stance Jackhound > 5K > MF Level 2 Low > Forward Dash out of corner > f.S > Coin > Level 2 High > 5H > Level 2 High > Coin > etc",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "f.S",
+          "time": 0.0,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "Dash / Mist Stance Jackhound",
+          "time": 0.417,
+          "label": "Dash / Mist Stance Jackhound",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 0.633,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "MF Level 2 Low",
+          "time": 0.933,
+          "label": "MF Level 2 Low",
+          "window": 100
+        },
+        {
+          "key": "Forward Dash out of corner",
+          "time": 1.15,
+          "label": "Forward Dash out of corner",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 1.367,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.783,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "Level 2 High",
+          "time": 2.0,
+          "label": "Level 2 High",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 2.217,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "Level 2 High",
+          "time": 2.717,
+          "label": "Level 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 2.933,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 3.15,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ground-string-mf-lvl-2-mid-coin-6k-dash-6k",
+      "name": "Ground String > MF Lvl 2 Mid > Coin > 6K/Dash 6K > MC > iad ",
+      "notation": "Ground String > MF Lvl 2 Mid > Coin > 6K/Dash 6K > MC > iad > j.K > j.D > Enkasu",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Ground String",
+          "time": 0.0,
+          "label": "Ground String",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Mid",
+          "time": 0.217,
+          "label": "MF Lvl 2 Mid",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.433,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "6K/Dash 6K",
+          "time": 0.65,
+          "label": "6K/Dash 6K",
+          "window": 100
+        },
+        {
+          "key": "MC",
+          "time": 0.867,
+          "label": "MC",
+          "window": 100
+        },
+        {
+          "key": "iad",
+          "time": 1.083,
+          "label": "iad",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.3,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.633,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 1.767,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ground-string-mf-lvl-2-mid-dash-6h-ms-jackh",
+      "name": "Ground String > MF Lvl 2 Mid > Dash 6H > (MS)Jackhound > c.S",
+      "notation": "Ground String > MF Lvl 2 Mid > Dash 6H > (MS)Jackhound > c.S > MF Lvl 1 High > 6K > Up Coin > dash j.D > Enkasu",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Ground String",
+          "time": 0.0,
+          "label": "Ground String",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Mid",
+          "time": 0.217,
+          "label": "MF Lvl 2 Mid",
+          "window": 100
+        },
+        {
+          "key": "Dash 6H",
+          "time": 0.433,
+          "label": "Dash 6H",
+          "window": 100
+        },
+        {
+          "key": "Jackhound",
+          "time": 0.65,
+          "label": "Jackhound",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.867,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 1 High",
+          "time": 1.2,
+          "label": "MF Lvl 1 High",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 1.417,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 1.683,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "dash j.D",
+          "time": 1.9,
+          "label": "dash j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 2.117,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ground-string-mf-lvl-3-mid-frc-6k-coin-a",
+      "name": "Ground String > MF Lvl 3 Mid > FRC > 6K > Coin / Air Combo",
+      "notation": "Ground String > MF Lvl 3 Mid > FRC > 6K > Coin / Air Combo",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Ground String",
+          "time": 0.0,
+          "label": "Ground String",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 3 Mid",
+          "time": 0.217,
+          "label": "MF Lvl 3 Mid",
+          "window": 100
+        },
+        {
+          "key": "FRC",
+          "time": 0.433,
+          "label": "FRC",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 0.65,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "Coin / Air Combo",
+          "time": 0.917,
+          "label": "Coin / Air Combo",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ground-string-mf-lvl-3-mid-frc-6h-jackhoun",
+      "name": "Ground String > MF Lvl 3 Mid > FRC > 6H > Jackhound > 5K > 2",
+      "notation": "Ground String > MF Lvl 3 Mid > FRC > 6H > Jackhound > 5K > 2D > Coin",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Ground String",
+          "time": 0.0,
+          "label": "Ground String",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 3 Mid",
+          "time": 0.217,
+          "label": "MF Lvl 3 Mid",
+          "window": 100
+        },
+        {
+          "key": "FRC",
+          "time": 0.433,
+          "label": "FRC",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.65,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "Jackhound",
+          "time": 1.267,
+          "label": "Jackhound",
+          "window": 100
+        },
+        {
+          "key": "5K",
+          "time": 1.483,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 1.783,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.933,
+          "label": "Coin",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ground-string-2d-1-mf-lvl-3-high-coin-etc",
+      "name": "Ground String > 2D(1) > MF Lvl 3 High > Coin > etc",
+      "notation": "Ground String > 2D(1) > MF Lvl 3 High > Coin > etc",
+      "description": "-",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "-"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Ground String",
+          "time": 0.0,
+          "label": "Ground String",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.217,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 3 High",
+          "time": 0.367,
+          "label": "MF Lvl 3 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.583,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 0.8,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ground-string-mf-lvl-3-mid-frc-6k-up-coin",
+      "name": "Ground String > MF Lvl 3 Mid > FRC > 6K > Up Coin > Air Comb",
+      "notation": "Ground String > MF Lvl 3 Mid > FRC > 6K > Up Coin > Air Combo",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Ground String",
+          "time": 0.0,
+          "label": "Ground String",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 3 Mid",
+          "time": 0.217,
+          "label": "MF Lvl 3 Mid",
+          "window": 100
+        },
+        {
+          "key": "FRC",
+          "time": 0.433,
+          "label": "FRC",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 0.65,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 0.917,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "Air Combo",
+          "time": 1.133,
+          "label": "Air Combo",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ground-string-mf-lvl-3-mid-frc-6k-up-coin",
+      "name": "Ground String > MF Lvl 3 Mid > FRC > 6K > Up Coin > 5H > MF ",
+      "notation": "Ground String > MF Lvl 3 Mid > FRC > 6K > Up Coin > 5H > MF Lvl 2 High > Coin > etc",
+      "description": "Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Ground String",
+          "time": 0.0,
+          "label": "Ground String",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 3 Mid",
+          "time": 0.217,
+          "label": "MF Lvl 3 Mid",
+          "window": 100
+        },
+        {
+          "key": "FRC",
+          "time": 0.433,
+          "label": "FRC",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 0.65,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 0.917,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 1.133,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 1.633,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.85,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 2.067,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ch-5h-coin-dash-5k-mf-lvl-2-low-air-combo",
+      "name": "CH 5H > Coin > Dash 5K > MF Lvl 2 Low > Air Combo",
+      "notation": "CH 5H > Coin > Dash 5K > MF Lvl 2 Low > Air Combo",
+      "description": "Midscreen",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 5H",
+          "time": 0.0,
+          "label": "CH 5H",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.217,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "Dash 5K",
+          "time": 0.433,
+          "label": "Dash 5K",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 Low",
+          "time": 0.65,
+          "label": "MF Lvl 2 Low",
+          "window": 100
+        },
+        {
+          "key": "Air Combo",
+          "time": 0.867,
+          "label": "Air Combo",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ch-6k-mist-cancel-dash-x-n-iad-j-k-j-d-e",
+      "name": "CH 6K > Mist Cancel > Dash x n > iad j.K > j.D > Ensenga",
+      "notation": "CH 6K > Mist Cancel > Dash x n > iad j.K > j.D > Ensenga",
+      "description": "Near Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "near corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 6K",
+          "time": 0.0,
+          "label": "CH 6K",
+          "window": 100
+        },
+        {
+          "key": "Mist Cancel",
+          "time": 0.217,
+          "label": "Mist Cancel",
+          "window": 100
+        },
+        {
+          "key": "Dash x n",
+          "time": 0.433,
+          "label": "Dash x n",
+          "window": 100
+        },
+        {
+          "key": "iad j.K",
+          "time": 0.65,
+          "label": "iad j.K",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 0.867,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 1.0,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ch-6k-immediate-special-cancel-coin-f-s-mf",
+      "name": "CH 6k > (Immediate Special Cancel) Coin > f.S > MF Lvl 2 Hig",
+      "notation": "CH 6k > (Immediate Special Cancel) Coin > f.S > MF Lvl 2 High > Coin > etc",
+      "description": "Midscreen Only",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen only"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 6k",
+          "time": 0.0,
+          "label": "CH 6k",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.217,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.433,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 0.85,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.067,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 1.283,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "ch-6k-mist-cancel-dash-x-n-coin-mf-lvl-2-h",
+      "name": "CH 6K > Mist Cancel > Dash x n > Coin > MF Lvl 2 High > Coin",
+      "notation": "CH 6K > Mist Cancel > Dash x n > Coin > MF Lvl 2 High > Coin > etc",
+      "description": "Near Corner",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "near corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 6K",
+          "time": 0.0,
+          "label": "CH 6K",
+          "window": 100
+        },
+        {
+          "key": "Mist Cancel",
+          "time": 0.217,
+          "label": "Mist Cancel",
+          "window": 100
+        },
+        {
+          "key": "Dash x n",
+          "time": 0.433,
+          "label": "Dash x n",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.65,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 0.867,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.083,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 1.3,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-dash-j-p-j-p-j-s-j-d-enkasu",
+      "name": "Throw > dash j.P > j.P > j.S > j.D > Enkasu",
+      "notation": "Throw > dash j.P > j.P > j.S > j.D > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "dash j.P",
+          "time": 0.217,
+          "label": "dash j.P",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.433,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.7,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.1,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 1.233,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-j-k-j-s-j-d-enkasu",
+      "name": "Throw > j.K > j.S > j.D > Enkasu",
+      "notation": "Throw > j.K > j.S > j.D > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.217,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.55,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 0.95,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 1.083,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-j-psd-enkasu",
+      "name": "Throw > j.PSD > Enkasu",
+      "notation": "Throw > j.PSD > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "j.PSD",
+          "time": 0.217,
+          "label": "j.PSD",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 0.433,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-j-kpsd-enkasu",
+      "name": "Throw > j.KPSD > Enkasu",
+      "notation": "Throw > j.KPSD > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "j.KPSD",
+          "time": 0.217,
+          "label": "j.KPSD",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 0.433,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-j-ppsd-enkasu",
+      "name": "Throw > j.PPSD > Enkasu",
+      "notation": "Throw > j.PPSD > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "j.PPSD",
+          "time": 0.217,
+          "label": "j.PPSD",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 0.433,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-dash-j-pksd-enkasu",
+      "name": "Throw > dash j.PKSD > Enkasu",
+      "notation": "Throw > dash j.PKSD > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "dash j.PKSD",
+          "time": 0.217,
+          "label": "dash j.PKSD",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 0.433,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-dash-j-ppksd-or-j-kpksd-enkasu",
+      "name": "Throw > dash j.PPKSD or j.KPKSD > Enkasu",
+      "notation": "Throw > dash j.PPKSD or j.KPKSD > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "dash j.PPKSD or j.KPKSD",
+          "time": 0.217,
+          "label": "dash j.PPKSD or j.KPKSD",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 0.433,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-6k-mist-cancel-iad-j-d-enkasu",
+      "name": "Throw > 6K (mist cancel) > iad j.D > Enkasu",
+      "notation": "Throw > 6K (mist cancel) > iad j.D > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 0.217,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "iad j.D",
+          "time": 0.483,
+          "label": "iad j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 0.7,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-6k-mist-cancel-sj-iad-j-d-enkasu",
+      "name": "Throw > 6K (mist cancel) > sj iad j.D > Enkasu",
+      "notation": "Throw > 6K (mist cancel) > sj iad j.D > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 0.217,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "sj iad j.D",
+          "time": 0.483,
+          "label": "sj iad j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 0.7,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-mf-kvl-1-high-tk-ensenga",
+      "name": "Throw > MF Kvl 1 High > TK Ensenga",
+      "notation": "Throw > MF Kvl 1 High > TK Ensenga",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "MF Kvl 1 High",
+          "time": 0.217,
+          "label": "MF Kvl 1 High",
+          "window": 100
+        },
+        {
+          "key": "TK Ensenga",
+          "time": 0.433,
+          "label": "TK Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-j-k-kj-frc-j-d-enkasu",
+      "name": "Throw > j.K > KJ FRC > j.D > Enkasu",
+      "notation": "Throw > j.K > KJ FRC > j.D > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.217,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "KJ FRC",
+          "time": 0.55,
+          "label": "KJ FRC",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 0.767,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 0.9,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-6k-delayed-up-coin-rising-j-d-enkasu",
+      "name": "Throw > 6K > delayed Up Coin > rising j.D > Enkasu",
+      "notation": "Throw > 6K > delayed Up Coin > rising j.D > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 0.217,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "delayed Up Coin",
+          "time": 0.483,
+          "label": "delayed Up Coin",
+          "window": 100
+        },
+        {
+          "key": "rising j.D",
+          "time": 0.7,
+          "label": "rising j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 0.917,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-6k-delayed-up-coin-enkasu",
+      "name": "Throw > 6K > delayed Up Coin > Enkasu",
+      "notation": "Throw > 6K > delayed Up Coin > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 0.217,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "delayed Up Coin",
+          "time": 0.483,
+          "label": "delayed Up Coin",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 0.7,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-6k-up-coin-sj-k-j-s-j-d-ensenga",
+      "name": "Throw > 6K > Up Coin > sj.K > j.S > j.D > Ensenga",
+      "notation": "Throw > 6K > Up Coin > sj.K > j.S > j.D > Ensenga",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 0.217,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 0.483,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "sj.K",
+          "time": 0.7,
+          "label": "sj.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.917,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.317,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Ensenga",
+          "time": 1.45,
+          "label": "Ensenga",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-up-coin-dash-j-p-j-p-j-s-j-d-enk",
+      "name": "Throw > Up Coin > dash j.P > j.P > j.S > j.D > Enkasu (Can a",
+      "notation": "Throw > Up Coin > dash j.P > j.P > j.S > j.D > Enkasu (Can also change to j.P > j.P > j.K > j.S > j.D > Enkasu if you're very close)",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 0.217,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "dash j.P",
+          "time": 0.433,
+          "label": "dash j.P",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.65,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.917,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.317,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu (Can also change to j.P",
+          "time": 1.45,
+          "label": "Enkasu (Can also change to j.P",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 1.667,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.933,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.267,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 2.667,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu if you're very close)",
+          "time": 2.8,
+          "label": "Enkasu if you're very close)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-up-coin-sj-p-j-k-j-p-j-k-j-d-e",
+      "name": "Throw > Up Coin > sj.P > j.K > j.P > j.K > j.D > Enkasu",
+      "notation": "Throw > Up Coin > sj.P > j.K > j.P > j.K > j.D > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 0.217,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "sj.P",
+          "time": 0.433,
+          "label": "sj.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.65,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.983,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.25,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.583,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 1.717,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-delayed-up-coin-around-when-the-body-is-f",
+      "name": "Throw > Delayed Up Coin (Around when the body is falling ver",
+      "notation": "Throw > Delayed Up Coin (Around when the body is falling vertically) > j.P > j.P > j.S > j.D > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "Delayed Up Coin",
+          "time": 0.217,
+          "label": "Delayed Up Coin",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.433,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.7,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.967,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.367,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 1.5,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-mf-lvl-1-high-up-coin-j-d-enkasu",
+      "name": "Throw > MF Lvl 1 High > Up Coin > j.D > Enkasu",
+      "notation": "Throw > MF Lvl 1 High > Up Coin > j.D > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 1 High",
+          "time": 0.217,
+          "label": "MF Lvl 1 High",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 0.433,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 0.65,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 0.783,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-mf-lvl-1-high-coin-mf-lvl-2-high-bac",
+      "name": "Throw > MF Lvl 1 High > Coin > MF Lvl 2 High > Backdash > Co",
+      "notation": "Throw > MF Lvl 1 High > Coin > MF Lvl 2 High > Backdash > Coin > etc",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 1 High",
+          "time": 0.217,
+          "label": "MF Lvl 1 High",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.433,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 2 High",
+          "time": 0.65,
+          "label": "MF Lvl 2 High",
+          "window": 100
+        },
+        {
+          "key": "Backdash",
+          "time": 0.867,
+          "label": "Backdash",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 1.083,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "etc",
+          "time": 1.3,
+          "label": "etc",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-mf-lvl-1-high-6k-up-coin-j-d-enkas",
+      "name": "Throw > MF Lvl 1 High > 6K > Up Coin > j.D > Enkasu",
+      "notation": "Throw > MF Lvl 1 High > 6K > Up Coin > j.D > Enkasu",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "MF Lvl 1 High",
+          "time": 0.217,
+          "label": "MF Lvl 1 High",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 0.433,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "Up Coin",
+          "time": 0.7,
+          "label": "Up Coin",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 0.917,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Enkasu",
+          "time": 1.05,
+          "label": "Enkasu",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "throw-coin-sj-pppksde",
+      "name": "Throw > Coin > sj.PPPKSDE",
+      "notation": "Throw > Coin > sj.PPPKSDE",
+      "description": "",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "Coin",
+          "time": 0.217,
+          "label": "Coin",
+          "window": 100
+        },
+        {
+          "key": "sj.PPPKSDE",
+          "time": 0.433,
+          "label": "sj.PPPKSDE",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    }
+  ],
+  "frameData": {
+    "1": {
+      "input": "1",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 5,
+      "on_hit": 10,
+      "raw_on_hit": "10"
+    },
+    "5K": {
+      "input": "5K",
+      "startup": 6,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "c.S": {
+      "input": "c.S",
+      "startup": 6,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "f.S": {
+      "input": "f.S",
+      "startup": 8,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "5H": {
+      "input": "5H",
+      "startup": 11,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "5D": {
+      "input": "5D",
+      "startup": 30,
+      "on_hit": 48,
+      "raw_on_hit": "Launch 48"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 11,
+      "on_hit": 28,
+      "raw_on_hit": "Launch 28"
+    },
+    "6K": {
+      "input": "6K",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "6H": {
+      "input": "6H",
+      "startup": 18,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "3H": {
+      "input": "3H",
+      "startup": 11,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "2P": {
+      "input": "2P",
+      "startup": 5,
+      "on_hit": 10,
+      "raw_on_hit": "10"
+    },
+    "2K": {
+      "input": "2K",
+      "startup": 8,
+      "on_hit": 10,
+      "raw_on_hit": "10"
+    },
+    "2S": {
+      "input": "2S",
+      "startup": 9,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 5,
+      "on_hit": 19,
+      "raw_on_hit": "19"
+    },
+    "2D": {
+      "input": "2D",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.P": {
+      "input": "j.P",
+      "startup": 6,
+      "on_hit": 10,
+      "raw_on_hit": "10"
+    },
+    "j.K": {
+      "input": "j.K",
+      "startup": 8,
+      "on_hit": 12,
+      "raw_on_hit": "12"
+    },
+    "j.S": {
+      "input": "j.S",
+      "startup": 10,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 13,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "j.D": {
+      "input": "j.D",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "name": {
+      "input": "name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "groundHit"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 0,
+      "on_hit": 43,
+      "raw_on_hit": "Launch 43"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Dead Angle Attack": {
+      "input": "Dead Angle Attack",
+      "startup": 14,
+      "on_hit": 28,
+      "raw_on_hit": "Launch 28 + WBounce"
+    },
+    "Forward Dash": {
+      "input": "Forward Dash",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236[P/K/S]": {
+      "input": "236[P/K/S]",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Stance 66": {
+      "input": "Stance 66",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Stance 44": {
+      "input": "Stance 44",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Stance H": {
+      "input": "Stance H",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "236P Lv1": {
+      "input": "236P Lv1",
+      "startup": 9,
+      "on_hit": 17,
+      "raw_on_hit": "17"
+    },
+    "236P Lv2": {
+      "input": "236P Lv2",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236P Lv3": {
+      "input": "236P Lv3",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236K Lv1": {
+      "input": "236K Lv1",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236K Lv2": {
+      "input": "236K Lv2",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236K Lv3": {
+      "input": "236K Lv3",
+      "startup": 4,
+      "on_hit": 19,
+      "raw_on_hit": "19×8, Stagger 55"
+    },
+    "236S Lv1": {
+      "input": "236S Lv1",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236S Lv2": {
+      "input": "236S Lv2",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236S Lv3": {
+      "input": "236S Lv3",
+      "startup": 4,
+      "on_hit": 19,
+      "raw_on_hit": "19×8, Launch"
+    },
+    "236H": {
+      "input": "236H",
+      "startup": 5,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "214H": {
+      "input": "214H",
+      "startup": 5,
+      "on_hit": 14,
+      "raw_on_hit": "14"
+    },
+    "214P": {
+      "input": "214P",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.41236H": {
+      "input": "j.41236H",
+      "startup": 9,
+      "on_hit": 14,
+      "raw_on_hit": "14, Launch"
+    },
+    "623S": {
+      "input": "623S",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "623S > S": {
+      "input": "623S > S",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "Down"
+    },
+    "j.236S": {
+      "input": "j.236S",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Down"
+    },
+    "421S": {
+      "input": "421S",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "421S > S": {
+      "input": "421S > S",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "j.214S": {
+      "input": "j.214S",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "214D": {
+      "input": "214D",
+      "startup": 13,
+      "on_hit": 47,
+      "raw_on_hit": "Stagger 47"
+    },
+    "Stance > 214D": {
+      "input": "Stance > 214D",
+      "startup": 6,
+      "on_hit": 56,
+      "raw_on_hit": "Stagger 56"
+    },
+    "Stance Step > 214D": {
+      "input": "Stance Step > 214D",
+      "startup": 3,
+      "on_hit": 68,
+      "raw_on_hit": "Stagger 68"
+    },
+    "214D > 236D": {
+      "input": "214D > 236D",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "632146H": {
+      "input": "632146H",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "Down"
+    },
+    "j.236236H": {
+      "input": "j.236236H",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "Launch"
+    },
+    "236236H": {
+      "input": "236236H",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

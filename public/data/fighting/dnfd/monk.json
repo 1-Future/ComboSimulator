@@ -1,0 +1,360 @@
+{
+  "characterId": "monk",
+  "game": "dnfd",
+  "gameName": "DNF Duel",
+  "name": "Monk",
+  "combos": [
+    {
+      "id": "j-s-1-2-j-m-4s-m-6s-a-5m-4s-m-66-2s",
+      "name": "j.S (1-2) > j.M > 4S~M > 6S~A > 5M > 4S~M > (66)2S > 6S~S > ",
+      "notation": "j.S (1-2) > j.M > 4S~M > 6S~A > 5M > 4S~M > (66)2S > 6S~S > AS",
+      "description": "Midscreen or Corner — 694-763 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen or corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.S",
+          "time": 0.0,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 0.217,
+          "label": "j.M",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.433,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "M",
+          "time": 0.65,
+          "label": "M",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.867,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "A",
+          "time": 1.083,
+          "label": "A",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.3,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.517,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "M",
+          "time": 1.733,
+          "label": "M",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.95,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.167,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "S",
+          "time": 2.383,
+          "label": "S",
+          "window": 100
+        },
+        {
+          "key": "AS",
+          "time": 2.6,
+          "label": "AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "694-763"
+    },
+    {
+      "id": "4s-m-dl-6s-s-4s-m-6s-s-x-3-2b-as",
+      "name": "4S~M > dl.6S~S > (4S~M > 6S~S) x 3 > 2B > AS",
+      "notation": "4S~M > dl.6S~S > (4S~M > 6S~S) x 3 > 2B > AS",
+      "description": "Corner — 1030 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "4S",
+          "time": 0.0,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "M",
+          "time": 0.217,
+          "label": "M",
+          "window": 100
+        },
+        {
+          "key": "dl.6S",
+          "time": 0.433,
+          "label": "dl.6S",
+          "window": 100
+        },
+        {
+          "key": "S",
+          "time": 0.65,
+          "label": "S",
+          "window": 100
+        },
+        {
+          "key": "(4S",
+          "time": 0.867,
+          "label": "(4S",
+          "window": 100
+        },
+        {
+          "key": "M",
+          "time": 1.083,
+          "label": "M",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.3,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "S) x 3",
+          "time": 1.517,
+          "label": "S) x 3",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 1.733,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "AS",
+          "time": 1.933,
+          "label": "AS",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "1030"
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Heavenly Combination": {
+      "input": "Heavenly Combination",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Heavenly Combination (Second)": {
+      "input": "Heavenly Combination (Second)",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Heavenly Combination (Third)": {
+      "input": "Heavenly Combination (Third)",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Second Upper": {
+      "input": "Second Upper",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Ducking Dash": {
+      "input": "Ducking Dash",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Ducking Straight": {
+      "input": "Ducking Straight",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Ducking Upper": {
+      "input": "Ducking Upper",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Ducking Blow": {
+      "input": "Ducking Blow",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Sway": {
+      "input": "Sway",
+      "startup": 3,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Skywind": {
+      "input": "Skywind",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Big Bang Punch": {
+      "input": "Big Bang Punch",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Corkscrew Blow": {
+      "input": "Corkscrew Blow",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Gatling Punch": {
+      "input": "Gatling Punch",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Atomic Chopper": {
+      "input": "Atomic Chopper",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Demolition Punch": {
+      "input": "Demolition Punch",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Big Bang Punch (Air)": {
+      "input": "Big Bang Punch (Air)",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Throw": {
+      "input": "Throw",
+      "startup": 5,
+      "on_hit": 2,
+      "raw_on_hit": "HKD (+2)"
+    },
+    "Dodge": {
+      "input": "Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Backwards Dodge": {
+      "input": "Backwards Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Guard Cancel": {
+      "input": "Guard Cancel",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Execution of Justice: Holy See of Lemidios": {
+      "input": "Execution of Justice: Holy See of Lemidios",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    }
+  }
+}

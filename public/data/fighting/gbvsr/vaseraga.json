@@ -1,0 +1,2362 @@
+{
+  "characterId": "vaseraga",
+  "game": "gbvsr",
+  "gameName": "Granblue Fantasy Versus: Rising",
+  "name": "Vaseraga",
+  "combos": [
+    {
+      "id": "f-m-rs-f-l-214h-f-h-22h-l-c-h-air-ender",
+      "name": "f.M > RS, f.L > 214H, f.H > 22H~L, c.H > Air Ender",
+      "notation": "f.M > RS, f.L > 214H, f.H > 22H~L, c.H > Air Ender",
+      "description": "Corner — 6230 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "f.M",
+          "time": 0.0,
+          "label": "f.M",
+          "window": 100
+        },
+        {
+          "key": "RS",
+          "time": 0.233,
+          "label": "RS",
+          "window": 100
+        },
+        {
+          "key": "f.L",
+          "time": 0.45,
+          "label": "f.L",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 0.683,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "f.H",
+          "time": 1.633,
+          "label": "f.H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 1.917,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 2.133,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 2.35,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "Air Ender",
+          "time": 2.6,
+          "label": "Air Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6230"
+    },
+    {
+      "id": "f-m-rs-rc-214h-c-h-22h-l-c-hh-632146m",
+      "name": "f.M > RS~RC, 214H, c.H > 22H~L, c.HH > 632146M",
+      "notation": "f.M > RS~RC, 214H, c.H > 22H~L, c.HH > 632146M",
+      "description": "Corner — 6876 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "f.M",
+          "time": 0.0,
+          "label": "f.M",
+          "window": 100
+        },
+        {
+          "key": "RS",
+          "time": 0.233,
+          "label": "RS",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.45,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 0.667,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 1.617,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 1.867,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 2.083,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "c.HH",
+          "time": 2.3,
+          "label": "c.HH",
+          "window": 100
+        },
+        {
+          "key": "632146M",
+          "time": 2.517,
+          "label": "632146M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6876"
+    },
+    {
+      "id": "f-m-rs-rc-4-6u-2m-22h-h-2m-214h-5u",
+      "name": "f.M > RS~RC, [4]6U, 2M > 22H~H, 2M > 214H, 5U",
+      "notation": "f.M > RS~RC, [4]6U, 2M > 22H~H, 2M > 214H, 5U",
+      "description": " — 6620 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "f.M",
+          "time": 0.0,
+          "label": "f.M",
+          "window": 100
+        },
+        {
+          "key": "RS",
+          "time": 0.233,
+          "label": "RS",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.45,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "[4]6U",
+          "time": 0.667,
+          "label": "[4]6U",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.867,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 2.833,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 3.05,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 3.267,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 4.233,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "5U",
+          "time": 5.183,
+          "label": "5U",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6620"
+    },
+    {
+      "id": "ch-f-h-4-6u-2m-22h-h-f-l-rs-rc-c-m-632",
+      "name": "CH f.H > [4]6U, 2M > 22H~H, f.L > RS~RC, c.M > 632146M",
+      "notation": "CH f.H > [4]6U, 2M > 22H~H, f.L > RS~RC, c.M > 632146M",
+      "description": " — 5880 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH f.H",
+          "time": 0.0,
+          "label": "CH f.H",
+          "window": 100
+        },
+        {
+          "key": "[4]6U",
+          "time": 0.217,
+          "label": "[4]6U",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.417,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 2.383,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 2.6,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "f.L",
+          "time": 2.817,
+          "label": "f.L",
+          "window": 100
+        },
+        {
+          "key": "RS",
+          "time": 3.05,
+          "label": "RS",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 3.267,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "c.M",
+          "time": 3.483,
+          "label": "c.M",
+          "window": 100
+        },
+        {
+          "key": "632146M",
+          "time": 3.733,
+          "label": "632146M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5880"
+    },
+    {
+      "id": "f-h-214u-4-6h",
+      "name": "f.H > 214U, [4]6H",
+      "notation": "f.H > 214U, [4]6H",
+      "description": "Anywhere — 4000 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "f.H",
+          "time": 0.0,
+          "label": "f.H",
+          "window": 100
+        },
+        {
+          "key": "214U",
+          "time": 0.35,
+          "label": "214U",
+          "window": 100
+        },
+        {
+          "key": "[4]6H",
+          "time": 1.917,
+          "label": "[4]6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "4000"
+    },
+    {
+      "id": "f-h-214u-4-6u-2m-22h-h-2m-214h-5u",
+      "name": "f.H > 214U, [4]6U, 2M > 22H~H, 2M > 214H, 5U",
+      "notation": "f.H > 214U, [4]6U, 2M > 22H~H, 2M > 214H, 5U",
+      "description": " — 5715 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "f.H",
+          "time": 0.0,
+          "label": "f.H",
+          "window": 100
+        },
+        {
+          "key": "214U",
+          "time": 0.35,
+          "label": "214U",
+          "window": 100
+        },
+        {
+          "key": "[4]6U",
+          "time": 1.917,
+          "label": "[4]6U",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 3.117,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 4.083,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 4.3,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 4.517,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 5.483,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "5U",
+          "time": 6.433,
+          "label": "5U",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5715"
+    },
+    {
+      "id": "ch-f-h-4-6u-2m-22h-h-2m-214h-5u",
+      "name": "CH f.H > [4]6U, 2M > 22H~H, 2M > 214H, 5U",
+      "notation": "CH f.H > [4]6U, 2M > 22H~H, 2M > 214H, 5U",
+      "description": " — 5050 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH f.H",
+          "time": 0.0,
+          "label": "CH f.H",
+          "window": 100
+        },
+        {
+          "key": "[4]6U",
+          "time": 0.217,
+          "label": "[4]6U",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.417,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 2.383,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 2.6,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.817,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 3.783,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "5U",
+          "time": 4.733,
+          "label": "5U",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5050"
+    },
+    {
+      "id": "ch-c-m-c-h-22h-h-f-m-5u",
+      "name": "CH c.M, c.H > 22H~H, f.M > 5U",
+      "notation": "CH c.M, c.H > 22H~H, f.M > 5U",
+      "description": "Anywhere — 5100 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH c.M",
+          "time": 0.0,
+          "label": "CH c.M",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 0.217,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 0.467,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 0.683,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "f.M",
+          "time": 0.9,
+          "label": "f.M",
+          "window": 100
+        },
+        {
+          "key": "5U",
+          "time": 1.083,
+          "label": "5U",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5100"
+    },
+    {
+      "id": "ch-c-m-c-h-rs-rc-c-m-22h-h-2m-214h",
+      "name": "CH c.M, c.H > RS~RC, c.M > 22H~H, 2M > 214H",
+      "notation": "CH c.M, c.H > RS~RC, c.M > 22H~H, 2M > 214H",
+      "description": " — 6420 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH c.M",
+          "time": 0.0,
+          "label": "CH c.M",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 0.217,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "RS",
+          "time": 0.467,
+          "label": "RS",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.683,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "c.M",
+          "time": 0.9,
+          "label": "c.M",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 1.15,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 1.367,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.583,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 2.55,
+          "label": "214H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6420"
+    },
+    {
+      "id": "ch-22l-l-c-h-214h-2h-22h-whiff-h-c-h-air",
+      "name": "CH 22L~L, c.H > 214H, 2H > 22H(whiff)~H, c.H > Air Ender",
+      "notation": "CH 22L~L, c.H > 214H, 2H > 22H(whiff)~H, c.H > Air Ender",
+      "description": " — 7870 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 22L",
+          "time": 0.0,
+          "label": "CH 22L",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 0.217,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 0.433,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 0.683,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 1.633,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 1.85,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 2.067,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 2.283,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "Air Ender",
+          "time": 2.533,
+          "label": "Air Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7870"
+    },
+    {
+      "id": "ch-22m-l-f-h-214h-2h-22h-whiff-h-c-h-air",
+      "name": "CH 22M~L, f.H > 214H, 2H > 22H(whiff)~H, c.H > Air Ender",
+      "notation": "CH 22M~L, f.H > 214H, 2H > 22H(whiff)~H, c.H > Air Ender",
+      "description": "Corner — 7320 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 22M",
+          "time": 0.0,
+          "label": "CH 22M",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 0.217,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "f.H",
+          "time": 0.433,
+          "label": "f.H",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 0.717,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 1.667,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 1.883,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 2.1,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 2.317,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "Air Ender",
+          "time": 2.567,
+          "label": "Air Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7320"
+    },
+    {
+      "id": "2h-22h-whiff-h-c-hh-214h-5u",
+      "name": "2H > 22H(whiff)~H, c.HH > 214H, 5U",
+      "notation": "2H > 22H(whiff)~H, c.HH > 214H, 5U",
+      "description": " — 5950 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2H",
+          "time": 0.0,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 0.367,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 0.583,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "c.HH",
+          "time": 0.8,
+          "label": "c.HH",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 1.017,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "5U",
+          "time": 1.967,
+          "label": "5U",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5950"
+    },
+    {
+      "id": "ch-2h-22l-66-whiff-h-c-h-22h-h-2m-214h-5",
+      "name": "CH 2H > 22L~66(whiff)~H, c.H > 22H~H, 2M > 214H, 5U",
+      "notation": "CH 2H > 22L~66(whiff)~H, c.H > 22H~H, 2M > 214H, 5U",
+      "description": " — 6750 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 2H",
+          "time": 0.0,
+          "label": "CH 2H",
+          "window": 100
+        },
+        {
+          "key": "22L",
+          "time": 0.217,
+          "label": "22L",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.433,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 0.65,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 0.867,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 1.117,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 1.333,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.55,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 2.517,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "5U",
+          "time": 3.467,
+          "label": "5U",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6750"
+    },
+    {
+      "id": "ch-2h-4-6-h-214h-2h-22h-whiff-l-c-h-ai",
+      "name": "CH 2H > [4]6[H], 214H, 2H > 22H(whiff)~L, c.H > Air Ender",
+      "notation": "CH 2H > [4]6[H], 214H, 2H > 22H(whiff)~L, c.H > Air Ender",
+      "description": "Midscreen — 7582 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 2H",
+          "time": 0.0,
+          "label": "CH 2H",
+          "window": 100
+        },
+        {
+          "key": "[4]6[H]",
+          "time": 0.217,
+          "label": "[4]6[H]",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 0.433,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 1.383,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 1.6,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 1.817,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 2.033,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "Air Ender",
+          "time": 2.283,
+          "label": "Air Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7582"
+    },
+    {
+      "id": "66h-2h-22h-whiff-h-2m-214h",
+      "name": "66H, 2H > 22H(whiff)~H, 2M > 214H",
+      "notation": "66H, 2H > 22H(whiff)~H, 2M > 214H",
+      "description": " — 5440 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "66H",
+          "time": 0.0,
+          "label": "66H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.95,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 1.167,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 1.383,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.6,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 2.567,
+          "label": "214H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5440"
+    },
+    {
+      "id": "2h-22h-whiff-h-c-h-rs-rc-c-mm-632146m",
+      "name": "2H > 22H(whiff)~H, c.H > RS~RC, c.MM > 632146M",
+      "notation": "2H > 22H(whiff)~H, c.H > RS~RC, c.MM > 632146M",
+      "description": " — 7180 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2H",
+          "time": 0.0,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 0.367,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 0.583,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 0.8,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "RS",
+          "time": 1.05,
+          "label": "RS",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 1.267,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "c.MM",
+          "time": 1.483,
+          "label": "c.MM",
+          "window": 100
+        },
+        {
+          "key": "632146M",
+          "time": 1.7,
+          "label": "632146M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7180"
+    },
+    {
+      "id": "ch-c-h-22l-h-c-h-rs-214h-2h-22h-whiff-l",
+      "name": "CH c.H > 22L~H, c.H > RS, 214H, 2H > 22H(whiff)~L, Air Ender",
+      "notation": "CH c.H > 22L~H, c.H > RS, 214H, 2H > 22H(whiff)~L, Air Ender",
+      "description": " — 8460 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH c.H",
+          "time": 0.0,
+          "label": "CH c.H",
+          "window": 100
+        },
+        {
+          "key": "22L",
+          "time": 0.217,
+          "label": "22L",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 0.433,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 0.65,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "RS",
+          "time": 0.9,
+          "label": "RS",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 1.117,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 2.067,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 2.283,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 2.5,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "Air Ender",
+          "time": 2.717,
+          "label": "Air Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8460"
+    },
+    {
+      "id": "ch-2h-c-h-rs-214h-2h-22h-whiff-h-c-h-a",
+      "name": "CH 2H > c.H > RS, 214H, 2H > 22H(whiff)~H, c.H > Air Ender",
+      "notation": "CH 2H > c.H > RS, 214H, 2H > 22H(whiff)~H, c.H > Air Ender",
+      "description": "Corner — 7876 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 2H",
+          "time": 0.0,
+          "label": "CH 2H",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 0.217,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "RS",
+          "time": 0.467,
+          "label": "RS",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 0.683,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 1.633,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 1.85,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 2.067,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 2.283,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "Air Ender",
+          "time": 2.533,
+          "label": "Air Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7876"
+    },
+    {
+      "id": "ch-66h-c-h-rs-214h-2h-22h-whiff-h-c-h-a",
+      "name": "CH 66H, c.H > RS, 214H, 2H > 22H(whiff)~H, c.H > Air Ender",
+      "notation": "CH 66H, c.H > RS, 214H, 2H > 22H(whiff)~H, c.H > Air Ender",
+      "description": " — 7976 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 66H",
+          "time": 0.0,
+          "label": "CH 66H",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 0.217,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "RS",
+          "time": 0.467,
+          "label": "RS",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 0.683,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 1.633,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 1.85,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 2.067,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 2.283,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "Air Ender",
+          "time": 2.533,
+          "label": "Air Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7976"
+    },
+    {
+      "id": "ch-22l-h-c-h-rs-214h-2h-22h-whiff-l-c",
+      "name": "(CH) 22L~H, c.H > RS, 214H > 2H > 22H(whiff)~L, c.H > Air En",
+      "notation": "(CH) 22L~H, c.H > RS, 214H > 2H > 22H(whiff)~L, c.H > Air Ender",
+      "description": " — 8476 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "22L",
+          "time": 0.0,
+          "label": "22L",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 0.217,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 0.433,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "RS",
+          "time": 0.683,
+          "label": "RS",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 0.9,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 1.85,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 2.067,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 2.283,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 2.5,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "Air Ender",
+          "time": 2.75,
+          "label": "Air Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "8476"
+    },
+    {
+      "id": "2h-22h-h-214u-66h-c-mm-632146m",
+      "name": "2H > 22H~H, 214U, 66H, c.MM > 632146M",
+      "notation": "2H > 22H~H, 214U, 66H, c.MM > 632146M",
+      "description": " — 6962 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2H",
+          "time": 0.0,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 0.367,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 0.583,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "214U",
+          "time": 0.8,
+          "label": "214U",
+          "window": 100
+        },
+        {
+          "key": "66H",
+          "time": 2.367,
+          "label": "66H",
+          "window": 100
+        },
+        {
+          "key": "c.MM",
+          "time": 3.317,
+          "label": "c.MM",
+          "window": 100
+        },
+        {
+          "key": "632146M",
+          "time": 3.533,
+          "label": "632146M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6962"
+    },
+    {
+      "id": "ch-2h-22l-66-h-4-6u-2m-22h-h-632146m",
+      "name": "CH 2H > 22L~66~H, [4]6U, 2M > 22H~H, 632146M",
+      "notation": "CH 2H > 22L~66~H, [4]6U, 2M > 22H~H, 632146M",
+      "description": " — 7575 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 2H",
+          "time": 0.0,
+          "label": "CH 2H",
+          "window": 100
+        },
+        {
+          "key": "22L",
+          "time": 0.217,
+          "label": "22L",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.433,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 0.65,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "[4]6U",
+          "time": 0.867,
+          "label": "[4]6U",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.067,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 3.033,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 3.25,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "632146M",
+          "time": 3.467,
+          "label": "632146M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7575"
+    },
+    {
+      "id": "2h-22l-l-214u-66-2h-22h-whiff-l-c-h-632",
+      "name": "2H > 22L~L, 214U, 66, 2H > 22H(whiff)~L, c.H > 632146M",
+      "notation": "2H > 22L~L, 214U, 66, 2H > 22H(whiff)~L, c.H > 632146M",
+      "description": "Corner — 7082 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2H",
+          "time": 0.0,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22L",
+          "time": 0.367,
+          "label": "22L",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 0.583,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "214U",
+          "time": 0.8,
+          "label": "214U",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 2.367,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 2.583,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 2.8,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 3.017,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 3.233,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "632146M",
+          "time": 3.483,
+          "label": "632146M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7082"
+    },
+    {
+      "id": "ch-22l-h-4-6u-214h-2h-22h-whiff-l-c-h",
+      "name": "(CH) 22L~H, [4]6U, 214H, 2H > 22H(whiff)~L, c.H >  632146M",
+      "notation": "(CH) 22L~H, [4]6U, 214H, 2H > 22H(whiff)~L, c.H >  632146M",
+      "description": "Corner — 9132 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "22L",
+          "time": 0.0,
+          "label": "22L",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 0.217,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "[4]6U",
+          "time": 0.433,
+          "label": "[4]6U",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 1.633,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 2.583,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 2.8,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 3.017,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 3.233,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "632146M",
+          "time": 3.483,
+          "label": "632146M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "9132"
+    },
+    {
+      "id": "2h-4-6-h-c-h-rs-214h-2h-22h-l-ssba",
+      "name": "2H>4[6]H,c.H>RS,214H,2H>22H~L,SSBA",
+      "notation": "2H>4[6]H,c.H>RS,214H,2H>22H~L,SSBA",
+      "description": "Corner — 10952 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2H",
+          "time": 0.0,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "4[6]H",
+          "time": 0.367,
+          "label": "4[6]H",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 0.583,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "RS",
+          "time": 0.833,
+          "label": "RS",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 1.05,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 2.0,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 2.217,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 2.433,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "SSBA",
+          "time": 2.65,
+          "label": "SSBA",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "10952"
+    },
+    {
+      "id": "ch-22l-l-c-m-214h-2h-22l-h-c-m-oki",
+      "name": "CH 22L~L, c.M > 214H,2H > 22L~H > c.M, Oki",
+      "notation": "CH 22L~L, c.M > 214H,2H > 22L~H > c.M, Oki",
+      "description": "Corner — 6150 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 22L",
+          "time": 0.0,
+          "label": "CH 22L",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 0.217,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "c.M",
+          "time": 0.433,
+          "label": "c.M",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 0.683,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 1.633,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22L",
+          "time": 1.85,
+          "label": "22L",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 2.067,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "c.M",
+          "time": 2.283,
+          "label": "c.M",
+          "window": 100
+        },
+        {
+          "key": "Oki",
+          "time": 2.533,
+          "label": "Oki",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6150"
+    },
+    {
+      "id": "ch-22l-l-c-m-214h-2h-22h-whiff-l-c-h-air",
+      "name": "CH 22L~L, c.M > 214H, 2H > 22H(whiff)~L, c.H > Air Ender",
+      "notation": "CH 22L~L, c.M > 214H, 2H > 22H(whiff)~L, c.H > Air Ender",
+      "description": "Corner — 6820 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 22L",
+          "time": 0.0,
+          "label": "CH 22L",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 0.217,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "c.M",
+          "time": 0.433,
+          "label": "c.M",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 0.683,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 1.633,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 1.85,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 2.067,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 2.283,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "Air Ender",
+          "time": 2.533,
+          "label": "Air Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6820"
+    },
+    {
+      "id": "ch-22m-l-f-l-214h-2h-22l-l-2m-oki",
+      "name": "CH 22M~L, f.L > 214H,2H > 22L~L, 2M > Oki",
+      "notation": "CH 22M~L, f.L > 214H,2H > 22L~L, 2M > Oki",
+      "description": "Corner — 5420 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 22M",
+          "time": 0.0,
+          "label": "CH 22M",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 0.217,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "f.L",
+          "time": 0.433,
+          "label": "f.L",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 0.667,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 1.617,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22L",
+          "time": 1.833,
+          "label": "22L",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 2.05,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.267,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "Oki",
+          "time": 3.233,
+          "label": "Oki",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "5420"
+    },
+    {
+      "id": "ch-22m-l-f-l-214h-2h-22h-whiff-l-c-h-air",
+      "name": "CH 22M~L, f.L > 214H, 2H > 22H(whiff)~L, c.H > Air Ender",
+      "notation": "CH 22M~L, f.L > 214H, 2H > 22H(whiff)~L, c.H > Air Ender",
+      "description": " — 6420 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH 22M",
+          "time": 0.0,
+          "label": "CH 22M",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 0.217,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "f.L",
+          "time": 0.433,
+          "label": "f.L",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 0.667,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 1.617,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 1.833,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "L",
+          "time": 2.05,
+          "label": "L",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 2.267,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "Air Ender",
+          "time": 2.517,
+          "label": "Air Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "6420"
+    },
+    {
+      "id": "far-214u-f-h-5u",
+      "name": "Far 214U, f.H, 5U",
+      "notation": "Far 214U, f.H, 5U",
+      "description": "Anywhere — 3260 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Far 214U",
+          "time": 0.0,
+          "label": "Far 214U",
+          "window": 100
+        },
+        {
+          "key": "f.H",
+          "time": 0.217,
+          "label": "f.H",
+          "window": 100
+        },
+        {
+          "key": "5U",
+          "time": 0.5,
+          "label": "5U",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "3260"
+    },
+    {
+      "id": "far-214u-4-6h",
+      "name": "Far 214U, [4]6H",
+      "notation": "Far 214U, [4]6H",
+      "description": "Anywhere — 3960 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anywhere"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Far 214U",
+          "time": 0.0,
+          "label": "Far 214U",
+          "window": 100
+        },
+        {
+          "key": "[4]6H",
+          "time": 0.217,
+          "label": "[4]6H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "3960"
+    },
+    {
+      "id": "214u-22l-h-c-m-22h-h-214h-c-h-air-ender",
+      "name": "214U, 22L~H, c.M > 22H~H, 214H, c.H > Air Ender",
+      "notation": "214U, 22L~H, c.M > 22H~H, 214H, c.H > Air Ender",
+      "description": "Corner — 7704 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "214U",
+          "time": 0.0,
+          "label": "214U",
+          "window": 100
+        },
+        {
+          "key": "22L",
+          "time": 1.567,
+          "label": "22L",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 1.783,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "c.M",
+          "time": 2.0,
+          "label": "c.M",
+          "window": 100
+        },
+        {
+          "key": "22H",
+          "time": 2.25,
+          "label": "22H",
+          "window": 100
+        },
+        {
+          "key": "H",
+          "time": 2.467,
+          "label": "H",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 2.683,
+          "label": "214H",
+          "window": 100
+        },
+        {
+          "key": "c.H",
+          "time": 3.633,
+          "label": "c.H",
+          "window": 100
+        },
+        {
+          "key": "Air Ender",
+          "time": 3.883,
+          "label": "Air Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "7704"
+    }
+  ],
+  "frameData": {
+    "input": {
+      "input": "input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "onHit"
+    },
+    "c.L": {
+      "input": "c.L",
+      "startup": 7,
+      "on_hit": 8,
+      "raw_on_hit": "+8"
+    },
+    "c.M": {
+      "input": "c.M",
+      "startup": 8,
+      "on_hit": 7,
+      "raw_on_hit": "+7"
+    },
+    "c.H": {
+      "input": "c.H",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "±0 [+8Force Crouch]"
+    },
+    "c.XX": {
+      "input": "c.XX",
+      "startup": 9,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "c.XXX": {
+      "input": "c.XXX",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "±0"
+    },
+    "c.XX6M": {
+      "input": "c.XX6M",
+      "startup": 12,
+      "on_hit": 30,
+      "raw_on_hit": "KD +30"
+    },
+    "c.XX6H": {
+      "input": "c.XX6H",
+      "startup": 18,
+      "on_hit": 1,
+      "raw_on_hit": "+1Force Crouch"
+    },
+    "f.L": {
+      "input": "f.L",
+      "startup": 8,
+      "on_hit": 6,
+      "raw_on_hit": "+6"
+    },
+    "f.M": {
+      "input": "f.M",
+      "startup": 11,
+      "on_hit": -3,
+      "raw_on_hit": "-3"
+    },
+    "f.H": {
+      "input": "f.H",
+      "startup": 17,
+      "on_hit": -4,
+      "raw_on_hit": "-4 [+17Force Crouch]"
+    },
+    "2L": {
+      "input": "2L",
+      "startup": 6,
+      "on_hit": 4,
+      "raw_on_hit": "+4"
+    },
+    "2M": {
+      "input": "2M",
+      "startup": 9,
+      "on_hit": 49,
+      "raw_on_hit": "HKD +49"
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 13,
+      "on_hit": -9,
+      "raw_on_hit": "-9 [KD +40]"
+    },
+    "2U": {
+      "input": "2U",
+      "startup": 16,
+      "on_hit": 52,
+      "raw_on_hit": "HKD +52"
+    },
+    "66L": {
+      "input": "66L",
+      "startup": 8,
+      "on_hit": 6,
+      "raw_on_hit": "+6"
+    },
+    "66M": {
+      "input": "66M",
+      "startup": 22,
+      "on_hit": 12,
+      "raw_on_hit": "Air Tech +12"
+    },
+    "66H": {
+      "input": "66H",
+      "startup": 20,
+      "on_hit": 37,
+      "raw_on_hit": "KD +37 [KD +47]"
+    },
+    "j.L": {
+      "input": "j.L",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.M": {
+      "input": "j.M",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.U": {
+      "input": "j.U",
+      "startup": 0,
+      "on_hit": 3,
+      "raw_on_hit": "+3"
+    },
+    "5U": {
+      "input": "5U",
+      "startup": 21,
+      "on_hit": 15,
+      "raw_on_hit": "+15Force Crouch"
+    },
+    "214L": {
+      "input": "214L",
+      "startup": 22,
+      "on_hit": 37,
+      "raw_on_hit": "KD +37"
+    },
+    "214M": {
+      "input": "214M",
+      "startup": 12,
+      "on_hit": 32,
+      "raw_on_hit": "KD +32"
+    },
+    "214H": {
+      "input": "214H",
+      "startup": 9,
+      "on_hit": 48,
+      "raw_on_hit": "KD +48"
+    },
+    "[4]6L": {
+      "input": "[4]6L",
+      "startup": 16,
+      "on_hit": 19,
+      "raw_on_hit": "Air Tech +19"
+    },
+    "[4]6M": {
+      "input": "[4]6M",
+      "startup": 22,
+      "on_hit": 22,
+      "raw_on_hit": "KD +22 [KD +28]"
+    },
+    "[4]6H": {
+      "input": "[4]6H",
+      "startup": 26,
+      "on_hit": 26,
+      "raw_on_hit": "KD +26 (KD +25)"
+    },
+    "632146L": {
+      "input": "632146L",
+      "startup": 12,
+      "on_hit": 35,
+      "raw_on_hit": "KD +35"
+    },
+    "632146M": {
+      "input": "632146M",
+      "startup": 9,
+      "on_hit": 35,
+      "raw_on_hit": "KD +35"
+    },
+    "632146H": {
+      "input": "632146H",
+      "startup": 26,
+      "on_hit": 35,
+      "raw_on_hit": "KD +35"
+    },
+    "22X": {
+      "input": "22X",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "22X~L": {
+      "input": "22X~L",
+      "startup": 12,
+      "on_hit": 36,
+      "raw_on_hit": "KD +36 (KD +43)"
+    },
+    "22X~M": {
+      "input": "22X~M",
+      "startup": 16,
+      "on_hit": 33,
+      "raw_on_hit": "KD +33 (KD +36)"
+    },
+    "22X~H": {
+      "input": "22X~H",
+      "startup": 15,
+      "on_hit": 37,
+      "raw_on_hit": "KD +37"
+    },
+    "22X~U": {
+      "input": "22X~U",
+      "startup": 20,
+      "on_hit": 17,
+      "raw_on_hit": "HKD +17"
+    },
+    "22X~6": {
+      "input": "22X~6",
+      "startup": 16,
+      "on_hit": -10,
+      "raw_on_hit": "-10Force Stand"
+    },
+    "22X~G": {
+      "input": "22X~G",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "214U": {
+      "input": "214U",
+      "startup": 11,
+      "on_hit": 83,
+      "raw_on_hit": "HKD +83"
+    },
+    "[4]6U": {
+      "input": "[4]6U",
+      "startup": 9,
+      "on_hit": 63,
+      "raw_on_hit": "HKD +63"
+    },
+    "632146U": {
+      "input": "632146U",
+      "startup": 16,
+      "on_hit": 44,
+      "raw_on_hit": "HKD +44"
+    },
+    "22U": {
+      "input": "22U",
+      "startup": 15,
+      "on_hit": 27,
+      "raw_on_hit": "HKD +27"
+    },
+    "236236H": {
+      "input": "236236H",
+      "startup": 6,
+      "on_hit": 50,
+      "raw_on_hit": "HKD +50 [HKD +39]"
+    },
+    "236236U": {
+      "input": "236236U",
+      "startup": 8,
+      "on_hit": 37,
+      "raw_on_hit": "HKD +37 [HKD +67]"
+    },
+    "name": {
+      "input": "name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "onHit"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 4,
+      "on_hit": 44,
+      "raw_on_hit": "HKD +44/+53"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 5,
+      "on_hit": 32,
+      "raw_on_hit": "HKD ≈+32"
+    },
+    "Raging Strike": {
+      "input": "Raging Strike",
+      "startup": 28,
+      "on_hit": 15,
+      "raw_on_hit": "+15Force Crouch (KD +40)"
+    },
+    "Raging Chain": {
+      "input": "Raging Chain",
+      "startup": 13,
+      "on_hit": 15,
+      "raw_on_hit": "+15Force Crouch (HKD +63)"
+    },
+    "Brave Counter": {
+      "input": "Brave Counter",
+      "startup": 10,
+      "on_hit": 21,
+      "raw_on_hit": "Air Tech +21 [+5]"
+    }
+  }
+}

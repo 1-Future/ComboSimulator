@@ -1,0 +1,3968 @@
+{
+  "characterId": "vanguard",
+  "game": "dnfd",
+  "gameName": "DNF Duel",
+  "name": "Vanguard",
+  "combos": [
+    {
+      "id": "5a-5b-2b-5m-1-6m",
+      "name": "5A > 5B > 2B > 5M(1)~6M",
+      "notation": "5A > 5B > 2B > 5M(1)~6M",
+      "description": " — 169 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A",
+          "time": 0.0,
+          "label": "5A",
+          "window": 100
+        },
+        {
+          "key": "5B",
+          "time": 0.183,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.417,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.717,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6M",
+          "time": 0.933,
+          "label": "6M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "169"
+    },
+    {
+      "id": "5b-2b-5m-6m",
+      "name": "5B > 2B > 5M~6M",
+      "notation": "5B > 2B > 5M~6M",
+      "description": " — 234 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5B",
+          "time": 0.0,
+          "label": "5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.233,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.533,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6M",
+          "time": 0.75,
+          "label": "6M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "234"
+    },
+    {
+      "id": "5s-6s-4s-5m-6m",
+      "name": "5S > 6S > 4S > 5M~6M",
+      "notation": "5S > 6S > 4S > 5M~6M",
+      "description": " — 322 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5S",
+          "time": 0.0,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.317,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.667,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.0,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6M",
+          "time": 1.217,
+          "label": "6M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "322"
+    },
+    {
+      "id": "5s-6s-4s-2s-jc-j-m-dc-5s-6s-4s-5m-2m",
+      "name": "5S > 6S > 4S > 2S jc j.M dc 5S > 6S > 4S > 5M~2M",
+      "notation": "5S > 6S > 4S > 2S jc j.M dc 5S > 6S > 4S > 5M~2M",
+      "description": " — 433 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5S",
+          "time": 0.0,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.317,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.667,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "2S jc j.M dc 5S",
+          "time": 1.0,
+          "label": "2S jc j.M dc 5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.217,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.567,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.9,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.117,
+          "label": "2M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "433"
+    },
+    {
+      "id": "5a-2a-5b-2b-5m-6m",
+      "name": "5A / 2A > (5B)¹ > 2B > 5M~6M",
+      "notation": "5A / 2A > (5B)¹ > 2B > 5M~6M",
+      "description": " — 189 / 179 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A / 2A",
+          "time": 0.0,
+          "label": "5A / 2A",
+          "window": 100
+        },
+        {
+          "key": "¹",
+          "time": 0.217,
+          "label": "¹",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.433,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.733,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6M",
+          "time": 0.95,
+          "label": "6M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "189 / 179"
+    },
+    {
+      "id": "5a-2a-5b-2b-5m-5m-5s-4s-6s-2s-jc",
+      "name": "5A / 2A > (5B)¹ > 2B > 5M~5M, 5S > 4S > 6S > 2S jc j.M dc 4S",
+      "notation": "5A / 2A > (5B)¹ > 2B > 5M~5M, 5S > 4S > 6S > 2S jc j.M dc 4S > 2S jc j.M",
+      "description": " — 319 / 309 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A / 2A",
+          "time": 0.0,
+          "label": "5A / 2A",
+          "window": 100
+        },
+        {
+          "key": "¹",
+          "time": 0.217,
+          "label": "¹",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.433,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.733,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.95,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.167,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.483,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.817,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "2S jc j.M dc 4S",
+          "time": 2.167,
+          "label": "2S jc j.M dc 4S",
+          "window": 100
+        },
+        {
+          "key": "2S jc j.M",
+          "time": 2.383,
+          "label": "2S jc j.M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "319 / 309"
+    },
+    {
+      "id": "5a-2a-5b-2b-5m-5m-5s-6s-4s-214m",
+      "name": "5A / 2A > 5B¹ > 2B > 5M~5M, 5S > 6S > 4S² > 214M, 4S > 214M,",
+      "notation": "5A / 2A > 5B¹ > 2B > 5M~5M, 5S > 6S > 4S² > 214M, 4S > 214M, j.M",
+      "description": " — 368 / 358 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A / 2A",
+          "time": 0.0,
+          "label": "5A / 2A",
+          "window": 100
+        },
+        {
+          "key": "5B¹",
+          "time": 0.217,
+          "label": "5B¹",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.433,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.733,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.95,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.167,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.483,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S²",
+          "time": 1.833,
+          "label": "4S²",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 2.05,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.267,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 2.6,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 2.817,
+          "label": "j.M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "368 / 358"
+    },
+    {
+      "id": "5a-2a-5b-2b-5m-2m-dash-otg-j-s-6s",
+      "name": "5A / 2A > (5B)¹ > 2B > 5M~2M, dash OTG j.S > 6S > 4S > 214M,",
+      "notation": "5A / 2A > (5B)¹ > 2B > 5M~2M, dash OTG j.S > 6S > 4S > 214M, 2S > jc j.M, dash 6M > Super",
+      "description": " — 526 / 516 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5A / 2A",
+          "time": 0.0,
+          "label": "5A / 2A",
+          "window": 100
+        },
+        {
+          "key": "¹",
+          "time": 0.217,
+          "label": "¹",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.433,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.733,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.95,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 1.167,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.383,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.733,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 2.067,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.283,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 3.017,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash 6M",
+          "time": 3.233,
+          "label": "dash 6M",
+          "window": 100
+        },
+        {
+          "key": "Super",
+          "time": 3.45,
+          "label": "Super",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "526 / 516"
+    },
+    {
+      "id": "2b-236m-dash-5b-2b-236m",
+      "name": "2B > 236M, dash 5B > 2B > 236M",
+      "notation": "2B > 236M, dash 5B > 2B > 236M",
+      "description": " — 282 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2B",
+          "time": 0.0,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.3,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "dash 5B",
+          "time": 0.517,
+          "label": "dash 5B",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.733,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 1.033,
+          "label": "236M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "282"
+    },
+    {
+      "id": "2b-236m-cc-dash-2s-dl-6s-4s-5m-2m-6s",
+      "name": "2B > 236M > cc > dash 2S > dl 6S > 4S > 5M~2M, 6S > 4S > 5M~",
+      "notation": "2B > 236M > cc > dash 2S > dl 6S > 4S > 5M~2M, 6S > 4S > 5M~2M, dash OTG j.S > 2S > 236M((1) > Super)",
+      "description": " — 420 (605) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2B",
+          "time": 0.0,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.3,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "cc",
+          "time": 0.517,
+          "label": "cc",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 0.733,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "dl 6S",
+          "time": 0.95,
+          "label": "dl 6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.167,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.5,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.717,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.933,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.283,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.617,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.833,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 3.05,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 3.267,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 4.0,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 4.217,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "420 (605)"
+    },
+    {
+      "id": "5b-2b-236m-dash-5s-4s-6s-214m-4s",
+      "name": "(5B)* > 2B > 236M, dash 5S > 4S > 6S > 214M, 4S > 214M, 4S >",
+      "notation": "(5B)* > 2B > 236M, dash 5S > 4S > 6S > 214M, 4S > 214M, 4S > 5M~6M",
+      "description": " — 479/508 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "*",
+          "time": 0.0,
+          "label": "*",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.217,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.517,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "dash 5S",
+          "time": 0.733,
+          "label": "dash 5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.95,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.283,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 1.633,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.85,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 2.183,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.4,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.733,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6M",
+          "time": 2.95,
+          "label": "6M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "479/508"
+    },
+    {
+      "id": "5b-2b-5m-2m-dash-otg-j-s-5s-6s-4s",
+      "name": "(5B)* > 2B > 5M~2M, dash OTG j.S > 5S > 6S > 4S > 5M~2M, das",
+      "notation": "(5B)* > 2B > 5M~2M, dash OTG j.S > 5S > 6S > 4S > 5M~2M, dash OTG j.S > 2S > jc j.M, dash OTG 6M((1) > Super)",
+      "description": " — 433 (618) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "*",
+          "time": 0.0,
+          "label": "*",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.217,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.517,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.733,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 0.95,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.167,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.483,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.833,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.167,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.383,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 2.6,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.817,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 3.55,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M",
+          "time": 3.767,
+          "label": "dash OTG 6M",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 3.983,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "433 (618)"
+    },
+    {
+      "id": "aa-5b-236m-dash-5-s-4s-6s-2s-jc-j-m-dc-4s",
+      "name": "AA 5B > 236M, dash 5.S > 4S > 6S > 2S jc j.M dc 4S > 2S jc j",
+      "notation": "AA 5B > 236M, dash 5.S > 4S > 6S > 2S jc j.M dc 4S > 2S jc j.M dc 2S jc j.M",
+      "description": " — 465 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 5B",
+          "time": 0.0,
+          "label": "AA 5B",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.217,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "dash 5.S",
+          "time": 0.433,
+          "label": "dash 5.S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.65,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.983,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "2S jc j.M dc 4S",
+          "time": 1.333,
+          "label": "2S jc j.M dc 4S",
+          "window": 100
+        },
+        {
+          "key": "2S jc j.M dc 2S jc j.M",
+          "time": 1.55,
+          "label": "2S jc j.M dc 2S jc j.M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "465"
+    },
+    {
+      "id": "aa-5b-5m-2m-dash-otg-j-s-5s-6s-4s-5m-2m",
+      "name": "AA 5B > 5M~2M, dash OTG j.S > 5S > 6S > 4S > 5M~2M, dash OTG",
+      "notation": "AA 5B > 5M~2M, dash OTG j.S > 5S > 6S > 4S > 5M~2M, dash OTG j.S > 2S > jc j.M, dash OTG 6M((1) > Super)",
+      "description": " — 433 (618) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 5B",
+          "time": 0.0,
+          "label": "AA 5B",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.217,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.433,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 0.65,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.867,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.183,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.533,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.867,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.083,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 2.3,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.517,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 3.25,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M",
+          "time": 3.467,
+          "label": "dash OTG 6M",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 3.683,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "433 (618)"
+    },
+    {
+      "id": "5b-2b-236m-dash-5s-6s-4s-214m-4s",
+      "name": "(5B)* > 2B > 236M, dash 5S > 6S > 4S > 214M, 4S > 214M, 4S >",
+      "notation": "(5B)* > 2B > 236M, dash 5S > 6S > 4S > 214M, 4S > 214M, 4S > 5M~6M",
+      "description": " — 479/508 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "*",
+          "time": 0.0,
+          "label": "*",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.217,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.517,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "dash 5S",
+          "time": 0.733,
+          "label": "dash 5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.95,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.3,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 1.633,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.85,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 2.183,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.4,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.733,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "6M",
+          "time": 2.95,
+          "label": "6M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "479/508"
+    },
+    {
+      "id": "5b-2b-5m-2m-dash-otg-j-s-6s-5s-4s",
+      "name": "(5B)* > 2B > 5M~2M, dash OTG j.S > 6S > 5S > 4S > 5M~2M, das",
+      "notation": "(5B)* > 2B > 5M~2M, dash OTG j.S > 6S > 5S > 4S > 5M~2M, dash 2S > jc j.M, dash OTG 6M (> Super)",
+      "description": " — 423 (623) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "*",
+          "time": 0.0,
+          "label": "*",
+          "window": 100
+        },
+        {
+          "key": "2B",
+          "time": 0.217,
+          "label": "2B",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.517,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.733,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 0.95,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.167,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.517,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.833,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.167,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.383,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 2.6,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 2.817,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M (",
+          "time": 3.033,
+          "label": "dash OTG 6M (",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 3.25,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "423 (623)"
+    },
+    {
+      "id": "aa-5b-236m-5s-6s-4s-214m-4s-214m-j-m",
+      "name": "AA 5B > 236M, 5S > 6S > 4S > 214M, 4S > 214M, j.M, 4S > 2S j",
+      "notation": "AA 5B > 236M, 5S > 6S > 4S > 214M, 4S > 214M, j.M, 4S > 2S jc j.M",
+      "description": " — 476 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 5B",
+          "time": 0.0,
+          "label": "AA 5B",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.217,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.433,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.75,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.1,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 1.433,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.65,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 1.983,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "j.M",
+          "time": 2.2,
+          "label": "j.M",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.417,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "2S jc j.M",
+          "time": 2.75,
+          "label": "2S jc j.M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "476"
+    },
+    {
+      "id": "aa-5b-5m-2m-dash-otg-j-s-6s-5s-4s-5m-2m",
+      "name": "AA 5B > 5M~2M, dash OTG j.S > 6S > 5S > 4S > 5M~2M, dash 2S ",
+      "notation": "AA 5B > 5M~2M, dash OTG j.S > 6S > 5S > 4S > 5M~2M, dash 2S > jc j.M, dash OTG 6M (> Super)",
+      "description": " — 423 (623) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "AA 5B",
+          "time": 0.0,
+          "label": "AA 5B",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.217,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.433,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 0.65,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.867,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.217,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.533,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.867,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.083,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 2.3,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 2.517,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M (",
+          "time": 2.733,
+          "label": "dash OTG 6M (",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 2.95,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "423 (623)"
+    },
+    {
+      "id": "5s-6s-236m",
+      "name": "5S > 6S > 236M",
+      "notation": "5S > 6S > 236M",
+      "description": " — 256 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5S",
+          "time": 0.0,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.317,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 0.667,
+          "label": "236M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "256"
+    },
+    {
+      "id": "5s-6s-4s-5m-2m-dash-otg-j-s-x2-2s-23",
+      "name": "[ 5S > 6S > 4S > 5M~2M, dash OTG j.S ]x2 > 2S > 236M",
+      "notation": "[ 5S > 6S > 4S > 5M~2M, dash OTG j.S ]x2 > 2S > 236M",
+      "description": " — 471 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "[ 5S",
+          "time": 0.0,
+          "label": "[ 5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.217,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.567,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 0.9,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.117,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S ]x2",
+          "time": 1.333,
+          "label": "dash OTG j.S ]x2",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.55,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 2.283,
+          "label": "236M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "471"
+    },
+    {
+      "id": "5s-6s-4s-5m-2m-dash-otg-j-s-5s-6s-4s",
+      "name": "5S > 6S > 4S > 5M~2M, dash OTG j.S > 5S > 6S > 4S > 5M~2M, d",
+      "notation": "5S > 6S > 4S > 5M~2M, dash OTG j.S > 5S > 6S > 4S > 5M~2M, dash 2S > jc j.M, dash OTG 6M((1) > Super)",
+      "description": " — 483 (668) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5S",
+          "time": 0.0,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.317,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.667,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.0,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.217,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 1.433,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.65,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.967,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.317,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.65,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.867,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 3.083,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 3.3,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M",
+          "time": 3.517,
+          "label": "dash OTG 6M",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 3.733,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "483 (668)"
+    },
+    {
+      "id": "aa-2s-dl-4s-dl-5m-2m-5s-6s-4s-dl-5m-2m-d",
+      "name": "(AA) 2S > dl 4S dl 5M~2M, 5S > 6S > 4S dl 5M~2M, dash OTG j.",
+      "notation": "(AA) 2S > dl 4S dl 5M~2M, 5S > 6S > 4S dl 5M~2M, dash OTG j.S > 2S > 236M",
+      "description": " — 476 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2S",
+          "time": 0.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "dl 4S dl 5M",
+          "time": 0.733,
+          "label": "dl 4S dl 5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.95,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.167,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.483,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S dl 5M",
+          "time": 1.833,
+          "label": "4S dl 5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.05,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 2.267,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.483,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 3.217,
+          "label": "236M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "476"
+    },
+    {
+      "id": "aa-2s-dl-4s-dl-5m-2m-5s-6s-4s-dl-5m-2m-d",
+      "name": "(AA) 2S > dl 4S dl 5M~2M, 5S > 6S > 4S dl 5M~2M, dash OTG j.",
+      "notation": "(AA) 2S > dl 4S dl 5M~2M, 5S > 6S > 4S dl 5M~2M, dash OTG j.S > 2S > jc j.M, dash OTG 6M((1) > Super)",
+      "description": " — 497 (682) damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2S",
+          "time": 0.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "dl 4S dl 5M",
+          "time": 0.733,
+          "label": "dl 4S dl 5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.95,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.167,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.483,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S dl 5M",
+          "time": 1.833,
+          "label": "4S dl 5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.05,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 2.267,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.483,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 3.217,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M",
+          "time": 3.433,
+          "label": "dash OTG 6M",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 3.65,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "497 (682)"
+    },
+    {
+      "id": "j-s-5s-6s-4s-5m-2m-x2-dash-otg-j-s-2",
+      "name": "j.S > [ 5S > 6S > 4S > 5M~2M ]x2, dash OTG j.S > 2S > 236M",
+      "notation": "j.S > [ 5S > 6S > 4S > 5M~2M ]x2, dash OTG j.S > 2S > 236M",
+      "description": " — 410 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.S",
+          "time": 0.0,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "[ 5S",
+          "time": 0.417,
+          "label": "[ 5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.633,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.983,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.317,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M ]x2",
+          "time": 1.533,
+          "label": "2M ]x2",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 1.75,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.967,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 2.7,
+          "label": "236M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "410"
+    },
+    {
+      "id": "j-s-5s-4s-5m-2m-5s-6s-4s-5m-2m-dash",
+      "name": "j.S > 5S > 4S > 5M~2M, 5S > 6S > 4S > 5M~2M, dash OTG j.S > ",
+      "notation": "j.S > 5S > 4S > 5M~2M, 5S > 6S > 4S > 5M~2M, dash OTG j.S > 2S > jc j.M, dash OTG 6M((1) > Super)",
+      "description": " — 427 (612) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.S",
+          "time": 0.0,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.417,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.733,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.067,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.283,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.5,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.817,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.167,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.5,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.717,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 2.933,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 3.15,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 3.883,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M",
+          "time": 4.1,
+          "label": "dash OTG 6M",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 4.317,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "427 (612)"
+    },
+    {
+      "id": "5s-6s-4s-5m-2m-dash-otg-j-s-6s-2s-jc",
+      "name": "5S > 6S > 4S > 5M~2M, dash OTG j.S > 6S > 2S > jc j.S(1) > 6",
+      "notation": "5S > 6S > 4S > 5M~2M, dash OTG j.S > 6S > 2S > jc j.S(1) > 6S > 4S > 214M, dash 2S > 236M",
+      "description": " — 475 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5S",
+          "time": 0.0,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.317,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.667,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.0,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.217,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 1.433,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.65,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.S",
+          "time": 2.733,
+          "label": "jc j.S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.95,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 3.3,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 3.633,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 3.85,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 4.067,
+          "label": "236M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "475"
+    },
+    {
+      "id": "5s-6s-4s-5m-2m-dash-otg-j-s-6s-2s-jc",
+      "name": "5S > 6S > 4S > 5M~2M, dash OTG j.S > 6S > 2S > jc j.S(1) > 6",
+      "notation": "5S > 6S > 4S > 5M~2M, dash OTG j.S > 6S > 2S > jc j.S(1) > 6S > 4S > 214M, dash 2S > jc j.M, dash OTG 6M (> Super)",
+      "description": " — 496 (696) damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5S",
+          "time": 0.0,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.317,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.667,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.0,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.217,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 1.433,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.65,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.S",
+          "time": 2.733,
+          "label": "jc j.S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.95,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 3.3,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "214M",
+          "time": 3.633,
+          "label": "214M",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 3.85,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 4.067,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M (",
+          "time": 4.283,
+          "label": "dash OTG 6M (",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 4.5,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "496 (696)"
+    },
+    {
+      "id": "aa-2s-dl-5s-6s-5m-2m-5s-6s-4s-5m-2m",
+      "name": "(AA) 2S > dl 5S > 6S > 5M~2M, 5S > 6S > 4S > 5M~2M, dash OTG",
+      "notation": "(AA) 2S > dl 5S > 6S > 5M~2M, 5S > 6S > 4S > 5M~2M, dash OTG j.S > 2S > 236M",
+      "description": " — 477 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2S",
+          "time": 0.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "dl 5S",
+          "time": 0.733,
+          "label": "dl 5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.95,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.3,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.517,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.733,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.05,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.4,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.733,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.95,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 3.167,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 3.383,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 4.117,
+          "label": "236M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "477"
+    },
+    {
+      "id": "aa-2s-dl-5s-6s-5m-2m-5s-6s-4s-5m-2m",
+      "name": "(AA) 2S > dl 5S > 6S > 5M~2M, 5S > 6S > 4S > 5M~2M, dash OTG",
+      "notation": "(AA) 2S > dl 5S > 6S > 5M~2M, 5S > 6S > 4S > 5M~2M, dash OTG j.S > 2S > jc j.M, dash OTG 6M (> Super)",
+      "description": " — 498 (698) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2S",
+          "time": 0.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "dl 5S",
+          "time": 0.733,
+          "label": "dl 5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.95,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.3,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.517,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.733,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.05,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.4,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.733,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.95,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 3.167,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 3.383,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 4.117,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M (",
+          "time": 4.333,
+          "label": "dash OTG 6M (",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 4.55,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "498 (698)"
+    },
+    {
+      "id": "j-s-2s-dl-5s-6s-5m-2m-5s-6s-4s-5m-2",
+      "name": "j.S > 2S > dl 5S > 6S > 5M~2M, 5S > 6S > 4S > 5M~2M, dash OT",
+      "notation": "j.S > 2S > dl 5S > 6S > 5M~2M, 5S > 6S > 4S > 5M~2M, dash OTG j.S > 2S > 236M",
+      "description": " — 416 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.S",
+          "time": 0.0,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 0.417,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "dl 5S",
+          "time": 1.15,
+          "label": "dl 5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.367,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.717,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.933,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 2.15,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.467,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.817,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 3.15,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 3.367,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 3.583,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 3.8,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 4.533,
+          "label": "236M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "416"
+    },
+    {
+      "id": "j-s-6s-5s-4s-5m-2m-5s-6s-4s-5m-2m",
+      "name": "j.S > 6S > 5S > 4S > 5M~2M, 5S > 6S > 4S > 5M~2M, dash OTG j",
+      "notation": "j.S > 6S > 5S > 4S > 5M~2M, 5S > 6S > 4S > 5M~2M, dash OTG j.S > 2S > jc j.M, dash OTG 6M (> Super)",
+      "description": " — 431 (631) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.S",
+          "time": 0.0,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.417,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.767,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.083,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.417,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.633,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.85,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.167,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.517,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.85,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 3.067,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 3.283,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 3.5,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 4.233,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M (",
+          "time": 4.45,
+          "label": "dash OTG 6M (",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 4.667,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "431 (631)"
+    },
+    {
+      "id": "236m-1-cc-dash-2s-dl-5s-4s-5m-2m-6s",
+      "name": "236M(1) > cc > dash 2S > dl 5S > 4S > 5M~2M, 6S > 4S > 5M~2M",
+      "notation": "236M(1) > cc > dash 2S > dl 5S > 4S > 5M~2M, 6S > 4S > 5M~2M, dash OTG j.S > 2S 236M((1) > Super)",
+      "description": " — 461 (646) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236M",
+          "time": 0.0,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "cc",
+          "time": 0.217,
+          "label": "cc",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 0.433,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "dl 5S",
+          "time": 0.65,
+          "label": "dl 5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.867,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.2,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.417,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.633,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.983,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.317,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.533,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 2.75,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S 236M",
+          "time": 2.967,
+          "label": "2S 236M",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 3.183,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "461 (646)"
+    },
+    {
+      "id": "236m-1-cc-dash-5s-6s-4s-5m-2m-5s-6s",
+      "name": "236M(1) > cc > dash 5S > 6S > 4S > 5M~2M, 5S > 6S > 4S > 5M(",
+      "notation": "236M(1) > cc > dash 5S > 6S > 4S > 5M~2M, 5S > 6S > 4S > 5M(1)~2M, dash OTG j.S > 2S > jc j.M, dash OTG 6M((1) > Super)",
+      "description": " — 479 (664) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236M",
+          "time": 0.0,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "cc",
+          "time": 0.217,
+          "label": "cc",
+          "window": 100
+        },
+        {
+          "key": "dash 5S",
+          "time": 0.433,
+          "label": "dash 5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.65,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.0,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.333,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.55,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.767,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.083,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.433,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.767,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.983,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 3.2,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 3.417,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 4.15,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M",
+          "time": 4.367,
+          "label": "dash OTG 6M",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 4.583,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "479 (664)"
+    },
+    {
+      "id": "5m-2m-dash-otg-j-s-5s-6s-4s-5m-2m-6s-4",
+      "name": "5M~2M, dash OTG j.S > 5S > 6S > 4S > 5M~2M, 6S > 4S > 2S > 2",
+      "notation": "5M~2M, dash OTG j.S > 5S > 6S > 4S > 5M~2M, 6S > 4S > 2S > 236M",
+      "description": " — 469 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5M",
+          "time": 0.0,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.217,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 0.433,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.65,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.967,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.317,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.65,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.867,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.083,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.433,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.767,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 3.5,
+          "label": "236M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "469"
+    },
+    {
+      "id": "5m-2m-dash-otg-j-s-5s-6s-4s-5m-2m-6s-4",
+      "name": "5M~2M, dash OTG j.S > 5S > 6S > 4S > 5M~2M, 6S > 4S > 5M~2M,",
+      "notation": "5M~2M, dash OTG j.S > 5S > 6S > 4S > 5M~2M, 6S > 4S > 5M~2M, dash OTG 6M((1) > Super)",
+      "description": " — 492 (677) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5M",
+          "time": 0.0,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.217,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 0.433,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 0.65,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.967,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.317,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.65,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.867,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.083,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.433,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.767,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.983,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M",
+          "time": 3.2,
+          "label": "dash OTG 6M",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 3.417,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "492 (677)"
+    },
+    {
+      "id": "ch5m-2m-cc-dash-5s-4s-5m-2m-6s-4s-5m",
+      "name": "CH5M~2M > cc > dash 5S > 4S > 5M~2M, 6S > 4S > 5M~2M, dash O",
+      "notation": "CH5M~2M > cc > dash 5S > 4S > 5M~2M, 6S > 4S > 5M~2M, dash OTG j.S > 2S > 236M((1) > Super)",
+      "description": " — 542 (727) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH5M",
+          "time": 0.0,
+          "label": "CH5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.217,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "cc",
+          "time": 0.433,
+          "label": "cc",
+          "window": 100
+        },
+        {
+          "key": "dash 5S",
+          "time": 0.65,
+          "label": "dash 5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.867,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.2,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.417,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.633,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.983,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.317,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.533,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 2.75,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.967,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 3.7,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 3.917,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "542 (727)"
+    },
+    {
+      "id": "5m-ch4m-dash-2s-dl-5s-4s-5m-2m-dash-otg-j",
+      "name": "5M~CH4M, dash 2S > dl 5S > 4S > 5M~2M, dash OTG j.S > 6S > 4",
+      "notation": "5M~CH4M, dash 2S > dl 5S > 4S > 5M~2M, dash OTG j.S > 6S > 4S > 2S > 236M",
+      "description": " — 501 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5M",
+          "time": 0.0,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "CH4M",
+          "time": 0.217,
+          "label": "CH4M",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 0.433,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "dl 5S",
+          "time": 0.65,
+          "label": "dl 5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 0.867,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.2,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.417,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 1.633,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.85,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.2,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.533,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 3.267,
+          "label": "236M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "501"
+    },
+    {
+      "id": "5m-ch4m-dash-2s-dl-5m-2m-6s-4s-5m-2m-dash",
+      "name": "5M~CH4M, dash 2S > dl 5M~2M, 6S > 4S > 5M~2M, dash OTG j.S >",
+      "notation": "5M~CH4M, dash 2S > dl 5M~2M, 6S > 4S > 5M~2M, dash OTG j.S > 2S > 236M((1) > Super)",
+      "description": " — 586 (771) damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5M",
+          "time": 0.0,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "CH4M",
+          "time": 0.217,
+          "label": "CH4M",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 0.433,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "dl 5M",
+          "time": 0.65,
+          "label": "dl 5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.867,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.083,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.433,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.767,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.983,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 2.2,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.417,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "236M",
+          "time": 3.15,
+          "label": "236M",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 3.367,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "586 (771)"
+    },
+    {
+      "id": "5m-ch4m-dash-5m-2m-cc-dl-5s-6s-4s-5m-2m",
+      "name": "5M~CH4M, dash 5M~2M > cc > dl 5S > 6S > 4S > 5M~2M, dash OTG",
+      "notation": "5M~CH4M, dash 5M~2M > cc > dl 5S > 6S > 4S > 5M~2M, dash OTG j.S > 2S > jc j.M, dash OTG 6M((1) > Super)",
+      "description": " — 619 (804) damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5M",
+          "time": 0.0,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "CH4M",
+          "time": 0.217,
+          "label": "CH4M",
+          "window": 100
+        },
+        {
+          "key": "dash 5M",
+          "time": 0.433,
+          "label": "dash 5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.65,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "cc",
+          "time": 0.867,
+          "label": "cc",
+          "window": 100
+        },
+        {
+          "key": "dl 5S",
+          "time": 1.083,
+          "label": "dl 5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.3,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.65,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.983,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.2,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 2.417,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 2.633,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 3.367,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M",
+          "time": 3.583,
+          "label": "dash OTG 6M",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 3.8,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "619 (804)"
+    },
+    {
+      "id": "5m-2m-dash-otg-j-s-6s-5s-4s-5m-2m-6s-4",
+      "name": "5M~2M, dash OTG j.S > 6S > 5S > 4S > 5M~2M, 6S > 4S > 5M~2M,",
+      "notation": "5M~2M, dash OTG j.S > 6S > 5S > 4S > 5M~2M, 6S > 4S > 5M~2M, dash OTG 6M (> Super)",
+      "description": " — 491 (691) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5M",
+          "time": 0.0,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 0.217,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG j.S",
+          "time": 0.433,
+          "label": "dash OTG j.S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.65,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.0,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.317,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.65,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.867,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.083,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.433,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.767,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.983,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M (",
+          "time": 3.2,
+          "label": "dash OTG 6M (",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 3.417,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "491 (691)"
+    },
+    {
+      "id": "ch5m-4m-cc-dash-2s-dl-4s-5m-2m-5s-6s",
+      "name": "CH5M~4M > cc > dash 2S > dl 4S > 5M~2M, 5S > 6S > 4S > 5M~2M",
+      "notation": "CH5M~4M > cc > dash 2S > dl 4S > 5M~2M, 5S > 6S > 4S > 5M~2M, dash 2S > jc j.M (dash OTG Super)",
+      "description": " — 571 (771) damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH5M",
+          "time": 0.0,
+          "label": "CH5M",
+          "window": 100
+        },
+        {
+          "key": "4M",
+          "time": 0.217,
+          "label": "4M",
+          "window": 100
+        },
+        {
+          "key": "cc",
+          "time": 0.433,
+          "label": "cc",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 0.65,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "dl 4S",
+          "time": 0.867,
+          "label": "dl 4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.083,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.3,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.517,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.833,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.183,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.517,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.733,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 2.95,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 3.167,
+          "label": "jc j.M",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "571 (771)"
+    },
+    {
+      "id": "ch5m-4m-cc-dash-2s-dl-4s-5m-2m-5s-6s",
+      "name": "CH5M~4M > cc > dash 2S > dl 4S > 5M~2M, 5S > 6S > 4S > 5M~2M",
+      "notation": "CH5M~4M > cc > dash 2S > dl 4S > 5M~2M, 5S > 6S > 4S > 5M~2M, dash 2S > jc j.M, dash OTG 6M (> Super)",
+      "description": " — 598 (798) damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH5M",
+          "time": 0.0,
+          "label": "CH5M",
+          "window": 100
+        },
+        {
+          "key": "4M",
+          "time": 0.217,
+          "label": "4M",
+          "window": 100
+        },
+        {
+          "key": "cc",
+          "time": 0.433,
+          "label": "cc",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 0.65,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "dl 4S",
+          "time": 0.867,
+          "label": "dl 4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.083,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.3,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.517,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.833,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.183,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.517,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.733,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 2.95,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 3.167,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M (",
+          "time": 3.383,
+          "label": "dash OTG 6M (",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 3.6,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "598 (798)"
+    },
+    {
+      "id": "ch5m-4m-cc-dash-2s-dl-4s-5m-2m-5s-6s",
+      "name": "CH5M~4M > cc > dash 2S > dl 4S > 5M~2M, 5S > 6S > 4S > 5M~2M",
+      "notation": "CH5M~4M > cc > dash 2S > dl 4S > 5M~2M, 5S > 6S > 4S > 5M~2M, dash 2S > jc j.M ia OTG j.M, dash OTG 6M (> Super)",
+      "description": " — 610 (810) damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "CH5M",
+          "time": 0.0,
+          "label": "CH5M",
+          "window": 100
+        },
+        {
+          "key": "4M",
+          "time": 0.217,
+          "label": "4M",
+          "window": 100
+        },
+        {
+          "key": "cc",
+          "time": 0.433,
+          "label": "cc",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 0.65,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "dl 4S",
+          "time": 0.867,
+          "label": "dl 4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.083,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 1.3,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "5S",
+          "time": 1.517,
+          "label": "5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.833,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.183,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 2.517,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.733,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "dash 2S",
+          "time": 2.95,
+          "label": "dash 2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M ia OTG j.M",
+          "time": 3.167,
+          "label": "jc j.M ia OTG j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M (",
+          "time": 3.383,
+          "label": "dash OTG 6M (",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 3.6,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "610 (810)"
+    },
+    {
+      "id": "5m-ch4m-dash-5m-4m-cc-dash-5s-6s-4s-5m",
+      "name": "5M~CH4M, dash 5M~4M > cc > dash 5S > 6S > 4S > 5M~2M, 6S > 4",
+      "notation": "5M~CH4M, dash 5M~4M > cc > dash 5S > 6S > 4S > 5M~2M, 6S > 4S > 2S > jc j.M, dash OTG 6M(> Super)",
+      "description": " — 664 (864) damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5M",
+          "time": 0.0,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "CH4M",
+          "time": 0.217,
+          "label": "CH4M",
+          "window": 100
+        },
+        {
+          "key": "dash 5M",
+          "time": 0.433,
+          "label": "dash 5M",
+          "window": 100
+        },
+        {
+          "key": "4M",
+          "time": 0.65,
+          "label": "4M",
+          "window": 100
+        },
+        {
+          "key": "cc",
+          "time": 0.867,
+          "label": "cc",
+          "window": 100
+        },
+        {
+          "key": "dash 5S",
+          "time": 1.083,
+          "label": "dash 5S",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 1.3,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 1.65,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "5M",
+          "time": 1.983,
+          "label": "5M",
+          "window": 100
+        },
+        {
+          "key": "2M",
+          "time": 2.2,
+          "label": "2M",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.417,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "4S",
+          "time": 2.767,
+          "label": "4S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 3.1,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "jc j.M",
+          "time": 3.833,
+          "label": "jc j.M",
+          "window": 100
+        },
+        {
+          "key": "dash OTG 6M(",
+          "time": 4.05,
+          "label": "dash OTG 6M(",
+          "window": 100
+        },
+        {
+          "key": "Super)",
+          "time": 4.267,
+          "label": "Super)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "664 (864)"
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "5A": {
+      "input": "5A",
+      "startup": 9,
+      "on_hit": -2,
+      "raw_on_hit": "-2"
+    },
+    "5AA": {
+      "input": "5AA",
+      "startup": 11,
+      "on_hit": -4,
+      "raw_on_hit": "-4"
+    },
+    "5B": {
+      "input": "5B",
+      "startup": 11,
+      "on_hit": 3,
+      "raw_on_hit": "KD (+3)"
+    },
+    "2A": {
+      "input": "2A",
+      "startup": 7,
+      "on_hit": -1,
+      "raw_on_hit": "-1"
+    },
+    "2B": {
+      "input": "2B",
+      "startup": 13,
+      "on_hit": 5,
+      "raw_on_hit": "KD (+5)"
+    },
+    "j.A": {
+      "input": "j.A",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "j.B": {
+      "input": "j.B",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "5S": {
+      "input": "5S",
+      "startup": 18,
+      "on_hit": 1,
+      "raw_on_hit": "+1"
+    },
+    "2S": {
+      "input": "2S",
+      "startup": 14,
+      "on_hit": 30,
+      "raw_on_hit": "KD (+30)"
+    },
+    "6S": {
+      "input": "6S",
+      "startup": 21,
+      "on_hit": -4,
+      "raw_on_hit": "-4"
+    },
+    "4S": {
+      "input": "4S",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.S": {
+      "input": "j.S",
+      "startup": 25,
+      "on_hit": 0,
+      "raw_on_hit": "KD"
+    },
+    "Name": {
+      "input": "Name",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "On-Hit"
+    },
+    "Brandish": {
+      "input": "Brandish",
+      "startup": 21,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Lunge Strike": {
+      "input": "Lunge Strike",
+      "startup": 13,
+      "on_hit": 11,
+      "raw_on_hit": "HKD (+11)"
+    },
+    "Earthshatter": {
+      "input": "Earthshatter",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": ""
+    },
+    "Devastate": {
+      "input": "Devastate",
+      "startup": 15,
+      "on_hit": 37,
+      "raw_on_hit": "HKD (+37)"
+    },
+    "Doom Glaive": {
+      "input": "Doom Glaive",
+      "startup": 15,
+      "on_hit": 64,
+      "raw_on_hit": "HKD (+64)"
+    },
+    "Inferno Charge": {
+      "input": "Inferno Charge",
+      "startup": 20,
+      "on_hit": 8,
+      "raw_on_hit": "+8"
+    },
+    "Crescent Slash": {
+      "input": "Crescent Slash",
+      "startup": 28,
+      "on_hit": 81,
+      "raw_on_hit": "HKD (+81)"
+    },
+    "Dread Bore": {
+      "input": "Dread Bore",
+      "startup": 25,
+      "on_hit": 45,
+      "raw_on_hit": "HKD (+45)"
+    },
+    "Behead": {
+      "input": "Behead",
+      "startup": 30,
+      "on_hit": -2,
+      "raw_on_hit": "-2"
+    },
+    "Throw": {
+      "input": "Throw",
+      "startup": 5,
+      "on_hit": 4,
+      "raw_on_hit": "HKD (+4)"
+    },
+    "Dodge": {
+      "input": "Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Backwards Dodge": {
+      "input": "Backwards Dodge",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "-"
+    },
+    "Guard Cancel": {
+      "input": "Guard Cancel",
+      "startup": 23,
+      "on_hit": 10,
+      "raw_on_hit": "+10"
+    },
+    "Demonic Inferno": {
+      "input": "Demonic Inferno",
+      "startup": 2,
+      "on_hit": 2,
+      "raw_on_hit": "HKD (+2)"
+    }
+  }
+}

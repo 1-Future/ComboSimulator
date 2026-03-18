@@ -102,16 +102,12 @@ export default function App() {
           <Route path="/league/:championId/:comboId" element={<LeaguePlayPage />} />
 
           {/* Fighting games — Dustloop data */}
-          <Route path="/ggst" element={<FightingCharacterBrowser />} />
-          <Route path="/ggst/:characterId" element={<NotationComboPlayer />} />
-          <Route path="/dbfz" element={<FightingCharacterBrowser />} />
-          <Route path="/dbfz/:characterId" element={<NotationComboPlayer />} />
-          <Route path="/bbcf" element={<FightingCharacterBrowser />} />
-          <Route path="/bbcf/:characterId" element={<NotationComboPlayer />} />
-          <Route path="/gbvsr" element={<FightingCharacterBrowser />} />
-          <Route path="/gbvsr/:characterId" element={<NotationComboPlayer />} />
-          <Route path="/p4au" element={<FightingCharacterBrowser />} />
-          <Route path="/p4au/:characterId" element={<NotationComboPlayer />} />
+          {['ggst', 'bbcf', 'bbtag', 'dbfz', 'gbvsr', 'ggxrd', 'ggacr', 'dnfd', 'p4au'].map((g) => (
+            <Route key={g} path={`/${g}`} element={<FightingCharacterBrowser />} />
+          ))}
+          {['ggst', 'bbcf', 'bbtag', 'dbfz', 'gbvsr', 'ggxrd', 'ggacr', 'dnfd', 'p4au'].map((g) => (
+            <Route key={`${g}-char`} path={`/${g}/:characterId`} element={<NotationComboPlayer />} />
+          ))}
 
           {/* Coming soon games */}
           <Route path="/sf6/*" element={<ComingSoon />} />

@@ -1,0 +1,1722 @@
+{
+  "characterId": "ramlethal_valentine",
+  "game": "ggxrd",
+  "gameName": "Guilty Gear Xrd REV 2",
+  "name": "Ramlethal Valentine",
+  "combos": [
+    {
+      "id": "regular-corner-carry-c-s-f-s-2d-623p-dau",
+      "name": "Regular Corner Carry: c.S > (f.S > 2D) > 623P (Dauro) > 66 >",
+      "notation": "Regular Corner Carry: c.S > (f.S > 2D) > 623P (Dauro) > 66 > PK > 66 > PK > 66 > KP > PPP",
+      "description": "All — 130 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "all"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Regular Corner Carry: c.S",
+          "time": 0.0,
+          "label": "Regular Corner Carry: c.S",
+          "window": 100
+        },
+        {
+          "key": "(f.S",
+          "time": 0.217,
+          "label": "(f.S",
+          "window": 100
+        },
+        {
+          "key": "2D)",
+          "time": 0.433,
+          "label": "2D)",
+          "window": 100
+        },
+        {
+          "key": "623P",
+          "time": 0.65,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.9,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 1.117,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.333,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 1.55,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.767,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "KP",
+          "time": 1.983,
+          "label": "KP",
+          "window": 100
+        },
+        {
+          "key": "PPP",
+          "time": 2.2,
+          "label": "PPP",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "130"
+    },
+    {
+      "id": "regular-corner-carry-f-s-623p-dauro-66-pk",
+      "name": "Regular Corner Carry: f.S > 623P (Dauro) > 66 > PK > 66 > PK",
+      "notation": "Regular Corner Carry: f.S > 623P (Dauro) > 66 > PK > 66 > PK > 66 > KP > PPP or KKK or KK",
+      "description": "Crouching or Counter Hit",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "crouching or counter hit"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Regular Corner Carry: f.S",
+          "time": 0.0,
+          "label": "Regular Corner Carry: f.S",
+          "window": 100
+        },
+        {
+          "key": "623P",
+          "time": 0.217,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.467,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 0.683,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.9,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 1.117,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.333,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "KP",
+          "time": 1.55,
+          "label": "KP",
+          "window": 100
+        },
+        {
+          "key": "PPP or KKK or KK",
+          "time": 1.767,
+          "label": "PPP or KKK or KK",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": ""
+    },
+    {
+      "id": "fullscreen-corner-carry-c-s-2d-623p-dauro",
+      "name": "Fullscreen Corner Carry: c.S > (2D) > 623P (Dauro) > 66 > PK",
+      "notation": "Fullscreen Corner Carry: c.S > (2D) > 623P (Dauro) > 66 > PK > 66 > PK > 66 > KP > c.S > 623P > KP > PPP or KKK",
+      "description": "All — 142 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "all"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Fullscreen Corner Carry: c.S",
+          "time": 0.0,
+          "label": "Fullscreen Corner Carry: c.S",
+          "window": 100
+        },
+        {
+          "key": "623P",
+          "time": 0.217,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.467,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 0.683,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.9,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 1.117,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.333,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "KP",
+          "time": 1.55,
+          "label": "KP",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.767,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "623P",
+          "time": 1.867,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "KP",
+          "time": 2.117,
+          "label": "KP",
+          "window": 100
+        },
+        {
+          "key": "PPP or KKK",
+          "time": 2.333,
+          "label": "PPP or KKK",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "142"
+    },
+    {
+      "id": "fullscreen-corner-carry-2-c-s-2d-623p-66",
+      "name": "Fullscreen Corner Carry 2: c.S > (2D) > 623P > 66 > PK > 66 ",
+      "notation": "Fullscreen Corner Carry 2: c.S > (2D) > 623P > 66 > PK > 66 > PK > KP > 2PPK > KKK",
+      "description": "All — ??? damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "all"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Fullscreen Corner Carry 2: c.S",
+          "time": 0.0,
+          "label": "Fullscreen Corner Carry 2: c.S",
+          "window": 100
+        },
+        {
+          "key": "623P",
+          "time": 0.217,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.467,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 0.683,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.9,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 1.117,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "KP",
+          "time": 1.333,
+          "label": "KP",
+          "window": 100
+        },
+        {
+          "key": "2PPK",
+          "time": 1.55,
+          "label": "2PPK",
+          "window": 100
+        },
+        {
+          "key": "KKK",
+          "time": 1.817,
+          "label": "KKK",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "???"
+    },
+    {
+      "id": "sideswitch-carry-c-s-2d-623p-green-dauro",
+      "name": "Sideswitch Carry: c.S > (2D) > 623P (Green Dauro) > 66 > PK4",
+      "notation": "Sideswitch Carry: c.S > (2D) > 623P (Green Dauro) > 66 > PK4K > (KP) > PPP",
+      "description": "All — 137 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "all"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Sideswitch Carry: c.S",
+          "time": 0.0,
+          "label": "Sideswitch Carry: c.S",
+          "window": 100
+        },
+        {
+          "key": "623P",
+          "time": 0.217,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.467,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK4K",
+          "time": 0.683,
+          "label": "PK4K",
+          "window": 100
+        },
+        {
+          "key": "PPP",
+          "time": 0.9,
+          "label": "PPP",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "137"
+    },
+    {
+      "id": "sideswitch-carry-2-c-s-2d-623p-green-dauro",
+      "name": "Sideswitch Carry 2: c.S > (2D) > 623P (Green Dauro) > 66 > P",
+      "notation": "Sideswitch Carry 2: c.S > (2D) > 623P (Green Dauro) > 66 > PK4K > c.S > KKK",
+      "description": "All — 160 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "all"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Sideswitch Carry 2: c.S",
+          "time": 0.0,
+          "label": "Sideswitch Carry 2: c.S",
+          "window": 100
+        },
+        {
+          "key": "623P",
+          "time": 0.217,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.467,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK4K",
+          "time": 0.683,
+          "label": "PK4K",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.9,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "KKK",
+          "time": 1.0,
+          "label": "KKK",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "160"
+    },
+    {
+      "id": "command-grab-starter-236k-66-pk-66-pk-k",
+      "name": "Command Grab Starter: 236K > 66 > PK > 66 > PK > KP > PPP or",
+      "notation": "Command Grab Starter: 236K > 66 > PK > 66 > PK > KP > PPP or KK or KKK",
+      "description": "All — ?? damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "all"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Command Grab Starter: 236K",
+          "time": 0.0,
+          "label": "Command Grab Starter: 236K",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.217,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 0.433,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.65,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 0.867,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "KP",
+          "time": 1.083,
+          "label": "KP",
+          "window": 100
+        },
+        {
+          "key": "PPP or KK or KKK",
+          "time": 1.3,
+          "label": "PPP or KK or KKK",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "??"
+    },
+    {
+      "id": "string-starter-carry-2kpp-or-kpp-or-2ppk-66-p",
+      "name": "String Starter Carry: 2KPP or KPP or 2PPK > 66 > PK > 66 > P",
+      "notation": "String Starter Carry: 2KPP or KPP or 2PPK > 66 > PK > 66 > PK > KP > PPP or KK or KKK",
+      "description": "All — ?? damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "all"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "String Starter Carry: 2KPP or KPP or 2PPK",
+          "time": 0.0,
+          "label": "String Starter Carry: 2KPP or KPP or 2PPK",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.217,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 0.433,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.65,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 0.867,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "KP",
+          "time": 1.083,
+          "label": "KP",
+          "window": 100
+        },
+        {
+          "key": "PPP or KK or KKK",
+          "time": 1.3,
+          "label": "PPP or KK or KKK",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "??"
+    },
+    {
+      "id": "anti-air-combo-6p-c-s-j-k-j-s-j-c-j-k",
+      "name": "Anti Air Combo: 6P > c.S > j.K > j.S > j.c > j.K > j.S > 214",
+      "notation": "Anti Air Combo: 6P > c.S > j.K > j.S > j.c > j.K > j.S > 214S > 214H",
+      "description": "Anti-air — 153 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anti-air"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Anti Air Combo: 6P",
+          "time": 0.0,
+          "label": "Anti Air Combo: 6P",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.217,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.317,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.433,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.c",
+          "time": 0.65,
+          "label": "j.c",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.867,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.983,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "214S",
+          "time": 1.2,
+          "label": "214S",
+          "window": 100
+        },
+        {
+          "key": "214H",
+          "time": 1.4,
+          "label": "214H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "153"
+    },
+    {
+      "id": "anti-air-combo-2-6p-c-s-j-k-j-s-j-c-j-k",
+      "name": "Anti Air Combo 2: 6P> c.S > j.K > j.S > j.c >j.K >j.S > j.2D",
+      "notation": "Anti Air Combo 2: 6P> c.S > j.K > j.S > j.c >j.K >j.S > j.2D > (j.214K)",
+      "description": "Anti-air — 132 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "anti-air"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Anti Air Combo 2: 6P",
+          "time": 0.0,
+          "label": "Anti Air Combo 2: 6P",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.217,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.317,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.433,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.c",
+          "time": 0.65,
+          "label": "j.c",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.867,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.983,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.2D",
+          "time": 1.2,
+          "label": "j.2D",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "132"
+    },
+    {
+      "id": "cassius-launch-gs-starter-214p-prc-6s-623p",
+      "name": "Cassius Launch GS Starter: 214P > PRC > 6S > 623P > 66 > PK ",
+      "notation": "Cassius Launch GS Starter: 214P > PRC > 6S > 623P > 66 > PK > 66 > PK > KP > PPP or KKK > 6S",
+      "description": "All — 138 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "all"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Cassius Launch GS Starter: 214P",
+          "time": 0.0,
+          "label": "Cassius Launch GS Starter: 214P",
+          "window": 100
+        },
+        {
+          "key": "PRC",
+          "time": 0.217,
+          "label": "PRC",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 0.433,
+          "label": "6S",
+          "window": 100
+        },
+        {
+          "key": "623P",
+          "time": 0.65,
+          "label": "623P",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.9,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 1.117,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 1.333,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "PK",
+          "time": 1.55,
+          "label": "PK",
+          "window": 100
+        },
+        {
+          "key": "KP",
+          "time": 1.767,
+          "label": "KP",
+          "window": 100
+        },
+        {
+          "key": "PPP or KKK",
+          "time": 1.983,
+          "label": "PPP or KKK",
+          "window": 100
+        },
+        {
+          "key": "6S",
+          "time": 2.2,
+          "label": "6S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "138"
+    },
+    {
+      "id": "daiji-loop-anti-air-counterhit-6p-iad-jk-js-j",
+      "name": "Daiji Loop Anti Air Counterhit: 6P > iad~jK > jS~j8D > iad >",
+      "notation": "Daiji Loop Anti Air Counterhit: 6P > iad~jK > jS~j8D > iad > jK > jS~j8D> iad > jK > jS > j8D > 66 > ppp > wallsplat",
+      "description": "Anti-Air — ?? damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anti-air"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Daiji Loop Anti Air Counterhit: 6P",
+          "time": 0.0,
+          "label": "Daiji Loop Anti Air Counterhit: 6P",
+          "window": 100
+        },
+        {
+          "key": "iad",
+          "time": 0.217,
+          "label": "iad",
+          "window": 100
+        },
+        {
+          "key": "jK",
+          "time": 0.433,
+          "label": "jK",
+          "window": 100
+        },
+        {
+          "key": "jS",
+          "time": 0.65,
+          "label": "jS",
+          "window": 100
+        },
+        {
+          "key": "j8D",
+          "time": 0.867,
+          "label": "j8D",
+          "window": 100
+        },
+        {
+          "key": "iad",
+          "time": 1.083,
+          "label": "iad",
+          "window": 100
+        },
+        {
+          "key": "jK",
+          "time": 1.3,
+          "label": "jK",
+          "window": 100
+        },
+        {
+          "key": "jS",
+          "time": 1.517,
+          "label": "jS",
+          "window": 100
+        },
+        {
+          "key": "j8D",
+          "time": 1.733,
+          "label": "j8D",
+          "window": 100
+        },
+        {
+          "key": "iad",
+          "time": 1.95,
+          "label": "iad",
+          "window": 100
+        },
+        {
+          "key": "jK",
+          "time": 2.167,
+          "label": "jK",
+          "window": 100
+        },
+        {
+          "key": "jS",
+          "time": 2.383,
+          "label": "jS",
+          "window": 100
+        },
+        {
+          "key": "j8D",
+          "time": 2.6,
+          "label": "j8D",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 2.817,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "ppp",
+          "time": 3.033,
+          "label": "ppp",
+          "window": 100
+        },
+        {
+          "key": "wallsplat",
+          "time": 3.25,
+          "label": "wallsplat",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "??"
+    },
+    {
+      "id": "please-hit-2s-2h",
+      "name": "Please Hit: 2S > 2H",
+      "notation": "Please Hit: 2S > 2H",
+      "description": "All — 124 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "all"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Please Hit: 2S",
+          "time": 0.0,
+          "label": "Please Hit: 2S",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.217,
+          "label": "2H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "124"
+    },
+    {
+      "id": "please-counter-hit-2s-corner-carry-with-how-eve",
+      "name": "Please Counter Hit: 2S > Corner Carry with how ever you see ",
+      "notation": "Please Counter Hit: 2S > Corner Carry with how ever you see fit",
+      "description": "All — ?? damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "all"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Please Counter Hit: 2S",
+          "time": 0.0,
+          "label": "Please Counter Hit: 2S",
+          "window": 100
+        },
+        {
+          "key": "Corner Carry with how ever you see fit",
+          "time": 0.217,
+          "label": "Corner Carry with how ever you see fit",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "??"
+    },
+    {
+      "id": "anything-knockdown-super",
+      "name": "Anything > KnockDown > Super",
+      "notation": "Anything > KnockDown > Super",
+      "description": "KnockDown — ?? damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "knockdown"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Anything",
+          "time": 0.0,
+          "label": "Anything",
+          "window": 100
+        },
+        {
+          "key": "KnockDown",
+          "time": 0.217,
+          "label": "KnockDown",
+          "window": 100
+        },
+        {
+          "key": "Super",
+          "time": 0.433,
+          "label": "Super",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "??"
+    },
+    {
+      "id": "wallsplat-filler-super",
+      "name": "Wallsplat > Filler > Super",
+      "notation": "Wallsplat > Filler > Super",
+      "description": "Splat — ?? damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "splat"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Wallsplat",
+          "time": 0.0,
+          "label": "Wallsplat",
+          "window": 100
+        },
+        {
+          "key": "Filler",
+          "time": 0.217,
+          "label": "Filler",
+          "window": 100
+        },
+        {
+          "key": "Super",
+          "time": 0.433,
+          "label": "Super",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "??"
+    },
+    {
+      "id": "anti-air-super-6p-c-s-j-8d-632146h",
+      "name": "Anti Air Super: 6P > c.S > j.8D > 632146H",
+      "notation": "Anti Air Super: 6P > c.S > j.8D > 632146H",
+      "description": "Anti-Air — ?? damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "anti-air"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Anti Air Super: 6P",
+          "time": 0.0,
+          "label": "Anti Air Super: 6P",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.217,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.8D",
+          "time": 0.317,
+          "label": "j.8D",
+          "window": 100
+        },
+        {
+          "key": "632146H",
+          "time": 0.5,
+          "label": "632146H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "??"
+    },
+    {
+      "id": "air-grab-super-air-grab-super",
+      "name": "Air Grab Super: Air Grab > Super",
+      "notation": "Air Grab Super: Air Grab > Super",
+      "description": "Knockdown — ?? damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "knockdown"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Air Grab Super: Air Grab",
+          "time": 0.0,
+          "label": "Air Grab Super: Air Grab",
+          "window": 100
+        },
+        {
+          "key": "Super",
+          "time": 0.217,
+          "label": "Super",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "??"
+    },
+    {
+      "id": "236k-red-roman-cancel-gold-ik-236236h",
+      "name": "236K > Red Roman Cancel >Gold IK > 236236H",
+      "notation": "236K > Red Roman Cancel >Gold IK > 236236H",
+      "description": "Grabbed — Death damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "grabbed"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K",
+          "time": 0.0,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "Red Roman Cancel",
+          "time": 0.183,
+          "label": "Red Roman Cancel",
+          "window": 100
+        },
+        {
+          "key": "Gold IK",
+          "time": 0.4,
+          "label": "Gold IK",
+          "window": 100
+        },
+        {
+          "key": "236236H",
+          "time": 0.617,
+          "label": "236236H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "Death"
+    },
+    {
+      "id": "236k-gold-ik-66-standard-rekka-carry-walls",
+      "name": "236K > Gold IK > 66 > standard rekka carry > wallstick > 236",
+      "notation": "236K > Gold IK > 66 > standard rekka carry > wallstick > 236236H",
+      "description": "Midscreen — Death damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "midscreen"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "236K",
+          "time": 0.0,
+          "label": "236K",
+          "window": 100
+        },
+        {
+          "key": "Gold IK",
+          "time": 0.183,
+          "label": "Gold IK",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.4,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "standard rekka carry",
+          "time": 0.617,
+          "label": "standard rekka carry",
+          "window": 100
+        },
+        {
+          "key": "wallstick",
+          "time": 0.833,
+          "label": "wallstick",
+          "window": 100
+        },
+        {
+          "key": "236236H",
+          "time": 1.05,
+          "label": "236236H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "Death"
+    },
+    {
+      "id": "2s-red-roman-cancel-gold-ik-236236h",
+      "name": "2S > Red Roman Cancel > Gold IK > 236236H",
+      "notation": "2S > Red Roman Cancel > Gold IK > 236236H",
+      "description": "Counter — Death damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "counter"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2S",
+          "time": 0.0,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "Red Roman Cancel",
+          "time": 0.217,
+          "label": "Red Roman Cancel",
+          "window": 100
+        },
+        {
+          "key": "Gold IK",
+          "time": 0.433,
+          "label": "Gold IK",
+          "window": 100
+        },
+        {
+          "key": "236236H",
+          "time": 0.65,
+          "label": "236236H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "Death"
+    },
+    {
+      "id": "5d6-5p-2p-gold-ik-236236h",
+      "name": "5D6 > (5P/2P) > Gold IK > 236236H",
+      "notation": "5D6 > (5P/2P) > Gold IK > 236236H",
+      "description": "Corner — Death damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5D6",
+          "time": 0.0,
+          "label": "5D6",
+          "window": 100
+        },
+        {
+          "key": "Gold IK",
+          "time": 0.217,
+          "label": "Gold IK",
+          "window": 100
+        },
+        {
+          "key": "236236H",
+          "time": 0.433,
+          "label": "236236H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "Death"
+    },
+    {
+      "id": "5kkk-or-5kpk-grounded-gold-ik-236236h",
+      "name": "5KKK or 5KPK (grounded) > Gold IK > 236236H",
+      "notation": "5KKK or 5KPK (grounded) > Gold IK > 236236H",
+      "description": "Corner — Death damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5KKK or 5KPK",
+          "time": 0.0,
+          "label": "5KKK or 5KPK",
+          "window": 100
+        },
+        {
+          "key": "Gold IK",
+          "time": 0.217,
+          "label": "Gold IK",
+          "window": 100
+        },
+        {
+          "key": "236236H",
+          "time": 0.433,
+          "label": "236236H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "Death"
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5K": {
+      "input": "5K",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "c.S": {
+      "input": "c.S",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "f.S No Sword": {
+      "input": "f.S No Sword",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "f.S Sword": {
+      "input": "f.S Sword",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5H No Sword": {
+      "input": "5H No Sword",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5H Sword": {
+      "input": "5H Sword",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5D": {
+      "input": "5D",
+      "startup": 28,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6K": {
+      "input": "6K",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "3K": {
+      "input": "3K",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2P": {
+      "input": "2P",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2K": {
+      "input": "2K",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2S Sword": {
+      "input": "2S Sword",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2H Sword": {
+      "input": "2H Sword",
+      "startup": 25,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2D": {
+      "input": "2D",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.P": {
+      "input": "j.P",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.K": {
+      "input": "j.K",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.S No Sword": {
+      "input": "j.S No Sword",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.S Sword": {
+      "input": "j.S Sword",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.H No Sword": {
+      "input": "j.H No Sword",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.H Sword": {
+      "input": "j.H Sword",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.D": {
+      "input": "j.D",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.2D": {
+      "input": "j.2D",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.8D": {
+      "input": "j.8D",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5PP": {
+      "input": "5PP",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5PPP": {
+      "input": "5PPP",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5PPK": {
+      "input": "5PPK",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5PK": {
+      "input": "5PK",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5P4K": {
+      "input": "5P4K",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5KK": {
+      "input": "5KK",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5KKK": {
+      "input": "5KKK",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5K4K": {
+      "input": "5K4K",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5KK4K": {
+      "input": "5KK4K",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5KP": {
+      "input": "5KP",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5KPP": {
+      "input": "5KPP",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5KPK": {
+      "input": "5KPK",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2PP": {
+      "input": "2PP",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2PPP": {
+      "input": "2PPP",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2PPK": {
+      "input": "2PPK",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2PK": {
+      "input": "2PK",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2KK": {
+      "input": "2KK",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2KP": {
+      "input": "2KP",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2KPP": {
+      "input": "2KPP",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2KPK": {
+      "input": "2KPK",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "S Sword Launch": {
+      "input": "S Sword Launch",
+      "startup": 67,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.S Sword Launch": {
+      "input": "j.S Sword Launch",
+      "startup": 67,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "H Sword Launch": {
+      "input": "H Sword Launch",
+      "startup": 66,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.H Sword Launch": {
+      "input": "j.H Sword Launch",
+      "startup": 66,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6S Deployed": {
+      "input": "6S Deployed",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.6S Deployed": {
+      "input": "j.6S Deployed",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2S Deployed": {
+      "input": "2S Deployed",
+      "startup": 67,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.2S Deployed": {
+      "input": "j.2S Deployed",
+      "startup": 65,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6H Deployed": {
+      "input": "6H Deployed",
+      "startup": 25,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.6H Deployed": {
+      "input": "j.6H Deployed",
+      "startup": 25,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2H Deployed": {
+      "input": "2H Deployed",
+      "startup": 62,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.2H Deployed": {
+      "input": "j.2H Deployed",
+      "startup": 60,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "4S/H": {
+      "input": "4S/H",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.4S/H": {
+      "input": "j.4S/H",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "DAA": {
+      "input": "DAA",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Blitz": {
+      "input": "Blitz",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[Blitz]": {
+      "input": "[Blitz]",
+      "startup": 50,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "623P": {
+      "input": "623P",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "236K": {
+      "input": "236K",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214K": {
+      "input": "214K",
+      "startup": 32,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214K": {
+      "input": "j.214K",
+      "startup": 20,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214P": {
+      "input": "214P",
+      "startup": 19,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214S": {
+      "input": "214S",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214S": {
+      "input": "j.214S",
+      "startup": 12,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214H": {
+      "input": "214H",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214H": {
+      "input": "j.214H",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "632146H Sword": {
+      "input": "632146H Sword",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "632146H No Sword": {
+      "input": "632146H No Sword",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2363214K": {
+      "input": "2363214K",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "236236H": {
+      "input": "236236H",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    }
+  }
+}

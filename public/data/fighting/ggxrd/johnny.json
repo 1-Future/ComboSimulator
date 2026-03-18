@@ -1,0 +1,3874 @@
+{
+  "characterId": "johnny",
+  "game": "ggxrd",
+  "gameName": "Guilty Gear Xrd REV 2",
+  "name": "Johnny",
+  "combos": [
+    {
+      "id": "2k-5k-c-s-2d-otg-236h-66-c-s-236h",
+      "name": "2K/5K (>c.S) > 2D > OTG 236H (66 c.S > 236H)",
+      "notation": "2K/5K (>c.S) > 2D > OTG 236H (66 c.S > 236H)",
+      "description": "Any — 83 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2K/5K (",
+          "time": 0.0,
+          "label": "2K/5K (",
+          "window": 100
+        },
+        {
+          "key": "c.S)",
+          "time": 0.217,
+          "label": "c.S)",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.433,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "OTG 236H (66 c.S",
+          "time": 0.6,
+          "label": "OTG 236H (66 c.S",
+          "window": 100
+        },
+        {
+          "key": "236H)",
+          "time": 0.817,
+          "label": "236H)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "83"
+    },
+    {
+      "id": "6p-j-p-j-k-j-s-jc-j-k-j-s-j-h-214s",
+      "name": "6P > j.P > j.K > j.S > JC > j.K > j.S > j.H > 214S",
+      "notation": "6P > j.P > j.K > j.S > JC > j.K > j.S > j.H > 214S",
+      "description": "Any — 107 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6P",
+          "time": 0.0,
+          "label": "6P",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 0.183,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.3,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.433,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "JC",
+          "time": 0.6,
+          "label": "JC",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 0.817,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.95,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 1.117,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "214S",
+          "time": 1.333,
+          "label": "214S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "107"
+    },
+    {
+      "id": "5k-c-s-2d-1-236h-5p-lv2-214p-j",
+      "name": "(5K/c.S >) 2D(1) > 236H > 5P > LV2 214P > ... > j.623K",
+      "notation": "(5K/c.S >) 2D(1) > 236H > 5P > LV2 214P > ... > j.623K",
+      "description": "Any — 135 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "(5K/c.S",
+          "time": 0.0,
+          "label": "(5K/c.S",
+          "window": 100
+        },
+        {
+          "key": ") 2D",
+          "time": 0.217,
+          "label": ") 2D",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.433,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "5P",
+          "time": 0.533,
+          "label": "5P",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 0.617,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 0.833,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.05,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "135"
+    },
+    {
+      "id": "rc-dash-2d-1-236h-5p-lv2-214p",
+      "name": "... > RC > Dash 2D(1) > 236H > 5P > LV2 214P",
+      "notation": "... > RC > Dash 2D(1) > 236H > 5P > LV2 214P",
+      "description": "Any — 110 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.217,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "Dash 2D",
+          "time": 0.433,
+          "label": "Dash 2D",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.65,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "5P",
+          "time": 0.75,
+          "label": "5P",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 0.833,
+          "label": "LV2 214P",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "110"
+    },
+    {
+      "id": "6k-ch-6h-236h-5p-lv2-214p-236h-dash",
+      "name": "6K (CH) > 6H > 236H > 5P > LV2 214P > 236H > dash > ... > j.",
+      "notation": "6K (CH) > 6H > 236H > 5P > LV2 214P > 236H > dash > ... > j.623K",
+      "description": "Any — 106 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "6K",
+          "time": 0.0,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.267,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.567,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "5P",
+          "time": 0.667,
+          "label": "5P",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 0.75,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.967,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "dash",
+          "time": 1.067,
+          "label": "dash",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.283,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.5,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "106"
+    },
+    {
+      "id": "j-623k-yrc-land-c-s-236h-5p-lv2-214p",
+      "name": "j.623K > YRC > land c.S > 236H > 5P > LV2 214P > ... > j.623",
+      "notation": "j.623K > YRC > land c.S > 236H > 5P > LV2 214P > ... > j.623K",
+      "description": "Any — 131 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "j.623K",
+          "time": 0.0,
+          "label": "j.623K",
+          "window": 100
+        },
+        {
+          "key": "YRC",
+          "time": 0.25,
+          "label": "YRC",
+          "window": 100
+        },
+        {
+          "key": "land c.S",
+          "time": 0.467,
+          "label": "land c.S",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.683,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "5P",
+          "time": 0.783,
+          "label": "5P",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 0.867,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.083,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.3,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "131"
+    },
+    {
+      "id": "lv1-214k-rc-66-x2-236h-5p-lv2-214",
+      "name": "... > LV1 214K > RC > [66]x2 > 236H > 5P > LV2 214P > ... > ",
+      "notation": "... > LV1 214K > RC > [66]x2 > 236H > 5P > LV2 214P > ... > j.623K",
+      "description": "Any — 128 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV1 214K",
+          "time": 0.217,
+          "label": "LV1 214K",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.433,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "[66]x2",
+          "time": 0.65,
+          "label": "[66]x2",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.867,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "5P",
+          "time": 0.967,
+          "label": "5P",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 1.05,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.267,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.483,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "128"
+    },
+    {
+      "id": "5k-c-s-2d-1-236h-f-s-2h-lv2-214p",
+      "name": "5K > c.S > 2D(1) > 236H > f.S (> 2H) > LV2 214P > ... > j.62",
+      "notation": "5K > c.S > 2D(1) > 236H > f.S (> 2H) > LV2 214P > ... > j.623K",
+      "description": "Any — 165 (AX) damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.1,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.2,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.367,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "f.S (",
+          "time": 0.467,
+          "label": "f.S (",
+          "window": 100
+        },
+        {
+          "key": "2H)",
+          "time": 0.683,
+          "label": "2H)",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 0.9,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.117,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.333,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "165 (AX)"
+    },
+    {
+      "id": "lv2-214s-6k-j-623k",
+      "name": "... > LV2 214S > 6K > ... > j.623K",
+      "notation": "... > LV2 214S > 6K > ... > j.623K",
+      "description": "Any — 160 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214S",
+          "time": 0.217,
+          "label": "LV2 214S",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 0.433,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 0.7,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 0.917,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "160"
+    },
+    {
+      "id": "lv2-214s-66-2p-c-s-236h-5p-lv2-21",
+      "name": "... > LV2 214S > 66 > (2P/c.S > 236H > 5P > LV2 214P > 236H ",
+      "notation": "... > LV2 214S > 66 > (2P/c.S > 236H > 5P > LV2 214P > 236H > 66 jump > j.P > j.K > j.S > dj > j.K > j.S > j.D > j.623K",
+      "description": "Any — 152~159 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214S",
+          "time": 0.217,
+          "label": "LV2 214S",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.433,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "(2P/c.S",
+          "time": 0.65,
+          "label": "(2P/c.S",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.867,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "5P",
+          "time": 0.967,
+          "label": "5P",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 1.05,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 1.267,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "66 jump",
+          "time": 1.367,
+          "label": "66 jump",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 1.583,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.7,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.833,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 2.0,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 2.217,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.35,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 2.517,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 2.65,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "152~159"
+    },
+    {
+      "id": "lv2-214s-66-2d-236h-f-s-2h-lv2",
+      "name": "... > LV2 214S > 66 > 2D > 236H > f.S (>2H) > LV2 214P > 236",
+      "notation": "... > LV2 214S > 66 > 2D > 236H > f.S (>2H) > LV2 214P > 236H > 66 (j.S >) j.H [j.623K] OR [land 66 Jump] > ... > j.623K]",
+      "description": "Any — 173 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214S",
+          "time": 0.217,
+          "label": "LV2 214S",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.433,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.65,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.817,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "f.S (",
+          "time": 0.917,
+          "label": "f.S (",
+          "window": 100
+        },
+        {
+          "key": "2H)",
+          "time": 1.133,
+          "label": "2H)",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 1.35,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 1.567,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "66 (j.S",
+          "time": 1.667,
+          "label": "66 (j.S",
+          "window": 100
+        },
+        {
+          "key": ") j.H [j.623K] OR [land 66 Jump]",
+          "time": 1.883,
+          "label": ") j.H [j.623K] OR [land 66 Jump]",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 2.1,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K]",
+          "time": 2.317,
+          "label": "j.623K]",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "173"
+    },
+    {
+      "id": "5k-2d-1-mc-2p-5k-c-s-5h-lv2-214p",
+      "name": "5K > 2D(1) > MC > (2P >) 5K/c.S > 5H > LV2 214P > ... > j.62",
+      "notation": "5K > 2D(1) > MC > (2P >) 5K/c.S > 5H > LV2 214P > ... > j.623K",
+      "description": "Any — 153 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "5K",
+          "time": 0.0,
+          "label": "5K",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.1,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "MC",
+          "time": 0.267,
+          "label": "MC",
+          "window": 100
+        },
+        {
+          "key": "(2P",
+          "time": 0.483,
+          "label": "(2P",
+          "window": 100
+        },
+        {
+          "key": ") 5K/c.S",
+          "time": 0.7,
+          "label": ") 5K/c.S",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 0.917,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 1.1,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.317,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.533,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "153"
+    },
+    {
+      "id": "lv2-214k-66-x2-6h-msd-632146s-pi",
+      "name": "... > LV2 214K > [66]x2 (> 6H) > MSD 632146S > (Pickup >) 23",
+      "notation": "... > LV2 214K > [66]x2 (> 6H) > MSD 632146S > (Pickup >) 236H > c.S > ... > j.623K",
+      "description": "Any — 186 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214K",
+          "time": 0.217,
+          "label": "LV2 214K",
+          "window": 100
+        },
+        {
+          "key": "[66]x2 (",
+          "time": 0.433,
+          "label": "[66]x2 (",
+          "window": 100
+        },
+        {
+          "key": "6H)",
+          "time": 0.65,
+          "label": "6H)",
+          "window": 100
+        },
+        {
+          "key": "MSD 632146S",
+          "time": 0.867,
+          "label": "MSD 632146S",
+          "window": 100
+        },
+        {
+          "key": "(Pickup",
+          "time": 1.083,
+          "label": "(Pickup",
+          "window": 100
+        },
+        {
+          "key": ") 236H",
+          "time": 1.3,
+          "label": ") 236H",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.517,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.617,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.833,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "186"
+    },
+    {
+      "id": "lv2-214s-msd-632146s-pickup-236h-5",
+      "name": "... > LV2 214S > MSD 632146S > (Pickup >) 236H > 5P/c.S > LV",
+      "notation": "... > LV2 214S > MSD 632146S > (Pickup >) 236H > 5P/c.S > LV2 214P > ... > j.623K",
+      "description": "Any — 189 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214S",
+          "time": 0.217,
+          "label": "LV2 214S",
+          "window": 100
+        },
+        {
+          "key": "MSD 632146S",
+          "time": 0.433,
+          "label": "MSD 632146S",
+          "window": 100
+        },
+        {
+          "key": "(Pickup",
+          "time": 0.65,
+          "label": "(Pickup",
+          "window": 100
+        },
+        {
+          "key": ") 236H",
+          "time": 0.867,
+          "label": ") 236H",
+          "window": 100
+        },
+        {
+          "key": "5P/c.S",
+          "time": 1.083,
+          "label": "5P/c.S",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 1.3,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.517,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.733,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "189"
+    },
+    {
+      "id": "lv2-214k-66-6h-msd-632146s-236h-x2",
+      "name": "... > LV2 214K > (66) 6H > MSD 632146S > [236H]x2 > c.S > j.",
+      "notation": "... > LV2 214K > (66) 6H > MSD 632146S > [236H]x2 > c.S > j.DSDD > j.623K",
+      "description": "Any — 209 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214K",
+          "time": 0.217,
+          "label": "LV2 214K",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.433,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "MSD 632146S",
+          "time": 0.733,
+          "label": "MSD 632146S",
+          "window": 100
+        },
+        {
+          "key": "[236H]x2",
+          "time": 0.95,
+          "label": "[236H]x2",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.167,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.DSDD",
+          "time": 1.267,
+          "label": "j.DSDD",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.483,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "209"
+    },
+    {
+      "id": "lv3-214s-66-c-s-236h-5p-lv2-214p-2",
+      "name": "... > LV3 214S > 66 c.S > 236H > 5P > LV2 214P > 236H > 66 J",
+      "notation": "... > LV3 214S > 66 c.S > 236H > 5P > LV2 214P > 236H > 66 Jump > j.P > j.K > j.S > dj > j.K > j.S > j.D > j.623K",
+      "description": "Any — 177 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV3 214S",
+          "time": 0.217,
+          "label": "LV3 214S",
+          "window": 100
+        },
+        {
+          "key": "66 c.S",
+          "time": 0.433,
+          "label": "66 c.S",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.65,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "5P",
+          "time": 0.75,
+          "label": "5P",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 0.833,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 1.05,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "66 Jump",
+          "time": 1.15,
+          "label": "66 Jump",
+          "window": 100
+        },
+        {
+          "key": "j.P",
+          "time": 1.367,
+          "label": "j.P",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.483,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.617,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 1.783,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 2.0,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 2.133,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 2.3,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 2.433,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "177"
+    },
+    {
+      "id": "lv3-214k-66-x2-6h-msd-632146s-2s",
+      "name": "... > LV3 214K > [66]x2 > (6H >) MSD 632146S > 2S > 236H > .",
+      "notation": "... > LV3 214K > [66]x2 > (6H >) MSD 632146S > 2S > 236H > ... > j.623K",
+      "description": "Any — 234 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV3 214K",
+          "time": 0.217,
+          "label": "LV3 214K",
+          "window": 100
+        },
+        {
+          "key": "[66]x2",
+          "time": 0.433,
+          "label": "[66]x2",
+          "window": 100
+        },
+        {
+          "key": "(6H",
+          "time": 0.65,
+          "label": "(6H",
+          "window": 100
+        },
+        {
+          "key": ") MSD 632146S",
+          "time": 0.867,
+          "label": ") MSD 632146S",
+          "window": 100
+        },
+        {
+          "key": "2S",
+          "time": 1.083,
+          "label": "2S",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 1.25,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.35,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.567,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "234"
+    },
+    {
+      "id": "throw-236h-lv2-214p-236h-66-j-pks-dj-j",
+      "name": "Throw > 236H > LV2 214P > 236H > 66 j.PKS > dj > j.KSD > ...",
+      "notation": "Throw > 236H > LV2 214P > 236H > 66 j.PKS > dj > j.KSD > ... > j.623K",
+      "description": "Any — 76 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.217,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 0.317,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.533,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "66 j.PKS",
+          "time": 0.633,
+          "label": "66 j.PKS",
+          "window": 100
+        },
+        {
+          "key": "dj",
+          "time": 0.85,
+          "label": "dj",
+          "window": 100
+        },
+        {
+          "key": "j.KSD",
+          "time": 1.067,
+          "label": "j.KSD",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.283,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.5,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "76"
+    },
+    {
+      "id": "throw-66-j-psh",
+      "name": "Throw > 66 j.PSH",
+      "notation": "Throw > 66 j.PSH",
+      "description": "Any — 64 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "66 j.PSH",
+          "time": 0.217,
+          "label": "66 j.PSH",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "64"
+    },
+    {
+      "id": "throw-air-combo",
+      "name": "Throw > Air Combo",
+      "notation": "Throw > Air Combo",
+      "description": "Any — 75 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "Air Combo",
+          "time": 0.217,
+          "label": "Air Combo",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "75"
+    },
+    {
+      "id": "throw-236h-66-j-s-j-h",
+      "name": "Throw > 236H > (66) j.S > j.H",
+      "notation": "Throw > 236H > (66) j.S > j.H",
+      "description": "Any — 62 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.217,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.317,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 0.483,
+          "label": "j.H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "62"
+    },
+    {
+      "id": "throw-236h-j-s-lv2-j-214p-land-236h-6",
+      "name": "Throw > 236H > j.S > LV2 j.214P > Land > 236H > (66) 6K > 66",
+      "notation": "Throw > 236H > j.S > LV2 j.214P > Land > 236H > (66) 6K > 66 j.KS > djcKSD > j.623K",
+      "description": "Any — 78 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.217,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.317,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "LV2 j.214P",
+          "time": 0.483,
+          "label": "LV2 j.214P",
+          "window": 100
+        },
+        {
+          "key": "Land",
+          "time": 0.7,
+          "label": "Land",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.917,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 1.017,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "66 j.KS",
+          "time": 1.283,
+          "label": "66 j.KS",
+          "window": 100
+        },
+        {
+          "key": "djcKSD",
+          "time": 1.5,
+          "label": "djcKSD",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.717,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "78"
+    },
+    {
+      "id": "throw-236h-j-s-lv2-j-214p-land-236h-6k",
+      "name": "Throw > 236H > j.S > LV2 j.214P > Land > 236H > 6K > 66 j.SH",
+      "notation": "Throw > 236H > j.S > LV2 j.214P > Land > 236H > 6K > 66 j.SHD > LV2 j.214P > 41236P > OTG 2K",
+      "description": "Any — 80 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.217,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 0.317,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "LV2 j.214P",
+          "time": 0.483,
+          "label": "LV2 j.214P",
+          "window": 100
+        },
+        {
+          "key": "Land",
+          "time": 0.7,
+          "label": "Land",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.917,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "6K",
+          "time": 1.017,
+          "label": "6K",
+          "window": 100
+        },
+        {
+          "key": "66 j.SHD",
+          "time": 1.283,
+          "label": "66 j.SHD",
+          "window": 100
+        },
+        {
+          "key": "LV2 j.214P",
+          "time": 1.5,
+          "label": "LV2 j.214P",
+          "window": 100
+        },
+        {
+          "key": "41236P",
+          "time": 1.717,
+          "label": "41236P",
+          "window": 100
+        },
+        {
+          "key": "OTG 2K",
+          "time": 2.0,
+          "label": "OTG 2K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "80"
+    },
+    {
+      "id": "throw-236h-j-ps-lv2-j-214p-land-236h-6",
+      "name": "Throw > 236H > j.PS > LV2 j.214P > Land > 236H > 66 j.KSHD >",
+      "notation": "Throw > 236H > j.PS > LV2 j.214P > Land > 236H > 66 j.KSHD > LV2 j.214P > 41236P > OTG 2K",
+      "description": "Any — 83 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.217,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "j.PS",
+          "time": 0.317,
+          "label": "j.PS",
+          "window": 100
+        },
+        {
+          "key": "LV2 j.214P",
+          "time": 0.533,
+          "label": "LV2 j.214P",
+          "window": 100
+        },
+        {
+          "key": "Land",
+          "time": 0.75,
+          "label": "Land",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.967,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "66 j.KSHD",
+          "time": 1.067,
+          "label": "66 j.KSHD",
+          "window": 100
+        },
+        {
+          "key": "LV2 j.214P",
+          "time": 1.283,
+          "label": "LV2 j.214P",
+          "window": 100
+        },
+        {
+          "key": "41236P",
+          "time": 1.5,
+          "label": "41236P",
+          "window": 100
+        },
+        {
+          "key": "OTG 2K",
+          "time": 1.783,
+          "label": "OTG 2K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "83"
+    },
+    {
+      "id": "throw-236h-j-ps-lv2-j-214p-land-236h-6",
+      "name": "Throw > 236H > j.PS > LV2 j.214P > Land > 236H > 66 j.KSHD >",
+      "notation": "Throw > 236H > j.PS > LV2 j.214P > Land > 236H > 66 j.KSHD > j.623K",
+      "description": "Any — 83 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.217,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "j.PS",
+          "time": 0.317,
+          "label": "j.PS",
+          "window": 100
+        },
+        {
+          "key": "LV2 j.214P",
+          "time": 0.533,
+          "label": "LV2 j.214P",
+          "window": 100
+        },
+        {
+          "key": "Land",
+          "time": 0.75,
+          "label": "Land",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.967,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "66 j.KSHD",
+          "time": 1.067,
+          "label": "66 j.KSHD",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.283,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "83"
+    },
+    {
+      "id": "throw-236h-j-ps-lv2-j-214p-land-236h-h",
+      "name": "Throw > 236H > j.PS > LV2 j.214P > Land > 236H > held 66 j.K",
+      "notation": "Throw > 236H > j.PS > LV2 j.214P > Land > 236H > held 66 j.KSHD > j.623K",
+      "description": "Any — 84 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.217,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "j.PS",
+          "time": 0.317,
+          "label": "j.PS",
+          "window": 100
+        },
+        {
+          "key": "LV2 j.214P",
+          "time": 0.533,
+          "label": "LV2 j.214P",
+          "window": 100
+        },
+        {
+          "key": "Land",
+          "time": 0.75,
+          "label": "Land",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.967,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "held 66 j.KSHD",
+          "time": 1.067,
+          "label": "held 66 j.KSHD",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.283,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "84"
+    },
+    {
+      "id": "throw-236h-j-ks-lv2-j-214p-236h-land-6",
+      "name": "Throw > 236H > j.KS > LV2 j.214P > 236H > Land > 66 j.KSHD >",
+      "notation": "Throw > 236H > j.KS > LV2 j.214P > 236H > Land > 66 j.KSHD > j.623K",
+      "description": "Any — 86 (RA) damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.217,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "j.KS",
+          "time": 0.317,
+          "label": "j.KS",
+          "window": 100
+        },
+        {
+          "key": "LV2 j.214P",
+          "time": 0.533,
+          "label": "LV2 j.214P",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.75,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "Land",
+          "time": 0.85,
+          "label": "Land",
+          "window": 100
+        },
+        {
+          "key": "66 j.KSHD",
+          "time": 1.067,
+          "label": "66 j.KSHD",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.283,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "86 (RA)"
+    },
+    {
+      "id": "throw-236h-j-d-lv2-j-214p-236h-land-66",
+      "name": "Throw > 236H > j.D > LV2 j.214P > 236H > Land > 66 j.KSHD > ",
+      "notation": "Throw > 236H > j.D > LV2 j.214P > 236H > Land > 66 j.KSHD > j.623K",
+      "description": "Any — 88 (IN) damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.217,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 0.317,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "LV2 j.214P",
+          "time": 0.45,
+          "label": "LV2 j.214P",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.667,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "Land",
+          "time": 0.767,
+          "label": "Land",
+          "window": 100
+        },
+        {
+          "key": "66 j.KSHD",
+          "time": 0.983,
+          "label": "66 j.KSHD",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.2,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "88 (IN)"
+    },
+    {
+      "id": "throw-236h-2h-jc-j-sd-lv2-j-214p-land",
+      "name": "Throw > 236H > 2H > jc > j.SD > LV2 j.214P > Land > 236H > 2",
+      "notation": "Throw > 236H > 2H > jc > j.SD > LV2 j.214P > Land > 236H > 2H > jc > j.SHD > j.623K",
+      "description": "Any — 86 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "any"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.217,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.317,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 0.567,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.SD",
+          "time": 0.783,
+          "label": "j.SD",
+          "window": 100
+        },
+        {
+          "key": "LV2 j.214P",
+          "time": 1.0,
+          "label": "LV2 j.214P",
+          "window": 100
+        },
+        {
+          "key": "Land",
+          "time": 1.217,
+          "label": "Land",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 1.433,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 1.533,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.783,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "j.SHD",
+          "time": 2.0,
+          "label": "j.SHD",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 2.217,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "86"
+    },
+    {
+      "id": "2h-blocked-falling-lv1-j-214k-236h-f-s-2",
+      "name": "2H (Blocked) > Falling LV1 j.214K > 236H > f.S > 2H > LV2 21",
+      "notation": "2H (Blocked) > Falling LV1 j.214K > 236H > f.S > 2H > LV2 214P > ... > j.623K",
+      "description": "Corner — 190 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "2H",
+          "time": 0.0,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "Falling LV1 j.214K",
+          "time": 0.25,
+          "label": "Falling LV1 j.214K",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.467,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 0.567,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.7,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 0.95,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.167,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.383,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "190"
+    },
+    {
+      "id": "lv1-214k-rc-66-2h-jc-j-623k",
+      "name": "... > LV1 214K > RC > 66 > 2H > jc > ... > j.623K",
+      "notation": "... > LV1 214K > RC > 66 > 2H > jc > ... > j.623K",
+      "description": "Corner — 152 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV1 214K",
+          "time": 0.217,
+          "label": "LV1 214K",
+          "window": 100
+        },
+        {
+          "key": "RC",
+          "time": 0.433,
+          "label": "RC",
+          "window": 100
+        },
+        {
+          "key": "66",
+          "time": 0.65,
+          "label": "66",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.867,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "jc",
+          "time": 1.117,
+          "label": "jc",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.333,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.55,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "152"
+    },
+    {
+      "id": "lv2-214k-66-x2-c-s-5h-6h-236h-c-s",
+      "name": "... > LV2 214K >[66]x2 > c.S/5H/6H > 236H > c.S > j.D > MC >",
+      "notation": "... > LV2 214K >[66]x2 > c.S/5H/6H > 236H > c.S > j.D > MC > j.D > j.623K",
+      "description": "Corner — 170~199 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214K",
+          "time": 0.217,
+          "label": "LV2 214K",
+          "window": 100
+        },
+        {
+          "key": "[66]x2",
+          "time": 0.433,
+          "label": "[66]x2",
+          "window": 100
+        },
+        {
+          "key": "c.S/5H/6H",
+          "time": 0.65,
+          "label": "c.S/5H/6H",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.867,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.967,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.067,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "MC",
+          "time": 1.2,
+          "label": "MC",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.417,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.55,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "170~199"
+    },
+    {
+      "id": "lv2-214k-66-x2-c-s-5h-6h-236h-c-s",
+      "name": "... > LV2 214K > [66]x2 > c.S/5H/6H > 236H > c.S > j.D > MC ",
+      "notation": "... > LV2 214K > [66]x2 > c.S/5H/6H > 236H > c.S > j.D > MC > j.S > djc > j.D > MC > j.D > j.623K",
+      "description": "Corner — 188~216 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214K",
+          "time": 0.217,
+          "label": "LV2 214K",
+          "window": 100
+        },
+        {
+          "key": "[66]x2",
+          "time": 0.433,
+          "label": "[66]x2",
+          "window": 100
+        },
+        {
+          "key": "c.S/5H/6H",
+          "time": 0.65,
+          "label": "c.S/5H/6H",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.867,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.967,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.067,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "MC",
+          "time": 1.2,
+          "label": "MC",
+          "window": 100
+        },
+        {
+          "key": "j.S",
+          "time": 1.417,
+          "label": "j.S",
+          "window": 100
+        },
+        {
+          "key": "djc",
+          "time": 1.583,
+          "label": "djc",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.8,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "MC",
+          "time": 1.933,
+          "label": "MC",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 2.15,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 2.283,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "188~216"
+    },
+    {
+      "id": "lv2-214k-66-x2-2h-lv1-214p-236h-j",
+      "name": "... > LV2 214K > [66]x2 > 2H > LV1 214P > 236H > j.DSDD > j.",
+      "notation": "... > LV2 214K > [66]x2 > 2H > LV1 214P > 236H > j.DSDD > j.623K",
+      "description": "Corner — 194 (FA) damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214K",
+          "time": 0.217,
+          "label": "LV2 214K",
+          "window": 100
+        },
+        {
+          "key": "[66]x2",
+          "time": 0.433,
+          "label": "[66]x2",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.65,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "LV1 214P",
+          "time": 0.9,
+          "label": "LV1 214P",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 1.117,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "j.DSDD",
+          "time": 1.217,
+          "label": "j.DSDD",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.433,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "194 (FA)"
+    },
+    {
+      "id": "lv2-214k-66-x2-c-s-5h-6h-236h-c-s",
+      "name": "... > LV2 214K > [66]x2 > c.S/5H/6H > 236H > c.S > j.DSDD  >",
+      "notation": "... > LV2 214K > [66]x2 > c.S/5H/6H > 236H > c.S > j.DSDD  > LV2 j.214P > 236H > 66 j.DSDD > j.623K",
+      "description": "Corner — 195~221 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214K",
+          "time": 0.217,
+          "label": "LV2 214K",
+          "window": 100
+        },
+        {
+          "key": "[66]x2",
+          "time": 0.433,
+          "label": "[66]x2",
+          "window": 100
+        },
+        {
+          "key": "c.S/5H/6H",
+          "time": 0.65,
+          "label": "c.S/5H/6H",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.867,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.967,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.DSDD",
+          "time": 1.067,
+          "label": "j.DSDD",
+          "window": 100
+        },
+        {
+          "key": "LV2 j.214P",
+          "time": 1.283,
+          "label": "LV2 j.214P",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 1.5,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "66 j.DSDD",
+          "time": 1.6,
+          "label": "66 j.DSDD",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.817,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "195~221"
+    },
+    {
+      "id": "lv2-214k-6h-236h-2h-lv2-214p-236h",
+      "name": "... > LV2 214K > 6H > 236H > 2H > LV2 214P > 236H > 66 j.DSD",
+      "notation": "... > LV2 214K > 6H > 236H > 2H > LV2 214P > 236H > 66 j.DSDD > j.623K",
+      "description": "Corner — 218 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214K",
+          "time": 0.217,
+          "label": "LV2 214K",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.433,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.733,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.833,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 1.083,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 1.3,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "66 j.DSDD",
+          "time": 1.4,
+          "label": "66 j.DSDD",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.617,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "218"
+    },
+    {
+      "id": "lv2-214k-66-x2-c-s-236h-c-s-j-dd",
+      "name": "... > LV2 214K > [66]x2 > c.S > 236H > c.S > [j.DD] OR [j.DH",
+      "notation": "... > LV2 214K > [66]x2 > c.S > 236H > c.S > [j.DD] OR [j.DHD] > LV2 j.214P > Land 41236P > 2K > 236H",
+      "description": "Corner — 174 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214K",
+          "time": 0.217,
+          "label": "LV2 214K",
+          "window": 100
+        },
+        {
+          "key": "[66]x2",
+          "time": 0.433,
+          "label": "[66]x2",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.65,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.75,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 0.85,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "[j.DD] OR [j.DHD]",
+          "time": 0.95,
+          "label": "[j.DD] OR [j.DHD]",
+          "window": 100
+        },
+        {
+          "key": "LV2 j.214P",
+          "time": 1.167,
+          "label": "LV2 j.214P",
+          "window": 100
+        },
+        {
+          "key": "Land 41236P",
+          "time": 1.383,
+          "label": "Land 41236P",
+          "window": 100
+        },
+        {
+          "key": "2K",
+          "time": 1.6,
+          "label": "2K",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 1.733,
+          "label": "236H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "174"
+    },
+    {
+      "id": "lv2-214k-236h-66-6p-j-dhd-lv2-j-214p",
+      "name": "...> LV2 214K > 236H > 66 6P > j.DHD > LV2 j.214P > Land 412",
+      "notation": "...> LV2 214K > 236H > 66 6P > j.DHD > LV2 j.214P > Land 41236P > OTG 2K > 236H",
+      "description": "Corner — 173 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214K",
+          "time": 0.217,
+          "label": "LV2 214K",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.433,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "66 6P",
+          "time": 0.533,
+          "label": "66 6P",
+          "window": 100
+        },
+        {
+          "key": "j.DHD",
+          "time": 0.75,
+          "label": "j.DHD",
+          "window": 100
+        },
+        {
+          "key": "LV2 j.214P",
+          "time": 0.967,
+          "label": "LV2 j.214P",
+          "window": 100
+        },
+        {
+          "key": "Land 41236P",
+          "time": 1.183,
+          "label": "Land 41236P",
+          "window": 100
+        },
+        {
+          "key": "OTG 2K",
+          "time": 1.4,
+          "label": "OTG 2K",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 1.617,
+          "label": "236H",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "173"
+    },
+    {
+      "id": "lv2-214k-66-236h-66-f-s-2h-j-214p",
+      "name": "... > LV2 214K > (66) 236H > 66 f.S > 2H > j.214P > ... > j.",
+      "notation": "... > LV2 214K > (66) 236H > 66 f.S > 2H > j.214P > ... > j.623K",
+      "description": "Corner — 194 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214K",
+          "time": 0.217,
+          "label": "LV2 214K",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.433,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "66 f.S",
+          "time": 0.533,
+          "label": "66 f.S",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.75,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "j.214P",
+          "time": 1.0,
+          "label": "j.214P",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.217,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.433,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "194"
+    },
+    {
+      "id": "lv2-214k-66-6h-msd-632146s-2s-or",
+      "name": "... > LV2 214K > (66) 6H > MSD 632146S > [2S] OR [2P/2K/5K/c",
+      "notation": "... > LV2 214K > (66) 6H > MSD 632146S > [2S] OR [2P/2K/5K/c.S] > 236H > c.S > j.D > j.623K",
+      "description": "Corner — 226 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV2 214K",
+          "time": 0.217,
+          "label": "LV2 214K",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.433,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "MSD 632146S",
+          "time": 0.733,
+          "label": "MSD 632146S",
+          "window": 100
+        },
+        {
+          "key": "[2S] OR [2P/2K/5K/c.S]",
+          "time": 0.95,
+          "label": "[2S] OR [2P/2K/5K/c.S]",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 1.167,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.267,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.367,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.5,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "226"
+    },
+    {
+      "id": "tk-lv2-j-214s-land-delay-6h-msd-632146s",
+      "name": "TK LV2 j.214S > Land > Delay 6H > MSD 632146S > ... > j.623K",
+      "notation": "TK LV2 j.214S > Land > Delay 6H > MSD 632146S > ... > j.623K",
+      "description": "Corner — 177 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "TK LV2 j.214S",
+          "time": 0.0,
+          "label": "TK LV2 j.214S",
+          "window": 100
+        },
+        {
+          "key": "Land",
+          "time": 0.217,
+          "label": "Land",
+          "window": 100
+        },
+        {
+          "key": "Delay 6H",
+          "time": 0.433,
+          "label": "Delay 6H",
+          "window": 100
+        },
+        {
+          "key": "MSD 632146S",
+          "time": 0.65,
+          "label": "MSD 632146S",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 0.867,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.083,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "177"
+    },
+    {
+      "id": "lv3-214k-66-x2-6h-236h-c-s-j-dsdd",
+      "name": ".. > LV3 214K > [66]x2 > 6H > 236H > c.S > j.DSDD > j.623K",
+      "notation": ".. > LV3 214K > [66]x2 > 6H > 236H > c.S > j.DSDD > j.623K",
+      "description": "Corner — 199 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "..",
+          "time": 0.0,
+          "label": "..",
+          "window": 100
+        },
+        {
+          "key": "LV3 214K",
+          "time": 0.217,
+          "label": "LV3 214K",
+          "window": 100
+        },
+        {
+          "key": "[66]x2",
+          "time": 0.433,
+          "label": "[66]x2",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.65,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.95,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.05,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.DSDD",
+          "time": 1.15,
+          "label": "j.DSDD",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.367,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "199"
+    },
+    {
+      "id": "lv3-214k-66-x2-6h-236h-c-s-j-dd",
+      "name": "... > LV3 214K > [66]x2 > 6H > 236H > c.S > j.DD > LV2 214P ",
+      "notation": "... > LV3 214K > [66]x2 > 6H > 236H > c.S > j.DD > LV2 214P > 236H > ... > j.623K",
+      "description": "Corner — 219 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV3 214K",
+          "time": 0.217,
+          "label": "LV3 214K",
+          "window": 100
+        },
+        {
+          "key": "[66]x2",
+          "time": 0.433,
+          "label": "[66]x2",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 0.65,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.95,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "c.S",
+          "time": 1.05,
+          "label": "c.S",
+          "window": 100
+        },
+        {
+          "key": "j.DD",
+          "time": 1.15,
+          "label": "j.DD",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 1.367,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 1.583,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.683,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.9,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "219"
+    },
+    {
+      "id": "lv3-214k-66-41236p-5k-or-2k-2d-236h",
+      "name": "... > LV3 214K > 66 41236P > 5K or 2K > 2D > 236H (> 236H)",
+      "notation": "... > LV3 214K > 66 41236P > 5K or 2K > 2D > 236H (> 236H)",
+      "description": "Corner — 134 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV3 214K",
+          "time": 0.217,
+          "label": "LV3 214K",
+          "window": 100
+        },
+        {
+          "key": "66 41236P",
+          "time": 0.433,
+          "label": "66 41236P",
+          "window": 100
+        },
+        {
+          "key": "5K or 2K",
+          "time": 0.65,
+          "label": "5K or 2K",
+          "window": 100
+        },
+        {
+          "key": "2D",
+          "time": 0.867,
+          "label": "2D",
+          "window": 100
+        },
+        {
+          "key": "236H (",
+          "time": 1.033,
+          "label": "236H (",
+          "window": 100
+        },
+        {
+          "key": "236H)",
+          "time": 1.25,
+          "label": "236H)",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "134"
+    },
+    {
+      "id": "lv3-214k-4-or-6-6h-236h-2h-lv2-2",
+      "name": "... > LV3 214K > [4] OR [6] 6H > 236H > 2H > LV2 214P > 236H",
+      "notation": "... > LV3 214K > [4] OR [6] 6H > 236H > 2H > LV2 214P > 236H > ... > j.623K",
+      "description": "Corner — 216 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV3 214K",
+          "time": 0.217,
+          "label": "LV3 214K",
+          "window": 100
+        },
+        {
+          "key": "[4] OR [6] 6H",
+          "time": 0.433,
+          "label": "[4] OR [6] 6H",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.65,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "2H",
+          "time": 0.75,
+          "label": "2H",
+          "window": 100
+        },
+        {
+          "key": "LV2 214P",
+          "time": 1.0,
+          "label": "LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 1.217,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "...",
+          "time": 1.317,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 1.533,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "216"
+    },
+    {
+      "id": "lv3-214k-41236p-236h-x2-66-5k-5h",
+      "name": "... > LV3 214K > 41236P > [236H]x2 > 66 5K > 5H > MC > f.S >",
+      "notation": "... > LV3 214K > 41236P > [236H]x2 > 66 5K > 5H > MC > f.S > 6H > 632146S",
+      "description": "Corner — - damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "LV3 214K",
+          "time": 0.217,
+          "label": "LV3 214K",
+          "window": 100
+        },
+        {
+          "key": "41236P",
+          "time": 0.433,
+          "label": "41236P",
+          "window": 100
+        },
+        {
+          "key": "[236H]x2",
+          "time": 0.717,
+          "label": "[236H]x2",
+          "window": 100
+        },
+        {
+          "key": "66 5K",
+          "time": 0.933,
+          "label": "66 5K",
+          "window": 100
+        },
+        {
+          "key": "5H",
+          "time": 1.15,
+          "label": "5H",
+          "window": 100
+        },
+        {
+          "key": "MC",
+          "time": 1.333,
+          "label": "MC",
+          "window": 100
+        },
+        {
+          "key": "f.S",
+          "time": 1.55,
+          "label": "f.S",
+          "window": 100
+        },
+        {
+          "key": "6H",
+          "time": 1.683,
+          "label": "6H",
+          "window": 100
+        },
+        {
+          "key": "632146S",
+          "time": 1.983,
+          "label": "632146S",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "-"
+    },
+    {
+      "id": "j-d-mc-land-c-s-jump-j-d-mc-j-h",
+      "name": "... > j.D > MC (land) c.S > (jump) j.D > MC j.H > MC > j.K >",
+      "notation": "... > j.D > MC (land) c.S > (jump) j.D > MC j.H > MC > j.K > j.D > (rejump) j.D > MC j.H > j.D > MC jc j.D > MC j.H > j.D > Ender",
+      "description": "Corner — 245 damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "...",
+          "time": 0.0,
+          "label": "...",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 0.217,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "MC c.S",
+          "time": 0.35,
+          "label": "MC c.S",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 0.567,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "MC j.H",
+          "time": 0.7,
+          "label": "MC j.H",
+          "window": 100
+        },
+        {
+          "key": "MC",
+          "time": 0.917,
+          "label": "MC",
+          "window": 100
+        },
+        {
+          "key": "j.K",
+          "time": 1.133,
+          "label": "j.K",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.267,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.4,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "MC j.H",
+          "time": 1.533,
+          "label": "MC j.H",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 1.75,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "MC jc j.D",
+          "time": 1.883,
+          "label": "MC jc j.D",
+          "window": 100
+        },
+        {
+          "key": "MC j.H",
+          "time": 2.1,
+          "label": "MC j.H",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 2.317,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "Ender",
+          "time": 2.45,
+          "label": "Ender",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "245"
+    },
+    {
+      "id": "throw-66-j-pshd-j-623k",
+      "name": "Throw > 66 j.PSHD > j.623K",
+      "notation": "Throw > 66 j.PSHD > j.623K",
+      "description": "Corner — 82 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "66 j.PSHD",
+          "time": 0.217,
+          "label": "66 j.PSHD",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 0.433,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "82"
+    },
+    {
+      "id": "throw-236h-j-d-j-623k",
+      "name": "Throw > 236H > j.D > j.623K",
+      "notation": "Throw > 236H > j.D > j.623K",
+      "description": "Corner — 63 damage",
+      "difficulty": "beginner",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.217,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "j.D",
+          "time": 0.317,
+          "label": "j.D",
+          "window": 100
+        },
+        {
+          "key": "j.623K",
+          "time": 0.45,
+          "label": "j.623K",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "63"
+    },
+    {
+      "id": "throw-236h-j-shd-j-623k-or-lv2-214p-lan",
+      "name": "Throw > 236H > j.SHD > [j.623K] OR [LV2 214P > Land 41236P >",
+      "notation": "Throw > 236H > j.SHD > [j.623K] OR [LV2 214P > Land 41236P > OTG 2K > 236H]",
+      "description": "Corner — 78/82 damage",
+      "difficulty": "intermediate",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "236H",
+          "time": 0.217,
+          "label": "236H",
+          "window": 100
+        },
+        {
+          "key": "j.SHD",
+          "time": 0.317,
+          "label": "j.SHD",
+          "window": 100
+        },
+        {
+          "key": "[j.623K] OR [LV2 214P",
+          "time": 0.533,
+          "label": "[j.623K] OR [LV2 214P",
+          "window": 100
+        },
+        {
+          "key": "Land 41236P",
+          "time": 0.75,
+          "label": "Land 41236P",
+          "window": 100
+        },
+        {
+          "key": "OTG 2K",
+          "time": 0.967,
+          "label": "OTG 2K",
+          "window": 100
+        },
+        {
+          "key": "236H]",
+          "time": 1.183,
+          "label": "236H]",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "78/82"
+    },
+    {
+      "id": "throw-j-d-mc-j-h-mc-j-kd-land-x2-6",
+      "name": "Throw > [j.D > MC > j.H > MC > j.KD > land]x2 > [66 j.D > MC",
+      "notation": "Throw > [j.D > MC > j.H > MC > j.KD > land]x2 > [66 j.D > MC > j.HD > j.623K] OR [j.D (MC > j.H) > LV3 j.214K > Land [236H]x2 > 66 2D(1) > 41236P]",
+      "description": "Corner — - damage",
+      "difficulty": "advanced",
+      "category": "bread-and-butter",
+      "tags": [
+        "corner"
+      ],
+      "video": null,
+      "inputs": [
+        {
+          "key": "Throw",
+          "time": 0.0,
+          "label": "Throw",
+          "window": 100
+        },
+        {
+          "key": "[j.D",
+          "time": 0.217,
+          "label": "[j.D",
+          "window": 100
+        },
+        {
+          "key": "MC",
+          "time": 0.433,
+          "label": "MC",
+          "window": 100
+        },
+        {
+          "key": "j.H",
+          "time": 0.65,
+          "label": "j.H",
+          "window": 100
+        },
+        {
+          "key": "MC",
+          "time": 0.867,
+          "label": "MC",
+          "window": 100
+        },
+        {
+          "key": "j.KD",
+          "time": 1.083,
+          "label": "j.KD",
+          "window": 100
+        },
+        {
+          "key": "land]x2",
+          "time": 1.3,
+          "label": "land]x2",
+          "window": 100
+        },
+        {
+          "key": "[66 j.D",
+          "time": 1.517,
+          "label": "[66 j.D",
+          "window": 100
+        },
+        {
+          "key": "MC",
+          "time": 1.733,
+          "label": "MC",
+          "window": 100
+        },
+        {
+          "key": "j.HD",
+          "time": 1.95,
+          "label": "j.HD",
+          "window": 100
+        },
+        {
+          "key": "j.623K] OR [j.D (MC",
+          "time": 2.167,
+          "label": "j.623K] OR [j.D (MC",
+          "window": 100
+        },
+        {
+          "key": "j.H)",
+          "time": 2.383,
+          "label": "j.H)",
+          "window": 100
+        },
+        {
+          "key": "LV3 j.214K",
+          "time": 2.6,
+          "label": "LV3 j.214K",
+          "window": 100
+        },
+        {
+          "key": "Land [236H]x2",
+          "time": 2.817,
+          "label": "Land [236H]x2",
+          "window": 100
+        },
+        {
+          "key": "66 2D",
+          "time": 3.033,
+          "label": "66 2D",
+          "window": 100
+        },
+        {
+          "key": "41236P]",
+          "time": 3.25,
+          "label": "41236P]",
+          "window": 100
+        }
+      ],
+      "tips": [],
+      "damage": "-"
+    }
+  ],
+  "frameData": {
+    "Input": {
+      "input": "Input",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5P": {
+      "input": "5P",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5K": {
+      "input": "5K",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "c.S": {
+      "input": "c.S",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "f.S": {
+      "input": "f.S",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5H": {
+      "input": "5H",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "5D": {
+      "input": "5D",
+      "startup": 26,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6P": {
+      "input": "6P",
+      "startup": 11,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6K": {
+      "input": "6K",
+      "startup": 16,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "6H": {
+      "input": "6H",
+      "startup": 18,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2P": {
+      "input": "2P",
+      "startup": 5,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2K": {
+      "input": "2K",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2S": {
+      "input": "2S",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2H": {
+      "input": "2H",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2D": {
+      "input": "2D",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.P": {
+      "input": "j.P",
+      "startup": 7,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.K": {
+      "input": "j.K",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.S": {
+      "input": "j.S",
+      "startup": 10,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.H": {
+      "input": "j.H",
+      "startup": 13,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.D": {
+      "input": "j.D",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Ground Throw": {
+      "input": "Ground Throw",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Air Throw": {
+      "input": "Air Throw",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "DAA": {
+      "input": "DAA",
+      "startup": 14,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Blitz": {
+      "input": "Blitz",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "[Blitz]": {
+      "input": "[Blitz]",
+      "startup": 50,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "236H": {
+      "input": "236H",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "41236P": {
+      "input": "41236P",
+      "startup": 17,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214P/K/S": {
+      "input": "214P/K/S",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214P/K/S": {
+      "input": "j.214P/K/S",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Ground Stance 66": {
+      "input": "Ground Stance 66",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Ground Stance 44": {
+      "input": "Ground Stance 44",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Air Stance 66/44": {
+      "input": "Air Stance 66/44",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "Stance H": {
+      "input": "Stance H",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214P Level 1": {
+      "input": "214P Level 1",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214P Level 2": {
+      "input": "214P Level 2",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214P Level 3": {
+      "input": "214P Level 3",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214K Level 1": {
+      "input": "214K Level 1",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214K Level 2": {
+      "input": "214K Level 2",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214K Level 3": {
+      "input": "214K Level 3",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214S Level 1": {
+      "input": "214S Level 1",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214S Level 2": {
+      "input": "214S Level 2",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "214S Level 3": {
+      "input": "214S Level 3",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214P Level 1": {
+      "input": "j.214P Level 1",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214P Level 2": {
+      "input": "j.214P Level 2",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214P Level 3": {
+      "input": "j.214P Level 3",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214K Level 1": {
+      "input": "j.214K Level 1",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214K Level 2": {
+      "input": "j.214K Level 2",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214K Level 3": {
+      "input": "j.214K Level 3",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214S Level 1": {
+      "input": "j.214S Level 1",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214S Level 2": {
+      "input": "j.214S Level 2",
+      "startup": 6,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.214S Level 3": {
+      "input": "j.214S Level 3",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "623K": {
+      "input": "623K",
+      "startup": 0,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "623K > K": {
+      "input": "623K > K",
+      "startup": 1,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "j.623K": {
+      "input": "j.623K",
+      "startup": 15,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "2363214H": {
+      "input": "2363214H",
+      "startup": 4,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "632146S": {
+      "input": "632146S",
+      "startup": 8,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    },
+    "236236H": {
+      "input": "236236H",
+      "startup": 9,
+      "on_hit": 0,
+      "raw_on_hit": "0"
+    }
+  }
+}
