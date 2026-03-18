@@ -101,25 +101,21 @@ export default function App() {
           <Route path="/league" element={<LeagueBrowser />} />
           <Route path="/league/:championId/:comboId" element={<LeaguePlayPage />} />
 
-          {/* Fighting games — Dustloop data */}
-          {['ggst', 'bbcf', 'bbtag', 'dbfz', 'gbvsr', 'ggxrd', 'ggacr', 'dnfd', 'p4au'].map((g) => (
-            <Route key={g} path={`/${g}`} element={<FightingCharacterBrowser />} />
-          ))}
-          {['ggst', 'bbcf', 'bbtag', 'dbfz', 'gbvsr', 'ggxrd', 'ggacr', 'dnfd', 'p4au'].map((g) => (
-            <Route key={`${g}-char`} path={`/${g}/:characterId`} element={<NotationComboPlayer />} />
-          ))}
-
-          {/* Coming soon games */}
-          <Route path="/sf6/*" element={<ComingSoon />} />
-          <Route path="/tekken8/*" element={<ComingSoon />} />
-          <Route path="/mk1/*" element={<ComingSoon />} />
-          <Route path="/smash/*" element={<ComingSoon />} />
-
-          {/* Legacy routes — redirect old URLs */}
+          {/* Legacy routes */}
           <Route path="/play/:championId/:comboId" element={<LeaguePlayPage />} />
 
           {/* Editor */}
           <Route path="/editor" element={<ComboEditor />} />
+
+          {/* Coming soon games */}
+          <Route path="/sf6" element={<ComingSoon />} />
+          <Route path="/tekken8" element={<ComingSoon />} />
+          <Route path="/mk1" element={<ComingSoon />} />
+          <Route path="/smash" element={<ComingSoon />} />
+
+          {/* Fighting games — catch-all for Dustloop games (must be last) */}
+          <Route path="/:gameId" element={<FightingCharacterBrowser />} />
+          <Route path="/:gameId/:characterId" element={<NotationComboPlayer />} />
         </Route>
       </Routes>
     </BrowserRouter>
