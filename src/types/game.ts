@@ -136,8 +136,10 @@ export const GAMES: Game[] = [
     shortName: 'T8',
     image: '/images/games/tekken8.jpg',
     color: '#FF6B00',
-    description: 'Coming soon — string combos with frame timing',
-    status: 'coming-soon',
+    description: '34 characters, 102 combos from Wavu Wiki',
+    status: 'live',
+    characterCount: 34,
+    comboCount: 102,
   },
   {
     id: 'mk1',
